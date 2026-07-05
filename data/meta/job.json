@@ -1,0 +1,628 @@
+{
+  "book": "Job",
+  "slug": "job",
+  "narrator": "chronicler",
+  "plates": "wisdom",
+  "chapters": [
+    {
+      "c": 1,
+      "title": "Job's Prosperity and First Test",
+      "synopsis": "Job is described as a perfect and upright man, blessed with great family and wealth. In the heavenly council Satan challenges the sincerity of Job's faith, and with the Lord's permission strikes his flocks and children, yet Job worships and does not sin.",
+      "years": "about 1900 BC",
+      "yearNum": -1900,
+      "approx": true,
+      "place": null,
+      "themes": ["faith", "endurance", "judgment"],
+      "characters": ["job", "satan", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 5, "speaker": "chronicler", "to": "reader", "note": "Job's character, family, and prosperity described" },
+        { "s": 6, "e": 12, "speaker": "satan", "to": "the-lord", "note": "Satan challenges Job's integrity before the Lord" },
+        { "s": 13, "e": 19, "speaker": "chronicler", "to": "reader", "note": "Messengers report Job's flocks and children destroyed" },
+        { "s": 20, "e": 22, "speaker": "job", "to": "the-lord", "note": "Job worships: the Lord gave and hath taken away" }
+      ]
+    },
+    {
+      "c": 2,
+      "title": "Satan Afflicts Job's Body",
+      "synopsis": "Satan again appears before the Lord and is given power over Job's flesh, striking him with painful boils from head to foot. Job's wife urges him to curse God and die, but he refuses, and his three friends arrive to mourn with him.",
+      "years": "about 1900 BC",
+      "yearNum": -1900,
+      "approx": true,
+      "place": null,
+      "themes": ["faith", "endurance"],
+      "characters": ["job", "satan", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 6, "speaker": "satan", "to": "the-lord", "note": "Satan is given power over Job's body" },
+        { "s": 7, "e": 8, "speaker": "chronicler", "to": "reader", "note": "Job is smitten with painful boils" },
+        { "s": 9, "e": 10, "speaker": "chronicler", "to": "reader", "note": "Job's wife urges him to curse God and die" },
+        { "s": 11, "e": 13, "speaker": "chronicler", "to": "reader", "note": "Three friends come to mourn with Job" }
+      ]
+    },
+    {
+      "c": 3,
+      "title": "Job Curses His Birth Day",
+      "synopsis": "Breaking his silence, Job curses the day he was born and wishes he had died at birth rather than face such suffering. He longs for the quiet rest of death, where the weary find peace.",
+      "years": "about 1900 BC",
+      "yearNum": -1900,
+      "approx": true,
+      "place": null,
+      "themes": ["endurance", "agency"],
+      "characters": ["job"],
+      "segments": [
+        { "s": 1, "e": 10, "speaker": "job", "to": "reader", "note": "Job curses the day of his birth" },
+        { "s": 11, "e": 19, "speaker": "job", "to": "reader", "note": "Job asks why he did not die at birth" },
+        { "s": 20, "e": 26, "speaker": "job", "to": "reader", "note": "Job longs for the rest of death" }
+      ]
+    },
+    {
+      "c": 4,
+      "title": "Eliphaz's Gentle First Rebuke",
+      "synopsis": "Eliphaz gently chides Job for losing patience under his own trial after having strengthened so many others. He recounts a night vision teaching that no mortal can be more just or pure than God.",
+      "years": "about 1900 BC",
+      "yearNum": -1900,
+      "approx": true,
+      "place": null,
+      "themes": ["wisdom", "judgment"],
+      "characters": ["job"],
+      "segments": [
+        { "s": 1, "e": 11, "speaker": "chronicler", "to": "job", "note": "Eliphaz gently rebukes Job's despair" },
+        { "s": 12, "e": 21, "speaker": "chronicler", "to": "job", "note": "Eliphaz recounts a night vision of God's holiness" }
+      ]
+    },
+    {
+      "c": 5,
+      "title": "Eliphaz Urges Job to Seek God",
+      "synopsis": "Eliphaz continues that affliction springs from man's own doing, not from chance, and that the fool's anger destroys him. He urges Job to seek God, who wounds and also heals, and promises restoration to the one He corrects.",
+      "years": "about 1900 BC",
+      "yearNum": -1900,
+      "approx": true,
+      "place": null,
+      "themes": ["wisdom", "judgment"],
+      "characters": ["job"],
+      "segments": [
+        { "s": 1, "e": 16, "speaker": "chronicler", "to": "job", "note": "Eliphaz says affliction springs from man's own way" },
+        { "s": 17, "e": 27, "speaker": "chronicler", "to": "job", "note": "Eliphaz urges Job to seek God's correction" }
+      ]
+    },
+    {
+      "c": 6,
+      "title": "Job's Grief Outweighs the Sea",
+      "synopsis": "Job answers that his grief and calamity are heavier than the sand of the seas, which is why his words have been rash. He rebukes his friends for failing him like a brook that dries up when needed most.",
+      "years": "about 1900 BC",
+      "yearNum": -1900,
+      "approx": true,
+      "place": null,
+      "themes": ["endurance", "faith"],
+      "characters": ["job"],
+      "segments": [
+        { "s": 1, "e": 13, "speaker": "job", "to": "reader", "note": "Job's grief outweighs the sand of the seas" },
+        { "s": 14, "e": 30, "speaker": "job", "to": "reader", "note": "Job rebukes his friends as a failing brook" }
+      ]
+    },
+    {
+      "c": 7,
+      "title": "Job Asks Why God Watches Him",
+      "synopsis": "Job laments that life is a hard service, brief and full of misery, with no hope of return once it ends. He turns and asks God directly why He watches and tests every mortal so closely.",
+      "years": "about 1900 BC",
+      "yearNum": -1900,
+      "approx": true,
+      "place": null,
+      "themes": ["endurance", "faith"],
+      "characters": ["job", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 10, "speaker": "job", "to": "reader", "note": "Job laments the brevity and misery of life" },
+        { "s": 11, "e": 21, "speaker": "job", "to": "the-lord", "note": "Job asks God why He watches him so closely" }
+      ]
+    },
+    {
+      "c": 8,
+      "title": "Bildad Defends God's Justice",
+      "synopsis": "Bildad argues that God never perverts justice, and that Job's children must have sinned to deserve their fate. He urges Job to seek God early, promising that the pure and upright are never truly forsaken.",
+      "years": "about 1900 BC",
+      "yearNum": -1900,
+      "approx": true,
+      "place": null,
+      "themes": ["justice-and-mercy", "judgment"],
+      "characters": ["job"],
+      "segments": [
+        { "s": 1, "e": 10, "speaker": "chronicler", "to": "job", "note": "Bildad the Shuhite argues God is always just" },
+        { "s": 11, "e": 22, "speaker": "chronicler", "to": "job", "note": "Bildad urges Job to seek God and be restored" }
+      ]
+    },
+    {
+      "c": 9,
+      "title": "Job Longs for a Daysman",
+      "synopsis": "Job marvels at God's incomparable power over the mountains, the sea, and the stars, admitting no mortal could contend with Him. He laments that there is no umpire to lay a hand upon them both and mediate his case.",
+      "years": "about 1900 BC",
+      "yearNum": -1900,
+      "approx": true,
+      "place": null,
+      "themes": ["faith", "judgment"],
+      "characters": ["job"],
+      "segments": [
+        { "s": 1, "e": 20, "speaker": "job", "to": "reader", "note": "Job marvels at God's incomparable might" },
+        { "s": 21, "e": 35, "speaker": "job", "to": "reader", "note": "Job wishes for a daysman between him and God" }
+      ]
+    },
+    {
+      "c": 10,
+      "title": "Job's Complaint to His Maker",
+      "synopsis": "Weary of his life, Job pours out his complaint before God, asking why He formed him so carefully in the womb only to let him suffer now. He pleads for a little ease before he goes to the darkness of death.",
+      "years": "about 1900 BC",
+      "yearNum": -1900,
+      "approx": true,
+      "place": null,
+      "themes": ["endurance", "faith"],
+      "characters": ["job", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 22, "speaker": "job", "to": "the-lord", "note": "Job pours out his complaint asking why he was made" }
+      ]
+    },
+    {
+      "c": 11,
+      "title": "Zophar Calls Job to Repent",
+      "synopsis": "Zophar rebukes Job sharply for defending himself and insists that God's wisdom is far beyond human understanding. He urges Job to put away his iniquity, promising that his life would then shine brighter than noonday.",
+      "years": "about 1900 BC",
+      "yearNum": -1900,
+      "approx": true,
+      "place": null,
+      "themes": ["repentance", "wisdom"],
+      "characters": ["job"],
+      "segments": [
+        { "s": 1, "e": 12, "speaker": "chronicler", "to": "job", "note": "Zophar the Naamathite rebukes Job's self-defense" },
+        { "s": 13, "e": 20, "speaker": "chronicler", "to": "job", "note": "Zophar promises peace if Job puts away sin" }
+      ]
+    },
+    {
+      "c": 12,
+      "title": "Job Mocks His Friends' Wisdom",
+      "synopsis": "Job answers sarcastically that wisdom will not die with his friends, for even he understands as much as they do. He turns to describe God's sovereign power over nature, kings, nations, and counselors.",
+      "years": "about 1900 BC",
+      "yearNum": -1900,
+      "approx": true,
+      "place": null,
+      "themes": ["wisdom", "endurance"],
+      "characters": ["job"],
+      "segments": [
+        { "s": 1, "e": 12, "speaker": "job", "to": "reader", "note": "Job mocks his friends' claim to wisdom" },
+        { "s": 13, "e": 25, "speaker": "job", "to": "reader", "note": "Job recounts God's sovereign power over all things" }
+      ]
+    },
+    {
+      "c": 13,
+      "title": "Job Pleads His Case Before God",
+      "synopsis": "Job accuses his friends of forging lies to defend God and declares he would rather reason his case directly before the Almighty. He begs God to withdraw His terror and reveal to him what sins he has committed.",
+      "years": "about 1900 BC",
+      "yearNum": -1900,
+      "approx": true,
+      "place": null,
+      "themes": ["faith", "judgment"],
+      "characters": ["job", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 12, "speaker": "job", "to": "reader", "note": "Job accuses his friends of speaking falsely for God" },
+        { "s": 13, "e": 28, "speaker": "job", "to": "the-lord", "note": "Job asks God to show him his transgressions" }
+      ]
+    },
+    {
+      "c": 14,
+      "title": "Job Reflects on Man's Brief Life",
+      "synopsis": "Job reflects that man born of woman is of few days and full of trouble, cut down like a flower. He wonders aloud whether a man, once dead, might somehow live again, and half hopes for such a renewal.",
+      "years": "about 1900 BC",
+      "yearNum": -1900,
+      "approx": true,
+      "place": null,
+      "themes": ["endurance", "hope"],
+      "characters": ["job"],
+      "segments": [
+        { "s": 1, "e": 22, "speaker": "job", "to": "reader", "note": "Job reflects on man's brief life and the hope of renewal" }
+      ]
+    },
+    {
+      "c": 15,
+      "title": "Eliphaz Warns of the Wicked's Fate",
+      "synopsis": "Eliphaz accuses Job of undermining reverence for God with vain and windy words. He then describes at length the terror, darkness, and ruin that overtake the wicked man.",
+      "years": "about 1900 BC",
+      "yearNum": -1900,
+      "approx": true,
+      "place": null,
+      "themes": ["judgment", "wisdom"],
+      "characters": ["job"],
+      "segments": [
+        { "s": 1, "e": 16, "speaker": "chronicler", "to": "job", "note": "Eliphaz accuses Job of undermining reverence for God" },
+        { "s": 17, "e": 35, "speaker": "chronicler", "to": "job", "note": "Eliphaz describes the wicked man's terrible fate" }
+      ]
+    },
+    {
+      "c": 16,
+      "title": "Miserable Comforters and a Heavenly Witness",
+      "synopsis": "Job calls his friends miserable comforters who add to his sorrow instead of easing it, and describes how God's hand seems set against him. Yet he appeals to a witness in heaven who can vouch for his innocence.",
+      "years": "about 1900 BC",
+      "yearNum": -1900,
+      "approx": true,
+      "place": null,
+      "themes": ["endurance", "faith"],
+      "characters": ["job", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 14, "speaker": "job", "to": "reader", "note": "Job calls his friends miserable comforters" },
+        { "s": 15, "e": 22, "speaker": "job", "to": "the-lord", "note": "Job appeals to a witness for him in heaven" }
+      ]
+    },
+    {
+      "c": 17,
+      "title": "Job's Hope Turns to Dust",
+      "synopsis": "Job feels mocked on every side and his spirit broken, his days extinguished like a fading lamp. He tells his friends that if he has any hope left, it lies only in the grave.",
+      "years": "about 1900 BC",
+      "yearNum": -1900,
+      "approx": true,
+      "place": null,
+      "themes": ["endurance", "hope"],
+      "characters": ["job"],
+      "segments": [
+        { "s": 1, "e": 16, "speaker": "job", "to": "reader", "note": "Job feels near death and mocked by all" }
+      ]
+    },
+    {
+      "c": 18,
+      "title": "Bildad Describes the Wicked's Doom",
+      "synopsis": "Offended that Job counts his friends as beasts, Bildad describes at length the snares, terrors, and desolation that await the wicked man. His light is put out, and his memory perishes from the earth.",
+      "years": "about 1900 BC",
+      "yearNum": -1900,
+      "approx": true,
+      "place": null,
+      "themes": ["judgment"],
+      "characters": ["job"],
+      "segments": [
+        { "s": 1, "e": 21, "speaker": "chronicler", "to": "job", "note": "Bildad describes the doom of the wicked" }
+      ]
+    },
+    {
+      "c": 19,
+      "title": "I Know My Redeemer Liveth",
+      "synopsis": "Job pleads with his friends to have pity on him, for God's hand alone has wrought his misery and left him abandoned by all he loves. Yet in the depth of his suffering he declares his certain faith that his redeemer liveth and will stand at the latter day upon the earth.",
+      "years": "about 1900 BC",
+      "yearNum": -1900,
+      "approx": true,
+      "place": null,
+      "themes": ["faith", "hope", "resurrection"],
+      "characters": ["job"],
+      "segments": [
+        { "s": 1, "e": 22, "speaker": "job", "to": "reader", "note": "Job pleads with his friends for pity" },
+        { "s": 23, "e": 29, "speaker": "job", "to": "reader", "note": "Job declares, I know that my redeemer liveth" }
+      ]
+    },
+    {
+      "c": 20,
+      "title": "Zophar on the Wicked's Brief Joy",
+      "synopsis": "Zophar answers that the triumphing of the wicked is short and their joy but for a moment. He describes how the riches such men swallow will be vomited up again and how the wrath of God overtakes them.",
+      "years": "about 1900 BC",
+      "yearNum": -1900,
+      "approx": true,
+      "place": null,
+      "themes": ["judgment"],
+      "characters": ["job"],
+      "segments": [
+        { "s": 1, "e": 29, "speaker": "chronicler", "to": "job", "note": "Zophar describes the wicked's brief triumph and fall" }
+      ]
+    },
+    {
+      "c": 21,
+      "title": "Job Observes the Wicked Prosper",
+      "synopsis": "Job challenges his friends' tidy theology by observing that the wicked often live long, grow mighty, and die in peace and honor. He asks why, if God truly punishes sin at once, such men so often prosper unpunished.",
+      "years": "about 1900 BC",
+      "yearNum": -1900,
+      "approx": true,
+      "place": null,
+      "themes": ["justice-and-mercy", "judgment"],
+      "characters": ["job"],
+      "segments": [
+        { "s": 1, "e": 16, "speaker": "job", "to": "reader", "note": "Job observes that the wicked often prosper" },
+        { "s": 17, "e": 34, "speaker": "job", "to": "reader", "note": "Job challenges his friends' simple theology" }
+      ]
+    },
+    {
+      "c": 22,
+      "title": "Eliphaz Accuses Job of Sin",
+      "synopsis": "Eliphaz now accuses Job directly of specific sins, such as withholding bread from the hungry and oppressing the fatherless. He urges Job to acquaint himself with God and be at peace, promising that light will then shine upon his ways.",
+      "years": "about 1900 BC",
+      "yearNum": -1900,
+      "approx": true,
+      "place": null,
+      "themes": ["judgment", "repentance"],
+      "characters": ["job"],
+      "segments": [
+        { "s": 1, "e": 20, "speaker": "chronicler", "to": "job", "note": "Eliphaz accuses Job of specific hidden sins" },
+        { "s": 21, "e": 30, "speaker": "chronicler", "to": "job", "note": "Eliphaz urges Job to acquaint himself with God" }
+      ]
+    },
+    {
+      "c": 23,
+      "title": "Job Longs to Find God",
+      "synopsis": "Job longs to come before God's seat and lay his case in order, confident he could reason with Him. Though he cannot find God in any direction he searches, he trusts that when God has tried him, he will come forth as gold.",
+      "years": "about 1900 BC",
+      "yearNum": -1900,
+      "approx": true,
+      "place": null,
+      "themes": ["faith", "justice-and-mercy"],
+      "characters": ["job", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 17, "speaker": "job", "to": "the-lord", "note": "Job longs to find God and plead his case" }
+      ]
+    },
+    {
+      "c": 24,
+      "title": "Job Describes the Oppressed and Wicked",
+      "synopsis": "Job describes the plight of the poor, fatherless, and oppressed who suffer at the hands of the wicked while God seems to delay judgment. He wonders openly why the Almighty does not set clear times of reckoning.",
+      "years": "about 1900 BC",
+      "yearNum": -1900,
+      "approx": true,
+      "place": null,
+      "themes": ["justice-and-mercy", "judgment"],
+      "characters": ["job"],
+      "segments": [
+        { "s": 1, "e": 25, "speaker": "job", "to": "reader", "note": "Job describes the oppressed and the wicked's impunity" }
+      ]
+    },
+    {
+      "c": 25,
+      "title": "Bildad: No Man Is Pure",
+      "synopsis": "In a brief final word, Bildad affirms that dominion and fear belong to God, whose armies are without number. He asks how a man born of woman could ever be pure, since even the stars are not clean in God's sight.",
+      "years": "about 1900 BC",
+      "yearNum": -1900,
+      "approx": true,
+      "place": null,
+      "themes": ["judgment", "humility"],
+      "characters": ["job"],
+      "segments": [
+        { "s": 1, "e": 6, "speaker": "chronicler", "to": "job", "note": "Bildad briefly affirms no man is pure before God" }
+      ]
+    },
+    {
+      "c": 26,
+      "title": "Job Extols God's Majestic Power",
+      "synopsis": "Job answers Bildad with biting sarcasm, asking how such counsel has truly helped one so weak. He then extols God's majestic power, who stretches out the north over empty space and hangs the earth upon nothing.",
+      "years": "about 1900 BC",
+      "yearNum": -1900,
+      "approx": true,
+      "place": null,
+      "themes": ["worship", "wisdom"],
+      "characters": ["job"],
+      "segments": [
+        { "s": 1, "e": 4, "speaker": "job", "to": "reader", "note": "Job answers Bildad's speech with sarcasm" },
+        { "s": 5, "e": 14, "speaker": "job", "to": "reader", "note": "Job extols God's majestic power over creation" }
+      ]
+    },
+    {
+      "c": 27,
+      "title": "Job Vows to Keep His Integrity",
+      "synopsis": "Job solemnly swears that as long as breath remains in him, his lips will not speak wickedness and he will not let go his integrity. He then describes the miserable portion appointed to the wicked man, as his friends have claimed.",
+      "years": "about 1900 BC",
+      "yearNum": -1900,
+      "approx": true,
+      "place": null,
+      "themes": ["faith", "judgment"],
+      "characters": ["job"],
+      "segments": [
+        { "s": 1, "e": 12, "speaker": "job", "to": "reader", "note": "Job vows to maintain his integrity till death" },
+        { "s": 13, "e": 23, "speaker": "job", "to": "reader", "note": "Job describes the portion of the wicked man" }
+      ]
+    },
+    {
+      "c": 28,
+      "title": "Where Shall Wisdom Be Found",
+      "synopsis": "Job muses that men can mine silver, gold, and precious stones from the earth, yet true wisdom cannot be found in the land of the living or bought at any price. Only God knows its place, for the fear of the Lord, that is wisdom.",
+      "years": "about 1900 BC",
+      "yearNum": -1900,
+      "approx": true,
+      "place": null,
+      "themes": ["wisdom"],
+      "characters": ["job"],
+      "segments": [
+        { "s": 1, "e": 22, "speaker": "job", "to": "reader", "note": "Job muses that wisdom is harder to find than gems" },
+        { "s": 23, "e": 28, "speaker": "job", "to": "reader", "note": "Only God knows wisdom's place: fear of the Lord is wisdom" }
+      ]
+    },
+    {
+      "c": 29,
+      "title": "Job Recalls His Honored Days",
+      "synopsis": "Job recalls the days when God's candle shone upon his head and he was honored as a father to the poor and a champion of the fatherless. He remembers being heeded by princes and elders alike as one whose words brought comfort.",
+      "years": "about 1900 BC",
+      "yearNum": -1900,
+      "approx": true,
+      "place": null,
+      "themes": ["leadership", "humility"],
+      "characters": ["job"],
+      "segments": [
+        { "s": 1, "e": 25, "speaker": "job", "to": "reader", "note": "Job recalls his former days of honor and prosperity" }
+      ]
+    },
+    {
+      "c": 30,
+      "title": "Job's Present Disgrace and Pain",
+      "synopsis": "Job contrasts his former honor with his present disgrace, now mocked even by the outcasts of society. His body is racked with pain night and day, and he cries out to God without receiving any answer.",
+      "years": "about 1900 BC",
+      "yearNum": -1900,
+      "approx": true,
+      "place": null,
+      "themes": ["endurance", "humility"],
+      "characters": ["job"],
+      "segments": [
+        { "s": 1, "e": 31, "speaker": "job", "to": "reader", "note": "Job describes his present affliction and disgrace" }
+      ]
+    },
+    {
+      "c": 31,
+      "title": "Job's Oath of Innocence",
+      "synopsis": "Job swears a solemn oath that he has kept himself from lust, falsehood, deceit, and oppression of the poor. Point by point he invites judgment upon himself if any of these charges could be proven true, closing his defense.",
+      "years": "about 1900 BC",
+      "yearNum": -1900,
+      "approx": true,
+      "place": null,
+      "themes": ["obedience", "judgment"],
+      "characters": ["job"],
+      "segments": [
+        { "s": 1, "e": 23, "speaker": "job", "to": "reader", "note": "Job swears he has kept from lust, falsehood, and deceit" },
+        { "s": 24, "e": 40, "speaker": "job", "to": "reader", "note": "Job's closing oath of innocence ends his defense" }
+      ]
+    },
+    {
+      "c": 32,
+      "title": "Elihu Rises in Anger",
+      "synopsis": "The three friends fall silent since Job will not yield, and a younger man named Elihu grows angry, both at Job for justifying himself and at the friends for failing to answer him. He explains why, though young, he feels compelled to speak.",
+      "years": "about 1900 BC",
+      "yearNum": -1900,
+      "approx": true,
+      "place": null,
+      "themes": ["wisdom", "humility"],
+      "characters": ["job"],
+      "segments": [
+        { "s": 1, "e": 5, "speaker": "chronicler", "to": "reader", "note": "Elihu the younger grows angry at all four men" },
+        { "s": 6, "e": 22, "speaker": "chronicler", "to": "job", "note": "Elihu explains why he must now speak" }
+      ]
+    },
+    {
+      "c": 33,
+      "title": "Elihu Speaks of God's Ransom",
+      "synopsis": "Elihu tells Job that God speaks to men through dreams, visions, and the chastening of pain to turn them from pride. He describes how, if a messenger is found, God may grant a ransom and deliver the man from the pit.",
+      "years": "about 1900 BC",
+      "yearNum": -1900,
+      "approx": true,
+      "place": null,
+      "themes": ["revelation", "wisdom"],
+      "characters": ["job"],
+      "segments": [
+        { "s": 1, "e": 33, "speaker": "chronicler", "to": "job", "note": "Elihu says God speaks through dreams, pain, and a ransom" }
+      ]
+    },
+    {
+      "c": 34,
+      "title": "Elihu Defends God's Justice",
+      "synopsis": "Elihu argues before Job and his friends that it is impossible for God, the Almighty, to do wickedness or pervert judgment. He insists that God renders to every man according to his ways, whether prince or pauper.",
+      "years": "about 1900 BC",
+      "yearNum": -1900,
+      "approx": true,
+      "place": null,
+      "themes": ["judgment", "wisdom"],
+      "characters": ["job"],
+      "segments": [
+        { "s": 1, "e": 37, "speaker": "chronicler", "to": "job", "note": "Elihu defends the absolute justice of God" }
+      ]
+    },
+    {
+      "c": 35,
+      "title": "Elihu on Man and God",
+      "synopsis": "Elihu asks Job what profit his righteousness brings to God, since man's sin or virtue affects his fellow man far more than the Almighty. He suggests that Job's cries have gone unanswered partly because they arose from pride rather than humble trust.",
+      "years": "about 1900 BC",
+      "yearNum": -1900,
+      "approx": true,
+      "place": null,
+      "themes": ["wisdom", "agency"],
+      "characters": ["job"],
+      "segments": [
+        { "s": 1, "e": 16, "speaker": "chronicler", "to": "job", "note": "Elihu argues man's conduct does not diminish God" }
+      ]
+    },
+    {
+      "c": 36,
+      "title": "Elihu on Affliction's Purpose",
+      "synopsis": "Elihu teaches that God uses affliction to open men's ears to instruction and turn them from iniquity. He then marvels at God's greatness displayed in the gathering of waters and the power of the thunderstorm.",
+      "years": "about 1900 BC",
+      "yearNum": -1900,
+      "approx": true,
+      "place": null,
+      "themes": ["wisdom", "worship"],
+      "characters": ["job"],
+      "segments": [
+        { "s": 1, "e": 21, "speaker": "chronicler", "to": "job", "note": "Elihu says God teaches through affliction" },
+        { "s": 22, "e": 33, "speaker": "chronicler", "to": "job", "note": "Elihu marvels at God's power in the storm" }
+      ]
+    },
+    {
+      "c": 37,
+      "title": "Elihu Marvels at the Storm",
+      "synopsis": "Elihu continues describing the wonders of thunder, lightning, snow, and wind, all obeying God's command across the earth. He concludes that men cannot fully order their speech before such glory, and that God is excellent in power and justice.",
+      "years": "about 1900 BC",
+      "yearNum": -1900,
+      "approx": true,
+      "place": null,
+      "themes": ["worship", "wisdom"],
+      "characters": ["job"],
+      "segments": [
+        { "s": 1, "e": 24, "speaker": "chronicler", "to": "job", "note": "Elihu describes God's wonders in the storm and sky" }
+      ]
+    },
+    {
+      "c": 38,
+      "title": "The Lord Answers from the Whirlwind",
+      "synopsis": "The Lord answers Job out of a whirlwind, demanding to know where Job was when the foundations of the earth were laid. Question after question about the sea, the stars, the snow, and the light overwhelms Job's understanding of creation's mysteries.",
+      "years": "about 1900 BC",
+      "yearNum": -1900,
+      "approx": true,
+      "place": null,
+      "themes": ["creation", "revelation", "humility"],
+      "characters": ["job", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 41, "speaker": "the-lord", "to": "job", "note": "The Lord questions Job out of the whirlwind" }
+      ]
+    },
+    {
+      "c": 39,
+      "title": "The Lord Questions Job on Creatures",
+      "synopsis": "The Lord continues, describing His care for the wild goat, the untamed wild ass, the ostrich, the war horse, and the soaring eagle. Each creature displays a wisdom and freedom that Job could never have given them himself.",
+      "years": "about 1900 BC",
+      "yearNum": -1900,
+      "approx": true,
+      "place": null,
+      "themes": ["creation", "wisdom"],
+      "characters": ["job", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 30, "speaker": "the-lord", "to": "job", "note": "The Lord describes His care for the wild creatures" }
+      ]
+    },
+    {
+      "c": 40,
+      "title": "Job Humbled; Behemoth Described",
+      "synopsis": "The Lord challenges Job to answer if he still dares to contend with the Almighty, and Job humbly admits he has nothing to say. The Lord then describes the great beast behemoth, whose strength is beyond any man's control.",
+      "years": "about 1900 BC",
+      "yearNum": -1900,
+      "approx": true,
+      "place": null,
+      "themes": ["humility", "creation"],
+      "characters": ["job", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 2, "speaker": "the-lord", "to": "job", "note": "The Lord challenges Job to answer Him" },
+        { "s": 3, "e": 5, "speaker": "job", "to": "the-lord", "note": "Job humbly admits he has no answer" },
+        { "s": 6, "e": 24, "speaker": "the-lord", "to": "job", "note": "The Lord describes the great beast behemoth" }
+      ]
+    },
+    {
+      "c": 41,
+      "title": "The Lord Describes Leviathan",
+      "synopsis": "The Lord describes leviathan, a fearsome sea creature that no man can capture, tame, or make a servant. Its scales, breath, and strength picture a power that belongs to God alone to master.",
+      "years": "about 1900 BC",
+      "yearNum": -1900,
+      "approx": true,
+      "place": null,
+      "themes": ["creation", "wisdom"],
+      "characters": ["job", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 34, "speaker": "the-lord", "to": "job", "note": "The Lord describes the mighty leviathan" }
+      ]
+    },
+    {
+      "c": 42,
+      "title": "Job Repents and Is Restored",
+      "synopsis": "Job repents in dust and ashes, confessing that he had spoken of things too wonderful for him to understand. The Lord rebukes Job's three friends and accepts Job's prayer on their behalf, then restores Job's fortunes twofold, giving him a new family and long life.",
+      "years": "about 1900 BC",
+      "yearNum": -1900,
+      "approx": true,
+      "place": null,
+      "themes": ["repentance", "faith", "deliverance"],
+      "characters": ["job", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 6, "speaker": "job", "to": "the-lord", "note": "Job repents in dust and ashes" },
+        { "s": 7, "e": 9, "speaker": "chronicler", "to": "reader", "note": "The Lord rebukes the friends and accepts Job's prayer" },
+        { "s": 10, "e": 17, "speaker": "chronicler", "to": "reader", "note": "The Lord restores Job's fortunes twofold" }
+      ]
+    }
+  ]
+}
