@@ -78,6 +78,18 @@ USA (restoration) map: `sharon-vt`, `palmyra` (incl. Sacred Grove & Hill Cumorah
 `discipleship`, `grace`, `mission`, `second-coming`, `restoration`, `zion`, `temple`, `word-of-wisdom`,
 `consecration`, `agency`, `martyrdom`. All existing themes remain usable.
 
+## Cultural sensitivity for portraits
+
+Book of Mormon Lamanite characters (e.g. lamoni, lamoni-father, abish, anti-nephi-lehi,
+samuel-lamanite, and the `lamanites`/`people-of-ammon` groups) must NOT be drawn with a heavy
+Native American motif. Avoid the stereotype cluster: do not combine strongly reddish skin +
+long straight jet-black hair + "sun" emblems; no feathers, headbands-as-warpaint, or other
+appropriative signals. Use the same warm-neutral skin band as everyone else (light #d3a276 …
+deep #a97a4e), ordinary hair styles, and emblems tied to each person's story (faith, conversion,
+service) rather than ethnic shorthand. Distinguish Lamanite figures the same way as all others —
+by individual face, age, and story — not by racial coding. Apply the same warm-neutral,
+region-aware but non-stereotyping approach to every group.
+
 ## Portrait parameters (for cast files)
 
 Each character entry: `{ id, name, title, era, bio (1–2 sentences), relations: [{to, rel}], groups: [tags],
