@@ -1,0 +1,351 @@
+{
+  "book": "2 Samuel",
+  "slug": "2-samuel",
+  "narrator": "chronicler",
+  "plates": "history",
+  "chapters": [
+    {
+      "c": 1,
+      "title": "How Are the Mighty Fallen",
+      "synopsis": "An Amalekite brings word of Saul's death to David and claims to have slain him, and David has him executed for lifting his hand against the Lord's anointed. David then pours out his grief in a lament over Saul and Jonathan, mourning the fallen glory of Israel.",
+      "years": "about 1010 BC",
+      "yearNum": -1010,
+      "approx": true,
+      "place": null,
+      "themes": ["kingship", "covenant", "family"],
+      "characters": ["david", "saul", "jonathan"],
+      "segments": [
+        { "s": 1, "e": 16, "speaker": "chronicler", "to": "reader", "note": "News of Saul's death reaches David" },
+        { "s": 17, "e": 27, "speaker": "david", "to": "israelites", "note": "David's lament for Saul and Jonathan" }
+      ]
+    },
+    {
+      "c": 2,
+      "title": "David Anointed King in Hebron",
+      "synopsis": "David inquires of the Lord and goes up to Hebron, where the men of Judah anoint him king. Abner sets up Saul's son Ish-bosheth over the rest of Israel, and a bitter skirmish at Gibeon opens a long war between the two houses.",
+      "years": "about 1008 BC",
+      "yearNum": -1008,
+      "approx": true,
+      "place": "hebron",
+      "themes": ["kingship", "war"],
+      "characters": ["david"],
+      "segments": [
+        { "s": 1, "e": 32, "speaker": "chronicler", "to": "reader", "note": "Two kingdoms; battle at the pool of Gibeon" }
+      ]
+    },
+    {
+      "c": 3,
+      "title": "Abner Defects and Is Slain",
+      "synopsis": "As David's house grows stronger, Abner breaks with Ish-bosheth and covenants to bring all Israel to David. Joab, avenging his brother, murders Abner at the gate of Hebron, and David publicly mourns to show the kingdom that the deed was not his.",
+      "years": "about 1005 BC",
+      "yearNum": -1005,
+      "approx": true,
+      "place": "hebron",
+      "themes": ["kingship", "justice-and-mercy"],
+      "characters": ["david"],
+      "segments": [
+        { "s": 1, "e": 39, "speaker": "chronicler", "to": "reader", "note": "Abner's covenant with David; Joab's revenge" }
+      ]
+    },
+    {
+      "c": 4,
+      "title": "The Murder of Ish-bosheth",
+      "synopsis": "Two of Ish-bosheth's own captains kill him as he sleeps and carry his head to David, expecting a reward. David condemns them for slaying a righteous man in his own house and has them executed, refusing to build his throne on blood.",
+      "years": "about 1003 BC",
+      "yearNum": -1003,
+      "approx": true,
+      "place": "hebron",
+      "themes": ["justice-and-mercy", "kingship"],
+      "characters": ["david"],
+      "segments": [
+        { "s": 1, "e": 12, "speaker": "chronicler", "to": "reader", "note": "David punishes the murderers of Ish-bosheth" }
+      ]
+    },
+    {
+      "c": 5,
+      "title": "King Over All Israel",
+      "synopsis": "The tribes of Israel gather to Hebron and anoint David king over the whole nation. He captures the stronghold of Zion and makes Jerusalem his city, and twice defeats the Philistines by inquiring of the Lord before battle.",
+      "years": "about 1003 BC",
+      "yearNum": -1003,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["kingship", "deliverance", "revelation"],
+      "characters": ["david"],
+      "segments": [
+        { "s": 1, "e": 25, "speaker": "chronicler", "to": "reader", "note": "David takes Zion; Philistines defeated" }
+      ]
+    },
+    {
+      "c": 6,
+      "title": "The Ark Comes to Zion",
+      "synopsis": "David brings the ark of God toward Jerusalem, but Uzzah dies when he touches it, and the ark rests three months in the house of Obed-edom. When it finally enters the city, David dances before the Lord with all his might, and Michal despises him for it.",
+      "years": "about 1000 BC",
+      "yearNum": -1000,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["worship", "obedience", "covenant"],
+      "characters": ["david"],
+      "segments": [
+        { "s": 1, "e": 23, "speaker": "chronicler", "to": "reader", "note": "Uzzah smitten; David dances before the ark" }
+      ]
+    },
+    {
+      "c": 7,
+      "title": "The Lord's Covenant With David",
+      "synopsis": "David desires to build a house for the Lord, but through Nathan the Lord promises instead to build David a house, an enduring dynasty whose throne will be established forever. Overwhelmed, David sits before the Lord and offers a prayer of humble gratitude for the covenant.",
+      "years": "about 1000 BC",
+      "yearNum": -1000,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["covenant", "kingship", "temple", "prophecy"],
+      "characters": ["david", "nathan"],
+      "segments": [
+        { "s": 1, "e": 3, "speaker": "chronicler", "to": "reader", "note": "David proposes a house for the Lord" },
+        { "s": 4, "e": 17, "speaker": "nathan", "to": "david", "note": "The Lord's covenant of an everlasting house" },
+        { "s": 18, "e": 29, "speaker": "david", "to": "the-lord", "note": "David's prayer of thanksgiving" }
+      ]
+    },
+    {
+      "c": 8,
+      "title": "David Subdues the Nations",
+      "synopsis": "David defeats the Philistines, Moab, Zobah, Syria, and Edom, dedicating the spoils of war to the Lord. The Lord preserves him wherever he goes, and he reigns over all Israel, executing judgment and justice for his people.",
+      "years": "about 995 BC",
+      "yearNum": -995,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["war", "kingship", "justice-and-mercy"],
+      "characters": ["david"],
+      "segments": [
+        { "s": 1, "e": 18, "speaker": "chronicler", "to": "reader", "note": "David's victories and just reign" }
+      ]
+    },
+    {
+      "c": 9,
+      "title": "Kindness for Jonathan's Sake",
+      "synopsis": "David asks whether anyone of Saul's house remains so that he may show kindness for Jonathan's sake. He restores all of Saul's lands to Jonathan's lame son Mephibosheth and gives him a permanent place at the king's own table.",
+      "years": "about 995 BC",
+      "yearNum": -995,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["charity", "covenant", "family"],
+      "characters": ["david", "jonathan"],
+      "segments": [
+        { "s": 1, "e": 13, "speaker": "chronicler", "to": "reader", "note": "Mephibosheth eats at the king's table" }
+      ]
+    },
+    {
+      "c": 10,
+      "title": "War With Ammon and Syria",
+      "synopsis": "The new king of Ammon humiliates David's messengers of goodwill, shaving them and cutting their garments. Ammon hires Syrian armies against Israel, but Joab and Abishai rout them, and David breaks Syria's power so that they fear to help Ammon again.",
+      "years": "about 993 BC",
+      "yearNum": -993,
+      "approx": true,
+      "place": null,
+      "themes": ["war", "kingship"],
+      "characters": ["david"],
+      "segments": [
+        { "s": 1, "e": 19, "speaker": "chronicler", "to": "reader", "note": "David's messengers shamed; Syria defeated" }
+      ]
+    },
+    {
+      "c": 11,
+      "title": "David and Bath-sheba",
+      "synopsis": "While his army besieges Rabbah, David remains in Jerusalem, sees Bath-sheba washing, and takes her, and she conceives. Failing to cover the sin, he arranges for her husband Uriah to die in battle and marries her, but the thing he has done displeases the Lord.",
+      "years": "about 990 BC",
+      "yearNum": -990,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["agency", "judgment", "apostasy"],
+      "characters": ["david"],
+      "segments": [
+        { "s": 1, "e": 27, "speaker": "chronicler", "to": "reader", "note": "David's sin with Bath-sheba; Uriah's death" }
+      ]
+    },
+    {
+      "c": 12,
+      "title": "Thou Art the Man",
+      "synopsis": "Nathan tells David a parable of a rich man who steals a poor man's one ewe lamb, and when David's anger flares, the prophet declares, thou art the man. David confesses his sin, the child of the adultery dies despite his fasting, and Solomon is born and loved of the Lord.",
+      "years": "about 990 BC",
+      "yearNum": -990,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["repentance", "justice-and-mercy", "judgment"],
+      "characters": ["nathan", "david", "solomon"],
+      "segments": [
+        { "s": 1, "e": 14, "speaker": "nathan", "to": "david", "note": "The parable of the ewe lamb" },
+        { "s": 15, "e": 31, "speaker": "chronicler", "to": "reader", "note": "The child dies; Solomon is born" }
+      ]
+    },
+    {
+      "c": 13,
+      "title": "Amnon, Tamar, and Absalom",
+      "synopsis": "David's son Amnon forces his half-sister Tamar and then despises her, and David, though angry, does nothing. After two years Absalom avenges his sister by having Amnon killed at a feast, then flees to Geshur, and David mourns for his sons.",
+      "years": "about 987 BC",
+      "yearNum": -987,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["family", "judgment"],
+      "characters": ["david"],
+      "segments": [
+        { "s": 1, "e": 39, "speaker": "chronicler", "to": "reader", "note": "Tamar wronged; Absalom slays Amnon" }
+      ]
+    },
+    {
+      "c": 14,
+      "title": "The Wise Woman of Tekoah",
+      "synopsis": "Joab sends a wise woman of Tekoah with a feigned story to move the king to bring back his banished son. David allows Absalom to return to Jerusalem, but two full years pass before the handsome prince is admitted to see his father's face.",
+      "years": "about 984 BC",
+      "yearNum": -984,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["family", "justice-and-mercy"],
+      "characters": ["david"],
+      "segments": [
+        { "s": 1, "e": 33, "speaker": "chronicler", "to": "reader", "note": "A parable of banishment; Absalom restored" }
+      ]
+    },
+    {
+      "c": 15,
+      "title": "Absalom Steals Israel's Heart",
+      "synopsis": "Absalom sits in the gate flattering every man with a suit, stealing the hearts of the men of Israel, then raises rebellion at Hebron. David flees Jerusalem barefoot and weeping over the mount of Olives, sending the ark back and planting Hushai as his friend in Absalom's court.",
+      "years": "about 980 BC",
+      "yearNum": -980,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["pride-cycle", "kingship", "humility"],
+      "characters": ["david"],
+      "segments": [
+        { "s": 1, "e": 37, "speaker": "chronicler", "to": "reader", "note": "The conspiracy; David flees the city" }
+      ]
+    },
+    {
+      "c": 16,
+      "title": "Shimei Curses the Fleeing King",
+      "synopsis": "As David flees, Ziba slanders Mephibosheth, and Shimei of Saul's house hurls stones and curses at the king. David restrains his men, saying the Lord may have bidden it, while in Jerusalem Absalom takes his father's concubines on the advice of Ahithophel.",
+      "years": "about 980 BC",
+      "yearNum": -980,
+      "approx": true,
+      "place": null,
+      "themes": ["humility", "endurance", "judgment"],
+      "characters": ["david"],
+      "segments": [
+        { "s": 1, "e": 23, "speaker": "chronicler", "to": "reader", "note": "Shimei's curses; Ahithophel counsels Absalom" }
+      ]
+    },
+    {
+      "c": 17,
+      "title": "Hushai Defeats Ahithophel's Counsel",
+      "synopsis": "Ahithophel asks to strike David at once while he is weary, but Hushai counsels delay, and the Lord ordains that his counsel prevail to bring evil on Absalom. Word is smuggled to David, who crosses the Jordan to Mahanaim, while Ahithophel hangs himself.",
+      "years": "about 980 BC",
+      "yearNum": -980,
+      "approx": true,
+      "place": "jordan-river",
+      "themes": ["deliverance", "wisdom"],
+      "characters": ["david"],
+      "segments": [
+        { "s": 1, "e": 29, "speaker": "chronicler", "to": "reader", "note": "Counsel overthrown; David escapes over Jordan" }
+      ]
+    },
+    {
+      "c": 18,
+      "title": "O Absalom, My Son",
+      "synopsis": "David's forces defeat Absalom's army in the wood of Ephraim, where the rebel prince is caught by his hair in an oak and slain by Joab despite the king's charge to deal gently with him. When the news reaches David he goes up to the chamber over the gate weeping, O my son Absalom, would God I had died for thee.",
+      "years": "about 980 BC",
+      "yearNum": -980,
+      "approx": true,
+      "place": null,
+      "themes": ["war", "family", "judgment"],
+      "characters": ["david"],
+      "segments": [
+        { "s": 1, "e": 18, "speaker": "chronicler", "to": "reader", "note": "Battle in the wood; Absalom slain" },
+        { "s": 19, "e": 33, "speaker": "chronicler", "to": "reader", "note": "The tidings; David weeps for his son" }
+      ]
+    },
+    {
+      "c": 19,
+      "title": "David Returns to His Throne",
+      "synopsis": "Joab rouses the mourning king to encourage his people, and Judah brings David back over the Jordan. On the way David pardons Shimei, hears Mephibosheth's defense, and blesses aged Barzillai, while jealousy flares between Israel and Judah over the king's return.",
+      "years": "about 979 BC",
+      "yearNum": -979,
+      "approx": true,
+      "place": "jordan-river",
+      "themes": ["kingship", "grace", "justice-and-mercy"],
+      "characters": ["david"],
+      "segments": [
+        { "s": 1, "e": 43, "speaker": "chronicler", "to": "reader", "note": "Pardons at the Jordan; the king restored" }
+      ]
+    },
+    {
+      "c": 20,
+      "title": "Sheba's Revolt Is Crushed",
+      "synopsis": "Sheba the son of Bichri blows a trumpet and draws Israel away from David. Joab murders his rival Amasa on the pursuit, then besieges Sheba in Abel, where a wise woman persuades the city to throw down the rebel's head and spare the town.",
+      "years": "about 979 BC",
+      "yearNum": -979,
+      "approx": true,
+      "place": null,
+      "themes": ["war", "kingship", "wisdom"],
+      "characters": ["david"],
+      "segments": [
+        { "s": 1, "e": 26, "speaker": "chronicler", "to": "reader", "note": "Rebellion of Sheba; a wise woman's counsel" }
+      ]
+    },
+    {
+      "c": 21,
+      "title": "Famine, Gibeonites, and Giants",
+      "synopsis": "A three-year famine is traced to Saul's slaughter of the Gibeonites, and David makes atonement by delivering seven of Saul's descendants, while Rizpah's long vigil moves him to bury Saul's bones. The chapter closes with Israel's champions slaying four giant warriors of the Philistines.",
+      "years": "about 975 BC",
+      "yearNum": -975,
+      "approx": true,
+      "place": null,
+      "themes": ["justice-and-mercy", "war", "covenant"],
+      "characters": ["david", "saul"],
+      "segments": [
+        { "s": 1, "e": 22, "speaker": "chronicler", "to": "reader", "note": "Atonement for the Gibeonites; giant wars" }
+      ]
+    },
+    {
+      "c": 22,
+      "title": "David's Song of Deliverance",
+      "synopsis": "David sings to the Lord in the day of his deliverance from all his enemies, calling him his rock, fortress, and deliverer. The psalm recounts how God heard him in distress, thundered from heaven, and rewarded his righteousness, showing mercy to his anointed for evermore.",
+      "years": "about 970 BC",
+      "yearNum": -970,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["deliverance", "worship", "prayer"],
+      "characters": ["david"],
+      "segments": [
+        { "s": 1, "e": 1, "speaker": "chronicler", "to": "reader", "note": "David sings in the day of deliverance" },
+        { "s": 2, "e": 51, "speaker": "david", "to": "the-lord", "note": "The Lord is my rock and fortress" }
+      ]
+    },
+    {
+      "c": 23,
+      "title": "Last Words and Mighty Men",
+      "synopsis": "In his last words David testifies that the Spirit of the Lord spoke by him and that he who rules justly over men must rule in the fear of God. The chronicler then honors David's mighty men, including the three who broke through the Philistine host to draw him water from the well of Bethlehem.",
+      "years": "about 970 BC",
+      "yearNum": -970,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["kingship", "covenant", "leadership"],
+      "characters": ["david"],
+      "segments": [
+        { "s": 1, "e": 7, "speaker": "david", "to": "reader", "note": "The last words of David" },
+        { "s": 8, "e": 39, "speaker": "chronicler", "to": "reader", "note": "The roll of David's mighty men" }
+      ]
+    },
+    {
+      "c": 24,
+      "title": "The Census and the Altar",
+      "synopsis": "David numbers Israel and Judah, then his heart smites him and he confesses his sin. Choosing to fall into the hand of the Lord rather than of men, he watches a pestilence slay seventy thousand until the angel stays at Araunah's threshingfloor, where David buys the site and builds an altar, refusing to offer what costs him nothing.",
+      "years": "about 970 BC",
+      "yearNum": -970,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["repentance", "judgment", "worship"],
+      "characters": ["david", "angel"],
+      "segments": [
+        { "s": 1, "e": 25, "speaker": "chronicler", "to": "reader", "note": "Plague stayed; an altar at the threshingfloor" }
+      ]
+    }
+  ]
+}

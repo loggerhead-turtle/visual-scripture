@@ -1,0 +1,56 @@
+{
+  "book": "Nahum",
+  "slug": "nahum",
+  "narrator": "chronicler",
+  "plates": "prophets-minor",
+  "chapters": [
+    {
+      "c": 1,
+      "title": "The Lord Slow to Anger",
+      "synopsis": "Nahum's burden declares that the Lord is slow to anger and great in power, but will not at all acquit the wicked, taking vengeance on his adversaries with whirlwind and storm. Though he is a stronghold to those who trust in him, the Lord has determined the utter end of Nineveh and promises good tidings of peace to Judah.",
+      "years": "about 650 BC",
+      "yearNum": -650,
+      "approx": true,
+      "place": "nineveh",
+      "themes": ["judgment", "justice-and-mercy", "prophecy"],
+      "characters": ["the-lord"],
+      "segments": [
+        { "s": 1, "e": 6, "speaker": "chronicler", "to": "reader", "note": "Nahum's burden against Nineveh: the Lord is slow to anger" },
+        { "s": 7, "e": 8, "speaker": "chronicler", "to": "reader", "note": "The Lord a stronghold to them that trust in him" },
+        { "s": 9, "e": 15, "speaker": "chronicler", "to": "reader", "note": "Nineveh's utter end determined; good tidings of peace" }
+      ]
+    },
+    {
+      "c": 2,
+      "title": "Nineveh's Fall Foretold",
+      "synopsis": "Nahum describes the besieger coming up against Nineveh, with chariots raging in the streets and the river gates opened before the invaders. The great city empties like a broken pool as her people flee, and the Lord declares himself against the lion's den that once devoured many nations.",
+      "years": "about 650 BC",
+      "yearNum": -650,
+      "approx": true,
+      "place": "nineveh",
+      "themes": ["judgment", "war"],
+      "characters": ["the-lord"],
+      "segments": [
+        { "s": 1, "e": 5, "speaker": "chronicler", "to": "reader", "note": "The besieger comes up against Nineveh" },
+        { "s": 6, "e": 10, "speaker": "chronicler", "to": "reader", "note": "The river gates opened; Nineveh empties like a pool" },
+        { "s": 11, "e": 13, "speaker": "the-lord", "to": "reader", "note": "The lion's den destroyed; the Lord is against them" }
+      ]
+    },
+    {
+      "c": 3,
+      "title": "Woe to the Bloody City",
+      "synopsis": "The Lord pronounces woe on Nineveh, the bloody city full of lies and robbery, exposing her harlotries before all nations. Nahum reminds the city of No, which likewise fell despite its strength, and declares that Nineveh's shepherds now slumber, her people scattered upon the mountains with none to gather them, her wound incurable.",
+      "years": "about 650 BC",
+      "yearNum": -650,
+      "approx": true,
+      "place": "nineveh",
+      "themes": ["judgment", "justice-and-mercy"],
+      "characters": ["the-lord"],
+      "segments": [
+        { "s": 1, "e": 7, "speaker": "the-lord", "to": "reader", "note": "Woe to the bloody city full of lies and robbery" },
+        { "s": 8, "e": 13, "speaker": "the-lord", "to": "reader", "note": "Remember No, which also was carried captive" },
+        { "s": 14, "e": 19, "speaker": "the-lord", "to": "reader", "note": "Nineveh's shepherds slumber; the wound is incurable" }
+      ]
+    }
+  ]
+}

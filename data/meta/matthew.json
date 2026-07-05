@@ -1,0 +1,482 @@
+{
+  "book": "Matthew",
+  "slug": "matthew",
+  "narrator": "matthew",
+  "plates": "gospels",
+  "chapters": [
+    {
+      "c": 1,
+      "title": "The Genealogy and Birth of Jesus",
+      "synopsis": "Matthew traces the royal line from Abraham through David to Joseph, the husband of Mary. An angel tells Joseph in a dream that Mary's child is conceived of the Holy Ghost and is to be named Jesus, for he shall save his people from their sins.",
+      "years": "4 BC",
+      "yearNum": -4,
+      "approx": true,
+      "place": "bethlehem",
+      "themes": ["messiah", "covenant", "family"],
+      "characters": ["jesus-christ", "mary", "joseph-carpenter", "angel"],
+      "segments": [
+        { "s": 1, "e": 17, "speaker": "matthew", "to": "reader", "note": "Genealogy from Abraham to Christ" },
+        { "s": 18, "e": 19, "speaker": "matthew", "to": "reader", "note": "Mary is found with child" },
+        { "s": 20, "e": 21, "speaker": "angel", "to": "joseph-carpenter", "note": "Fear not to take Mary; name him Jesus" },
+        { "s": 22, "e": 25, "speaker": "matthew", "to": "reader", "note": "Isaiah fulfilled; Jesus is born" }
+      ]
+    },
+    {
+      "c": 2,
+      "title": "Wise Men and the Flight to Egypt",
+      "synopsis": "Wise men from the east follow a star to worship the young child, alarming King Herod. Warned of Herod's plot, Joseph carries Jesus and Mary to Egypt while Herod slays the infants of Bethlehem. After Herod dies the family returns and settles in Nazareth.",
+      "years": "4 BC",
+      "yearNum": -4,
+      "approx": true,
+      "place": "bethlehem",
+      "themes": ["prophecy", "deliverance", "messiah"],
+      "characters": ["jesus-christ", "herod", "mary", "angel", "joseph-carpenter"],
+      "segments": [
+        { "s": 1, "e": 12, "speaker": "matthew", "to": "reader", "note": "Wise men follow the star; Herod is troubled" },
+        { "s": 13, "e": 13, "speaker": "angel", "to": "joseph-carpenter", "note": "Flee into Egypt with the child" },
+        { "s": 14, "e": 18, "speaker": "matthew", "to": "reader", "note": "Flight to Egypt; Herod slays the children" },
+        { "s": 19, "e": 20, "speaker": "angel", "to": "joseph-carpenter", "note": "Return to the land of Israel" },
+        { "s": 21, "e": 23, "speaker": "matthew", "to": "reader", "note": "The family settles in Nazareth" }
+      ]
+    },
+    {
+      "c": 3,
+      "title": "John Baptizes the Messiah",
+      "synopsis": "John the Baptist preaches repentance in the wilderness of Judaea and baptizes in the Jordan. He rebukes the Pharisees and Sadducees and testifies of one mightier than he. Jesus comes from Galilee to be baptized, and the Father declares him his beloved Son.",
+      "years": "AD 30",
+      "yearNum": 30,
+      "approx": true,
+      "place": "jordan-river",
+      "themes": ["baptism", "repentance", "obedience"],
+      "characters": ["john-baptist", "jesus-christ"],
+      "segments": [
+        { "s": 1, "e": 6, "speaker": "matthew", "to": "reader", "note": "John preaches and baptizes in Jordan" },
+        { "s": 7, "e": 12, "speaker": "john-baptist", "to": "pharisees", "note": "Bring forth fruits meet for repentance" },
+        { "s": 13, "e": 13, "speaker": "matthew", "to": "reader", "note": "Jesus comes to be baptized" },
+        { "s": 14, "e": 14, "speaker": "john-baptist", "to": "jesus-christ", "note": "I have need to be baptized of thee" },
+        { "s": 15, "e": 15, "speaker": "jesus-christ", "to": "john-baptist", "note": "Suffer it to fulfil all righteousness" },
+        { "s": 16, "e": 17, "speaker": "matthew", "to": "reader", "note": "The Spirit descends; the Father speaks" }
+      ]
+    },
+    {
+      "c": 4,
+      "title": "Temptation in the Wilderness",
+      "synopsis": "After fasting forty days, Jesus is tempted three times by the devil and answers each temptation with scripture. He then begins his ministry in Galilee, settles in Capernaum, calls Peter, Andrew, James, and John from their nets, and heals the sick among the people.",
+      "years": "AD 30",
+      "yearNum": 30,
+      "approx": true,
+      "place": "capernaum",
+      "themes": ["obedience", "discipleship"],
+      "characters": ["jesus-christ", "satan", "angel", "peter", "andrew", "james", "john-beloved"],
+      "segments": [
+        { "s": 1, "e": 2, "speaker": "matthew", "to": "reader", "note": "Jesus fasts forty days in the wilderness" },
+        { "s": 3, "e": 3, "speaker": "satan", "to": "jesus-christ", "note": "Command that these stones be made bread" },
+        { "s": 4, "e": 4, "speaker": "jesus-christ", "to": "satan", "note": "Man shall not live by bread alone" },
+        { "s": 5, "e": 6, "speaker": "satan", "to": "jesus-christ", "note": "Cast thyself down from the pinnacle" },
+        { "s": 7, "e": 7, "speaker": "jesus-christ", "to": "satan", "note": "Thou shalt not tempt the Lord" },
+        { "s": 8, "e": 9, "speaker": "satan", "to": "jesus-christ", "note": "All these things will I give thee" },
+        { "s": 10, "e": 10, "speaker": "jesus-christ", "to": "satan", "note": "Get thee hence, Satan" },
+        { "s": 11, "e": 25, "speaker": "matthew", "to": "reader", "note": "Ministry begins; four fishermen are called" }
+      ]
+    },
+    {
+      "c": 5,
+      "title": "The Sermon on the Mount Begins",
+      "synopsis": "Jesus teaches the multitude the Beatitudes and calls his disciples the salt of the earth and the light of the world. He declares he came to fulfil the law and lifts its demands from outward acts to the heart, commanding his hearers to love even their enemies.",
+      "years": "AD 30",
+      "yearNum": 30,
+      "approx": true,
+      "place": "sea-of-galilee",
+      "themes": ["law", "discipleship", "charity"],
+      "characters": ["jesus-christ"],
+      "segments": [
+        { "s": 1, "e": 2, "speaker": "matthew", "to": "reader", "note": "Jesus goes up into a mountain" },
+        { "s": 3, "e": 48, "speaker": "jesus-christ", "to": "multitude", "note": "Beatitudes; the higher law of the kingdom" }
+      ]
+    },
+    {
+      "c": 6,
+      "title": "Prayer and Treasures in Heaven",
+      "synopsis": "Continuing the sermon, Jesus teaches that alms, prayer, and fasting must be done for God and not for the praise of men, giving the Lord's Prayer as a pattern. He commands his hearers to lay up treasures in heaven, to serve God rather than mammon, and to take no anxious thought for the morrow.",
+      "years": "AD 30",
+      "yearNum": 30,
+      "approx": true,
+      "place": "sea-of-galilee",
+      "themes": ["prayer", "humility", "faith"],
+      "characters": ["jesus-christ"],
+      "segments": [
+        { "s": 1, "e": 34, "speaker": "jesus-christ", "to": "multitude", "note": "Secret devotion; seek first the kingdom" }
+      ]
+    },
+    {
+      "c": 7,
+      "title": "Build upon the Rock",
+      "synopsis": "Jesus concludes the Sermon on the Mount, warning against hypocritical judgment and inviting all to ask, seek, and knock. He teaches the strait gate, warns of false prophets known by their fruits, and likens the obedient hearer to a wise man who builds his house upon a rock. The people are astonished at his doctrine.",
+      "years": "AD 30",
+      "yearNum": 30,
+      "approx": true,
+      "place": "sea-of-galilee",
+      "themes": ["judgment", "obedience", "discipleship"],
+      "characters": ["jesus-christ"],
+      "segments": [
+        { "s": 1, "e": 27, "speaker": "jesus-christ", "to": "multitude", "note": "Judge not; the wise man builds on rock" },
+        { "s": 28, "e": 29, "speaker": "matthew", "to": "reader", "note": "The people are astonished at his doctrine" }
+      ]
+    },
+    {
+      "c": 8,
+      "title": "The Master over Sickness and Storm",
+      "synopsis": "Jesus heals a leper, the centurion's servant, Peter's mother-in-law, and many others, fulfilling Isaiah's word that he took our infirmities. He stills a great tempest on the sea and casts a legion of devils out of two men in the country of the Gergesenes.",
+      "years": "AD 31",
+      "yearNum": 31,
+      "approx": true,
+      "place": "capernaum",
+      "themes": ["miracles", "faith"],
+      "characters": ["jesus-christ", "peter"],
+      "segments": [
+        { "s": 1, "e": 17, "speaker": "matthew", "to": "reader", "note": "Leper, centurion's servant, and many healed" },
+        { "s": 18, "e": 27, "speaker": "matthew", "to": "reader", "note": "Cost of discipleship; the storm stilled" },
+        { "s": 28, "e": 34, "speaker": "matthew", "to": "reader", "note": "Devils cast out among the Gergesenes" }
+      ]
+    },
+    {
+      "c": 9,
+      "title": "Thy Sins Be Forgiven Thee",
+      "synopsis": "Jesus forgives and heals a man with palsy, proving his power to forgive sins, and calls Matthew the publican to follow him. He raises a ruler's daughter, heals a woman who touches his garment, opens blind eyes, and, moved with compassion on the multitudes, bids his disciples pray for laborers in the harvest.",
+      "years": "AD 31",
+      "yearNum": 31,
+      "approx": true,
+      "place": "capernaum",
+      "themes": ["miracles", "faith", "discipleship"],
+      "characters": ["jesus-christ", "matthew"],
+      "segments": [
+        { "s": 1, "e": 8, "speaker": "matthew", "to": "reader", "note": "The palsied man forgiven and healed" },
+        { "s": 9, "e": 17, "speaker": "matthew", "to": "reader", "note": "Matthew called; new wine, new bottles" },
+        { "s": 18, "e": 26, "speaker": "matthew", "to": "reader", "note": "A daughter raised; a woman healed" },
+        { "s": 27, "e": 38, "speaker": "matthew", "to": "reader", "note": "Blind and dumb healed; harvest is plenteous" }
+      ]
+    },
+    {
+      "c": 10,
+      "title": "The Twelve Sent Forth",
+      "synopsis": "Jesus gives the twelve apostles power over unclean spirits and sends them to the lost sheep of the house of Israel. He instructs them to travel without purse, warns that they go as sheep among wolves, and promises that whoever loses his life for his sake shall find it.",
+      "years": "AD 31",
+      "yearNum": 31,
+      "approx": true,
+      "place": "capernaum",
+      "themes": ["missionary-work", "discipleship", "priesthood"],
+      "characters": ["jesus-christ", "peter", "andrew", "james", "john-beloved", "thomas", "matthew", "judas-iscariot"],
+      "segments": [
+        { "s": 1, "e": 4, "speaker": "matthew", "to": "reader", "note": "The twelve apostles named and empowered" },
+        { "s": 5, "e": 42, "speaker": "jesus-christ", "to": "twelve-apostles", "note": "Instructions and warnings for the mission" }
+      ]
+    },
+    {
+      "c": 11,
+      "title": "Come unto Me",
+      "synopsis": "John the Baptist sends disciples from prison to ask if Jesus is the promised one, and Jesus points to his miracles as the answer. He testifies that John is more than a prophet, upbraids the unrepentant cities of Galilee, and invites all who labor and are heavy laden to come unto him and find rest.",
+      "years": "AD 31",
+      "yearNum": 31,
+      "approx": true,
+      "place": "capernaum",
+      "themes": ["prophecy", "repentance", "humility"],
+      "characters": ["jesus-christ", "john-baptist"],
+      "segments": [
+        { "s": 1, "e": 6, "speaker": "matthew", "to": "reader", "note": "John's disciples ask; Jesus cites his works" },
+        { "s": 7, "e": 19, "speaker": "jesus-christ", "to": "multitude", "note": "Jesus testifies of John the Baptist" },
+        { "s": 20, "e": 20, "speaker": "matthew", "to": "reader", "note": "He upbraids the unrepentant cities" },
+        { "s": 21, "e": 30, "speaker": "jesus-christ", "to": "multitude", "note": "Woes on cities; come unto me" }
+      ]
+    },
+    {
+      "c": 12,
+      "title": "Lord of the Sabbath",
+      "synopsis": "The Pharisees condemn Jesus for plucking corn and healing on the sabbath, and he answers that the Son of man is Lord of the sabbath day. Accused of casting out devils by Beelzebub, he warns of blasphemy against the Holy Ghost and of an idle-word judgment, and declares that whoever does his Father's will is his family.",
+      "years": "AD 31",
+      "yearNum": 31,
+      "approx": true,
+      "place": "capernaum",
+      "themes": ["law", "worship", "judgment"],
+      "characters": ["jesus-christ", "isaiah", "mary"],
+      "segments": [
+        { "s": 1, "e": 24, "speaker": "matthew", "to": "reader", "note": "Sabbath disputes; healings fulfil Isaiah" },
+        { "s": 25, "e": 45, "speaker": "jesus-christ", "to": "pharisees", "note": "A kingdom divided; the sign of Jonas" },
+        { "s": 46, "e": 50, "speaker": "matthew", "to": "reader", "note": "Who is my mother and my brethren" }
+      ]
+    },
+    {
+      "c": 13,
+      "title": "Parables of the Kingdom",
+      "synopsis": "From a ship Jesus teaches the multitude in parables, beginning with the sower and the seed. Privately he explains the parables to his disciples and likens the kingdom of heaven to tares among wheat, a mustard seed, leaven, hidden treasure, a pearl of great price, and a net. In his own country he is rejected as merely the carpenter's son.",
+      "years": "AD 32",
+      "yearNum": 32,
+      "approx": true,
+      "place": "sea-of-galilee",
+      "themes": ["parables", "discipleship"],
+      "characters": ["jesus-christ"],
+      "segments": [
+        { "s": 1, "e": 2, "speaker": "matthew", "to": "reader", "note": "Jesus teaches from a ship" },
+        { "s": 3, "e": 9, "speaker": "jesus-christ", "to": "multitude", "note": "Parable of the sower" },
+        { "s": 10, "e": 10, "speaker": "matthew", "to": "reader", "note": "Disciples ask why parables" },
+        { "s": 11, "e": 23, "speaker": "jesus-christ", "to": "disciples", "note": "Why parables; the sower explained" },
+        { "s": 24, "e": 33, "speaker": "jesus-christ", "to": "multitude", "note": "Tares, mustard seed, and leaven" },
+        { "s": 34, "e": 36, "speaker": "matthew", "to": "reader", "note": "He speaks only in parables; disciples ask" },
+        { "s": 37, "e": 52, "speaker": "jesus-christ", "to": "disciples", "note": "Tares explained; treasure, pearl, and net" },
+        { "s": 53, "e": 58, "speaker": "matthew", "to": "reader", "note": "A prophet without honor at Nazareth" }
+      ]
+    },
+    {
+      "c": 14,
+      "title": "Feeding Thousands and Walking on Water",
+      "synopsis": "Herod, haunted by his beheading of John the Baptist, hears of Jesus's fame. Jesus feeds five thousand with five loaves and two fishes, then walks on the sea to his disciples; Peter walks toward him but begins to sink and is caught by the Lord's hand.",
+      "years": "AD 32",
+      "yearNum": 32,
+      "approx": true,
+      "place": "sea-of-galilee",
+      "themes": ["miracles", "faith", "martyrdom"],
+      "characters": ["herod", "john-baptist", "jesus-christ", "peter"],
+      "segments": [
+        { "s": 1, "e": 12, "speaker": "matthew", "to": "reader", "note": "John the Baptist beheaded by Herod" },
+        { "s": 13, "e": 21, "speaker": "matthew", "to": "reader", "note": "Five thousand fed with loaves and fishes" },
+        { "s": 22, "e": 33, "speaker": "matthew", "to": "reader", "note": "Jesus and Peter walk on the sea" },
+        { "s": 34, "e": 36, "speaker": "matthew", "to": "reader", "note": "The sick healed at Gennesaret" }
+      ]
+    },
+    {
+      "c": 15,
+      "title": "Great Is Thy Faith",
+      "synopsis": "Jesus rebukes scribes and Pharisees for setting tradition above the commandments of God and teaches that a man is defiled by what comes out of his heart, not what enters his mouth. A woman of Canaan wins healing for her daughter by her great faith, and Jesus feeds four thousand beside the sea of Galilee.",
+      "years": "AD 32",
+      "yearNum": 32,
+      "approx": true,
+      "place": "sea-of-galilee",
+      "themes": ["law", "faith", "miracles"],
+      "characters": ["jesus-christ", "peter"],
+      "segments": [
+        { "s": 1, "e": 2, "speaker": "matthew", "to": "reader", "note": "Pharisees complain of unwashed hands" },
+        { "s": 3, "e": 9, "speaker": "jesus-christ", "to": "pharisees", "note": "Tradition makes the commandment void" },
+        { "s": 10, "e": 11, "speaker": "jesus-christ", "to": "multitude", "note": "What defiles a man" },
+        { "s": 12, "e": 20, "speaker": "matthew", "to": "reader", "note": "The parable of defilement explained" },
+        { "s": 21, "e": 28, "speaker": "matthew", "to": "reader", "note": "The Canaanite woman's great faith" },
+        { "s": 29, "e": 39, "speaker": "matthew", "to": "reader", "note": "Multitudes healed; four thousand fed" }
+      ]
+    },
+    {
+      "c": 16,
+      "title": "Thou Art the Christ",
+      "synopsis": "Jesus warns his disciples against the leaven of the Pharisees and Sadducees. At Caesarea Philippi Peter testifies that Jesus is the Christ, the Son of the living God, and Jesus promises him the keys of the kingdom. Jesus then foretells his death and resurrection and teaches that whoever will lose his life for his sake shall find it.",
+      "years": "AD 32",
+      "yearNum": 32,
+      "approx": true,
+      "place": null,
+      "themes": ["revelation", "faith", "priesthood", "discipleship"],
+      "characters": ["jesus-christ", "peter"],
+      "segments": [
+        { "s": 1, "e": 12, "speaker": "matthew", "to": "reader", "note": "A sign refused; beware of leaven" },
+        { "s": 13, "e": 16, "speaker": "matthew", "to": "reader", "note": "Peter testifies Jesus is the Christ" },
+        { "s": 17, "e": 19, "speaker": "jesus-christ", "to": "peter", "note": "Upon this rock; keys of the kingdom" },
+        { "s": 20, "e": 23, "speaker": "matthew", "to": "reader", "note": "Jesus foretells his death; rebukes Peter" },
+        { "s": 24, "e": 28, "speaker": "jesus-christ", "to": "disciples", "note": "Take up the cross and follow me" }
+      ]
+    },
+    {
+      "c": 17,
+      "title": "The Mount of Transfiguration",
+      "synopsis": "Jesus is transfigured before Peter, James, and John; Moses and Elias appear, and the Father again declares his beloved Son. Coming down, Jesus heals a boy the disciples could not, teaching that faith as a mustard seed can move mountains, and he provides tribute money in a fish's mouth at Capernaum.",
+      "years": "AD 32",
+      "yearNum": 32,
+      "approx": true,
+      "place": "capernaum",
+      "themes": ["revelation", "miracles", "faith"],
+      "characters": ["jesus-christ", "peter", "james", "john-beloved", "moses", "elijah"],
+      "segments": [
+        { "s": 1, "e": 13, "speaker": "matthew", "to": "reader", "note": "Transfiguration; Moses and Elias appear" },
+        { "s": 14, "e": 21, "speaker": "matthew", "to": "reader", "note": "A lunatick boy healed; faith moves mountains" },
+        { "s": 22, "e": 27, "speaker": "matthew", "to": "reader", "note": "Death foretold; tribute in a fish's mouth" }
+      ]
+    },
+    {
+      "c": 18,
+      "title": "Becoming as Little Children",
+      "synopsis": "Jesus sets a little child before the disciples and teaches that the humble are greatest in the kingdom of heaven. He tells of the shepherd who leaves the ninety and nine, gives the pattern for reconciling an offended brother, and answers Peter's question about forgiveness with the parable of the unmerciful servant.",
+      "years": "AD 32",
+      "yearNum": 32,
+      "approx": true,
+      "place": "capernaum",
+      "themes": ["humility", "justice-and-mercy", "charity"],
+      "characters": ["jesus-christ", "peter"],
+      "segments": [
+        { "s": 1, "e": 2, "speaker": "matthew", "to": "reader", "note": "Who is greatest in the kingdom" },
+        { "s": 3, "e": 20, "speaker": "jesus-christ", "to": "disciples", "note": "Become as children; the lost sheep" },
+        { "s": 21, "e": 21, "speaker": "matthew", "to": "reader", "note": "Peter asks how oft to forgive" },
+        { "s": 22, "e": 35, "speaker": "jesus-christ", "to": "peter", "note": "Seventy times seven; the unmerciful servant" }
+      ]
+    },
+    {
+      "c": 19,
+      "title": "The Rich Young Man",
+      "synopsis": "In Judaea beyond Jordan Jesus teaches that what God has joined together no man should put asunder, and he blesses little children brought to him. A rich young ruler keeps the commandments but goes away sorrowful when asked to sell all, and Jesus promises the twelve thrones and a hundredfold reward for all who forsake and follow.",
+      "years": "AD 33",
+      "yearNum": 33,
+      "approx": true,
+      "place": "jordan-river",
+      "themes": ["family", "obedience", "discipleship"],
+      "characters": ["jesus-christ", "peter"],
+      "segments": [
+        { "s": 1, "e": 15, "speaker": "matthew", "to": "reader", "note": "Marriage taught; little children blessed" },
+        { "s": 16, "e": 22, "speaker": "matthew", "to": "reader", "note": "The rich young man goes away sorrowful" },
+        { "s": 23, "e": 30, "speaker": "jesus-christ", "to": "disciples", "note": "Riches and the kingdom; hundredfold promise" }
+      ]
+    },
+    {
+      "c": 20,
+      "title": "Laborers in the Vineyard",
+      "synopsis": "Jesus likens the kingdom of heaven to a householder who pays laborers hired at the eleventh hour the same as those hired first. He again foretells his betrayal and crucifixion, teaches James and John that greatness comes by service, and gives sight to two blind men near Jericho.",
+      "years": "AD 33",
+      "yearNum": 33,
+      "approx": true,
+      "place": "jericho",
+      "themes": ["parables", "grace", "humility"],
+      "characters": ["jesus-christ", "james", "john-beloved"],
+      "segments": [
+        { "s": 1, "e": 16, "speaker": "jesus-christ", "to": "disciples", "note": "Parable of the laborers in the vineyard" },
+        { "s": 17, "e": 19, "speaker": "matthew", "to": "reader", "note": "Jesus foretells his death and rising" },
+        { "s": 20, "e": 28, "speaker": "matthew", "to": "reader", "note": "Greatness through service, not station" },
+        { "s": 29, "e": 34, "speaker": "matthew", "to": "reader", "note": "Two blind men healed near Jericho" }
+      ]
+    },
+    {
+      "c": 21,
+      "title": "The Triumphal Entry",
+      "synopsis": "Jesus rides into Jerusalem on an ass as the multitudes cry Hosanna to the Son of David, then casts the moneychangers out of the temple. He curses a barren fig tree, answers the chief priests who question his authority, and warns them with the parables of the two sons and the wicked husbandmen.",
+      "years": "AD 33",
+      "yearNum": 33,
+      "approx": false,
+      "place": "jerusalem",
+      "themes": ["messiah", "worship", "parables"],
+      "characters": ["jesus-christ"],
+      "segments": [
+        { "s": 1, "e": 17, "speaker": "matthew", "to": "reader", "note": "Triumphal entry; the temple cleansed" },
+        { "s": 18, "e": 22, "speaker": "matthew", "to": "reader", "note": "The fig tree withers; faith in prayer" },
+        { "s": 23, "e": 27, "speaker": "matthew", "to": "reader", "note": "Chief priests question his authority" },
+        { "s": 28, "e": 44, "speaker": "jesus-christ", "to": "pharisees", "note": "Two sons; the wicked husbandmen" },
+        { "s": 45, "e": 46, "speaker": "matthew", "to": "reader", "note": "The rulers perceive he speaks of them" }
+      ]
+    },
+    {
+      "c": 22,
+      "title": "The Wedding Feast and Great Commandment",
+      "synopsis": "Jesus tells the parable of a king's marriage feast where many are called but few chosen. He escapes the Pharisees' snare by teaching to render unto Caesar what is Caesar's, answers the Sadducees on resurrection, and declares that love of God and neighbor hangs all the law and the prophets.",
+      "years": "AD 33",
+      "yearNum": 33,
+      "approx": false,
+      "place": "jerusalem",
+      "themes": ["parables", "law", "charity"],
+      "characters": ["jesus-christ"],
+      "segments": [
+        { "s": 1, "e": 1, "speaker": "matthew", "to": "reader", "note": "Jesus answers again in parables" },
+        { "s": 2, "e": 14, "speaker": "jesus-christ", "to": "pharisees", "note": "Parable of the marriage feast" },
+        { "s": 15, "e": 46, "speaker": "matthew", "to": "reader", "note": "Tribute, resurrection, and the great commandment" }
+      ]
+    },
+    {
+      "c": 23,
+      "title": "Woes upon the Scribes and Pharisees",
+      "synopsis": "Jesus tells the multitude to observe what the scribes and Pharisees teach but not their works, for they love the praise of men. He pronounces eight woes upon their hypocrisy, calling them blind guides and whited sepulchres, and laments over Jerusalem, which kills the prophets sent to her.",
+      "years": "AD 33",
+      "yearNum": 33,
+      "approx": false,
+      "place": "jerusalem",
+      "themes": ["apostasy", "humility", "judgment"],
+      "characters": ["jesus-christ"],
+      "segments": [
+        { "s": 1, "e": 1, "speaker": "matthew", "to": "reader", "note": "Jesus speaks to the multitude and disciples" },
+        { "s": 2, "e": 39, "speaker": "jesus-christ", "to": "multitude", "note": "Woes on hypocrisy; lament over Jerusalem" }
+      ]
+    },
+    {
+      "c": 24,
+      "title": "Signs of the Second Coming",
+      "synopsis": "On the mount of Olives the disciples ask when the temple will fall and what will signal Christ's coming. Jesus foretells wars, false Christs, the abomination of desolation, and tribulation, then promises that the Son of man will come in glory. He commands his disciples to watch, for no man knows the day nor the hour.",
+      "years": "AD 33",
+      "yearNum": 33,
+      "approx": false,
+      "place": "jerusalem",
+      "themes": ["second-coming", "prophecy", "endurance"],
+      "characters": ["jesus-christ"],
+      "segments": [
+        { "s": 1, "e": 3, "speaker": "matthew", "to": "reader", "note": "Disciples ask for signs on Olivet" },
+        { "s": 4, "e": 51, "speaker": "jesus-christ", "to": "disciples", "note": "Signs, tribulation, and the coming in glory" }
+      ]
+    },
+    {
+      "c": 25,
+      "title": "Parables of the Second Coming",
+      "synopsis": "Jesus continues the Olivet discourse with three parables of preparation and judgment. The ten virgins teach readiness for the Bridegroom, the talents teach faithful stewardship, and the sheep and goats reveal that serving the least of his brethren is serving the King himself.",
+      "years": "AD 33",
+      "yearNum": 33,
+      "approx": false,
+      "place": "jerusalem",
+      "themes": ["parables", "second-coming", "judgment", "charity"],
+      "characters": ["jesus-christ"],
+      "segments": [
+        { "s": 1, "e": 46, "speaker": "jesus-christ", "to": "disciples", "note": "Ten virgins, talents, sheep and goats" }
+      ]
+    },
+    {
+      "c": 26,
+      "title": "Gethsemane and Betrayal",
+      "synopsis": "Judas covenants with the chief priests to betray Jesus for thirty pieces of silver. At the last supper Jesus institutes the sacrament, then suffers in Gethsemane, praying that the Father's will be done. Betrayed with a kiss, he is condemned by Caiaphas while Peter denies him three times before the cock crows.",
+      "years": "AD 33",
+      "yearNum": 33,
+      "approx": false,
+      "place": "jerusalem",
+      "themes": ["sacrament", "atonement", "prayer"],
+      "characters": ["jesus-christ", "caiaphas", "judas-iscariot", "peter"],
+      "segments": [
+        { "s": 1, "e": 25, "speaker": "matthew", "to": "reader", "note": "Anointing at Bethany; Judas covenants; passover" },
+        { "s": 26, "e": 29, "speaker": "jesus-christ", "to": "twelve-apostles", "note": "The sacrament instituted" },
+        { "s": 30, "e": 46, "speaker": "matthew", "to": "reader", "note": "Jesus suffers and prays in Gethsemane" },
+        { "s": 47, "e": 56, "speaker": "matthew", "to": "reader", "note": "Betrayed with a kiss and arrested" },
+        { "s": 57, "e": 68, "speaker": "matthew", "to": "reader", "note": "Condemned before Caiaphas" },
+        { "s": 69, "e": 75, "speaker": "matthew", "to": "reader", "note": "Peter denies him thrice and weeps" }
+      ]
+    },
+    {
+      "c": 27,
+      "title": "The Crucifixion of the King",
+      "synopsis": "Judas, filled with remorse, casts down the silver and hangs himself. Pilate, finding no fault, yields to the multitude and delivers Jesus to be crucified. Mocked, crowned with thorns, and crucified at Golgotha, Jesus yields up the ghost as the veil of the temple rends, and he is buried in Joseph of Arimathaea's tomb under a sealed and guarded stone.",
+      "years": "AD 33",
+      "yearNum": 33,
+      "approx": false,
+      "place": "jerusalem",
+      "themes": ["atonement", "martyrdom"],
+      "characters": ["jesus-christ", "pilate", "judas-iscariot", "mary-magdalene"],
+      "segments": [
+        { "s": 1, "e": 10, "speaker": "matthew", "to": "reader", "note": "Judas's remorse; the potter's field" },
+        { "s": 11, "e": 26, "speaker": "matthew", "to": "reader", "note": "Pilate yields; Barabbas released" },
+        { "s": 27, "e": 44, "speaker": "matthew", "to": "reader", "note": "Mocked, crowned with thorns, crucified" },
+        { "s": 45, "e": 56, "speaker": "matthew", "to": "reader", "note": "Darkness; Jesus yields up the ghost" },
+        { "s": 57, "e": 66, "speaker": "matthew", "to": "reader", "note": "Burial; the sepulchre sealed and watched" }
+      ]
+    },
+    {
+      "c": 28,
+      "title": "He Is Risen",
+      "synopsis": "At dawn an angel rolls back the stone and tells Mary Magdalene and the other Mary that Jesus is risen. The risen Lord meets the women, while the chief priests bribe the watch to say his body was stolen. In Galilee Jesus declares all power is given him and commissions the eleven to teach and baptize all nations.",
+      "years": "AD 33",
+      "yearNum": 33,
+      "approx": false,
+      "place": "jerusalem",
+      "themes": ["resurrection", "mission", "hope"],
+      "characters": ["mary-magdalene", "angel", "jesus-christ"],
+      "segments": [
+        { "s": 1, "e": 4, "speaker": "matthew", "to": "reader", "note": "An angel rolls back the stone" },
+        { "s": 5, "e": 7, "speaker": "angel", "to": "mary-magdalene", "note": "He is not here; he is risen" },
+        { "s": 8, "e": 15, "speaker": "matthew", "to": "reader", "note": "The risen Lord meets the women; guards bribed" },
+        { "s": 16, "e": 17, "speaker": "matthew", "to": "reader", "note": "The eleven meet him in Galilee" },
+        { "s": 18, "e": 20, "speaker": "jesus-christ", "to": "twelve-apostles", "note": "Go ye therefore and teach all nations" }
+      ]
+    }
+  ]
+}

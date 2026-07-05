@@ -1,0 +1,56 @@
+{
+  "book": "Habakkuk",
+  "slug": "habakkuk",
+  "narrator": "chronicler",
+  "plates": "prophets-minor",
+  "chapters": [
+    {
+      "c": 1,
+      "title": "How Long Shall I Cry",
+      "synopsis": "Habakkuk cries out to the Lord asking how long he must witness violence and iniquity while the law is slacked and justice never prevails. The Lord answers that he is raising up the fierce and hasty Chaldeans to punish the land, and Habakkuk questions why the Lord, whose eyes are too pure to behold evil, would look in silence upon those who deal treacherously.",
+      "years": "about 620 BC",
+      "yearNum": -620,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["prayer", "justice-and-mercy", "faith"],
+      "characters": ["the-lord"],
+      "segments": [
+        { "s": 1, "e": 4, "speaker": "chronicler", "to": "the-lord", "note": "Habakkuk cries: how long, O Lord, must I see violence?" },
+        { "s": 5, "e": 11, "speaker": "the-lord", "to": "chronicler", "note": "The Lord raises up the fierce Chaldeans to punish" },
+        { "s": 12, "e": 17, "speaker": "chronicler", "to": "the-lord", "note": "Habakkuk questions: why behold treachery in silence?" }
+      ]
+    },
+    {
+      "c": 2,
+      "title": "The Just Shall Live by Faith",
+      "synopsis": "Habakkuk stands watch to see what the Lord will answer, and is told to write the vision plainly, for though it tarries it will surely come, and the just shall live by his faith. A series of woes falls on the proud oppressor who increases what is not his, builds towns with blood, and worships graven images, while the Lord in his holy temple calls all the earth to keep silence before him.",
+      "years": "about 620 BC",
+      "yearNum": -620,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["faith", "justice-and-mercy", "judgment"],
+      "characters": ["the-lord"],
+      "segments": [
+        { "s": 1, "e": 4, "speaker": "chronicler", "to": "reader", "note": "Habakkuk watches; the just shall live by his faith" },
+        { "s": 5, "e": 14, "speaker": "the-lord", "to": "reader", "note": "Woes pronounced on the proud and violent oppressor" },
+        { "s": 15, "e": 20, "speaker": "the-lord", "to": "reader", "note": "Woe to idolatry; the Lord in his holy temple" }
+      ]
+    },
+    {
+      "c": 3,
+      "title": "Prayer of Habakkuk",
+      "synopsis": "Habakkuk prays that the Lord will revive his work in the midst of the years, and sees God's glory marching forth from Teman, covering the heavens with terrible power as the sun and moon stand still. Though the fig tree shall not blossom and the fields yield no meat, Habakkuk resolves to rejoice in the Lord, the God of his salvation, who makes his feet like hinds' feet.",
+      "years": "about 620 BC",
+      "yearNum": -620,
+      "approx": true,
+      "place": null,
+      "themes": ["prayer", "faith", "hope"],
+      "characters": ["the-lord"],
+      "segments": [
+        { "s": 1, "e": 2, "speaker": "chronicler", "to": "the-lord", "note": "O Lord, revive thy work in the midst of the years" },
+        { "s": 3, "e": 15, "speaker": "chronicler", "to": "the-lord", "note": "God's glory marches forth in power and terror" },
+        { "s": 16, "e": 19, "speaker": "chronicler", "to": "the-lord", "note": "Though the fig tree fail, I will rejoice in the Lord" }
+      ]
+    }
+  ]
+}

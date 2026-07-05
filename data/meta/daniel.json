@@ -1,0 +1,192 @@
+{
+  "book": "Daniel",
+  "slug": "daniel",
+  "narrator": "daniel",
+  "plates": "prophets-major",
+  "chapters": [
+    {
+      "c": 1,
+      "title": "Faithful in the King's Court",
+      "synopsis": "Nebuchadnezzar carries young men of Judah to Babylon to be trained in his court, among them Daniel and his three friends. Daniel purposes in his heart not to defile himself with the king's meat, and God gives the four youths knowledge and wisdom ten times better than all the king's wise men.",
+      "years": "about 600 BC",
+      "yearNum": -600,
+      "approx": true,
+      "place": "babylon",
+      "themes": ["faith", "wisdom", "obedience"],
+      "characters": ["daniel", "three-hebrews", "nebuchadnezzar"],
+      "segments": [
+        { "s": 1, "e": 21, "speaker": "daniel", "to": "reader", "note": "Daniel refuses the king's meat and prospers" }
+      ]
+    },
+    {
+      "c": 2,
+      "title": "The Dream of the Great Image",
+      "synopsis": "Nebuchadnezzar demands that his wise men tell him both his dream and its meaning on pain of death. God reveals the secret to Daniel, who describes the great image of gold, silver, brass, iron, and clay, and the stone cut without hands that becomes a mountain and fills the whole earth.",
+      "years": "about 598 BC",
+      "yearNum": -598,
+      "approx": true,
+      "place": "babylon",
+      "themes": ["prophecy", "revelation", "kingship", "wisdom"],
+      "characters": ["daniel", "nebuchadnezzar", "three-hebrews"],
+      "segments": [
+        { "s": 1, "e": 26, "speaker": "daniel", "to": "reader", "note": "The forgotten dream; Daniel seeks God's mercy" },
+        { "s": 27, "e": 45, "speaker": "daniel", "to": "nebuchadnezzar", "note": "The image and the stone cut without hands" },
+        { "s": 46, "e": 49, "speaker": "daniel", "to": "reader", "note": "The king honors Daniel's God and promotes him" }
+      ]
+    },
+    {
+      "c": 3,
+      "title": "The Fiery Furnace",
+      "synopsis": "Nebuchadnezzar sets up a golden image and commands all to worship it, but Shadrach, Meshach, and Abed-nego refuse. Cast into the burning fiery furnace, they walk unharmed with a fourth figure like the Son of God, and the king blesses the God who sent his angel to deliver his servants.",
+      "years": "about 593 BC",
+      "yearNum": -593,
+      "approx": true,
+      "place": "babylon",
+      "themes": ["faith", "deliverance", "kingship"],
+      "characters": ["three-hebrews", "nebuchadnezzar", "angel"],
+      "segments": [
+        { "s": 1, "e": 15, "speaker": "daniel", "to": "reader", "note": "The golden image and the king's decree" },
+        { "s": 16, "e": 18, "speaker": "three-hebrews", "to": "nebuchadnezzar", "note": "Our God is able; but if not, we will not serve" },
+        { "s": 19, "e": 30, "speaker": "daniel", "to": "reader", "note": "Four men walking unhurt in the fire" }
+      ]
+    },
+    {
+      "c": 4,
+      "title": "The King Humbled to the Grass",
+      "synopsis": "Nebuchadnezzar proclaims to all nations how he dreamed of a great tree hewn down, and how Daniel warned him to break off his sins. Driven from men to eat grass as oxen until seven times pass over him, the humbled king lifts his eyes to heaven and praises the King of heaven, who is able to abase those who walk in pride.",
+      "years": "about 570 BC",
+      "yearNum": -570,
+      "approx": true,
+      "place": "babylon",
+      "themes": ["humility", "kingship", "prophecy"],
+      "characters": ["nebuchadnezzar", "daniel"],
+      "segments": [
+        { "s": 1, "e": 18, "speaker": "nebuchadnezzar", "to": "nations", "note": "The king recounts his dream of the great tree" },
+        { "s": 19, "e": 27, "speaker": "daniel", "to": "nebuchadnezzar", "note": "The tree is thou, O king; break off thy sins" },
+        { "s": 28, "e": 33, "speaker": "daniel", "to": "reader", "note": "The judgment falls; the king driven from men" },
+        { "s": 34, "e": 37, "speaker": "nebuchadnezzar", "to": "nations", "note": "The restored king praises the King of heaven" }
+      ]
+    },
+    {
+      "c": 5,
+      "title": "The Handwriting on the Wall",
+      "synopsis": "King Belshazzar feasts with the vessels of the Lord's temple, and fingers of a man's hand write upon the palace wall. Daniel reads the writing, declaring that the king has been weighed in the balances and found wanting, and that very night Babylon falls and the kingdom passes to the Medes and Persians.",
+      "years": "about 539 BC",
+      "yearNum": -539,
+      "approx": true,
+      "place": "babylon",
+      "themes": ["judgment", "kingship", "wisdom"],
+      "characters": ["daniel"],
+      "segments": [
+        { "s": 1, "e": 12, "speaker": "daniel", "to": "reader", "note": "Belshazzar's feast; the hand writes on the wall" },
+        { "s": 13, "e": 31, "speaker": "daniel", "to": "reader", "note": "Weighed in the balances; Babylon falls that night" }
+      ]
+    },
+    {
+      "c": 6,
+      "title": "Daniel in the Lions' Den",
+      "synopsis": "Jealous princes trick King Darius into signing a decree against prayer, but Daniel kneels three times a day toward Jerusalem as before. Cast into the den of lions, Daniel is kept safe because God sends his angel to shut the lions' mouths, and the king decrees that all men fear the living God of Daniel.",
+      "years": "about 538 BC",
+      "yearNum": -538,
+      "approx": true,
+      "place": "babylon",
+      "themes": ["faith", "deliverance", "prayer"],
+      "characters": ["daniel", "angel"],
+      "segments": [
+        { "s": 1, "e": 28, "speaker": "daniel", "to": "reader", "note": "Faithful prayer; the angel shuts the lions' mouths" }
+      ]
+    },
+    {
+      "c": 7,
+      "title": "Four Beasts and the Ancient of Days",
+      "synopsis": "In a night vision Daniel sees four great beasts rise from the sea, and the Ancient of days sit in judgment as one like the Son of man receives an everlasting dominion. One standing by interprets the beasts as four kingdoms, and promises that the saints of the most High shall possess the kingdom for ever.",
+      "years": "about 553 BC",
+      "yearNum": -553,
+      "approx": true,
+      "place": "babylon",
+      "themes": ["prophecy", "revelation", "kingship"],
+      "characters": ["daniel", "angel"],
+      "segments": [
+        { "s": 1, "e": 14, "speaker": "daniel", "to": "reader", "note": "Four beasts; the Ancient of days enthroned" },
+        { "s": 15, "e": 28, "speaker": "daniel", "to": "reader", "note": "The vision interpreted; the saints receive the kingdom" }
+      ]
+    },
+    {
+      "c": 8,
+      "title": "The Ram and the He Goat",
+      "synopsis": "Daniel sees a ram with two horns overcome by a he goat from the west, whose great horn breaks and gives place to four. The angel Gabriel is commanded to make Daniel understand the vision of the kings of Media, Persia, and Grecia, and of a fierce king who will stand up against the Prince of princes.",
+      "years": "about 551 BC",
+      "yearNum": -551,
+      "approx": true,
+      "place": "babylon",
+      "themes": ["prophecy", "revelation", "kingship"],
+      "characters": ["daniel", "angel"],
+      "segments": [
+        { "s": 1, "e": 18, "speaker": "daniel", "to": "reader", "note": "The ram and the goat; Gabriel approaches" },
+        { "s": 19, "e": 26, "speaker": "angel", "to": "daniel", "note": "Gabriel names the kingdoms of the vision" },
+        { "s": 27, "e": 27, "speaker": "daniel", "to": "reader", "note": "Daniel faints, astonished at the vision" }
+      ]
+    },
+    {
+      "c": 9,
+      "title": "Daniel's Prayer and Seventy Weeks",
+      "synopsis": "Understanding from Jeremiah's writings that the desolation of Jerusalem will last seventy years, Daniel confesses the sins of his people in fasting and supplication. While he is yet praying, Gabriel flies swiftly to him and unfolds the prophecy of seventy weeks, pointing to Messiah the Prince who shall be cut off.",
+      "years": "about 538 BC",
+      "yearNum": -538,
+      "approx": true,
+      "place": "babylon",
+      "themes": ["prayer", "prophecy", "repentance", "messiah"],
+      "characters": ["daniel", "angel", "jeremiah"],
+      "segments": [
+        { "s": 1, "e": 3, "speaker": "daniel", "to": "reader", "note": "Daniel learns the seventy years from Jeremiah" },
+        { "s": 4, "e": 19, "speaker": "daniel", "to": "the-lord", "note": "Confession for Israel; O Lord, hear and forgive" },
+        { "s": 20, "e": 21, "speaker": "daniel", "to": "reader", "note": "Gabriel comes while Daniel is yet praying" },
+        { "s": 22, "e": 27, "speaker": "angel", "to": "daniel", "note": "The seventy weeks and Messiah the Prince" }
+      ]
+    },
+    {
+      "c": 10,
+      "title": "A Vision by the Great River",
+      "synopsis": "After three weeks of mourning, Daniel stands by the river Hiddekel and sees a glorious man whose face is as lightning. His strength fails, but the heavenly messenger touches and strengthens him, telling how he was withstood by the prince of Persia until Michael came to help him.",
+      "years": "about 536 BC",
+      "yearNum": -536,
+      "approx": true,
+      "place": "babylon",
+      "themes": ["revelation", "faith", "prophecy"],
+      "characters": ["daniel", "angel"],
+      "segments": [
+        { "s": 1, "e": 9, "speaker": "daniel", "to": "reader", "note": "The glorious man appears; Daniel's strength fails" },
+        { "s": 10, "e": 21, "speaker": "angel", "to": "daniel", "note": "Fear not; strengthened to receive the vision" }
+      ]
+    },
+    {
+      "c": 11,
+      "title": "Kings of the North and South",
+      "synopsis": "The heavenly messenger unfolds to Daniel a long prophecy of kings: Persia gives way to Grecia, whose realm is divided, and the kings of the north and south war back and forth. A contemptible ruler will pollute the sanctuary and exalt himself, yet he shall come to his end and none shall help him.",
+      "years": "about 536 BC",
+      "yearNum": -536,
+      "approx": true,
+      "place": "babylon",
+      "themes": ["prophecy", "kingship", "war"],
+      "characters": ["daniel", "angel"],
+      "segments": [
+        { "s": 1, "e": 45, "speaker": "angel", "to": "daniel", "note": "The long prophecy of warring kingdoms" }
+      ]
+    },
+    {
+      "c": 12,
+      "title": "Sealed unto the Time of the End",
+      "synopsis": "The messenger promises that Michael shall stand up in a time of trouble, and that many who sleep in the dust shall awake, some to everlasting life. Daniel is told to shut up the words and seal the book until the time of the end, then to go his way, for he shall rest and stand in his lot at the end of the days.",
+      "years": "about 536 BC",
+      "yearNum": -536,
+      "approx": true,
+      "place": "babylon",
+      "themes": ["prophecy", "resurrection", "deliverance", "endurance"],
+      "characters": ["daniel", "angel"],
+      "segments": [
+        { "s": 1, "e": 4, "speaker": "angel", "to": "daniel", "note": "Deliverance in trouble; many shall awake" },
+        { "s": 5, "e": 13, "speaker": "daniel", "to": "reader", "note": "The words sealed; go thy way till the end" }
+      ]
+    }
+  ]
+}

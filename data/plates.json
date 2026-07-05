@@ -1,39 +1,801 @@
 {
-  "sources": [
-    { "id": "brass-plates", "name": "The Brass Plates", "color": "#b08d3f", "era": "before 600 BC", "desc": "Israel's scriptures kept by Laban in Jerusalem — the five books of Moses, a record of the Jews down to Zedekiah, and prophets like Isaiah, Zenos, Zenock, and Neum. Brought to the promised land by Nephi; quoted throughout the record.", "kind": "source" },
-    { "id": "small-plates", "name": "The Small Plates of Nephi", "color": "#3fa7a0", "era": "600 – c. 130 BC", "desc": "Nephi's second, sacred record — 'the things of my soul' — passed from Jacob down to Amaleki, who delivered it full to King Benjamin. Mormon attached it whole because the Spirit whispered 'for a wise purpose.' It replaced the lost 116 pages.", "kind": "source", "books": ["1-nephi", "2-nephi", "jacob", "enos", "jarom", "omni"] },
-    { "id": "large-plates", "name": "The Large Plates of Nephi", "color": "#c87f3a", "era": "600 BC – AD 385", "desc": "The national chronicle — reigns, wars, and ministries — kept continuously from Nephi to Ammaron, who hid all the records in the hill Shim and charged the ten-year-old Mormon to take them up.", "kind": "source" },
-    { "id": "ether-24", "name": "The 24 Gold Plates of Ether", "color": "#8e6bb8", "era": "c. 2200 – 580 BC", "desc": "The Jaredite record found by Limhi's 43 explorers among the bones of a destroyed nation, translated by King Mosiah with the interpreters.", "kind": "source" },
-    { "id": "plates-of-mormon", "name": "The Plates of Mormon", "color": "#e8b64c", "era": "AD 345 – 421", "desc": "The gold plates delivered to Joseph Smith: Mormon's abridgment of the large plates, the small plates attached whole, Mormon's and Moroni's own words, Moroni's abridgment of Ether, and a sealed portion.", "kind": "output" }
-  ],
-  "flows": [
-    { "from": "brass-plates", "to": "small-plates", "label": "quoted by Nephi & Jacob" },
-    { "from": "small-plates", "to": "plates-of-mormon", "label": "attached whole, unabridged (1 Nephi – Omni)" },
-    { "from": "large-plates", "to": "plates-of-mormon", "label": "abridged by Mormon (Mosiah – 4 Nephi, Mormon 1–7)" },
-    { "from": "ether-24", "to": "plates-of-mormon", "label": "abridged by Moroni (Ether)" }
-  ],
-  "platesKeys": {
-    "small-plates": { "name": "Small Plates of Nephi", "short": "Small Plates", "color": "#3fa7a0", "writer": "First-person: Nephi, Jacob & heirs", "desc": "Unabridged personal ministry record, written by the prophets themselves." },
-    "mormon-abridgment": { "name": "Mormon's Abridgment of the Large Plates", "short": "Mormon's Abridgment", "color": "#e8b64c", "writer": "Mormon, abridging c. AD 345–385", "desc": "Mormon compresses ~500 years of the large plates, weaving in sermons, letters, and his own 'and thus we see' commentary." },
-    "mormon-own": { "name": "Mormon's Own Record", "short": "Mormon's Own Words", "color": "#c87f3a", "writer": "Mormon, first person", "desc": "Mormon speaks directly — his editorial bridge (Words of Mormon) and his eyewitness account of the Nephite fall." },
-    "ether-abridgment": { "name": "Moroni's Abridgment of Ether", "short": "Ether Abridgment", "color": "#8e6bb8", "writer": "Moroni, abridging the 24 plates", "desc": "The Jaredite epic, retold by Moroni with his own sermons on faith and grace woven through." },
-    "moroni-own": { "name": "Moroni's Own Record", "short": "Moroni's Own Words", "color": "#b8524f", "writer": "Moroni, first person, AD 401–421", "desc": "The last Nephite writes alone — ordinances, his father's sermon and letters, and the closing promise." }
+ "sources": [
+  {
+   "id": "brass-plates",
+   "name": "The Brass Plates",
+   "color": "#b08d3f",
+   "era": "before 600 BC",
+   "desc": "Israel's scriptures kept by Laban in Jerusalem — the five books of Moses, a record of the Jews down to Zedekiah, and prophets like Isaiah, Zenos, Zenock, and Neum. Brought to the promised land by Nephi; quoted throughout the record.",
+   "kind": "source"
   },
-  "books": [
-    { "slug": "1-nephi", "name": "1 Nephi", "plates": "small-plates", "writer": "nephi1", "span": "600–570 BC" },
-    { "slug": "2-nephi", "name": "2 Nephi", "plates": "small-plates", "writer": "nephi1", "span": "588–545 BC" },
-    { "slug": "jacob", "name": "Jacob", "plates": "small-plates", "writer": "jacob1", "span": "544–421 BC" },
-    { "slug": "enos", "name": "Enos", "plates": "small-plates", "writer": "enos1", "span": "c. 420 BC" },
-    { "slug": "jarom", "name": "Jarom", "plates": "small-plates", "writer": "jarom1", "span": "399–361 BC" },
-    { "slug": "omni", "name": "Omni", "plates": "small-plates", "writer": "amaleki1", "span": "361–130 BC" },
-    { "slug": "words-of-mormon", "name": "Words of Mormon", "plates": "mormon-own", "writer": "mormon", "span": "AD 385" },
-    { "slug": "mosiah", "name": "Mosiah", "plates": "mormon-abridgment", "writer": "mormon", "span": "200–91 BC" },
-    { "slug": "alma", "name": "Alma", "plates": "mormon-abridgment", "writer": "mormon", "span": "91–52 BC" },
-    { "slug": "helaman", "name": "Helaman", "plates": "mormon-abridgment", "writer": "mormon", "span": "52–1 BC" },
-    { "slug": "3-nephi", "name": "3 Nephi", "plates": "mormon-abridgment", "writer": "mormon", "span": "AD 1–35" },
-    { "slug": "4-nephi", "name": "4 Nephi", "plates": "mormon-abridgment", "writer": "mormon", "span": "AD 35–321" },
-    { "slug": "mormon", "name": "Mormon", "plates": "mormon-own", "writer": "mormon", "span": "AD 321–401", "note": "Chapters 8–9 finished by Moroni" },
-    { "slug": "ether", "name": "Ether", "plates": "ether-abridgment", "writer": "moroni", "span": "Jaredite era" },
-    { "slug": "moroni", "name": "Moroni", "plates": "moroni-own", "writer": "moroni", "span": "AD 401–421" }
+  {
+   "id": "small-plates",
+   "name": "The Small Plates of Nephi",
+   "color": "#3fa7a0",
+   "era": "600 – c. 130 BC",
+   "desc": "Nephi's second, sacred record — 'the things of my soul' — passed from Jacob down to Amaleki, who delivered it full to King Benjamin. Mormon attached it whole because the Spirit whispered 'for a wise purpose.' It replaced the lost 116 pages.",
+   "kind": "source",
+   "books": [
+    "1-nephi",
+    "2-nephi",
+    "jacob",
+    "enos",
+    "jarom",
+    "omni"
+   ]
+  },
+  {
+   "id": "large-plates",
+   "name": "The Large Plates of Nephi",
+   "color": "#c87f3a",
+   "era": "600 BC – AD 385",
+   "desc": "The national chronicle — reigns, wars, and ministries — kept continuously from Nephi to Ammaron, who hid all the records in the hill Shim and charged the ten-year-old Mormon to take them up.",
+   "kind": "source"
+  },
+  {
+   "id": "ether-24",
+   "name": "The 24 Gold Plates of Ether",
+   "color": "#8e6bb8",
+   "era": "c. 2200 – 580 BC",
+   "desc": "The Jaredite record found by Limhi's 43 explorers among the bones of a destroyed nation, translated by King Mosiah with the interpreters.",
+   "kind": "source"
+  },
+  {
+   "id": "plates-of-mormon",
+   "name": "The Plates of Mormon",
+   "color": "#e8b64c",
+   "era": "AD 345 – 421",
+   "desc": "The gold plates delivered to Joseph Smith: Mormon's abridgment of the large plates, the small plates attached whole, Mormon's and Moroni's own words, Moroni's abridgment of Ether, and a sealed portion.",
+   "kind": "output"
+  }
+ ],
+ "flows": [
+  {
+   "from": "brass-plates",
+   "to": "small-plates",
+   "label": "quoted by Nephi & Jacob"
+  },
+  {
+   "from": "small-plates",
+   "to": "plates-of-mormon",
+   "label": "attached whole, unabridged (1 Nephi – Omni)"
+  },
+  {
+   "from": "large-plates",
+   "to": "plates-of-mormon",
+   "label": "abridged by Mormon (Mosiah – 4 Nephi, Mormon 1–7)"
+  },
+  {
+   "from": "ether-24",
+   "to": "plates-of-mormon",
+   "label": "abridged by Moroni (Ether)"
+  }
+ ],
+ "platesKeys": {
+  "small-plates": {
+   "name": "Small Plates of Nephi",
+   "short": "Small Plates",
+   "color": "#3fa7a0",
+   "writer": "First-person: Nephi, Jacob & heirs",
+   "desc": "Unabridged personal ministry record, written by the prophets themselves."
+  },
+  "mormon-abridgment": {
+   "name": "Mormon's Abridgment of the Large Plates",
+   "short": "Mormon's Abridgment",
+   "color": "#e8b64c",
+   "writer": "Mormon, abridging c. AD 345–385",
+   "desc": "Mormon compresses ~500 years of the large plates, weaving in sermons, letters, and his own 'and thus we see' commentary."
+  },
+  "mormon-own": {
+   "name": "Mormon's Own Record",
+   "short": "Mormon's Own Words",
+   "color": "#c87f3a",
+   "writer": "Mormon, first person",
+   "desc": "Mormon speaks directly — his editorial bridge (Words of Mormon) and his eyewitness account of the Nephite fall."
+  },
+  "ether-abridgment": {
+   "name": "Moroni's Abridgment of Ether",
+   "short": "Ether Abridgment",
+   "color": "#8e6bb8",
+   "writer": "Moroni, abridging the 24 plates",
+   "desc": "The Jaredite epic, retold by Moroni with his own sermons on faith and grace woven through."
+  },
+  "moroni-own": {
+   "name": "Moroni's Own Record",
+   "short": "Moroni's Own Words",
+   "color": "#b8524f",
+   "writer": "Moroni, first person, AD 401–421",
+   "desc": "The last Nephite writes alone — ordinances, his father's sermon and letters, and the closing promise."
+  },
+  "law": {
+   "name": "The Books of Moses (Torah)",
+   "short": "The Law",
+   "color": "#d9a441",
+   "writer": "Traditionally Moses",
+   "desc": "The five books of the covenant: creation, the patriarchs, the Exodus, and the law given at Sinai."
+  },
+  "history": {
+   "name": "The Historical Books",
+   "short": "History",
+   "color": "#6f9e6a",
+   "writer": "Court and temple chroniclers",
+   "desc": "Israel in the land: conquest, judges, the united and divided kingdoms, exile, and return."
+  },
+  "wisdom": {
+   "name": "Wisdom & Poetry",
+   "short": "Wisdom & Poetry",
+   "color": "#5b8fb0",
+   "writer": "David, Solomon, Asaph & the sages",
+   "desc": "The prayer book and philosophy of Israel - psalms, proverbs, and the hard questions of Job and Ecclesiastes."
+  },
+  "prophets-major": {
+   "name": "The Major Prophets",
+   "short": "Major Prophets",
+   "color": "#9a5fa8",
+   "writer": "Isaiah, Jeremiah, Ezekiel, Daniel",
+   "desc": "The long prophetic books: warning, exile, comfort, and sweeping visions of the Messiah and the last days."
+  },
+  "prophets-minor": {
+   "name": "The Twelve (Minor Prophets)",
+   "short": "The Twelve",
+   "color": "#b8776b",
+   "writer": "Hosea through Malachi",
+   "desc": "Twelve short books, one long argument: return to the Lord, and He will return to you."
+  },
+  "gospels": {
+   "name": "The Four Gospels",
+   "short": "Gospels",
+   "color": "#d98f3a",
+   "writer": "Matthew, Mark, Luke, John",
+   "desc": "Four witnesses of the life, ministry, atonement, and resurrection of Jesus Christ."
+  },
+  "acts-history": {
+   "name": "The Acts of the Apostles",
+   "short": "Acts",
+   "color": "#6f9e6a",
+   "writer": "Luke",
+   "desc": "The church after the ascension: Pentecost, persecution, and the gospel carried from Jerusalem to Rome."
+  },
+  "pauline-epistles": {
+   "name": "The Epistles of Paul",
+   "short": "Paul's Epistles",
+   "color": "#5b8fb0",
+   "writer": "Paul (Hebrews traditionally)",
+   "desc": "Letters to young churches and fellow servants - doctrine, correction, and pastoral tenderness."
+  },
+  "general-epistles": {
+   "name": "The General Epistles",
+   "short": "General Epistles",
+   "color": "#3fa7a0",
+   "writer": "James, Peter, John, Jude",
+   "desc": "Letters to the whole church on faith, trial, charity, and holding fast in the last days."
+  },
+  "apocalypse": {
+   "name": "The Revelation of John",
+   "short": "Revelation",
+   "color": "#b8524f",
+   "writer": "John on Patmos",
+   "desc": "The unveiling: letters to seven churches and visions reaching to the New Jerusalem."
+  },
+  "dc-newyork": {
+   "name": "New York & Pennsylvania Revelations",
+   "short": "NY-PA Era",
+   "color": "#3fa7a0",
+   "writer": "1823 - Jan 1831",
+   "desc": "The angel Moroni, the plates and their translation, restored priesthood, and the organization of the church."
+  },
+  "dc-kirtland": {
+   "name": "Kirtland-Era Revelations",
+   "short": "Kirtland Era",
+   "color": "#e8b64c",
+   "writer": "1831 - 1838",
+   "desc": "The gathering to Ohio: the Law, the visions, the priesthood revelations, and the first temple."
+  },
+  "dc-missouri": {
+   "name": "Missouri-Era Revelations",
+   "short": "Missouri Era",
+   "color": "#b8776b",
+   "writer": "1831 - 1839",
+   "desc": "Zion designated, Zion lost - consecration, persecution, and the prayers of Liberty Jail."
+  },
+  "dc-nauvoo": {
+   "name": "Nauvoo-Era Revelations",
+   "short": "Nauvoo Era",
+   "color": "#8e6bb8",
+   "writer": "1839 - 1846",
+   "desc": "The city beautiful: temple ordinances, baptism for the dead, and the martyrdom."
+  },
+  "dc-later": {
+   "name": "Pioneer Era & Beyond",
+   "short": "Later Revelations",
+   "color": "#5b8fb0",
+   "writer": "1847 - 1918",
+   "desc": "The camp of Israel moves west, and the veil parts once more in 1918."
+  }
+ },
+ "books": [
+  {
+   "slug": "1-nephi",
+   "name": "1 Nephi",
+   "plates": "small-plates",
+   "writer": "nephi1",
+   "span": "600–570 BC"
+  },
+  {
+   "slug": "2-nephi",
+   "name": "2 Nephi",
+   "plates": "small-plates",
+   "writer": "nephi1",
+   "span": "588–545 BC"
+  },
+  {
+   "slug": "jacob",
+   "name": "Jacob",
+   "plates": "small-plates",
+   "writer": "jacob1",
+   "span": "544–421 BC"
+  },
+  {
+   "slug": "enos",
+   "name": "Enos",
+   "plates": "small-plates",
+   "writer": "enos1",
+   "span": "c. 420 BC"
+  },
+  {
+   "slug": "jarom",
+   "name": "Jarom",
+   "plates": "small-plates",
+   "writer": "jarom1",
+   "span": "399–361 BC"
+  },
+  {
+   "slug": "omni",
+   "name": "Omni",
+   "plates": "small-plates",
+   "writer": "amaleki1",
+   "span": "361–130 BC"
+  },
+  {
+   "slug": "words-of-mormon",
+   "name": "Words of Mormon",
+   "plates": "mormon-own",
+   "writer": "mormon",
+   "span": "AD 385"
+  },
+  {
+   "slug": "mosiah",
+   "name": "Mosiah",
+   "plates": "mormon-abridgment",
+   "writer": "mormon",
+   "span": "200–91 BC"
+  },
+  {
+   "slug": "alma",
+   "name": "Alma",
+   "plates": "mormon-abridgment",
+   "writer": "mormon",
+   "span": "91–52 BC"
+  },
+  {
+   "slug": "helaman",
+   "name": "Helaman",
+   "plates": "mormon-abridgment",
+   "writer": "mormon",
+   "span": "52–1 BC"
+  },
+  {
+   "slug": "3-nephi",
+   "name": "3 Nephi",
+   "plates": "mormon-abridgment",
+   "writer": "mormon",
+   "span": "AD 1–35"
+  },
+  {
+   "slug": "4-nephi",
+   "name": "4 Nephi",
+   "plates": "mormon-abridgment",
+   "writer": "mormon",
+   "span": "AD 35–321"
+  },
+  {
+   "slug": "mormon",
+   "name": "Mormon",
+   "plates": "mormon-own",
+   "writer": "mormon",
+   "span": "AD 321–401",
+   "note": "Chapters 8–9 finished by Moroni"
+  },
+  {
+   "slug": "ether",
+   "name": "Ether",
+   "plates": "ether-abridgment",
+   "writer": "moroni",
+   "span": "Jaredite era"
+  },
+  {
+   "slug": "moroni",
+   "name": "Moroni",
+   "plates": "moroni-own",
+   "writer": "moroni",
+   "span": "AD 401–421"
+  }
+ ],
+ "bibleBooks": {
+  "ot": [
+   {
+    "slug": "genesis",
+    "name": "Genesis",
+    "plates": "law",
+    "writer": "moses",
+    "span": "Creation - c. 1700 BC"
+   },
+   {
+    "slug": "exodus",
+    "name": "Exodus",
+    "plates": "law",
+    "writer": "moses",
+    "span": "c. 1300 BC"
+   },
+   {
+    "slug": "leviticus",
+    "name": "Leviticus",
+    "plates": "law",
+    "writer": "moses",
+    "span": "c. 1300 BC"
+   },
+   {
+    "slug": "numbers",
+    "name": "Numbers",
+    "plates": "law",
+    "writer": "moses",
+    "span": "c. 1300-1260 BC"
+   },
+   {
+    "slug": "deuteronomy",
+    "name": "Deuteronomy",
+    "plates": "law",
+    "writer": "moses",
+    "span": "c. 1260 BC"
+   },
+   {
+    "slug": "joshua",
+    "name": "Joshua",
+    "plates": "history",
+    "writer": "joshua",
+    "span": "c. 1250-1200 BC"
+   },
+   {
+    "slug": "judges",
+    "name": "Judges",
+    "plates": "history",
+    "writer": "chronicler",
+    "span": "c. 1200-1050 BC"
+   },
+   {
+    "slug": "ruth",
+    "name": "Ruth",
+    "plates": "history",
+    "writer": "chronicler",
+    "span": "c. 1100 BC"
+   },
+   {
+    "slug": "1-samuel",
+    "name": "1 Samuel",
+    "plates": "history",
+    "writer": "chronicler",
+    "span": "c. 1050-1010 BC"
+   },
+   {
+    "slug": "2-samuel",
+    "name": "2 Samuel",
+    "plates": "history",
+    "writer": "chronicler",
+    "span": "c. 1010-970 BC"
+   },
+   {
+    "slug": "1-kings",
+    "name": "1 Kings",
+    "plates": "history",
+    "writer": "chronicler",
+    "span": "c. 970-850 BC"
+   },
+   {
+    "slug": "2-kings",
+    "name": "2 Kings",
+    "plates": "history",
+    "writer": "chronicler",
+    "span": "c. 850-586 BC"
+   },
+   {
+    "slug": "1-chronicles",
+    "name": "1 Chronicles",
+    "plates": "history",
+    "writer": "chronicler",
+    "span": "c. 1000-970 BC"
+   },
+   {
+    "slug": "2-chronicles",
+    "name": "2 Chronicles",
+    "plates": "history",
+    "writer": "chronicler",
+    "span": "c. 970-538 BC"
+   },
+   {
+    "slug": "ezra",
+    "name": "Ezra",
+    "plates": "history",
+    "writer": "ezra",
+    "span": "538-457 BC"
+   },
+   {
+    "slug": "nehemiah",
+    "name": "Nehemiah",
+    "plates": "history",
+    "writer": "nehemiah",
+    "span": "445-430 BC"
+   },
+   {
+    "slug": "esther",
+    "name": "Esther",
+    "plates": "history",
+    "writer": "chronicler",
+    "span": "c. 475 BC"
+   },
+   {
+    "slug": "job",
+    "name": "Job",
+    "plates": "wisdom",
+    "writer": "chronicler",
+    "span": "patriarchal era"
+   },
+   {
+    "slug": "psalms",
+    "name": "Psalms",
+    "plates": "wisdom",
+    "writer": "david",
+    "span": "c. 1000-400 BC"
+   },
+   {
+    "slug": "proverbs",
+    "name": "Proverbs",
+    "plates": "wisdom",
+    "writer": "solomon",
+    "span": "c. 950 BC"
+   },
+   {
+    "slug": "ecclesiastes",
+    "name": "Ecclesiastes",
+    "plates": "wisdom",
+    "writer": "solomon",
+    "span": "c. 950 BC"
+   },
+   {
+    "slug": "song-of-solomon",
+    "name": "Song of Solomon",
+    "plates": "wisdom",
+    "writer": "solomon",
+    "span": "c. 950 BC"
+   },
+   {
+    "slug": "isaiah",
+    "name": "Isaiah",
+    "plates": "prophets-major",
+    "writer": "isaiah",
+    "span": "c. 740-690 BC"
+   },
+   {
+    "slug": "jeremiah",
+    "name": "Jeremiah",
+    "plates": "prophets-major",
+    "writer": "jeremiah",
+    "span": "626-580 BC"
+   },
+   {
+    "slug": "lamentations",
+    "name": "Lamentations",
+    "plates": "prophets-major",
+    "writer": "jeremiah",
+    "span": "586 BC"
+   },
+   {
+    "slug": "ezekiel",
+    "name": "Ezekiel",
+    "plates": "prophets-major",
+    "writer": "ezekiel",
+    "span": "593-570 BC"
+   },
+   {
+    "slug": "daniel",
+    "name": "Daniel",
+    "plates": "prophets-major",
+    "writer": "daniel",
+    "span": "c. 600-536 BC"
+   },
+   {
+    "slug": "hosea",
+    "name": "Hosea",
+    "plates": "prophets-minor",
+    "writer": "hosea",
+    "span": "c. 750 BC"
+   },
+   {
+    "slug": "joel",
+    "name": "Joel",
+    "plates": "prophets-minor",
+    "writer": "chronicler",
+    "span": "c. 600 BC"
+   },
+   {
+    "slug": "amos",
+    "name": "Amos",
+    "plates": "prophets-minor",
+    "writer": "amos",
+    "span": "c. 760 BC"
+   },
+   {
+    "slug": "obadiah",
+    "name": "Obadiah",
+    "plates": "prophets-minor",
+    "writer": "chronicler",
+    "span": "c. 580 BC"
+   },
+   {
+    "slug": "jonah",
+    "name": "Jonah",
+    "plates": "prophets-minor",
+    "writer": "jonah",
+    "span": "c. 780 BC"
+   },
+   {
+    "slug": "micah",
+    "name": "Micah",
+    "plates": "prophets-minor",
+    "writer": "micah",
+    "span": "c. 720 BC"
+   },
+   {
+    "slug": "nahum",
+    "name": "Nahum",
+    "plates": "prophets-minor",
+    "writer": "chronicler",
+    "span": "c. 650 BC"
+   },
+   {
+    "slug": "habakkuk",
+    "name": "Habakkuk",
+    "plates": "prophets-minor",
+    "writer": "chronicler",
+    "span": "c. 620 BC"
+   },
+   {
+    "slug": "zephaniah",
+    "name": "Zephaniah",
+    "plates": "prophets-minor",
+    "writer": "chronicler",
+    "span": "c. 620 BC"
+   },
+   {
+    "slug": "haggai",
+    "name": "Haggai",
+    "plates": "prophets-minor",
+    "writer": "chronicler",
+    "span": "520 BC"
+   },
+   {
+    "slug": "zechariah",
+    "name": "Zechariah",
+    "plates": "prophets-minor",
+    "writer": "zechariah-prophet",
+    "span": "520-480 BC"
+   },
+   {
+    "slug": "malachi",
+    "name": "Malachi",
+    "plates": "prophets-minor",
+    "writer": "malachi",
+    "span": "c. 430 BC"
+   }
+  ],
+  "nt": [
+   {
+    "slug": "matthew",
+    "name": "Matthew",
+    "plates": "gospels",
+    "writer": "matthew",
+    "span": "4 BC - AD 33"
+   },
+   {
+    "slug": "mark",
+    "name": "Mark",
+    "plates": "gospels",
+    "writer": "mark",
+    "span": "AD 30-33"
+   },
+   {
+    "slug": "luke",
+    "name": "Luke",
+    "plates": "gospels",
+    "writer": "luke",
+    "span": "4 BC - AD 33"
+   },
+   {
+    "slug": "john",
+    "name": "John",
+    "plates": "gospels",
+    "writer": "john-beloved",
+    "span": "AD 30-33"
+   },
+   {
+    "slug": "acts",
+    "name": "Acts",
+    "plates": "acts-history",
+    "writer": "luke",
+    "span": "AD 33-62"
+   },
+   {
+    "slug": "romans",
+    "name": "Romans",
+    "plates": "pauline-epistles",
+    "writer": "paul",
+    "span": "AD 57"
+   },
+   {
+    "slug": "1-corinthians",
+    "name": "1 Corinthians",
+    "plates": "pauline-epistles",
+    "writer": "paul",
+    "span": "AD 55"
+   },
+   {
+    "slug": "2-corinthians",
+    "name": "2 Corinthians",
+    "plates": "pauline-epistles",
+    "writer": "paul",
+    "span": "AD 56"
+   },
+   {
+    "slug": "galatians",
+    "name": "Galatians",
+    "plates": "pauline-epistles",
+    "writer": "paul",
+    "span": "AD 50"
+   },
+   {
+    "slug": "ephesians",
+    "name": "Ephesians",
+    "plates": "pauline-epistles",
+    "writer": "paul",
+    "span": "AD 61"
+   },
+   {
+    "slug": "philippians",
+    "name": "Philippians",
+    "plates": "pauline-epistles",
+    "writer": "paul",
+    "span": "AD 61"
+   },
+   {
+    "slug": "colossians",
+    "name": "Colossians",
+    "plates": "pauline-epistles",
+    "writer": "paul",
+    "span": "AD 61"
+   },
+   {
+    "slug": "1-thessalonians",
+    "name": "1 Thessalonians",
+    "plates": "pauline-epistles",
+    "writer": "paul",
+    "span": "AD 51"
+   },
+   {
+    "slug": "2-thessalonians",
+    "name": "2 Thessalonians",
+    "plates": "pauline-epistles",
+    "writer": "paul",
+    "span": "AD 51"
+   },
+   {
+    "slug": "1-timothy",
+    "name": "1 Timothy",
+    "plates": "pauline-epistles",
+    "writer": "paul",
+    "span": "AD 64"
+   },
+   {
+    "slug": "2-timothy",
+    "name": "2 Timothy",
+    "plates": "pauline-epistles",
+    "writer": "paul",
+    "span": "AD 66"
+   },
+   {
+    "slug": "titus",
+    "name": "Titus",
+    "plates": "pauline-epistles",
+    "writer": "paul",
+    "span": "AD 64"
+   },
+   {
+    "slug": "philemon",
+    "name": "Philemon",
+    "plates": "pauline-epistles",
+    "writer": "paul",
+    "span": "AD 61"
+   },
+   {
+    "slug": "hebrews",
+    "name": "Hebrews",
+    "plates": "pauline-epistles",
+    "writer": "paul",
+    "span": "c. AD 65"
+   },
+   {
+    "slug": "james",
+    "name": "James",
+    "plates": "general-epistles",
+    "writer": "james-just",
+    "span": "c. AD 49"
+   },
+   {
+    "slug": "1-peter",
+    "name": "1 Peter",
+    "plates": "general-epistles",
+    "writer": "peter",
+    "span": "AD 64"
+   },
+   {
+    "slug": "2-peter",
+    "name": "2 Peter",
+    "plates": "general-epistles",
+    "writer": "peter",
+    "span": "AD 66"
+   },
+   {
+    "slug": "1-john",
+    "name": "1 John",
+    "plates": "general-epistles",
+    "writer": "john-beloved",
+    "span": "c. AD 90"
+   },
+   {
+    "slug": "2-john",
+    "name": "2 John",
+    "plates": "general-epistles",
+    "writer": "john-beloved",
+    "span": "c. AD 90"
+   },
+   {
+    "slug": "3-john",
+    "name": "3 John",
+    "plates": "general-epistles",
+    "writer": "john-beloved",
+    "span": "c. AD 90"
+   },
+   {
+    "slug": "jude",
+    "name": "Jude",
+    "plates": "general-epistles",
+    "writer": "jude",
+    "span": "c. AD 70"
+   },
+   {
+    "slug": "revelation",
+    "name": "Revelation",
+    "plates": "apocalypse",
+    "writer": "john-beloved",
+    "span": "c. AD 95"
+   }
+  ],
+  "dc": [
+   {
+    "slug": "dc",
+    "name": "Doctrine & Covenants",
+    "plates": "dc-kirtland",
+    "writer": "joseph-smith",
+    "span": "1823-1918"
+   }
   ]
+ }
 }

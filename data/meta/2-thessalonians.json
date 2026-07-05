@@ -1,0 +1,50 @@
+{
+  "book": "2 Thessalonians",
+  "slug": "2-thessalonians",
+  "narrator": "paul",
+  "plates": "pauline-epistles",
+  "chapters": [
+    {
+      "c": 1,
+      "title": "Rest When the Lord Appears",
+      "synopsis": "Paul thanks God that the Thessalonians' faith grows exceedingly and their charity abounds even amid persecutions and tribulations. He promises that God will recompense rest to the troubled saints when the Lord Jesus is revealed from heaven with his mighty angels in flaming fire, taking vengeance on them that know not God, and glorified in his saints in that day.",
+      "years": "AD 51",
+      "yearNum": 51,
+      "approx": false,
+      "place": null,
+      "themes": ["second-coming", "endurance", "judgment"],
+      "characters": ["paul", "silas", "timothy", "jesus-christ"],
+      "segments": [
+        { "s": 1, "e": 12, "speaker": "paul", "to": "church", "note": "Growing faith; rest at Christ's fiery revelation" }
+      ]
+    },
+    {
+      "c": 2,
+      "title": "A Falling Away First",
+      "synopsis": "Paul corrects the report that the day of Christ is at hand, teaching that that day shall not come except there come a falling away first, and that man of sin be revealed, the son of perdition, who exalts himself above all that is called God. The Lord shall consume that wicked one with the brightness of his coming, so the saints must stand fast and hold the traditions they have been taught.",
+      "years": "AD 51",
+      "yearNum": 51,
+      "approx": false,
+      "place": null,
+      "themes": ["apostasy", "second-coming", "endurance"],
+      "characters": ["paul", "satan", "jesus-christ"],
+      "segments": [
+        { "s": 1, "e": 17, "speaker": "paul", "to": "church", "note": "Apostasy must precede the day of Christ" }
+      ]
+    },
+    {
+      "c": 3,
+      "title": "Be Not Weary in Well Doing",
+      "synopsis": "Paul asks the saints to pray that the word of the Lord may have free course, and expresses confidence that the Lord will stablish and keep them from evil. He commands them to withdraw from every brother that walks disorderly, reminding them of his own example of laboring night and day, for if any would not work, neither should he eat, and he charges all to be not weary in well doing.",
+      "years": "AD 51",
+      "yearNum": 51,
+      "approx": false,
+      "place": null,
+      "themes": ["obedience", "endurance", "discipleship"],
+      "characters": ["paul"],
+      "segments": [
+        { "s": 1, "e": 18, "speaker": "paul", "to": "church", "note": "Work quietly; withdraw from the disorderly" }
+      ]
+    }
+  ]
+}

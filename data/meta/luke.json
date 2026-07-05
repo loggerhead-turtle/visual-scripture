@@ -1,0 +1,401 @@
+{
+  "book": "Luke",
+  "slug": "luke",
+  "narrator": "luke",
+  "plates": "gospels",
+  "chapters": [
+    {
+      "c": 1,
+      "title": "Two Miraculous Births Foretold",
+      "synopsis": "The angel Gabriel promises the aged Zacharias a son named John, then announces to the virgin Mary that she will bear the Son of God. Mary visits Elisabeth, who blesses her, and Mary answers with the Magnificat, magnifying the Lord who exalts the lowly. John the Baptist is born, and his father prophesies that the child will prepare the way of the Lord.",
+      "years": "about 4 BC",
+      "yearNum": -4,
+      "approx": true,
+      "place": "nazareth",
+      "themes": ["prophecy", "faith", "family"],
+      "characters": ["mary", "elisabeth", "john-baptist", "angel"],
+      "segments": [
+        { "s": 1, "e": 4, "speaker": "luke", "to": "reader", "note": "Luke's preface to Theophilus" },
+        { "s": 5, "e": 25, "speaker": "luke", "to": "reader", "note": "Gabriel promises Zacharias a son, John" },
+        { "s": 26, "e": 38, "speaker": "angel", "to": "mary", "note": "Gabriel announces the birth of Jesus" },
+        { "s": 39, "e": 45, "speaker": "luke", "to": "reader", "note": "Mary visits Elisabeth, who blesses her" },
+        { "s": 46, "e": 55, "speaker": "mary", "to": "elisabeth", "note": "The Magnificat: my soul doth magnify the Lord" },
+        { "s": 56, "e": 80, "speaker": "luke", "to": "reader", "note": "John is born; Zacharias prophesies" }
+      ]
+    },
+    {
+      "c": 2,
+      "title": "The Babe of Bethlehem",
+      "synopsis": "Mary and Joseph travel to Bethlehem, where Jesus is born and laid in a manger, and angels declare good tidings of great joy to shepherds. At the temple, Simeon and Anna recognize the infant as the promised salvation of Israel. Twelve years later the boy Jesus is found in the temple about his Father's business, growing in wisdom and favor.",
+      "years": "about 4 BC",
+      "yearNum": -4,
+      "approx": true,
+      "place": "bethlehem",
+      "themes": ["messiah", "prophecy", "family"],
+      "characters": ["jesus-christ", "mary", "joseph-carpenter", "simeon-anna", "angel"],
+      "segments": [
+        { "s": 1, "e": 20, "speaker": "luke", "to": "reader", "note": "Jesus born; angels sing to shepherds" },
+        { "s": 21, "e": 40, "speaker": "luke", "to": "reader", "note": "Simeon and Anna greet the infant Christ" },
+        { "s": 41, "e": 52, "speaker": "luke", "to": "reader", "note": "The boy Jesus in the temple" }
+      ]
+    },
+    {
+      "c": 3,
+      "title": "A Voice in the Wilderness",
+      "synopsis": "John the Baptist preaches repentance and baptism along the Jordan, warning that the axe is laid at the root of the trees. He baptizes Jesus, upon whom the Holy Ghost descends as the Father declares him his beloved Son. Luke traces Jesus's lineage back through David and Abraham to Adam.",
+      "years": "about AD 30",
+      "yearNum": 30,
+      "approx": true,
+      "place": "jordan-river",
+      "themes": ["baptism", "repentance", "prophecy"],
+      "characters": ["john-baptist", "jesus-christ", "herod", "god-the-father"],
+      "segments": [
+        { "s": 1, "e": 6, "speaker": "luke", "to": "reader", "note": "John preaches in the wilderness" },
+        { "s": 7, "e": 17, "speaker": "john-baptist", "to": "multitude", "note": "Bring forth fruits worthy of repentance" },
+        { "s": 18, "e": 22, "speaker": "luke", "to": "reader", "note": "Jesus is baptized; the Father speaks" },
+        { "s": 23, "e": 38, "speaker": "luke", "to": "reader", "note": "The genealogy of Jesus" }
+      ]
+    },
+    {
+      "c": 4,
+      "title": "Tempted, Anointed, and Rejected",
+      "synopsis": "After fasting forty days, Jesus repels the devil's temptations with scripture. In the Nazareth synagogue he reads Isaiah's prophecy of the Messiah and declares it fulfilled, but his own townspeople try to cast him off a cliff. He moves to Capernaum, where he teaches with authority, casts out devils, and heals the sick.",
+      "years": "about AD 30",
+      "yearNum": 30,
+      "approx": true,
+      "place": "nazareth",
+      "themes": ["messiah", "miracles", "obedience"],
+      "characters": ["jesus-christ", "satan"],
+      "segments": [
+        { "s": 1, "e": 13, "speaker": "luke", "to": "reader", "note": "Jesus fasts and overcomes the tempter" },
+        { "s": 14, "e": 30, "speaker": "luke", "to": "reader", "note": "Rejected at Nazareth after reading Isaiah" },
+        { "s": 31, "e": 44, "speaker": "luke", "to": "reader", "note": "Devils cast out and sick healed at Capernaum" }
+      ]
+    },
+    {
+      "c": 5,
+      "title": "Nets Filled and Sinners Called",
+      "synopsis": "At Jesus's word Peter lets down his nets and hauls in a miraculous catch, and the fishermen forsake all to follow him. Jesus cleanses a leper and forgives and heals a palsied man lowered through the roof. He calls Levi the publican and teaches that he came to call sinners to repentance.",
+      "years": "about AD 30",
+      "yearNum": 30,
+      "approx": true,
+      "place": "sea-of-galilee",
+      "themes": ["discipleship", "miracles", "repentance"],
+      "characters": ["jesus-christ", "peter", "james", "john-beloved", "matthew"],
+      "segments": [
+        { "s": 1, "e": 11, "speaker": "luke", "to": "reader", "note": "The miraculous catch; fishers of men" },
+        { "s": 12, "e": 26, "speaker": "luke", "to": "reader", "note": "A leper cleansed; a palsied man forgiven" },
+        { "s": 27, "e": 39, "speaker": "luke", "to": "reader", "note": "Levi called; new wine in new bottles" }
+      ]
+    },
+    {
+      "c": 6,
+      "title": "Apostles Chosen, Beatitudes Spoken",
+      "synopsis": "Jesus declares himself Lord of the sabbath and heals a withered hand despite the watching scribes. After a night of prayer he chooses twelve apostles. On a plain he blesses the poor and persecuted, commands love for enemies, and teaches that a true disciple builds on the rock by hearing and doing his sayings.",
+      "years": "about AD 31",
+      "yearNum": 31,
+      "approx": true,
+      "place": "sea-of-galilee",
+      "themes": ["discipleship", "charity", "obedience"],
+      "characters": ["jesus-christ", "peter", "judas-iscariot"],
+      "segments": [
+        { "s": 1, "e": 11, "speaker": "luke", "to": "reader", "note": "Lord of the sabbath; a hand restored" },
+        { "s": 12, "e": 19, "speaker": "luke", "to": "reader", "note": "Twelve apostles chosen after prayer" },
+        { "s": 20, "e": 49, "speaker": "jesus-christ", "to": "disciples", "note": "Sermon on the plain: love your enemies" }
+      ]
+    },
+    {
+      "c": 7,
+      "title": "Faith Great and Love Greater",
+      "synopsis": "Jesus marvels at a centurion whose faith exceeds any in Israel and heals his servant from afar, then raises the widow of Nain's son from his bier. He assures John the Baptist's messengers with his miracles and testifies that none born of women is greater than John. In a Pharisee's house a weeping woman anoints his feet, and Jesus teaches that her many sins are forgiven because she loved much.",
+      "years": "about AD 31",
+      "yearNum": 31,
+      "approx": true,
+      "place": "capernaum",
+      "themes": ["faith", "miracles", "grace"],
+      "characters": ["jesus-christ", "john-baptist"],
+      "segments": [
+        { "s": 1, "e": 17, "speaker": "luke", "to": "reader", "note": "The centurion's servant; the widow's son raised" },
+        { "s": 18, "e": 23, "speaker": "luke", "to": "reader", "note": "John's messengers see the miracles" },
+        { "s": 24, "e": 35, "speaker": "jesus-christ", "to": "multitude", "note": "None greater than John the Baptist" },
+        { "s": 36, "e": 50, "speaker": "luke", "to": "reader", "note": "A forgiven woman loves much" }
+      ]
+    },
+    {
+      "c": 8,
+      "title": "The Sower, the Storm, the Sleeping Child",
+      "synopsis": "Jesus teaches the parable of the sower, explaining how the word of God fares in different hearts. He stills a raging storm on the lake and frees a man possessed by a legion of devils. Returning, he heals a woman who touches his hem in faith and raises the daughter of Jairus from death.",
+      "years": "about AD 31",
+      "yearNum": 31,
+      "approx": true,
+      "place": "sea-of-galilee",
+      "themes": ["parables", "faith", "miracles"],
+      "characters": ["jesus-christ", "mary-magdalene", "peter"],
+      "segments": [
+        { "s": 1, "e": 3, "speaker": "luke", "to": "reader", "note": "Faithful women minister to Jesus" },
+        { "s": 4, "e": 18, "speaker": "jesus-christ", "to": "multitude", "note": "Parable of the sower expounded" },
+        { "s": 19, "e": 25, "speaker": "luke", "to": "reader", "note": "Jesus stills the storm" },
+        { "s": 26, "e": 39, "speaker": "luke", "to": "reader", "note": "A legion of devils cast out" },
+        { "s": 40, "e": 56, "speaker": "luke", "to": "reader", "note": "A woman healed; Jairus's daughter raised" }
+      ]
+    },
+    {
+      "c": 9,
+      "title": "Confession, Transfiguration, and the Cross",
+      "synopsis": "Jesus sends the twelve to preach and heal, then feeds five thousand with five loaves and two fishes. Peter confesses him as the Christ of God, and on the mount Jesus is transfigured while Moses and Elias speak with him and the Father's voice owns him. He teaches that whoever would follow him must take up his cross daily, and he sets his face steadfastly toward Jerusalem.",
+      "years": "about AD 32",
+      "yearNum": 32,
+      "approx": true,
+      "place": "sea-of-galilee",
+      "themes": ["revelation", "discipleship", "miracles"],
+      "characters": ["jesus-christ", "peter", "james", "john-beloved", "moses", "elijah", "herod"],
+      "segments": [
+        { "s": 1, "e": 17, "speaker": "luke", "to": "reader", "note": "The twelve sent; five thousand fed" },
+        { "s": 18, "e": 27, "speaker": "luke", "to": "reader", "note": "Peter's confession; take up the cross" },
+        { "s": 28, "e": 45, "speaker": "luke", "to": "reader", "note": "The transfiguration; a possessed boy healed" },
+        { "s": 46, "e": 62, "speaker": "luke", "to": "reader", "note": "Greatness, tolerance, and the cost of following" }
+      ]
+    },
+    {
+      "c": 10,
+      "title": "The Good Samaritan",
+      "synopsis": "Jesus sends seventy disciples ahead of him two by two, and they return rejoicing that even devils are subject to them. When a lawyer asks who his neighbour is, Jesus answers with the parable of the good Samaritan, who shows mercy where priest and Levite pass by. At Bethany, Martha is cumbered with serving while Mary chooses the good part at Jesus's feet.",
+      "years": "about AD 32",
+      "yearNum": 32,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["parables", "charity", "discipleship"],
+      "characters": ["jesus-christ", "martha", "satan"],
+      "segments": [
+        { "s": 1, "e": 24, "speaker": "luke", "to": "reader", "note": "The seventy sent out and return rejoicing" },
+        { "s": 25, "e": 37, "speaker": "jesus-christ", "to": "pharisees", "note": "The good Samaritan: who is my neighbour" },
+        { "s": 38, "e": 42, "speaker": "luke", "to": "reader", "note": "Martha serves; Mary chooses the good part" }
+      ]
+    },
+    {
+      "c": 11,
+      "title": "Teach Us to Pray",
+      "synopsis": "Jesus gives his disciples the Lord's prayer and promises that the Father gives good gifts to those who ask, seek, and knock. Accused of casting out devils by Beelzebub, he answers that a kingdom divided against itself cannot stand. He pronounces woes on Pharisees and lawyers who clean the outside of the cup while neglecting judgment and the love of God.",
+      "years": "about AD 32",
+      "yearNum": 32,
+      "approx": true,
+      "place": null,
+      "themes": ["prayer", "judgment", "apostasy"],
+      "characters": ["jesus-christ", "satan"],
+      "segments": [
+        { "s": 1, "e": 13, "speaker": "jesus-christ", "to": "disciples", "note": "The Lord's prayer; ask and receive" },
+        { "s": 14, "e": 36, "speaker": "jesus-christ", "to": "multitude", "note": "A kingdom divided; the light of the body" },
+        { "s": 37, "e": 54, "speaker": "jesus-christ", "to": "pharisees", "note": "Woes upon Pharisees and lawyers" }
+      ]
+    },
+    {
+      "c": 12,
+      "title": "Treasure in Heaven, Not Barns",
+      "synopsis": "Jesus warns against the hypocrisy of the Pharisees and teaches that nothing hidden shall remain unrevealed. He tells of a rich fool whose full barns cannot ransom his soul, then bids his disciples take no thought for their life, for the Father delights to give them the kingdom. He calls all to be watchful servants, ready for their Lord's return.",
+      "years": "about AD 32",
+      "yearNum": 32,
+      "approx": true,
+      "place": null,
+      "themes": ["parables", "consecration", "second-coming"],
+      "characters": ["jesus-christ", "peter"],
+      "segments": [
+        { "s": 1, "e": 12, "speaker": "jesus-christ", "to": "disciples", "note": "Beware hypocrisy; fear not them that kill" },
+        { "s": 13, "e": 21, "speaker": "jesus-christ", "to": "multitude", "note": "Parable of the rich fool" },
+        { "s": 22, "e": 53, "speaker": "jesus-christ", "to": "disciples", "note": "Consider the ravens; be ready servants" },
+        { "s": 54, "e": 59, "speaker": "jesus-christ", "to": "multitude", "note": "Discern this time" }
+      ]
+    },
+    {
+      "c": 13,
+      "title": "Except Ye Repent",
+      "synopsis": "Jesus teaches that all must repent or perish and tells of a barren fig tree given one more year to bear fruit. He heals a bowed-down woman on the sabbath and likens the kingdom to a mustard seed and leaven. Urging his hearers to strive to enter the strait gate, he laments over Jerusalem, which kills the prophets sent to gather her.",
+      "years": "about AD 32",
+      "yearNum": 32,
+      "approx": true,
+      "place": null,
+      "themes": ["repentance", "parables", "judgment"],
+      "characters": ["jesus-christ", "herod"],
+      "segments": [
+        { "s": 1, "e": 9, "speaker": "jesus-christ", "to": "multitude", "note": "Repent or perish; the barren fig tree" },
+        { "s": 10, "e": 21, "speaker": "luke", "to": "reader", "note": "A woman loosed on the sabbath; mustard seed" },
+        { "s": 22, "e": 35, "speaker": "jesus-christ", "to": "multitude", "note": "The strait gate; lament over Jerusalem" }
+      ]
+    },
+    {
+      "c": 14,
+      "title": "Bidden to the Great Supper",
+      "synopsis": "Dining with Pharisees on the sabbath, Jesus heals a man and teaches guests to take the lowest room and hosts to invite the poor. He tells of a great supper whose invited guests all make excuses, so the master fills his house from the highways and hedges. Turning to the multitude, he warns that discipleship demands counting the cost and bearing one's cross.",
+      "years": "about AD 32",
+      "yearNum": 32,
+      "approx": true,
+      "place": null,
+      "themes": ["parables", "humility", "discipleship"],
+      "characters": ["jesus-christ"],
+      "segments": [
+        { "s": 1, "e": 24, "speaker": "jesus-christ", "to": "pharisees", "note": "Take the lowest room; the great supper" },
+        { "s": 25, "e": 35, "speaker": "jesus-christ", "to": "multitude", "note": "Count the cost of discipleship" }
+      ]
+    },
+    {
+      "c": 15,
+      "title": "The Prodigal Son Comes Home",
+      "synopsis": "When Pharisees murmur that Jesus receives sinners, he answers with three parables of the lost: the shepherd who leaves ninety and nine for one sheep, the woman who sweeps her house for one coin, and the father who runs to embrace his returning prodigal son. Each ends in joy, for heaven rejoices over one sinner that repenteth. The elder brother's grudging heart is gently answered: it was meet to make merry, for the lost is found.",
+      "years": "about AD 32",
+      "yearNum": 32,
+      "approx": true,
+      "place": null,
+      "themes": ["parables", "repentance", "grace"],
+      "characters": ["jesus-christ"],
+      "segments": [
+        { "s": 1, "e": 2, "speaker": "luke", "to": "reader", "note": "Publicans draw near; Pharisees murmur" },
+        { "s": 3, "e": 10, "speaker": "jesus-christ", "to": "pharisees", "note": "The lost sheep and the lost coin" },
+        { "s": 11, "e": 32, "speaker": "jesus-christ", "to": "pharisees", "note": "The prodigal son: dead, and alive again" }
+      ]
+    },
+    {
+      "c": 16,
+      "title": "Mammon and the Beggar Lazarus",
+      "synopsis": "Jesus tells of an unjust steward whose shrewdness shames the children of light, teaching that no servant can serve both God and mammon. To the covetous Pharisees he recounts the rich man who ignored the beggar Lazarus at his gate and awoke in torment across a great gulf. Those who hear not Moses and the prophets will not be persuaded though one rose from the dead.",
+      "years": "about AD 32",
+      "yearNum": 32,
+      "approx": true,
+      "place": null,
+      "themes": ["parables", "consecration", "judgment"],
+      "characters": ["jesus-christ", "abraham"],
+      "segments": [
+        { "s": 1, "e": 13, "speaker": "jesus-christ", "to": "disciples", "note": "The unjust steward; God or mammon" },
+        { "s": 14, "e": 31, "speaker": "jesus-christ", "to": "pharisees", "note": "The rich man and Lazarus" }
+      ]
+    },
+    {
+      "c": 17,
+      "title": "Ten Cleansed, One Grateful",
+      "synopsis": "Jesus teaches boundless forgiveness and that faith like a grain of mustard seed can uproot trees. Ten lepers are cleansed on the way to the priests, but only a Samaritan returns to give glory to God. Asked when the kingdom comes, Jesus answers that it is within and warns that his day will overtake the careless as in the days of Noah and Lot.",
+      "years": "about AD 32",
+      "yearNum": 32,
+      "approx": true,
+      "place": null,
+      "themes": ["faith", "miracles", "second-coming"],
+      "characters": ["jesus-christ", "noah"],
+      "segments": [
+        { "s": 1, "e": 10, "speaker": "jesus-christ", "to": "disciples", "note": "Forgive often; unprofitable servants" },
+        { "s": 11, "e": 19, "speaker": "luke", "to": "reader", "note": "Ten lepers cleansed; one returns thanks" },
+        { "s": 20, "e": 37, "speaker": "jesus-christ", "to": "disciples", "note": "The days of the Son of man" }
+      ]
+    },
+    {
+      "c": 18,
+      "title": "Prayers, Children, and a Blind Man",
+      "synopsis": "Jesus teaches persistence in prayer through the importunate widow and humility through the publican who is justified over the boasting Pharisee. He blesses little children and invites a rich young ruler to sell all and follow him, observing how hard riches make entry into the kingdom. Foretelling his death a third time, he nears Jericho and gives sight to a blind beggar whose faith saves him.",
+      "years": "about AD 33",
+      "yearNum": 33,
+      "approx": true,
+      "place": "jericho",
+      "themes": ["prayer", "humility", "faith"],
+      "characters": ["jesus-christ", "peter"],
+      "segments": [
+        { "s": 1, "e": 14, "speaker": "jesus-christ", "to": "disciples", "note": "The importunate widow; Pharisee and publican" },
+        { "s": 15, "e": 30, "speaker": "luke", "to": "reader", "note": "Little children; the rich ruler" },
+        { "s": 31, "e": 43, "speaker": "luke", "to": "reader", "note": "Death foretold; a blind man receives sight" }
+      ]
+    },
+    {
+      "c": 19,
+      "title": "Zacchaeus and the Triumphal Entry",
+      "synopsis": "Jesus calls Zacchaeus down from the sycomore tree and declares salvation come to his house, for the Son of man is come to seek and save the lost. He tells the parable of the pounds, requiring servants to improve what their lord entrusts. Riding into Jerusalem amid hosannas, he weeps over the city that knew not its day of visitation and casts the merchants from the temple.",
+      "years": "AD 33",
+      "yearNum": 33,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["repentance", "parables", "temple"],
+      "characters": ["jesus-christ", "zacchaeus"],
+      "segments": [
+        { "s": 1, "e": 10, "speaker": "luke", "to": "reader", "note": "Zacchaeus receives the Lord joyfully" },
+        { "s": 11, "e": 27, "speaker": "jesus-christ", "to": "multitude", "note": "Parable of the pounds" },
+        { "s": 28, "e": 48, "speaker": "luke", "to": "reader", "note": "Triumphal entry; Jesus weeps; temple cleansed" }
+      ]
+    },
+    {
+      "c": 20,
+      "title": "Questions in the Temple",
+      "synopsis": "Chief priests demand to know by what authority Jesus acts, and he answers with the parable of the wicked husbandmen who slay the vineyard lord's son. Spies fail to snare him over tribute, for he bids them render to Caesar what is Caesar's and to God what is God's. He silences the Sadducees on the resurrection, testifying that God is not the God of the dead but of the living.",
+      "years": "AD 33",
+      "yearNum": 33,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["parables", "resurrection", "judgment"],
+      "characters": ["jesus-christ", "david"],
+      "segments": [
+        { "s": 1, "e": 19, "speaker": "luke", "to": "reader", "note": "Authority challenged; the wicked husbandmen" },
+        { "s": 20, "e": 40, "speaker": "luke", "to": "reader", "note": "Tribute to Caesar; God of the living" },
+        { "s": 41, "e": 47, "speaker": "jesus-christ", "to": "multitude", "note": "David's son and Lord; beware the scribes" }
+      ]
+    },
+    {
+      "c": 21,
+      "title": "Signs Before the Son Comes",
+      "synopsis": "Jesus declares that a poor widow's two mites outweigh the rich men's gifts. He foretells the destruction of the temple and Jerusalem, the persecution of his disciples, and the signs in sun, moon, and stars that will precede his coming in a cloud with power and great glory. He bids his followers watch and pray, that they may stand before the Son of man.",
+      "years": "AD 33",
+      "yearNum": 33,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["prophecy", "second-coming", "endurance"],
+      "characters": ["jesus-christ"],
+      "segments": [
+        { "s": 1, "e": 4, "speaker": "luke", "to": "reader", "note": "The widow's two mites" },
+        { "s": 5, "e": 38, "speaker": "jesus-christ", "to": "disciples", "note": "Signs of Jerusalem's fall and the second coming" }
+      ]
+    },
+    {
+      "c": 22,
+      "title": "The Last Supper and Gethsemane",
+      "synopsis": "Judas covenants to betray Jesus, who keeps the passover with the twelve and institutes the sacrament of bread and wine in remembrance of his body and blood. In Gethsemane he prays in agony until his sweat falls as great drops of blood, an angel strengthening him. He is betrayed with a kiss, Peter denies him thrice before the cock crows, and the council condemns him for declaring himself the Son of God.",
+      "years": "AD 33",
+      "yearNum": 33,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["atonement", "sacrament", "prayer"],
+      "characters": ["jesus-christ", "peter", "judas-iscariot", "satan", "angel"],
+      "segments": [
+        { "s": 1, "e": 13, "speaker": "luke", "to": "reader", "note": "Judas covenants; the passover prepared" },
+        { "s": 14, "e": 38, "speaker": "jesus-christ", "to": "disciples", "note": "The sacrament instituted; greatness in service" },
+        { "s": 39, "e": 46, "speaker": "luke", "to": "reader", "note": "The agony in Gethsemane" },
+        { "s": 47, "e": 62, "speaker": "luke", "to": "reader", "note": "Betrayal, arrest, and Peter's denial" },
+        { "s": 63, "e": 71, "speaker": "luke", "to": "reader", "note": "Mocked and condemned before the council" }
+      ]
+    },
+    {
+      "c": 23,
+      "title": "Crucified Between Two Malefactors",
+      "synopsis": "Pilate and Herod find no fault in Jesus, yet the multitude demands Barabbas and Jesus is delivered to be crucified. On the cross he pleads forgiveness for his executioners and promises paradise to the penitent thief beside him. Darkness covers the land as he commends his spirit to the Father and dies, and his body is laid in a new sepulchre before the sabbath.",
+      "years": "AD 33",
+      "yearNum": 33,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["atonement", "justice-and-mercy", "martyrdom"],
+      "characters": ["jesus-christ", "pilate", "herod"],
+      "segments": [
+        { "s": 1, "e": 25, "speaker": "luke", "to": "reader", "note": "Before Pilate and Herod; Barabbas released" },
+        { "s": 26, "e": 43, "speaker": "luke", "to": "reader", "note": "Crucified; Father, forgive them" },
+        { "s": 44, "e": 56, "speaker": "luke", "to": "reader", "note": "Death, darkness, and burial" }
+      ]
+    },
+    {
+      "c": 24,
+      "title": "The Road to Emmaus",
+      "synopsis": "Women find the tomb empty and angels declare that the Lord is risen. On the road to Emmaus the risen Jesus walks unrecognized with two disciples, expounding all the scriptures concerning himself until their hearts burn and he is known in the breaking of bread. He appears to the gathered disciples, eats before them to prove he has flesh and bones, commissions them as witnesses, and ascends toward heaven in blessing.",
+      "years": "AD 33",
+      "yearNum": 33,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["resurrection", "hope", "revelation"],
+      "characters": ["jesus-christ", "peter", "mary-magdalene", "angel"],
+      "segments": [
+        { "s": 1, "e": 12, "speaker": "luke", "to": "reader", "note": "The empty tomb; he is risen" },
+        { "s": 13, "e": 35, "speaker": "luke", "to": "reader", "note": "The road to Emmaus; hearts burn" },
+        { "s": 36, "e": 49, "speaker": "jesus-christ", "to": "disciples", "note": "Behold my hands; ye are witnesses" },
+        { "s": 50, "e": 53, "speaker": "luke", "to": "reader", "note": "The ascension at Bethany" }
+      ]
+    }
+  ]
+}

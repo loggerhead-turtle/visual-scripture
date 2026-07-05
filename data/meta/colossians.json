@@ -1,0 +1,64 @@
+{
+  "book": "Colossians",
+  "slug": "colossians",
+  "narrator": "paul",
+  "plates": "pauline-epistles",
+  "chapters": [
+    {
+      "c": 1,
+      "title": "The Image of the Invisible God",
+      "synopsis": "Paul gives thanks for the faith and love of the Colossian saints and prays that they may be filled with the knowledge of God's will, giving thanks to the Father who has delivered them from the power of darkness into the kingdom of his dear Son. He exalts Christ as the image of the invisible God, the firstborn of every creature, by whom all things were created and in whom all things consist, who has reconciled all things through the blood of his cross.",
+      "years": "AD 61",
+      "yearNum": 61,
+      "approx": false,
+      "place": null,
+      "themes": ["atonement", "creation", "faith"],
+      "characters": ["paul", "timothy", "jesus-christ"],
+      "segments": [
+        { "s": 1, "e": 29, "speaker": "paul", "to": "church", "note": "Christ preeminent; reconciled by his cross" }
+      ]
+    },
+    {
+      "c": 2,
+      "title": "Complete in Christ",
+      "synopsis": "Paul warns the saints lest any man spoil them through philosophy and vain deceit, after the tradition of men and not after Christ, for in him dwells all the fulness of the Godhead bodily and they are complete in him. Buried with Christ in baptism and risen with him through faith, they must let no man judge them in meat, drink, or holy days, which are a shadow of things to come, the body being of Christ.",
+      "years": "AD 61",
+      "yearNum": 61,
+      "approx": false,
+      "place": null,
+      "themes": ["faith", "baptism", "apostasy"],
+      "characters": ["paul", "jesus-christ"],
+      "segments": [
+        { "s": 1, "e": 23, "speaker": "paul", "to": "church", "note": "Beware vain philosophy; ye are complete in him" }
+      ]
+    },
+    {
+      "c": 3,
+      "title": "Set Your Affection Above",
+      "synopsis": "Paul calls the risen saints to seek those things which are above, where Christ sits on the right hand of God, and to mortify the old man with his deeds. As the elect of God they are to put on mercy, kindness, humbleness, and above all charity, the bond of perfectness, letting the peace of God rule in their hearts. He gives counsel to wives, husbands, children, fathers, and servants, doing all heartily as to the Lord.",
+      "years": "AD 61",
+      "yearNum": 61,
+      "approx": false,
+      "place": null,
+      "themes": ["discipleship", "charity", "family"],
+      "characters": ["paul", "jesus-christ"],
+      "segments": [
+        { "s": 1, "e": 25, "speaker": "paul", "to": "church", "note": "Seek things above; put on charity; household counsel" }
+      ]
+    },
+    {
+      "c": 4,
+      "title": "Continue in Prayer",
+      "synopsis": "Paul bids masters give their servants what is just, and exhorts all to continue in prayer and to walk in wisdom toward them that are without, their speech alway with grace, seasoned with salt. He commends Tychicus and Onesimus who carry the letter, sends greetings from Mark, Luke, and other fellowlaborers, and directs that the epistle be read also in the church of the Laodiceans.",
+      "years": "AD 61",
+      "yearNum": 61,
+      "approx": false,
+      "place": null,
+      "themes": ["prayer", "wisdom", "mission"],
+      "characters": ["paul", "onesimus", "mark", "luke"],
+      "segments": [
+        { "s": 1, "e": 18, "speaker": "paul", "to": "church", "note": "Pray and speak with grace; final greetings" }
+      ]
+    }
+  ]
+}

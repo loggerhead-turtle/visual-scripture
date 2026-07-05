@@ -1,0 +1,232 @@
+{
+  "book": "1 Corinthians",
+  "slug": "1-corinthians",
+  "narrator": "paul",
+  "plates": "pauline-epistles",
+  "chapters": [
+    {
+      "c": 1,
+      "title": "Christ the Wisdom of God",
+      "synopsis": "Paul thanks God for the saints at Corinth but pleads with them to end their contentions, for some claim to follow Paul, some Apollos, some Cephas, though Christ is not divided. He declares that the preaching of the cross, though foolishness to the world, is the power and wisdom of God, who has chosen the weak things to confound the mighty.",
+      "years": "AD 55",
+      "yearNum": 55,
+      "approx": false,
+      "place": null,
+      "themes": ["faith", "humility", "wisdom"],
+      "characters": ["paul", "jesus-christ", "apollos", "peter"],
+      "segments": [
+        { "s": 1, "e": 31, "speaker": "paul", "to": "church", "note": "No divisions; the cross is God's power" }
+      ]
+    },
+    {
+      "c": 2,
+      "title": "Taught by the Spirit of God",
+      "synopsis": "Paul recalls that he came to Corinth not with enticing words of man's wisdom but in demonstration of the Spirit, determined to know nothing save Jesus Christ and him crucified. Eye hath not seen what God has prepared for them that love him, and the natural man receives not the things of the Spirit, for they are spiritually discerned.",
+      "years": "AD 55",
+      "yearNum": 55,
+      "approx": false,
+      "place": null,
+      "themes": ["revelation", "wisdom", "faith"],
+      "characters": ["paul", "jesus-christ"],
+      "segments": [
+        { "s": 1, "e": 16, "speaker": "paul", "to": "church", "note": "Spiritual things are spiritually discerned" }
+      ]
+    },
+    {
+      "c": 3,
+      "title": "Ye Are the Temple of God",
+      "synopsis": "Paul tells the Corinthians he must still feed them with milk rather than meat, for their envying and strife prove them carnal. He and Apollos are only laborers, one planting and one watering while God gives the increase, and no man can lay any foundation other than Jesus Christ. Every builder's work will be tried by fire, for the saints are the temple of God and his Spirit dwells in them.",
+      "years": "AD 55",
+      "yearNum": 55,
+      "approx": false,
+      "place": null,
+      "themes": ["temple", "humility", "judgment"],
+      "characters": ["paul", "apollos", "jesus-christ"],
+      "segments": [
+        { "s": 1, "e": 23, "speaker": "paul", "to": "church", "note": "God gives the increase; Christ the only foundation" }
+      ]
+    },
+    {
+      "c": 4,
+      "title": "Stewards of the Mysteries",
+      "synopsis": "Paul describes the apostles as ministers of Christ and stewards of the mysteries of God, of whom faithfulness is required, and warns against judging before the Lord comes. The apostles are made a spectacle to the world, hungry, reviled, and persecuted, yet he writes not to shame the saints but to warn them as his beloved sons, for the kingdom of God is not in word but in power.",
+      "years": "AD 55",
+      "yearNum": 55,
+      "approx": false,
+      "place": null,
+      "themes": ["leadership", "humility", "endurance"],
+      "characters": ["paul", "timothy"],
+      "segments": [
+        { "s": 1, "e": 21, "speaker": "paul", "to": "church", "note": "Faithful stewards; apostles suffer as fools for Christ" }
+      ]
+    },
+    {
+      "c": 5,
+      "title": "Purge Out the Old Leaven",
+      "synopsis": "Paul rebukes the church for tolerating a case of gross immorality in its midst and directs that the offender be delivered to the buffetings of Satan that his spirit may be saved. A little leaven leavens the whole lump, so the saints must purge out the old leaven and keep the feast with the unleavened bread of sincerity and truth.",
+      "years": "AD 55",
+      "yearNum": 55,
+      "approx": false,
+      "place": null,
+      "themes": ["repentance", "justice-and-mercy", "obedience"],
+      "characters": ["paul", "satan"],
+      "segments": [
+        { "s": 1, "e": 13, "speaker": "paul", "to": "church", "note": "Discipline the offender; purge out the old leaven" }
+      ]
+    },
+    {
+      "c": 6,
+      "title": "Your Body Is a Temple",
+      "synopsis": "Paul shames the saints for dragging one another before unbelieving judges, asking whether there is not a wise man among them, since the saints will one day judge the world and even angels. He warns that the unrighteous will not inherit the kingdom of God and reminds them that their bodies are temples of the Holy Ghost, bought with a price, so they must glorify God in body and spirit.",
+      "years": "AD 55",
+      "yearNum": 55,
+      "approx": false,
+      "place": null,
+      "themes": ["temple", "obedience", "judgment"],
+      "characters": ["paul"],
+      "segments": [
+        { "s": 1, "e": 20, "speaker": "paul", "to": "church", "note": "Settle disputes within; the body is God's temple" }
+      ]
+    },
+    {
+      "c": 7,
+      "title": "Counsel Concerning Marriage",
+      "synopsis": "Answering the Corinthians' letter, Paul gives counsel on marriage, urging husbands and wives to render due benevolence to one another and believers not to depart from unbelieving spouses who are content to dwell with them. In view of the present distress he advises each to abide in the calling wherein he was called, whether married, single, servant, or free, caring for the things of the Lord.",
+      "years": "AD 55",
+      "yearNum": 55,
+      "approx": false,
+      "place": null,
+      "themes": ["family", "obedience", "discipleship"],
+      "characters": ["paul"],
+      "segments": [
+        { "s": 1, "e": 40, "speaker": "paul", "to": "church", "note": "Counsel to the married, unmarried, and widows" }
+      ]
+    },
+    {
+      "c": 8,
+      "title": "Charity Toward the Weak",
+      "synopsis": "Concerning meat offered to idols, Paul teaches that an idol is nothing and there is but one God, yet knowledge puffs up while charity edifies. Though the strong may eat freely, they must take heed lest their liberty become a stumbling block, for to wound a weak brother's conscience is to sin against Christ.",
+      "years": "AD 55",
+      "yearNum": 55,
+      "approx": false,
+      "place": null,
+      "themes": ["charity", "agency", "humility"],
+      "characters": ["paul"],
+      "segments": [
+        { "s": 1, "e": 13, "speaker": "paul", "to": "church", "note": "Knowledge puffs up; do not offend weak brethren" }
+      ]
+    },
+    {
+      "c": 9,
+      "title": "Run to Obtain the Prize",
+      "synopsis": "Paul defends his apostleship and shows that though he has every right to be supported by the churches, he preaches the gospel of Christ without charge, making himself servant to all and all things to all men that he might save some. He compares the disciple's life to a race in which every man that strives for mastery is temperate, running not for a corruptible crown but an incorruptible.",
+      "years": "AD 55",
+      "yearNum": 55,
+      "approx": false,
+      "place": null,
+      "themes": ["missionary-work", "endurance", "discipleship"],
+      "characters": ["paul", "barnabas", "peter"],
+      "segments": [
+        { "s": 1, "e": 27, "speaker": "paul", "to": "church", "note": "All things to all men; run the race" }
+      ]
+    },
+    {
+      "c": 10,
+      "title": "Israel's Example and Our Escape",
+      "synopsis": "Paul reviews how Israel, though baptized unto Moses in the cloud and the sea and fed with spiritual meat, fell in the wilderness through lust, idolatry, and murmuring, written as examples for our admonition. He promises that God will with every temptation make a way to escape, and points to the sacramental cup and bread as the communion of the blood and body of Christ, urging the saints to do all to the glory of God.",
+      "years": "AD 55",
+      "yearNum": 55,
+      "approx": false,
+      "place": null,
+      "themes": ["obedience", "sacrament", "deliverance"],
+      "characters": ["paul", "moses", "jesus-christ"],
+      "segments": [
+        { "s": 1, "e": 33, "speaker": "paul", "to": "church", "note": "Wilderness warnings; God provides escape from temptation" }
+      ]
+    },
+    {
+      "c": 11,
+      "title": "Remembering the Lord's Supper",
+      "synopsis": "Paul teaches concerning order and propriety in worship, and that neither is the man without the woman, neither the woman without the man, in the Lord. He rebukes the Corinthians for turning the Lord's supper into a divided feast and rehearses how Jesus instituted the bread and cup in remembrance of him, warning that whoever partakes unworthily eats and drinks damnation to himself, so let a man examine himself.",
+      "years": "AD 55",
+      "yearNum": 55,
+      "approx": false,
+      "place": null,
+      "themes": ["sacrament", "worship", "repentance"],
+      "characters": ["paul", "jesus-christ"],
+      "segments": [
+        { "s": 1, "e": 34, "speaker": "paul", "to": "church", "note": "Order in worship; partake of the sacrament worthily" }
+      ]
+    },
+    {
+      "c": 12,
+      "title": "Many Gifts, One Body",
+      "synopsis": "Paul teaches that there are diversities of spiritual gifts but the same Spirit, who divides to every man severally as he will, including wisdom, knowledge, faith, healing, miracles, prophecy, and tongues. As the body is one and has many members, the saints are the body of Christ, and the eye cannot say to the hand, I have no need of thee, for God has tempered the body together so the members care one for another.",
+      "years": "AD 55",
+      "yearNum": 55,
+      "approx": false,
+      "place": null,
+      "themes": ["revelation", "charity", "leadership"],
+      "characters": ["paul"],
+      "segments": [
+        { "s": 1, "e": 31, "speaker": "paul", "to": "church", "note": "Gifts of the Spirit; one body, many members" }
+      ]
+    },
+    {
+      "c": 13,
+      "title": "Charity Never Faileth",
+      "synopsis": "In this landmark hymn to charity, Paul declares that without charity, tongues, prophecy, knowledge, and even martyrdom profit nothing. Charity suffers long and is kind, envies not, is not puffed up, and never fails, outlasting every gift, for now we see through a glass darkly but then face to face. Faith, hope, and charity abide, and the greatest of these is charity, the pure love of Christ.",
+      "years": "AD 55",
+      "yearNum": 55,
+      "approx": false,
+      "place": null,
+      "themes": ["charity", "faith", "hope"],
+      "characters": ["paul"],
+      "segments": [
+        { "s": 1, "e": 13, "speaker": "paul", "to": "church", "note": "Charity suffereth long; the greatest of these" }
+      ]
+    },
+    {
+      "c": 14,
+      "title": "Let All Things Edify",
+      "synopsis": "Paul ranks prophecy above speaking in tongues, for he that prophesies edifies the church while an uninterpreted tongue speaks into the air. If the trumpet gives an uncertain sound, who shall prepare himself to the battle, so all gifts must be used to edify, and God is not the author of confusion but of peace. He commands that all things be done decently and in order.",
+      "years": "AD 55",
+      "yearNum": 55,
+      "approx": false,
+      "place": null,
+      "themes": ["prophecy", "worship", "leadership"],
+      "characters": ["paul"],
+      "segments": [
+        { "s": 1, "e": 40, "speaker": "paul", "to": "church", "note": "Prophecy edifies; all things decently and in order" }
+      ]
+    },
+    {
+      "c": 15,
+      "title": "Christ Is Risen from the Dead",
+      "synopsis": "In this landmark chapter on the resurrection, Paul rehearses the witnesses of the risen Christ, seen of Cephas, of the twelve, and of above five hundred brethren at once, and reasons that if Christ be not risen, faith is vain and the dead perish. As in Adam all die, even so in Christ shall all be made alive, every man in his own order, and Paul describes celestial, terrestrial, and telestial degrees of glory in the resurrection. The corruptible will put on incorruption, and death is swallowed up in victory.",
+      "years": "AD 55",
+      "yearNum": 55,
+      "approx": false,
+      "place": null,
+      "themes": ["resurrection", "atonement", "hope"],
+      "characters": ["paul", "jesus-christ", "adam", "peter"],
+      "segments": [
+        { "s": 1, "e": 58, "speaker": "paul", "to": "church", "note": "Witnesses of the risen Christ; all made alive" }
+      ]
+    },
+    {
+      "c": 16,
+      "title": "Stand Fast in the Faith",
+      "synopsis": "Paul directs the saints to lay by in store on the first day of the week for the collection for the poor saints at Jerusalem, and shares his plans to visit after Pentecost, for a great and effectual door is opened to him at Ephesus. He commends Timothy and Apollos, greets the church with the greetings of Aquila and Priscilla, and closes by charging them to watch, stand fast in the faith, and let all be done with charity.",
+      "years": "AD 55",
+      "yearNum": 55,
+      "approx": false,
+      "place": null,
+      "themes": ["charity", "mission", "endurance"],
+      "characters": ["paul", "timothy", "apollos", "aquila-priscilla"],
+      "segments": [
+        { "s": 1, "e": 24, "speaker": "paul", "to": "church", "note": "Collection for Jerusalem; watch and stand fast" }
+      ]
+    }
+  ]
+}

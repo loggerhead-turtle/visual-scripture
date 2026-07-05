@@ -1,0 +1,1207 @@
+{
+  "book": "Deuteronomy",
+  "slug": "deuteronomy",
+  "narrator": "moses",
+  "plates": "law",
+  "chapters": [
+    {
+      "c": 1,
+      "title": "Moses Begins His Final Address",
+      "synopsis": "On the plains of Moab, Moses reminds Israel of the journey from Horeb and his appointment of wise men as judges. He recalls sending spies into Canaan from Kadesh-barnea, and how the people's unbelief brought forty years of wandering. Only Caleb and Joshua of that generation were promised entrance into the promised land.",
+      "years": "about 1260 BC",
+      "yearNum": -1260,
+      "approx": true,
+      "place": "jordan-river",
+      "themes": [
+        "records",
+        "leadership",
+        "obedience"
+      ],
+      "characters": [
+        "moses",
+        "joshua"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 8,
+          "speaker": "moses",
+          "to": "reader",
+          "note": "Moses recalls the journey from Horeb"
+        },
+        {
+          "s": 9,
+          "e": 18,
+          "speaker": "moses",
+          "to": "israelites",
+          "note": "Moses recounts appointing judges"
+        },
+        {
+          "s": 19,
+          "e": 46,
+          "speaker": "moses",
+          "to": "israelites",
+          "note": "The spies and Israel's unbelief recalled"
+        }
+      ]
+    },
+    {
+      "c": 2,
+      "title": "Wanderings Past Edom, Moab, and Ammon",
+      "synopsis": "Moses recounts the long years of wandering and the Lord's command to pass peaceably by the lands of Esau, Moab, and Ammon without provoking them. He recalls how that unbelieving generation finally died out in the wilderness as the Lord had sworn. Crossing into Amorite territory, Israel defeats King Sihon and takes his land.",
+      "years": "about 1260 BC",
+      "yearNum": -1260,
+      "approx": true,
+      "place": "jordan-river",
+      "themes": [
+        "obedience",
+        "war",
+        "judgment"
+      ],
+      "characters": [
+        "moses"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 23,
+          "speaker": "moses",
+          "to": "israelites",
+          "note": "Passing peaceably by Edom, Moab, and Ammon"
+        },
+        {
+          "s": 24,
+          "e": 37,
+          "speaker": "moses",
+          "to": "israelites",
+          "note": "Sihon refuses passage and is defeated"
+        }
+      ]
+    },
+    {
+      "c": 3,
+      "title": "Og Defeated; Moses Charges Joshua",
+      "synopsis": "Israel conquers Og, king of Bashan, and Moses gives the captured lands east of the Jordan to Reuben, Gad, and half of Manasseh. Moses pleads with the Lord to let him cross into Canaan, but is told to speak no more of it and instead to view the land from a mountain. He charges Joshua to be strong, for the Lord will go before him.",
+      "years": "about 1260 BC",
+      "yearNum": -1260,
+      "approx": true,
+      "place": "jordan-river",
+      "themes": [
+        "war",
+        "leadership",
+        "obedience"
+      ],
+      "characters": [
+        "moses",
+        "joshua"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 20,
+          "speaker": "moses",
+          "to": "israelites",
+          "note": "Og defeated; land given to the two and a half tribes"
+        },
+        {
+          "s": 21,
+          "e": 29,
+          "speaker": "moses",
+          "to": "the-lord",
+          "note": "Moses pleads to enter the land and is refused"
+        }
+      ]
+    },
+    {
+      "c": 4,
+      "title": "A Call to Obedience and Remembrance",
+      "synopsis": "Moses urges Israel to keep the Lord's statutes without addition or subtraction, warning against the idolatry the people witnessed at Baal-peor. He reminds them that no other nation has heard God speak from the midst of fire as they did at Horeb, and warns that scattering among the nations will follow apostasy. Moses then sets apart three cities of refuge east of the Jordan.",
+      "years": "about 1260 BC",
+      "yearNum": -1260,
+      "approx": true,
+      "place": "jordan-river",
+      "themes": [
+        "obedience",
+        "apostasy",
+        "covenant"
+      ],
+      "characters": [
+        "moses"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 40,
+          "speaker": "moses",
+          "to": "israelites",
+          "note": "Keep the statutes; beware of idolatry and apostasy"
+        },
+        {
+          "s": 41,
+          "e": 49,
+          "speaker": "moses",
+          "to": "reader",
+          "note": "Three cities of refuge set apart east of Jordan"
+        }
+      ]
+    },
+    {
+      "c": 5,
+      "title": "The Ten Commandments Restated",
+      "synopsis": "Moses rehearses the covenant made at Horeb and recites again the Ten Commandments the Lord spoke out of the fire. He recalls how the terrified people asked him to stand between them and God, and the Lord approved their request. Moses closes by charging Israel to walk in all the ways the Lord has commanded.",
+      "years": "about 1260 BC",
+      "yearNum": -1260,
+      "approx": true,
+      "place": null,
+      "themes": [
+        "covenant",
+        "law",
+        "obedience"
+      ],
+      "characters": [
+        "moses",
+        "the-lord"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 5,
+          "speaker": "moses",
+          "to": "israelites",
+          "note": "The covenant of Horeb recalled"
+        },
+        {
+          "s": 6,
+          "e": 21,
+          "speaker": "the-lord",
+          "to": "israelites",
+          "note": "The Ten Commandments repeated"
+        },
+        {
+          "s": 22,
+          "e": 33,
+          "speaker": "moses",
+          "to": "israelites",
+          "note": "The people's fear; Moses becomes mediator"
+        }
+      ]
+    },
+    {
+      "c": 6,
+      "title": "Hear, O Israel: The Shema",
+      "synopsis": "Moses delivers the great command to love the Lord with all one's heart, might, and soul, and to teach these words diligently to one's children. He warns that when Israel enters the good land of promise, prosperity must not lead to forgetting the God who delivered them from Egypt. Israel is to fear the Lord only and not follow after other gods.",
+      "years": "about 1260 BC",
+      "yearNum": -1260,
+      "approx": true,
+      "place": null,
+      "themes": [
+        "covenant",
+        "family",
+        "faith"
+      ],
+      "characters": [
+        "moses"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 25,
+          "speaker": "moses",
+          "to": "israelites",
+          "note": "The Shema: love and teach the Lord's words"
+        }
+      ]
+    },
+    {
+      "c": 7,
+      "title": "Israel Set Apart from the Nations",
+      "synopsis": "Moses commands Israel to utterly destroy the seven nations of Canaan and make no covenant or marriage with them, lest they turn Israel's hearts to other gods. He reminds them that the Lord chose Israel not for their greatness but because He loved their fathers and keeps covenant. Obedience will bring blessing on their flocks, fields, and households.",
+      "years": "about 1260 BC",
+      "yearNum": -1260,
+      "approx": true,
+      "place": null,
+      "themes": [
+        "covenant",
+        "obedience",
+        "war"
+      ],
+      "characters": [
+        "moses"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 11,
+          "speaker": "moses",
+          "to": "israelites",
+          "note": "Command to destroy the Canaanite nations"
+        },
+        {
+          "s": 12,
+          "e": 26,
+          "speaker": "moses",
+          "to": "israelites",
+          "note": "The Lord's covenant love and coming blessings"
+        }
+      ]
+    },
+    {
+      "c": 8,
+      "title": "Remember the Lord in Prosperity",
+      "synopsis": "Moses recalls how the Lord humbled Israel with hunger in the wilderness and fed them manna, that they might learn man lives by every word from God's mouth. Their clothes did not wear out and their feet did not swell across forty years. He warns that when they eat and are full in the good land, they must not say their own power gained them this wealth.",
+      "years": "about 1260 BC",
+      "yearNum": -1260,
+      "approx": true,
+      "place": null,
+      "themes": [
+        "obedience",
+        "hope",
+        "endurance"
+      ],
+      "characters": [
+        "moses"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 10,
+          "speaker": "moses",
+          "to": "israelites",
+          "note": "The Lord humbled and fed Israel in the wilderness"
+        },
+        {
+          "s": 11,
+          "e": 20,
+          "speaker": "moses",
+          "to": "israelites",
+          "note": "Warning against forgetting God in prosperity"
+        }
+      ]
+    },
+    {
+      "c": 9,
+      "title": "Not for Israel's Righteousness",
+      "synopsis": "Moses warns Israel that the Lord will drive out the nations not because of Israel's righteousness but because of the nations' wickedness, for Israel has been a stiffnecked people. He recounts the golden calf at Horeb and how he broke the tablets in anger, then fasted forty days pleading for the Lord to spare the people.",
+      "years": "about 1260 BC",
+      "yearNum": -1260,
+      "approx": true,
+      "place": null,
+      "themes": [
+        "repentance",
+        "apostasy",
+        "prayer"
+      ],
+      "characters": [
+        "moses",
+        "the-lord"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 6,
+          "speaker": "moses",
+          "to": "israelites",
+          "note": "Not for thy righteousness, but for their wickedness"
+        },
+        {
+          "s": 7,
+          "e": 21,
+          "speaker": "moses",
+          "to": "israelites",
+          "note": "The golden calf and the broken tablets recalled"
+        },
+        {
+          "s": 22,
+          "e": 29,
+          "speaker": "moses",
+          "to": "the-lord",
+          "note": "Moses intercedes for rebellious Israel"
+        }
+      ]
+    },
+    {
+      "c": 10,
+      "title": "New Tablets; Circumcise Your Hearts",
+      "synopsis": "The Lord commands Moses to cut new tablets, and He again writes the Ten Commandments upon them, which are placed in the ark. Moses recalls that the Levites were set apart to bear the ark and minister before the Lord. He pleads with Israel to circumcise the foreskin of their hearts and to love the stranger, for the Lord is God of gods.",
+      "years": "about 1260 BC",
+      "yearNum": -1260,
+      "approx": true,
+      "place": null,
+      "themes": [
+        "covenant",
+        "priesthood",
+        "humility"
+      ],
+      "characters": [
+        "moses",
+        "the-lord"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 11,
+          "speaker": "the-lord",
+          "to": "moses",
+          "note": "New tablets given; the Levites set apart"
+        },
+        {
+          "s": 12,
+          "e": 22,
+          "speaker": "moses",
+          "to": "israelites",
+          "note": "Circumcise your hearts; love the Lord and the stranger"
+        }
+      ]
+    },
+    {
+      "c": 11,
+      "title": "The Blessing and the Curse Set Before You",
+      "synopsis": "Moses reminds the new generation, who did not see Egypt's plagues with their own childhood eyes as adults, of the Lord's mighty acts, including the earth swallowing Dathan and Abiram. He describes the good land Israel is entering, watered by rain from heaven rather than by foot as in Egypt. He sets before them a blessing for obedience and a curse for disobedience, to be pronounced from Gerizim and Ebal.",
+      "years": "about 1260 BC",
+      "yearNum": -1260,
+      "approx": true,
+      "place": null,
+      "themes": [
+        "obedience",
+        "covenant",
+        "judgment"
+      ],
+      "characters": [
+        "moses"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 7,
+          "speaker": "moses",
+          "to": "israelites",
+          "note": "The Lord's mighty acts recalled, including Dathan and Abiram"
+        },
+        {
+          "s": 8,
+          "e": 32,
+          "speaker": "moses",
+          "to": "israelites",
+          "note": "The blessing and curse of Gerizim and Ebal"
+        }
+      ]
+    },
+    {
+      "c": 12,
+      "title": "One Place of Worship",
+      "synopsis": "Moses commands Israel to destroy every altar and image of the nations in the land and to worship the Lord only in the place He will choose to put His name. Sacrifices and tithes are to be brought there, and the people may eat meat freely in their own towns, but never blood. He warns sternly against inquiring after the gods of the nations they dispossess.",
+      "years": "about 1260 BC",
+      "yearNum": -1260,
+      "approx": true,
+      "place": null,
+      "themes": [
+        "worship",
+        "obedience",
+        "apostasy"
+      ],
+      "characters": [
+        "moses"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 14,
+          "speaker": "moses",
+          "to": "israelites",
+          "note": "Destroy pagan altars; worship at the chosen place"
+        },
+        {
+          "s": 15,
+          "e": 32,
+          "speaker": "moses",
+          "to": "israelites",
+          "note": "Rules for sacrifice, tithing, and eating meat"
+        }
+      ]
+    },
+    {
+      "c": 13,
+      "title": "Dealing with False Prophets",
+      "synopsis": "Moses warns that even a prophet who gives a sign that comes to pass must be put to death if he entices Israel after other gods, for the Lord is testing their love. The same judgment falls on a family member or friend who secretly entices to idolatry, and on any city that turns to serve other gods. Israel must show no pity toward those who lead the nation astray.",
+      "years": "about 1260 BC",
+      "yearNum": -1260,
+      "approx": true,
+      "place": null,
+      "themes": [
+        "apostasy",
+        "judgment",
+        "faith"
+      ],
+      "characters": [
+        "moses"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 18,
+          "speaker": "moses",
+          "to": "israelites",
+          "note": "False prophets and enticers to idolatry judged"
+        }
+      ]
+    },
+    {
+      "c": 14,
+      "title": "Clean Foods and the Tithe",
+      "synopsis": "Moses forbids Israel to cut themselves for the dead as the nations do, for they are a holy people. He lists the clean and unclean animals, birds, and creatures Israel may or may not eat. He then commands the yearly tithe of increase, to be eaten before the Lord, with special provision for the Levite, stranger, fatherless, and widow every third year.",
+      "years": "about 1260 BC",
+      "yearNum": -1260,
+      "approx": true,
+      "place": null,
+      "themes": [
+        "law",
+        "obedience"
+      ],
+      "characters": [
+        "moses"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 21,
+          "speaker": "moses",
+          "to": "israelites",
+          "note": "Clean and unclean foods listed"
+        },
+        {
+          "s": 22,
+          "e": 29,
+          "speaker": "moses",
+          "to": "israelites",
+          "note": "The law of tithing explained"
+        }
+      ]
+    },
+    {
+      "c": 15,
+      "title": "The Year of Release",
+      "synopsis": "Every seventh year, Moses commands, Israel is to release debts and free Hebrew servants, furnishing them liberally from flock, floor, and winepress. He reminds them there should be no poor among them if they obey, and warns against a hard heart toward a needy brother. The chapter closes with the law of the firstborn animals to be sanctified to the Lord.",
+      "years": "about 1260 BC",
+      "yearNum": -1260,
+      "approx": true,
+      "place": null,
+      "themes": [
+        "liberty",
+        "charity",
+        "obedience"
+      ],
+      "characters": [
+        "moses"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 11,
+          "speaker": "moses",
+          "to": "israelites",
+          "note": "The year of release; care for the poor"
+        },
+        {
+          "s": 12,
+          "e": 18,
+          "speaker": "moses",
+          "to": "israelites",
+          "note": "Freeing Hebrew servants generously"
+        },
+        {
+          "s": 19,
+          "e": 23,
+          "speaker": "moses",
+          "to": "israelites",
+          "note": "The firstborn of the herd and flock"
+        }
+      ]
+    },
+    {
+      "c": 16,
+      "title": "The Three Feasts; Appointing Judges",
+      "synopsis": "Moses commands Israel to keep Passover, the Feast of Weeks, and the Feast of Tabernacles at the place the Lord chooses, each a rejoicing before Him with the poor and the Levite. Every male is to appear before the Lord three times a year. He then commands that judges and officers be appointed in every city to judge the people with perfect justice.",
+      "years": "about 1260 BC",
+      "yearNum": -1260,
+      "approx": true,
+      "place": null,
+      "themes": [
+        "worship",
+        "law",
+        "justice-and-mercy"
+      ],
+      "characters": [
+        "moses"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 17,
+          "speaker": "moses",
+          "to": "israelites",
+          "note": "The three annual feasts commanded"
+        },
+        {
+          "s": 18,
+          "e": 22,
+          "speaker": "moses",
+          "to": "israelites",
+          "note": "Judges appointed; justice, justice shalt thou follow"
+        }
+      ]
+    },
+    {
+      "c": 17,
+      "title": "Justice, and the Law of the King",
+      "synopsis": "Moses commands that a case too hard for local judges be brought to the priests and judge at the chosen place, whose ruling must be obeyed on pain of death. He foresees a day when Israel will ask for a king, and sets conditions: the king must be an Israelite who does not multiply horses, wives, or silver, and who copies and reads the law all his days.",
+      "years": "about 1260 BC",
+      "yearNum": -1260,
+      "approx": true,
+      "place": null,
+      "themes": [
+        "justice-and-mercy",
+        "kingship",
+        "law"
+      ],
+      "characters": [
+        "moses"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 13,
+          "speaker": "moses",
+          "to": "israelites",
+          "note": "Hard cases brought to the priests and judge"
+        },
+        {
+          "s": 14,
+          "e": 20,
+          "speaker": "moses",
+          "to": "israelites",
+          "note": "The law of the future king"
+        }
+      ]
+    },
+    {
+      "c": 18,
+      "title": "The Levites' Portion; A Prophet Like Moses",
+      "synopsis": "Moses provides for the priests and Levites, who have no inheritance of land but live by the Lord's offerings. He forbids the divination, witchcraft, and sorcery of the nations, and promises that the Lord will raise up a prophet like himself, whom Israel must hear. Any prophet who speaks presumptuously in the Lord's name is to be put to death.",
+      "years": "about 1260 BC",
+      "yearNum": -1260,
+      "approx": true,
+      "place": null,
+      "themes": [
+        "priesthood",
+        "prophecy",
+        "messiah"
+      ],
+      "characters": [
+        "moses"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 8,
+          "speaker": "moses",
+          "to": "israelites",
+          "note": "Provision for the priests and Levites"
+        },
+        {
+          "s": 9,
+          "e": 14,
+          "speaker": "moses",
+          "to": "israelites",
+          "note": "Forbidding sorcery and divination"
+        },
+        {
+          "s": 15,
+          "e": 22,
+          "speaker": "moses",
+          "to": "israelites",
+          "note": "A prophet like Moses is promised"
+        }
+      ]
+    },
+    {
+      "c": 19,
+      "title": "Cities of Refuge; the Law of Witnesses",
+      "synopsis": "Moses commands three cities of refuge to be set apart in Canaan for one who kills unintentionally, so innocent blood is not shed by an avenger. He forbids removing a neighbor's landmark, and requires two or three witnesses to establish any matter. A false witness is to receive the very punishment he intended for his brother.",
+      "years": "about 1260 BC",
+      "yearNum": -1260,
+      "approx": true,
+      "place": null,
+      "themes": [
+        "justice-and-mercy",
+        "law"
+      ],
+      "characters": [
+        "moses"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 13,
+          "speaker": "moses",
+          "to": "israelites",
+          "note": "Cities of refuge for unintentional killing"
+        },
+        {
+          "s": 14,
+          "e": 21,
+          "speaker": "moses",
+          "to": "israelites",
+          "note": "Witnesses required; false witness punished"
+        }
+      ]
+    },
+    {
+      "c": 20,
+      "title": "Laws of Warfare",
+      "synopsis": "Moses instructs Israel not to fear when going to battle, for the Lord goes with them, and priests are to encourage the army before the fight. Certain men are exempted from war, such as a newly betrothed or fearful man. Cities far off are offered peace before attack, but the cities of Canaan itself must be utterly destroyed, and fruit trees are not to be cut down in a siege.",
+      "years": "about 1260 BC",
+      "yearNum": -1260,
+      "approx": true,
+      "place": null,
+      "themes": [
+        "war",
+        "faith",
+        "obedience"
+      ],
+      "characters": [
+        "moses"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 9,
+          "speaker": "moses",
+          "to": "israelites",
+          "note": "Exemptions from battle; priests encourage the army"
+        },
+        {
+          "s": 10,
+          "e": 20,
+          "speaker": "moses",
+          "to": "israelites",
+          "note": "Terms of siege and the treatment of trees"
+        }
+      ]
+    },
+    {
+      "c": 21,
+      "title": "Atonement, Captives, and a Rebellious Son",
+      "synopsis": "Moses gives a rite of atonement for an unsolved murder, in which the elders wash their hands over a slain heifer. Laws follow for taking a captive woman as a wife with dignity, for the inheritance rights of an unloved wife's firstborn, and for the trial of a stubbornly rebellious son. The chapter closes with the law that a hanged criminal's body must not remain overnight upon the tree.",
+      "years": "about 1260 BC",
+      "yearNum": -1260,
+      "approx": true,
+      "place": null,
+      "themes": [
+        "justice-and-mercy",
+        "family",
+        "law"
+      ],
+      "characters": [
+        "moses"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 9,
+          "speaker": "moses",
+          "to": "israelites",
+          "note": "Atonement rite for an unsolved murder"
+        },
+        {
+          "s": 10,
+          "e": 17,
+          "speaker": "moses",
+          "to": "israelites",
+          "note": "Laws of captive wives and inheritance"
+        },
+        {
+          "s": 18,
+          "e": 23,
+          "speaker": "moses",
+          "to": "israelites",
+          "note": "The rebellious son; the body on the tree"
+        }
+      ]
+    },
+    {
+      "c": 22,
+      "title": "Neighborly Duties and Family Purity",
+      "synopsis": "Moses gives assorted laws: returning a neighbor's lost animal, aiding a fallen beast, not cross-dressing, sparing a mother bird, and building a parapet on a new roof to prevent bloodguilt. Further laws forbid mixing seeds or yoking ox and ass together, require tassels on garments, and set out serious penalties for sexual immorality and false accusations against a bride.",
+      "years": "about 1260 BC",
+      "yearNum": -1260,
+      "approx": true,
+      "place": null,
+      "themes": [
+        "law",
+        "family",
+        "justice-and-mercy"
+      ],
+      "characters": [
+        "moses"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 12,
+          "speaker": "moses",
+          "to": "israelites",
+          "note": "Neighborly duties and mixed-kind prohibitions"
+        },
+        {
+          "s": 13,
+          "e": 30,
+          "speaker": "moses",
+          "to": "israelites",
+          "note": "Laws concerning marriage and sexual purity"
+        }
+      ]
+    },
+    {
+      "c": 23,
+      "title": "Purity of the Camp and Assembly",
+      "synopsis": "Moses lists those excluded from the assembly of the Lord and commands that the camp be kept clean, even in matters of sanitation, for the Lord walks among them. Laws follow forbidding the return of an escaped servant to his master, condemning cult prostitution, prohibiting usury against a brother, and requiring that vows be paid and a neighbor's field be gleaned modestly.",
+      "years": "about 1260 BC",
+      "yearNum": -1260,
+      "approx": true,
+      "place": null,
+      "themes": [
+        "law",
+        "covenant"
+      ],
+      "characters": [
+        "moses"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 8,
+          "speaker": "moses",
+          "to": "israelites",
+          "note": "Exclusions from the assembly of the Lord"
+        },
+        {
+          "s": 9,
+          "e": 14,
+          "speaker": "moses",
+          "to": "israelites",
+          "note": "Keeping the camp holy"
+        },
+        {
+          "s": 15,
+          "e": 25,
+          "speaker": "moses",
+          "to": "israelites",
+          "note": "Laws on servants, usury, vows, and gleaning"
+        }
+      ]
+    },
+    {
+      "c": 24,
+      "title": "Divorce, Pledges, and Care for the Poor",
+      "synopsis": "Moses sets terms for divorce and remarriage, and exempts a newly married man from war for one year to bring joy to his wife. Further laws protect the poor: a mill must not be taken in pledge, kidnapping is a capital crime, and wages of the poor must be paid the same day. Israel is commanded to leave gleanings of harvest and vineyard for the stranger, fatherless, and widow.",
+      "years": "about 1260 BC",
+      "yearNum": -1260,
+      "approx": true,
+      "place": null,
+      "themes": [
+        "family",
+        "charity",
+        "justice-and-mercy"
+      ],
+      "characters": [
+        "moses"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 5,
+          "speaker": "moses",
+          "to": "israelites",
+          "note": "Divorce law; the newly married exempted from war"
+        },
+        {
+          "s": 6,
+          "e": 22,
+          "speaker": "moses",
+          "to": "israelites",
+          "note": "Protection of the poor, hired, and gleaner"
+        }
+      ]
+    },
+    {
+      "c": 25,
+      "title": "Honest Measures; Blot Out Amalek",
+      "synopsis": "Moses limits punishment by stripes to forty and forbids muzzling an ox that treads corn. He establishes levirate marriage, by which a brother raises up seed to a dead brother, and prescribes shame for a widow publicly refused. Honest weights and measures are commanded, and the chapter closes with the charge to remember and one day blot out Amalek for its cruelty to Israel.",
+      "years": "about 1260 BC",
+      "yearNum": -1260,
+      "approx": true,
+      "place": null,
+      "themes": [
+        "justice-and-mercy",
+        "family",
+        "judgment"
+      ],
+      "characters": [
+        "moses"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 4,
+          "speaker": "moses",
+          "to": "israelites",
+          "note": "Limits on punishment; the muzzled ox"
+        },
+        {
+          "s": 5,
+          "e": 10,
+          "speaker": "moses",
+          "to": "israelites",
+          "note": "The law of levirate marriage"
+        },
+        {
+          "s": 11,
+          "e": 19,
+          "speaker": "moses",
+          "to": "israelites",
+          "note": "Honest weights; remember Amalek"
+        }
+      ]
+    },
+    {
+      "c": 26,
+      "title": "Firstfruits and the Covenant Renewed",
+      "synopsis": "Moses commands that when Israel enters the land, the firstfruits be brought in a basket with a declaration recounting how a wandering Aramean became a great nation delivered from Egypt. The third-year tithe is likewise accompanied by a declaration of obedience. Moses closes this section by affirming that this day Israel has avouched the Lord to be their God, and He has avouched them as His treasured people.",
+      "years": "about 1260 BC",
+      "yearNum": -1260,
+      "approx": true,
+      "place": null,
+      "themes": [
+        "covenant",
+        "worship",
+        "prayer"
+      ],
+      "characters": [
+        "moses"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 11,
+          "speaker": "moses",
+          "to": "israelites",
+          "note": "The declaration of the firstfruits"
+        },
+        {
+          "s": 12,
+          "e": 15,
+          "speaker": "moses",
+          "to": "israelites",
+          "note": "The tithe declaration of the third year"
+        },
+        {
+          "s": 16,
+          "e": 19,
+          "speaker": "moses",
+          "to": "israelites",
+          "note": "The covenant this day avouched"
+        }
+      ]
+    },
+    {
+      "c": 27,
+      "title": "The Altar on Ebal; Curses Proclaimed",
+      "synopsis": "Moses and the elders command that upon entering Canaan, Israel build an altar of unhewn stones on Mount Ebal and write the law upon plastered stones. Six tribes are to stand on Gerizim to bless and six on Ebal to curse, and the Levites recite a series of curses against secret sins, to which all Israel answers Amen.",
+      "years": "about 1260 BC",
+      "yearNum": -1260,
+      "approx": true,
+      "place": "jordan-river",
+      "themes": [
+        "covenant",
+        "judgment",
+        "law"
+      ],
+      "characters": [
+        "moses"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 10,
+          "speaker": "moses",
+          "to": "israelites",
+          "note": "The altar and law inscribed on Mount Ebal"
+        },
+        {
+          "s": 11,
+          "e": 26,
+          "speaker": "moses",
+          "to": "israelites",
+          "note": "The twelve curses proclaimed from Ebal"
+        }
+      ]
+    },
+    {
+      "c": 28,
+      "title": "Blessings and Curses of the Covenant",
+      "synopsis": "Moses pronounces sweeping blessings on Israel's basket, field, and family if they obey the Lord's voice, and promises they will be set high above all nations. He then pronounces far longer and more terrible curses for disobedience, describing siege, exile, and scattering among all peoples if Israel turns from the Lord's commandments.",
+      "years": "about 1260 BC",
+      "yearNum": -1260,
+      "approx": true,
+      "place": null,
+      "themes": [
+        "covenant",
+        "judgment",
+        "obedience"
+      ],
+      "characters": [
+        "moses"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 14,
+          "speaker": "moses",
+          "to": "israelites",
+          "note": "Blessings promised for obedience"
+        },
+        {
+          "s": 15,
+          "e": 68,
+          "speaker": "moses",
+          "to": "israelites",
+          "note": "Extensive curses pronounced for disobedience"
+        }
+      ]
+    },
+    {
+      "c": 29,
+      "title": "The Covenant Renewed in Moab",
+      "synopsis": "Moses gathers Israel to enter into covenant with the Lord in the land of Moab, in addition to the covenant made at Horeb, reminding them of all they have seen the Lord do. He warns that any who turn secretly to idolatry will bring upon themselves the curses written in the book, and that future generations and nations will see the desolation and ask why the Lord did this to the land.",
+      "years": "about 1260 BC",
+      "yearNum": -1260,
+      "approx": true,
+      "place": null,
+      "themes": [
+        "covenant",
+        "apostasy",
+        "judgment"
+      ],
+      "characters": [
+        "moses"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 15,
+          "speaker": "moses",
+          "to": "israelites",
+          "note": "The covenant renewed in the land of Moab"
+        },
+        {
+          "s": 16,
+          "e": 29,
+          "speaker": "moses",
+          "to": "israelites",
+          "note": "Warning against secret apostasy and its judgment"
+        }
+      ]
+    },
+    {
+      "c": 30,
+      "title": "Choose Life",
+      "synopsis": "Moses promises that even after exile, if Israel returns to the Lord with all their heart, He will gather them again and circumcise their hearts to love Him. He declares that the commandment is not too hard or far off but very near, in their mouth and heart, that they may do it. Moses sets life and death, blessing and cursing, before Israel and pleads with them to choose life.",
+      "years": "about 1260 BC",
+      "yearNum": -1260,
+      "approx": true,
+      "place": null,
+      "themes": [
+        "repentance",
+        "gathering-of-israel",
+        "hope"
+      ],
+      "characters": [
+        "moses"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 10,
+          "speaker": "moses",
+          "to": "israelites",
+          "note": "Promise of gathering after repentance"
+        },
+        {
+          "s": 11,
+          "e": 14,
+          "speaker": "moses",
+          "to": "israelites",
+          "note": "The word is very near thee"
+        },
+        {
+          "s": 15,
+          "e": 20,
+          "speaker": "moses",
+          "to": "israelites",
+          "note": "Choose life, that thou and thy seed may live"
+        }
+      ]
+    },
+    {
+      "c": 31,
+      "title": "Moses Commissions Joshua",
+      "synopsis": "At one hundred twenty years old, Moses tells Israel he can no longer lead them and that the Lord will go before them under Joshua, whom he charges to be strong and of good courage. He delivers the written law to the priests to be read to Israel every seventh year, and the Lord tells Moses that after his death Israel will turn away, commanding him to write a song as a witness against them.",
+      "years": "about 1260 BC",
+      "yearNum": -1260,
+      "approx": true,
+      "place": null,
+      "themes": [
+        "leadership",
+        "records",
+        "prophecy"
+      ],
+      "characters": [
+        "moses",
+        "joshua",
+        "the-lord"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 8,
+          "speaker": "moses",
+          "to": "israelites",
+          "note": "Moses charges Joshua to be strong"
+        },
+        {
+          "s": 9,
+          "e": 13,
+          "speaker": "moses",
+          "to": "reader",
+          "note": "The law delivered to be read every seven years"
+        },
+        {
+          "s": 14,
+          "e": 30,
+          "speaker": "the-lord",
+          "to": "moses",
+          "note": "The Lord foretells Israel's future apostasy"
+        }
+      ]
+    },
+    {
+      "c": 32,
+      "title": "The Song of Moses",
+      "synopsis": "Moses recites a song calling heaven and earth to witness, praising the Lord as the Rock whose work is perfect, and recounting how Israel forsook God for foreign gods and will suffer His jealous anger before He at last avenges His people and land. Afterward the Lord tells Moses to go up mount Nebo, for he will see the land but not enter it, and there he will die as Aaron did.",
+      "years": "about 1260 BC",
+      "yearNum": -1260,
+      "approx": true,
+      "place": "jordan-river",
+      "themes": [
+        "prophecy",
+        "judgment",
+        "hope"
+      ],
+      "characters": [
+        "moses",
+        "the-lord"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 43,
+          "speaker": "moses",
+          "to": "israelites",
+          "note": "The Song of Moses recited to Israel"
+        },
+        {
+          "s": 44,
+          "e": 52,
+          "speaker": "the-lord",
+          "to": "moses",
+          "note": "Moses told to view the land from Nebo and die"
+        }
+      ]
+    },
+    {
+      "c": 33,
+      "title": "Moses Blesses the Twelve Tribes",
+      "synopsis": "Before his death Moses blesses each of the tribes of Israel in turn, describing Reuben, Judah, Levi, Benjamin, Joseph, and the rest with promises suited to their future. He declares that there is none like the God of Jeshurun, who rides the heavens to help His people, and that Israel is a people saved by the Lord, the shield of their help.",
+      "years": "about 1260 BC",
+      "yearNum": -1260,
+      "approx": true,
+      "place": null,
+      "themes": [
+        "prophecy",
+        "covenant",
+        "family"
+      ],
+      "characters": [
+        "moses"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 5,
+          "speaker": "moses",
+          "to": "reader",
+          "note": "Moses begins his blessing of Israel"
+        },
+        {
+          "s": 6,
+          "e": 25,
+          "speaker": "moses",
+          "to": "israelites",
+          "note": "The blessing of each tribe"
+        },
+        {
+          "s": 26,
+          "e": 29,
+          "speaker": "moses",
+          "to": "israelites",
+          "note": "Happy art thou, O Israel"
+        }
+      ]
+    },
+    {
+      "c": 34,
+      "title": "The Death of Moses",
+      "synopsis": "Moses climbs mount Nebo, and the Lord shows him all the promised land, telling him he has caused Israel to see it but will not go over. Moses dies there in the land of Moab at one hundred twenty years, his eye undimmed and his force unabated, and the Lord buries him in a valley no man has ever found. Israel mourns thirty days, and Joshua, filled with the spirit of wisdom, takes up his leadership.",
+      "years": "about 1260 BC",
+      "yearNum": -1260,
+      "approx": true,
+      "place": "jordan-river",
+      "themes": [
+        "endurance",
+        "leadership",
+        "hope"
+      ],
+      "characters": [
+        "moses",
+        "joshua",
+        "the-lord"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 4,
+          "speaker": "the-lord",
+          "to": "moses",
+          "note": "The Lord shows Moses the whole land"
+        },
+        {
+          "s": 5,
+          "e": 12,
+          "speaker": "moses",
+          "to": "reader",
+          "note": "Moses dies on Nebo; Joshua succeeds him"
+        }
+      ]
+    }
+  ]
+}

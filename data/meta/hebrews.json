@@ -1,0 +1,190 @@
+{
+  "book": "Hebrews",
+  "slug": "hebrews",
+  "narrator": "paul",
+  "plates": "pauline-epistles",
+  "chapters": [
+    {
+      "c": 1,
+      "title": "Christ Exalted Above the Angels",
+      "synopsis": "Traditionally ascribed to Paul, though the epistle itself is anonymous, this opening chapter declares that God, who spoke anciently by the prophets, has in these last days spoken through his Son, the heir of all things and the brightness of his glory. This Son, having purged our sins, sat down at the right hand of God, made so much better than the angels, who are but ministering spirits sent forth to serve.",
+      "years": "c. AD 65",
+      "yearNum": 65,
+      "approx": true,
+      "place": null,
+      "themes": ["revelation", "worship", "hope"],
+      "characters": ["paul", "jesus-christ", "angel"],
+      "segments": [
+        { "s": 1, "e": 14, "speaker": "paul", "to": "house-of-israel", "note": "Traditionally ascribed to Paul; Christ greater than angels" }
+      ]
+    },
+    {
+      "c": 2,
+      "title": "Made Lower Than the Angels",
+      "synopsis": "The author warns against neglecting so great a salvation, confirmed by those who heard the Lord and by signs and wonders that God bore witness with. Christ, made for a little while lower than the angels for the suffering of death, tasted death for every man, and having been made perfect through suffering became a merciful and faithful high priest, able to succor them that are tempted.",
+      "years": "c. AD 65",
+      "yearNum": 65,
+      "approx": true,
+      "place": null,
+      "themes": ["atonement", "priesthood", "deliverance"],
+      "characters": ["paul", "jesus-christ"],
+      "segments": [
+        { "s": 1, "e": 18, "speaker": "paul", "to": "house-of-israel", "note": "Christ tastes death for all; a merciful high priest" }
+      ]
+    },
+    {
+      "c": 3,
+      "title": "Greater Than Moses",
+      "synopsis": "Christ is counted worthy of more glory than Moses, for the builder of a house has more honor than the house itself, and Moses was faithful as a servant while Christ is faithful as a son over his own house. The author warns against hardening the heart as Israel did in the wilderness provocation, urging the saints to exhort one another daily lest any be hardened through the deceitfulness of sin.",
+      "years": "c. AD 65",
+      "yearNum": 65,
+      "approx": true,
+      "place": null,
+      "themes": ["faith", "obedience", "endurance"],
+      "characters": ["paul", "jesus-christ", "moses"],
+      "segments": [
+        { "s": 1, "e": 19, "speaker": "paul", "to": "house-of-israel", "note": "Christ greater than Moses; harden not your hearts" }
+      ]
+    },
+    {
+      "c": 4,
+      "title": "A Rest That Still Remains",
+      "synopsis": "A promise of entering God's rest remains for the people of God, though many in the wilderness failed to enter in because of unbelief, as also in the days of Joshua. The word of God is quick and powerful, sharper than a two-edged sword, discerning the thoughts and intents of the heart, and the saints are urged to come boldly to the throne of grace, for Christ, the great high priest, was tempted in all points yet without sin.",
+      "years": "c. AD 65",
+      "yearNum": 65,
+      "approx": true,
+      "place": null,
+      "themes": ["faith", "priesthood", "hope"],
+      "characters": ["paul", "jesus-christ", "moses"],
+      "segments": [
+        { "s": 1, "e": 16, "speaker": "paul", "to": "house-of-israel", "note": "A rest remains; come boldly to the throne of grace" }
+      ]
+    },
+    {
+      "c": 5,
+      "title": "A High Priest After Melchizedek",
+      "synopsis": "Every high priest is ordained to offer gifts and sacrifices for sins and must have compassion, being taken from among men and called of God as was Aaron, and Christ likewise did not glorify himself to be made a high priest but was called after the order of Melchizedek. The author rebukes the readers for remaining unskillful in the word of righteousness, needing milk rather than the strong meat that belongs to the mature.",
+      "years": "c. AD 65",
+      "yearNum": 65,
+      "approx": true,
+      "place": null,
+      "themes": ["priesthood", "faith", "discipleship"],
+      "characters": ["paul", "jesus-christ", "melchizedek", "moses"],
+      "segments": [
+        { "s": 1, "e": 14, "speaker": "paul", "to": "house-of-israel", "note": "Christ called after the order of Melchizedek" }
+      ]
+    },
+    {
+      "c": 6,
+      "title": "An Anchor of the Soul",
+      "synopsis": "The author warns against falling away after tasting the good word of God, urging the readers to go on unto perfection rather than laying again a foundation of repentance, and points to the diligence and patience of those who through faith and patience inherit the promises. God's promise to Abraham, confirmed by an oath, gives strong consolation to those who have fled for refuge, and this hope is as an anchor of the soul, sure and steadfast, entering within the veil where Jesus has gone before.",
+      "years": "c. AD 65",
+      "yearNum": 65,
+      "approx": true,
+      "place": null,
+      "themes": ["faith", "hope", "covenant"],
+      "characters": ["paul", "abraham", "jesus-christ", "melchizedek"],
+      "segments": [
+        { "s": 1, "e": 20, "speaker": "paul", "to": "house-of-israel", "note": "Go on unto perfection; hope as an anchor of the soul" }
+      ]
+    },
+    {
+      "c": 7,
+      "title": "Melchizedek the Priest-King",
+      "synopsis": "The author describes Melchizedek, king of Salem and priest of the most high God, who met Abraham returning from battle and blessed him, to whom Abraham paid tithes, greater even than Levi who was yet unborn in the loins of his father. The law made nothing perfect, so a better hope is introduced by an oath, and Jesus, because he continues forever, holds an unchangeable priesthood and is able to save to the uttermost all who come unto God by him.",
+      "years": "c. AD 65",
+      "yearNum": 65,
+      "approx": true,
+      "place": null,
+      "themes": ["priesthood", "covenant", "atonement"],
+      "characters": ["paul", "melchizedek", "abraham", "jesus-christ"],
+      "segments": [
+        { "s": 1, "e": 28, "speaker": "paul", "to": "house-of-israel", "note": "Melchizedek greater than Levi; Christ's unchangeable priesthood" }
+      ]
+    },
+    {
+      "c": 8,
+      "title": "A New and Better Covenant",
+      "synopsis": "Christ is a minister of the true tabernacle in heaven which the Lord pitched and not man, and because the first covenant was not faultless a new covenant was promised through Jeremiah, written in the heart rather than upon tables of stone. By calling this covenant new, the first covenant is treated as decaying and ready to vanish away.",
+      "years": "c. AD 65",
+      "yearNum": 65,
+      "approx": true,
+      "place": null,
+      "themes": ["covenant", "priesthood", "temple"],
+      "characters": ["paul", "jesus-christ"],
+      "segments": [
+        { "s": 1, "e": 13, "speaker": "paul", "to": "house-of-israel", "note": "A new covenant written on the heart" }
+      ]
+    },
+    {
+      "c": 9,
+      "title": "The Tabernacle and the Blood of Christ",
+      "synopsis": "The author describes the earthly tabernacle with its holy place and holiest of all, entered only once a year by the high priest with the blood of animals, a figure for the time then present. Christ, by his own blood, entered the greater and more perfect tabernacle once for all, obtaining eternal redemption, for without the shedding of blood there is no remission, and he appeared once to put away sin by the sacrifice of himself.",
+      "years": "c. AD 65",
+      "yearNum": 65,
+      "approx": true,
+      "place": null,
+      "themes": ["temple", "atonement", "covenant"],
+      "characters": ["paul", "jesus-christ", "moses"],
+      "segments": [
+        { "s": 1, "e": 28, "speaker": "paul", "to": "house-of-israel", "note": "The tabernacle fulfilled; Christ's blood obtains redemption" }
+      ]
+    },
+    {
+      "c": 10,
+      "title": "One Sacrifice for Sins Forever",
+      "synopsis": "The law, having only a shadow of good things to come, could never make the worshippers perfect, but Christ, by one offering, has perfected forever them that are sanctified, and where remission of sins is there is no more offering for sin. The readers are urged to draw near with full assurance of faith, to hold fast the profession of their hope, and not to forsake the assembling of themselves together, remembering their former days of endurance and not casting away their confidence.",
+      "years": "c. AD 65",
+      "yearNum": 65,
+      "approx": true,
+      "place": null,
+      "themes": ["atonement", "faith", "endurance"],
+      "characters": ["paul", "jesus-christ"],
+      "segments": [
+        { "s": 1, "e": 39, "speaker": "paul", "to": "house-of-israel", "note": "One sacrifice perfects forever; hold fast your confidence" }
+      ]
+    },
+    {
+      "c": 11,
+      "title": "The Faith of the Ancients",
+      "synopsis": "Faith is the substance of things hoped for, the evidence of things not seen, and by it the elders obtained a good report, from Enoch, who was translated that he should not see death, to Noah, who prepared an ark and condemned the world, to Abraham, who obeyed and offered up Isaac, to Moses, who chose affliction with the people of God rather than the pleasures of sin. The author also recalls Rahab, who received the spies in peace, and David and Samuel and the prophets, concluding that all these, though witnessed of through faith, did not receive the promise, God having provided some better thing for the saints.",
+      "years": "c. AD 65",
+      "yearNum": 65,
+      "approx": true,
+      "place": null,
+      "themes": ["faith", "endurance", "hope"],
+      "characters": ["paul", "enoch", "noah", "abraham", "moses", "rahab", "david", "samuel"],
+      "segments": [
+        { "s": 1, "e": 40, "speaker": "paul", "to": "house-of-israel", "note": "Faith of the ancients; a great cloud of witnesses" }
+      ]
+    },
+    {
+      "c": 12,
+      "title": "Chastening and Mount Zion",
+      "synopsis": "Compassed about with so great a cloud of witnesses, the saints are to lay aside every weight and run with patience the race set before them, looking to Jesus, the author and finisher of faith, who endured the cross for the joy set before him. The Lord chastens whom he loves as a father chastens a son, and the readers are warned not to sell a birthright for one morsel of meat, for they have come not to the terror of Sinai but to Mount Zion, the heavenly Jerusalem, to God the judge of all, and to Jesus the mediator of the new covenant.",
+      "years": "c. AD 65",
+      "yearNum": 65,
+      "approx": true,
+      "place": null,
+      "themes": ["endurance", "zion", "covenant"],
+      "characters": ["paul", "jesus-christ"],
+      "segments": [
+        { "s": 1, "e": 29, "speaker": "paul", "to": "house-of-israel", "note": "Run with patience; come unto Mount Zion" }
+      ]
+    },
+    {
+      "c": 13,
+      "title": "Farewells and Final Exhortations",
+      "synopsis": "The closing chapter urges brotherly love, hospitality to strangers, remembrance of those in bonds, honorable marriage, and contentment without covetousness, for the Lord has promised he will never leave nor forsake his own. The saints are to remember their leaders and follow their faith, offering the sacrifice of praise continually, and the author closes with a benediction invoking the God of peace who brought again from the dead the great shepherd of the sheep, before sending final greetings and farewell.",
+      "years": "c. AD 65",
+      "yearNum": 65,
+      "approx": true,
+      "place": null,
+      "themes": ["charity", "family", "worship"],
+      "characters": ["paul", "jesus-christ"],
+      "segments": [
+        { "s": 1, "e": 25, "speaker": "paul", "to": "house-of-israel", "note": "Brotherly love, remembrance of leaders, final benediction" }
+      ]
+    }
+  ]
+}

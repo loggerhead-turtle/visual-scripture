@@ -1,0 +1,64 @@
+{
+  "book": "2 Timothy",
+  "slug": "2-timothy",
+  "narrator": "paul",
+  "plates": "pauline-epistles",
+  "chapters": [
+    {
+      "c": 1,
+      "title": "Stir Up the Gift of God",
+      "synopsis": "Writing what will be his last letter, Paul reminds Timothy of the unfeigned faith that dwelt first in his grandmother Lois and mother Eunice, and urges him to stir up the gift of God that is in him, for God has not given the spirit of fear but of power, love, and a sound mind. He recalls the kindness of Onesiphorus, who often refreshed him and was not ashamed of his chain.",
+      "years": "AD 66",
+      "yearNum": 66,
+      "approx": false,
+      "place": null,
+      "themes": ["faith", "endurance", "family"],
+      "characters": ["paul", "timothy"],
+      "segments": [
+        { "s": 1, "e": 18, "speaker": "paul", "to": "timothy", "note": "Stir up thy gift; not ashamed of the testimony" }
+      ]
+    },
+    {
+      "c": 2,
+      "title": "Endure Hardness as a Good Soldier",
+      "synopsis": "Paul exhorts Timothy to be strong in grace and to endure hardness as a good soldier of Jesus Christ, for no man that warreth entangles himself with the affairs of this life. He charges him to study to shew himself approved unto God, rightly dividing the word of truth, to shun profane and vain babblings, and to be gentle unto all men, patient, in meekness instructing those that oppose themselves.",
+      "years": "AD 66",
+      "yearNum": 66,
+      "approx": false,
+      "place": null,
+      "themes": ["endurance", "discipleship", "leadership"],
+      "characters": ["paul", "timothy", "jesus-christ"],
+      "segments": [
+        { "s": 1, "e": 26, "speaker": "paul", "to": "timothy", "note": "Endure as a good soldier; rightly divide the word" }
+      ]
+    },
+    {
+      "c": 3,
+      "title": "Perilous Times Shall Come",
+      "synopsis": "Paul warns that in the last days perilous times shall come, when men will be lovers of their own selves, covetous, and evil men and seducers will wax worse and worse. He charges Timothy to continue in the things he has learned, for all scripture is given by inspiration of God and is profitable for doctrine, reproof, correction, and instruction in righteousness.",
+      "years": "AD 66",
+      "yearNum": 66,
+      "approx": false,
+      "place": null,
+      "themes": ["apostasy", "prophecy", "endurance"],
+      "characters": ["paul", "timothy"],
+      "segments": [
+        { "s": 1, "e": 17, "speaker": "paul", "to": "timothy", "note": "Perilous times in the last days; all scripture inspired" }
+      ]
+    },
+    {
+      "c": 4,
+      "title": "I Have Fought a Good Fight",
+      "synopsis": "Paul charges Timothy to preach the word in season and out of season, for a time will come when men will not endure sound doctrine, and calls on him to watch, endure afflictions, and do the work of an evangelist. Facing death, Paul declares he has fought a good fight, finished his course, and kept the faith, with a crown of righteousness laid up for him, and asks Timothy to come quickly, for Demas has forsaken him and only Luke remains.",
+      "years": "AD 66",
+      "yearNum": 66,
+      "approx": false,
+      "place": null,
+      "themes": ["endurance", "faith", "hope"],
+      "characters": ["paul", "timothy", "luke"],
+      "segments": [
+        { "s": 1, "e": 22, "speaker": "paul", "to": "timothy", "note": "I have fought a good fight; final instructions" }
+      ]
+    }
+  ]
+}

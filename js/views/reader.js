@@ -1,31 +1,57 @@
-import { BOOKS, bookBySlug, loadText, loadMeta, loadPlaces, loadPlates, loadTimeline, entities, segmentFor, prevNextChapter, esc, themeName } from '../data.js';
+import { VOLUMES, bookBySlug, volumeOf, chapterWord, loadText, loadMeta, loadPlaces, loadPlacesHolyLand, loadPlacesUSA, loadPlates, entities, segmentFor, prevNextChapter, esc, themeName } from '../data.js';
 import { avatar } from '../portraits.js';
 
 let observer = null;
+
+const MINI_RANGE = { ot: [-4000, -400], nt: [-5, 100], bom: [-600, 421], dc: [1820, 1920] };
 
 export async function renderReader(el, slug, c, params) {
   const book = bookBySlug[slug];
   if (!book) { location.hash = '#/read/1-nephi/1'; return; }
   c = Math.min(c, book.chapters);
+  const vol = volumeOf(slug);
 
-  const [text, meta, ents, placesData, platesData, tl] = await Promise.all([
-    loadText(slug), loadMeta(slug), entities(), loadPlaces(), loadPlates(), loadTimeline(),
+  const [text, meta, ents, placesBom, placesHL, placesUSA, platesData] = await Promise.all([
+    loadText(slug), loadMeta(slug), entities(), loadPlaces(), loadPlacesHolyLand(), loadPlacesUSA(), loadPlates(),
   ]);
+  const allPlaces = [
+    ...placesBom.places,
+    ...((placesHL && placesHL.places) || []),
+    ...((placesUSA && placesUSA.places) || []),
+  ];
   const verses = text.chapters[c - 1];
   const cm = meta.chapters[c - 1] || {};
   const platesKey = cm.plates || meta.plates;
   const pk = platesData.platesKeys[platesKey] || {};
-  const place = cm.place ? placesData.places.find(p => p.id === cm.place) : null;
+  const place = cm.place ? allPlaces.find(p => p.id === cm.place) : null;
+  const mapParam = vol.id === 'bom' ? 'internal' : vol.id === 'dc' ? 'usa' : 'holy-land';
   const { prev, next } = prevNextChapter(slug, c);
   const narrator = ents.byId[meta.narrator];
+  const cw = chapterWord(slug);
 
-  const toc = BOOKS.map(b => {
-    const cur = b.slug === slug;
-    const color = (platesData.platesKeys[(platesData.books.find(x => x.slug === b.slug) || {}).plates] || {}).color || '#888';
-    return `<div class="toc-book ${cur ? 'current' : ''}" data-slug="${b.slug}">
-      <button type="button"><span class="dot" style="background:${color}"></span>${b.name}</button>
-      <div class="toc-chapters" ${cur ? '' : 'hidden'}>${Array.from({ length: b.chapters }, (_, i) =>
-        `<a href="#/read/${b.slug}/${i + 1}" class="${cur && i + 1 === c ? 'current' : ''}">${i + 1}</a>`).join('')}</div>
+  const bookColor = s => {
+    const all = [].concat(platesData.books || [],
+      (platesData.bibleBooks && platesData.bibleBooks.ot) || [],
+      (platesData.bibleBooks && platesData.bibleBooks.nt) || [],
+      (platesData.bibleBooks && platesData.bibleBooks.dc) || []);
+    const entry = all.find(x => x.slug === s);
+    return (entry && (platesData.platesKeys[entry.plates] || {}).color) || '#888';
+  };
+
+  const toc = VOLUMES.map(v => {
+    const curVol = v.id === vol.id;
+    return `<div class="toc-volume ${curVol ? 'open' : ''}">
+      <button type="button" class="toc-vol-btn" data-vol="${v.id}"><span class="dot" style="background:${v.color}"></span>${v.name}</button>
+      <div class="toc-vol-books" ${curVol ? '' : 'hidden'}>
+        ${v.books.map(b => {
+          const cur = b.slug === slug;
+          return `<div class="toc-book ${cur ? 'current' : ''}">
+            <button type="button"><span class="dot" style="background:${bookColor(b.slug)}"></span>${b.name}</button>
+            <div class="toc-chapters" ${cur ? '' : 'hidden'}>${Array.from({ length: b.chapters }, (_, i) =>
+              `<a href="#/read/${b.slug}/${i + 1}" class="${cur && i + 1 === c ? 'current' : ''}">${i + 1}</a>`).join('')}</div>
+          </div>`;
+        }).join('')}
+      </div>
     </div>`;
   }).join('');
 
@@ -43,30 +69,30 @@ export async function renderReader(el, slug, c, params) {
       <aside class="reader-toc">${toc}</aside>
       <article>
         <header class="chapter-head">
-          <div class="crumbs"><a href="#/read">Book of Mormon</a> · ${pk.short || ''} · ${esc(cm.years || '')}</div>
-          <h1>${book.name} ${c}</h1>
+          <div class="crumbs">${esc(vol.name)} · ${pk.short || ''}${cm.years ? ' · ' + esc(cm.years) : ''}</div>
+          <h1>${book.slug === 'dc' ? `Section ${c}` : `${book.name} ${c}`}</h1>
           ${cm.title ? `<h2 class="ctitle">${esc(cm.title)}</h2>` : ''}
-          ${cm.synopsis ? `<div class="synopsis"><strong style="color:var(--gold-dim)">Synopsis — </strong>${esc(cm.synopsis)}</div>` : ''}
+          ${cm.synopsis ? `<div class="synopsis"><strong style="color:var(--gold-dim)">Synopsis — </strong>${esc(cm.synopsis)}</div>` : (meta.stub ? '<div class="synopsis" style="border-left-color:var(--line)">Study notes for this chapter are still being illuminated — the full text is below.</div>' : '')}
           <div class="chapter-meta">
-            <a class="pill link" href="#/plates?p=${platesKey}"><span class="dot" style="background:${pk.color || '#888'}"></span>${pk.short || 'Plates'}</a>
-            ${place ? `<a class="pill link" href="#/map?place=${place.id}">📍 ${place.name}</a>` : ''}
-            <a class="pill link" href="#/timeline?y=${cm.yearNum == null ? '' : cm.yearNum}">🕰 ${esc(cm.years || 'Timeline')}</a>
+            <a class="pill link" href="#/plates?p=${platesKey}"><span class="dot" style="background:${pk.color || '#888'}"></span>${pk.short || 'Record'}</a>
+            ${place ? `<a class="pill link" href="#/map?place=${place.id}&m=${mapParam}">📍 ${place.name}</a>` : ''}
+            ${cm.yearNum != null ? `<a class="pill link" href="#/timeline?y=${cm.yearNum}&era=${vol.id === 'bom' ? 'lehite' : vol.id}">🕰 ${esc(cm.years || 'Timeline')}</a>` : ''}
             ${themes}
           </div>
           ${chars ? `<div class="chapter-meta" style="margin-top:8px">${chars}</div>` : ''}
         </header>
         <div class="verses" id="verses">${versesHtml}</div>
         <nav class="chapter-nav">
-          ${prev ? `<a class="btn" href="#/read/${prev.slug}/${prev.c}">← ${bookBySlug[prev.slug].name} ${prev.c}</a>` : '<span></span>'}
-          ${next ? `<a class="btn" href="#/read/${next.slug}/${next.c}">${bookBySlug[next.slug].name} ${next.c} →</a>` : '<span></span>'}
+          ${prev ? `<a class="btn" href="#/read/${prev.slug}/${prev.c}">← ${prev.slug === 'dc' ? 'Section ' + prev.c : bookBySlug[prev.slug].name + ' ' + prev.c}</a>` : '<span></span>'}
+          ${next ? `<a class="btn" href="#/read/${next.slug}/${next.c}">${next.slug === 'dc' ? 'Section ' + next.c : bookBySlug[next.slug].name + ' ' + next.c} →</a>` : '<span></span>'}
         </nav>
       </article>
       <aside class="speaker-rail">
         <div class="speaker-card" id="speaker-card"></div>
         <div class="context-card">
-          <h4>Chapter context</h4>
+          <h4>${cw} context</h4>
           <div class="row"><span class="k">When</span><span class="v">${esc(cm.years || '—')}${cm.approx ? ' (approx.)' : ''}</span></div>
-          <div class="row"><span class="k">Where</span><span class="v">${place ? `<a href="#/map?place=${place.id}">${place.name}</a>` : 'Doctrinal — no single place'}</span></div>
+          <div class="row"><span class="k">Where</span><span class="v">${place ? `<a href="#/map?place=${place.id}&m=${mapParam}">${place.name}</a>` : '—'}</span></div>
           <div class="row"><span class="k">Record</span><span class="v"><a href="#/plates?p=${platesKey}">${pk.short || '—'}</a></span></div>
           <div class="row"><span class="k">Narrator</span><span class="v">${narrator ? `<a href="#/character/${narrator.id}">${narrator.name}</a>` : '—'}</span></div>
           <div class="mini-timeline" id="mini-tl"></div>
@@ -75,7 +101,13 @@ export async function renderReader(el, slug, c, params) {
     </div>
   </div>`;
 
-  // TOC book expand/collapse
+  el.querySelectorAll('.toc-vol-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const wrap = btn.parentElement.querySelector('.toc-vol-books');
+      wrap.hidden = !wrap.hidden;
+      btn.parentElement.classList.toggle('open', !wrap.hidden);
+    });
+  });
   el.querySelectorAll('.toc-book > button').forEach(btn => {
     btn.addEventListener('click', () => {
       const wrap = btn.parentElement.querySelector('.toc-chapters');
@@ -85,9 +117,8 @@ export async function renderReader(el, slug, c, params) {
   const curBtn = el.querySelector('.toc-book.current');
   if (curBtn) curBtn.scrollIntoView({ block: 'center' });
 
-  renderMiniTimeline(el.querySelector('#mini-tl'), tl, cm.yearNum);
+  renderMiniTimeline(el.querySelector('#mini-tl'), cm.yearNum, vol);
 
-  // ---- living speaker card ----
   const cardEl = el.querySelector('#speaker-card');
   let activeSeg;
   const setSegment = seg => {
@@ -96,10 +127,11 @@ export async function renderReader(el, slug, c, params) {
     renderSpeakerCard(cardEl, seg, ents, meta);
     el.querySelectorAll('.verse').forEach(p => {
       const v = +p.dataset.v;
-      p.classList.toggle('seg-active', !!seg && v >= seg.s && v <= seg.e);
+      const on = !!seg && v >= seg.s && v <= seg.e;
+      p.classList.toggle('seg-active', on);
       if (seg) {
         const spk = ents.byId[seg.speaker];
-        p.style.borderLeftColor = (!!seg && v >= seg.s && v <= seg.e) ? ((spk && spk.portrait && spk.portrait.accent) || 'var(--gold-dim)') : 'transparent';
+        p.style.borderLeftColor = on ? ((spk && spk.portrait && spk.portrait.accent) || 'var(--gold-dim)') : 'transparent';
       }
     });
   };
@@ -148,20 +180,24 @@ function renderSpeakerCard(cardEl, seg, ents, meta) {
     <div class="sc-verses">Voices change as you scroll — from ${esc(meta.book)}'s segment notes.</div>`;
 }
 
-function renderMiniTimeline(el, tl, yearNum) {
+function renderMiniTimeline(el, yearNum, vol) {
   if (!el) return;
-  const min = -600, max = 421;
+  const [min, max] = MINI_RANGE[vol.id] || [-600, 421];
   const w = 260, h = 46;
   const x = v => 12 + (Math.max(min, Math.min(max, v)) - min) / (max - min) * (w - 24);
+  const step = Math.round((max - min) / 4);
   let marks = '';
-  for (const y of [-600, -400, -200, 0, 200, 400]) {
+  for (let i = 0; i <= 4; i++) {
+    const y = min + i * step;
+    const lab = vol.id === 'dc' ? y : (y < 0 ? -y + ' BC' : 'AD ' + y);
     marks += `<line x1="${x(y)}" y1="18" x2="${x(y)}" y2="26" stroke="#3a3225" stroke-width="1"/>
-      <text x="${x(y)}" y="40" fill="#8a8069" font-size="8" text-anchor="middle">${y < 0 ? -y + ' BC' : 'AD ' + y}</text>`;
+      <text x="${x(y)}" y="40" fill="#8a8069" font-size="8" text-anchor="middle">${lab}</text>`;
   }
   const pos = yearNum == null ? null : x(yearNum);
+  const era = vol.id === 'bom' ? 'lehite' : vol.id;
   el.innerHTML = `<svg viewBox="0 0 ${w} ${h}">
     <line x1="12" y1="22" x2="${w - 12}" y2="22" stroke="#3a3225" stroke-width="2"/>${marks}
     ${pos != null ? `<circle cx="${pos}" cy="22" r="5" fill="var(--gold)"/><circle cx="${pos}" cy="22" r="8" fill="none" stroke="var(--gold)" stroke-opacity=".4"/>` : ''}
   </svg>
-  <div style="text-align:center"><a href="#/timeline${yearNum != null ? '?y=' + yearNum : ''}" style="font-size:11.5px">Open full timeline →</a></div>`;
+  <div style="text-align:center"><a href="#/timeline${yearNum != null ? `?y=${yearNum}&era=${era}` : ''}" style="font-size:11.5px">Open full timeline →</a></div>`;
 }

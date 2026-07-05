@@ -1,0 +1,163 @@
+{
+  "book": "Ezra",
+  "slug": "ezra",
+  "narrator": "ezra",
+  "plates": "history",
+  "chapters": [
+    {
+      "c": 1,
+      "title": "Cyrus's Decree of Return",
+      "synopsis": "Cyrus, king of Persia, stirred by the Lord, decrees that the Jewish exiles may return to Jerusalem and rebuild the temple. He restores the sacred vessels Nebuchadnezzar had taken, and the people prepare to go up with gifts from their neighbors.",
+      "years": "about 538 BC",
+      "yearNum": -538,
+      "approx": false,
+      "place": "babylon",
+      "themes": ["deliverance", "gathering-of-israel", "prophecy"],
+      "characters": ["cyrus"],
+      "segments": [
+        { "s": 1, "e": 1, "speaker": "ezra", "to": "reader", "note": "The Lord stirs Cyrus's spirit" },
+        { "s": 2, "e": 4, "speaker": "cyrus", "to": "house-of-israel", "note": "Cyrus proclaims that the exiles may return" },
+        { "s": 5, "e": 11, "speaker": "ezra", "to": "reader", "note": "Vessels restored; the people prepare to leave" }
+      ]
+    },
+    {
+      "c": 2,
+      "title": "The Register of Returning Exiles",
+      "synopsis": "Ezra records the families, priests, and Levites who return from Babylon to Judah under Zerubbabel. The list totals the people, servants, and singers, and notes gifts given toward rebuilding the temple.",
+      "years": "about 538 BC",
+      "yearNum": -538,
+      "approx": false,
+      "place": "jerusalem",
+      "themes": ["records", "gathering-of-israel"],
+      "characters": [],
+      "segments": [
+        { "s": 1, "e": 70, "speaker": "ezra", "to": "reader", "note": "The census of those who return from exile" }
+      ]
+    },
+    {
+      "c": 3,
+      "title": "The Altar and Temple Foundation",
+      "synopsis": "The returned exiles rebuild the altar and restore the daily sacrifices despite their fear of surrounding peoples. When the temple's foundation is laid, the people shout for joy while older priests weep at the memory of the first temple.",
+      "years": "about 536 BC",
+      "yearNum": -536,
+      "approx": false,
+      "place": "jerusalem",
+      "themes": ["worship", "records", "hope"],
+      "characters": [],
+      "segments": [
+        { "s": 1, "e": 7, "speaker": "ezra", "to": "reader", "note": "The altar rebuilt; sacrifices restored" },
+        { "s": 8, "e": 13, "speaker": "ezra", "to": "reader", "note": "The temple foundation laid amid joy and weeping" }
+      ]
+    },
+    {
+      "c": 4,
+      "title": "Adversaries Halt the Work",
+      "synopsis": "Enemies of Judah offer false help and then hire counselors to frustrate the rebuilding of the temple. Later opponents write to the Persian king accusing Jerusalem of rebellion, and the work stops until the reign of Darius.",
+      "years": "about 534-520 BC",
+      "yearNum": -530,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["endurance", "leadership", "records"],
+      "characters": [],
+      "segments": [
+        { "s": 1, "e": 5, "speaker": "ezra", "to": "reader", "note": "Adversaries hinder the rebuilding" },
+        { "s": 6, "e": 23, "speaker": "ezra", "to": "reader", "note": "Letters accuse Jerusalem before the king" },
+        { "s": 24, "e": 24, "speaker": "ezra", "to": "reader", "note": "The work ceases until Darius's reign" }
+      ]
+    },
+    {
+      "c": 5,
+      "title": "The Prophets Stir the Work Anew",
+      "synopsis": "Encouraged by the prophets, Zerubbabel and Jeshua resume building the temple despite governors' questions. The Persian governor Tattenai writes to Darius asking whether Cyrus truly authorized the work.",
+      "years": "about 520 BC",
+      "yearNum": -520,
+      "approx": false,
+      "place": "jerusalem",
+      "themes": ["prophecy", "records", "leadership"],
+      "characters": ["zechariah-prophet"],
+      "segments": [
+        { "s": 1, "e": 2, "speaker": "ezra", "to": "reader", "note": "The prophets urge the work forward" },
+        { "s": 3, "e": 17, "speaker": "ezra", "to": "reader", "note": "Tattenai questions the builders' authority" }
+      ]
+    },
+    {
+      "c": 6,
+      "title": "The Temple Finished and Dedicated",
+      "synopsis": "Darius finds Cyrus's decree and commands that the temple work continue at his own expense, threatening any who hinder it. The temple is completed, dedicated with sacrifice and joy, and the returned exiles keep the Passover together.",
+      "years": "about 516 BC",
+      "yearNum": -516,
+      "approx": false,
+      "place": "jerusalem",
+      "themes": ["worship", "deliverance", "covenant"],
+      "characters": [],
+      "segments": [
+        { "s": 1, "e": 12, "speaker": "ezra", "to": "reader", "note": "Darius confirms Cyrus's decree" },
+        { "s": 13, "e": 18, "speaker": "ezra", "to": "reader", "note": "The temple is finished and dedicated" },
+        { "s": 19, "e": 22, "speaker": "ezra", "to": "reader", "note": "The people keep the Passover" }
+      ]
+    },
+    {
+      "c": 7,
+      "title": "Ezra Journeys to Jerusalem",
+      "synopsis": "Ezra, a priest and scribe skilled in the law of Moses, receives broad authority from king Artaxerxes to teach and judge in Judah. He blesses the Lord for putting it in the king's heart to honor the house of God.",
+      "years": "about 458-457 BC",
+      "yearNum": -457,
+      "approx": false,
+      "place": "jerusalem",
+      "themes": ["records", "leadership", "faith"],
+      "characters": ["ezra"],
+      "segments": [
+        { "s": 1, "e": 10, "speaker": "ezra", "to": "reader", "note": "Ezra's lineage and devotion to the law" },
+        { "s": 11, "e": 26, "speaker": "ezra", "to": "reader", "note": "Artaxerxes grants Ezra authority" },
+        { "s": 27, "e": 28, "speaker": "ezra", "to": "the-lord", "note": "Ezra blesses the Lord for His favor" }
+      ]
+    },
+    {
+      "c": 8,
+      "title": "Ezra Leads the Exiles Home",
+      "synopsis": "Ezra gathers the families who will return with him and proclaims a fast to seek a safe journey without a military escort. They arrive safely in Jerusalem, deliver the temple treasures, and offer sacrifices of thanksgiving.",
+      "years": "about 457 BC",
+      "yearNum": -457,
+      "approx": false,
+      "place": "jerusalem",
+      "themes": ["faith", "prayer", "gathering-of-israel"],
+      "characters": ["ezra"],
+      "segments": [
+        { "s": 1, "e": 14, "speaker": "ezra", "to": "reader", "note": "The company of returning exiles listed" },
+        { "s": 15, "e": 23, "speaker": "ezra", "to": "reader", "note": "Ezra proclaims a fast for a safe journey" },
+        { "s": 24, "e": 36, "speaker": "ezra", "to": "reader", "note": "Safe arrival; treasures delivered and offerings made" }
+      ]
+    },
+    {
+      "c": 9,
+      "title": "Ezra Mourns Israel's Intermarriage",
+      "synopsis": "Ezra learns that many Israelites, including leaders, have intermarried with the peoples of the land against the Lord's command. Appalled, he tears his clothing and offers a humble, anguished prayer confessing the nation's guilt.",
+      "years": "about 457 BC",
+      "yearNum": -457,
+      "approx": false,
+      "place": "jerusalem",
+      "themes": ["repentance", "covenant", "prayer"],
+      "characters": ["ezra"],
+      "segments": [
+        { "s": 1, "e": 4, "speaker": "ezra", "to": "reader", "note": "Ezra learns of the people's intermarriage" },
+        { "s": 5, "e": 15, "speaker": "ezra", "to": "the-lord", "note": "Ezra's prayer of confession and shame" }
+      ]
+    },
+    {
+      "c": 10,
+      "title": "The Covenant to Put Away Foreign Wives",
+      "synopsis": "Moved by Ezra's grief, the people covenant to put away their foreign wives and children in obedience to the law. Ezra assembles the men of Judah, and over three months the matter is investigated and a list of offenders is recorded.",
+      "years": "about 457 BC",
+      "yearNum": -457,
+      "approx": false,
+      "place": "jerusalem",
+      "themes": ["repentance", "covenant", "obedience"],
+      "characters": ["ezra"],
+      "segments": [
+        { "s": 1, "e": 8, "speaker": "ezra", "to": "reader", "note": "The people weep and covenant with Ezra" },
+        { "s": 9, "e": 17, "speaker": "ezra", "to": "reader", "note": "The assembly investigates the matter" },
+        { "s": 18, "e": 44, "speaker": "ezra", "to": "reader", "note": "The list of those who put away foreign wives" }
+      ]
+    }
+  ]
+}

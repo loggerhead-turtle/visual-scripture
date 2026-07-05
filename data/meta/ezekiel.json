@@ -1,0 +1,701 @@
+{
+  "book": "Ezekiel",
+  "slug": "ezekiel",
+  "narrator": "ezekiel",
+  "plates": "prophets-major",
+  "chapters": [
+    {
+      "c": 1,
+      "title": "Visions of God by the River",
+      "synopsis": "Among the captives by the river of Chebar in Babylon, Ezekiel sees the heavens opened. Four living creatures, wheels within wheels full of eyes, and a throne bearing the likeness of the glory of the Lord appear in a whirlwind of fire.",
+      "years": "about 593 BC",
+      "yearNum": -593,
+      "approx": true,
+      "place": "babylon",
+      "themes": ["revelation", "prophecy", "worship"],
+      "characters": ["ezekiel", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 3, "speaker": "ezekiel", "to": "reader", "note": "Ezekiel dates his vision among the captives" },
+        { "s": 4, "e": 28, "speaker": "ezekiel", "to": "reader", "note": "Living creatures, wheels, and the throne of glory" }
+      ]
+    },
+    {
+      "c": 2,
+      "title": "Sent to a Rebellious House",
+      "synopsis": "The Lord sets Ezekiel on his feet and commissions him as a prophet to the rebellious house of Israel. Whether they hear or refuse, they will know a prophet has been among them, and a hand offers him a scroll written with lamentations and woe.",
+      "years": "about 593 BC",
+      "yearNum": -593,
+      "approx": true,
+      "place": "babylon",
+      "themes": ["prophecy", "revelation", "obedience"],
+      "characters": ["ezekiel", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 2, "speaker": "ezekiel", "to": "reader", "note": "The Spirit sets Ezekiel on his feet" },
+        { "s": 3, "e": 10, "speaker": "the-lord", "to": "ezekiel", "note": "Commission to rebellious Israel; the written roll" }
+      ]
+    },
+    {
+      "c": 3,
+      "title": "A Watchman unto Israel",
+      "synopsis": "Ezekiel eats the scroll, which is sweet as honey, and is carried to the captives at Tel-abib. The Lord appoints him a watchman to warn the wicked, making him accountable for the blood of those he fails to warn, then binds his tongue until God opens his mouth.",
+      "years": "about 593 BC",
+      "yearNum": -593,
+      "approx": true,
+      "place": "babylon",
+      "themes": ["prophecy", "leadership", "obedience"],
+      "characters": ["ezekiel", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 15, "speaker": "ezekiel", "to": "reader", "note": "Eating the roll; carried to Tel-abib" },
+        { "s": 16, "e": 21, "speaker": "the-lord", "to": "ezekiel", "note": "The watchman's charge and accountability" },
+        { "s": 22, "e": 27, "speaker": "ezekiel", "to": "reader", "note": "The glory appears again; silence imposed" }
+      ]
+    },
+    {
+      "c": 4,
+      "title": "The Siege Portrayed on a Tile",
+      "synopsis": "Ezekiel is told to engrave Jerusalem on a tile and act out its siege, lying on his side to bear the iniquity of Israel and Judah for appointed days. Scant rationed bread and water dramatize the famine coming upon the besieged city.",
+      "years": "about 593 BC",
+      "yearNum": -593,
+      "approx": true,
+      "place": "babylon",
+      "themes": ["prophecy", "judgment"],
+      "characters": ["ezekiel", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 17, "speaker": "the-lord", "to": "ezekiel", "note": "Sign of the tile: Jerusalem besieged" }
+      ]
+    },
+    {
+      "c": 5,
+      "title": "The Sign of the Sharp Razor",
+      "synopsis": "Ezekiel shaves his head and beard and divides the hair into thirds, burned, smitten, and scattered, a sign of how Jerusalem's people will fall by famine, sword, and dispersion. Because the city rebelled against God's judgments more than the nations around her, judgment will be executed in the sight of all.",
+      "years": "about 593 BC",
+      "yearNum": -593,
+      "approx": true,
+      "place": "babylon",
+      "themes": ["judgment", "apostasy", "prophecy"],
+      "characters": ["ezekiel", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 4, "speaker": "the-lord", "to": "ezekiel", "note": "The divided hair as a sign" },
+        { "s": 5, "e": 17, "speaker": "the-lord", "to": "house-of-israel", "note": "Jerusalem judged before the nations" }
+      ]
+    },
+    {
+      "c": 6,
+      "title": "Judgment on the High Places",
+      "synopsis": "Ezekiel prophesies against the mountains of Israel, where altars and idols will be broken and the slain will fall before their images. Yet a remnant scattered among the nations will remember the Lord and know that he is God.",
+      "years": "about 593 BC",
+      "yearNum": -593,
+      "approx": true,
+      "place": "babylon",
+      "themes": ["judgment", "apostasy", "hope"],
+      "characters": ["ezekiel", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 14, "speaker": "the-lord", "to": "house-of-israel", "note": "Idolatrous high places destroyed; a remnant spared" }
+      ]
+    },
+    {
+      "c": 7,
+      "title": "An End Is Come",
+      "synopsis": "The Lord declares that an end has come upon the four corners of the land of Israel; the day of trouble is near. Silver and gold cannot deliver in the day of wrath, and the people will know that the Lord smites.",
+      "years": "about 593 BC",
+      "yearNum": -593,
+      "approx": true,
+      "place": "babylon",
+      "themes": ["judgment", "pride-cycle"],
+      "characters": ["ezekiel", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 27, "speaker": "the-lord", "to": "house-of-israel", "note": "The day of the Lord's wrath is near" }
+      ]
+    },
+    {
+      "c": 8,
+      "title": "Abominations in the Temple",
+      "synopsis": "Carried in vision from Babylon to Jerusalem, Ezekiel is shown the image of jealousy, elders burning incense to idols in dark chambers, women weeping for Tammuz, and men worshipping the sun. Each scene reveals greater abominations that drive the Lord from his own sanctuary.",
+      "years": "about 592 BC",
+      "yearNum": -592,
+      "approx": true,
+      "place": "babylon",
+      "themes": ["apostasy", "temple", "revelation"],
+      "characters": ["ezekiel", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 18, "speaker": "ezekiel", "to": "reader", "note": "Vision of idolatry inside Jerusalem's temple" }
+      ]
+    },
+    {
+      "c": 9,
+      "title": "The Mark upon the Faithful",
+      "synopsis": "Six men with slaughter weapons are summoned, and a man clothed in linen with a writer's inkhorn marks the foreheads of all who sigh and cry over the abominations of Jerusalem. The destroyers slay the unmarked, beginning at the sanctuary, while Ezekiel pleads for the remnant.",
+      "years": "about 592 BC",
+      "yearNum": -592,
+      "approx": true,
+      "place": "babylon",
+      "themes": ["judgment", "justice-and-mercy"],
+      "characters": ["ezekiel", "the-lord", "angel"],
+      "segments": [
+        { "s": 1, "e": 11, "speaker": "ezekiel", "to": "reader", "note": "The faithful marked; judgment begins at the sanctuary" }
+      ]
+    },
+    {
+      "c": 10,
+      "title": "Glory at the Threshold",
+      "synopsis": "The man in linen scatters coals of fire from between the cherubim over the city. The glory of the Lord rises from the cherub and stands over the threshold of the house, and Ezekiel recognizes the living creatures of his first vision by the river Chebar.",
+      "years": "about 592 BC",
+      "yearNum": -592,
+      "approx": true,
+      "place": "babylon",
+      "themes": ["revelation", "judgment", "temple"],
+      "characters": ["ezekiel", "the-lord", "angel"],
+      "segments": [
+        { "s": 1, "e": 22, "speaker": "ezekiel", "to": "reader", "note": "Coals of fire; the glory moves toward departure" }
+      ]
+    },
+    {
+      "c": 11,
+      "title": "The Glory Departs the City",
+      "synopsis": "Ezekiel prophesies against princes who devise mischief, and Pelatiah dies as he speaks. The Lord promises the scattered captives one heart and a new spirit, a heart of flesh in place of stone, and then his glory leaves the city as Ezekiel returns in vision to tell the exiles.",
+      "years": "about 592 BC",
+      "yearNum": -592,
+      "approx": true,
+      "place": "babylon",
+      "themes": ["judgment", "hope", "gathering-of-israel"],
+      "characters": ["ezekiel", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 13, "speaker": "ezekiel", "to": "reader", "note": "Judgment on the counsellors of the city" },
+        { "s": 14, "e": 21, "speaker": "the-lord", "to": "house-of-israel", "note": "A new heart promised to the scattered" },
+        { "s": 22, "e": 25, "speaker": "ezekiel", "to": "reader", "note": "The glory departs; Ezekiel tells the captives" }
+      ]
+    },
+    {
+      "c": 12,
+      "title": "The Sign of the Exile's Baggage",
+      "synopsis": "Ezekiel carries out his belongings by day and digs through the wall at evening as a sign that the prince and people of Jerusalem will go into captivity. The Lord answers those who say the vision is for far-off days: none of his words will be prolonged any more.",
+      "years": "about 592 BC",
+      "yearNum": -592,
+      "approx": true,
+      "place": "babylon",
+      "themes": ["prophecy", "exile", "judgment"],
+      "characters": ["ezekiel", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 16, "speaker": "the-lord", "to": "ezekiel", "note": "Acting out the removal into captivity" },
+        { "s": 17, "e": 28, "speaker": "the-lord", "to": "house-of-israel", "note": "The vision is for now, not distant days" }
+      ]
+    },
+    {
+      "c": 13,
+      "title": "Untempered Mortar of False Prophets",
+      "synopsis": "The Lord condemns prophets who follow their own spirit and have seen nothing, daubing a flimsy wall with untempered mortar that will fall in the storm. Women who sew magic charms to hunt souls are likewise judged, for they have made the righteous sad and strengthened the wicked.",
+      "years": "about 592 BC",
+      "yearNum": -592,
+      "approx": true,
+      "place": "babylon",
+      "themes": ["apostasy", "prophecy", "judgment"],
+      "characters": ["ezekiel", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 23, "speaker": "the-lord", "to": "house-of-israel", "note": "Woe to prophets who see false visions" }
+      ]
+    },
+    {
+      "c": 14,
+      "title": "Idols Set Up in the Heart",
+      "synopsis": "Elders come to enquire of the Lord while cherishing idols in their hearts, and God refuses to be enquired of by them until they repent. Even if Noah, Daniel, and Job stood in a rebellious land, they would deliver only their own souls by their righteousness.",
+      "years": "about 592 BC",
+      "yearNum": -592,
+      "approx": true,
+      "place": "babylon",
+      "themes": ["repentance", "judgment", "agency"],
+      "characters": ["ezekiel", "the-lord", "noah", "daniel", "job"],
+      "segments": [
+        { "s": 1, "e": 23, "speaker": "the-lord", "to": "house-of-israel", "note": "Repent of heart-idols; the righteous save themselves only" }
+      ]
+    },
+    {
+      "c": 15,
+      "title": "The Vine Fit for Fire",
+      "synopsis": "The Lord compares Jerusalem to the wood of a wild vine, useless for any work and good only for fuel. Burned at both ends and charred in the middle, the city will pass from fire to fire because its people have trespassed.",
+      "years": "about 592 BC",
+      "yearNum": -592,
+      "approx": true,
+      "place": "babylon",
+      "themes": ["judgment", "parables"],
+      "characters": ["ezekiel", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 8, "speaker": "the-lord", "to": "ezekiel", "note": "Jerusalem as unprofitable vine wood" }
+      ]
+    },
+    {
+      "c": 16,
+      "title": "The Foundling Bride's Unfaithfulness",
+      "synopsis": "In an extended allegory, the Lord recounts finding Jerusalem as an abandoned infant, raising her, entering covenant with her, and adorning her as a bride, only to have her trust in her own beauty and play the harlot with every passing nation. Though she has done worse than Samaria and Sodom, the Lord will remember his covenant and establish it with her forever, that she may be ashamed and know that he is God.",
+      "years": "about 592 BC",
+      "yearNum": -592,
+      "approx": true,
+      "place": "babylon",
+      "themes": ["covenant", "apostasy", "justice-and-mercy", "hope"],
+      "characters": ["ezekiel", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 43, "speaker": "the-lord", "to": "house-of-israel", "note": "The foundling bride turned unfaithful" },
+        { "s": 44, "e": 59, "speaker": "the-lord", "to": "house-of-israel", "note": "Worse than Samaria and Sodom" },
+        { "s": 60, "e": 63, "speaker": "the-lord", "to": "house-of-israel", "note": "An everlasting covenant remembered" }
+      ]
+    },
+    {
+      "c": 17,
+      "title": "Riddle of the Two Eagles",
+      "synopsis": "A great eagle crops the top of a cedar and plants a vine that bends its roots toward a second eagle, a riddle of Judah's king breaking his oath to Babylon by turning to Egypt. The Lord vows the covenant-breaker will die in Babylon, then promises to plant a tender twig upon a high mountain of Israel, a kingdom under which all fowl shall dwell.",
+      "years": "about 592 BC",
+      "yearNum": -592,
+      "approx": true,
+      "place": "babylon",
+      "themes": ["parables", "covenant", "messiah"],
+      "characters": ["ezekiel", "the-lord", "nebuchadnezzar"],
+      "segments": [
+        { "s": 1, "e": 21, "speaker": "the-lord", "to": "house-of-israel", "note": "The eagles, the vine, and the broken oath" },
+        { "s": 22, "e": 24, "speaker": "the-lord", "to": "house-of-israel", "note": "A tender twig planted on a high mountain" }
+      ]
+    },
+    {
+      "c": 18,
+      "title": "The Soul That Sinneth Shall Die",
+      "synopsis": "The Lord repudiates the proverb that children's teeth are set on edge by their fathers' sour grapes: every soul answers for its own conduct. The wicked who turn from sin will live and their transgressions will not be mentioned, for God has no pleasure in the death of him that dieth, and pleads, turn yourselves, and live.",
+      "years": "about 592 BC",
+      "yearNum": -592,
+      "approx": true,
+      "place": "babylon",
+      "themes": ["agency", "repentance", "justice-and-mercy"],
+      "characters": ["ezekiel", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 32, "speaker": "the-lord", "to": "house-of-israel", "note": "Individual accountability; turn and live" }
+      ]
+    },
+    {
+      "c": 19,
+      "title": "Lamentation for the Princes",
+      "synopsis": "Ezekiel raises a lament for the princes of Israel as lion whelps caught and carried to Egypt and Babylon. The mother, once a fruitful vine, is plucked up and planted in the wilderness, with no strong rod left to be a sceptre to rule.",
+      "years": "about 592 BC",
+      "yearNum": -592,
+      "approx": true,
+      "place": "babylon",
+      "themes": ["judgment", "kingship", "exile"],
+      "characters": ["ezekiel"],
+      "segments": [
+        { "s": 1, "e": 14, "speaker": "ezekiel", "to": "house-of-israel", "note": "Lament for captive lion whelps and the vine" }
+      ]
+    },
+    {
+      "c": 20,
+      "title": "Rebellions Rehearsed, Gathering Promised",
+      "synopsis": "When elders come to enquire, the Lord rehearses Israel's rebellions from Egypt through the wilderness to the present, sparing them each time for his name's sake. He vows to rule them with a mighty hand, purge out the rebels, and gather them from the countries to serve him on his holy mountain.",
+      "years": "about 591 BC",
+      "yearNum": -591,
+      "approx": true,
+      "place": "babylon",
+      "themes": ["covenant", "apostasy", "gathering-of-israel"],
+      "characters": ["ezekiel", "the-lord", "moses"],
+      "segments": [
+        { "s": 1, "e": 4, "speaker": "ezekiel", "to": "reader", "note": "Elders come to enquire of the Lord" },
+        { "s": 5, "e": 44, "speaker": "the-lord", "to": "house-of-israel", "note": "Israel's history of rebellion; future gathering" },
+        { "s": 45, "e": 49, "speaker": "the-lord", "to": "ezekiel", "note": "A fire kindled in the south" }
+      ]
+    },
+    {
+      "c": 21,
+      "title": "The Sword of the Lord Drawn",
+      "synopsis": "The Lord draws his sword from its sheath against Jerusalem, sharpened and furbished for the slaughter, and Ezekiel is commanded to sigh and cry. The wicked prince is told to remove the diadem: the kingdom will be overturned, overturned, overturned, until he comes whose right it is, and God will give it him.",
+      "years": "about 591 BC",
+      "yearNum": -591,
+      "approx": true,
+      "place": "babylon",
+      "themes": ["judgment", "kingship", "messiah"],
+      "characters": ["ezekiel", "the-lord", "nebuchadnezzar"],
+      "segments": [
+        { "s": 1, "e": 32, "speaker": "the-lord", "to": "house-of-israel", "note": "The sword unsheathed; the crown removed until Messiah" }
+      ]
+    },
+    {
+      "c": 22,
+      "title": "The Sins of the Bloody City",
+      "synopsis": "The Lord catalogues Jerusalem's sins: blood, extortion, profaned holy things, princes like wolves, and prophets daubing with untempered mortar. Israel has become dross to be melted in the furnace, and God sought for a man to stand in the gap before him for the land, but found none.",
+      "years": "about 591 BC",
+      "yearNum": -591,
+      "approx": true,
+      "place": "babylon",
+      "themes": ["judgment", "apostasy", "leadership"],
+      "characters": ["ezekiel", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 31, "speaker": "the-lord", "to": "house-of-israel", "note": "Jerusalem's sins; none to stand in the gap" }
+      ]
+    },
+    {
+      "c": 23,
+      "title": "Aholah and Aholibah",
+      "synopsis": "Two sisters, Aholah and Aholibah, figure Samaria and Jerusalem, who gave themselves to the idolatries and alliances of Assyria, Babylon, and Egypt. Their lovers become their destroyers, and their judgment warns all who forget the Lord and follow after strange gods.",
+      "years": "about 591 BC",
+      "yearNum": -591,
+      "approx": true,
+      "place": "babylon",
+      "themes": ["apostasy", "judgment", "parables"],
+      "characters": ["ezekiel", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 49, "speaker": "the-lord", "to": "ezekiel", "note": "The two sisters and their unfaithfulness" }
+      ]
+    },
+    {
+      "c": 24,
+      "title": "The Boiling Pot and the Silent Mourner",
+      "synopsis": "On the very day Babylon lays siege to Jerusalem, the Lord gives the parable of a rusted pot boiling over the fire, whose scum will not go out until it is consumed. Ezekiel's wife, the desire of his eyes, dies, and he is forbidden to mourn as a sign that the exiles will not mourn when the sanctuary is profaned.",
+      "years": "about 588 BC",
+      "yearNum": -588,
+      "approx": true,
+      "place": "babylon",
+      "themes": ["judgment", "prophecy", "endurance"],
+      "characters": ["ezekiel", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 14, "speaker": "the-lord", "to": "house-of-israel", "note": "Parable of the boiling pot as the siege begins" },
+        { "s": 15, "e": 27, "speaker": "ezekiel", "to": "reader", "note": "Ezekiel's wife dies; mourning forbidden as a sign" }
+      ]
+    },
+    {
+      "c": 25,
+      "title": "Judgments on Neighboring Nations",
+      "synopsis": "Because Ammon, Moab, Edom, and Philistia rejoiced over Judah's calamity or took revenge upon her, the Lord pronounces judgment on each in turn. The nations that mocked the sanctuary will themselves know that he is the Lord.",
+      "years": "about 587 BC",
+      "yearNum": -587,
+      "approx": true,
+      "place": "babylon",
+      "themes": ["judgment", "prophecy"],
+      "characters": ["ezekiel", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 17, "speaker": "the-lord", "to": "nations", "note": "Against Ammon, Moab, Edom, and Philistia" }
+      ]
+    },
+    {
+      "c": 26,
+      "title": "Tyre Beneath the Waves of Nations",
+      "synopsis": "Because Tyre gloated that Jerusalem's fall would enrich her, the Lord will bring many nations against her like the sea casting up its waves. Nebuchadnezzar will break her towers, her stones and timber will be laid in the midst of the water, and she will be a place to spread nets.",
+      "years": "about 586 BC",
+      "yearNum": -586,
+      "approx": true,
+      "place": "babylon",
+      "themes": ["judgment", "pride-cycle", "prophecy"],
+      "characters": ["ezekiel", "the-lord", "nebuchadnezzar"],
+      "segments": [
+        { "s": 1, "e": 21, "speaker": "the-lord", "to": "nations", "note": "Many nations against Tyre like the sea" }
+      ]
+    },
+    {
+      "c": 27,
+      "title": "Lament for the Ship of Tyre",
+      "synopsis": "Ezekiel raises a lamentation over Tyre as a splendid merchant ship built of the finest materials, manned and stocked by all the trading peoples of the earth. Broken by the east wind in the heart of the seas, her riches and mariners sink, and the merchants of the nations hiss at her end.",
+      "years": "about 586 BC",
+      "yearNum": -586,
+      "approx": true,
+      "place": "babylon",
+      "themes": ["judgment", "pride-cycle"],
+      "characters": ["ezekiel", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 36, "speaker": "ezekiel", "to": "nations", "note": "Lamentation for Tyre, the wrecked merchant ship" }
+      ]
+    },
+    {
+      "c": 28,
+      "title": "The Fall of the Proud King",
+      "synopsis": "The prince of Tyre, whose heart is lifted up to say I am a God, will die the death of the uncircumcised at the hand of strangers. A lament over the king of Tyre pictures an anointed covering cherub, perfect until iniquity was found in him and pride cast him down; Zidon too is judged, while Israel is promised safe dwelling.",
+      "years": "about 586 BC",
+      "yearNum": -586,
+      "approx": true,
+      "place": "babylon",
+      "themes": ["pride-cycle", "judgment", "hope"],
+      "characters": ["ezekiel", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 19, "speaker": "the-lord", "to": "nations", "note": "The prince and king of Tyre brought down" },
+        { "s": 20, "e": 26, "speaker": "the-lord", "to": "nations", "note": "Against Zidon; Israel to dwell safely" }
+      ]
+    },
+    {
+      "c": 29,
+      "title": "The Great Dragon of Egypt",
+      "synopsis": "The Lord is against Pharaoh, the great dragon lying in his rivers who says the river is his own. Egypt will be desolate forty years and afterward remain a base kingdom, and the land is given to Nebuchadnezzar as wages for his long service against Tyre.",
+      "years": "about 587 BC",
+      "yearNum": -587,
+      "approx": true,
+      "place": "babylon",
+      "themes": ["judgment", "pride-cycle", "prophecy"],
+      "characters": ["ezekiel", "the-lord", "pharaoh", "nebuchadnezzar"],
+      "segments": [
+        { "s": 1, "e": 21, "speaker": "the-lord", "to": "nations", "note": "Against Pharaoh, the dragon of the rivers" }
+      ]
+    },
+    {
+      "c": 30,
+      "title": "The Day of Egypt's Clouds",
+      "synopsis": "Ezekiel wails for the day of the Lord that comes upon Egypt and her allies: her cities will fall, her idols cease from Noph, and her pride of power come down. The Lord breaks Pharaoh's arms and strengthens the arms of the king of Babylon.",
+      "years": "about 587 BC",
+      "yearNum": -587,
+      "approx": true,
+      "place": "babylon",
+      "themes": ["judgment", "prophecy"],
+      "characters": ["ezekiel", "the-lord", "pharaoh", "nebuchadnezzar"],
+      "segments": [
+        { "s": 1, "e": 26, "speaker": "the-lord", "to": "nations", "note": "The day of the Lord upon Egypt" }
+      ]
+    },
+    {
+      "c": 31,
+      "title": "The Cedar Felled in Lebanon",
+      "synopsis": "Egypt is warned by the fate of Assyria, once a cedar in Lebanon whose top reached the clouds and sheltered all nations, until its heart was lifted up in its height. Delivered to the mighty one of the heathen, it was cut down, that no trees exalt themselves for their height.",
+      "years": "about 587 BC",
+      "yearNum": -587,
+      "approx": true,
+      "place": "babylon",
+      "themes": ["pride-cycle", "judgment", "parables"],
+      "characters": ["ezekiel", "the-lord", "pharaoh"],
+      "segments": [
+        { "s": 1, "e": 18, "speaker": "the-lord", "to": "nations", "note": "Assyria the fallen cedar, a warning to Egypt" }
+      ]
+    },
+    {
+      "c": 32,
+      "title": "Pharaoh Laid Among the Slain",
+      "synopsis": "Ezekiel laments for Pharaoh as a whale thrashing in the seas, caught in the Lord's net while the heavens are darkened over him. Egypt descends to the pit to lie with Asshur, Elam, Meshech, Edom, and all the multitudes slain by the sword.",
+      "years": "about 585 BC",
+      "yearNum": -585,
+      "approx": true,
+      "place": "babylon",
+      "themes": ["judgment", "prophecy"],
+      "characters": ["ezekiel", "the-lord", "pharaoh"],
+      "segments": [
+        { "s": 1, "e": 32, "speaker": "the-lord", "to": "nations", "note": "Lament for Pharaoh; the nations in the pit" }
+      ]
+    },
+    {
+      "c": 33,
+      "title": "The Watchman and the Fallen City",
+      "synopsis": "The Lord renews Ezekiel's calling as watchman: if he warns, the blood is on the hearers; if he is silent, it is on him, for God has no pleasure in the death of the wicked. A fugitive brings word that Jerusalem is smitten, Ezekiel's mouth is opened, and the people hear his words as a lovely song but will not do them.",
+      "years": "about 585 BC",
+      "yearNum": -585,
+      "approx": true,
+      "place": "babylon",
+      "themes": ["repentance", "agency", "prophecy"],
+      "characters": ["ezekiel", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 20, "speaker": "the-lord", "to": "ezekiel", "note": "The watchman's charge renewed; turn ye, why die" },
+        { "s": 21, "e": 33, "speaker": "ezekiel", "to": "reader", "note": "News of Jerusalem's fall; hearers who do not" }
+      ]
+    },
+    {
+      "c": 34,
+      "title": "Shepherds Judged, One Shepherd Promised",
+      "synopsis": "The Lord indicts the shepherds of Israel who feed themselves and not the flock, leaving the sheep scattered on every mountain. He himself will search out his sheep, gather them, and feed them in good pasture, setting up one shepherd, his servant David, and making with them a covenant of peace.",
+      "years": "about 585 BC",
+      "yearNum": -585,
+      "approx": true,
+      "place": "babylon",
+      "themes": ["leadership", "gathering-of-israel", "messiah", "covenant"],
+      "characters": ["ezekiel", "the-lord", "david"],
+      "segments": [
+        { "s": 1, "e": 31, "speaker": "the-lord", "to": "house-of-israel", "note": "False shepherds judged; the Lord gathers his flock" }
+      ]
+    },
+    {
+      "c": 35,
+      "title": "Judgment upon Mount Seir",
+      "synopsis": "Because Edom nursed a perpetual hatred and shed the blood of Israel in the time of calamity, saying the two nations shall be mine, the Lord makes Mount Seir a perpetual desolation. As Edom rejoiced over Israel's inheritance, so all the earth will rejoice at Edom's fall.",
+      "years": "about 585 BC",
+      "yearNum": -585,
+      "approx": true,
+      "place": "babylon",
+      "themes": ["judgment", "justice-and-mercy"],
+      "characters": ["ezekiel", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 15, "speaker": "the-lord", "to": "nations", "note": "Mount Seir desolate for hatred of Israel" }
+      ]
+    },
+    {
+      "c": 36,
+      "title": "A New Heart and a New Spirit",
+      "synopsis": "The mountains of Israel, long mocked by the heathen, will shoot forth branches and bear fruit for the returning people. For his holy name's sake the Lord will gather Israel, sprinkle clean water upon them, give them a heart of flesh and his own Spirit, and make the waste land like the garden of Eden.",
+      "years": "about 585 BC",
+      "yearNum": -585,
+      "approx": true,
+      "place": "babylon",
+      "themes": ["restoration", "gathering-of-israel", "conversion", "covenant"],
+      "characters": ["ezekiel", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 15, "speaker": "the-lord", "to": "house-of-israel", "note": "The mountains of Israel made fruitful again" },
+        { "s": 16, "e": 38, "speaker": "the-lord", "to": "house-of-israel", "note": "A new heart and spirit for the gathered" }
+      ]
+    },
+    {
+      "c": 37,
+      "title": "Dry Bones and the Two Sticks",
+      "synopsis": "In a valley full of dry bones Ezekiel prophesies, and bone comes to bone, flesh and breath return, and an exceeding great army stands, a promise that the whole house of Israel will be raised from its graves and gathered home. He then joins the stick of Judah and the stick of Joseph into one, a latter-day prophecy that the Bible and the Book of Mormon would become one witness in the Lord's hand as Israel is gathered under one shepherd with a sanctuary in their midst for evermore.",
+      "years": "about 585 BC",
+      "yearNum": -585,
+      "approx": true,
+      "place": "babylon",
+      "themes": ["resurrection", "restoration", "records", "gathering-of-israel"],
+      "characters": ["ezekiel", "the-lord", "david"],
+      "segments": [
+        { "s": 1, "e": 14, "speaker": "ezekiel", "to": "reader", "note": "The valley of dry bones lives" },
+        { "s": 15, "e": 28, "speaker": "the-lord", "to": "ezekiel", "note": "Sticks of Judah and Joseph become one" }
+      ]
+    },
+    {
+      "c": 38,
+      "title": "Gog Comes Against the Gathered",
+      "synopsis": "In the latter years Gog of the land of Magog leads a vast confederacy against Israel, gathered out of the nations and dwelling safely in unwalled villages. The Lord himself brings Gog forth so that he may be sanctified before all nations, and his fury rises with earthquake, pestilence, and great hailstones.",
+      "years": "about 585 BC",
+      "yearNum": -585,
+      "approx": true,
+      "place": "babylon",
+      "themes": ["second-coming", "prophecy", "war"],
+      "characters": ["ezekiel", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 23, "speaker": "the-lord", "to": "ezekiel", "note": "Gog's latter-day assault on gathered Israel" }
+      ]
+    },
+    {
+      "c": 39,
+      "title": "The Fall of Gog and Israel's Cleansing",
+      "synopsis": "Gog's armies fall upon the mountains of Israel; their weapons fuel fires for seven years, and seven months are spent burying them in the valley of Hamon-gog. The heathen learn that Israel went captive for iniquity, and the Lord gathers his people, hiding his face no more, having poured out his Spirit upon the house of Israel.",
+      "years": "about 585 BC",
+      "yearNum": -585,
+      "approx": true,
+      "place": "babylon",
+      "themes": ["second-coming", "judgment", "gathering-of-israel"],
+      "characters": ["ezekiel", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 29, "speaker": "the-lord", "to": "ezekiel", "note": "Gog destroyed; the Spirit poured on Israel" }
+      ]
+    },
+    {
+      "c": 40,
+      "title": "The Man with the Measuring Reed",
+      "synopsis": "In the twenty-fifth year of captivity Ezekiel is carried in vision to a very high mountain in Israel, where a man whose appearance is like brass stands with a line of flax and a measuring reed. Gate by gate and court by court, the messenger measures a future temple and charges Ezekiel to declare all he sees to the house of Israel.",
+      "years": "about 573 BC",
+      "yearNum": -573,
+      "approx": true,
+      "place": "babylon",
+      "themes": ["temple", "revelation", "restoration"],
+      "characters": ["ezekiel", "angel"],
+      "segments": [
+        { "s": 1, "e": 4, "speaker": "ezekiel", "to": "reader", "note": "Carried to a high mountain; the measurer appears" },
+        { "s": 5, "e": 49, "speaker": "ezekiel", "to": "reader", "note": "Gates and courts of the temple measured" }
+      ]
+    },
+    {
+      "c": 41,
+      "title": "Measuring the Holy House",
+      "synopsis": "The man measures the temple itself: the porch, the holy place, and the most holy place, with its side chambers, palm trees, and cherubim carved on the walls. Every wall, door, and ornament is recorded, down to the altar of wood that is the table before the Lord.",
+      "years": "about 573 BC",
+      "yearNum": -573,
+      "approx": true,
+      "place": "babylon",
+      "themes": ["temple", "revelation"],
+      "characters": ["ezekiel", "angel"],
+      "segments": [
+        { "s": 1, "e": 26, "speaker": "ezekiel", "to": "reader", "note": "The sanctuary and most holy place measured" }
+      ]
+    },
+    {
+      "c": 42,
+      "title": "Chambers for the Priests",
+      "synopsis": "Ezekiel is shown the chambers north and south of the separate place, holy rooms where the priests who approach the Lord eat the most holy things and lay their garments. The outer wall, five hundred reeds on every side, makes a separation between the sanctuary and the profane place.",
+      "years": "about 573 BC",
+      "yearNum": -573,
+      "approx": true,
+      "place": "babylon",
+      "themes": ["temple", "priesthood", "worship"],
+      "characters": ["ezekiel", "angel"],
+      "segments": [
+        { "s": 1, "e": 20, "speaker": "ezekiel", "to": "reader", "note": "Holy chambers and the wall of separation" }
+      ]
+    },
+    {
+      "c": 43,
+      "title": "The Glory Fills the House",
+      "synopsis": "The glory of the God of Israel comes from the way of the east, the same vision Ezekiel saw by the river Chebar, and fills the house as a voice declares this the place of his throne, where he will dwell in the midst of Israel for ever. Ezekiel is told to show the house to Israel that they may be ashamed of their iniquities, and the altar and its dedication offerings are described.",
+      "years": "about 573 BC",
+      "yearNum": -573,
+      "approx": true,
+      "place": "babylon",
+      "themes": ["temple", "revelation", "worship"],
+      "characters": ["ezekiel", "the-lord", "angel"],
+      "segments": [
+        { "s": 1, "e": 12, "speaker": "ezekiel", "to": "reader", "note": "The glory returns and fills the temple" },
+        { "s": 13, "e": 27, "speaker": "the-lord", "to": "ezekiel", "note": "The altar and its consecration" }
+      ]
+    },
+    {
+      "c": 44,
+      "title": "The Shut Gate and the Priests",
+      "synopsis": "The east gate is shut because the Lord, the God of Israel, has entered by it. No stranger uncircumcised in heart may enter the sanctuary; the Levites who went astray bear their shame in lesser service, while the sons of Zadok who kept the charge stand to minister before the Lord under strict laws of dress, conduct, and inheritance.",
+      "years": "about 573 BC",
+      "yearNum": -573,
+      "approx": true,
+      "place": "babylon",
+      "themes": ["temple", "priesthood", "obedience"],
+      "characters": ["ezekiel", "the-lord", "angel"],
+      "segments": [
+        { "s": 1, "e": 31, "speaker": "ezekiel", "to": "reader", "note": "The shut east gate; ordinances for the priests" }
+      ]
+    },
+    {
+      "c": 45,
+      "title": "The Holy Portion of the Land",
+      "synopsis": "When the land is divided, an oblation is set apart for the sanctuary, the priests, the Levites, the city, and the prince. Princes are commanded to remove violence and use just balances, and the offerings and feasts, including the passover, are appointed to make reconciliation for the house of Israel.",
+      "years": "about 573 BC",
+      "yearNum": -573,
+      "approx": true,
+      "place": "babylon",
+      "themes": ["temple", "consecration", "justice-and-mercy"],
+      "characters": ["ezekiel", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 25, "speaker": "the-lord", "to": "house-of-israel", "note": "The oblation of land; just princes; appointed feasts" }
+      ]
+    },
+    {
+      "c": 46,
+      "title": "Worship at the Temple Gates",
+      "synopsis": "The gate toward the east is opened on sabbaths and new moons, and the prince and the people of the land worship at its threshold, entering and leaving by opposite gates. Rules govern the prince's offerings and inheritance, and Ezekiel is shown the courts where the ministers boil the sacrifices of the people.",
+      "years": "about 573 BC",
+      "yearNum": -573,
+      "approx": true,
+      "place": "babylon",
+      "themes": ["temple", "worship", "obedience"],
+      "characters": ["ezekiel", "the-lord", "angel"],
+      "segments": [
+        { "s": 1, "e": 24, "speaker": "the-lord", "to": "house-of-israel", "note": "Sabbath worship; offerings; the boiling places" }
+      ]
+    },
+    {
+      "c": 47,
+      "title": "Waters Issuing from the Sanctuary",
+      "synopsis": "Waters issue from under the threshold of the house, rising from ankles to knees to loins to a river that cannot be passed over. Everything lives whither the river comes: the sea is healed, fishers spread nets from En-gedi, and trees on both banks bear monthly fruit with leaves for medicine; then the borders of the land to be inherited are set forth.",
+      "years": "about 573 BC",
+      "yearNum": -573,
+      "approx": true,
+      "place": "babylon",
+      "themes": ["temple", "restoration", "hope"],
+      "characters": ["ezekiel", "angel"],
+      "segments": [
+        { "s": 1, "e": 12, "speaker": "ezekiel", "to": "reader", "note": "The healing river deepens from the temple" },
+        { "s": 13, "e": 23, "speaker": "the-lord", "to": "house-of-israel", "note": "The borders of the inheritance" }
+      ]
+    },
+    {
+      "c": 48,
+      "title": "The Lord Is There",
+      "synopsis": "The land is divided in parallel portions among the twelve tribes, with the holy oblation, the sanctuary, and the city in their midst. The city's twelve gates bear the names of the tribes of Israel, and its name from that day shall be, The Lord is there.",
+      "years": "about 573 BC",
+      "yearNum": -573,
+      "approx": true,
+      "place": "babylon",
+      "themes": ["gathering-of-israel", "temple", "zion"],
+      "characters": ["ezekiel", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 35, "speaker": "the-lord", "to": "house-of-israel", "note": "The tribes' portions; the city named for the Lord" }
+      ]
+    }
+  ]
+}

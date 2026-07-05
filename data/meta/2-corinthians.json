@@ -1,0 +1,190 @@
+{
+  "book": "2 Corinthians",
+  "slug": "2-corinthians",
+  "narrator": "paul",
+  "plates": "pauline-epistles",
+  "chapters": [
+    {
+      "c": 1,
+      "title": "The God of All Comfort",
+      "synopsis": "Paul blesses the Father of mercies and God of all comfort, who comforts the saints in all tribulation so they can comfort others with the same comfort. He recounts the trouble that befell him in Asia, when he despaired even of life, that he might trust not in himself but in God who raises the dead, and explains why he delayed his visit to spare the Corinthians.",
+      "years": "AD 56",
+      "yearNum": 56,
+      "approx": false,
+      "place": null,
+      "themes": ["endurance", "hope", "deliverance"],
+      "characters": ["paul", "timothy", "silas"],
+      "segments": [
+        { "s": 1, "e": 24, "speaker": "paul", "to": "church", "note": "Comfort in tribulation; why Paul delayed his visit" }
+      ]
+    },
+    {
+      "c": 2,
+      "title": "Forgive and Comfort Him",
+      "synopsis": "Paul explains that he wrote his earlier sharp letter out of much anguish and love, not to grieve the saints. He urges them now to forgive and comfort the repentant offender, lest he be swallowed up with overmuch sorrow and Satan get an advantage, and he thanks God who always causes the saints to triumph in Christ, making them a sweet savour of his knowledge in every place.",
+      "years": "AD 56",
+      "yearNum": 56,
+      "approx": false,
+      "place": null,
+      "themes": ["repentance", "charity", "justice-and-mercy"],
+      "characters": ["paul", "satan"],
+      "segments": [
+        { "s": 1, "e": 17, "speaker": "paul", "to": "church", "note": "Forgive the repentant; the sweet savour of Christ" }
+      ]
+    },
+    {
+      "c": 3,
+      "title": "Epistles Written in Hearts",
+      "synopsis": "Paul declares that the Corinthian saints themselves are his letter of commendation, an epistle of Christ written not with ink but with the Spirit of the living God in fleshy tables of the heart. He contrasts the ministration of the letter, which kills, with the Spirit, which gives life, teaching that the veil over Israel's heart is done away in Christ, and where the Spirit of the Lord is, there is liberty.",
+      "years": "AD 56",
+      "yearNum": 56,
+      "approx": false,
+      "place": null,
+      "themes": ["revelation", "liberty", "conversion"],
+      "characters": ["paul", "moses"],
+      "segments": [
+        { "s": 1, "e": 18, "speaker": "paul", "to": "church", "note": "The letter killeth; the Spirit giveth life" }
+      ]
+    },
+    {
+      "c": 4,
+      "title": "Treasure in Earthen Vessels",
+      "synopsis": "Paul testifies that God, who commanded light to shine out of darkness, has shined in the saints' hearts to give the light of the knowledge of his glory in the face of Jesus Christ. This treasure is carried in earthen vessels, troubled on every side yet not distressed, persecuted but not forsaken, for the light affliction of a moment works a far more exceeding and eternal weight of glory.",
+      "years": "AD 56",
+      "yearNum": 56,
+      "approx": false,
+      "place": null,
+      "themes": ["endurance", "hope", "faith"],
+      "characters": ["paul", "jesus-christ"],
+      "segments": [
+        { "s": 1, "e": 18, "speaker": "paul", "to": "church", "note": "Cast down but not destroyed; eternal weight of glory" }
+      ]
+    },
+    {
+      "c": 5,
+      "title": "Ambassadors for Christ",
+      "synopsis": "Paul teaches that if this earthly tabernacle is dissolved, the saints have a building of God, a house not made with hands, eternal in the heavens, so they walk by faith, not by sight. Since all must appear before the judgment seat of Christ, and any man in Christ is a new creature, the apostles serve as ambassadors for Christ, beseeching the world to be reconciled to God.",
+      "years": "AD 56",
+      "yearNum": 56,
+      "approx": false,
+      "place": null,
+      "themes": ["atonement", "conversion", "judgment"],
+      "characters": ["paul", "jesus-christ"],
+      "segments": [
+        { "s": 1, "e": 21, "speaker": "paul", "to": "church", "note": "Walk by faith; be ye reconciled to God" }
+      ]
+    },
+    {
+      "c": 6,
+      "title": "Come Out and Be Separate",
+      "synopsis": "Paul pleads with the saints not to receive the grace of God in vain, for now is the accepted time and the day of salvation. He describes the ministry approved through patience, afflictions, and pureness, as sorrowful yet alway rejoicing, poor yet making many rich, and calls the saints, as temples of the living God, to come out from among unbelievers and be separate.",
+      "years": "AD 56",
+      "yearNum": 56,
+      "approx": false,
+      "place": null,
+      "themes": ["obedience", "endurance", "covenant"],
+      "characters": ["paul"],
+      "segments": [
+        { "s": 1, "e": 18, "speaker": "paul", "to": "church", "note": "Now is the day of salvation; be ye separate" }
+      ]
+    },
+    {
+      "c": 7,
+      "title": "Godly Sorrow Worketh Repentance",
+      "synopsis": "Paul rejoices at the coming of Titus with good news that the Corinthians received his sharp letter with mourning and zeal. He teaches that godly sorrow works repentance to salvation not to be repented of, while the sorrow of the world works death, and he is filled with comfort and joy over their proven care.",
+      "years": "AD 56",
+      "yearNum": 56,
+      "approx": false,
+      "place": null,
+      "themes": ["repentance", "hope", "charity"],
+      "characters": ["paul"],
+      "segments": [
+        { "s": 1, "e": 16, "speaker": "paul", "to": "church", "note": "Titus brings good news; godly sorrow unto repentance" }
+      ]
+    },
+    {
+      "c": 8,
+      "title": "The Grace of Liberal Giving",
+      "synopsis": "Paul holds up the churches of Macedonia, whose deep poverty abounded unto the riches of their liberality, and urges the Corinthians to complete their promised gift for the poor saints. He reminds them that the Lord Jesus, though he was rich, for their sakes became poor, and that giving is accepted according to what a man has, that there may be equality.",
+      "years": "AD 56",
+      "yearNum": 56,
+      "approx": false,
+      "place": null,
+      "themes": ["charity", "consecration", "grace"],
+      "characters": ["paul", "jesus-christ"],
+      "segments": [
+        { "s": 1, "e": 24, "speaker": "paul", "to": "church", "note": "Macedonia's liberality; finish the collection" }
+      ]
+    },
+    {
+      "c": 9,
+      "title": "God Loveth a Cheerful Giver",
+      "synopsis": "Paul encourages the saints to have their bounty ready, for he that sows sparingly shall reap sparingly and he that sows bountifully shall reap bountifully. Every man should give as he purposes in his heart, not grudgingly or of necessity, for God loves a cheerful giver and is able to make all grace abound toward them.",
+      "years": "AD 56",
+      "yearNum": 56,
+      "approx": false,
+      "place": null,
+      "themes": ["charity", "consecration", "grace"],
+      "characters": ["paul"],
+      "segments": [
+        { "s": 1, "e": 15, "speaker": "paul", "to": "church", "note": "Sow bountifully; give cheerfully, not grudgingly" }
+      ]
+    },
+    {
+      "c": 10,
+      "title": "Weapons Not Carnal but Mighty",
+      "synopsis": "Paul answers those who say his letters are weighty but his bodily presence weak, declaring that the weapons of his warfare are not carnal but mighty through God to the pulling down of strong holds. He brings every thought into captivity to the obedience of Christ and refuses to boast beyond his measure, for he that glories should glory in the Lord.",
+      "years": "AD 56",
+      "yearNum": 56,
+      "approx": false,
+      "place": null,
+      "themes": ["leadership", "humility", "obedience"],
+      "characters": ["paul"],
+      "segments": [
+        { "s": 1, "e": 18, "speaker": "paul", "to": "church", "note": "Spiritual weapons; glory only in the Lord" }
+      ]
+    },
+    {
+      "c": 11,
+      "title": "Perils and False Apostles",
+      "synopsis": "Jealous over the saints with godly jealousy, Paul warns that as the serpent beguiled Eve, false apostles transform themselves into apostles of Christ, even as Satan is transformed into an angel of light. Compelled to boast as a fool, he recounts his labors and perils, in stripes, in prisons, in shipwrecks, in hunger and thirst, and glories in the things which concern his infirmities.",
+      "years": "AD 56",
+      "yearNum": 56,
+      "approx": false,
+      "place": null,
+      "themes": ["apostasy", "endurance", "missionary-work"],
+      "characters": ["paul", "satan", "eve"],
+      "segments": [
+        { "s": 1, "e": 33, "speaker": "paul", "to": "church", "note": "Beware false apostles; Paul's catalog of sufferings" }
+      ]
+    },
+    {
+      "c": 12,
+      "title": "Grace Sufficient in Weakness",
+      "synopsis": "Paul tells of a man in Christ, caught up to the third heaven and into paradise, who heard unspeakable words not lawful to utter. Lest he be exalted above measure, a thorn in the flesh was given him, and when he besought the Lord thrice, the answer came, My grace is sufficient for thee, for my strength is made perfect in weakness. He gladly glories in infirmities, for when he is weak, then is he strong.",
+      "years": "AD 56",
+      "yearNum": 56,
+      "approx": false,
+      "place": null,
+      "themes": ["revelation", "grace", "humility"],
+      "characters": ["paul", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 21, "speaker": "paul", "to": "church", "note": "Third heaven; thorn in the flesh; sufficient grace" }
+      ]
+    },
+    {
+      "c": 13,
+      "title": "Examine Yourselves in the Faith",
+      "synopsis": "Preparing for his third visit, Paul warns that in the mouth of two or three witnesses every word shall be established and that he will not spare the unrepentant. He charges the saints to examine themselves whether they be in the faith, and closes with a plea to be perfect, be of good comfort, be of one mind, and live in peace.",
+      "years": "AD 56",
+      "yearNum": 56,
+      "approx": false,
+      "place": null,
+      "themes": ["repentance", "faith", "peace"],
+      "characters": ["paul", "jesus-christ"],
+      "segments": [
+        { "s": 1, "e": 14, "speaker": "paul", "to": "church", "note": "Examine yourselves; farewell and benediction" }
+      ]
+    }
+  ]
+}

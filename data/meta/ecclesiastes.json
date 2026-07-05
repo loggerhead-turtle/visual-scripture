@@ -1,0 +1,176 @@
+{
+  "book": "Ecclesiastes",
+  "slug": "ecclesiastes",
+  "narrator": "solomon",
+  "plates": "wisdom",
+  "chapters": [
+    {
+      "c": 1,
+      "title": "Vanity of Vanities",
+      "synopsis": "The Preacher declares that all is vanity: generations come and go, the sun rises and sets, and there is no new thing under the sun. He gives his heart to seek out wisdom and finds that in much wisdom is much grief.",
+      "years": "about 950 BC",
+      "yearNum": -950,
+      "approx": true,
+      "place": null,
+      "themes": ["wisdom", "humility"],
+      "characters": ["solomon"],
+      "segments": [
+        { "s": 1, "e": 18, "speaker": "solomon", "to": "reader", "note": "All is vanity; nothing new under the sun" }
+      ]
+    },
+    {
+      "c": 2,
+      "title": "The Emptiness of Pleasure",
+      "synopsis": "Solomon tests his heart with mirth, wine, great works, gardens, and riches, denying himself nothing his eyes desire. Looking on all his hands have wrought, he finds it vanity and vexation of spirit, for the wise man dies even as the fool.",
+      "years": "about 950 BC",
+      "yearNum": -950,
+      "approx": true,
+      "place": null,
+      "themes": ["wisdom", "humility"],
+      "characters": ["solomon"],
+      "segments": [
+        { "s": 1, "e": 26, "speaker": "solomon", "to": "reader", "note": "Pleasure, works, and riches proven vanity" }
+      ]
+    },
+    {
+      "c": 3,
+      "title": "A Time for Every Purpose",
+      "synopsis": "To every thing there is a season: a time to be born and a time to die, a time to weep and a time to laugh. God makes everything beautiful in his time, and the Preacher concludes there is nothing better than to rejoice and do good.",
+      "years": "about 950 BC",
+      "yearNum": -950,
+      "approx": true,
+      "place": null,
+      "themes": ["wisdom", "humility"],
+      "characters": ["solomon"],
+      "segments": [
+        { "s": 1, "e": 22, "speaker": "solomon", "to": "reader", "note": "A time to every purpose under heaven" }
+      ]
+    },
+    {
+      "c": 4,
+      "title": "Two Are Better Than One",
+      "synopsis": "Solomon considers the tears of the oppressed and the loneliness of the man who labors alone. Two are better than one, for if they fall the one will lift up his fellow, and a threefold cord is not quickly broken.",
+      "years": "about 950 BC",
+      "yearNum": -950,
+      "approx": true,
+      "place": null,
+      "themes": ["wisdom", "family", "humility"],
+      "characters": ["solomon"],
+      "segments": [
+        { "s": 1, "e": 16, "speaker": "solomon", "to": "reader", "note": "Oppression, toil, and the worth of companionship" }
+      ]
+    },
+    {
+      "c": 5,
+      "title": "Keep Thy Vows to God",
+      "synopsis": "Solomon counsels reverence in the house of God: let thy words be few, and better not to vow than to vow and not pay. He warns that he who loves silver will not be satisfied with silver, for riches kept for their owner can be to his hurt.",
+      "years": "about 950 BC",
+      "yearNum": -950,
+      "approx": true,
+      "place": null,
+      "themes": ["wisdom", "humility"],
+      "characters": ["solomon"],
+      "segments": [
+        { "s": 1, "e": 20, "speaker": "solomon", "to": "reader", "note": "Fear God, pay vows; riches cannot satisfy" }
+      ]
+    },
+    {
+      "c": 6,
+      "title": "Wealth Without Power to Enjoy",
+      "synopsis": "The Preacher describes a common evil: a man to whom God gives riches and honor, yet who lacks power to eat thereof. All the labor of man is for his mouth, yet the appetite is not filled, and who knows what is good for man in this life?",
+      "years": "about 950 BC",
+      "yearNum": -950,
+      "approx": true,
+      "place": null,
+      "themes": ["wisdom", "humility"],
+      "characters": ["solomon"],
+      "segments": [
+        { "s": 1, "e": 12, "speaker": "solomon", "to": "reader", "note": "Riches without enjoyment; desire never filled" }
+      ]
+    },
+    {
+      "c": 7,
+      "title": "A Good Name and a Wise Heart",
+      "synopsis": "A good name is better than precious ointment, and it is better to go to the house of mourning than the house of feasting. Solomon teaches that wisdom strengthens the wise, that no man on earth is without sin, and that God made man upright though men seek out many inventions.",
+      "years": "about 950 BC",
+      "yearNum": -950,
+      "approx": true,
+      "place": null,
+      "themes": ["wisdom", "humility"],
+      "characters": ["solomon"],
+      "segments": [
+        { "s": 1, "e": 29, "speaker": "solomon", "to": "reader", "note": "Sorrow, patience, and the strength of wisdom" }
+      ]
+    },
+    {
+      "c": 8,
+      "title": "Who Knoweth the Interpretation",
+      "synopsis": "Wisdom makes a man's face to shine, and the Preacher counsels keeping the king's commandment. Though the wicked seem to prosper, it shall be well with them that fear God, yet no man can find out all the work that is done under the sun.",
+      "years": "about 950 BC",
+      "yearNum": -950,
+      "approx": true,
+      "place": null,
+      "themes": ["wisdom", "humility"],
+      "characters": ["solomon"],
+      "segments": [
+        { "s": 1, "e": 17, "speaker": "solomon", "to": "reader", "note": "Obey the king; God's work past finding out" }
+      ]
+    },
+    {
+      "c": 9,
+      "title": "The Race Not to the Swift",
+      "synopsis": "One event comes to the righteous and the wicked alike, so Solomon urges living joyfully and doing with thy might whatsoever thy hand finds to do. The race is not to the swift nor the battle to the strong, and he recalls a poor wise man whose wisdom delivered a little city.",
+      "years": "about 950 BC",
+      "yearNum": -950,
+      "approx": true,
+      "place": null,
+      "themes": ["wisdom", "humility", "family"],
+      "characters": ["solomon"],
+      "segments": [
+        { "s": 1, "e": 18, "speaker": "solomon", "to": "reader", "note": "Live joyfully; wisdom better than strength" }
+      ]
+    },
+    {
+      "c": 10,
+      "title": "A Little Folly Spoils Wisdom",
+      "synopsis": "As dead flies spoil the apothecary's ointment, so a little folly spoils him that is in reputation for wisdom. Solomon contrasts the gracious words of the wise with the babbling of fools, and observes lands blessed or cursed by their rulers.",
+      "years": "about 950 BC",
+      "yearNum": -950,
+      "approx": true,
+      "place": null,
+      "themes": ["wisdom", "humility"],
+      "characters": ["solomon"],
+      "segments": [
+        { "s": 1, "e": 20, "speaker": "solomon", "to": "reader", "note": "Folly contrasted with quiet, gracious wisdom" }
+      ]
+    },
+    {
+      "c": 11,
+      "title": "Cast Thy Bread upon the Waters",
+      "synopsis": "Solomon counsels generosity and diligence: cast thy bread upon the waters, sow thy seed morning and evening, for thou knowest not the works of God. He bids the young man rejoice in his youth, yet remember that God will bring all things into judgment.",
+      "years": "about 950 BC",
+      "yearNum": -950,
+      "approx": true,
+      "place": null,
+      "themes": ["wisdom", "humility", "family"],
+      "characters": ["solomon"],
+      "segments": [
+        { "s": 1, "e": 10, "speaker": "solomon", "to": "reader", "note": "Sow generously; rejoice, but remember judgment" }
+      ]
+    },
+    {
+      "c": 12,
+      "title": "Remember Now Thy Creator",
+      "synopsis": "Solomon calls the young to remember their Creator before the evil days come, when the silver cord is loosed and the spirit returns to God who gave it. He gives the conclusion of the whole matter: fear God and keep his commandments, for this is the whole duty of man.",
+      "years": "about 950 BC",
+      "yearNum": -950,
+      "approx": true,
+      "place": null,
+      "themes": ["wisdom", "humility", "family"],
+      "characters": ["solomon"],
+      "segments": [
+        { "s": 1, "e": 14, "speaker": "solomon", "to": "reader", "note": "Remember thy Creator; fear God, keep commandments" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1031 @@
+{
+  "book": "Doctrine & Covenants",
+  "slug": "dc",
+  "narrator": "joseph-smith",
+  "plates": "dc-newyork",
+  "chapters": [
+    {
+      "c": 1,
+      "title": "The Lord's Preface",
+      "synopsis": "At a special conference in Hiram, Ohio, the Lord dictates his own preface to the forthcoming Book of Commandments. He declares that his voice of warning is to all people, that the authority of his servants is his own whether by his voice or the voice of his servants, and that the only true and living church has been brought out of obscurity.",
+      "years": "November 1831",
+      "yearNum": 1831,
+      "approx": false,
+      "place": "hiram-oh",
+      "plates": "dc-kirtland",
+      "themes": ["revelation", "restoration", "judgment"],
+      "characters": ["joseph-smith"],
+      "segments": [
+        { "s": 1, "e": 39, "speaker": "the-lord", "to": "nations", "note": "The voice of warning is unto all people" }
+      ]
+    },
+    {
+      "c": 2,
+      "title": "Moroni on the Coming of Elijah",
+      "synopsis": "In Joseph Smith's bedroom in Palmyra, the angel Moroni quotes Malachi with a difference, announcing that Elijah will reveal the priesthood before the great day of the Lord. He promises that the hearts of the children will turn to the fathers, for otherwise the whole earth would be utterly wasted at the Lord's coming.",
+      "years": "September 1823",
+      "yearNum": 1823,
+      "approx": false,
+      "place": "palmyra",
+      "themes": ["restoration", "priesthood", "family"],
+      "characters": ["joseph-smith", "moroni", "elijah"],
+      "segments": [
+        { "s": 1, "e": 3, "speaker": "moroni", "to": "joseph-smith", "note": "Elijah will plant the promises in our hearts" }
+      ]
+    },
+    {
+      "c": 3,
+      "title": "The Lost Manuscript Pages",
+      "synopsis": "After Martin Harris loses the 116 manuscript pages of the Book of Mormon translation, a chastened Joseph Smith seeks the Lord in Harmony, Pennsylvania. The Lord declares that his works and designs cannot be frustrated, rebukes Joseph for fearing man more than God, and promises that he is still chosen if he repents.",
+      "years": "July 1828",
+      "yearNum": 1828,
+      "approx": false,
+      "place": "harmony-pa",
+      "themes": ["repentance", "records", "obedience"],
+      "characters": ["joseph-smith", "martin-harris"],
+      "segments": [
+        { "s": 1, "e": 20, "speaker": "the-lord", "to": "joseph-smith", "note": "The works of God are not frustrated" }
+      ]
+    },
+    {
+      "c": 4,
+      "title": "The Qualifications for the Work",
+      "synopsis": "Joseph Smith Sr. visits his son in Harmony, Pennsylvania, and asks what the Lord would have him do. In seven verses the Lord describes the marvelous work about to come forth, invites all who desire to serve God to thrust in their sickles, and lists faith, hope, charity, and diligence as the qualifications for the work.",
+      "years": "February 1829",
+      "yearNum": 1829,
+      "approx": false,
+      "place": "harmony-pa",
+      "themes": ["missionary-work", "faith", "charity"],
+      "characters": ["joseph-smith", "joseph-smith-sr"],
+      "segments": [
+        { "s": 1, "e": 7, "speaker": "the-lord", "to": "joseph-smith-sr", "note": "O ye that embark in the service of God" }
+      ]
+    },
+    {
+      "c": 5,
+      "title": "Martin Harris and the Promised Witnesses",
+      "synopsis": "Martin Harris comes to Harmony, Pennsylvania, desiring a witness that Joseph Smith has the gold plates. The Lord declares that three witnesses will be shown the plates by his power, warns Joseph to stop translating until further instruction if he is not faithful, and tells Martin to humble himself before he may see.",
+      "years": "March 1829",
+      "yearNum": 1829,
+      "approx": false,
+      "place": "harmony-pa",
+      "themes": ["faith", "records", "humility"],
+      "characters": ["joseph-smith", "martin-harris"],
+      "segments": [
+        { "s": 1, "e": 35, "speaker": "the-lord", "to": "joseph-smith", "note": "Three witnesses shall behold the plates" }
+      ]
+    },
+    {
+      "c": 6,
+      "title": "Oliver Cowdery Joins the Translation",
+      "synopsis": "Oliver Cowdery arrives in Harmony, Pennsylvania, and begins writing as scribe while Joseph translates. The Lord tells Oliver that the field is white to harvest, reminds him of the night he prayed and received peace, and counsels both men to look unto Christ in every thought and to doubt not, fear not.",
+      "years": "April 1829",
+      "yearNum": 1829,
+      "approx": false,
+      "place": "harmony-pa",
+      "themes": ["revelation", "missionary-work", "peace"],
+      "characters": ["joseph-smith", "oliver-cowdery"],
+      "segments": [
+        { "s": 1, "e": 37, "speaker": "the-lord", "to": "oliver-cowdery", "note": "Did I not speak peace to your mind?" }
+      ]
+    },
+    {
+      "c": 7,
+      "title": "The Parchment of John",
+      "synopsis": "Joseph and Oliver disagree in Harmony over whether John the Beloved died or continued to live, and the answer comes as a translated parchment written and hidden by John himself. The Lord grants John power over death so he may tarry and bring souls to Christ until the Second Coming, while Peter's desire to come speedily into the kingdom is also granted.",
+      "years": "April 1829",
+      "yearNum": 1829,
+      "approx": false,
+      "place": "harmony-pa",
+      "themes": ["revelation", "missionary-work", "endurance"],
+      "characters": ["joseph-smith", "oliver-cowdery", "john-beloved", "peter", "james"],
+      "segments": [
+        { "s": 1, "e": 8, "speaker": "the-lord", "to": "john-beloved", "note": "John tarries to bring souls unto Christ" }
+      ]
+    },
+    {
+      "c": 8,
+      "title": "The Spirit of Revelation",
+      "synopsis": "Oliver Cowdery desires the gift to translate, and the Lord answers him in Harmony, Pennsylvania. He teaches that revelation comes by the Holy Ghost speaking to the mind and heart, the same spirit by which Moses brought Israel through the Red Sea, and grants Oliver the gift according to his faith.",
+      "years": "April 1829",
+      "yearNum": 1829,
+      "approx": false,
+      "place": "harmony-pa",
+      "themes": ["revelation", "faith", "prayer"],
+      "characters": ["joseph-smith", "oliver-cowdery", "moses"],
+      "segments": [
+        { "s": 1, "e": 12, "speaker": "the-lord", "to": "oliver-cowdery", "note": "I will tell you in your mind and heart" }
+      ]
+    },
+    {
+      "c": 9,
+      "title": "Study It Out in Your Mind",
+      "synopsis": "Oliver Cowdery fails in his attempt to translate, and the Lord explains why in Harmony, Pennsylvania. Oliver took no thought save it was to ask, when he should have studied it out in his mind and then asked if it were right, expecting a burning in the bosom for yes or a stupor of thought for no; he is told to be patient and continue as scribe.",
+      "years": "April 1829",
+      "yearNum": 1829,
+      "approx": false,
+      "place": "harmony-pa",
+      "themes": ["revelation", "humility", "endurance"],
+      "characters": ["joseph-smith", "oliver-cowdery"],
+      "segments": [
+        { "s": 1, "e": 14, "speaker": "the-lord", "to": "oliver-cowdery", "note": "You must study it out, then ask" }
+      ]
+    },
+    {
+      "c": 10,
+      "title": "God's Wisdom Frustrates Evil Designs",
+      "synopsis": "In Harmony, Pennsylvania, the Lord reveals the plot of wicked men who have altered the stolen 116 pages, hoping to catch Joseph in a contradiction if he retranslates. Joseph is commanded not to retranslate but to use the small plates of Nephi, which cover the same period, for the wisdom of God is greater than the cunning of the devil.",
+      "years": "April 1829",
+      "yearNum": 1829,
+      "approx": true,
+      "place": "harmony-pa",
+      "themes": ["records", "revelation", "secret-combinations"],
+      "characters": ["joseph-smith", "satan"],
+      "segments": [
+        { "s": 1, "e": 70, "speaker": "the-lord", "to": "joseph-smith", "note": "Translate the plates of Nephi instead" }
+      ]
+    },
+    {
+      "c": 11,
+      "title": "Counsel to Hyrum Smith",
+      "synopsis": "Hyrum Smith comes to Harmony, Pennsylvania, eager to know his part in the work. The Lord tells him that the field is white to harvest but that he must wait a little season, first seeking to obtain the word of God before seeking to declare it, keeping the commandments and treasuring wisdom in his heart.",
+      "years": "May 1829",
+      "yearNum": 1829,
+      "approx": false,
+      "place": "harmony-pa",
+      "themes": ["missionary-work", "wisdom", "obedience"],
+      "characters": ["joseph-smith", "hyrum-smith"],
+      "segments": [
+        { "s": 1, "e": 30, "speaker": "the-lord", "to": "hyrum-smith", "note": "First seek to obtain my word" }
+      ]
+    },
+    {
+      "c": 12,
+      "title": "Joseph Knight's Desire to Serve",
+      "synopsis": "Joseph Knight Sr., who has supplied provisions so the translation can continue, asks in Harmony, Pennsylvania, what his duty is. The Lord repeats that a great and marvelous work is about to come forth and invites Knight, like all who desire, to assist in bringing forth Zion with all his heart, might, mind, and strength.",
+      "years": "May 1829",
+      "yearNum": 1829,
+      "approx": false,
+      "place": "harmony-pa",
+      "themes": ["missionary-work", "zion", "obedience"],
+      "characters": ["joseph-smith"],
+      "segments": [
+        { "s": 1, "e": 9, "speaker": "the-lord", "to": "church", "note": "Joseph Knight invited to assist the work" }
+      ]
+    },
+    {
+      "c": 13,
+      "title": "The Restoration of the Aaronic Priesthood",
+      "synopsis": "On the bank of the Susquehanna near Harmony, Pennsylvania, John the Baptist appears as a resurrected messenger to Joseph Smith and Oliver Cowdery. Laying on hands, he confers the Priesthood of Aaron, which holds the keys of the ministering of angels, the gospel of repentance, and baptism by immersion for the remission of sins.",
+      "years": "May 1829",
+      "yearNum": 1829,
+      "approx": false,
+      "place": "harmony-pa",
+      "themes": ["priesthood", "restoration", "baptism"],
+      "characters": ["joseph-smith", "oliver-cowdery", "john-baptist"],
+      "segments": [
+        { "s": 1, "e": 1, "speaker": "john-baptist", "to": "joseph-smith", "note": "Upon you my fellow servants I confer" }
+      ]
+    },
+    {
+      "c": 14,
+      "title": "David Whitmer's Call",
+      "synopsis": "The translation moves to the Whitmer farm in Fayette, New York, and David Whitmer asks the Lord what he should do. He is told that the field is white to harvest, that he may thrust in his sickle, and that if he keeps the commandments and endures to the end he will have eternal life, the greatest of all the gifts of God.",
+      "years": "June 1829",
+      "yearNum": 1829,
+      "approx": false,
+      "place": "fayette",
+      "themes": ["missionary-work", "endurance", "faith"],
+      "characters": ["joseph-smith", "david-whitmer"],
+      "segments": [
+        { "s": 1, "e": 11, "speaker": "the-lord", "to": "david-whitmer", "note": "Eternal life is the greatest gift" }
+      ]
+    },
+    {
+      "c": 15,
+      "title": "The Thing of Most Worth",
+      "synopsis": "At Fayette, New York, John Whitmer receives a personal word from the Lord, who knows what John has pondered in his heart. He is told that the thing of most worth to him is to declare repentance to this people, that he may bring souls to Christ and rest with them in the kingdom of the Father.",
+      "years": "June 1829",
+      "yearNum": 1829,
+      "approx": false,
+      "place": "fayette",
+      "themes": ["missionary-work", "repentance", "revelation"],
+      "characters": ["joseph-smith", "john-whitmer"],
+      "segments": [
+        { "s": 1, "e": 6, "speaker": "the-lord", "to": "john-whitmer", "note": "Declare repentance unto this people" }
+      ]
+    },
+    {
+      "c": 16,
+      "title": "Declare Repentance unto This People",
+      "synopsis": "Peter Whitmer Jr. asks the same question as his brother at Fayette, New York, and receives nearly the same answer. The Lord, who cannot be deceived, tells him that the thing of most worth is to declare repentance and bring souls to Christ, so that he may rest with them in the kingdom of the Father.",
+      "years": "June 1829",
+      "yearNum": 1829,
+      "approx": false,
+      "place": "fayette",
+      "themes": ["missionary-work", "repentance"],
+      "characters": ["joseph-smith"],
+      "segments": [
+        { "s": 1, "e": 6, "speaker": "the-lord", "to": "church", "note": "Peter Whitmer told the thing of most worth" }
+      ]
+    },
+    {
+      "c": 17,
+      "title": "The Three Witnesses Promised a View",
+      "synopsis": "Before the Book of Mormon translation is finished at Fayette, Oliver Cowdery, David Whitmer, and Martin Harris are promised a view of the plates, the breastplate, the Urim and Thummim, and the Liahona. They must rely on the Lord's word with full purpose of heart, and afterward they must testify of what they have seen by the power of God.",
+      "years": "June 1829",
+      "yearNum": 1829,
+      "approx": false,
+      "place": "fayette",
+      "themes": ["records", "faith", "revelation"],
+      "characters": ["joseph-smith", "oliver-cowdery", "david-whitmer", "martin-harris"],
+      "segments": [
+        { "s": 1, "e": 9, "speaker": "the-lord", "to": "oliver-cowdery", "note": "The Three Witnesses shall view the plates" }
+      ]
+    },
+    {
+      "c": 18,
+      "title": "The Worth of Souls",
+      "synopsis": "At Fayette, New York, the Lord tells Oliver Cowdery and David Whitmer that the worth of souls is great in his sight, and that joy over one repentant soul is great in heaven. They are charged to search out the Twelve Apostles, who are to take upon them the name of Christ and declare his gospel to every creature.",
+      "years": "June 1829",
+      "yearNum": 1829,
+      "approx": false,
+      "place": "fayette",
+      "themes": ["missionary-work", "atonement", "leadership"],
+      "characters": ["joseph-smith", "oliver-cowdery", "david-whitmer"],
+      "segments": [
+        { "s": 1, "e": 25, "speaker": "the-lord", "to": "oliver-cowdery", "note": "The worth of souls is great" },
+        { "s": 26, "e": 47, "speaker": "the-lord", "to": "twelve-apostles", "note": "The Twelve to be searched out and called" }
+      ]
+    },
+    {
+      "c": 19,
+      "title": "The Atonement and Martin Harris",
+      "synopsis": "Near Manchester, New York, Martin Harris hesitates to mortgage his farm to pay for printing the Book of Mormon. The Lord describes his own suffering for sin, which caused him to tremble because of pain and bleed at every pore, and commands Martin to repent, impart his property freely, and not covet his own possessions.",
+      "years": "Summer 1829",
+      "yearNum": 1829,
+      "approx": true,
+      "place": "palmyra",
+      "themes": ["atonement", "repentance", "consecration"],
+      "characters": ["joseph-smith", "martin-harris"],
+      "segments": [
+        { "s": 1, "e": 41, "speaker": "the-lord", "to": "martin-harris", "note": "Which suffering caused myself to tremble" }
+      ]
+    },
+    {
+      "c": 20,
+      "title": "The Articles and Covenants of the Church",
+      "synopsis": "On the eve of the Church's organization, this founding constitution sets out the rise of the Church, the testimony of the Book of Mormon, and the doctrines of the fall, the atonement, and justification. It defines the duties of elders, priests, teachers, deacons, and members, and gives the prayers and manner for baptism and the sacrament.",
+      "years": "April 1830",
+      "yearNum": 1830,
+      "approx": false,
+      "place": "fayette",
+      "themes": ["restoration", "priesthood", "baptism", "sacrament"],
+      "characters": ["joseph-smith", "oliver-cowdery"],
+      "segments": [
+        { "s": 1, "e": 84, "speaker": "the-lord", "to": "church", "note": "The order and offices of the restored church" }
+      ]
+    },
+    {
+      "c": 21,
+      "title": "A Seer, a Translator, a Prophet",
+      "synopsis": "On the day the Church is organized at the Whitmer home in Fayette, the Lord designates Joseph Smith as seer, translator, prophet, apostle, and elder. The members are commanded to give heed to his words as if from the Lord's own mouth, in all patience and faith, with the promise that the gates of hell will not prevail against them.",
+      "years": "April 1830",
+      "yearNum": 1830,
+      "approx": false,
+      "place": "fayette",
+      "themes": ["prophecy", "leadership", "restoration"],
+      "characters": ["joseph-smith", "oliver-cowdery"],
+      "segments": [
+        { "s": 1, "e": 12, "speaker": "the-lord", "to": "church", "note": "Give heed unto all his words" }
+      ]
+    },
+    {
+      "c": 22,
+      "title": "A New and Everlasting Covenant",
+      "synopsis": "Some converts near Manchester, New York, who were previously baptized in other churches ask whether they must be baptized again. The Lord answers that baptism is a new and everlasting covenant, that old covenants have been done away, and that all must enter in at the gate appointed by him with authority.",
+      "years": "April 1830",
+      "yearNum": 1830,
+      "approx": false,
+      "place": "palmyra",
+      "themes": ["baptism", "covenant", "priesthood"],
+      "characters": ["joseph-smith"],
+      "segments": [
+        { "s": 1, "e": 4, "speaker": "the-lord", "to": "church", "note": "Enter ye in at the gate" }
+      ]
+    },
+    {
+      "c": 23,
+      "title": "Counsel to Five Early Believers",
+      "synopsis": "Near Manchester, New York, five men close to the new Church each ask to know their duty. Oliver Cowdery and Joseph Smith Sr. are warned of pride, Hyrum and Samuel Smith are told their duty is to the church, and Joseph Knight is counseled to take up his cross, pray vocally, and unite with the Church.",
+      "years": "April 1830",
+      "yearNum": 1830,
+      "approx": false,
+      "place": "palmyra",
+      "themes": ["humility", "prayer", "obedience"],
+      "characters": ["joseph-smith", "oliver-cowdery", "hyrum-smith", "joseph-smith-sr"],
+      "segments": [
+        { "s": 1, "e": 2, "speaker": "the-lord", "to": "oliver-cowdery", "note": "Beware of pride lest thou be tempted" },
+        { "s": 3, "e": 3, "speaker": "the-lord", "to": "hyrum-smith", "note": "Thy duty is unto the church" },
+        { "s": 4, "e": 4, "speaker": "the-lord", "to": "church", "note": "Word to Samuel Smith" },
+        { "s": 5, "e": 5, "speaker": "the-lord", "to": "joseph-smith-sr", "note": "Word to Joseph Smith Sr." },
+        { "s": 6, "e": 7, "speaker": "the-lord", "to": "church", "note": "Joseph Knight told to pray vocally" }
+      ]
+    },
+    {
+      "c": 24,
+      "title": "Strengthened After Persecution",
+      "synopsis": "After mobs in Colesville and elsewhere harass the young Church, Joseph and Oliver are strengthened by revelation at Harmony, Pennsylvania. Joseph is told to devote his whole service to Zion and magnify his office while the church supports him, and Oliver is to continue declaring the gospel with the promise that the faithful will not be confounded.",
+      "years": "July 1830",
+      "yearNum": 1830,
+      "approx": false,
+      "place": "harmony-pa",
+      "themes": ["endurance", "leadership", "missionary-work"],
+      "characters": ["joseph-smith", "oliver-cowdery"],
+      "segments": [
+        { "s": 1, "e": 9, "speaker": "the-lord", "to": "joseph-smith", "note": "Magnify thine office; Zion needs thee" },
+        { "s": 10, "e": 19, "speaker": "the-lord", "to": "oliver-cowdery", "note": "Declare my gospel as with a trump" }
+      ]
+    },
+    {
+      "c": 25,
+      "title": "Emma Smith, an Elect Lady",
+      "synopsis": "At Harmony, Pennsylvania, the Lord addresses Emma Smith, calling her an elect lady whom he has called. She is to comfort and go with her husband, act as his scribe, expound scripture and exhort the church, and make a selection of sacred hymns, for the song of the righteous is a prayer unto the Lord.",
+      "years": "July 1830",
+      "yearNum": 1830,
+      "approx": false,
+      "place": "harmony-pa",
+      "themes": ["family", "worship", "revelation"],
+      "characters": ["emma-smith", "joseph-smith"],
+      "segments": [
+        { "s": 1, "e": 16, "speaker": "the-lord", "to": "emma-smith", "note": "An elect lady; make a selection of hymns" }
+      ]
+    },
+    {
+      "c": 26,
+      "title": "The Law of Common Consent",
+      "synopsis": "At Harmony, Pennsylvania, Joseph, Oliver, and John Whitmer are told to spend their time studying the scriptures, preaching, and confirming the church at Colesville until the next conference. The Lord declares that all things in the church shall be done by common consent, by much prayer and faith.",
+      "years": "July 1830",
+      "yearNum": 1830,
+      "approx": false,
+      "place": "harmony-pa",
+      "themes": ["leadership", "prayer", "obedience"],
+      "characters": ["joseph-smith", "oliver-cowdery", "john-whitmer"],
+      "segments": [
+        { "s": 1, "e": 2, "speaker": "the-lord", "to": "joseph-smith", "note": "All things by common consent" }
+      ]
+    },
+    {
+      "c": 27,
+      "title": "The Sacrament and the Armor of God",
+      "synopsis": "As Joseph goes to buy wine for the sacrament near Harmony, a heavenly messenger tells him it matters not what is eaten or drunk, so long as it is done with an eye single to God's glory. The Lord looks ahead to drinking the fruit of the vine anew on earth with Moroni, Elijah, John the Baptist, Peter, James, John, and the faithful, and commands the saints to take upon them the whole armor of God.",
+      "years": "August 1830",
+      "yearNum": 1830,
+      "approx": false,
+      "place": "harmony-pa",
+      "themes": ["sacrament", "restoration", "priesthood"],
+      "characters": ["joseph-smith", "moroni", "elijah", "john-baptist", "peter", "james", "john-beloved", "moses"],
+      "segments": [
+        { "s": 1, "e": 4, "speaker": "the-lord", "to": "joseph-smith", "note": "Partake with an eye single to my glory" },
+        { "s": 5, "e": 18, "speaker": "the-lord", "to": "church", "note": "I will drink anew; take the armor of God" }
+      ]
+    },
+    {
+      "c": 28,
+      "title": "Revelation Comes Through the Prophet",
+      "synopsis": "At Fayette, New York, Hiram Page has been receiving false revelations through a seer stone, deceiving even Oliver Cowdery. The Lord tells Oliver that no one but Joseph is appointed to receive commandments and revelations for the church, calls Oliver to preach to the Lamanites, and directs him to persuade Hiram Page privately that the stone's words are not of God.",
+      "years": "September 1830",
+      "yearNum": 1830,
+      "approx": false,
+      "place": "fayette",
+      "themes": ["revelation", "leadership", "apostasy"],
+      "characters": ["joseph-smith", "oliver-cowdery", "satan"],
+      "segments": [
+        { "s": 1, "e": 16, "speaker": "the-lord", "to": "oliver-cowdery", "note": "None else appointed to receive commandments" }
+      ]
+    },
+    {
+      "c": 29,
+      "title": "The Gathering and the Second Coming",
+      "synopsis": "In the presence of six elders at Fayette, the Lord unfolds a sweeping panorama: the gathering of his elect, the signs and desolations before his coming in glory, the Millennium, and the last great battle with Satan. He then reaches back to the creation, the agency of man, the fall of Adam, and the redemption of little children through the Only Begotten.",
+      "years": "September 1830",
+      "yearNum": 1830,
+      "approx": false,
+      "place": "fayette",
+      "themes": ["second-coming", "gathering-of-israel", "agency", "fall"],
+      "characters": ["joseph-smith", "adam", "satan"],
+      "segments": [
+        { "s": 1, "e": 50, "speaker": "the-lord", "to": "elders", "note": "Mine elect hear my voice; Adam's fall explained" }
+      ]
+    },
+    {
+      "c": 30,
+      "title": "Counsel to the Whitmer Brothers",
+      "synopsis": "Following the September conference at Fayette, three Whitmer brothers each receive a word from the Lord. David is chastened for fearing man and slackening in the ministry, Peter is called to accompany Oliver Cowdery on the mission to the Lamanites, and John is to labor in the ministry at Philip Burroughs's neighborhood.",
+      "years": "September 1830",
+      "yearNum": 1830,
+      "approx": false,
+      "place": "fayette",
+      "themes": ["missionary-work", "obedience", "repentance"],
+      "characters": ["joseph-smith", "david-whitmer", "john-whitmer", "oliver-cowdery"],
+      "segments": [
+        { "s": 1, "e": 4, "speaker": "the-lord", "to": "david-whitmer", "note": "You have feared man and not relied on me" },
+        { "s": 5, "e": 8, "speaker": "the-lord", "to": "church", "note": "Peter Whitmer to go with Oliver" },
+        { "s": 9, "e": 11, "speaker": "the-lord", "to": "john-whitmer", "note": "Labor in the ministry, fearing not" }
+      ]
+    },
+    {
+      "c": 31,
+      "title": "Thomas B. Marsh Called to Preach",
+      "synopsis": "Shortly after the September 1830 conference, Thomas B. Marsh, a new convert, is blessed for his faith. He is called to preach the gospel as with the voice of a trump, promised that his family will be cared for, and counseled to be patient in afflictions, to pray always, and to govern his house in meekness.",
+      "years": "September 1830",
+      "yearNum": 1830,
+      "approx": false,
+      "place": "fayette",
+      "themes": ["missionary-work", "family", "endurance"],
+      "characters": ["joseph-smith", "thomas-b-marsh"],
+      "segments": [
+        { "s": 1, "e": 13, "speaker": "the-lord", "to": "thomas-b-marsh", "note": "Declare glad tidings; your family shall live" }
+      ]
+    },
+    {
+      "c": 32,
+      "title": "The Mission to the Lamanites",
+      "synopsis": "At Fayette, New York, Parley P. Pratt and Ziba Peterson are called to join Oliver Cowdery and Peter Whitmer Jr. on a mission to the Lamanites on the western frontier. The Lord promises to go with them and be in their midst, and commands them to give heed to the scriptures and pray always that they escape temptation.",
+      "years": "October 1830",
+      "yearNum": 1830,
+      "approx": false,
+      "place": "fayette",
+      "themes": ["missionary-work", "gathering-of-israel", "prayer"],
+      "characters": ["joseph-smith", "parley-p-pratt", "oliver-cowdery"],
+      "segments": [
+        { "s": 1, "e": 5, "speaker": "the-lord", "to": "parley-p-pratt", "note": "Go into the wilderness among the Lamanites" }
+      ]
+    },
+    {
+      "c": 33,
+      "title": "The Field Is White",
+      "synopsis": "At Fayette, New York, Ezra Thayre and Northrop Sweet are called to open their mouths to declare the gospel, and their mouths will be filled. The Lord declares that this is the eleventh hour and the last time he will call laborers into his vineyard, and the field is white already to harvest.",
+      "years": "October 1830",
+      "yearNum": 1830,
+      "approx": false,
+      "place": "fayette",
+      "themes": ["missionary-work", "second-coming", "repentance"],
+      "characters": ["joseph-smith"],
+      "segments": [
+        { "s": 1, "e": 18, "speaker": "the-lord", "to": "elders", "note": "Open your mouths and they shall be filled" }
+      ]
+    },
+    {
+      "c": 34,
+      "title": "Orson Pratt's Call to Preach",
+      "synopsis": "Nineteen-year-old Orson Pratt, baptized only weeks earlier, comes to Fayette, New York, to learn the Lord's will for him. He is called blessed because he has believed, is told to lift up his voice and prophesy, and is taught that the time is soon at hand when the Lord will come in a cloud with power and great glory.",
+      "years": "November 1830",
+      "yearNum": 1830,
+      "approx": false,
+      "place": "fayette",
+      "themes": ["missionary-work", "second-coming", "prophecy"],
+      "characters": ["joseph-smith", "orson-pratt"],
+      "segments": [
+        { "s": 1, "e": 12, "speaker": "the-lord", "to": "orson-pratt", "note": "Lift up your voice and prophesy" }
+      ]
+    },
+    {
+      "c": 35,
+      "title": "Sidney Rigdon Called as Scribe",
+      "synopsis": "Sidney Rigdon, a prominent Ohio preacher newly converted, travels to Fayette, New York, and is told he has been prepared like John the Baptist to prepare the way. He is called to baptize with water so that converts may receive the Holy Ghost, and to write for Joseph as the scriptures are given and the Bible translation proceeds.",
+      "years": "December 1830",
+      "yearNum": 1830,
+      "approx": false,
+      "place": "fayette",
+      "themes": ["missionary-work", "restoration", "records"],
+      "characters": ["joseph-smith", "sidney-rigdon"],
+      "segments": [
+        { "s": 1, "e": 27, "speaker": "the-lord", "to": "sidney-rigdon", "note": "Thou wast sent forth to prepare the way" }
+      ]
+    },
+    {
+      "c": 36,
+      "title": "The Call of Edward Partridge",
+      "synopsis": "Edward Partridge, a Painesville hatter who traveled to New York with Sidney Rigdon to meet the Prophet, is baptized and receives his call at Fayette. The Lord promises to lay his hand upon him by the hand of his servant Sidney, and calls him and every ordained man to preach the gospel of repentance before the Lord's coming.",
+      "years": "December 1830",
+      "yearNum": 1830,
+      "approx": false,
+      "place": "fayette",
+      "themes": ["missionary-work", "priesthood", "repentance"],
+      "characters": ["joseph-smith", "edward-partridge", "sidney-rigdon"],
+      "segments": [
+        { "s": 1, "e": 8, "speaker": "the-lord", "to": "edward-partridge", "note": "Preach as with the voice of a trump" }
+      ]
+    },
+    {
+      "c": 37,
+      "title": "The Command to Gather to Ohio",
+      "synopsis": "At Fayette, New York, the first commandment concerning a gathering in this dispensation is given to Joseph and Sidney. Because of the enemy and for their sakes, they are to pause the Bible translation, strengthen the church at Colesville, and assemble the saints at the Ohio to await the coming of Oliver Cowdery from his mission.",
+      "years": "December 1830",
+      "yearNum": 1830,
+      "approx": false,
+      "place": "fayette",
+      "themes": ["gathering-of-israel", "obedience", "zion"],
+      "characters": ["joseph-smith", "sidney-rigdon"],
+      "segments": [
+        { "s": 1, "e": 4, "speaker": "the-lord", "to": "church", "note": "Assemble together at the Ohio" }
+      ]
+    },
+    {
+      "c": 38,
+      "title": "If Ye Are Not One",
+      "synopsis": "At a conference in Fayette, New York, the saints ask why they must leave their farms for Ohio. The Lord, who declares that all flesh is in his hands, warns of secret plots against them, teaches that if they are not one they are not his, and promises them a land of promise, greater riches, and his law when they gather to the Ohio.",
+      "years": "January 1831",
+      "yearNum": 1831,
+      "approx": false,
+      "place": "fayette",
+      "themes": ["gathering-of-israel", "covenant", "charity"],
+      "characters": ["joseph-smith"],
+      "segments": [
+        { "s": 1, "e": 42, "speaker": "the-lord", "to": "church", "note": "Go to the Ohio; there I will give my law" }
+      ]
+    },
+    {
+      "c": 39,
+      "title": "The Call of James Covel",
+      "synopsis": "James Covel, a Methodist minister of forty years, covenants to obey any command the Lord gives him through the Prophet at Fayette. The Lord offers him a fulness of joy, calls him to be baptized and to labor in the Ohio, but knows his heart and warns of the pride and cares of the world that have before rejected the word.",
+      "years": "January 1831",
+      "yearNum": 1831,
+      "approx": false,
+      "place": "fayette",
+      "themes": ["baptism", "covenant", "pride-cycle"],
+      "characters": ["joseph-smith"],
+      "segments": [
+        { "s": 1, "e": 24, "speaker": "the-lord", "to": "church", "note": "James Covel called to be baptized" }
+      ]
+    },
+    {
+      "c": 40,
+      "title": "James Covel Rejects the Word",
+      "synopsis": "Only days after his covenant, James Covel returns to his former ways, and the Lord explains his departure to Joseph and Sidney at Fayette. Covel received the word with gladness, but fear of persecution and the cares of the world caused him to break his covenant, as Satan straightway tempted him.",
+      "years": "January 1831",
+      "yearNum": 1831,
+      "approx": false,
+      "place": "fayette",
+      "themes": ["apostasy", "covenant", "agency"],
+      "characters": ["joseph-smith", "sidney-rigdon"],
+      "segments": [
+        { "s": 1, "e": 3, "speaker": "the-lord", "to": "joseph-smith", "note": "Fear and the cares of the world" }
+      ]
+    },
+    {
+      "c": 41,
+      "title": "Edward Partridge Called as Bishop",
+      "synopsis": "Newly arrived in Kirtland, Ohio, the Prophet receives the first revelation given in the new gathering place. The saints are promised the Lord's law when the elders assemble in prayer, a house is to be provided for Joseph to live and translate in, and Edward Partridge, whose heart is pure like Nathanael of old, is called as the first bishop of the Church.",
+      "years": "February 1831",
+      "yearNum": 1831,
+      "approx": false,
+      "place": "kirtland",
+      "plates": "dc-kirtland",
+      "themes": ["leadership", "priesthood", "obedience"],
+      "characters": ["joseph-smith", "edward-partridge"],
+      "segments": [
+        { "s": 1, "e": 12, "speaker": "the-lord", "to": "church", "note": "Edward Partridge appointed bishop" }
+      ]
+    },
+    {
+      "c": 42,
+      "title": "The Law of the Church",
+      "synopsis": "In Kirtland, Ohio, the promised law of the Church is given as the elders assemble in prayer. It directs missionaries to teach from the scriptures by the Spirit, restates the commandments against killing, stealing, lying, and adultery, and establishes the law of consecration, under which the saints impart of their properties for the poor by covenant before the bishop.",
+      "years": "February 1831",
+      "yearNum": 1831,
+      "approx": false,
+      "place": "kirtland",
+      "plates": "dc-kirtland",
+      "themes": ["law", "consecration", "obedience", "charity"],
+      "characters": ["joseph-smith"],
+      "segments": [
+        { "s": 1, "e": 39, "speaker": "the-lord", "to": "church", "note": "Teach by the Spirit; consecrate for the poor" },
+        { "s": 40, "e": 93, "speaker": "the-lord", "to": "church", "note": "Laws of stewardship, healing, and transgression" }
+      ]
+    },
+    {
+      "c": 43,
+      "title": "Only the Prophet Receives Revelations",
+      "synopsis": "A woman calling herself a prophetess, known as Mrs. Hubble, has deceived some saints in Kirtland with pretended revelations. The Lord reaffirms that only the one appointed, Joseph Smith, receives commandments and revelations for the Church, and commands the elders to teach one another, sanctify themselves, and lift a warning voice before the coming judgments.",
+      "years": "February 1831",
+      "yearNum": 1831,
+      "approx": false,
+      "place": "kirtland",
+      "plates": "dc-kirtland",
+      "themes": ["revelation", "leadership", "second-coming"],
+      "characters": ["joseph-smith"],
+      "segments": [
+        { "s": 1, "e": 35, "speaker": "the-lord", "to": "church", "note": "None else appointed; hearken to the appointed" }
+      ]
+    },
+    {
+      "c": 44,
+      "title": "The Elders Called to Conference",
+      "synopsis": "At Kirtland, Ohio, the Lord directs Joseph and Sidney to call the elders of the Church together from the east and the west. If they are faithful he will pour out his Spirit upon them in that assembly, so that many may be converted, the Church organized according to the laws of the land, and the poor visited and relieved.",
+      "years": "February 1831",
+      "yearNum": 1831,
+      "approx": false,
+      "place": "kirtland",
+      "plates": "dc-kirtland",
+      "themes": ["leadership", "charity", "missionary-work"],
+      "characters": ["joseph-smith", "sidney-rigdon"],
+      "segments": [
+        { "s": 1, "e": 6, "speaker": "the-lord", "to": "elders", "note": "Assemble; I will pour out my Spirit" }
+      ]
+    },
+    {
+      "c": 45,
+      "title": "Signs of the Second Coming",
+      "synopsis": "To hush the false reports circulating against the Church, the Lord speaks in Kirtland as the great advocate who pleads the cause of the saints. He retells his Olivet prophecy to the disciples about Jerusalem's fall, the times of the Gentiles, and the signs of his coming, then promises a New Jerusalem, a land of peace and safety for the saints of the Most High.",
+      "years": "March 1831",
+      "yearNum": 1831,
+      "approx": false,
+      "place": "kirtland",
+      "plates": "dc-kirtland",
+      "themes": ["second-coming", "prophecy", "zion", "atonement"],
+      "characters": ["joseph-smith", "enoch", "noah"],
+      "segments": [
+        { "s": 1, "e": 59, "speaker": "the-lord", "to": "church", "note": "The Olivet prophecy retold; listen to your advocate" },
+        { "s": 60, "e": 75, "speaker": "the-lord", "to": "joseph-smith", "note": "Translate the New Testament; the New Jerusalem" }
+      ]
+    },
+    {
+      "c": 46,
+      "title": "Gifts of the Spirit",
+      "synopsis": "At Kirtland, Ohio, the Lord corrects practices that excluded people from public meetings, commanding that sacrament services never be closed to earnest seekers. He then catalogs the gifts of the Spirit, including testimony, wisdom, knowledge, faith, healing, tongues, and discernment, given to every member for the benefit of all who love God and keep his commandments.",
+      "years": "March 1831",
+      "yearNum": 1831,
+      "approx": false,
+      "place": "kirtland",
+      "plates": "dc-kirtland",
+      "themes": ["worship", "revelation", "faith"],
+      "characters": ["joseph-smith"],
+      "segments": [
+        { "s": 1, "e": 33, "speaker": "the-lord", "to": "church", "note": "To every man is given a gift" }
+      ]
+    },
+    {
+      "c": 47,
+      "title": "John Whitmer Called as Historian",
+      "synopsis": "Oliver Cowdery, who had served as Church recorder, is now laboring far away in Missouri, so a new keeper of records is needed in Kirtland. John Whitmer is appointed to write and keep a regular history of the Church and to act as its recorder, with the promise that the Comforter will help him write these things.",
+      "years": "March 1831",
+      "yearNum": 1831,
+      "approx": false,
+      "place": "kirtland",
+      "plates": "dc-kirtland",
+      "themes": ["records", "obedience"],
+      "characters": ["joseph-smith", "john-whitmer", "oliver-cowdery"],
+      "segments": [
+        { "s": 1, "e": 4, "speaker": "the-lord", "to": "john-whitmer", "note": "Write and keep a regular history" }
+      ]
+    },
+    {
+      "c": 48,
+      "title": "Lands for the Gathering Saints",
+      "synopsis": "The saints streaming into Ohio from New York need places to settle, and the Kirtland members ask how to proceed. The Lord tells those with land to impart to the eastern brethren, directs others to buy land in the regions round about, and instructs the Church to save money so that a future city may be purchased when the place is revealed.",
+      "years": "March 1831",
+      "yearNum": 1831,
+      "approx": false,
+      "place": "kirtland",
+      "plates": "dc-kirtland",
+      "themes": ["gathering-of-israel", "consecration", "zion"],
+      "characters": ["joseph-smith"],
+      "segments": [
+        { "s": 1, "e": 6, "speaker": "the-lord", "to": "church", "note": "Impart your land; save for the city" }
+      ]
+    },
+    {
+      "c": 49,
+      "title": "The Mission to the Shakers",
+      "synopsis": "Sidney Rigdon, Parley P. Pratt, and Leman Copley are sent from Kirtland to preach to the United Society of Believers, called Shakers. The revelation corrects Shaker beliefs point by point: Christ will come as a man and not as a woman, marriage is ordained of God, meat is given for man's use, and the Son of Man cometh not in the form of a woman nor a man traveling on the earth.",
+      "years": "May 1831",
+      "yearNum": 1831,
+      "approx": false,
+      "place": "kirtland",
+      "plates": "dc-kirtland",
+      "themes": ["missionary-work", "family", "second-coming"],
+      "characters": ["joseph-smith", "sidney-rigdon", "parley-p-pratt"],
+      "segments": [
+        { "s": 1, "e": 28, "speaker": "the-lord", "to": "sidney-rigdon", "note": "Sidney, Parley, and Leman sent to the Shakers" }
+      ]
+    },
+    {
+      "c": 50,
+      "title": "The Discernment of Spirits",
+      "synopsis": "Strange spiritual manifestations have crept into some Ohio branches, and the elders ask the Lord about them at Kirtland. He teaches that many false spirits have gone abroad, that preaching and receiving must both be by the Spirit of truth so that both are edified together, and that what does not edify is not of God, for that which is of God is light and grows brighter until the perfect day.",
+      "years": "May 1831",
+      "yearNum": 1831,
+      "approx": false,
+      "place": "kirtland",
+      "plates": "dc-kirtland",
+      "themes": ["revelation", "apostasy", "worship"],
+      "characters": ["joseph-smith"],
+      "segments": [
+        { "s": 1, "e": 46, "speaker": "the-lord", "to": "elders", "note": "That which doth not edify is not of God" }
+      ]
+    },
+    {
+      "c": 51,
+      "title": "Stewardships for the Gathering Saints",
+      "synopsis": "The Colesville saints have arrived in Thompson, Ohio, and Bishop Edward Partridge asks how to settle them. The Lord instructs him to appoint portions to every man, equal according to his family and circumstances, with each man made a steward over his own portion, and reminds the saints to act honestly and to prepare, for all these things are but for a little season.",
+      "years": "May 1831",
+      "yearNum": 1831,
+      "approx": false,
+      "place": "kirtland",
+      "plates": "dc-kirtland",
+      "themes": ["consecration", "leadership", "zion"],
+      "characters": ["joseph-smith", "edward-partridge"],
+      "segments": [
+        { "s": 1, "e": 20, "speaker": "the-lord", "to": "edward-partridge", "note": "Appoint every man his portion as steward" }
+      ]
+    },
+    {
+      "c": 52,
+      "title": "Elders Sent to Missouri",
+      "synopsis": "The day after a landmark conference in Kirtland, the elders are commanded to travel two by two to Missouri, where the next conference will be held and where the land of their inheritance will be made known. The Lord gives a pattern in all things so the saints will not be deceived, for the one whose spirit is contrite and whose language is meek edifies and is of God.",
+      "years": "June 1831",
+      "yearNum": 1831,
+      "approx": false,
+      "place": "kirtland",
+      "plates": "dc-kirtland",
+      "themes": ["missionary-work", "zion", "revelation"],
+      "characters": ["joseph-smith", "sidney-rigdon"],
+      "segments": [
+        { "s": 1, "e": 44, "speaker": "the-lord", "to": "elders", "note": "Go two by two unto the land of Missouri" }
+      ]
+    },
+    {
+      "c": 53,
+      "title": "The Call of Sidney Gilbert",
+      "synopsis": "Merchant Algernon Sidney Gilbert asks the Prophet at Kirtland what the Lord would have him do. He is told to forsake the world, be ordained an elder, and journey with Joseph and Sidney Rigdon to Missouri as an agent for the Church, with the reminder that only he who endures to the end is saved.",
+      "years": "June 1831",
+      "yearNum": 1831,
+      "approx": false,
+      "place": "kirtland",
+      "plates": "dc-kirtland",
+      "themes": ["consecration", "endurance", "obedience"],
+      "characters": ["joseph-smith"],
+      "segments": [
+        { "s": 1, "e": 7, "speaker": "the-lord", "to": "church", "note": "Sidney Gilbert called as agent for the church" }
+      ]
+    },
+    {
+      "c": 54,
+      "title": "The Thompson Saints Move to Missouri",
+      "synopsis": "The covenant of consecration at Thompson, Ohio, has been broken through the selfishness of Leman Copley, leaving the Colesville saints stranded. Through Newel Knight, the Lord commands them to flee the disorder and journey to the borders of the Lamanites in Missouri, promising that those who keep their covenants and are patient in tribulation will find rest for their souls.",
+      "years": "June 1831",
+      "yearNum": 1831,
+      "approx": false,
+      "place": "kirtland",
+      "plates": "dc-kirtland",
+      "themes": ["covenant", "gathering-of-israel", "endurance"],
+      "characters": ["joseph-smith"],
+      "segments": [
+        { "s": 1, "e": 10, "speaker": "the-lord", "to": "church", "note": "Newel Knight to lead the Colesville saints west" }
+      ]
+    },
+    {
+      "c": 55,
+      "title": "William W. Phelps Called to Print",
+      "synopsis": "Printer and editor William W. Phelps arrives in Kirtland with his family, seeking the Lord's will. He is called to be baptized, ordained an elder, and planted in Missouri to assist Oliver Cowdery with the work of printing and selecting books for the schools of the Church, that little children may be taught rightly.",
+      "years": "June 1831",
+      "yearNum": 1831,
+      "approx": false,
+      "place": "kirtland",
+      "plates": "dc-kirtland",
+      "themes": ["records", "baptism", "missionary-work"],
+      "characters": ["joseph-smith", "william-w-phelps", "oliver-cowdery"],
+      "segments": [
+        { "s": 1, "e": 6, "speaker": "the-lord", "to": "william-w-phelps", "note": "Assist Oliver in the work of printing" }
+      ]
+    },
+    {
+      "c": 56,
+      "title": "The Rich and the Poor Rebuked",
+      "synopsis": "Ezra Thayre's refusal to join his mission companion delays the Lord's command, and at Kirtland his call is revoked and given to another. The Lord, who commands and revokes as it seems him good, rebukes both the rich whose hearts are set on riches and the poor whose hearts are not broken, and blesses the poor in spirit whose hearts are contrite.",
+      "years": "June 1831",
+      "yearNum": 1831,
+      "approx": false,
+      "place": "kirtland",
+      "plates": "dc-kirtland",
+      "themes": ["obedience", "humility", "repentance"],
+      "characters": ["joseph-smith"],
+      "segments": [
+        { "s": 1, "e": 20, "speaker": "the-lord", "to": "church", "note": "Wo unto the rich; wo unto the unbroken poor" }
+      ]
+    },
+    {
+      "c": 57,
+      "title": "The Center Place of Zion",
+      "synopsis": "Having journeyed a thousand miles to Jackson County, Missouri, Joseph asks when and where the city of Zion will be built. The Lord declares Missouri the land of promise, names Independence the center place with the temple lot lying westward, and assigns Sidney Gilbert, Edward Partridge, William W. Phelps, and Oliver Cowdery their roles in planting the saints there.",
+      "years": "July 1831",
+      "yearNum": 1831,
+      "approx": false,
+      "place": "independence",
+      "plates": "dc-missouri",
+      "themes": ["zion", "temple", "gathering-of-israel"],
+      "characters": ["joseph-smith", "edward-partridge", "william-w-phelps", "oliver-cowdery"],
+      "segments": [
+        { "s": 1, "e": 16, "speaker": "the-lord", "to": "church", "note": "Independence is the center place of Zion" }
+      ]
+    },
+    {
+      "c": 58,
+      "title": "Anxiously Engaged in a Good Cause",
+      "synopsis": "The first elders have arrived in Zion, and in Jackson County the Lord tempers their expectations: the glory of Zion follows much tribulation, and the hour of its full establishment is not yet. He teaches that men should be anxiously engaged in a good cause of their own free will, commands Edward Partridge and the still-hesitant Martin Harris to repent, and declares that he who repents is forgiven and remembered no more.",
+      "years": "August 1831",
+      "yearNum": 1831,
+      "approx": false,
+      "place": "independence",
+      "plates": "dc-missouri",
+      "themes": ["zion", "agency", "repentance"],
+      "characters": ["joseph-smith", "edward-partridge", "martin-harris"],
+      "segments": [
+        { "s": 1, "e": 65, "speaker": "the-lord", "to": "elders", "note": "After much tribulation come the blessings" }
+      ]
+    },
+    {
+      "c": 59,
+      "title": "The Sabbath Day in Zion",
+      "synopsis": "On a Sabbath in Zion, shortly after the death of faithful Polly Knight, the Lord blesses those who have come up to the land with commandments. The saints are to keep the Sabbath by offering their sacraments and resting from labor, with cheerful hearts and countenances, for the fulness of the earth is theirs, and all things are made for the benefit and use of man, to be used with judgment and thanksgiving.",
+      "years": "August 1831",
+      "yearNum": 1831,
+      "approx": false,
+      "place": "independence",
+      "plates": "dc-missouri",
+      "themes": ["worship", "obedience", "sacrament"],
+      "characters": ["joseph-smith"],
+      "segments": [
+        { "s": 1, "e": 24, "speaker": "the-lord", "to": "church", "note": "Keep my holy day with thanksgiving" }
+      ]
+    },
+    {
+      "c": 60,
+      "title": "Returning Elders Commanded to Preach",
+      "synopsis": "The elders who traveled to Missouri prepare to return to Ohio, and in Jackson County the Lord is not well pleased with those who have kept silent along the way. He commands them not to hide their talent for fear of man, but to open their mouths and declare his word as they journey back, traveling swiftly by water or land as the Spirit directs.",
+      "years": "August 1831",
+      "yearNum": 1831,
+      "approx": false,
+      "place": "independence",
+      "plates": "dc-missouri",
+      "themes": ["missionary-work", "obedience"],
+      "characters": ["joseph-smith"],
+      "segments": [
+        { "s": 1, "e": 17, "speaker": "the-lord", "to": "elders", "note": "Open your mouths on the journey home" }
+      ]
+    },
+    {
+      "c": 61,
+      "title": "Warning on the Waters",
+      "synopsis": "Camped at McIlwaine's Bend after danger on the Missouri River, the elders receive a revelation about the waters they have been traveling. The Lord explains that he has cursed the waters in the last days and that the destroyer rides upon their face, directs most of the company to continue by land preaching along the way, and reassures them that he is able to preserve the faithful whether by water or by land.",
+      "years": "August 1831",
+      "yearNum": 1831,
+      "approx": false,
+      "place": "independence",
+      "plates": "dc-missouri",
+      "themes": ["prophecy", "missionary-work", "deliverance"],
+      "characters": ["joseph-smith"],
+      "segments": [
+        { "s": 1, "e": 39, "speaker": "the-lord", "to": "elders", "note": "The destroyer rides upon the waters" }
+      ]
+    },
+    {
+      "c": 62,
+      "title": "Elders Met on the Way to Zion",
+      "synopsis": "On the riverbank at Chariton, Missouri, Joseph's returning party meets a group of elders still traveling up to the land of Zion. The Lord greets them as those in whom he is well pleased, teaches that their testimonies are recorded in heaven for the angels to look upon, and sends them on rejoicing to hold a meeting in Zion before continuing their missions.",
+      "years": "August 1831",
+      "yearNum": 1831,
+      "approx": false,
+      "place": "independence",
+      "plates": "dc-missouri",
+      "themes": ["missionary-work", "hope"],
+      "characters": ["joseph-smith"],
+      "segments": [
+        { "s": 1, "e": 9, "speaker": "the-lord", "to": "elders", "note": "Your testimonies are recorded in heaven" }
+      ]
+    },
+    {
+      "c": 63,
+      "title": "Zion to Be Obtained by Purchase",
+      "synopsis": "Back in Kirtland, the saints are eager to know how Zion is to be built up, and the Lord answers with warning and promise. Signs follow faith rather than produce it, the wicked and adulterous among the saints are sternly rebuked, and the land of Zion is to be obtained by purchase and by gathering the riches of the faithful, not by blood.",
+      "years": "August 1831",
+      "yearNum": 1831,
+      "approx": false,
+      "place": "kirtland",
+      "plates": "dc-missouri",
+      "themes": ["zion", "faith", "repentance", "consecration"],
+      "characters": ["joseph-smith", "sidney-rigdon", "newel-k-whitney"],
+      "segments": [
+        { "s": 1, "e": 66, "speaker": "the-lord", "to": "church", "note": "Signs come by faith; purchase the land of Zion" }
+      ]
+    },
+    {
+      "c": 64,
+      "title": "The Requirement to Forgive All Men",
+      "synopsis": "At Kirtland, with feelings strained among the brethren after the Missouri journey, the Lord commands his servants to forgive one another. He who forgives not his brother stands condemned, for of the saints it is required to forgive all men; the Lord will forgive whom he will forgive. He adds that the present is a day of sacrifice and of tithing, and that the willing and obedient shall eat the good of the land of Zion.",
+      "years": "September 1831",
+      "yearNum": 1831,
+      "approx": false,
+      "place": "kirtland",
+      "plates": "dc-missouri",
+      "themes": ["justice-and-mercy", "repentance", "zion"],
+      "characters": ["joseph-smith", "newel-k-whitney"],
+      "segments": [
+        { "s": 1, "e": 43, "speaker": "the-lord", "to": "church", "note": "Of you it is required to forgive all men" }
+      ]
+    },
+    {
+      "c": 65,
+      "title": "Prepare Ye the Way of the Lord",
+      "synopsis": "At Hiram, Ohio, the Prophet receives a revelation he calls a prayer, echoing Daniel's vision of the stone cut without hands. The keys of the kingdom are committed to man on earth so the gospel may roll forth to the ends of the earth, and the saints are to pray that the kingdom of God may go forth to prepare the world for the coming kingdom of heaven.",
+      "years": "October 1831",
+      "yearNum": 1831,
+      "approx": false,
+      "place": "hiram-oh",
+      "plates": "dc-kirtland",
+      "themes": ["prayer", "second-coming", "restoration"],
+      "characters": ["joseph-smith"],
+      "segments": [
+        { "s": 1, "e": 6, "speaker": "the-lord", "to": "church", "note": "The keys of the kingdom are committed to man" }
+      ]
+    },
+    {
+      "c": 66,
+      "title": "Counsel to William E. McLellin",
+      "synopsis": "William E. McLellin secretly asks the Lord to answer five private questions through the Prophet, and the revelation given at Orange, Ohio, answers every one. He is pronounced clean but not wholly, called to proclaim the gospel to the eastern lands with Samuel Smith, and warned to forsake temptation and continue faithful to the end for a crown of eternal life.",
+      "years": "October 1831",
+      "yearNum": 1831,
+      "approx": false,
+      "place": "kirtland",
+      "plates": "dc-kirtland",
+      "themes": ["revelation", "missionary-work", "endurance"],
+      "characters": ["joseph-smith"],
+      "segments": [
+        { "s": 1, "e": 13, "speaker": "the-lord", "to": "church", "note": "William McLellin's secret questions answered" }
+      ]
+    },
+    {
+      "c": 67,
+      "title": "The Book of Commandments Challenge",
+      "synopsis": "As the elders at Hiram, Ohio, prepare the revelations for publication, some criticize their language, so the Lord issues a challenge: let the wisest among them try to write a revelation like the least of these. When William McLellin's attempt fails, the Lord bears record of the truth of the commandments and promises the faithful that they may see him when they strip themselves of jealousies and fears.",
+      "years": "November 1831",
+      "yearNum": 1831,
+      "approx": false,
+      "place": "hiram-oh",
+      "plates": "dc-kirtland",
+      "themes": ["revelation", "records", "humility"],
+      "characters": ["joseph-smith"],
+      "segments": [
+        { "s": 1, "e": 14, "speaker": "the-lord", "to": "elders", "note": "Try to write the least of these revelations" }
+      ]
+    },
+    {
+      "c": 68,
+      "title": "Scripture, Bishops, and Teaching Children",
+      "synopsis": "At Hiram, Ohio, Orson Hyde and three other elders ask the Lord's will concerning themselves, and the answer widens into instruction for the whole Church. Whatever the elders speak when moved upon by the Holy Ghost is scripture, bishops are to be sought from the firstborn of Aaron or worthy high priests, and parents in Zion are commanded to teach their children faith, repentance, and baptism by age eight.",
+      "years": "November 1831",
+      "yearNum": 1831,
+      "approx": false,
+      "place": "hiram-oh",
+      "plates": "dc-kirtland",
+      "themes": ["revelation", "priesthood", "family"],
+      "characters": ["joseph-smith", "orson-hyde"],
+      "segments": [
+        { "s": 1, "e": 12, "speaker": "the-lord", "to": "elders", "note": "When moved by the Holy Ghost, it is scripture" },
+        { "s": 13, "e": 35, "speaker": "the-lord", "to": "church", "note": "Bishops' qualifications; parents to teach children" }
+      ]
+    },
+    {
+      "c": 69,
+      "title": "Carrying the Revelations to Zion",
+      "synopsis": "Oliver Cowdery is about to carry the compiled revelations and the Church's consecrated funds to the printer in Missouri, and at Hiram, Ohio, the Lord names his traveling companion. John Whitmer is to go with Oliver, and he is also to continue writing and keeping the Church history and to travel among the branches gathering knowledge for the record.",
+      "years": "November 1831",
+      "yearNum": 1831,
+      "approx": false,
+      "place": "hiram-oh",
+      "plates": "dc-kirtland",
+      "themes": ["records", "obedience", "zion"],
+      "characters": ["joseph-smith", "oliver-cowdery", "john-whitmer"],
+      "segments": [
+        { "s": 1, "e": 8, "speaker": "the-lord", "to": "john-whitmer", "note": "Go with Oliver; keep the church history" }
+      ]
+    },
+    {
+      "c": 70,
+      "title": "Stewards Over the Revelations",
+      "synopsis": "At Hiram, Ohio, the Lord appoints Joseph Smith, Oliver Cowdery, John Whitmer, Sidney Rigdon, William W. Phelps, and Martin Harris as stewards over the revelations and commandments to be published. They are to manage the sacred writings and their profits for the Church, for the revelations are worth the riches of the whole earth, and every steward must render an account, for he who is appointed to administer spiritual things is worthy of his hire.",
+      "years": "November 1831",
+      "yearNum": 1831,
+      "approx": false,
+      "place": "hiram-oh",
+      "plates": "dc-kirtland",
+      "themes": ["records", "consecration", "leadership"],
+      "characters": ["joseph-smith", "oliver-cowdery", "john-whitmer", "sidney-rigdon", "william-w-phelps", "martin-harris"],
+      "segments": [
+        { "s": 1, "e": 18, "speaker": "the-lord", "to": "church", "note": "Stewards appointed over the revelations" }
+      ]
+    }
+  ]
+}

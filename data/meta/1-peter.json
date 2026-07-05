@@ -1,0 +1,78 @@
+{
+  "book": "1 Peter",
+  "slug": "1-peter",
+  "narrator": "peter",
+  "plates": "general-epistles",
+  "chapters": [
+    {
+      "c": 1,
+      "title": "Begotten Again to a Lively Hope",
+      "synopsis": "Peter writes to the scattered saints of Asia Minor, praising God who has begotten them again to a lively hope through the resurrection of Jesus Christ, to an inheritance incorruptible reserved in heaven. Their faith, tried by fiery trials, is more precious than gold, and the prophets themselves searched diligently to understand the salvation now revealed. He calls them to be holy as God is holy, redeemed not with silver or gold but with the precious blood of Christ.",
+      "years": "about AD 64",
+      "yearNum": 64,
+      "approx": true,
+      "place": null,
+      "themes": ["hope", "faith", "resurrection", "endurance"],
+      "characters": ["peter", "jesus-christ"],
+      "segments": [
+        { "s": 1, "e": 25, "speaker": "peter", "to": "church", "note": "A lively hope through Christ's resurrection; be holy" }
+      ]
+    },
+    {
+      "c": 2,
+      "title": "A Royal Priesthood, a Peculiar People",
+      "synopsis": "Peter urges the saints to desire the sincere milk of the word and come to Christ, the living stone rejected by men but chosen of God as the chief cornerstone. They are a chosen generation, a royal priesthood, an holy nation, called out of darkness into marvelous light. He teaches them to live honestly among the gentiles and to bear wrongful suffering patiently, following Christ, who when he was reviled, reviled not again.",
+      "years": "about AD 64",
+      "yearNum": 64,
+      "approx": true,
+      "place": null,
+      "themes": ["priesthood", "covenant", "obedience", "endurance"],
+      "characters": ["peter", "jesus-christ"],
+      "segments": [
+        { "s": 1, "e": 25, "speaker": "peter", "to": "church", "note": "Christ the cornerstone; ye are a royal priesthood" }
+      ]
+    },
+    {
+      "c": 3,
+      "title": "Christ Preaches to the Spirits in Prison",
+      "synopsis": "Peter counsels husbands and wives to dwell together in honor, pointing to Sara and the holy women of old, and tells all the saints to be of one mind, ready always to give an answer for the hope within them. He then teaches that Christ, put to death in the flesh but quickened by the Spirit, went and preached unto the spirits in prison who were disobedient in the days of Noah. This passage opens the doctrine of salvation for the dead, later expanded in latter-day revelation.",
+      "years": "about AD 64",
+      "yearNum": 64,
+      "approx": true,
+      "place": null,
+      "themes": ["charity", "hope", "resurrection", "deliverance"],
+      "characters": ["peter", "jesus-christ", "sarah", "noah"],
+      "segments": [
+        { "s": 1, "e": 22, "speaker": "peter", "to": "church", "note": "Be of one mind; Christ preached to spirits in prison" }
+      ]
+    },
+    {
+      "c": 4,
+      "title": "The Gospel Preached to the Dead",
+      "synopsis": "Peter declares that the gospel was preached also to them that are dead, that they might be judged according to men in the flesh but live according to God in the spirit, a key witness that the dead are not beyond redemption. He calls the saints to charity above all things, for charity covers a multitude of sins, and to use their gifts as good stewards of the grace of God. Fiery trials should not seem strange; those who suffer as Christians glorify God.",
+      "years": "about AD 64",
+      "yearNum": 64,
+      "approx": true,
+      "place": null,
+      "themes": ["charity", "judgment", "endurance"],
+      "characters": ["peter", "jesus-christ"],
+      "segments": [
+        { "s": 1, "e": 19, "speaker": "peter", "to": "church", "note": "The gospel preached to the dead; charity covers sins" }
+      ]
+    },
+    {
+      "c": 5,
+      "title": "Feed the Flock of God",
+      "synopsis": "Peter, an elder himself and a witness of the sufferings of Christ, exhorts the elders to feed the flock of God willingly, not for filthy lucre, and not as lords over God's heritage but as examples. All are to be clothed with humility and cast their care upon the Lord, for he careth for them. He warns them to be sober and vigilant, because the devil walks about as a roaring lion seeking whom he may devour.",
+      "years": "about AD 64",
+      "yearNum": 64,
+      "approx": true,
+      "place": null,
+      "themes": ["leadership", "humility", "endurance"],
+      "characters": ["peter", "jesus-christ", "satan", "silas", "mark"],
+      "segments": [
+        { "s": 1, "e": 14, "speaker": "peter", "to": "church", "note": "Elders, feed the flock; resist the devil, stedfast" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,781 @@
+{
+  "book": "Jeremiah",
+  "slug": "jeremiah",
+  "narrator": "jeremiah",
+  "plates": "prophets-major",
+  "chapters": [
+    {
+      "c": 1,
+      "title": "Jeremiah Called Before Birth",
+      "synopsis": "The Lord tells young Jeremiah that he knew and sanctified him before he was formed in the womb and ordained him a prophet to the nations. Jeremiah protests that he is only a child, but the Lord touches his mouth and shows him a seething pot from the north, a sign of coming judgment on Judah.",
+      "years": "about 626 BC",
+      "yearNum": -626,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["prophecy", "faith", "obedience"],
+      "characters": ["jeremiah", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 3, "speaker": "jeremiah", "to": "reader", "note": "Jeremiah dates his call under Josiah" },
+        { "s": 4, "e": 19, "speaker": "the-lord", "to": "jeremiah", "note": "Ordained before birth; the seething pot" }
+      ]
+    },
+    {
+      "c": 2,
+      "title": "Israel's Forsaken First Love",
+      "synopsis": "The Lord recalls the kindness of Israel's youth and grieves that she has forsaken him, the fountain of living waters, for broken cisterns and idols. He indicts Judah for a faithlessness worse than any nation, chasing after strangers while denying her guilt.",
+      "years": "about 626 BC",
+      "yearNum": -626,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["apostasy", "covenant", "judgment"],
+      "characters": ["jeremiah", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 37, "speaker": "the-lord", "to": "house-of-israel", "note": "Forsaking the fountain of living waters" }
+      ]
+    },
+    {
+      "c": 3,
+      "title": "A Plea to Return",
+      "synopsis": "The Lord likens faithless Israel to a wife who has played the harlot yet is invited to return. He promises that if she repents he will heal her backslidings and gather her with Judah to Zion, giving shepherds after his own heart.",
+      "years": "about 621 BC",
+      "yearNum": -621,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["repentance", "covenant", "hope"],
+      "characters": ["jeremiah", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 5, "speaker": "the-lord", "to": "house-of-israel", "note": "The harlot wife's faithlessness" },
+        { "s": 6, "e": 25, "speaker": "the-lord", "to": "house-of-israel", "note": "Return, ye backsliding children" }
+      ]
+    },
+    {
+      "c": 4,
+      "title": "The Foe from the North",
+      "synopsis": "The Lord calls Judah to circumcise her heart and put away her idols, or judgment will come like a lion out of his thicket. Jeremiah sees the land laid waste and his own heart in anguish, for the whole nation faces destroyer armies from the north.",
+      "years": "about 621 BC",
+      "yearNum": -621,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["repentance", "judgment", "prophecy"],
+      "characters": ["jeremiah", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 4, "speaker": "the-lord", "to": "house-of-israel", "note": "Circumcise your hearts, O Judah" },
+        { "s": 5, "e": 31, "speaker": "jeremiah", "to": "reader", "note": "Vision of the destroyer from the north" }
+      ]
+    },
+    {
+      "c": 5,
+      "title": "None That Doeth Justly",
+      "synopsis": "The Lord sends Jeremiah searching Jerusalem's streets for one man who executes judgment, but finds none among rich or poor who have not broken the yoke of covenant. Because they have forsaken the Lord for false prophets and unbridled sin, a nation from far will devour their harvest.",
+      "years": "about 620 BC",
+      "yearNum": -620,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["judgment", "apostasy", "justice-and-mercy"],
+      "characters": ["jeremiah", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 31, "speaker": "the-lord", "to": "house-of-israel", "note": "No one that seeketh truth is found" }
+      ]
+    },
+    {
+      "c": 6,
+      "title": "Flee for Safety, O Children",
+      "synopsis": "The Lord sounds an alarm for Jerusalem to flee, for a besieging army approaches like shepherds pitching tents against the city. Prophets and priests heal the hurt of the people slightly, crying peace when there is no peace, and the ancient paths of goodness are refused.",
+      "years": "about 620 BC",
+      "yearNum": -620,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["judgment", "apostasy", "prophecy"],
+      "characters": ["jeremiah", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 30, "speaker": "the-lord", "to": "house-of-israel", "note": "Siege approaches; false peace of the prophets" }
+      ]
+    },
+    {
+      "c": 7,
+      "title": "The Temple Sermon",
+      "synopsis": "Standing in the temple gate, Jeremiah warns the people not to trust the lying words, 'the temple of the Lord,' while they steal, murder, and burn incense to Baal. The Lord recalls Shiloh's ruin as proof that the house bearing his name will not shield a people who will not amend their ways.",
+      "years": "about 609 BC",
+      "yearNum": -609,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["apostasy", "judgment", "temple"],
+      "characters": ["jeremiah", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 15, "speaker": "the-lord", "to": "house-of-israel", "note": "Trust not the lying words, the temple of the Lord" },
+        { "s": 16, "e": 34, "speaker": "the-lord", "to": "jeremiah", "note": "Do not pray for this people; Shiloh's warning" }
+      ]
+    },
+    {
+      "c": 8,
+      "title": "No Balm in Gilead",
+      "synopsis": "The Lord laments a people who do not turn from their wicked course even as the stork knows her appointed times, while scribes falsely handle the law. Jeremiah's own heart is faint within him, and he cries out that though there is balm in Gilead, no physician has healed his people.",
+      "years": "about 609 BC",
+      "yearNum": -609,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["apostasy", "judgment", "endurance"],
+      "characters": ["jeremiah", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 17, "speaker": "the-lord", "to": "house-of-israel", "note": "A people who will not turn" },
+        { "s": 18, "e": 22, "speaker": "jeremiah", "to": "reader", "note": "Is there no balm in Gilead" }
+      ]
+    },
+    {
+      "c": 9,
+      "title": "A Fountain of Tears",
+      "synopsis": "Jeremiah wishes his head were waters that he might weep for the slain of his people, so deep has treachery and deceit become among neighbors and brothers. The Lord declares that the wise, mighty, and rich should glory only in understanding and knowing him, for Judah's uncircumcised heart brings lamentation and dispersion.",
+      "years": "about 609 BC",
+      "yearNum": -609,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["judgment", "apostasy", "humility"],
+      "characters": ["jeremiah", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 11, "speaker": "jeremiah", "to": "reader", "note": "A fountain of tears for the slain" },
+        { "s": 12, "e": 26, "speaker": "the-lord", "to": "house-of-israel", "note": "Glory only in knowing the Lord" }
+      ]
+    },
+    {
+      "c": 10,
+      "title": "Idols of Wood and the Living God",
+      "synopsis": "Jeremiah contrasts the dumb idols of the nations, decked with silver and gold but unable to speak or walk, with the living God who made the earth by his wisdom and stretched out the heavens. He prays that the Lord correct his people with judgment, not in anger, lest they be brought to nothing.",
+      "years": "about 609 BC",
+      "yearNum": -609,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["apostasy", "worship", "prayer"],
+      "characters": ["jeremiah", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 16, "speaker": "jeremiah", "to": "house-of-israel", "note": "Idols of wood versus the living God" },
+        { "s": 17, "e": 25, "speaker": "jeremiah", "to": "the-lord", "note": "Jeremiah prays for correction, not wrath" }
+      ]
+    },
+    {
+      "c": 11,
+      "title": "The Broken Covenant",
+      "synopsis": "The Lord reminds Jeremiah of the covenant sworn to the fathers who came out of Egypt, a covenant Judah and Israel have broken by following other gods. When Jeremiah's own kinsmen at Anathoth plot to kill him for prophesying, the Lord promises to bring evil upon them that they cannot escape.",
+      "years": "about 609 BC",
+      "yearNum": -609,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["covenant", "apostasy", "judgment"],
+      "characters": ["jeremiah", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 17, "speaker": "the-lord", "to": "jeremiah", "note": "The broken covenant of the fathers" },
+        { "s": 18, "e": 23, "speaker": "the-lord", "to": "jeremiah", "note": "The men of Anathoth conspire against him" }
+      ]
+    },
+    {
+      "c": 12,
+      "title": "Why Do the Wicked Prosper",
+      "synopsis": "Jeremiah asks the Lord why the way of the wicked prospers while he suffers for righteousness, and the Lord answers that harder trials still lie ahead. Judah's own shepherds have marred the Lord's pleasant portion, yet mercy is promised even to the nations that will learn the ways of his people.",
+      "years": "about 609 BC",
+      "yearNum": -609,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["prayer", "judgment", "justice-and-mercy"],
+      "characters": ["jeremiah", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 6, "speaker": "jeremiah", "to": "the-lord", "note": "Jeremiah questions the prosperity of the wicked" },
+        { "s": 7, "e": 17, "speaker": "the-lord", "to": "jeremiah", "note": "Judgment on evil neighbors; mercy offered" }
+      ]
+    },
+    {
+      "c": 13,
+      "title": "The Marred Linen Girdle",
+      "synopsis": "Jeremiah buries a linen girdle by the Euphrates until it rots, a sign that the pride of Judah will likewise be marred and made profitable for nothing. The Lord warns the king and queen mother that captivity draws near, for a people accustomed to evil cannot easily do good.",
+      "years": "about 605 BC",
+      "yearNum": -605,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["judgment", "apostasy", "prophecy"],
+      "characters": ["jeremiah", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 11, "speaker": "the-lord", "to": "jeremiah", "note": "The sign of the marred girdle" },
+        { "s": 12, "e": 27, "speaker": "the-lord", "to": "house-of-israel", "note": "Warning to the king; captivity foretold" }
+      ]
+    },
+    {
+      "c": 14,
+      "title": "Drought and False Comfort",
+      "synopsis": "A great drought grips the land, and Jeremiah pleads for mercy though the people's sins testify against them. The Lord answers that the false prophets who promise peace and no famine speak lies, and sword and famine will consume them instead.",
+      "years": "about 601 BC",
+      "yearNum": -601,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["judgment", "prayer", "apostasy"],
+      "characters": ["jeremiah", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 9, "speaker": "jeremiah", "to": "the-lord", "note": "Jeremiah's plea amid the drought" },
+        { "s": 10, "e": 22, "speaker": "the-lord", "to": "jeremiah", "note": "False prophets condemned; Jeremiah still pleads" }
+      ]
+    },
+    {
+      "c": 15,
+      "title": "Even Moses and Samuel Could Not Turn Judgment",
+      "synopsis": "The Lord tells Jeremiah that even if Moses and Samuel stood before him, his mind could not be toward this people, for Manasseh's sins have sealed their doom of sword, famine, and captivity. Jeremiah laments his own contentious calling, and the Lord promises to make him a fenced brasen wall against his enemies.",
+      "years": "about 601 BC",
+      "yearNum": -601,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["judgment", "prophecy", "endurance"],
+      "characters": ["jeremiah", "the-lord", "moses"],
+      "segments": [
+        { "s": 1, "e": 9, "speaker": "the-lord", "to": "jeremiah", "note": "Judgment fixed despite Moses and Samuel" },
+        { "s": 10, "e": 21, "speaker": "jeremiah", "to": "the-lord", "note": "Jeremiah's complaint; promised as a brasen wall" }
+      ]
+    },
+    {
+      "c": 16,
+      "title": "Forbidden Marriage, Promised Return",
+      "synopsis": "The Lord forbids Jeremiah to marry or mourn in this place, a living sign of the death and exile coming upon Judah for forsaking him for idols. Yet beyond judgment the Lord promises to gather his people again from all the lands to which he will drive them, fulfilling an oath as sure as his name.",
+      "years": "about 601 BC",
+      "yearNum": -601,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["judgment", "exile", "gathering-of-israel"],
+      "characters": ["jeremiah", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 13, "speaker": "the-lord", "to": "jeremiah", "note": "Sign of forbidden marriage and mourning" },
+        { "s": 14, "e": 21, "speaker": "the-lord", "to": "house-of-israel", "note": "A future gathering promised" }
+      ]
+    },
+    {
+      "c": 17,
+      "title": "Cursed Is the Man That Trusteth in Man",
+      "synopsis": "The Lord contrasts the man who trusts in flesh, a heath in the desert, with the one who trusts in the Lord, a tree planted by the waters that never fails. Jeremiah is sent to preach hallowing the sabbath at Jerusalem's gates, for the deceitful heart of man is known and searched by God alone.",
+      "years": "about 609 BC",
+      "yearNum": -609,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["faith", "obedience", "judgment"],
+      "characters": ["jeremiah", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 13, "speaker": "the-lord", "to": "house-of-israel", "note": "Trust in man versus trust in the Lord" },
+        { "s": 14, "e": 27, "speaker": "jeremiah", "to": "house-of-israel", "note": "Hallow the sabbath at Jerusalem's gates" }
+      ]
+    },
+    {
+      "c": 18,
+      "title": "The Potter and the Clay",
+      "synopsis": "Jeremiah watches a potter reworking marred clay into another vessel, and the Lord declares that as clay in the potter's hand, so is Israel in his hand to build or pluck up according to their turning. When the people plot against Jeremiah for his warnings, he pleads with the Lord to deliver him from their pit.",
+      "years": "about 601 BC",
+      "yearNum": -601,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["repentance", "agency", "judgment"],
+      "characters": ["jeremiah", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 12, "speaker": "the-lord", "to": "jeremiah", "note": "The potter's clay, a sign for Israel" },
+        { "s": 13, "e": 23, "speaker": "jeremiah", "to": "the-lord", "note": "Plots against Jeremiah; his plea for justice" }
+      ]
+    },
+    {
+      "c": 19,
+      "title": "The Broken Earthen Bottle",
+      "synopsis": "The Lord sends Jeremiah to buy a potter's bottle and break it before the elders in the valley of Hinnom, a sign that Jerusalem will be broken as a vessel that cannot be made whole again. Their sacrifice of children to Baal in that valley has provoked this coming desolation.",
+      "years": "about 601 BC",
+      "yearNum": -601,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["judgment", "apostasy", "prophecy"],
+      "characters": ["jeremiah", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 15, "speaker": "the-lord", "to": "jeremiah", "note": "The bottle broken in the valley of Hinnom" }
+      ]
+    },
+    {
+      "c": 20,
+      "title": "Jeremiah's Burning Fire Shut Up in His Bones",
+      "synopsis": "Struck and put in the stocks by the priest Pashur for his prophecy, Jeremiah cries out that the Lord's word is in his heart like a burning fire he cannot hold in. Torn between the derision he suffers and his inability to stay silent, he curses the day of his birth even while praising the Lord who delivers the poor from evildoers.",
+      "years": "about 609 BC",
+      "yearNum": -609,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["endurance", "prophecy", "faith"],
+      "characters": ["jeremiah", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 6, "speaker": "jeremiah", "to": "reader", "note": "Pashur strikes Jeremiah and puts him in the stocks" },
+        { "s": 7, "e": 18, "speaker": "jeremiah", "to": "the-lord", "note": "A burning fire shut up in his bones" }
+      ]
+    },
+    {
+      "c": 21,
+      "title": "Zedekiah's Vain Inquiry",
+      "synopsis": "King Zedekiah sends to ask whether the Lord will drive Nebuchadnezzar's besieging army away, but Jeremiah answers that the Lord himself fights against the city. Only those who go out and fall to the Chaldeans will save their lives, for the Lord sets before the house of David the way of life and the way of death.",
+      "years": "about 588 BC",
+      "yearNum": -588,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["judgment", "prophecy", "kingship"],
+      "characters": ["jeremiah", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 7, "speaker": "jeremiah", "to": "reader", "note": "Zedekiah's messengers inquire of Jeremiah" },
+        { "s": 8, "e": 14, "speaker": "the-lord", "to": "house-of-israel", "note": "The way of life and the way of death" }
+      ]
+    },
+    {
+      "c": 22,
+      "title": "Woe to the Unjust King",
+      "synopsis": "The Lord commands Jeremiah to warn the king's house at Jerusalem to execute justice and deliver the oppressed, or the palace will become a desolation. He pronounces doom on Shallum carried captive, on Jehoiakim who builds his house by unrighteousness, and on Coniah, who will be written childless as to sitting on David's throne.",
+      "years": "about 609 BC",
+      "yearNum": -609,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["judgment", "justice-and-mercy", "kingship"],
+      "characters": ["jeremiah", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 9, "speaker": "the-lord", "to": "jeremiah", "note": "Charge to execute judgment and righteousness" },
+        { "s": 10, "e": 30, "speaker": "the-lord", "to": "house-of-israel", "note": "Doom pronounced on Shallum, Jehoiakim, and Coniah" }
+      ]
+    },
+    {
+      "c": 23,
+      "title": "The Branch of Righteousness",
+      "synopsis": "The Lord condemns the shepherds who scatter his flock and the prophets who prophesy lies out of their own hearts, yet promises to raise up a righteous Branch, a King who will reign and execute judgment. He warns that a true prophet has his word like a fire and a hammer, unlike those who steal words from one another and call it a burden of the Lord.",
+      "years": "about 609 BC",
+      "yearNum": -609,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["messiah", "apostasy", "hope", "prophecy"],
+      "characters": ["jeremiah", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 8, "speaker": "the-lord", "to": "house-of-israel", "note": "False shepherds judged; the righteous Branch promised" },
+        { "s": 9, "e": 40, "speaker": "the-lord", "to": "house-of-israel", "note": "False prophets rebuked; the word like fire and hammer" }
+      ]
+    },
+    {
+      "c": 24,
+      "title": "Two Baskets of Figs",
+      "synopsis": "The Lord shows Jeremiah two baskets of figs before the temple, one good and one naught. The good figs represent the captives already carried to Babylon, whom the Lord will build up and give a heart to know him, while the naughty figs represent those left in Jerusalem, doomed to sword, famine, and pestilence.",
+      "years": "about 597 BC",
+      "yearNum": -597,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["exile", "hope", "judgment"],
+      "characters": ["jeremiah", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 10, "speaker": "the-lord", "to": "jeremiah", "note": "Good figs and naughty figs, a sign of exile" }
+      ]
+    },
+    {
+      "c": 25,
+      "title": "Seventy Years of Servitude",
+      "synopsis": "In the fourth year of Jehoiakim, Jeremiah reminds the people that for twenty-three years the Lord's warnings have gone unheeded, and now Nebuchadnezzar will bring the whole land into servitude for seventy years. The Lord then sends a cup of his fury for all the nations to drink, for he will plead with all flesh and give the wicked to the sword.",
+      "years": "about 605 BC",
+      "yearNum": -605,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["judgment", "prophecy", "exile"],
+      "characters": ["jeremiah", "the-lord", "nebuchadnezzar"],
+      "segments": [
+        { "s": 1, "e": 14, "speaker": "jeremiah", "to": "house-of-israel", "note": "Twenty-three years unheeded; seventy years of servitude" },
+        { "s": 15, "e": 38, "speaker": "the-lord", "to": "nations", "note": "The cup of fury given to all nations" }
+      ]
+    },
+    {
+      "c": 26,
+      "title": "Jeremiah on Trial for His Life",
+      "synopsis": "Standing in the temple court, Jeremiah warns that Jerusalem will become like Shiloh if the people will not obey, and priests and prophets seize him demanding death. Princes and elders recall how Micah once prophesied similarly without harm, and Jeremiah is spared, though the prophet Urijah who spoke likewise is put to death.",
+      "years": "about 609 BC",
+      "yearNum": -609,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["prophecy", "judgment", "endurance"],
+      "characters": ["jeremiah", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 6, "speaker": "the-lord", "to": "jeremiah", "note": "Command to warn or Jerusalem becomes as Shiloh" },
+        { "s": 7, "e": 24, "speaker": "jeremiah", "to": "reader", "note": "Jeremiah seized, tried, and spared" }
+      ]
+    },
+    {
+      "c": 27,
+      "title": "The Yoke of Babylon",
+      "synopsis": "The Lord has Jeremiah wear a wooden yoke and send word to the surrounding kings that all nations must serve Nebuchadnezzar or perish by sword and famine. False prophets promising a swift end to Babylon's dominion are exposed as liars, for the Lord's own vessels of the temple will only return when he appoints.",
+      "years": "about 594 BC",
+      "yearNum": -594,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["judgment", "prophecy", "obedience"],
+      "characters": ["jeremiah", "the-lord", "nebuchadnezzar"],
+      "segments": [
+        { "s": 1, "e": 11, "speaker": "the-lord", "to": "jeremiah", "note": "The sign of the yoke sent to the nations" },
+        { "s": 12, "e": 22, "speaker": "jeremiah", "to": "house-of-israel", "note": "Submit to Babylon; false prophets exposed" }
+      ]
+    },
+    {
+      "c": 28,
+      "title": "Hananiah Breaks the Yoke",
+      "synopsis": "The prophet Hananiah publicly breaks the wooden yoke from Jeremiah's neck, declaring that within two years the Lord will break Babylon's power and return the captives. Jeremiah answers that only the prophet whose word comes to pass is known as truly sent, and Hananiah dies that very year as Jeremiah foretold.",
+      "years": "about 594 BC",
+      "yearNum": -594,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["apostasy", "prophecy", "judgment"],
+      "characters": ["jeremiah", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 11, "speaker": "jeremiah", "to": "reader", "note": "Hananiah breaks the yoke and prophesies falsely" },
+        { "s": 12, "e": 17, "speaker": "the-lord", "to": "jeremiah", "note": "Yokes of iron; Hananiah's death foretold" }
+      ]
+    },
+    {
+      "c": 29,
+      "title": "Letter to the Exiles in Babylon",
+      "synopsis": "Jeremiah sends a letter to the elders and captives already carried to Babylon, urging them to build houses, plant gardens, and seek the peace of the city, for the Lord knows the thoughts he thinks toward them, thoughts of peace and an expected end after seventy years. He also condemns false prophets among the exiles, Ahab, Zedekiah, and Shemaiah, who deceive the people with lying visions.",
+      "years": "about 597 BC",
+      "yearNum": -597,
+      "approx": true,
+      "place": "babylon",
+      "themes": ["hope", "exile", "faith"],
+      "characters": ["jeremiah", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 14, "speaker": "the-lord", "to": "israelites", "note": "Build houses; I know the thoughts I think toward you" },
+        { "s": 15, "e": 32, "speaker": "the-lord", "to": "israelites", "note": "False prophets among the exiles condemned" }
+      ]
+    },
+    {
+      "c": 30,
+      "title": "The Book of Israel's Restoration",
+      "synopsis": "The Lord commands Jeremiah to write in a book the promise that Israel and Judah will be brought back from captivity to possess their own land again. Though the day of Jacob's trouble is terrible, he will be saved out of it, and David's seed shall serve the Lord their God as their true King.",
+      "years": "about 588 BC",
+      "yearNum": -588,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["hope", "gathering-of-israel", "records", "covenant"],
+      "characters": ["jeremiah", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 24, "speaker": "the-lord", "to": "house-of-israel", "note": "The book of Israel's future restoration" }
+      ]
+    },
+    {
+      "c": 31,
+      "title": "A New Covenant Written in the Heart",
+      "synopsis": "The Lord promises to build again the virgin of Israel, gathering the blind, lame, and weeping exiles from the north country with mercies like a father to a firstborn son. He declares a new covenant, unlike the one broken at Sinai, that he will write in their inward parts, so that all shall know him, from the least to the greatest.",
+      "years": "about 588 BC",
+      "yearNum": -588,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["covenant", "hope", "gathering-of-israel"],
+      "characters": ["jeremiah", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 22, "speaker": "the-lord", "to": "house-of-israel", "note": "The scattered gathered with weeping and mercy" },
+        { "s": 23, "e": 40, "speaker": "the-lord", "to": "house-of-israel", "note": "A new covenant written in their hearts" }
+      ]
+    },
+    {
+      "c": 32,
+      "title": "The Field Bought at Anathoth",
+      "synopsis": "While Jerusalem is under siege and Jeremiah shut up in prison, the Lord directs him to buy his cousin Hanameel's field at Anathoth as a sign that houses and fields will again be bought in the land. Jeremiah prays acknowledging nothing is too hard for the Lord, who answers that though the city will fall for its wickedness, he will surely gather his people again and plant them in this land in truth.",
+      "years": "about 588 BC",
+      "yearNum": -588,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["faith", "covenant", "hope"],
+      "characters": ["jeremiah", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 15, "speaker": "jeremiah", "to": "reader", "note": "Jeremiah buys the field of Anathoth" },
+        { "s": 16, "e": 25, "speaker": "jeremiah", "to": "the-lord", "note": "Nothing is too hard for thee" },
+        { "s": 26, "e": 44, "speaker": "the-lord", "to": "jeremiah", "note": "Judgment now, gathering and planting later" }
+      ]
+    },
+    {
+      "c": 33,
+      "title": "Cities Shall Yet Be Inhabited",
+      "synopsis": "Still in prison, Jeremiah hears the Lord promise to heal Jerusalem and reveal to her abundance of peace and truth, restoring the captivity of Judah and Israel and cleansing them from their iniquity. As surely as day and night keep their covenant order, the Lord's covenant with David's throne and the Levitical priesthood will not fail.",
+      "years": "about 588 BC",
+      "yearNum": -588,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["hope", "covenant", "priesthood"],
+      "characters": ["jeremiah", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 26, "speaker": "the-lord", "to": "jeremiah", "note": "Healing and restoration; the covenant sure as day and night" }
+      ]
+    },
+    {
+      "c": 34,
+      "title": "Zedekiah Warned; Bondmen Freed and Re-enslaved",
+      "synopsis": "The Lord tells Zedekiah he will see Nebuchadnezzar's face and die in peace despite Jerusalem's fall. The princes and people had covenanted to free their Hebrew slaves during the siege but afterward forced them back into bondage, so the Lord proclaims a liberty of sword, famine, and pestilence upon them instead.",
+      "years": "about 588 BC",
+      "yearNum": -588,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["covenant", "judgment", "justice-and-mercy"],
+      "characters": ["jeremiah", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 7, "speaker": "the-lord", "to": "jeremiah", "note": "Zedekiah's fate foretold" },
+        { "s": 8, "e": 22, "speaker": "the-lord", "to": "house-of-israel", "note": "Broken covenant of freed and re-enslaved servants" }
+      ]
+    },
+    {
+      "c": 35,
+      "title": "The Faithful Rechabites",
+      "synopsis": "Jeremiah brings the family of the Rechabites into the temple and offers them wine, but they refuse, keeping the ancient command of their father Jonadab to drink no wine and dwell in tents. The Lord holds up their obedience as a rebuke to Judah, who has ignored his repeated words, and promises the Rechabites shall never lack a man to stand before him.",
+      "years": "about 609 BC",
+      "yearNum": -609,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["obedience", "family", "faith"],
+      "characters": ["jeremiah", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 11, "speaker": "jeremiah", "to": "reader", "note": "The Rechabites refuse the wine" },
+        { "s": 12, "e": 19, "speaker": "the-lord", "to": "house-of-israel", "note": "Rechabite obedience contrasted with Judah's" }
+      ]
+    },
+    {
+      "c": 36,
+      "title": "The Scroll Read and Burned",
+      "synopsis": "Jeremiah dictates all the Lord's words to Baruch, who writes them on a scroll and reads them in the temple. When the scroll is read before King Jehoiakim, he cuts it apart with a penknife and casts it piece by piece into the fire, so the Lord commands Jeremiah to dictate it again with many similar words added.",
+      "years": "about 605 BC",
+      "yearNum": -605,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["records", "apostasy", "prophecy"],
+      "characters": ["jeremiah", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 8, "speaker": "the-lord", "to": "jeremiah", "note": "Command to write all the words on a scroll" },
+        { "s": 9, "e": 26, "speaker": "jeremiah", "to": "reader", "note": "Jehoiakim burns the scroll in the fire" },
+        { "s": 27, "e": 32, "speaker": "the-lord", "to": "jeremiah", "note": "The scroll rewritten with added words" }
+      ]
+    },
+    {
+      "c": 37,
+      "title": "Jeremiah Imprisoned",
+      "synopsis": "King Zedekiah sends secretly asking Jeremiah to pray for the people as Pharaoh's army causes the Chaldeans to withdraw briefly, but Jeremiah warns the Egyptians will fail and the Chaldeans will return. Attempting to leave the city, Jeremiah is seized as a deserter, beaten, and shut up in a dungeon house, though Zedekiah later has him moved to a lighter prison court.",
+      "years": "about 588 BC",
+      "yearNum": -588,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["prophecy", "endurance", "judgment"],
+      "characters": ["jeremiah", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 10, "speaker": "jeremiah", "to": "reader", "note": "Zedekiah's request; Egypt's help will fail" },
+        { "s": 11, "e": 21, "speaker": "jeremiah", "to": "reader", "note": "Jeremiah seized, beaten, and imprisoned" }
+      ]
+    },
+    {
+      "c": 38,
+      "title": "Cast into the Miry Pit",
+      "synopsis": "Princes accuse Jeremiah of weakening the defenders' hands and have him lowered into a muddy dungeon pit to die, but the Ethiopian Ebed-melech pleads with the king and draws him out with old rags and cords. Zedekiah secretly consults Jeremiah again, who urges surrender to Babylon to save the city and his own life, but the king fears his own people and does not obey.",
+      "years": "about 588 BC",
+      "yearNum": -588,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["endurance", "deliverance", "prophecy"],
+      "characters": ["jeremiah", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 13, "speaker": "jeremiah", "to": "reader", "note": "Cast into the pit; Ebed-melech rescues him" },
+        { "s": 14, "e": 28, "speaker": "jeremiah", "to": "reader", "note": "Zedekiah's secret counsel; the king's fear" }
+      ]
+    },
+    {
+      "c": 39,
+      "title": "The Fall of Jerusalem",
+      "synopsis": "In the eleventh year of Zedekiah, the Chaldeans break through Jerusalem's wall, and the fleeing king is captured near Jericho, his sons slain before his eyes before he himself is blinded and carried to Babylon. Nebuchadnezzar's captain shows kindness to Jeremiah, releasing him, while Ebed-melech is promised his life as a reward for trusting the Lord.",
+      "years": "about 586 BC",
+      "yearNum": -586,
+      "approx": false,
+      "place": "jerusalem",
+      "themes": ["judgment", "exile", "deliverance"],
+      "characters": ["jeremiah", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 10, "speaker": "jeremiah", "to": "reader", "note": "The city falls; Zedekiah captured and blinded" },
+        { "s": 11, "e": 18, "speaker": "jeremiah", "to": "reader", "note": "Jeremiah released; Ebed-melech promised deliverance" }
+      ]
+    },
+    {
+      "c": 40,
+      "title": "Jeremiah Remains in the Land",
+      "synopsis": "Freed from his chains at Ramah, Jeremiah chooses to remain in the land with Gedaliah, whom the king of Babylon has set as governor over the remnant. Gedaliah counsels the scattered captains to serve the Chaldeans and dwell safely, but Johanan warns him in vain of a plot against his life by Ishmael.",
+      "years": "about 586 BC",
+      "yearNum": -586,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["obedience", "leadership", "endurance"],
+      "characters": ["jeremiah"],
+      "segments": [
+        { "s": 1, "e": 6, "speaker": "jeremiah", "to": "reader", "note": "Jeremiah freed and remains with Gedaliah" },
+        { "s": 7, "e": 16, "speaker": "jeremiah", "to": "reader", "note": "Gedaliah governs; a plot against him is reported" }
+      ]
+    },
+    {
+      "c": 41,
+      "title": "Gedaliah Slain",
+      "synopsis": "Ishmael, of the royal seed, murders Gedaliah and many others at Mizpah, then casts their bodies into a pit and takes captive the remaining people. Johanan pursues and rescues the captives from Ishmael, who escapes to the Ammonites, and the remnant flees toward Egypt for fear of Chaldean reprisal.",
+      "years": "about 586 BC",
+      "yearNum": -586,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["judgment", "endurance"],
+      "characters": ["jeremiah"],
+      "segments": [
+        { "s": 1, "e": 18, "speaker": "jeremiah", "to": "reader", "note": "Gedaliah murdered; the remnant flees toward Egypt" }
+      ]
+    },
+    {
+      "c": 42,
+      "title": "Dwell Not in Egypt",
+      "synopsis": "Johanan and the remaining captains ask Jeremiah to inquire of the Lord whether to flee to Egypt, vowing to obey whatever answer comes. After ten days the Lord answers that if they remain in the land he will build them up, but if they go to Egypt the sword and famine they fear will overtake them there.",
+      "years": "about 586 BC",
+      "yearNum": -586,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["obedience", "prophecy", "faith"],
+      "characters": ["jeremiah", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 6, "speaker": "jeremiah", "to": "reader", "note": "The remnant asks Jeremiah to inquire of the Lord" },
+        { "s": 7, "e": 22, "speaker": "the-lord", "to": "israelites", "note": "Remain in the land; Egypt brings the feared judgment" }
+      ]
+    },
+    {
+      "c": 43,
+      "title": "Flight into Egypt",
+      "synopsis": "Refusing Jeremiah's counsel, Johanan and the proud men carry the remnant, along with Jeremiah and Baruch, down into Egypt to Tahpanhes. The Lord tells Jeremiah to hide stones before Pharaoh's house as a sign that Nebuchadnezzar will set his throne there and smite the land of Egypt.",
+      "years": "about 586 BC",
+      "yearNum": -586,
+      "approx": true,
+      "place": "egypt-goshen",
+      "themes": ["apostasy", "judgment", "prophecy"],
+      "characters": ["jeremiah", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 7, "speaker": "jeremiah", "to": "reader", "note": "The remnant defies counsel and flees to Egypt" },
+        { "s": 8, "e": 13, "speaker": "the-lord", "to": "jeremiah", "note": "Sign of stones; Nebuchadnezzar to smite Egypt" }
+      ]
+    },
+    {
+      "c": 44,
+      "title": "Judgment on the Refugees in Egypt",
+      "synopsis": "Jeremiah rebukes the Jews in Egypt for continuing to burn incense to the queen of heaven and other gods, provoking the same wrath that destroyed Jerusalem. The people defiantly answer that they fared better when they worshipped the queen of heaven, so the Lord vows that this remnant in Egypt will be consumed until none remain, save a small escaped few.",
+      "years": "about 585 BC",
+      "yearNum": -585,
+      "approx": true,
+      "place": "egypt-goshen",
+      "themes": ["apostasy", "judgment", "prophecy"],
+      "characters": ["jeremiah", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 14, "speaker": "the-lord", "to": "israelites", "note": "Rebuke for continued idolatry in Egypt" },
+        { "s": 15, "e": 30, "speaker": "jeremiah", "to": "israelites", "note": "The people's defiance; judgment renewed" }
+      ]
+    },
+    {
+      "c": 45,
+      "title": "A Word of Comfort to Baruch",
+      "synopsis": "When Baruch grieves over the sorrow added to his pain in writing Jeremiah's words of doom, the Lord tells him not to seek great things for himself amid the coming destruction. Yet his life will be given him as a prize wherever he goes, a promise of preservation amid judgment.",
+      "years": "about 605 BC",
+      "yearNum": -605,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["hope", "endurance", "faith"],
+      "characters": ["jeremiah", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 5, "speaker": "the-lord", "to": "jeremiah", "note": "Comfort and preservation promised to Baruch" }
+      ]
+    },
+    {
+      "c": 46,
+      "title": "Against Egypt at Carchemish",
+      "synopsis": "The Lord's word against Egypt describes Pharaoh-necho's army routed at Carchemish by the king of Babylon, fleeing in terror though armed and prepared. Yet after judgment falls, Jacob is promised he will again be at rest and quiet, none making him afraid.",
+      "years": "about 605 BC",
+      "yearNum": -605,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["judgment", "prophecy", "hope"],
+      "characters": ["jeremiah", "the-lord", "pharaoh", "nebuchadnezzar"],
+      "segments": [
+        { "s": 1, "e": 26, "speaker": "the-lord", "to": "nations", "note": "Egypt routed at Carchemish" },
+        { "s": 27, "e": 28, "speaker": "the-lord", "to": "house-of-israel", "note": "Jacob promised future rest" }
+      ]
+    },
+    {
+      "c": 47,
+      "title": "Against the Philistines",
+      "synopsis": "As waters rise out of the north like an overflowing flood, the Lord's word comes against the Philistines, foretelling the spoiling of Gaza and the cutting off of Tyre and Zidon's help. Fathers will have no strength to help their children in that day of desolation.",
+      "years": "about 605 BC",
+      "yearNum": -605,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["judgment", "prophecy"],
+      "characters": ["jeremiah", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 7, "speaker": "the-lord", "to": "nations", "note": "Flood from the north against the Philistines" }
+      ]
+    },
+    {
+      "c": 48,
+      "title": "The Judgment of Moab",
+      "synopsis": "The Lord pronounces extensive judgment on Moab, at ease from her youth and settled on her lees, now to be emptied from vessel to vessel and brought low for magnifying herself against the Lord. Yet even for Moab the Lord promises to bring again her captivity in the latter days.",
+      "years": "about 605 BC",
+      "yearNum": -605,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["judgment", "pride-cycle", "prophecy"],
+      "characters": ["jeremiah", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 44, "speaker": "the-lord", "to": "nations", "note": "Moab's pride brought low" },
+        { "s": 45, "e": 47, "speaker": "the-lord", "to": "nations", "note": "Moab's captivity to be reversed in the latter days" }
+      ]
+    },
+    {
+      "c": 49,
+      "title": "Judgments on Ammon, Edom, and Nations",
+      "synopsis": "The Lord pronounces judgment in turn on Ammon for occupying Gad's inheritance, on Edom for pride in the clefts of the rock, and on Damascus, Kedar, Hazor, and Elam for their false confidence. Yet even Ammon and Elam are promised a future restoration of their captivity.",
+      "years": "about 605 BC",
+      "yearNum": -605,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["judgment", "pride-cycle", "prophecy"],
+      "characters": ["jeremiah", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 22, "speaker": "the-lord", "to": "nations", "note": "Ammon and Edom judged for pride" },
+        { "s": 23, "e": 39, "speaker": "the-lord", "to": "nations", "note": "Damascus, Kedar, Hazor, and Elam judged" }
+      ]
+    },
+    {
+      "c": 50,
+      "title": "The Fall of Babylon Foretold",
+      "synopsis": "The Lord announces that Babylon, the golden cup that made all the earth drunken, will itself be taken and utterly destroyed by a nation out of the north, while Israel and Judah, lost sheep long led astray, will be sought and forgiven and return to Zion. Babylon's own idols and mighty men will fail her in the day the Lord repays her for what she did to his sanctuary.",
+      "years": "about 594 BC",
+      "yearNum": -594,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["judgment", "gathering-of-israel", "prophecy"],
+      "characters": ["jeremiah", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 20, "speaker": "the-lord", "to": "nations", "note": "Babylon's fall; Israel's sins forgiven" },
+        { "s": 21, "e": 46, "speaker": "the-lord", "to": "nations", "note": "The destroyer comes upon Babylon" }
+      ]
+    },
+    {
+      "c": 51,
+      "title": "Babylon's Utter Destruction",
+      "synopsis": "The Lord raises up a destroying wind against Babylon, the golden cup and hammer of the whole earth, now to be recompensed for all the blood shed in Zion. Jeremiah instructs that this prophecy be read in Babylon and then sunk with a stone in the Euphrates, a sign that Babylon shall sink and rise no more.",
+      "years": "about 594 BC",
+      "yearNum": -594,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["judgment", "prophecy", "records"],
+      "characters": ["jeremiah", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 44, "speaker": "the-lord", "to": "nations", "note": "Babylon recompensed for the blood of Zion" },
+        { "s": 45, "e": 64, "speaker": "jeremiah", "to": "reader", "note": "The scroll sunk in the Euphrates as a sign" }
+      ]
+    },
+    {
+      "c": 52,
+      "title": "Historical Appendix: The Fall of Jerusalem Retold",
+      "synopsis": "This closing appendix retells in careful detail the reign of Zedekiah, the siege and fall of Jerusalem, the burning of the temple, and the exile of the people to Babylon, with exact counts of those carried away in three deportations. It ends with Jehoiachin, long a captive, lifted up and given a place of honor at the Babylonian king's table.",
+      "years": "about 586 BC",
+      "yearNum": -586,
+      "approx": false,
+      "place": "jerusalem",
+      "themes": ["records", "judgment", "exile"],
+      "characters": ["jeremiah"],
+      "segments": [
+        { "s": 1, "e": 16, "speaker": "jeremiah", "to": "reader", "note": "Zedekiah's reign and the fall of the city" },
+        { "s": 17, "e": 30, "speaker": "jeremiah", "to": "reader", "note": "Temple vessels taken; the deportation counts" },
+        { "s": 31, "e": 34, "speaker": "jeremiah", "to": "reader", "note": "Jehoiachin lifted up in Babylon" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "book": "Galatians",
+  "slug": "galatians",
+  "narrator": "paul",
+  "plates": "pauline-epistles",
+  "chapters": [
+    {
+      "c": 1,
+      "title": "No Other Gospel",
+      "synopsis": "Paul marvels that the Galatians are so soon removed to another gospel, and pronounces that if any man or even an angel from heaven preach any other gospel, let him be accursed. He testifies that his gospel came not from man but by the revelation of Jesus Christ, recounting how God called him from persecuting the church to preach among the heathen.",
+      "years": "AD 50",
+      "yearNum": 50,
+      "approx": false,
+      "place": null,
+      "themes": ["revelation", "apostasy", "conversion"],
+      "characters": ["paul", "jesus-christ"],
+      "segments": [
+        { "s": 1, "e": 24, "speaker": "paul", "to": "church", "note": "One true gospel, received by revelation" }
+      ]
+    },
+    {
+      "c": 2,
+      "title": "Justified by Faith in Christ",
+      "synopsis": "Paul recounts going up to Jerusalem with Barnabas and Titus, where the pillar apostles gave him the right hand of fellowship to preach among the gentiles. He tells how he withstood Peter to the face at Antioch over withdrawing from gentile converts, declaring that a man is not justified by the works of the law but by the faith of Jesus Christ, for he is crucified with Christ, who lives in him.",
+      "years": "AD 50",
+      "yearNum": 50,
+      "approx": false,
+      "place": null,
+      "themes": ["grace", "faith", "leadership"],
+      "characters": ["paul", "peter", "barnabas", "james-just"],
+      "segments": [
+        { "s": 1, "e": 21, "speaker": "paul", "to": "church", "note": "Fellowship at Jerusalem; Peter withstood; justified by faith" }
+      ]
+    },
+    {
+      "c": 3,
+      "title": "The Law Our Schoolmaster",
+      "synopsis": "Paul asks the foolish Galatians who has bewitched them, since they received the Spirit by the hearing of faith and not by the works of the law. Abraham believed God and it was accounted to him for righteousness, so they which be of faith are blessed with faithful Abraham, while Christ has redeemed us from the curse of the law. The law was a schoolmaster to bring us unto Christ, and all who are baptized into Christ are Abraham's seed and heirs according to the promise.",
+      "years": "AD 50",
+      "yearNum": 50,
+      "approx": false,
+      "place": null,
+      "themes": ["faith", "law", "covenant"],
+      "characters": ["paul", "abraham", "jesus-christ"],
+      "segments": [
+        { "s": 1, "e": 29, "speaker": "paul", "to": "church", "note": "Faith of Abraham; the law a schoolmaster to Christ" }
+      ]
+    },
+    {
+      "c": 4,
+      "title": "Heirs Through Adoption",
+      "synopsis": "Paul teaches that in the fulness of time God sent forth his Son to redeem them that were under the law, that we might receive the adoption of sons, crying Abba, Father. He pleads with the Galatians, his little children of whom he travails in birth again until Christ be formed in them, and sets forth the allegory of Hagar and Sarah, the bondwoman and the freewoman, for the saints are children of promise and of the free.",
+      "years": "AD 50",
+      "yearNum": 50,
+      "approx": false,
+      "place": null,
+      "themes": ["grace", "covenant", "liberty"],
+      "characters": ["paul", "jesus-christ", "hagar", "sarah", "abraham"],
+      "segments": [
+        { "s": 1, "e": 31, "speaker": "paul", "to": "church", "note": "Adoption as sons; allegory of bondwoman and freewoman" }
+      ]
+    },
+    {
+      "c": 5,
+      "title": "The Fruit of the Spirit",
+      "synopsis": "Paul charges the saints to stand fast in the liberty wherewith Christ has made them free and not be entangled again with the yoke of bondage, for in Christ faith works by love. He lists the works of the flesh that bar men from the kingdom of God, and contrasts them with the fruit of the Spirit, which is love, joy, peace, longsuffering, gentleness, goodness, faith, meekness, and temperance.",
+      "years": "AD 50",
+      "yearNum": 50,
+      "approx": false,
+      "place": null,
+      "themes": ["liberty", "charity", "discipleship"],
+      "characters": ["paul"],
+      "segments": [
+        { "s": 1, "e": 26, "speaker": "paul", "to": "church", "note": "Stand fast in liberty; walk in the Spirit" }
+      ]
+    },
+    {
+      "c": 6,
+      "title": "Whatsoever a Man Soweth",
+      "synopsis": "Paul instructs the spiritual to restore a fault-taken brother in meekness and to bear one another's burdens, so fulfilling the law of Christ. God is not mocked, for whatsoever a man sows, that shall he also reap, so the saints should not be weary in well doing, for in due season they shall reap if they faint not. Paul glories in nothing save the cross of our Lord Jesus Christ.",
+      "years": "AD 50",
+      "yearNum": 50,
+      "approx": false,
+      "place": null,
+      "themes": ["charity", "endurance", "judgment"],
+      "characters": ["paul", "jesus-christ"],
+      "segments": [
+        { "s": 1, "e": 18, "speaker": "paul", "to": "church", "note": "Bear one another's burdens; reap what you sow" }
+      ]
+    }
+  ]
+}

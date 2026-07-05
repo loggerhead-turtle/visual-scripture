@@ -1,0 +1,3769 @@
+{
+  "book": "Psalms",
+  "slug": "psalms",
+  "narrator": "david",
+  "plates": "wisdom",
+  "chapters": [
+    {
+      "c": 1,
+      "title": "The Way of the Righteous",
+      "synopsis": "The blessed man delights in the law of the Lord and is like a tree planted by rivers of water, prospering in all he does. The wicked are like chaff the wind drives away, and the Lord knows the way of the righteous.",
+      "years": "c. 1000-400 BC",
+      "yearNum": -1000,
+      "approx": true,
+      "place": null,
+      "themes": [
+        "wisdom",
+        "obedience"
+      ],
+      "characters": [
+        "david"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 6,
+          "speaker": "psalmist",
+          "to": "reader",
+          "note": "Full psalm"
+        }
+      ]
+    },
+    {
+      "c": 2,
+      "title": "The Lord's Anointed King",
+      "synopsis": "The heathen rage and the kings of the earth take counsel against the Lord and his anointed, but he that sits in the heavens shall laugh. The Lord declares his Son as king in Zion and counsels the rulers of the earth to serve him with fear.",
+      "years": "c. 1000-400 BC",
+      "yearNum": -1000,
+      "approx": true,
+      "place": null,
+      "themes": [
+        "messiah",
+        "prophecy"
+      ],
+      "characters": [
+        "david"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 12,
+          "speaker": "psalmist",
+          "to": "reader",
+          "note": "Full psalm"
+        }
+      ]
+    },
+    {
+      "c": 3,
+      "title": "A Morning Prayer for Deliverance",
+      "synopsis": "David, fleeing from his son Absalom, cries to the Lord amid many enemies and lies down to sleep in peace, trusting the Lord to sustain him. He rises unafraid and calls on God to smite his foes and bless his people.",
+      "years": "c. 1000-400 BC",
+      "yearNum": -1000,
+      "approx": true,
+      "place": null,
+      "themes": [
+        "prayer",
+        "deliverance"
+      ],
+      "characters": [
+        "david"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 8,
+          "speaker": "david",
+          "to": "the-lord",
+          "note": "Full psalm"
+        }
+      ]
+    },
+    {
+      "c": 4,
+      "title": "Trust in the Lord's Peace",
+      "synopsis": "David calls on God to hear him and answer his distress, urging others to stand in awe and not sin. He testifies that the Lord has put gladness in his heart, and he lies down in peace and sleep.",
+      "years": "c. 1000-400 BC",
+      "yearNum": -1000,
+      "approx": true,
+      "place": null,
+      "themes": [
+        "prayer",
+        "faith"
+      ],
+      "characters": [
+        "david"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 8,
+          "speaker": "david",
+          "to": "the-lord",
+          "note": "Full psalm"
+        }
+      ]
+    },
+    {
+      "c": 5,
+      "title": "A Prayer at Dawn",
+      "synopsis": "David directs his prayer to the Lord each morning, asking to be led in righteousness because of his enemies. He rejoices that the Lord blesses the righteous and compasses them with favor.",
+      "years": "c. 1000-400 BC",
+      "yearNum": -1000,
+      "approx": true,
+      "place": null,
+      "themes": [
+        "prayer",
+        "deliverance"
+      ],
+      "characters": [
+        "david"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 12,
+          "speaker": "david",
+          "to": "the-lord",
+          "note": "Full psalm"
+        }
+      ]
+    },
+    {
+      "c": 6,
+      "title": "A Cry from Sickness and Sorrow",
+      "synopsis": "David, weak and weary with weeping, pleads for the Lord's mercy amid chastening and enemies. He declares the Lord has heard his supplication and his foes shall be ashamed.",
+      "years": "c. 1000-400 BC",
+      "yearNum": -1000,
+      "approx": true,
+      "place": null,
+      "themes": [
+        "prayer",
+        "repentance"
+      ],
+      "characters": [
+        "david"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 10,
+          "speaker": "david",
+          "to": "the-lord",
+          "note": "Full psalm"
+        }
+      ]
+    },
+    {
+      "c": 7,
+      "title": "Refuge from the Wicked",
+      "synopsis": "David appeals to the Lord to judge him and deliver him from those who persecute him, trusting God's righteous judgment. He warns that the wicked dig a pit and fall into it themselves.",
+      "years": "c. 1000-400 BC",
+      "yearNum": -1000,
+      "approx": true,
+      "place": null,
+      "themes": [
+        "justice-and-mercy",
+        "deliverance"
+      ],
+      "characters": [
+        "david"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 17,
+          "speaker": "david",
+          "to": "the-lord",
+          "note": "Full psalm"
+        }
+      ]
+    },
+    {
+      "c": 8,
+      "title": "O Lord, How Excellent Is Thy Name",
+      "synopsis": "David marvels at the glory of God displayed in the heavens and wonders that God is mindful of man, whom he made a little lower than the angels. Man is given dominion over the works of God's hands.",
+      "years": "c. 1000-400 BC",
+      "yearNum": -1000,
+      "approx": true,
+      "place": null,
+      "themes": [
+        "worship",
+        "creation"
+      ],
+      "characters": [
+        "david"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 9,
+          "speaker": "david",
+          "to": "the-lord",
+          "note": "Full psalm"
+        }
+      ]
+    },
+    {
+      "c": 9,
+      "title": "Praise for Righteous Judgment",
+      "synopsis": "David praises the Lord for judging the world in righteousness and being a refuge for the oppressed. He calls the nations to know that the Lord reigns and will not forget the needy.",
+      "years": "c. 1000-400 BC",
+      "yearNum": -1000,
+      "approx": true,
+      "place": null,
+      "themes": [
+        "worship",
+        "justice-and-mercy"
+      ],
+      "characters": [
+        "david"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 20,
+          "speaker": "david",
+          "to": "the-lord",
+          "note": "Full psalm"
+        }
+      ]
+    },
+    {
+      "c": 10,
+      "title": "A Plea Against the Wicked",
+      "synopsis": "David asks why the Lord stands afar off while the wicked in pride persecute the poor and boast there is no God. He pleads for the Lord to break the arm of the wicked and be king forever.",
+      "years": "c. 1000-400 BC",
+      "yearNum": -1000,
+      "approx": true,
+      "place": null,
+      "themes": [
+        "justice-and-mercy",
+        "prayer"
+      ],
+      "characters": [
+        "david"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 18,
+          "speaker": "david",
+          "to": "the-lord",
+          "note": "Full psalm"
+        }
+      ]
+    },
+    {
+      "c": 11,
+      "title": "The Lord Is in His Holy Temple",
+      "synopsis": "David trusts in the Lord rather than fleeing like a bird, for the Lord tries the righteous and hates the wicked. His countenance beholds the upright.",
+      "years": "c. 1000-400 BC",
+      "yearNum": -1000,
+      "approx": true,
+      "place": null,
+      "themes": [
+        "faith",
+        "justice-and-mercy"
+      ],
+      "characters": [
+        "david"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 7,
+          "speaker": "david",
+          "to": "reader",
+          "note": "Full psalm"
+        }
+      ]
+    },
+    {
+      "c": 12,
+      "title": "Help, Lord, for the Godly Cease",
+      "synopsis": "David laments that the faithful fail and flattering lips speak vanity among men. He trusts the pure words of the Lord to preserve the poor forever.",
+      "years": "c. 1000-400 BC",
+      "yearNum": -1000,
+      "approx": true,
+      "place": null,
+      "themes": [
+        "prayer",
+        "deliverance"
+      ],
+      "characters": [
+        "david"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 8,
+          "speaker": "david",
+          "to": "the-lord",
+          "note": "Full psalm"
+        }
+      ]
+    },
+    {
+      "c": 13,
+      "title": "How Long, O Lord?",
+      "synopsis": "David cries out asking how long the Lord will forget him and hide his face while sorrow fills his heart. He resolves to trust in God's mercy and rejoice in his salvation.",
+      "years": "c. 1000-400 BC",
+      "yearNum": -1000,
+      "approx": true,
+      "place": null,
+      "themes": [
+        "prayer",
+        "faith"
+      ],
+      "characters": [
+        "david"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 6,
+          "speaker": "david",
+          "to": "the-lord",
+          "note": "Full psalm"
+        }
+      ]
+    },
+    {
+      "c": 14,
+      "title": "The Fool Says There Is No God",
+      "synopsis": "David observes that the fool has said in his heart there is no God, and all have corrupted their ways, none doing good. He longs for salvation to come out of Zion.",
+      "years": "c. 1000-400 BC",
+      "yearNum": -1000,
+      "approx": true,
+      "place": null,
+      "themes": [
+        "wisdom",
+        "apostasy"
+      ],
+      "characters": [
+        "david"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 7,
+          "speaker": "david",
+          "to": "reader",
+          "note": "Full psalm"
+        }
+      ]
+    },
+    {
+      "c": 15,
+      "title": "Who Shall Abide in Thy Tabernacle",
+      "synopsis": "David asks who may dwell in the Lord's holy hill, answering that it is the one who walks uprightly, speaks truth, and keeps his word even to his own hurt.",
+      "years": "c. 1000-400 BC",
+      "yearNum": -1000,
+      "approx": true,
+      "place": null,
+      "themes": [
+        "obedience",
+        "wisdom"
+      ],
+      "characters": [
+        "david"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 5,
+          "speaker": "david",
+          "to": "the-lord",
+          "note": "Full psalm"
+        }
+      ]
+    },
+    {
+      "c": 16,
+      "title": "Thou Wilt Show Me the Path of Life",
+      "synopsis": "David preserves himself in God, delighting in the saints and rejecting other gods, and sets the Lord always before him. He trusts that his flesh shall rest in hope, for God will not leave his soul in the grave.",
+      "years": "c. 1000-400 BC",
+      "yearNum": -1000,
+      "approx": true,
+      "place": null,
+      "themes": [
+        "faith",
+        "resurrection",
+        "messiah"
+      ],
+      "characters": [
+        "david"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 11,
+          "speaker": "david",
+          "to": "the-lord",
+          "note": "Full psalm"
+        }
+      ]
+    },
+    {
+      "c": 17,
+      "title": "Keep Me as the Apple of the Eye",
+      "synopsis": "David pleads for justice, having tried his heart and found no wickedness in his purpose. He asks to be kept as the apple of the eye and hidden under the shadow of God's wings from the wicked who compass him.",
+      "years": "c. 1000-400 BC",
+      "yearNum": -1000,
+      "approx": true,
+      "place": null,
+      "themes": [
+        "prayer",
+        "deliverance"
+      ],
+      "characters": [
+        "david"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 15,
+          "speaker": "david",
+          "to": "the-lord",
+          "note": "Full psalm"
+        }
+      ]
+    },
+    {
+      "c": 18,
+      "title": "The Lord Is My Rock and Fortress",
+      "synopsis": "David praises the Lord for delivering him from Saul and all his enemies, describing God's power in vivid imagery of earthquake and storm. He declares the Lord his strength, his rock, and the horn of his salvation.",
+      "years": "c. 1000-400 BC",
+      "yearNum": -1000,
+      "approx": true,
+      "place": null,
+      "themes": [
+        "deliverance",
+        "worship"
+      ],
+      "characters": [
+        "david"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 50,
+          "speaker": "david",
+          "to": "the-lord",
+          "note": "Full psalm"
+        }
+      ]
+    },
+    {
+      "c": 19,
+      "title": "The Heavens Declare the Glory of God",
+      "synopsis": "The heavens declare God's glory and the firmament shows his handiwork, day unto day uttering speech. David praises the perfect law of the Lord and prays that the words of his mouth be acceptable in God's sight.",
+      "years": "c. 1000-400 BC",
+      "yearNum": -1000,
+      "approx": true,
+      "place": null,
+      "themes": [
+        "creation",
+        "worship",
+        "prayer"
+      ],
+      "characters": [
+        "david"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 14,
+          "speaker": "david",
+          "to": "the-lord",
+          "note": "Full psalm"
+        }
+      ]
+    },
+    {
+      "c": 20,
+      "title": "A Prayer for the King's Victory",
+      "synopsis": "The people pray that the Lord hear the king in the day of trouble and grant him the desire of his heart. Some trust in chariots and horses, but the faithful remember the name of the Lord their God.",
+      "years": "c. 1000-400 BC",
+      "yearNum": -1000,
+      "approx": true,
+      "place": null,
+      "themes": [
+        "prayer",
+        "war"
+      ],
+      "characters": [
+        "david"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 9,
+          "speaker": "psalmist",
+          "to": "the-lord",
+          "note": "Full psalm"
+        }
+      ]
+    },
+    {
+      "c": 21,
+      "title": "The King Shall Joy in Thy Strength",
+      "synopsis": "The king rejoices in the strength the Lord has given him, having received his heart's desire and length of days. David praises God's judgment against the king's enemies.",
+      "years": "c. 1000-400 BC",
+      "yearNum": -1000,
+      "approx": true,
+      "place": null,
+      "themes": [
+        "worship",
+        "kingship"
+      ],
+      "characters": [
+        "david"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 13,
+          "speaker": "david",
+          "to": "the-lord",
+          "note": "Full psalm"
+        }
+      ]
+    },
+    {
+      "c": 22,
+      "title": "My God, My God, Why Hast Thou Forsaken Me",
+      "synopsis": "David cries out in deep anguish, feeling forsaken though his fathers trusted and were delivered, describing suffering that foreshadows the crucifixion of the Messiah. The psalm turns to praise, declaring that all the ends of the world shall remember and turn to the Lord.",
+      "years": "c. 1000-400 BC",
+      "yearNum": -1000,
+      "approx": true,
+      "place": null,
+      "themes": [
+        "messiah",
+        "atonement",
+        "prayer"
+      ],
+      "characters": [
+        "david"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 31,
+          "speaker": "david",
+          "to": "the-lord",
+          "note": "Full psalm"
+        }
+      ]
+    },
+    {
+      "c": 23,
+      "title": "The Lord Is My Shepherd",
+      "synopsis": "David declares the Lord his shepherd who leads him beside still waters and restores his soul, and though he walks through the valley of the shadow of death he will fear no evil. Goodness and mercy shall follow him all his days.",
+      "years": "c. 1000-400 BC",
+      "yearNum": -1000,
+      "approx": true,
+      "place": null,
+      "themes": [
+        "faith",
+        "hope"
+      ],
+      "characters": [
+        "david"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 6,
+          "speaker": "david",
+          "to": "reader",
+          "note": "Full psalm"
+        }
+      ]
+    },
+    {
+      "c": 24,
+      "title": "The King of Glory Shall Come In",
+      "synopsis": "The earth is the Lord's and the fulness thereof, and David asks who shall ascend into the hill of the Lord: he that has clean hands and a pure heart. He calls the gates to lift up their heads that the King of glory may come in.",
+      "years": "c. 1000-400 BC",
+      "yearNum": -1000,
+      "approx": true,
+      "place": null,
+      "themes": [
+        "worship",
+        "messiah"
+      ],
+      "characters": [
+        "david"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 10,
+          "speaker": "david",
+          "to": "reader",
+          "note": "Full psalm"
+        }
+      ]
+    },
+    {
+      "c": 25,
+      "title": "Unto Thee, O Lord, Do I Lift Up My Soul",
+      "synopsis": "David lifts his soul to the Lord, asking to be taught his paths and remembered in mercy rather than the sins of his youth. He pleads for pardon of his iniquity, for it is great.",
+      "years": "c. 1000-400 BC",
+      "yearNum": -1000,
+      "approx": true,
+      "place": null,
+      "themes": [
+        "prayer",
+        "repentance"
+      ],
+      "characters": [
+        "david"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 22,
+          "speaker": "david",
+          "to": "the-lord",
+          "note": "Full psalm"
+        }
+      ]
+    },
+    {
+      "c": 26,
+      "title": "Judge Me, O Lord",
+      "synopsis": "David asks the Lord to examine and try his heart, for he has walked in integrity and avoided the company of the wicked. He loves the habitation of God's house and will bless the Lord in the congregations.",
+      "years": "c. 1000-400 BC",
+      "yearNum": -1000,
+      "approx": true,
+      "place": null,
+      "themes": [
+        "prayer",
+        "worship"
+      ],
+      "characters": [
+        "david"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 12,
+          "speaker": "david",
+          "to": "the-lord",
+          "note": "Full psalm"
+        }
+      ]
+    },
+    {
+      "c": 27,
+      "title": "The Lord Is My Light and Salvation",
+      "synopsis": "David declares the Lord his light and salvation, whom shall he fear, and desires one thing above all: to dwell in the house of the Lord. He waits on the Lord, encouraging his heart to be of good courage.",
+      "years": "c. 1000-400 BC",
+      "yearNum": -1000,
+      "approx": true,
+      "place": null,
+      "themes": [
+        "faith",
+        "worship"
+      ],
+      "characters": [
+        "david"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 14,
+          "speaker": "david",
+          "to": "reader",
+          "note": "Full psalm"
+        }
+      ]
+    },
+    {
+      "c": 28,
+      "title": "Unto Thee Will I Cry",
+      "synopsis": "David cries to the Lord not to be silent to him lest he become like those who go down to the pit, asking for reward according to the wicked deeds of evildoers. He blesses the Lord who has heard his supplications.",
+      "years": "c. 1000-400 BC",
+      "yearNum": -1000,
+      "approx": true,
+      "place": null,
+      "themes": [
+        "prayer",
+        "deliverance"
+      ],
+      "characters": [
+        "david"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 9,
+          "speaker": "david",
+          "to": "the-lord",
+          "note": "Full psalm"
+        }
+      ]
+    },
+    {
+      "c": 29,
+      "title": "The Voice of the Lord Is Powerful",
+      "synopsis": "David calls the mighty to ascribe glory to the Lord, whose voice is powerful over the waters, breaks the cedars, and shakes the wilderness. The Lord sits king forever and gives strength and peace to his people.",
+      "years": "c. 1000-400 BC",
+      "yearNum": -1000,
+      "approx": true,
+      "place": null,
+      "themes": [
+        "worship",
+        "creation"
+      ],
+      "characters": [
+        "david"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 11,
+          "speaker": "david",
+          "to": "reader",
+          "note": "Full psalm"
+        }
+      ]
+    },
+    {
+      "c": 30,
+      "title": "Weeping May Endure for a Night",
+      "synopsis": "David praises the Lord for lifting him up and healing him, for his anger endures but a moment while his favor is life. Weeping may endure for a night, but joy comes in the morning.",
+      "years": "c. 1000-400 BC",
+      "yearNum": -1000,
+      "approx": true,
+      "place": null,
+      "themes": [
+        "worship",
+        "deliverance"
+      ],
+      "characters": [
+        "david"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 12,
+          "speaker": "david",
+          "to": "the-lord",
+          "note": "Full psalm"
+        }
+      ]
+    },
+    {
+      "c": 31,
+      "title": "Into Thine Hand I Commit My Spirit",
+      "synopsis": "David trusts in the Lord for refuge, committing his spirit into God's hand, though he is in distress and his strength fails from grief. He praises the goodness laid up for those who trust the Lord and encourages all to be of good courage.",
+      "years": "c. 1000-400 BC",
+      "yearNum": -1000,
+      "approx": true,
+      "place": null,
+      "themes": [
+        "faith",
+        "prayer"
+      ],
+      "characters": [
+        "david"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 24,
+          "speaker": "david",
+          "to": "the-lord",
+          "note": "Full psalm"
+        }
+      ]
+    },
+    {
+      "c": 32,
+      "title": "Blessed Is He Whose Transgression Is Forgiven",
+      "synopsis": "David declares blessed the man whose sin is forgiven, recalling how his bones wasted away while he kept silent about his guilt. When he acknowledged his sin the Lord forgave him, and he counsels others to trust in the Lord's mercy.",
+      "years": "c. 1000-400 BC",
+      "yearNum": -1000,
+      "approx": true,
+      "place": null,
+      "themes": [
+        "repentance",
+        "atonement"
+      ],
+      "characters": [
+        "david"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 11,
+          "speaker": "david",
+          "to": "reader",
+          "note": "Full psalm"
+        }
+      ]
+    },
+    {
+      "c": 33,
+      "title": "Sing unto the Lord a New Song",
+      "synopsis": "David calls the righteous to sing praises to the Lord with instruments, for his word is right and his works are done in truth. The counsel of the Lord stands forever, and his eye is upon those who fear him.",
+      "years": "c. 1000-400 BC",
+      "yearNum": -1000,
+      "approx": true,
+      "place": null,
+      "themes": [
+        "worship",
+        "faith"
+      ],
+      "characters": [
+        "david"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 22,
+          "speaker": "david",
+          "to": "reader",
+          "note": "Full psalm"
+        }
+      ]
+    },
+    {
+      "c": 34,
+      "title": "O Taste and See That the Lord Is Good",
+      "synopsis": "David, having feigned madness before Abimelech, blesses the Lord at all times and invites others to taste and see that the Lord is good. The eyes of the Lord are on the righteous, and he is near the brokenhearted.",
+      "years": "c. 1000-400 BC",
+      "yearNum": -1000,
+      "approx": true,
+      "place": null,
+      "themes": [
+        "worship",
+        "deliverance"
+      ],
+      "characters": [
+        "david"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 22,
+          "speaker": "david",
+          "to": "reader",
+          "note": "Full psalm"
+        }
+      ]
+    },
+    {
+      "c": 35,
+      "title": "Plead My Cause, O Lord",
+      "synopsis": "David asks the Lord to fight against those who fight him without cause and to bring their evil devices to nought. He promises to give thanks in the great congregation when the Lord delivers him.",
+      "years": "c. 1000-400 BC",
+      "yearNum": -1000,
+      "approx": true,
+      "place": null,
+      "themes": [
+        "deliverance",
+        "justice-and-mercy"
+      ],
+      "characters": [
+        "david"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 28,
+          "speaker": "david",
+          "to": "the-lord",
+          "note": "Full psalm"
+        }
+      ]
+    },
+    {
+      "c": 36,
+      "title": "Thy Mercy Is in the Heavens",
+      "synopsis": "David observes that the wicked have no fear of God before their eyes, but the Lord's mercy reaches to the heavens and his righteousness like the great mountains. He prays to continue in God's lovingkindness.",
+      "years": "c. 1000-400 BC",
+      "yearNum": -1000,
+      "approx": true,
+      "place": null,
+      "themes": [
+        "justice-and-mercy",
+        "worship"
+      ],
+      "characters": [
+        "david"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 12,
+          "speaker": "david",
+          "to": "the-lord",
+          "note": "Full psalm"
+        }
+      ]
+    },
+    {
+      "c": 37,
+      "title": "Fret Not Thyself Because of Evildoers",
+      "synopsis": "David counsels not to fret over evildoers, for they shall soon be cut down, but to trust in the Lord and delight in him. The meek shall inherit the earth, and the steps of a good man are ordered by the Lord.",
+      "years": "c. 1000-400 BC",
+      "yearNum": -1000,
+      "approx": true,
+      "place": null,
+      "themes": [
+        "wisdom",
+        "faith"
+      ],
+      "characters": [
+        "david"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 40,
+          "speaker": "david",
+          "to": "reader",
+          "note": "Full psalm"
+        }
+      ]
+    },
+    {
+      "c": 38,
+      "title": "A Prayer in Sore Distress",
+      "synopsis": "David confesses his sin and describes his wounds and sorrow as chastening for his foolishness, while his enemies seek his hurt. He waits for the Lord to hear him and make haste to help him.",
+      "years": "c. 1000-400 BC",
+      "yearNum": -1000,
+      "approx": true,
+      "place": null,
+      "themes": [
+        "repentance",
+        "prayer"
+      ],
+      "characters": [
+        "david"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 22,
+          "speaker": "david",
+          "to": "the-lord",
+          "note": "Full psalm"
+        }
+      ]
+    },
+    {
+      "c": 39,
+      "title": "Lord, Make Me to Know Mine End",
+      "synopsis": "David reflects on the brevity of life, asking the Lord to show him his end and the measure of his days, for man's life is but a vapor. He prays for the Lord to hear his cry and spare him before he goes hence.",
+      "years": "c. 1000-400 BC",
+      "yearNum": -1000,
+      "approx": true,
+      "place": null,
+      "themes": [
+        "wisdom",
+        "prayer"
+      ],
+      "characters": [
+        "david"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 13,
+          "speaker": "david",
+          "to": "the-lord",
+          "note": "Full psalm"
+        }
+      ]
+    },
+    {
+      "c": 40,
+      "title": "He Brought Me Up Out of a Horrible Pit",
+      "synopsis": "David testifies that the Lord brought him up out of a pit and set his feet on a rock, putting a new song in his mouth, and that God delights in obedience above sacrifice. He calls on the Lord to make haste to help him in his poverty and need.",
+      "years": "c. 1000-400 BC",
+      "yearNum": -1000,
+      "approx": true,
+      "place": null,
+      "themes": [
+        "deliverance",
+        "obedience"
+      ],
+      "characters": [
+        "david"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 17,
+          "speaker": "david",
+          "to": "the-lord",
+          "note": "Full psalm"
+        }
+      ]
+    },
+    {
+      "c": 41,
+      "title": "Blessed Is He That Considers the Poor",
+      "synopsis": "David declares blessed the one who considers the poor, for the Lord will deliver him in trouble, while he laments that even his familiar friend has lifted up his heel against him. He asks the Lord to raise him up that he may repay his enemies.",
+      "years": "c. 1000-400 BC",
+      "yearNum": -1000,
+      "approx": true,
+      "place": null,
+      "themes": [
+        "charity",
+        "prayer"
+      ],
+      "characters": [
+        "david"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 13,
+          "speaker": "david",
+          "to": "the-lord",
+          "note": "Full psalm"
+        }
+      ]
+    },
+    {
+      "c": 42,
+      "title": "As the Hart Panteth After the Water Brooks",
+      "synopsis": "The psalmist's soul thirsts for God as the hart pants after the water brooks, remembering when he went with the multitude to the house of God. He questions why his soul is cast down and encourages himself to hope in God.",
+      "years": "c. 1000-400 BC",
+      "yearNum": -1000,
+      "approx": true,
+      "place": null,
+      "themes": [
+        "worship",
+        "hope"
+      ],
+      "characters": [
+        "david"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 11,
+          "speaker": "psalmist",
+          "to": "the-lord",
+          "note": "Full psalm"
+        }
+      ]
+    },
+    {
+      "c": 43,
+      "title": "Judge Me, O God",
+      "synopsis": "The psalmist asks God to judge his cause against an ungodly nation and to send his light and truth to lead him to the holy hill. He again questions his downcast soul and resolves to hope in God.",
+      "years": "c. 1000-400 BC",
+      "yearNum": -1000,
+      "approx": true,
+      "place": null,
+      "themes": [
+        "prayer",
+        "hope"
+      ],
+      "characters": [
+        "david"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 5,
+          "speaker": "psalmist",
+          "to": "the-lord",
+          "note": "Full psalm"
+        }
+      ]
+    },
+    {
+      "c": 44,
+      "title": "We Have Heard with Our Ears",
+      "synopsis": "The psalmist recalls how God gave the fathers the land by his own hand, not by their sword, yet now the people are scattered and reproached among the nations though they have not forgotten God. He pleads for God to arise and help for his mercies' sake.",
+      "years": "c. 1000-400 BC",
+      "yearNum": -1000,
+      "approx": true,
+      "place": null,
+      "themes": [
+        "prayer",
+        "deliverance"
+      ],
+      "characters": [
+        "david"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 26,
+          "speaker": "psalmist",
+          "to": "the-lord",
+          "note": "Full psalm"
+        }
+      ]
+    },
+    {
+      "c": 45,
+      "title": "A Song of the King's Marriage",
+      "synopsis": "The psalmist's heart overflows with a good matter concerning the king, describing his glory, righteousness, and throne forever, understood messianically. The king's bride is called to forget her own people and honor her lord.",
+      "years": "c. 1000-400 BC",
+      "yearNum": -1000,
+      "approx": true,
+      "place": null,
+      "themes": [
+        "messiah",
+        "kingship"
+      ],
+      "characters": [
+        "david"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 17,
+          "speaker": "psalmist",
+          "to": "reader",
+          "note": "Full psalm"
+        }
+      ]
+    },
+    {
+      "c": 46,
+      "title": "God Is Our Refuge and Strength",
+      "synopsis": "The psalmist declares God a very present help in trouble, so the earth need not fear though the mountains be moved. He calls all to be still and know that God is exalted among the nations.",
+      "years": "c. 1000-400 BC",
+      "yearNum": -1000,
+      "approx": true,
+      "place": null,
+      "themes": [
+        "faith",
+        "deliverance"
+      ],
+      "characters": [
+        "david"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 11,
+          "speaker": "psalmist",
+          "to": "reader",
+          "note": "Full psalm"
+        }
+      ]
+    },
+    {
+      "c": 47,
+      "title": "O Clap Your Hands, All Ye People",
+      "synopsis": "The psalmist calls all people to clap their hands and shout unto God with the voice of triumph, for the Lord is king over all the earth. God reigns over the heathen and sits upon the throne of his holiness.",
+      "years": "c. 1000-400 BC",
+      "yearNum": -1000,
+      "approx": true,
+      "place": null,
+      "themes": [
+        "worship",
+        "kingship"
+      ],
+      "characters": [
+        "david"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 9,
+          "speaker": "psalmist",
+          "to": "reader",
+          "note": "Full psalm"
+        }
+      ]
+    },
+    {
+      "c": 48,
+      "title": "Great Is the Lord in the City of Our God",
+      "synopsis": "The psalmist praises the Lord who is great in the city of God, whose beauty is the joy of the whole earth on the sides of the north. God has established Zion forever as a stronghold.",
+      "years": "c. 1000-400 BC",
+      "yearNum": -1000,
+      "approx": true,
+      "place": null,
+      "themes": [
+        "worship",
+        "zion"
+      ],
+      "characters": [
+        "david"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 14,
+          "speaker": "psalmist",
+          "to": "reader",
+          "note": "Full psalm"
+        }
+      ]
+    },
+    {
+      "c": 49,
+      "title": "Wisdom Concerning Riches and Death",
+      "synopsis": "The psalmist calls all peoples to hear wisdom, for no man can redeem his brother or give God a ransom to keep him from the grave. He warns not to fear when riches increase, for the rich fool perishes like the beasts, but God will redeem the soul from the grave.",
+      "years": "c. 1000-400 BC",
+      "yearNum": -1000,
+      "approx": true,
+      "place": null,
+      "themes": [
+        "wisdom",
+        "resurrection"
+      ],
+      "characters": [
+        "david"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 20,
+          "speaker": "psalmist",
+          "to": "reader",
+          "note": "Full psalm"
+        }
+      ]
+    },
+    {
+      "c": 50,
+      "title": "The Mighty God Hath Spoken",
+      "synopsis": "Asaph describes God calling the earth from the rising to the setting sun, gathering his saints who made covenant by sacrifice, and declaring he desires not bulls and goats but thanksgiving and true sacrifice. God rebukes the wicked who take his covenant in their mouth yet hate instruction.",
+      "years": "c. 1000-400 BC",
+      "yearNum": -1000,
+      "approx": true,
+      "place": null,
+      "themes": [
+        "judgment",
+        "sacrament"
+      ],
+      "characters": [
+        "asaph"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 23,
+          "speaker": "asaph",
+          "to": "israelites",
+          "note": "Full psalm"
+        }
+      ]
+    },
+    {
+      "c": 51,
+      "title": "Create in Me a Clean Heart",
+      "synopsis": "David, after Nathan's rebuke concerning Bathsheba, pleads for mercy and to be washed from his iniquity, confessing his sin is ever before him. He asks God to create in him a clean heart and renew a right spirit within him, for the sacrifices of God are a broken spirit.",
+      "years": "c. 1000-400 BC",
+      "yearNum": -1000,
+      "approx": true,
+      "place": null,
+      "themes": [
+        "repentance",
+        "atonement"
+      ],
+      "characters": [
+        "david"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 19,
+          "speaker": "david",
+          "to": "the-lord",
+          "note": "Full psalm"
+        }
+      ]
+    },
+    {
+      "c": 52,
+      "title": "Why Boastest Thou Thyself?",
+      "synopsis": "David rebukes the mighty man who boasts in mischief and loves evil more than good, for God shall destroy him and pluck him out of his dwelling place. David trusts in the mercy of God forever like a green olive tree.",
+      "years": "c. 1000-400 BC",
+      "yearNum": -1000,
+      "approx": true,
+      "place": null,
+      "themes": [
+        "justice-and-mercy",
+        "faith"
+      ],
+      "characters": [
+        "david"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 9,
+          "speaker": "david",
+          "to": "reader",
+          "note": "Full psalm"
+        }
+      ]
+    },
+    {
+      "c": 53,
+      "title": "The Fool Hath Said in His Heart",
+      "synopsis": "David again observes that the fool has said in his heart there is no God, and all are corrupt and have done abominable iniquity. He longs for salvation to come out of Zion for Israel.",
+      "years": "c. 1000-400 BC",
+      "yearNum": -1000,
+      "approx": true,
+      "place": null,
+      "themes": [
+        "apostasy",
+        "hope"
+      ],
+      "characters": [
+        "david"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 6,
+          "speaker": "david",
+          "to": "reader",
+          "note": "Full psalm"
+        }
+      ]
+    },
+    {
+      "c": 54,
+      "title": "Save Me, O God, by Thy Name",
+      "synopsis": "David, betrayed to Saul by the Ziphims, calls on God to save him by his name and judge him by his strength. He testifies God has delivered him out of all trouble.",
+      "years": "c. 1000-400 BC",
+      "yearNum": -1000,
+      "approx": true,
+      "place": null,
+      "themes": [
+        "prayer",
+        "deliverance"
+      ],
+      "characters": [
+        "david"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 7,
+          "speaker": "david",
+          "to": "the-lord",
+          "note": "Full psalm"
+        }
+      ]
+    },
+    {
+      "c": 55,
+      "title": "Oh That I Had Wings Like a Dove",
+      "synopsis": "David, wounded by the treachery of a familiar friend, wishes for wings like a dove to fly away and be at rest from the violence in the city. He casts his burden upon the Lord, who shall sustain him and never suffer the righteous to be moved.",
+      "years": "c. 1000-400 BC",
+      "yearNum": -1000,
+      "approx": true,
+      "place": null,
+      "themes": [
+        "prayer",
+        "deliverance"
+      ],
+      "characters": [
+        "david"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 23,
+          "speaker": "david",
+          "to": "the-lord",
+          "note": "Full psalm"
+        }
+      ]
+    },
+    {
+      "c": 56,
+      "title": "What Time I Am Afraid, I Will Trust in Thee",
+      "synopsis": "David, seized by the Philistines at Gath, declares that when he is afraid he will trust in God, in whose word he will not fear what flesh can do. He vows to render thanks for deliverance from death and from falling.",
+      "years": "c. 1000-400 BC",
+      "yearNum": -1000,
+      "approx": true,
+      "place": null,
+      "themes": [
+        "faith",
+        "deliverance"
+      ],
+      "characters": [
+        "david"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 13,
+          "speaker": "david",
+          "to": "the-lord",
+          "note": "Full psalm"
+        }
+      ]
+    },
+    {
+      "c": 57,
+      "title": "My Heart Is Fixed, O God",
+      "synopsis": "David, hiding in a cave from Saul, cries for mercy under the shadow of God's wings until calamities pass, though his enemies dig a pit for him. His heart is fixed to sing praises, for God's mercy is great unto the heavens.",
+      "years": "c. 1000-400 BC",
+      "yearNum": -1000,
+      "approx": true,
+      "place": null,
+      "themes": [
+        "faith",
+        "worship"
+      ],
+      "characters": [
+        "david"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 11,
+          "speaker": "david",
+          "to": "the-lord",
+          "note": "Full psalm"
+        }
+      ]
+    },
+    {
+      "c": 58,
+      "title": "Do Ye Judge Uprightly, O Congregation?",
+      "synopsis": "David rebukes unjust judges whose hearts work wickedness, comparing the wicked to venomous serpents that will not be charmed. He declares the righteous shall rejoice when they see the vengeance of God upon the wicked.",
+      "years": "c. 1000-400 BC",
+      "yearNum": -1000,
+      "approx": true,
+      "place": null,
+      "themes": [
+        "justice-and-mercy"
+      ],
+      "characters": [
+        "david"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 11,
+          "speaker": "david",
+          "to": "reader",
+          "note": "Full psalm"
+        }
+      ]
+    },
+    {
+      "c": 59,
+      "title": "Deliver Me from Mine Enemies",
+      "synopsis": "David, while Saul watched his house to kill him, prays for deliverance from bloody men who howl like dogs about the city. He will sing of God's power and mercy, his defense and refuge in trouble.",
+      "years": "c. 1000-400 BC",
+      "yearNum": -1000,
+      "approx": true,
+      "place": null,
+      "themes": [
+        "prayer",
+        "deliverance"
+      ],
+      "characters": [
+        "david"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 17,
+          "speaker": "david",
+          "to": "the-lord",
+          "note": "Full psalm"
+        }
+      ]
+    },
+    {
+      "c": 60,
+      "title": "O God, Thou Hast Cast Us Off",
+      "synopsis": "David laments a time of defeat when God seemed to cast off his people, yet recalls God's promise to divide Shechem and possess Edom. He asks for help against the enemy, for vain is the help of man.",
+      "years": "c. 1000-400 BC",
+      "yearNum": -1000,
+      "approx": true,
+      "place": null,
+      "themes": [
+        "prayer",
+        "war"
+      ],
+      "characters": [
+        "david"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 12,
+          "speaker": "david",
+          "to": "the-lord",
+          "note": "Full psalm"
+        }
+      ]
+    },
+    {
+      "c": 61,
+      "title": "Lead Me to the Rock That Is Higher Than I",
+      "synopsis": "David, from the end of the earth, cries for God to lead him to the rock that is higher than he, for God has been his refuge and strong tower. He prays to abide in God's tabernacle forever and trust in his mercy.",
+      "years": "c. 1000-400 BC",
+      "yearNum": -1000,
+      "approx": true,
+      "place": null,
+      "themes": [
+        "prayer",
+        "faith"
+      ],
+      "characters": [
+        "david"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 8,
+          "speaker": "david",
+          "to": "the-lord",
+          "note": "Full psalm"
+        }
+      ]
+    },
+    {
+      "c": 62,
+      "title": "Truly My Soul Waiteth Upon God",
+      "synopsis": "David declares his soul waits only upon God, his rock and salvation, that he shall not be greatly moved. He counsels the people to trust in God at all times and not trust in oppression or riches.",
+      "years": "c. 1000-400 BC",
+      "yearNum": -1000,
+      "approx": true,
+      "place": null,
+      "themes": [
+        "faith",
+        "wisdom"
+      ],
+      "characters": [
+        "david"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 12,
+          "speaker": "david",
+          "to": "reader",
+          "note": "Full psalm"
+        }
+      ]
+    },
+    {
+      "c": 63,
+      "title": "My Soul Thirsteth for Thee",
+      "synopsis": "David, in the wilderness of Judah, thirsts for God as in a dry and thirsty land, remembering him upon his bed and meditating in the night watches. His soul follows hard after God, whose lovingkindness is better than life.",
+      "years": "c. 1000-400 BC",
+      "yearNum": -1000,
+      "approx": true,
+      "place": null,
+      "themes": [
+        "worship",
+        "faith"
+      ],
+      "characters": [
+        "david"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 11,
+          "speaker": "david",
+          "to": "the-lord",
+          "note": "Full psalm"
+        }
+      ]
+    },
+    {
+      "c": 64,
+      "title": "Hear My Voice, O God, in My Complaint",
+      "synopsis": "David asks God to hide him from the secret plots of the wicked who shoot bitter words and encourage themselves in evil. He testifies that God shall shoot at them and all men shall fear and declare his work.",
+      "years": "c. 1000-400 BC",
+      "yearNum": -1000,
+      "approx": true,
+      "place": null,
+      "themes": [
+        "prayer",
+        "deliverance"
+      ],
+      "characters": [
+        "david"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 10,
+          "speaker": "david",
+          "to": "the-lord",
+          "note": "Full psalm"
+        }
+      ]
+    },
+    {
+      "c": 65,
+      "title": "Praise Waiteth for Thee in Zion",
+      "synopsis": "David praises God who hears prayer and forgives transgressions, blessing the one he chooses to approach him. God waters the earth, crowns the year with goodness, and the valleys shout for joy.",
+      "years": "c. 1000-400 BC",
+      "yearNum": -1000,
+      "approx": true,
+      "place": null,
+      "themes": [
+        "worship",
+        "creation"
+      ],
+      "characters": [
+        "david"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 13,
+          "speaker": "david",
+          "to": "the-lord",
+          "note": "Full psalm"
+        }
+      ]
+    },
+    {
+      "c": 66,
+      "title": "Make a Joyful Noise unto God",
+      "synopsis": "The psalmist calls all the earth to make a joyful noise to God and come see his terrible works, who turned the sea into dry land for Israel to pass through. He testifies God has heard his prayer and not turned away his mercy.",
+      "years": "c. 1000-400 BC",
+      "yearNum": -1000,
+      "approx": true,
+      "place": null,
+      "themes": [
+        "worship",
+        "deliverance"
+      ],
+      "characters": [
+        "david"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 20,
+          "speaker": "psalmist",
+          "to": "reader",
+          "note": "Full psalm"
+        }
+      ]
+    },
+    {
+      "c": 67,
+      "title": "God Be Merciful unto Us, and Bless Us",
+      "synopsis": "The psalmist prays that God be merciful and bless his people so that his way may be known upon earth and his saving health among all nations. He calls the peoples to praise God, for he shall judge the world in righteousness.",
+      "years": "c. 1000-400 BC",
+      "yearNum": -1000,
+      "approx": true,
+      "place": null,
+      "themes": [
+        "worship",
+        "gathering-of-israel"
+      ],
+      "characters": [
+        "david"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 7,
+          "speaker": "psalmist",
+          "to": "the-lord",
+          "note": "Full psalm"
+        }
+      ]
+    },
+    {
+      "c": 68,
+      "title": "Let God Arise, Let His Enemies Be Scattered",
+      "synopsis": "David calls for God to arise and scatter his enemies as smoke is driven away, while the righteous rejoice exceedingly before him, a father of the fatherless and judge of the widows. He praises the God of Israel who gives strength and power unto his people.",
+      "years": "c. 1000-400 BC",
+      "yearNum": -1000,
+      "approx": true,
+      "place": null,
+      "themes": [
+        "worship",
+        "deliverance"
+      ],
+      "characters": [
+        "david"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 35,
+          "speaker": "david",
+          "to": "reader",
+          "note": "Full psalm"
+        }
+      ]
+    },
+    {
+      "c": 69,
+      "title": "Save Me, O God, for the Waters Are Come In",
+      "synopsis": "David cries out sinking in deep waters, reproached for God's sake, his throat dried with crying, foreshadowing the sufferings given to the Messiah such as vinegar to drink. He prays for deliverance and promises to praise God's name with thanksgiving.",
+      "years": "c. 1000-400 BC",
+      "yearNum": -1000,
+      "approx": true,
+      "place": null,
+      "themes": [
+        "messiah",
+        "prayer",
+        "atonement"
+      ],
+      "characters": [
+        "david"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 36,
+          "speaker": "david",
+          "to": "the-lord",
+          "note": "Full psalm"
+        }
+      ]
+    },
+    {
+      "c": 70,
+      "title": "Make Haste, O God, to Deliver Me",
+      "synopsis": "David cries for God to make haste to deliver him from those who seek his hurt, while praying that all who seek God rejoice and be glad. He pleads that God tarry not, for he is poor and needy.",
+      "years": "c. 1000-400 BC",
+      "yearNum": -1000,
+      "approx": true,
+      "place": null,
+      "themes": [
+        "prayer",
+        "deliverance"
+      ],
+      "characters": [
+        "david"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 5,
+          "speaker": "david",
+          "to": "the-lord",
+          "note": "Full psalm"
+        }
+      ]
+    },
+    {
+      "c": 71,
+      "title": "In Thee, O Lord, Do I Put My Trust",
+      "synopsis": "The aged psalmist trusts in the Lord who has been his hope from his youth and asks not to be forsaken now in old age when his strength fails. He vows to praise God's righteousness and show his strength to another generation.",
+      "years": "c. 1000-400 BC",
+      "yearNum": -1000,
+      "approx": true,
+      "place": null,
+      "themes": [
+        "faith",
+        "hope"
+      ],
+      "characters": [
+        "david"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 24,
+          "speaker": "psalmist",
+          "to": "the-lord",
+          "note": "Full psalm"
+        }
+      ]
+    },
+    {
+      "c": 72,
+      "title": "A Prayer for the King's Reign",
+      "synopsis": "Solomon prays that the king judge the people in righteousness and the poor with justice, that he have dominion from sea to sea and all nations serve him, understood messianically. The prayer closes David's psalms, declaring blessed be the Lord God of Israel.",
+      "years": "c. 1000-400 BC",
+      "yearNum": -1000,
+      "approx": true,
+      "place": null,
+      "themes": [
+        "kingship",
+        "messiah"
+      ],
+      "characters": [
+        "david"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 20,
+          "speaker": "psalmist",
+          "to": "the-lord",
+          "note": "Full psalm"
+        }
+      ]
+    },
+    {
+      "c": 73,
+      "title": "Truly God Is Good to Israel",
+      "synopsis": "Asaph confesses he nearly stumbled seeing the prosperity of the wicked, until he went into the sanctuary of God and understood their end. He declares it good for him to draw near to God, who is the strength of his heart forever.",
+      "years": "c. 1000-400 BC",
+      "yearNum": -1000,
+      "approx": true,
+      "place": null,
+      "themes": [
+        "wisdom",
+        "faith"
+      ],
+      "characters": [
+        "asaph"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 28,
+          "speaker": "asaph",
+          "to": "reader",
+          "note": "Full psalm"
+        }
+      ]
+    },
+    {
+      "c": 74,
+      "title": "O God, Why Hast Thou Cast Us Off Forever?",
+      "synopsis": "Asaph laments the destruction of the sanctuary by enemies who have burned up the synagogues and cast fire into the sanctuary. He pleads for God to remember his congregation and arise to plead his own cause.",
+      "years": "c. 1000-400 BC",
+      "yearNum": -1000,
+      "approx": true,
+      "place": null,
+      "themes": [
+        "prayer",
+        "judgment"
+      ],
+      "characters": [
+        "asaph"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 23,
+          "speaker": "asaph",
+          "to": "the-lord",
+          "note": "Full psalm"
+        }
+      ]
+    },
+    {
+      "c": 75,
+      "title": "Unto Thee, O God, Do We Give Thanks",
+      "synopsis": "Asaph gives thanks for God's wondrous works, declaring that promotion comes neither from the east nor west but God is judge, putting down one and lifting up another. He will lift up the horns of the righteous while the horns of the wicked are cut off.",
+      "years": "c. 1000-400 BC",
+      "yearNum": -1000,
+      "approx": true,
+      "place": null,
+      "themes": [
+        "worship",
+        "justice-and-mercy"
+      ],
+      "characters": [
+        "asaph"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 10,
+          "speaker": "asaph",
+          "to": "the-lord",
+          "note": "Full psalm"
+        }
+      ]
+    },
+    {
+      "c": 76,
+      "title": "In Judah Is God Known",
+      "synopsis": "Asaph declares God known in Judah, his tabernacle in Zion, where he broke the arrows and shield and sword of battle. The earth feared and was still when God arose to judgment to save the meek of the earth.",
+      "years": "c. 1000-400 BC",
+      "yearNum": -1000,
+      "approx": true,
+      "place": null,
+      "themes": [
+        "worship",
+        "deliverance"
+      ],
+      "characters": [
+        "asaph"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 12,
+          "speaker": "asaph",
+          "to": "reader",
+          "note": "Full psalm"
+        }
+      ]
+    },
+    {
+      "c": 77,
+      "title": "I Cried unto God with My Voice",
+      "synopsis": "Asaph cries to God in the day of his trouble, his soul refusing comfort, and questions whether God's mercy is clean gone forever. He resolves to remember the works of the Lord, who led his people like a flock by the hand of Moses and Aaron.",
+      "years": "c. 1000-400 BC",
+      "yearNum": -1000,
+      "approx": true,
+      "place": null,
+      "themes": [
+        "prayer",
+        "faith"
+      ],
+      "characters": [
+        "asaph"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 20,
+          "speaker": "asaph",
+          "to": "the-lord",
+          "note": "Full psalm"
+        }
+      ]
+    },
+    {
+      "c": 78,
+      "title": "Give Ear, O My People, to My Law",
+      "synopsis": "Asaph recounts Israel's history from Egypt through the wilderness, recalling God's wonders and the people's forgetfulness and rebellion despite his mercy. He tells how God chose Judah and David his servant to feed Jacob and Israel.",
+      "years": "c. 1000-400 BC",
+      "yearNum": -1000,
+      "approx": true,
+      "place": null,
+      "themes": [
+        "records",
+        "apostasy",
+        "gathering-of-israel"
+      ],
+      "characters": [
+        "asaph",
+        "moses",
+        "david"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 72,
+          "speaker": "asaph",
+          "to": "israelites",
+          "note": "Full psalm"
+        }
+      ]
+    },
+    {
+      "c": 79,
+      "title": "O God, the Heathen Are Come into Thine Inheritance",
+      "synopsis": "Asaph laments that the heathen have defiled the temple and made Jerusalem heaps, and Israel's blood has been shed like water. He pleads for God's help for his name's sake and to be avenged of their reproach.",
+      "years": "c. 1000-400 BC",
+      "yearNum": -1000,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": [
+        "prayer",
+        "judgment"
+      ],
+      "characters": [
+        "asaph"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 13,
+          "speaker": "asaph",
+          "to": "the-lord",
+          "note": "Full psalm"
+        }
+      ]
+    },
+    {
+      "c": 80,
+      "title": "Turn Us Again, O God",
+      "synopsis": "Asaph, as shepherd of Israel, prays God to shine forth and cause his face to shine that they might be saved, for God has fed his people with the bread of tears. He likens Israel to a vine brought out of Egypt now broken down, pleading for the man of God's right hand.",
+      "years": "c. 1000-400 BC",
+      "yearNum": -1000,
+      "approx": true,
+      "place": null,
+      "themes": [
+        "prayer",
+        "deliverance"
+      ],
+      "characters": [
+        "asaph"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 19,
+          "speaker": "asaph",
+          "to": "the-lord",
+          "note": "Full psalm"
+        }
+      ]
+    },
+    {
+      "c": 81,
+      "title": "Sing Aloud unto God Our Strength",
+      "synopsis": "Asaph calls Israel to sing aloud and blow the trumpet at the feast, recalling how God delivered them from the burden of Egypt. God laments that Israel would not hearken to his voice and walked in their own counsels.",
+      "years": "c. 1000-400 BC",
+      "yearNum": -1000,
+      "approx": true,
+      "place": null,
+      "themes": [
+        "worship",
+        "obedience"
+      ],
+      "characters": [
+        "asaph"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 16,
+          "speaker": "asaph",
+          "to": "israelites",
+          "note": "Full psalm"
+        }
+      ]
+    },
+    {
+      "c": 82,
+      "title": "God Standeth in the Congregation of the Mighty",
+      "synopsis": "Asaph declares God stands among the judges, rebuking them for judging unjustly and accepting the persons of the wicked, defending not the poor and fatherless. He calls on God to arise and judge the earth, for he shall inherit all nations.",
+      "years": "c. 1000-400 BC",
+      "yearNum": -1000,
+      "approx": true,
+      "place": null,
+      "themes": [
+        "justice-and-mercy",
+        "judgment"
+      ],
+      "characters": [
+        "asaph"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 8,
+          "speaker": "asaph",
+          "to": "reader",
+          "note": "Full psalm"
+        }
+      ]
+    },
+    {
+      "c": 83,
+      "title": "Keep Not Thou Silence, O God",
+      "synopsis": "Asaph pleads for God not to keep silence while enemies conspire against his people, naming the confederate nations that hate Israel. He asks God to make them as chaff before the wind, that men may know the Lord alone is Most High over all the earth.",
+      "years": "c. 1000-400 BC",
+      "yearNum": -1000,
+      "approx": true,
+      "place": null,
+      "themes": [
+        "prayer",
+        "deliverance"
+      ],
+      "characters": [
+        "asaph"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 18,
+          "speaker": "asaph",
+          "to": "the-lord",
+          "note": "Full psalm"
+        }
+      ]
+    },
+    {
+      "c": 84,
+      "title": "How Amiable Are Thy Tabernacles",
+      "synopsis": "The psalmist's soul longs and faints for the courts of the Lord, envying even the sparrow that finds a nest by his altars. He declares a day in God's courts better than a thousand elsewhere, for the Lord is a sun and shield.",
+      "years": "c. 1000-400 BC",
+      "yearNum": -1000,
+      "approx": true,
+      "place": null,
+      "themes": [
+        "worship",
+        "temple"
+      ],
+      "characters": [
+        "david"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 12,
+          "speaker": "psalmist",
+          "to": "the-lord",
+          "note": "Full psalm"
+        }
+      ]
+    },
+    {
+      "c": 85,
+      "title": "Lord, Thou Hast Been Favourable to Thy Land",
+      "synopsis": "The psalmist recalls God's past favor in bringing back captivity and forgiving iniquity, and prays for revival that God's anger may cease. He foresees mercy and truth meeting together, righteousness and peace kissing each other.",
+      "years": "c. 1000-400 BC",
+      "yearNum": -1000,
+      "approx": true,
+      "place": null,
+      "themes": [
+        "prayer",
+        "hope"
+      ],
+      "characters": [
+        "david"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 13,
+          "speaker": "psalmist",
+          "to": "the-lord",
+          "note": "Full psalm"
+        }
+      ]
+    },
+    {
+      "c": 86,
+      "title": "Bow Down Thine Ear, O Lord",
+      "synopsis": "David prays for God to preserve his soul, for he is holy and needy, and to teach him God's way that he may walk in truth. He praises God as great, doing wondrous things, and abundant in mercy to all who call upon him.",
+      "years": "c. 1000-400 BC",
+      "yearNum": -1000,
+      "approx": true,
+      "place": null,
+      "themes": [
+        "prayer",
+        "faith"
+      ],
+      "characters": [
+        "david"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 17,
+          "speaker": "david",
+          "to": "the-lord",
+          "note": "Full psalm"
+        }
+      ]
+    },
+    {
+      "c": 87,
+      "title": "Glorious Things Are Spoken of Thee, O Zion",
+      "synopsis": "The psalmist declares glorious things spoken of the city of God, whose foundation is in the holy mountains, more loved than all the dwellings of Jacob. Nations shall be recorded as born in Zion, for all his springs are there.",
+      "years": "c. 1000-400 BC",
+      "yearNum": -1000,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": [
+        "zion",
+        "gathering-of-israel"
+      ],
+      "characters": [
+        "david"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 7,
+          "speaker": "psalmist",
+          "to": "reader",
+          "note": "Full psalm"
+        }
+      ]
+    },
+    {
+      "c": 88,
+      "title": "My Life Draweth Nigh unto the Grave",
+      "synopsis": "Heman the Ezrahite cries day and night before God, feeling free among the dead and cast off, afflicted from his youth and cut off from God's hand. He asks why God casts off his soul and hides his face in a psalm of unrelieved sorrow.",
+      "years": "c. 1000-400 BC",
+      "yearNum": -1000,
+      "approx": true,
+      "place": null,
+      "themes": [
+        "prayer",
+        "deliverance"
+      ],
+      "characters": [
+        "david"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 18,
+          "speaker": "psalmist",
+          "to": "the-lord",
+          "note": "Full psalm"
+        }
+      ]
+    },
+    {
+      "c": 89,
+      "title": "I Will Sing of the Mercies of the Lord",
+      "synopsis": "Ethan the Ezrahite sings of God's mercies and the covenant made with David that his seed shall endure forever and his throne as the days of heaven. He then laments that God seems to have cast off and abhorred his anointed, pleading for remembrance of his covenant mercy.",
+      "years": "c. 1000-400 BC",
+      "yearNum": -1000,
+      "approx": true,
+      "place": null,
+      "themes": [
+        "covenant",
+        "kingship",
+        "messiah"
+      ],
+      "characters": [
+        "david"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 52,
+          "speaker": "psalmist",
+          "to": "the-lord",
+          "note": "Full psalm"
+        }
+      ]
+    },
+    {
+      "c": 90,
+      "title": "Lord, Thou Hast Been Our Dwelling Place",
+      "synopsis": "Moses declares the Lord has been the dwelling place of his people in all generations, before the mountains were brought forth, from everlasting to everlasting. He asks God to teach them to number their days and let his beauty be upon them.",
+      "years": "c. 1000-400 BC",
+      "yearNum": -1000,
+      "approx": true,
+      "place": null,
+      "themes": [
+        "wisdom",
+        "prayer"
+      ],
+      "characters": [
+        "moses"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 17,
+          "speaker": "psalmist",
+          "to": "the-lord",
+          "note": "Full psalm"
+        }
+      ]
+    },
+    {
+      "c": 91,
+      "title": "He That Dwelleth in the Secret Place",
+      "synopsis": "The psalmist declares that he who dwells in the secret place of the Most High abides under the shadow of the Almighty, safe from terror, pestilence, and the arrow that flies by day. God promises deliverance and long life to the one who sets his love upon him.",
+      "years": "c. 1000-400 BC",
+      "yearNum": -1000,
+      "approx": true,
+      "place": null,
+      "themes": [
+        "faith",
+        "deliverance"
+      ],
+      "characters": [
+        "david"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 16,
+          "speaker": "psalmist",
+          "to": "reader",
+          "note": "Full psalm"
+        }
+      ]
+    },
+    {
+      "c": 92,
+      "title": "It Is a Good Thing to Give Thanks unto the Lord",
+      "synopsis": "The psalmist declares it good to give thanks unto the Lord and sing praises upon instruments, for the Lord's works are great and his thoughts very deep. The righteous shall flourish like the palm tree and bring forth fruit in old age.",
+      "years": "c. 1000-400 BC",
+      "yearNum": -1000,
+      "approx": true,
+      "place": null,
+      "themes": [
+        "worship",
+        "obedience"
+      ],
+      "characters": [
+        "david"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 15,
+          "speaker": "psalmist",
+          "to": "reader",
+          "note": "Full psalm"
+        }
+      ]
+    },
+    {
+      "c": 93,
+      "title": "The Lord Reigneth",
+      "synopsis": "The psalmist declares the Lord reigns, clothed with majesty and strength, the world established that it cannot be moved. The floods have lifted up their voice, but the Lord on high is mightier than the noise of many waters.",
+      "years": "c. 1000-400 BC",
+      "yearNum": -1000,
+      "approx": true,
+      "place": null,
+      "themes": [
+        "worship",
+        "kingship"
+      ],
+      "characters": [
+        "david"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 5,
+          "speaker": "psalmist",
+          "to": "reader",
+          "note": "Full psalm"
+        }
+      ]
+    },
+    {
+      "c": 94,
+      "title": "O Lord God, to Whom Vengeance Belongeth",
+      "synopsis": "The psalmist calls on the God of vengeance to shine forth and render a reward to the proud who slay the widow and the stranger. He testifies the Lord will not cast off his people and is his defense and rock of refuge.",
+      "years": "c. 1000-400 BC",
+      "yearNum": -1000,
+      "approx": true,
+      "place": null,
+      "themes": [
+        "justice-and-mercy",
+        "prayer"
+      ],
+      "characters": [
+        "david"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 23,
+          "speaker": "psalmist",
+          "to": "the-lord",
+          "note": "Full psalm"
+        }
+      ]
+    },
+    {
+      "c": 95,
+      "title": "O Come, Let Us Sing unto the Lord",
+      "synopsis": "The psalmist calls all to come before the Lord with thanksgiving and worship him, for he is a great King above all gods and the maker of the sea and dry land. He warns not to harden the heart as in the provocation when the fathers tempted God in the wilderness.",
+      "years": "c. 1000-400 BC",
+      "yearNum": -1000,
+      "approx": true,
+      "place": null,
+      "themes": [
+        "worship",
+        "obedience"
+      ],
+      "characters": [
+        "david"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 11,
+          "speaker": "psalmist",
+          "to": "reader",
+          "note": "Full psalm"
+        }
+      ]
+    },
+    {
+      "c": 96,
+      "title": "O Sing unto the Lord a New Song",
+      "synopsis": "The psalmist calls all the earth to sing a new song to the Lord and declare his glory among the heathen, for the Lord made the heavens and is to be feared above all gods. He calls the fields to rejoice, for the Lord comes to judge the earth in righteousness.",
+      "years": "c. 1000-400 BC",
+      "yearNum": -1000,
+      "approx": true,
+      "place": null,
+      "themes": [
+        "worship",
+        "gathering-of-israel"
+      ],
+      "characters": [
+        "david"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 13,
+          "speaker": "psalmist",
+          "to": "reader",
+          "note": "Full psalm"
+        }
+      ]
+    },
+    {
+      "c": 97,
+      "title": "The Lord Reigneth; Let the Earth Rejoice",
+      "synopsis": "The psalmist declares the Lord reigns and the earth rejoices, clouds and darkness round about him, fire going before him to consume his enemies. The hills melt like wax, and light is sown for the righteous.",
+      "years": "c. 1000-400 BC",
+      "yearNum": -1000,
+      "approx": true,
+      "place": null,
+      "themes": [
+        "worship",
+        "kingship"
+      ],
+      "characters": [
+        "david"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 12,
+          "speaker": "psalmist",
+          "to": "reader",
+          "note": "Full psalm"
+        }
+      ]
+    },
+    {
+      "c": 98,
+      "title": "O Sing unto the Lord a New Song",
+      "synopsis": "The psalmist calls for a new song, for the Lord has done marvellous things and made known his salvation in the sight of the heathen. He calls the sea to roar and the floods to clap their hands before the Lord who comes to judge the earth.",
+      "years": "c. 1000-400 BC",
+      "yearNum": -1000,
+      "approx": true,
+      "place": null,
+      "themes": [
+        "worship",
+        "deliverance"
+      ],
+      "characters": [
+        "david"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 9,
+          "speaker": "psalmist",
+          "to": "reader",
+          "note": "Full psalm"
+        }
+      ]
+    },
+    {
+      "c": 99,
+      "title": "The Lord Reigneth; Let the People Tremble",
+      "synopsis": "The psalmist declares the Lord reigns and is holy, exalted in Zion above all people, a lover of judgment who executes justice in Jacob. He recalls Moses, Aaron, and Samuel who called upon the Lord and were answered.",
+      "years": "c. 1000-400 BC",
+      "yearNum": -1000,
+      "approx": true,
+      "place": null,
+      "themes": [
+        "worship",
+        "justice-and-mercy"
+      ],
+      "characters": [
+        "moses",
+        "aaron",
+        "samuel"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 9,
+          "speaker": "psalmist",
+          "to": "reader",
+          "note": "Full psalm"
+        }
+      ]
+    },
+    {
+      "c": 100,
+      "title": "Enter His Gates with Thanksgiving",
+      "synopsis": "The psalmist calls all lands to make a joyful noise unto the Lord and serve him with gladness, knowing that the Lord he is God who made us. He invites all to enter his gates with thanksgiving and his courts with praise, for the Lord is good and his mercy everlasting.",
+      "years": "c. 1000-400 BC",
+      "yearNum": -1000,
+      "approx": true,
+      "place": null,
+      "themes": [
+        "worship"
+      ],
+      "characters": [
+        "david"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 5,
+          "speaker": "psalmist",
+          "to": "reader",
+          "note": "Full psalm"
+        }
+      ]
+    },
+    {
+      "c": 101,
+      "title": "I Will Sing of Mercy and Judgment",
+      "synopsis": "David resolves to sing of mercy and judgment and behave wisely in a perfect way, setting no wicked thing before his eyes. He will not tolerate the proud in his house nor a worker of deceit, but early destroy the wicked from the city of the Lord.",
+      "years": "c. 1000-400 BC",
+      "yearNum": -1000,
+      "approx": true,
+      "place": null,
+      "themes": [
+        "obedience",
+        "leadership"
+      ],
+      "characters": [
+        "david"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 8,
+          "speaker": "david",
+          "to": "the-lord",
+          "note": "Full psalm"
+        }
+      ]
+    },
+    {
+      "c": 102,
+      "title": "Hear My Prayer, O Lord",
+      "synopsis": "The afflicted psalmist pours out his complaint before the Lord, his days consumed like smoke and his heart withered like grass, yet trusts the Lord shall arise and have mercy upon Zion. He contrasts his own fading days with the Lord's years that have no end, foreshadowing the Lord's eternal nature.",
+      "years": "c. 1000-400 BC",
+      "yearNum": -1000,
+      "approx": true,
+      "place": null,
+      "themes": [
+        "prayer",
+        "messiah"
+      ],
+      "characters": [
+        "david"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 28,
+          "speaker": "psalmist",
+          "to": "the-lord",
+          "note": "Full psalm"
+        }
+      ]
+    },
+    {
+      "c": 103,
+      "title": "Bless the Lord, O My Soul",
+      "synopsis": "David calls his soul to bless the Lord and forget not all his benefits, who forgives iniquities, heals diseases, and crowns him with lovingkindness. He declares the Lord's mercy is from everlasting to everlasting upon those who fear him, for man's days are as grass.",
+      "years": "c. 1000-400 BC",
+      "yearNum": -1000,
+      "approx": true,
+      "place": null,
+      "themes": [
+        "worship",
+        "atonement"
+      ],
+      "characters": [
+        "david"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 22,
+          "speaker": "david",
+          "to": "reader",
+          "note": "Full psalm"
+        }
+      ]
+    },
+    {
+      "c": 104,
+      "title": "Bless the Lord, O My Soul, Who Coverest Thyself with Light",
+      "synopsis": "The psalmist praises the Lord who stretches out the heavens like a curtain and lays the foundations of the earth, appointing the moon for seasons and the sun for its going down. He marvels at the manifold works of the Lord, in wisdom made, and resolves to sing praise to God while he has his being.",
+      "years": "c. 1000-400 BC",
+      "yearNum": -1000,
+      "approx": true,
+      "place": null,
+      "themes": [
+        "creation",
+        "worship"
+      ],
+      "characters": [
+        "david"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 35,
+          "speaker": "psalmist",
+          "to": "reader",
+          "note": "Full psalm"
+        }
+      ]
+    },
+    {
+      "c": 105,
+      "title": "O Give Thanks unto the Lord",
+      "synopsis": "The psalmist calls Israel to give thanks and remember the covenant made with Abraham, Isaac, and Jacob, and recounts the story of Joseph in Egypt and the exodus under Moses and Aaron. God led his people out with joy that they might observe his statutes.",
+      "years": "c. 1000-400 BC",
+      "yearNum": -1000,
+      "approx": true,
+      "place": null,
+      "themes": [
+        "records",
+        "covenant"
+      ],
+      "characters": [
+        "abraham",
+        "isaac",
+        "jacob-israel",
+        "joseph-egypt",
+        "moses",
+        "aaron"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 45,
+          "speaker": "psalmist",
+          "to": "israelites",
+          "note": "Full psalm"
+        }
+      ]
+    },
+    {
+      "c": 106,
+      "title": "Praise Ye the Lord",
+      "synopsis": "The psalmist praises the Lord and confesses Israel's repeated rebellions from Egypt through the wilderness and the promised land, provoking God despite his mercy. He pleads for God to save and gather his scattered people that they may give thanks to his holy name.",
+      "years": "c. 1000-400 BC",
+      "yearNum": -1000,
+      "approx": true,
+      "place": null,
+      "themes": [
+        "repentance",
+        "gathering-of-israel"
+      ],
+      "characters": [
+        "moses"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 48,
+          "speaker": "psalmist",
+          "to": "the-lord",
+          "note": "Full psalm"
+        }
+      ]
+    },
+    {
+      "c": 107,
+      "title": "O Give Thanks unto the Lord, for He Is Good",
+      "synopsis": "The psalmist calls the redeemed to give thanks for the Lord's goodness, describing wanderers, prisoners, the sick, and sailors in storms all crying to the Lord and being delivered. He declares the Lord turns the wilderness into pools of water and blesses the needy.",
+      "years": "c. 1000-400 BC",
+      "yearNum": -1000,
+      "approx": true,
+      "place": null,
+      "themes": [
+        "deliverance",
+        "worship"
+      ],
+      "characters": [
+        "david"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 43,
+          "speaker": "psalmist",
+          "to": "reader",
+          "note": "Full psalm"
+        }
+      ]
+    },
+    {
+      "c": 108,
+      "title": "O God, My Heart Is Fixed",
+      "synopsis": "David declares his heart fixed to sing and give thanks among the nations, for God's mercy is great above the heavens. He asks for help against the enemy, for through God Israel shall do valiantly.",
+      "years": "c. 1000-400 BC",
+      "yearNum": -1000,
+      "approx": true,
+      "place": null,
+      "themes": [
+        "worship",
+        "war"
+      ],
+      "characters": [
+        "david"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 13,
+          "speaker": "david",
+          "to": "the-lord",
+          "note": "Full psalm"
+        }
+      ]
+    },
+    {
+      "c": 109,
+      "title": "Hold Not Thy Peace, O God of My Praise",
+      "synopsis": "David pleads against those who reward him evil for good and hate him for his love, asking judgment upon his adversary. He trusts the Lord will stand at the right hand of the poor to save him from unjust condemnation.",
+      "years": "c. 1000-400 BC",
+      "yearNum": -1000,
+      "approx": true,
+      "place": null,
+      "themes": [
+        "justice-and-mercy",
+        "prayer"
+      ],
+      "characters": [
+        "david"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 31,
+          "speaker": "david",
+          "to": "the-lord",
+          "note": "Full psalm"
+        }
+      ]
+    },
+    {
+      "c": 110,
+      "title": "The Lord Said unto My Lord",
+      "synopsis": "David prophesies that the Lord said unto his Lord, sit at my right hand until I make thine enemies thy footstool, understood as the Messiah's exaltation. The Lord is declared a priest forever after the order of Melchizedek.",
+      "years": "c. 1000-400 BC",
+      "yearNum": -1000,
+      "approx": true,
+      "place": null,
+      "themes": [
+        "messiah",
+        "priesthood"
+      ],
+      "characters": [
+        "melchizedek"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 7,
+          "speaker": "david",
+          "to": "reader",
+          "note": "Full psalm"
+        }
+      ]
+    },
+    {
+      "c": 111,
+      "title": "Praise Ye the Lord",
+      "synopsis": "The psalmist praises the Lord with the whole heart in the assembly of the upright, whose works are great and sought out by all who have pleasure in them. He declares the fear of the Lord the beginning of wisdom.",
+      "years": "c. 1000-400 BC",
+      "yearNum": -1000,
+      "approx": true,
+      "place": null,
+      "themes": [
+        "worship",
+        "wisdom"
+      ],
+      "characters": [
+        "david"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 10,
+          "speaker": "psalmist",
+          "to": "reader",
+          "note": "Full psalm"
+        }
+      ]
+    },
+    {
+      "c": 112,
+      "title": "Blessed Is the Man That Feareth the Lord",
+      "synopsis": "The psalmist declares blessed the man who fears the Lord and delights greatly in his commandments, whose seed shall be mighty upon earth. The righteous is gracious, lends, and will not be afraid of evil tidings, his heart being fixed trusting in the Lord.",
+      "years": "c. 1000-400 BC",
+      "yearNum": -1000,
+      "approx": true,
+      "place": null,
+      "themes": [
+        "obedience",
+        "wisdom"
+      ],
+      "characters": [
+        "david"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 10,
+          "speaker": "psalmist",
+          "to": "reader",
+          "note": "Full psalm"
+        }
+      ]
+    },
+    {
+      "c": 113,
+      "title": "Praise the Name of the Lord",
+      "synopsis": "The psalmist calls the servants of the Lord to praise his name from the rising of the sun to its going down, for the Lord is high above all nations. He raises the poor out of the dust and makes the barren woman a joyful mother of children.",
+      "years": "c. 1000-400 BC",
+      "yearNum": -1000,
+      "approx": true,
+      "place": null,
+      "themes": [
+        "worship"
+      ],
+      "characters": [
+        "david"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 9,
+          "speaker": "psalmist",
+          "to": "reader",
+          "note": "Full psalm"
+        }
+      ]
+    },
+    {
+      "c": 114,
+      "title": "When Israel Went Out of Egypt",
+      "synopsis": "The psalmist recalls when Israel went out of Egypt, the sea saw it and fled, and Jordan was driven back, the mountains skipping like rams. He calls the earth to tremble at the presence of the Lord who turned the rock into a standing water.",
+      "years": "c. 1000-400 BC",
+      "yearNum": -1000,
+      "approx": true,
+      "place": null,
+      "themes": [
+        "deliverance",
+        "records"
+      ],
+      "characters": [
+        "david"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 8,
+          "speaker": "psalmist",
+          "to": "reader",
+          "note": "Full psalm"
+        }
+      ]
+    },
+    {
+      "c": 115,
+      "title": "Not unto Us, O Lord, but unto Thy Name Give Glory",
+      "synopsis": "The psalmist gives glory not to Israel but to the Lord's name, mocking the idols of the heathen which have mouths but speak not, eyes but see not. He calls Israel, the house of Aaron, and all who fear the Lord to trust in him, their help and shield.",
+      "years": "c. 1000-400 BC",
+      "yearNum": -1000,
+      "approx": true,
+      "place": null,
+      "themes": [
+        "worship",
+        "apostasy"
+      ],
+      "characters": [
+        "aaron"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 18,
+          "speaker": "psalmist",
+          "to": "israelites",
+          "note": "Full psalm"
+        }
+      ]
+    },
+    {
+      "c": 116,
+      "title": "I Love the Lord, Because He Hath Heard My Voice",
+      "synopsis": "The psalmist loves the Lord for hearing his voice and supplications, having been brought low with sorrow and the pains of death, yet the Lord delivered his soul. He resolves to take the cup of salvation and pay his vows in the presence of all the people.",
+      "years": "c. 1000-400 BC",
+      "yearNum": -1000,
+      "approx": true,
+      "place": null,
+      "themes": [
+        "worship",
+        "deliverance"
+      ],
+      "characters": [
+        "david"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 19,
+          "speaker": "psalmist",
+          "to": "the-lord",
+          "note": "Full psalm"
+        }
+      ]
+    },
+    {
+      "c": 117,
+      "title": "Praise the Lord, All Ye Nations",
+      "synopsis": "The psalmist, in the shortest chapter of scripture, calls all nations and peoples to praise the Lord, for his merciful kindness is great toward us and his truth endures forever.",
+      "years": "c. 1000-400 BC",
+      "yearNum": -1000,
+      "approx": true,
+      "place": null,
+      "themes": [
+        "worship",
+        "gathering-of-israel"
+      ],
+      "characters": [
+        "david"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 2,
+          "speaker": "psalmist",
+          "to": "reader",
+          "note": "Full psalm"
+        }
+      ]
+    },
+    {
+      "c": 118,
+      "title": "The Stone Which the Builders Refused",
+      "synopsis": "The psalmist gives thanks that the Lord's mercy endures forever and that he is on his side, surrounded once by enemies like bees but the Lord became his strength and salvation. He declares the stone the builders refused has become the head of the corner, understood as the Messiah, and blesses him that comes in the name of the Lord.",
+      "years": "c. 1000-400 BC",
+      "yearNum": -1000,
+      "approx": true,
+      "place": null,
+      "themes": [
+        "messiah",
+        "worship"
+      ],
+      "characters": [
+        "david"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 29,
+          "speaker": "psalmist",
+          "to": "reader",
+          "note": "Full psalm"
+        }
+      ]
+    },
+    {
+      "c": 119,
+      "title": "Thy Word Have I Hid in Mine Heart",
+      "synopsis": "The psalmist, in the longest chapter of scripture, exalts God's law, testimonies, and precepts through an alphabetic acrostic, declaring he has hid God's word in his heart that he might not sin against him. He affirms the Lord's word is a lamp unto his feet and a light unto his path.",
+      "years": "c. 1000-400 BC",
+      "yearNum": -1000,
+      "approx": true,
+      "place": null,
+      "themes": [
+        "obedience",
+        "wisdom"
+      ],
+      "characters": [
+        "david"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 176,
+          "speaker": "psalmist",
+          "to": "the-lord",
+          "note": "Full psalm"
+        }
+      ]
+    },
+    {
+      "c": 120,
+      "title": "In My Distress I Cried unto the Lord",
+      "synopsis": "The psalmist, dwelling among those who hate peace, cried to the Lord for deliverance from lying lips and a deceitful tongue. He laments dwelling with those who are for war though he speaks of peace.",
+      "years": "c. 1000-400 BC",
+      "yearNum": -1000,
+      "approx": true,
+      "place": null,
+      "themes": [
+        "prayer",
+        "peace"
+      ],
+      "characters": [
+        "david"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 7,
+          "speaker": "psalmist",
+          "to": "the-lord",
+          "note": "Full psalm"
+        }
+      ]
+    },
+    {
+      "c": 121,
+      "title": "I Will Lift Up Mine Eyes unto the Hills",
+      "synopsis": "The psalmist lifts his eyes to the hills, asking whence comes his help, and answers that his help comes from the Lord who made heaven and earth. The Lord will not suffer his foot to be moved and shall preserve his going out and coming in forever.",
+      "years": "c. 1000-400 BC",
+      "yearNum": -1000,
+      "approx": true,
+      "place": null,
+      "themes": [
+        "faith",
+        "deliverance"
+      ],
+      "characters": [
+        "david"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 8,
+          "speaker": "psalmist",
+          "to": "reader",
+          "note": "Full psalm"
+        }
+      ]
+    },
+    {
+      "c": 122,
+      "title": "I Was Glad When They Said unto Me, Let Us Go",
+      "synopsis": "The psalmist rejoices to go up to the house of the Lord in Jerusalem, where the tribes go up to give thanks unto the name of the Lord. He prays for the peace of Jerusalem and the prosperity of those who love her.",
+      "years": "c. 1000-400 BC",
+      "yearNum": -1000,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": [
+        "worship",
+        "peace"
+      ],
+      "characters": [
+        "david"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 9,
+          "speaker": "psalmist",
+          "to": "reader",
+          "note": "Full psalm"
+        }
+      ]
+    },
+    {
+      "c": 123,
+      "title": "Unto Thee Lift I Up Mine Eyes",
+      "synopsis": "The psalmist lifts his eyes unto the Lord who dwells in the heavens, as the eyes of servants look to their master's hand. He pleads for mercy, for the people are exceedingly filled with contempt from the proud.",
+      "years": "c. 1000-400 BC",
+      "yearNum": -1000,
+      "approx": true,
+      "place": null,
+      "themes": [
+        "prayer",
+        "humility"
+      ],
+      "characters": [
+        "david"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 4,
+          "speaker": "psalmist",
+          "to": "the-lord",
+          "note": "Full psalm"
+        }
+      ]
+    },
+    {
+      "c": 124,
+      "title": "If It Had Not Been the Lord Who Was on Our Side",
+      "synopsis": "The psalmist declares that if the Lord had not been on Israel's side when men rose against them, they would have been swallowed up quick in their wrath. Blessed be the Lord who has not given them as a prey to their enemies' teeth.",
+      "years": "c. 1000-400 BC",
+      "yearNum": -1000,
+      "approx": true,
+      "place": null,
+      "themes": [
+        "deliverance",
+        "worship"
+      ],
+      "characters": [
+        "david"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 8,
+          "speaker": "psalmist",
+          "to": "israelites",
+          "note": "Full psalm"
+        }
+      ]
+    },
+    {
+      "c": 125,
+      "title": "They That Trust in the Lord Shall Be as Mount Zion",
+      "synopsis": "The psalmist declares those who trust in the Lord shall be as Mount Zion, which cannot be removed but abides forever, as mountains surround Jerusalem. He asks the Lord to do good to the upright and lead away the workers of iniquity.",
+      "years": "c. 1000-400 BC",
+      "yearNum": -1000,
+      "approx": true,
+      "place": null,
+      "themes": [
+        "faith",
+        "zion"
+      ],
+      "characters": [
+        "david"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 5,
+          "speaker": "psalmist",
+          "to": "reader",
+          "note": "Full psalm"
+        }
+      ]
+    },
+    {
+      "c": 126,
+      "title": "When the Lord Turned Again the Captivity of Zion",
+      "synopsis": "The psalmist recalls the joy when the Lord turned again the captivity of Zion, their mouths filled with laughter, and the heathen said the Lord had done great things for them. He declares those who sow in tears shall reap in joy.",
+      "years": "c. 1000-400 BC",
+      "yearNum": -1000,
+      "approx": true,
+      "place": null,
+      "themes": [
+        "deliverance",
+        "hope",
+        "gathering-of-israel"
+      ],
+      "characters": [
+        "david"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 6,
+          "speaker": "psalmist",
+          "to": "reader",
+          "note": "Full psalm"
+        }
+      ]
+    },
+    {
+      "c": 127,
+      "title": "Except the Lord Build the House",
+      "synopsis": "Solomon declares that except the Lord build the house, they labor in vain that build it, and except the Lord keep the city, the watchman wakes but in vain. Children are heritage of the Lord, and happy is the man whose quiver is full of them.",
+      "years": "c. 1000-400 BC",
+      "yearNum": -1000,
+      "approx": true,
+      "place": null,
+      "themes": [
+        "family",
+        "wisdom"
+      ],
+      "characters": [
+        "solomon"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 5,
+          "speaker": "psalmist",
+          "to": "reader",
+          "note": "Full psalm"
+        }
+      ]
+    },
+    {
+      "c": 128,
+      "title": "Blessed Is Every One That Feareth the Lord",
+      "synopsis": "The psalmist declares blessed everyone who fears the Lord and walks in his ways, for he shall eat the labor of his hands and his wife shall be as a fruitful vine. He pronounces a blessing of long life and peace upon Israel from the Lord out of Zion.",
+      "years": "c. 1000-400 BC",
+      "yearNum": -1000,
+      "approx": true,
+      "place": null,
+      "themes": [
+        "family",
+        "obedience"
+      ],
+      "characters": [
+        "david"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 6,
+          "speaker": "psalmist",
+          "to": "reader",
+          "note": "Full psalm"
+        }
+      ]
+    },
+    {
+      "c": 129,
+      "title": "Many a Time Have They Afflicted Me",
+      "synopsis": "The psalmist recalls how many times enemies have afflicted Israel from its youth, plowing long furrows upon his back, yet they have not prevailed. He prays that those who hate Zion be confounded and turned back like grass on the housetops.",
+      "years": "c. 1000-400 BC",
+      "yearNum": -1000,
+      "approx": true,
+      "place": null,
+      "themes": [
+        "deliverance",
+        "zion"
+      ],
+      "characters": [
+        "david"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 8,
+          "speaker": "psalmist",
+          "to": "reader",
+          "note": "Full psalm"
+        }
+      ]
+    },
+    {
+      "c": 130,
+      "title": "Out of the Depths Have I Cried unto Thee",
+      "synopsis": "The psalmist cries out of the depths to the Lord, asking who could stand if the Lord marked iniquities, but there is forgiveness with him that he may be feared. He waits for the Lord more than watchmen wait for the morning, and calls Israel to hope in the Lord's plenteous redemption.",
+      "years": "c. 1000-400 BC",
+      "yearNum": -1000,
+      "approx": true,
+      "place": null,
+      "themes": [
+        "repentance",
+        "hope"
+      ],
+      "characters": [
+        "david"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 8,
+          "speaker": "psalmist",
+          "to": "the-lord",
+          "note": "Full psalm"
+        }
+      ]
+    },
+    {
+      "c": 131,
+      "title": "Lord, My Heart Is Not Haughty",
+      "synopsis": "David declares his heart is not haughty nor his eyes lofty, and he has quieted himself like a weaned child with its mother, not exercising himself in matters too great for him. He counsels Israel to hope in the Lord from this time forth and forever.",
+      "years": "c. 1000-400 BC",
+      "yearNum": -1000,
+      "approx": true,
+      "place": null,
+      "themes": [
+        "humility",
+        "faith"
+      ],
+      "characters": [
+        "david"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 3,
+          "speaker": "david",
+          "to": "reader",
+          "note": "Full psalm"
+        }
+      ]
+    },
+    {
+      "c": 132,
+      "title": "Lord, Remember David",
+      "synopsis": "The psalmist recalls David's oath to find a habitation for the Lord, and the Lord's covenant that David's seed shall sit upon his throne if they keep his covenant. The Lord has chosen Zion for his rest, promising to clothe her priests with salvation.",
+      "years": "c. 1000-400 BC",
+      "yearNum": -1000,
+      "approx": true,
+      "place": null,
+      "themes": [
+        "covenant",
+        "kingship",
+        "zion"
+      ],
+      "characters": [
+        "david"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 18,
+          "speaker": "psalmist",
+          "to": "the-lord",
+          "note": "Full psalm"
+        }
+      ]
+    },
+    {
+      "c": 133,
+      "title": "Behold, How Good and How Pleasant It Is",
+      "synopsis": "David declares how good and pleasant it is for brethren to dwell together in unity, likened to precious ointment and the dew of Hermon descending upon the mountains of Zion. There the Lord commanded the blessing, even life for evermore.",
+      "years": "c. 1000-400 BC",
+      "yearNum": -1000,
+      "approx": true,
+      "place": null,
+      "themes": [
+        "family",
+        "peace"
+      ],
+      "characters": [
+        "david"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 3,
+          "speaker": "david",
+          "to": "reader",
+          "note": "Full psalm"
+        }
+      ]
+    },
+    {
+      "c": 134,
+      "title": "Behold, Bless Ye the Lord, All Ye Servants",
+      "synopsis": "The psalmist calls the servants of the Lord who stand by night in the house of the Lord to bless him and lift up their hands in the sanctuary. He pronounces that the Lord who made heaven and earth shall bless them out of Zion.",
+      "years": "c. 1000-400 BC",
+      "yearNum": -1000,
+      "approx": true,
+      "place": null,
+      "themes": [
+        "worship"
+      ],
+      "characters": [
+        "david"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 3,
+          "speaker": "psalmist",
+          "to": "reader",
+          "note": "Full psalm"
+        }
+      ]
+    },
+    {
+      "c": 135,
+      "title": "Praise Ye the Name of the Lord",
+      "synopsis": "The psalmist calls the servants of the Lord to praise his name, for the Lord is good and has chosen Jacob for himself, doing whatsoever he pleases in heaven and earth. He recounts the plagues of Egypt and the conquest of Canaan, and mocks the idols of the heathen that have mouths but speak not.",
+      "years": "c. 1000-400 BC",
+      "yearNum": -1000,
+      "approx": true,
+      "place": null,
+      "themes": [
+        "worship",
+        "records"
+      ],
+      "characters": [
+        "david"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 21,
+          "speaker": "psalmist",
+          "to": "reader",
+          "note": "Full psalm"
+        }
+      ]
+    },
+    {
+      "c": 136,
+      "title": "O Give Thanks unto the Lord, for His Mercy Endureth Forever",
+      "synopsis": "The psalmist calls all to give thanks unto the Lord, for his mercy endures forever, reciting the works of creation, the exodus from Egypt, and the conquest of kings, each phrase answered with the refrain of God's enduring mercy. He closes giving thanks unto the God of heaven.",
+      "years": "c. 1000-400 BC",
+      "yearNum": -1000,
+      "approx": true,
+      "place": null,
+      "themes": [
+        "worship",
+        "records"
+      ],
+      "characters": [
+        "david"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 26,
+          "speaker": "psalmist",
+          "to": "reader",
+          "note": "Full psalm"
+        }
+      ]
+    },
+    {
+      "c": 137,
+      "title": "By the Rivers of Babylon",
+      "synopsis": "The exiled psalmist weeps by the rivers of Babylon remembering Zion, hanging his harp upon the willows when asked to sing the Lord's song in a strange land. He vows never to forget Jerusalem and calls for vengeance upon Edom and Babylon for their cruelty.",
+      "years": "c. 580 BC",
+      "yearNum": -580,
+      "approx": true,
+      "place": "babylon",
+      "themes": [
+        "exile",
+        "zion"
+      ],
+      "characters": [
+        "david"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 9,
+          "speaker": "psalmist",
+          "to": "reader",
+          "note": "Full psalm"
+        }
+      ]
+    },
+    {
+      "c": 138,
+      "title": "I Will Praise Thee with My Whole Heart",
+      "synopsis": "David praises the Lord with his whole heart before the gods, for God has magnified his word above all his name and answered him in the day he cried. He declares the Lord will revive him amid trouble and perfect that which concerns him.",
+      "years": "c. 1000-400 BC",
+      "yearNum": -1000,
+      "approx": true,
+      "place": null,
+      "themes": [
+        "worship",
+        "faith"
+      ],
+      "characters": [
+        "david"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 8,
+          "speaker": "david",
+          "to": "the-lord",
+          "note": "Full psalm"
+        }
+      ]
+    },
+    {
+      "c": 139,
+      "title": "O Lord, Thou Hast Searched Me, and Known Me",
+      "synopsis": "David marvels that the Lord has searched and known him, understanding his thoughts afar off, and that he cannot flee from God's presence whether he ascend to heaven or make his bed in hell. He praises God for fearfully and wonderfully making him and asks to be searched and led in the way everlasting.",
+      "years": "c. 1000-400 BC",
+      "yearNum": -1000,
+      "approx": true,
+      "place": null,
+      "themes": [
+        "worship",
+        "creation"
+      ],
+      "characters": [
+        "david"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 24,
+          "speaker": "david",
+          "to": "the-lord",
+          "note": "Full psalm"
+        }
+      ]
+    },
+    {
+      "c": 140,
+      "title": "Deliver Me, O Lord, from the Evil Man",
+      "synopsis": "David prays for deliverance from the evil and violent man who sharpens his tongue like a serpent and hides snares for his steps. He trusts the Lord will maintain the cause of the afflicted and the right of the poor.",
+      "years": "c. 1000-400 BC",
+      "yearNum": -1000,
+      "approx": true,
+      "place": null,
+      "themes": [
+        "prayer",
+        "deliverance"
+      ],
+      "characters": [
+        "david"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 13,
+          "speaker": "david",
+          "to": "the-lord",
+          "note": "Full psalm"
+        }
+      ]
+    },
+    {
+      "c": 141,
+      "title": "Let My Prayer Be Set Forth Before Thee as Incense",
+      "synopsis": "David prays that his prayer be set before the Lord as incense and asks the Lord to set a watch before his mouth and keep the door of his lips. He asks that a righteous man's reproof be as excellent oil that shall not break his head.",
+      "years": "c. 1000-400 BC",
+      "yearNum": -1000,
+      "approx": true,
+      "place": null,
+      "themes": [
+        "prayer",
+        "obedience"
+      ],
+      "characters": [
+        "david"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 10,
+          "speaker": "david",
+          "to": "the-lord",
+          "note": "Full psalm"
+        }
+      ]
+    },
+    {
+      "c": 142,
+      "title": "I Cried unto the Lord with My Voice",
+      "synopsis": "David, in the cave, cries to the Lord with his voice, pouring out his complaint before him when his spirit is overwhelmed, for no man cares for his soul. He cries that the Lord is his refuge and portion in the land of the living.",
+      "years": "c. 1000-400 BC",
+      "yearNum": -1000,
+      "approx": true,
+      "place": null,
+      "themes": [
+        "prayer",
+        "deliverance"
+      ],
+      "characters": [
+        "david"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 7,
+          "speaker": "david",
+          "to": "the-lord",
+          "note": "Full psalm"
+        }
+      ]
+    },
+    {
+      "c": 143,
+      "title": "Hear My Prayer, O Lord; Give Ear to My Supplications",
+      "synopsis": "David pleads for the Lord to hear his prayer, for his spirit is overwhelmed and his heart desolate, remembering the days of old and the works of God's hands. He asks to be taught to do God's will, for God's spirit is good, and to be led into the land of uprightness.",
+      "years": "c. 1000-400 BC",
+      "yearNum": -1000,
+      "approx": true,
+      "place": null,
+      "themes": [
+        "prayer",
+        "obedience"
+      ],
+      "characters": [
+        "david"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 12,
+          "speaker": "david",
+          "to": "the-lord",
+          "note": "Full psalm"
+        }
+      ]
+    },
+    {
+      "c": 144,
+      "title": "Blessed Be the Lord My Strength",
+      "synopsis": "David blesses the Lord who teaches his hands to war, his goodness and fortress, and marvels that God is mindful of man whose days are as a shadow that passes away. He prays for deliverance and blessing upon his people, that their sons be as plants and their garners full.",
+      "years": "c. 1000-400 BC",
+      "yearNum": -1000,
+      "approx": true,
+      "place": null,
+      "themes": [
+        "war",
+        "prayer"
+      ],
+      "characters": [
+        "david"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 15,
+          "speaker": "david",
+          "to": "the-lord",
+          "note": "Full psalm"
+        }
+      ]
+    },
+    {
+      "c": 145,
+      "title": "I Will Extol Thee, My God, O King",
+      "synopsis": "David extols the Lord his God and King, declaring one generation shall praise his works to another, for the Lord is gracious, full of compassion, and good to all. The Lord is nigh unto all who call upon him in truth, and David's mouth shall speak the praise of the Lord forever.",
+      "years": "c. 1000-400 BC",
+      "yearNum": -1000,
+      "approx": true,
+      "place": null,
+      "themes": [
+        "worship"
+      ],
+      "characters": [
+        "david"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 21,
+          "speaker": "david",
+          "to": "the-lord",
+          "note": "Full psalm"
+        }
+      ]
+    },
+    {
+      "c": 146,
+      "title": "Praise Ye the Lord, O My Soul",
+      "synopsis": "The psalmist praises the Lord while he lives, warning not to trust in princes in whom there is no help, for their breath goes forth and their thoughts perish. Happy is he whose help is the God of Jacob, who executes judgment for the oppressed and feeds the hungry.",
+      "years": "c. 1000-400 BC",
+      "yearNum": -1000,
+      "approx": true,
+      "place": null,
+      "themes": [
+        "worship",
+        "charity"
+      ],
+      "characters": [
+        "david"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 10,
+          "speaker": "psalmist",
+          "to": "reader",
+          "note": "Full psalm"
+        }
+      ]
+    },
+    {
+      "c": 147,
+      "title": "Praise Ye the Lord, for It Is Good to Sing Praises",
+      "synopsis": "The psalmist praises the Lord who builds up Jerusalem and heals the brokenhearted, who tells the number of the stars and calls them by name. He declares the Lord's delight is not in the strength of the horse but in those who fear him and hope in his mercy.",
+      "years": "c. 1000-400 BC",
+      "yearNum": -1000,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": [
+        "worship",
+        "creation"
+      ],
+      "characters": [
+        "david"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 20,
+          "speaker": "psalmist",
+          "to": "reader",
+          "note": "Full psalm"
+        }
+      ]
+    },
+    {
+      "c": 148,
+      "title": "Praise Ye the Lord from the Heavens",
+      "synopsis": "The psalmist calls the heavens, angels, sun, moon, and stars to praise the Lord, and the earth, mountains, trees, and creatures likewise, for he commanded and they were created. He calls kings and all peoples to praise the name of the Lord, for his name alone is excellent.",
+      "years": "c. 1000-400 BC",
+      "yearNum": -1000,
+      "approx": true,
+      "place": null,
+      "themes": [
+        "worship",
+        "creation"
+      ],
+      "characters": [
+        "david"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 14,
+          "speaker": "psalmist",
+          "to": "reader",
+          "note": "Full psalm"
+        }
+      ]
+    },
+    {
+      "c": 149,
+      "title": "Sing unto the Lord a New Song",
+      "synopsis": "The psalmist calls the saints to sing a new song and praise the Lord's name with dance and instruments, for the Lord takes pleasure in his people and beautifies the meek with salvation. He calls the saints to execute the judgment written, an honor granted to all his saints.",
+      "years": "c. 1000-400 BC",
+      "yearNum": -1000,
+      "approx": true,
+      "place": null,
+      "themes": [
+        "worship",
+        "judgment"
+      ],
+      "characters": [
+        "david"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 9,
+          "speaker": "psalmist",
+          "to": "reader",
+          "note": "Full psalm"
+        }
+      ]
+    },
+    {
+      "c": 150,
+      "title": "Praise Ye the Lord",
+      "synopsis": "The psalmist calls all to praise God in his sanctuary and the firmament of his power, with trumpet, psaltery, harp, timbrel, dance, stringed instruments, organs, and cymbals. The psalm and the book close with the call for everything that has breath to praise the Lord.",
+      "years": "c. 1000-400 BC",
+      "yearNum": -1000,
+      "approx": true,
+      "place": null,
+      "themes": [
+        "worship"
+      ],
+      "characters": [
+        "david"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 6,
+          "speaker": "psalmist",
+          "to": "reader",
+          "note": "Full psalm"
+        }
+      ]
+    }
+  ]
+}

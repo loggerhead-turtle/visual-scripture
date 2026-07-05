@@ -1,0 +1,92 @@
+{
+  "book": "1 Timothy",
+  "slug": "1-timothy",
+  "narrator": "paul",
+  "plates": "pauline-epistles",
+  "chapters": [
+    {
+      "c": 1,
+      "title": "A Charge Against False Doctrine",
+      "synopsis": "Paul charges Timothy to remain at Ephesus and warn certain men against fables and endless genealogies, for the law is good if used lawfully, against the lawless rather than the righteous. He recalls his own conversion as the chief of sinners, shown mercy that Christ might display his longsuffering, and charges Timothy to war a good warfare, holding faith and a good conscience.",
+      "years": "AD 64",
+      "yearNum": 64,
+      "approx": false,
+      "place": null,
+      "themes": ["grace", "faith", "leadership"],
+      "characters": ["paul", "timothy"],
+      "segments": [
+        { "s": 1, "e": 20, "speaker": "paul", "to": "timothy", "note": "Charge against false teachers; Paul's own mercy and calling" }
+      ]
+    },
+    {
+      "c": 2,
+      "title": "Prayer and Order in Worship",
+      "synopsis": "Paul urges that supplications and prayers be made for all men, including kings, for there is one God and one mediator between God and men, the man Christ Jesus. He instructs that men pray lifting up holy hands, and that women adorn themselves with modesty and good works, recalling that Adam was formed first, then Eve.",
+      "years": "AD 64",
+      "yearNum": 64,
+      "approx": false,
+      "place": null,
+      "themes": ["prayer", "worship", "family"],
+      "characters": ["paul", "timothy", "adam", "eve"],
+      "segments": [
+        { "s": 1, "e": 15, "speaker": "paul", "to": "timothy", "note": "Prayer for all men; order and modesty in worship" }
+      ]
+    },
+    {
+      "c": 3,
+      "title": "Qualifications for Bishops and Deacons",
+      "synopsis": "Paul lists the qualities required of a bishop, who must be blameless, the husband of one wife, vigilant, sober, and apt to teach, and similar qualities for deacons and their wives. He closes with the great mystery of godliness, that God was manifest in the flesh and received up into glory.",
+      "years": "AD 64",
+      "yearNum": 64,
+      "approx": false,
+      "place": null,
+      "themes": ["leadership", "priesthood", "family"],
+      "characters": ["paul", "timothy"],
+      "segments": [
+        { "s": 1, "e": 16, "speaker": "paul", "to": "timothy", "note": "Qualifications for bishops and deacons; mystery of godliness" }
+      ]
+    },
+    {
+      "c": 4,
+      "title": "Warning Against Apostasy",
+      "synopsis": "Paul warns that in later times some will depart from the faith, giving heed to seducing spirits and doctrines forbidding marriage and certain meats. He urges Timothy to be nourished in the words of faith, to exercise himself unto godliness, to be an example of believers, and to give attendance to reading, exhortation, and doctrine, neglecting not the gift that is in him.",
+      "years": "AD 64",
+      "yearNum": 64,
+      "approx": false,
+      "place": null,
+      "themes": ["apostasy", "discipleship", "leadership"],
+      "characters": ["paul", "timothy"],
+      "segments": [
+        { "s": 1, "e": 16, "speaker": "paul", "to": "timothy", "note": "Some shall depart from the faith; be an example" }
+      ]
+    },
+    {
+      "c": 5,
+      "title": "Caring for Widows and Elders",
+      "synopsis": "Paul instructs Timothy to honor widows indeed, teaching that families should first care for their own widows before the church takes that burden. He directs that elders who rule well, especially those who labor in the word and doctrine, be counted worthy of double honor, and that an elder be accused only on the testimony of two or three witnesses.",
+      "years": "AD 64",
+      "yearNum": 64,
+      "approx": false,
+      "place": null,
+      "themes": ["family", "leadership", "charity"],
+      "characters": ["paul", "timothy"],
+      "segments": [
+        { "s": 1, "e": 25, "speaker": "paul", "to": "timothy", "note": "Honor widows and elders; keep thyself pure" }
+      ]
+    },
+    {
+      "c": 6,
+      "title": "Godliness with Contentment",
+      "synopsis": "Paul instructs servants to honor their masters and warns that men of corrupt minds suppose gain is godliness, but godliness with contentment is great gain, for the love of money is the root of all evil. He charges Timothy to fight the good fight of faith and lay hold on eternal life, and charges the rich to trust not in uncertain riches but to be rich in good works.",
+      "years": "AD 64",
+      "yearNum": 64,
+      "approx": false,
+      "place": null,
+      "themes": ["obedience", "charity", "faith"],
+      "characters": ["paul", "timothy"],
+      "segments": [
+        { "s": 1, "e": 21, "speaker": "paul", "to": "timothy", "note": "Godliness with contentment; fight the good fight" }
+      ]
+    }
+  ]
+}

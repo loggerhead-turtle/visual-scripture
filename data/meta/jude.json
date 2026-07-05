@@ -1,0 +1,22 @@
+{
+  "book": "Jude",
+  "slug": "jude",
+  "narrator": "jude",
+  "plates": "general-epistles",
+  "chapters": [
+    {
+      "c": 1,
+      "title": "Contend Earnestly for the Faith",
+      "synopsis": "Jude, the brother of James, exhorts the saints to contend earnestly for the faith once delivered unto the saints, for certain ungodly men have crept in unawares, turning the grace of God into lasciviousness. He recalls the judgments on unbelieving Israel, the angels who kept not their first estate, and Sodom, and quotes Enoch's prophecy that the Lord cometh with ten thousands of his saints to execute judgment. The faithful are to build themselves up in their most holy faith, keeping themselves in the love of God and rescuing others, pulling them out of the fire.",
+      "years": "about AD 70",
+      "yearNum": 70,
+      "approx": true,
+      "place": null,
+      "themes": ["faith", "apostasy", "judgment", "endurance"],
+      "characters": ["jude", "enoch", "moses", "satan"],
+      "segments": [
+        { "s": 1, "e": 25, "speaker": "jude", "to": "church", "note": "Contend for the faith; Enoch's prophecy; save others" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "book": "Zephaniah",
+  "slug": "zephaniah",
+  "narrator": "chronicler",
+  "plates": "prophets-minor",
+  "chapters": [
+    {
+      "c": 1,
+      "title": "The Great Day of the Lord Near",
+      "synopsis": "Zephaniah declares that the Lord will utterly consume all things from off the land, beginning with those who worship Baal and swear by Malcham. The great day of the Lord is near, a day of wrath, trouble, distress, and darkness, when the Lord will search Jerusalem with candles to punish the settled and complacent.",
+      "years": "about 620 BC",
+      "yearNum": -620,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["judgment", "apostasy"],
+      "characters": ["the-lord"],
+      "segments": [
+        { "s": 1, "e": 6, "speaker": "the-lord", "to": "reader", "note": "The Lord will consume all things from the land" },
+        { "s": 7, "e": 13, "speaker": "the-lord", "to": "reader", "note": "The day of the Lord: search of Jerusalem with candles" },
+        { "s": 14, "e": 18, "speaker": "chronicler", "to": "reader", "note": "The great day of the Lord is near, a day of wrath" }
+      ]
+    },
+    {
+      "c": 2,
+      "title": "Seek the Lord Before Judgment",
+      "synopsis": "Zephaniah calls the nation to gather itself together and seek the Lord, seeking righteousness and meekness before the fierce anger of the Lord comes. Judgment falls on Philistia, Moab, Ammon, and Ethiopia, and Nineveh itself, once mighty, is made a desolation, a place for beasts to lie down in.",
+      "years": "about 620 BC",
+      "yearNum": -620,
+      "approx": true,
+      "place": null,
+      "themes": ["repentance", "judgment", "humility"],
+      "characters": ["the-lord"],
+      "segments": [
+        { "s": 1, "e": 3, "speaker": "chronicler", "to": "house-of-israel", "note": "Gather yourselves; seek the Lord, righteousness, meekness" },
+        { "s": 4, "e": 11, "speaker": "the-lord", "to": "reader", "note": "Judgment on Philistia, Moab, Ammon, and Ethiopia" },
+        { "s": 12, "e": 15, "speaker": "the-lord", "to": "reader", "note": "Nineveh made a desolation, a place for beasts" }
+      ]
+    },
+    {
+      "c": 3,
+      "title": "The Lord Will Rejoice Over Thee",
+      "synopsis": "Woe is pronounced on the filthy and rebellious city, Jerusalem, whose officials and prophets are corrupt though the Lord in her midst is righteous. Yet the Lord promises to give the people a pure language, leave a humble remnant that trusts in his name, and himself rejoice over Zion with singing, gathering the outcast and turning their captivity.",
+      "years": "about 620 BC",
+      "yearNum": -620,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["judgment", "hope", "gathering-of-israel"],
+      "characters": ["the-lord"],
+      "segments": [
+        { "s": 1, "e": 7, "speaker": "the-lord", "to": "reader", "note": "Woe to the filthy city; her leaders corrupt" },
+        { "s": 8, "e": 13, "speaker": "the-lord", "to": "reader", "note": "A pure language given; a humble remnant remains" },
+        { "s": 14, "e": 20, "speaker": "chronicler", "to": "house-of-israel", "note": "Sing, O daughter of Zion; the Lord rejoices over thee" }
+      ]
+    }
+  ]
+}

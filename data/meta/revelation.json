@@ -1,0 +1,329 @@
+{
+  "book": "Revelation",
+  "slug": "revelation",
+  "narrator": "john-beloved",
+  "plates": "apocalypse",
+  "chapters": [
+    {
+      "c": 1,
+      "title": "John Sees the Son of Man",
+      "synopsis": "John, exiled on the isle of Patmos for the word of God, receives the Revelation of Jesus Christ, sent and signified by his angel. On the Lord's day he hears a great voice as of a trumpet and turns to see the glorified Son of man standing among seven golden candlesticks, his countenance as the sun shining in his strength. The Lord tells him to fear not, for he is the first and the last, alive for evermore, holding the keys of hell and of death.",
+      "years": "about AD 95",
+      "yearNum": 95,
+      "approx": true,
+      "place": "patmos",
+      "themes": ["revelation", "second-coming", "hope"],
+      "characters": ["john-beloved", "jesus-christ", "angel"],
+      "segments": [
+        { "s": 1, "e": 16, "speaker": "john-beloved", "to": "reader", "note": "John on Patmos sees the glorified Christ" },
+        { "s": 17, "e": 20, "speaker": "jesus-christ", "to": "john-beloved", "note": "Fear not; I am the first and the last" }
+      ]
+    },
+    {
+      "c": 2,
+      "title": "Letters to Four Churches",
+      "synopsis": "The Lord dictates letters to four of the seven churches of Asia. Ephesus is praised for labor but has left its first love; Smyrna is told to be faithful unto death and receive a crown of life; Pergamos holds fast Christ's name but tolerates false doctrine; Thyatira abounds in charity yet suffers Jezebel to seduce the saints. To every one that overcometh, the Lord promises glorious rewards.",
+      "years": "about AD 95",
+      "yearNum": 95,
+      "approx": true,
+      "place": "patmos",
+      "themes": ["endurance", "repentance", "charity"],
+      "characters": ["john-beloved", "jesus-christ"],
+      "segments": [
+        { "s": 1, "e": 7, "speaker": "jesus-christ", "to": "church", "note": "To Ephesus: return to thy first love" },
+        { "s": 8, "e": 11, "speaker": "jesus-christ", "to": "church", "note": "To Smyrna: be faithful unto death" },
+        { "s": 12, "e": 17, "speaker": "jesus-christ", "to": "church", "note": "To Pergamos: hold fast; repent of false doctrine" },
+        { "s": 18, "e": 29, "speaker": "jesus-christ", "to": "church", "note": "To Thyatira: keep my works unto the end" }
+      ]
+    },
+    {
+      "c": 3,
+      "title": "Letters to Sardis, Philadelphia, Laodicea",
+      "synopsis": "The Lord finishes the letters to the seven churches. Sardis has a name that it lives but is dead and must strengthen the things which remain; Philadelphia, with little strength, has kept his word and is set before an open door no man can shut; Laodicea is lukewarm, neither cold nor hot, and is counseled to buy gold tried in the fire. Behold, I stand at the door, and knock; to him that overcometh Christ grants to sit with him in his throne.",
+      "years": "about AD 95",
+      "yearNum": 95,
+      "approx": true,
+      "place": "patmos",
+      "themes": ["faith", "endurance", "repentance"],
+      "characters": ["john-beloved", "jesus-christ"],
+      "segments": [
+        { "s": 1, "e": 6, "speaker": "jesus-christ", "to": "church", "note": "To Sardis: be watchful; strengthen what remains" },
+        { "s": 7, "e": 13, "speaker": "jesus-christ", "to": "church", "note": "To Philadelphia: an open door no man can shut" },
+        { "s": 14, "e": 22, "speaker": "jesus-christ", "to": "church", "note": "To Laodicea: I stand at the door and knock" }
+      ]
+    },
+    {
+      "c": 4,
+      "title": "The Throne of God in Heaven",
+      "synopsis": "A door is opened in heaven, and John is caught up in the Spirit to see a throne, and one sitting on it like a jasper and a sardine stone, encircled by a rainbow like an emerald. Four and twenty elders in white raiment and four beasts full of eyes worship continually, crying Holy, holy, holy, Lord God Almighty. All heaven ascribes glory to him who created all things, for whose pleasure they are and were created.",
+      "years": "about AD 95",
+      "yearNum": 95,
+      "approx": true,
+      "place": "patmos",
+      "themes": ["worship", "revelation", "creation"],
+      "characters": ["john-beloved", "god-the-father"],
+      "segments": [
+        { "s": 1, "e": 11, "speaker": "john-beloved", "to": "reader", "note": "The throne of God; heaven worships the Creator" }
+      ]
+    },
+    {
+      "c": 5,
+      "title": "The Lamb Worthy to Open the Book",
+      "synopsis": "John sees in the right hand of him on the throne a book sealed with seven seals, and weeps because no man is found worthy to open it. Then the Lamb as it had been slain, the Lion of the tribe of Juda, takes the book, and the elders fall down with harps and vials of odours, which are the prayers of saints. Ten thousand times ten thousand angels join all creation in singing that the Lamb is worthy to receive power, riches, wisdom, and glory.",
+      "years": "about AD 95",
+      "yearNum": 95,
+      "approx": true,
+      "place": "patmos",
+      "themes": ["worship", "atonement", "messiah"],
+      "characters": ["john-beloved", "jesus-christ", "god-the-father", "angel"],
+      "segments": [
+        { "s": 1, "e": 14, "speaker": "john-beloved", "to": "reader", "note": "The sealed book; the Lamb alone is worthy" }
+      ]
+    },
+    {
+      "c": 6,
+      "title": "The Six Seals Opened",
+      "synopsis": "The Lamb opens six of the seven seals, each unveiling an age of earth's history. Four horsemen ride forth on white, red, black, and pale horses, bringing conquest, war, famine, and death, and under the altar the souls of the martyrs cry, How long, O Lord? At the sixth seal there is a great earthquake, the sun becomes black as sackcloth, the stars fall, and kings and captains hide in the rocks from the wrath of the Lamb, for the great day of his wrath is come.",
+      "years": "about AD 95",
+      "yearNum": 95,
+      "approx": true,
+      "place": "patmos",
+      "themes": ["judgment", "second-coming", "prophecy"],
+      "characters": ["john-beloved", "jesus-christ"],
+      "segments": [
+        { "s": 1, "e": 17, "speaker": "john-beloved", "to": "reader", "note": "Four horsemen; martyrs cry; signs of the sixth seal" }
+      ]
+    },
+    {
+      "c": 7,
+      "title": "The Sealing of the Servants of God",
+      "synopsis": "Four angels hold the four winds of the earth until the servants of God are sealed in their foreheads, an hundred and forty and four thousand of all the tribes of Israel. John then sees a great multitude which no man could number, of all nations and kindreds, standing before the throne clothed in white robes with palms in their hands. An elder explains that these came out of great tribulation and washed their robes white in the blood of the Lamb, and God shall wipe away all tears from their eyes.",
+      "years": "about AD 95",
+      "yearNum": 95,
+      "approx": true,
+      "place": "patmos",
+      "themes": ["hope", "deliverance", "covenant"],
+      "characters": ["john-beloved", "jesus-christ", "angel"],
+      "segments": [
+        { "s": 1, "e": 12, "speaker": "john-beloved", "to": "reader", "note": "144,000 sealed; a white-robed multitude worships" },
+        { "s": 13, "e": 17, "speaker": "angel", "to": "john-beloved", "note": "These came out of great tribulation" }
+      ]
+    },
+    {
+      "c": 8,
+      "title": "The First Four Trumpets Sound",
+      "synopsis": "When the Lamb opens the seventh seal there is silence in heaven about the space of half an hour, and seven angels are given seven trumpets. An angel offers incense with the prayers of all saints upon the golden altar, then casts fire into the earth. As the first four trumpets sound, hail and fire fall, a burning mountain is cast into the sea, the star Wormwood poisons the waters, and a third part of the sun, moon, and stars is darkened.",
+      "years": "about AD 95",
+      "yearNum": 95,
+      "approx": true,
+      "place": "patmos",
+      "themes": ["judgment", "prayer", "prophecy"],
+      "characters": ["john-beloved", "angel"],
+      "segments": [
+        { "s": 1, "e": 13, "speaker": "john-beloved", "to": "reader", "note": "Silence in heaven; four trumpets bring calamity" }
+      ]
+    },
+    {
+      "c": 9,
+      "title": "The Fifth and Sixth Trumpets",
+      "synopsis": "At the fifth trumpet a star falls with the key of the bottomless pit, and locusts like horses prepared unto battle torment men who have not the seal of God, in days when men shall seek death and not find it. At the sixth trumpet four angels bound in the river Euphrates are loosed, and an army of two hundred thousand thousand horsemen slays the third part of men. Yet those who remain repent not of their idolatry, murders, and thefts.",
+      "years": "about AD 95",
+      "yearNum": 95,
+      "approx": true,
+      "place": "patmos",
+      "themes": ["judgment", "repentance", "war"],
+      "characters": ["john-beloved", "angel"],
+      "segments": [
+        { "s": 1, "e": 21, "speaker": "john-beloved", "to": "reader", "note": "Locusts from the pit; armies loosed; men repent not" }
+      ]
+    },
+    {
+      "c": 10,
+      "title": "The Little Book Sweet and Bitter",
+      "synopsis": "A mighty angel clothed with a cloud, with a rainbow upon his head, sets one foot on the sea and one on the earth, holding a little book open, and swears that in the days of the seventh angel the mystery of God should be finished. John is forbidden to write what the seven thunders uttered. Commanded to take the little book and eat it, he finds it sweet as honey in his mouth but bitter in his belly, and is told he must prophesy again before many peoples, nations, tongues, and kings.",
+      "years": "about AD 95",
+      "yearNum": 95,
+      "approx": true,
+      "place": "patmos",
+      "themes": ["prophecy", "revelation", "mission"],
+      "characters": ["john-beloved", "angel"],
+      "segments": [
+        { "s": 1, "e": 7, "speaker": "john-beloved", "to": "reader", "note": "A mighty angel; the mystery of God finished" },
+        { "s": 8, "e": 11, "speaker": "angel", "to": "john-beloved", "note": "Take the little book and eat it up" }
+      ]
+    },
+    {
+      "c": 11,
+      "title": "The Two Witnesses in Jerusalem",
+      "synopsis": "John measures the temple of God, and two witnesses are given power to prophesy in the holy city a thousand two hundred and threescore days, with power to shut heaven and smite the earth with plagues. The beast from the bottomless pit kills them, and their bodies lie in the street while the nations rejoice, but after three days and an half the Spirit of life from God enters them and they ascend to heaven in a cloud. The seventh trumpet sounds, and great voices proclaim that the kingdoms of this world are become the kingdoms of our Lord and of his Christ.",
+      "years": "about AD 95",
+      "yearNum": 95,
+      "approx": true,
+      "place": "patmos",
+      "themes": ["prophecy", "resurrection", "endurance"],
+      "characters": ["john-beloved", "jesus-christ", "angel"],
+      "segments": [
+        { "s": 1, "e": 19, "speaker": "john-beloved", "to": "reader", "note": "Two witnesses slain and raised; seventh trumpet" }
+      ]
+    },
+    {
+      "c": 12,
+      "title": "The Woman and the Dragon",
+      "synopsis": "A great wonder appears in heaven, a woman clothed with the sun who brings forth a man child destined to rule all nations with a rod of iron, while a great red dragon waits to devour him. There is war in heaven; Michael and his angels fight against the dragon, that old serpent called the Devil and Satan, who is cast out into the earth with a third part of the stars. The saints overcome him by the blood of the Lamb and the word of their testimony, while the dragon persecutes the woman, who flees into the wilderness.",
+      "years": "about AD 95",
+      "yearNum": 95,
+      "approx": true,
+      "place": "patmos",
+      "themes": ["war", "deliverance", "agency"],
+      "characters": ["john-beloved", "jesus-christ", "satan", "angel"],
+      "segments": [
+        { "s": 1, "e": 17, "speaker": "john-beloved", "to": "reader", "note": "The woman, the child, and the dragon; war in heaven" }
+      ]
+    },
+    {
+      "c": 13,
+      "title": "The Beasts Rise to Power",
+      "synopsis": "John sees a beast rise up out of the sea with seven heads and ten horns, to whom the dragon gives his power and great authority, and all the world wonders after the beast, which makes war with the saints. A second beast comes up out of the earth with two horns like a lamb, deceiving the world with miracles and causing all to receive a mark in their right hand or forehead, without which no man may buy or sell. Here is wisdom: the number of the beast is the number of a man.",
+      "years": "about AD 95",
+      "yearNum": 95,
+      "approx": true,
+      "place": "patmos",
+      "themes": ["apostasy", "secret-combinations", "endurance"],
+      "characters": ["john-beloved", "satan"],
+      "segments": [
+        { "s": 1, "e": 18, "speaker": "john-beloved", "to": "reader", "note": "Beasts from sea and earth; the mark and the number" }
+      ]
+    },
+    {
+      "c": 14,
+      "title": "The Everlasting Gospel to Every Nation",
+      "synopsis": "The Lamb stands on mount Sion with the hundred forty and four thousand, who sing a new song no other man could learn. John sees another angel fly in the midst of heaven, having the everlasting gospel to preach to every nation, kindred, tongue, and people, crying that the hour of God's judgment is come, a prophecy the Restoration links to the angel Moroni. Babylon's fall is announced, the doom of those who worship the beast is declared, and the Son of man thrusts in his sickle, for the harvest of the earth is ripe.",
+      "years": "about AD 95",
+      "yearNum": 95,
+      "approx": true,
+      "place": "patmos",
+      "themes": ["restoration", "judgment", "gathering-of-israel"],
+      "characters": ["john-beloved", "jesus-christ", "angel"],
+      "segments": [
+        { "s": 1, "e": 20, "speaker": "john-beloved", "to": "reader", "note": "The Lamb on Sion; angel with the everlasting gospel" }
+      ]
+    },
+    {
+      "c": 15,
+      "title": "Angels With the Seven Last Plagues",
+      "synopsis": "John sees another great sign in heaven: seven angels having the seven last plagues, for in them is filled up the wrath of God. Those who have gotten the victory over the beast stand on a sea of glass mingled with fire, singing the song of Moses and the song of the Lamb, declaring that all nations shall come and worship before God. The temple in heaven is opened and filled with smoke from the glory of God as the seven angels receive golden vials full of his wrath.",
+      "years": "about AD 95",
+      "yearNum": 95,
+      "approx": true,
+      "place": "patmos",
+      "themes": ["worship", "judgment", "deliverance"],
+      "characters": ["john-beloved", "moses", "angel"],
+      "segments": [
+        { "s": 1, "e": 8, "speaker": "john-beloved", "to": "reader", "note": "The song of Moses and the Lamb; seven angels prepared" }
+      ]
+    },
+    {
+      "c": 16,
+      "title": "The Seven Vials of Wrath",
+      "synopsis": "The seven angels pour out the vials of the wrath of God upon the earth: grievous sores, seas and rivers turned to blood, scorching heat, darkness on the seat of the beast, and the drying of the great river Euphrates. Unclean spirits like frogs gather the kings of the earth to the battle of the great day of God Almighty, into a place called Armageddon. At the seventh vial a great voice from the throne says, It is done, and Babylon comes in remembrance before God amid the greatest earthquake since men were upon the earth.",
+      "years": "about AD 95",
+      "yearNum": 95,
+      "approx": true,
+      "place": "patmos",
+      "themes": ["judgment", "second-coming", "war"],
+      "characters": ["john-beloved", "angel", "satan"],
+      "segments": [
+        { "s": 1, "e": 21, "speaker": "john-beloved", "to": "reader", "note": "Seven vials poured out; Armageddon; it is done" }
+      ]
+    },
+    {
+      "c": 17,
+      "title": "Babylon, Mystery of Abominations",
+      "synopsis": "One of the seven angels carries John into the wilderness to see a woman arrayed in purple and scarlet, sitting upon a scarlet beast, drunken with the blood of the saints, with the name Mystery, Babylon the Great written on her forehead. The angel explains the mystery of the woman and the beast with seven heads and ten horns, kings who will make war with the Lamb, and the Lamb shall overcome them, for he is Lord of lords and King of kings. The waters where the whore sits are peoples and nations, and the woman is that great city which reigns over the kings of the earth.",
+      "years": "about AD 95",
+      "yearNum": 95,
+      "approx": true,
+      "place": "patmos",
+      "themes": ["apostasy", "judgment", "pride-cycle"],
+      "characters": ["john-beloved", "jesus-christ", "angel"],
+      "segments": [
+        { "s": 1, "e": 6, "speaker": "john-beloved", "to": "reader", "note": "The woman on the scarlet beast, Babylon the Great" },
+        { "s": 7, "e": 18, "speaker": "angel", "to": "john-beloved", "note": "The angel explains the woman and the beast" }
+      ]
+    },
+    {
+      "c": 18,
+      "title": "Babylon the Great Is Fallen",
+      "synopsis": "An angel with great power cries mightily, Babylon the great is fallen, is fallen, and a voice from heaven calls, Come out of her, my people, that ye be not partakers of her sins. The kings, merchants, and shipmasters of the earth stand afar off and wail as the smoke of her burning rises, for in one hour so great riches is come to nought. A mighty angel casts a millstone into the sea, declaring that thus with violence shall that great city be thrown down and found no more at all.",
+      "years": "about AD 95",
+      "yearNum": 95,
+      "approx": true,
+      "place": "patmos",
+      "themes": ["judgment", "apostasy", "deliverance"],
+      "characters": ["john-beloved", "angel"],
+      "segments": [
+        { "s": 1, "e": 24, "speaker": "john-beloved", "to": "reader", "note": "Babylon falls; come out of her, my people" }
+      ]
+    },
+    {
+      "c": 19,
+      "title": "The Marriage Supper of the Lamb",
+      "synopsis": "Heaven rings with Alleluia as the great multitude praises God for judging the great whore, and the marriage of the Lamb is come, his wife arrayed in fine linen, clean and white, which is the righteousness of saints. John sees heaven opened and a white horse, whose rider is called Faithful and True, the Word of God, with many crowns, treading the winepress of the wrath of Almighty God, King of Kings and Lord of Lords. The beast and the false prophet are cast alive into the lake of fire, and their armies are slain.",
+      "years": "about AD 95",
+      "yearNum": 95,
+      "approx": true,
+      "place": "patmos",
+      "themes": ["second-coming", "hope", "worship"],
+      "characters": ["john-beloved", "jesus-christ", "angel"],
+      "segments": [
+        { "s": 1, "e": 21, "speaker": "john-beloved", "to": "reader", "note": "Alleluia; the King of kings rides forth conquering" }
+      ]
+    },
+    {
+      "c": 20,
+      "title": "The Millennium and Final Judgment",
+      "synopsis": "An angel binds Satan with a great chain and shuts him in the bottomless pit for a thousand years, while the martyrs and faithful live and reign with Christ; this is the first resurrection. When the thousand years expire Satan is loosed a little season and gathers Gog and Magog to battle, but fire comes down from God out of heaven and devours them. John then sees the great white throne, and the dead, small and great, stand before God and are judged out of the books according to their works, and death and hell are cast into the lake of fire.",
+      "years": "about AD 95",
+      "yearNum": 95,
+      "approx": true,
+      "place": "patmos",
+      "themes": ["judgment", "resurrection", "second-coming"],
+      "characters": ["john-beloved", "jesus-christ", "satan", "angel"],
+      "segments": [
+        { "s": 1, "e": 15, "speaker": "john-beloved", "to": "reader", "note": "Satan bound a thousand years; the last judgment" }
+      ]
+    },
+    {
+      "c": 21,
+      "title": "The New Jerusalem Descends",
+      "synopsis": "John sees a new heaven and a new earth, and the holy city, new Jerusalem, coming down from God out of heaven, prepared as a bride adorned for her husband. God himself dwells with men and wipes away all tears; there is no more death, neither sorrow, nor crying, for the former things are passed away. One of the seven angels carries John to a great and high mountain and shows him the city of pure gold, with twelve gates of pearl and foundations garnished with precious stones, having no need of the sun, for the Lamb is the light thereof.",
+      "years": "about AD 95",
+      "yearNum": 95,
+      "approx": true,
+      "place": "patmos",
+      "themes": ["hope", "zion", "covenant"],
+      "characters": ["john-beloved", "jesus-christ", "god-the-father", "angel"],
+      "segments": [
+        { "s": 1, "e": 8, "speaker": "john-beloved", "to": "reader", "note": "New heaven and earth; God shall wipe away tears" },
+        { "s": 9, "e": 27, "speaker": "angel", "to": "john-beloved", "note": "The angel shows the holy city, new Jerusalem" }
+      ]
+    },
+    {
+      "c": 22,
+      "title": "Behold, I Come Quickly",
+      "synopsis": "The angel shows John a pure river of water of life proceeding out of the throne of God and of the Lamb, and the tree of life whose leaves are for the healing of the nations; the servants of God shall see his face and reign for ever. The Lord declares, Behold, I come quickly, and my reward is with me, to give every man according as his work shall be; blessed are they that do his commandments, that they may have right to the tree of life. The Spirit and the bride say, Come, and John closes the canon with his prayer, Even so, come, Lord Jesus.",
+      "years": "about AD 95",
+      "yearNum": 95,
+      "approx": true,
+      "place": "patmos",
+      "themes": ["hope", "second-coming", "endurance"],
+      "characters": ["john-beloved", "jesus-christ", "angel"],
+      "segments": [
+        { "s": 1, "e": 5, "speaker": "john-beloved", "to": "reader", "note": "The river and tree of life; no more curse" },
+        { "s": 6, "e": 11, "speaker": "angel", "to": "john-beloved", "note": "These sayings are faithful; seal not the book" },
+        { "s": 12, "e": 16, "speaker": "jesus-christ", "to": "church", "note": "I come quickly; I am Alpha and Omega" },
+        { "s": 17, "e": 21, "speaker": "john-beloved", "to": "reader", "note": "The Spirit and the bride say, Come, Lord Jesus" }
+      ]
+    }
+  ]
+}

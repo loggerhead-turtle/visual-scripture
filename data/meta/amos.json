@@ -1,0 +1,140 @@
+{
+  "book": "Amos",
+  "slug": "amos",
+  "narrator": "amos",
+  "plates": "prophets-minor",
+  "chapters": [
+    {
+      "c": 1,
+      "title": "For Three Transgressions and Four",
+      "synopsis": "Amos, a herdman of Tekoa, hears the Lord roar from Zion two years before the earthquake. In a rolling series of oracles the Lord pronounces judgment on Damascus, Gaza, Tyrus, Edom, and Ammon, each for three transgressions and for four, promising fire upon their palaces.",
+      "years": "about 760 BC",
+      "yearNum": -760,
+      "approx": true,
+      "place": null,
+      "themes": ["judgment", "prophecy", "justice-and-mercy"],
+      "characters": ["amos", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 2, "speaker": "amos", "to": "reader", "note": "The Lord roars from Zion" },
+        { "s": 3, "e": 15, "speaker": "the-lord", "to": "nations", "note": "Judgments on Israel's neighbours" }
+      ]
+    },
+    {
+      "c": 2,
+      "title": "Judgment Reaches Israel",
+      "synopsis": "The oracles turn homeward: Moab is condemned, then Judah for despising the law of the Lord, and finally Israel itself for selling the righteous for silver and the poor for a pair of shoes. Though the Lord destroyed the Amorite before them and raised up prophets among their sons, Israel silenced the prophets, and none of the mighty will escape.",
+      "years": "about 760 BC",
+      "yearNum": -760,
+      "approx": true,
+      "place": "samaria-city",
+      "themes": ["judgment", "justice-and-mercy", "apostasy"],
+      "characters": ["the-lord"],
+      "segments": [
+        { "s": 1, "e": 16, "speaker": "the-lord", "to": "house-of-israel", "note": "Moab, Judah, and Israel condemned in turn" }
+      ]
+    },
+    {
+      "c": 3,
+      "title": "Secrets unto His Servants the Prophets",
+      "synopsis": "Because the Lord has known Israel of all the families of the earth, he will punish them for their iniquities. Amos reasons that effects have causes, can two walk together except they be agreed, and declares that surely the Lord God will do nothing but he revealeth his secret unto his servants the prophets, so Samaria's spoiled palaces will fall.",
+      "years": "about 760 BC",
+      "yearNum": -760,
+      "approx": true,
+      "place": "samaria-city",
+      "themes": ["prophecy", "revelation", "judgment"],
+      "characters": ["amos", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 8, "speaker": "amos", "to": "house-of-israel", "note": "The Lord reveals secrets to his prophets" },
+        { "s": 9, "e": 15, "speaker": "the-lord", "to": "house-of-israel", "note": "Samaria's palaces and altars shall fall" }
+      ]
+    },
+    {
+      "c": 4,
+      "title": "Prepare to Meet Thy God",
+      "synopsis": "The Lord indicts the pampered kine of Bashan who oppress the poor, and recounts how he sent famine, drought, blasting, pestilence, and sword, yet after every chastening comes the refrain, yet have ye not returned unto me. Because Israel would not turn, the warning falls: prepare to meet thy God, O Israel.",
+      "years": "about 760 BC",
+      "yearNum": -760,
+      "approx": true,
+      "place": "samaria-city",
+      "themes": ["judgment", "repentance"],
+      "characters": ["the-lord"],
+      "segments": [
+        { "s": 1, "e": 13, "speaker": "the-lord", "to": "house-of-israel", "note": "Yet have ye not returned unto me" }
+      ]
+    },
+    {
+      "c": 5,
+      "title": "Seek the Lord and Live",
+      "synopsis": "Amos takes up a lamentation over the fallen virgin of Israel, pleading in the Lord's name, seek ye me, and ye shall live, seek good and not evil, and let judgment run down as waters and righteousness as a mighty stream. He warns those who desire the day of the Lord that it is darkness and not light, for the Lord despises feasts offered without justice.",
+      "years": "about 760 BC",
+      "yearNum": -760,
+      "approx": true,
+      "place": "samaria-city",
+      "themes": ["repentance", "justice-and-mercy", "judgment"],
+      "characters": ["amos", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 17, "speaker": "amos", "to": "house-of-israel", "note": "Seek the Lord, and ye shall live" },
+        { "s": 18, "e": 27, "speaker": "amos", "to": "house-of-israel", "note": "Woe to those desiring the day of the Lord" }
+      ]
+    },
+    {
+      "c": 6,
+      "title": "At Ease in Zion",
+      "synopsis": "Woe is pronounced on those at ease in Zion and trusting in the mountain of Samaria, who lie on beds of ivory, chant to the viol, and drink wine in bowls, but are not grieved for the affliction of Joseph. Their revelry will end first in captivity, for the Lord abhors the excellency of Jacob and will raise up a nation to afflict them.",
+      "years": "about 760 BC",
+      "yearNum": -760,
+      "approx": true,
+      "place": "samaria-city",
+      "themes": ["pride-cycle", "judgment", "exile"],
+      "characters": ["the-lord"],
+      "segments": [
+        { "s": 1, "e": 14, "speaker": "the-lord", "to": "house-of-israel", "note": "Woe to them that are at ease in Zion" }
+      ]
+    },
+    {
+      "c": 7,
+      "title": "The Plumbline and the Herdman",
+      "synopsis": "Amos sees visions of grasshoppers and devouring fire, and twice his intercession turns the judgment aside, but then the Lord sets a plumbline in the midst of Israel and will pass by them no more. Amaziah the priest of Bethel orders Amos to flee to Judah, and Amos answers that he was no prophet's son but a herdman and gatherer of sycomore fruit whom the Lord took as he followed the flock.",
+      "years": "about 760 BC",
+      "yearNum": -760,
+      "approx": true,
+      "place": "samaria-city",
+      "themes": ["prophecy", "revelation", "judgment"],
+      "characters": ["amos", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 9, "speaker": "amos", "to": "reader", "note": "Visions of locusts, fire, and the plumbline" },
+        { "s": 10, "e": 17, "speaker": "amos", "to": "reader", "note": "Amaziah opposes; Amos defends his calling" }
+      ]
+    },
+    {
+      "c": 8,
+      "title": "A Famine of Hearing the Word",
+      "synopsis": "A basket of summer fruit signals that the end is come upon Israel, whose merchants swallow up the needy and falsify balances while waiting for the sabbath to pass. The Lord declares that days are coming when he will send a famine in the land, not of bread nor of water, but of hearing the words of the Lord, and people will wander from sea to sea seeking it in vain.",
+      "years": "about 760 BC",
+      "yearNum": -760,
+      "approx": true,
+      "place": "samaria-city",
+      "themes": ["judgment", "apostasy", "prophecy"],
+      "characters": ["amos", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 3, "speaker": "amos", "to": "reader", "note": "The basket of summer fruit" },
+        { "s": 4, "e": 14, "speaker": "the-lord", "to": "house-of-israel", "note": "A famine of hearing the words of the Lord" }
+      ]
+    },
+    {
+      "c": 9,
+      "title": "The Tabernacle of David Raised",
+      "synopsis": "Amos sees the Lord standing upon the altar, declaring that no sinner can dig into hell or climb to heaven to escape him, yet he will sift Israel among all nations as corn in a sieve without losing the least grain. In that day the Lord will raise up the fallen tabernacle of David, and his gathered people will rebuild the waste cities and be planted upon their land, no more to be pulled up.",
+      "years": "about 760 BC",
+      "yearNum": -760,
+      "approx": true,
+      "place": "samaria-city",
+      "themes": ["judgment", "restoration", "gathering-of-israel", "hope"],
+      "characters": ["amos", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 10, "speaker": "the-lord", "to": "house-of-israel", "note": "Sifted among all nations, none escaping" },
+        { "s": 11, "e": 15, "speaker": "the-lord", "to": "house-of-israel", "note": "David's tabernacle raised; Israel planted again" }
+      ]
+    }
+  ]
+}

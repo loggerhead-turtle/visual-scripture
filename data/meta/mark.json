@@ -1,0 +1,287 @@
+{
+  "book": "Mark",
+  "slug": "mark",
+  "narrator": "mark",
+  "plates": "gospels",
+  "chapters": [
+    {
+      "c": 1,
+      "title": "The Beginning of the Gospel",
+      "synopsis": "John the Baptist prepares the way and baptizes Jesus in Jordan, where the Father declares his beloved Son. After forty days of temptation in the wilderness, Jesus preaches the kingdom of God in Galilee, calls four fishermen, and astonishes Capernaum by casting out unclean spirits and healing many, including a leper.",
+      "years": "AD 30",
+      "yearNum": 30,
+      "approx": true,
+      "place": "capernaum",
+      "themes": ["baptism", "repentance", "miracles", "discipleship"],
+      "characters": ["john-baptist", "jesus-christ", "satan", "peter", "andrew", "james", "john-beloved"],
+      "segments": [
+        { "s": 1, "e": 6, "speaker": "mark", "to": "reader", "note": "John prepares the way in the wilderness" },
+        { "s": 7, "e": 8, "speaker": "john-baptist", "to": "multitude", "note": "One mightier than I cometh" },
+        { "s": 9, "e": 20, "speaker": "mark", "to": "reader", "note": "Baptism, temptation, and four fishermen called" },
+        { "s": 21, "e": 45, "speaker": "mark", "to": "reader", "note": "Devils cast out; many healed in Galilee" }
+      ]
+    },
+    {
+      "c": 2,
+      "title": "Power to Forgive Sins",
+      "synopsis": "Friends lower a man with palsy through the roof, and Jesus both forgives his sins and heals him to prove his authority. He calls Levi the publican, eats with sinners, teaches of new wine in old bottles, and declares that the sabbath was made for man and that he is Lord of the sabbath.",
+      "years": "AD 31",
+      "yearNum": 31,
+      "approx": true,
+      "place": "capernaum",
+      "themes": ["miracles", "repentance", "law"],
+      "characters": ["jesus-christ", "matthew"],
+      "segments": [
+        { "s": 1, "e": 12, "speaker": "mark", "to": "reader", "note": "The palsied man lowered through the roof" },
+        { "s": 13, "e": 22, "speaker": "mark", "to": "reader", "note": "Levi called; new wine, old bottles" },
+        { "s": 23, "e": 28, "speaker": "mark", "to": "reader", "note": "The sabbath was made for man" }
+      ]
+    },
+    {
+      "c": 3,
+      "title": "The Calling of the Twelve",
+      "synopsis": "Jesus heals a man's withered hand on the sabbath, and the Pharisees begin plotting against him as multitudes press to touch him. He ordains twelve apostles to be with him and to preach, answers the charge that he casts out devils by Beelzebub, and teaches that whoever does the will of God is his brother, sister, and mother.",
+      "years": "AD 31",
+      "yearNum": 31,
+      "approx": true,
+      "place": "capernaum",
+      "themes": ["miracles", "priesthood", "discipleship"],
+      "characters": ["jesus-christ", "peter", "james", "john-beloved", "andrew", "judas-iscariot", "mary"],
+      "segments": [
+        { "s": 1, "e": 19, "speaker": "mark", "to": "reader", "note": "Withered hand healed; twelve ordained" },
+        { "s": 20, "e": 30, "speaker": "mark", "to": "reader", "note": "A house divided cannot stand" },
+        { "s": 31, "e": 35, "speaker": "mark", "to": "reader", "note": "Who is my mother and my brethren" }
+      ]
+    },
+    {
+      "c": 4,
+      "title": "Parables by the Sea",
+      "synopsis": "From a ship Jesus teaches the multitude the parable of the sower and explains it privately to his disciples. He adds parables of the candle, the growing seed, and the mustard seed, then stills a great storm on the sea, asking his fearful disciples why they have no faith.",
+      "years": "AD 32",
+      "yearNum": 32,
+      "approx": true,
+      "place": "sea-of-galilee",
+      "themes": ["parables", "faith"],
+      "characters": ["jesus-christ"],
+      "segments": [
+        { "s": 1, "e": 2, "speaker": "mark", "to": "reader", "note": "Jesus teaches from a ship" },
+        { "s": 3, "e": 9, "speaker": "jesus-christ", "to": "multitude", "note": "Parable of the sower" },
+        { "s": 10, "e": 10, "speaker": "mark", "to": "reader", "note": "The disciples ask about the parable" },
+        { "s": 11, "e": 32, "speaker": "jesus-christ", "to": "disciples", "note": "Sower explained; candle, seed, mustard seed" },
+        { "s": 33, "e": 34, "speaker": "mark", "to": "reader", "note": "He expounds all things privately" },
+        { "s": 35, "e": 41, "speaker": "mark", "to": "reader", "note": "Peace, be still; the storm obeys" }
+      ]
+    },
+    {
+      "c": 5,
+      "title": "Deliverance from Devils and Death",
+      "synopsis": "Among the Gadarenes Jesus casts a legion of devils out of a tormented man and sends them into a herd of swine. Back across the sea, a woman with an issue of blood is healed by touching his garment, and Jesus raises Jairus's twelve-year-old daughter with the words Talitha cumi.",
+      "years": "AD 32",
+      "yearNum": 32,
+      "approx": true,
+      "place": "sea-of-galilee",
+      "themes": ["miracles", "faith", "deliverance"],
+      "characters": ["jesus-christ", "peter", "james", "john-beloved"],
+      "segments": [
+        { "s": 1, "e": 20, "speaker": "mark", "to": "reader", "note": "Legion cast out among the Gadarenes" },
+        { "s": 21, "e": 34, "speaker": "mark", "to": "reader", "note": "A woman healed by touching his garment" },
+        { "s": 35, "e": 43, "speaker": "mark", "to": "reader", "note": "Jairus's daughter raised from death" }
+      ]
+    },
+    {
+      "c": 6,
+      "title": "A Prophet Without Honor",
+      "synopsis": "Rejected at Nazareth, Jesus marvels at his own country's unbelief and sends the twelve out two by two with power over unclean spirits. Herod, who beheaded John the Baptist at a rash oath, fears Jesus is John risen. Jesus feeds five thousand, walks on the sea to his laboring disciples, and heals throngs at Gennesaret.",
+      "years": "AD 32",
+      "yearNum": 32,
+      "approx": true,
+      "place": "nazareth",
+      "themes": ["missionary-work", "miracles", "martyrdom"],
+      "characters": ["jesus-christ", "herod", "john-baptist"],
+      "segments": [
+        { "s": 1, "e": 6, "speaker": "mark", "to": "reader", "note": "A prophet without honor at Nazareth" },
+        { "s": 7, "e": 13, "speaker": "mark", "to": "reader", "note": "The twelve sent forth two by two" },
+        { "s": 14, "e": 29, "speaker": "mark", "to": "reader", "note": "Herod beheads John the Baptist" },
+        { "s": 30, "e": 44, "speaker": "mark", "to": "reader", "note": "Five thousand fed with loaves and fishes" },
+        { "s": 45, "e": 52, "speaker": "mark", "to": "reader", "note": "Jesus walks on the sea" },
+        { "s": 53, "e": 56, "speaker": "mark", "to": "reader", "note": "Multitudes healed at Gennesaret" }
+      ]
+    },
+    {
+      "c": 7,
+      "title": "That Which Defileth a Man",
+      "synopsis": "Jesus rebukes Pharisees who honor the tradition of the elders above the commandments of God and teaches that a man is defiled by what proceeds from his heart. In the coasts of Tyre he heals the Syrophenician woman's daughter for her faith, and in Decapolis he opens the ears of a deaf man with the word Ephphatha.",
+      "years": "AD 32",
+      "yearNum": 32,
+      "approx": true,
+      "place": null,
+      "themes": ["law", "faith", "miracles"],
+      "characters": ["jesus-christ"],
+      "segments": [
+        { "s": 1, "e": 5, "speaker": "mark", "to": "reader", "note": "Pharisees complain of unwashed hands" },
+        { "s": 6, "e": 13, "speaker": "jesus-christ", "to": "pharisees", "note": "Tradition makes the word of God void" },
+        { "s": 14, "e": 16, "speaker": "jesus-christ", "to": "multitude", "note": "What truly defiles a man" },
+        { "s": 17, "e": 23, "speaker": "jesus-christ", "to": "disciples", "note": "Evil proceeds from within the heart" },
+        { "s": 24, "e": 37, "speaker": "mark", "to": "reader", "note": "Syrophenician's daughter healed; Ephphatha" }
+      ]
+    },
+    {
+      "c": 8,
+      "title": "Whom Say Ye That I Am",
+      "synopsis": "Jesus feeds four thousand, refuses the Pharisees' demand for a sign, and warns his disciples against their leaven. He heals a blind man at Bethsaida by stages, and at Caesarea Philippi Peter declares him the Christ. Jesus foretells his death and teaches that whoever will save his life shall lose it.",
+      "years": "AD 32",
+      "yearNum": 32,
+      "approx": true,
+      "place": "sea-of-galilee",
+      "themes": ["miracles", "revelation", "discipleship"],
+      "characters": ["jesus-christ", "peter"],
+      "segments": [
+        { "s": 1, "e": 26, "speaker": "mark", "to": "reader", "note": "Four thousand fed; blind man healed" },
+        { "s": 27, "e": 30, "speaker": "mark", "to": "reader", "note": "Peter declares, Thou art the Christ" },
+        { "s": 31, "e": 33, "speaker": "mark", "to": "reader", "note": "Death foretold; Peter rebuked" },
+        { "s": 34, "e": 38, "speaker": "jesus-christ", "to": "multitude", "note": "Take up the cross; lose life to save it" }
+      ]
+    },
+    {
+      "c": 9,
+      "title": "Transfiguration and a Father's Faith",
+      "synopsis": "Jesus is transfigured before Peter, James, and John, and Elias and Moses appear with him. He casts a dumb spirit out of a boy whose father cries, Lord, I believe; help thou mine unbelief. At Capernaum he teaches that whoever would be first must be servant of all, and warns against offending the little ones.",
+      "years": "AD 32",
+      "yearNum": 32,
+      "approx": true,
+      "place": "capernaum",
+      "themes": ["revelation", "faith", "humility"],
+      "characters": ["jesus-christ", "peter", "james", "john-beloved", "elijah", "moses"],
+      "segments": [
+        { "s": 1, "e": 13, "speaker": "mark", "to": "reader", "note": "The transfiguration on the mount" },
+        { "s": 14, "e": 29, "speaker": "mark", "to": "reader", "note": "Help thou mine unbelief; a boy freed" },
+        { "s": 30, "e": 34, "speaker": "mark", "to": "reader", "note": "Death foretold; disciples dispute greatness" },
+        { "s": 35, "e": 50, "speaker": "jesus-christ", "to": "twelve-apostles", "note": "Servant of all; offend not little ones" }
+      ]
+    },
+    {
+      "c": 10,
+      "title": "The Rich Man and Blind Bartimaeus",
+      "synopsis": "Beyond Jordan Jesus teaches that what God has joined no man should put asunder and blesses little children, for of such is the kingdom of God. A rich man goes away grieved when asked to sell all, James and John seek high places and learn that greatness is service, and blind Bartimaeus receives his sight at Jericho.",
+      "years": "AD 33",
+      "yearNum": 33,
+      "approx": true,
+      "place": "jericho",
+      "themes": ["family", "discipleship", "humility"],
+      "characters": ["jesus-christ", "peter", "james", "john-beloved"],
+      "segments": [
+        { "s": 1, "e": 16, "speaker": "mark", "to": "reader", "note": "Marriage taught; children blessed" },
+        { "s": 17, "e": 31, "speaker": "mark", "to": "reader", "note": "The rich man goes away grieved" },
+        { "s": 32, "e": 45, "speaker": "mark", "to": "reader", "note": "Death foretold; greatness is service" },
+        { "s": 46, "e": 52, "speaker": "mark", "to": "reader", "note": "Blind Bartimaeus healed at Jericho" }
+      ]
+    },
+    {
+      "c": 11,
+      "title": "Hosanna and the Cleansed Temple",
+      "synopsis": "Jesus rides into Jerusalem on a colt as the people spread branches and cry Hosanna. He curses a barren fig tree and casts the moneychangers out of the temple, declaring it a house of prayer for all nations. When the withered fig tree amazes Peter, Jesus teaches faith in God and forgiveness in prayer, then silences the priests who question his authority.",
+      "years": "AD 33",
+      "yearNum": 33,
+      "approx": false,
+      "place": "jerusalem",
+      "themes": ["worship", "faith", "prayer"],
+      "characters": ["jesus-christ", "peter"],
+      "segments": [
+        { "s": 1, "e": 11, "speaker": "mark", "to": "reader", "note": "The triumphal entry into Jerusalem" },
+        { "s": 12, "e": 19, "speaker": "mark", "to": "reader", "note": "Fig tree cursed; temple cleansed" },
+        { "s": 20, "e": 21, "speaker": "mark", "to": "reader", "note": "Peter marks the withered fig tree" },
+        { "s": 22, "e": 26, "speaker": "jesus-christ", "to": "disciples", "note": "Have faith in God; forgive when praying" },
+        { "s": 27, "e": 33, "speaker": "mark", "to": "reader", "note": "By what authority doest thou these things" }
+      ]
+    },
+    {
+      "c": 12,
+      "title": "The Widow's Two Mites",
+      "synopsis": "Jesus tells the parable of the wicked husbandmen who slay the beloved son, and the rulers seek to take him. He answers questions on tribute to Caesar, the resurrection, and the first commandment, teaching love of God and neighbor. Warning against the scribes' pride, he honors a poor widow whose two mites are more than all the rich cast in.",
+      "years": "AD 33",
+      "yearNum": 33,
+      "approx": false,
+      "place": "jerusalem",
+      "themes": ["parables", "law", "charity"],
+      "characters": ["jesus-christ"],
+      "segments": [
+        { "s": 1, "e": 12, "speaker": "mark", "to": "reader", "note": "Parable of the wicked husbandmen" },
+        { "s": 13, "e": 27, "speaker": "mark", "to": "reader", "note": "Render unto Caesar; God of the living" },
+        { "s": 28, "e": 34, "speaker": "mark", "to": "reader", "note": "The first and great commandments" },
+        { "s": 35, "e": 40, "speaker": "jesus-christ", "to": "multitude", "note": "David's son and Lord; beware the scribes" },
+        { "s": 41, "e": 44, "speaker": "mark", "to": "reader", "note": "The widow casts in her two mites" }
+      ]
+    },
+    {
+      "c": 13,
+      "title": "Signs Before the Second Coming",
+      "synopsis": "As Jesus leaves the temple he foretells that not one stone will be left upon another. On the mount of Olives he tells Peter, James, John, and Andrew of wars, false Christs, tribulation, and the gospel going to all nations before the Son of man comes in the clouds with great glory. Since no man knows the day, he commands all to watch.",
+      "years": "AD 33",
+      "yearNum": 33,
+      "approx": false,
+      "place": "jerusalem",
+      "themes": ["second-coming", "prophecy", "endurance"],
+      "characters": ["jesus-christ", "peter", "james", "john-beloved", "andrew"],
+      "segments": [
+        { "s": 1, "e": 4, "speaker": "mark", "to": "reader", "note": "Four disciples ask for signs on Olivet" },
+        { "s": 5, "e": 37, "speaker": "jesus-christ", "to": "disciples", "note": "Signs of the end; watch therefore" }
+      ]
+    },
+    {
+      "c": 14,
+      "title": "The Last Supper and Gethsemane",
+      "synopsis": "A woman anoints Jesus at Bethany while Judas covenants to betray him. At the passover Jesus institutes the sacrament of bread and wine, then suffers in Gethsemane, praying, Abba, Father, not what I will but what thou wilt. Betrayed and abandoned, he is condemned by the high priest as Peter denies him three times.",
+      "years": "AD 33",
+      "yearNum": 33,
+      "approx": false,
+      "place": "jerusalem",
+      "themes": ["sacrament", "atonement", "prayer"],
+      "characters": ["jesus-christ", "judas-iscariot", "peter", "james", "john-beloved", "caiaphas"],
+      "segments": [
+        { "s": 1, "e": 11, "speaker": "mark", "to": "reader", "note": "Anointing at Bethany; Judas covenants" },
+        { "s": 12, "e": 21, "speaker": "mark", "to": "reader", "note": "The passover; the betrayer foretold" },
+        { "s": 22, "e": 25, "speaker": "jesus-christ", "to": "twelve-apostles", "note": "The sacrament instituted" },
+        { "s": 26, "e": 42, "speaker": "mark", "to": "reader", "note": "Abba, Father; the agony in Gethsemane" },
+        { "s": 43, "e": 52, "speaker": "mark", "to": "reader", "note": "Betrayed with a kiss; all forsake him" },
+        { "s": 53, "e": 65, "speaker": "mark", "to": "reader", "note": "Condemned before the high priest" },
+        { "s": 66, "e": 72, "speaker": "mark", "to": "reader", "note": "Peter denies him thrice and weeps" }
+      ]
+    },
+    {
+      "c": 15,
+      "title": "Crucified Between Two Thieves",
+      "synopsis": "Pilate, willing to content the people, releases Barabbas and delivers Jesus to be crucified. Mocked and crowned with thorns, Jesus is crucified at Golgotha between two thieves; at his death the veil of the temple rends and the centurion confesses him the Son of God. Joseph of Arimathaea lays the body in a rock-hewn tomb as the women watch.",
+      "years": "AD 33",
+      "yearNum": 33,
+      "approx": false,
+      "place": "jerusalem",
+      "themes": ["atonement", "martyrdom"],
+      "characters": ["jesus-christ", "pilate", "mary-magdalene"],
+      "segments": [
+        { "s": 1, "e": 15, "speaker": "mark", "to": "reader", "note": "Pilate delivers Jesus; Barabbas released" },
+        { "s": 16, "e": 32, "speaker": "mark", "to": "reader", "note": "Mocked and crucified at Golgotha" },
+        { "s": 33, "e": 41, "speaker": "mark", "to": "reader", "note": "Darkness; Jesus dies; the veil rends" },
+        { "s": 42, "e": 47, "speaker": "mark", "to": "reader", "note": "Buried in Joseph of Arimathaea's tomb" }
+      ]
+    },
+    {
+      "c": 16,
+      "title": "The Resurrection and Great Commission",
+      "synopsis": "Mary Magdalene and the other women find the stone rolled away and an angel declaring that Jesus is risen. The risen Lord appears to Mary Magdalene, to two disciples, and to the eleven, commissioning them to preach the gospel to every creature. He is received up into heaven, and the disciples go forth, the Lord working with them.",
+      "years": "AD 33",
+      "yearNum": 33,
+      "approx": false,
+      "place": "jerusalem",
+      "themes": ["resurrection", "mission", "faith"],
+      "characters": ["mary-magdalene", "angel", "jesus-christ", "peter"],
+      "segments": [
+        { "s": 1, "e": 5, "speaker": "mark", "to": "reader", "note": "The women find the stone rolled away" },
+        { "s": 6, "e": 7, "speaker": "angel", "to": "mary-magdalene", "note": "He is risen; tell his disciples and Peter" },
+        { "s": 8, "e": 8, "speaker": "mark", "to": "reader", "note": "The women flee, trembling and amazed" },
+        { "s": 9, "e": 14, "speaker": "mark", "to": "reader", "note": "The risen Lord appears; unbelief rebuked" },
+        { "s": 15, "e": 18, "speaker": "jesus-christ", "to": "twelve-apostles", "note": "Preach the gospel to every creature" },
+        { "s": 19, "e": 20, "speaker": "mark", "to": "reader", "note": "Ascension; the disciples go forth" }
+      ]
+    }
+  ]
+}

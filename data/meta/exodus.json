@@ -1,0 +1,600 @@
+{
+  "book": "Exodus",
+  "slug": "exodus",
+  "narrator": "moses",
+  "plates": "law",
+  "chapters": [
+    {
+      "c": 1,
+      "title": "Israel Enslaved in Egypt",
+      "synopsis": "The children of Israel multiply mightily in Egypt until a new king arises who knew not Joseph. Fearing their numbers, Pharaoh sets taskmasters over them and makes their lives bitter with hard bondage. He commands the midwives and then all his people to destroy the newborn sons of the Hebrews, but the midwives fear God and the people multiply still.",
+      "years": "about 1350 BC",
+      "yearNum": -1350,
+      "approx": true,
+      "place": "egypt-goshen",
+      "themes": ["endurance", "family", "deliverance"],
+      "characters": ["pharaoh"],
+      "segments": [
+        { "s": 1, "e": 22, "speaker": "moses", "to": "reader", "note": "Bondage begins; the midwives fear God" }
+      ]
+    },
+    {
+      "c": 2,
+      "title": "The Birth and Flight of Moses",
+      "synopsis": "A Levite mother hides her son three months, then lays him in an ark of bulrushes on the river, where Pharaoh's daughter finds and raises him. Grown, Moses slays an Egyptian who smites a Hebrew and flees to Midian, where he marries Zipporah. God hears Israel's groaning and remembers his covenant with Abraham, Isaac, and Jacob.",
+      "years": "about 1330 BC",
+      "yearNum": -1330,
+      "approx": true,
+      "place": "egypt-goshen",
+      "themes": ["deliverance", "family", "covenant"],
+      "characters": ["moses", "pharaoh", "miriam", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 25, "speaker": "moses", "to": "reader", "note": "The ark of bulrushes; flight to Midian" }
+      ]
+    },
+    {
+      "c": 3,
+      "title": "The Burning Bush",
+      "synopsis": "Keeping Jethro's flock at Horeb, Moses turns aside to see a bush that burns without being consumed. God calls him by name, declares himself the God of Abraham, Isaac, and Jacob, and reveals his name I AM THAT I AM. He commissions Moses to bring Israel out of Egypt to a land flowing with milk and honey.",
+      "years": "about 1300 BC",
+      "yearNum": -1300,
+      "approx": true,
+      "place": "mount-sinai",
+      "themes": ["revelation", "deliverance", "covenant"],
+      "characters": ["moses", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 6, "speaker": "moses", "to": "reader", "note": "The bush burns; Moses hides his face" },
+        { "s": 7, "e": 22, "speaker": "the-lord", "to": "moses", "note": "I AM sends Moses to Pharaoh" }
+      ]
+    },
+    {
+      "c": 4,
+      "title": "Signs Given; Aaron Appointed",
+      "synopsis": "Moses fears the people will not believe, so the Lord gives him signs: the rod becomes a serpent and his hand turns leprous and is healed. When Moses pleads that he is slow of speech, the Lord appoints Aaron his brother as spokesman. Moses returns to Egypt, and the people believe and bow their heads when they hear the Lord has visited them.",
+      "years": "about 1300 BC",
+      "yearNum": -1300,
+      "approx": true,
+      "place": "mount-sinai",
+      "themes": ["faith", "revelation", "leadership"],
+      "characters": ["moses", "aaron", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 17, "speaker": "the-lord", "to": "moses", "note": "Three signs; Aaron shall be thy spokesman" },
+        { "s": 18, "e": 31, "speaker": "moses", "to": "reader", "note": "Return to Egypt; the people believe" }
+      ]
+    },
+    {
+      "c": 5,
+      "title": "Bricks Without Straw",
+      "synopsis": "Moses and Aaron ask Pharaoh to let Israel go and hold a feast to the Lord, but Pharaoh answers that he knows not the Lord. He withholds straw yet demands the same tale of bricks, and the Hebrew officers are beaten. The people blame Moses, and Moses asks the Lord why the people are treated so ill.",
+      "years": "about 1300 BC",
+      "yearNum": -1300,
+      "approx": true,
+      "place": "egypt-goshen",
+      "themes": ["endurance", "leadership", "faith"],
+      "characters": ["moses", "aaron", "pharaoh"],
+      "segments": [
+        { "s": 1, "e": 23, "speaker": "moses", "to": "reader", "note": "Pharaoh hardens; the burden increases" }
+      ]
+    },
+    {
+      "c": 6,
+      "title": "I Will Redeem You",
+      "synopsis": "The Lord answers Moses, declaring his name Jehovah and his covenant with the fathers. He promises with an outstretched arm to free Israel, take them for his people, and bring them to the promised land. The people cannot hear for anguish of spirit, and the genealogy of Moses and Aaron is set down.",
+      "years": "about 1300 BC",
+      "yearNum": -1300,
+      "approx": true,
+      "place": "egypt-goshen",
+      "themes": ["covenant", "deliverance", "revelation"],
+      "characters": ["moses", "aaron", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 8, "speaker": "the-lord", "to": "moses", "note": "I am Jehovah; I will redeem you" },
+        { "s": 9, "e": 30, "speaker": "moses", "to": "reader", "note": "Anguish of spirit; the fathers' genealogy" }
+      ]
+    },
+    {
+      "c": 7,
+      "title": "The Rod and the River of Blood",
+      "synopsis": "The Lord makes Moses as a god to Pharaoh, with Aaron as his prophet, and warns that Pharaoh's heart will be hardened. Aaron's rod becomes a serpent and swallows the rods of Pharaoh's magicians. Aaron smites the river and it turns to blood, killing the fish, yet Pharaoh will not hearken.",
+      "years": "about 1300 BC",
+      "yearNum": -1300,
+      "approx": true,
+      "place": "egypt-goshen",
+      "themes": ["miracles", "judgment", "deliverance"],
+      "characters": ["moses", "aaron", "pharaoh", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 5, "speaker": "the-lord", "to": "moses", "note": "Signs and wonders multiplied in Egypt" },
+        { "s": 6, "e": 25, "speaker": "moses", "to": "reader", "note": "The serpent rod; water turned to blood" }
+      ]
+    },
+    {
+      "c": 8,
+      "title": "Frogs, Lice, and Flies",
+      "synopsis": "Frogs cover the land, then lice, then swarms of flies, while Goshen is set apart untouched. Pharaoh bargains for relief and Moses entreats the Lord, who removes each plague. With each respite Pharaoh hardens his heart again and will not let the people go.",
+      "years": "about 1300 BC",
+      "yearNum": -1300,
+      "approx": true,
+      "place": "egypt-goshen",
+      "themes": ["miracles", "judgment", "pride-cycle"],
+      "characters": ["moses", "aaron", "pharaoh", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 32, "speaker": "moses", "to": "reader", "note": "Three plagues; Pharaoh's broken promises" }
+      ]
+    },
+    {
+      "c": 9,
+      "title": "Murrain, Boils, and Hail",
+      "synopsis": "A grievous murrain kills the cattle of Egypt, boils break out on man and beast, and hail mingled with fire smites everything left in the field. Israel's land of Goshen alone is spared. Pharaoh confesses he has sinned, but when the thunders cease he sins yet more and hardens his heart.",
+      "years": "about 1300 BC",
+      "yearNum": -1300,
+      "approx": true,
+      "place": "egypt-goshen",
+      "themes": ["judgment", "miracles", "pride-cycle"],
+      "characters": ["moses", "aaron", "pharaoh", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 35, "speaker": "moses", "to": "reader", "note": "Plagues on cattle, flesh, and field" }
+      ]
+    },
+    {
+      "c": 10,
+      "title": "Locusts and Thick Darkness",
+      "synopsis": "The Lord tells Moses these signs are to be told to his sons' sons, that they may know that he is the Lord. Locusts devour every green thing the hail left, and then a darkness that may be felt covers Egypt three days while Israel has light. Pharaoh offers partial terms, then drives Moses out, vowing he shall see his face no more.",
+      "years": "about 1300 BC",
+      "yearNum": -1300,
+      "approx": true,
+      "place": "egypt-goshen",
+      "themes": ["judgment", "records", "deliverance"],
+      "characters": ["moses", "aaron", "pharaoh", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 2, "speaker": "the-lord", "to": "moses", "note": "Tell thy son what I have wrought" },
+        { "s": 3, "e": 29, "speaker": "moses", "to": "reader", "note": "Locusts; three days of darkness" }
+      ]
+    },
+    {
+      "c": 11,
+      "title": "The Last Plague Announced",
+      "synopsis": "The Lord tells Moses one plague more will bring Pharaoh to thrust Israel out altogether. Moses announces that at midnight every firstborn in Egypt shall die, from Pharaoh's throne to the mill, while against Israel not even a dog shall move its tongue. Pharaoh's heart remains hardened, that the Lord's wonders may be multiplied.",
+      "years": "about 1300 BC",
+      "yearNum": -1300,
+      "approx": true,
+      "place": "egypt-goshen",
+      "themes": ["judgment", "prophecy", "deliverance"],
+      "characters": ["moses", "pharaoh", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 2, "speaker": "the-lord", "to": "moses", "note": "One plague more upon Pharaoh" },
+        { "s": 3, "e": 10, "speaker": "moses", "to": "reader", "note": "Death of the firstborn foretold" }
+      ]
+    },
+    {
+      "c": 12,
+      "title": "The Passover and the Exodus",
+      "synopsis": "The Lord institutes the Passover: a lamb without blemish, its blood on the doorposts, eaten in haste with unleavened bread. At midnight the destroyer smites Egypt's firstborn but passes over the marked houses of Israel. Pharaoh thrusts the people out, and after four hundred thirty years the hosts of Israel go free.",
+      "years": "about 1300 BC",
+      "yearNum": -1300,
+      "approx": true,
+      "place": "egypt-goshen",
+      "themes": ["deliverance", "atonement", "covenant", "worship"],
+      "characters": ["moses", "aaron", "pharaoh", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 20, "speaker": "the-lord", "to": "moses", "note": "The Passover lamb and feast ordained" },
+        { "s": 21, "e": 28, "speaker": "moses", "to": "israelites", "note": "Strike the blood on the lintel" },
+        { "s": 29, "e": 51, "speaker": "moses", "to": "reader", "note": "The firstborn smitten; Israel goes out" }
+      ]
+    },
+    {
+      "c": 13,
+      "title": "Firstborn Sanctified; Pillar of Fire",
+      "synopsis": "The Lord claims every firstborn of Israel as his own, and Moses commands the people to remember this day of deliverance forever. Israel carries Joseph's bones and is led not by the way of the Philistines but toward the Red sea. The Lord goes before them in a pillar of cloud by day and fire by night.",
+      "years": "about 1300 BC",
+      "yearNum": -1300,
+      "approx": true,
+      "place": "egypt-goshen",
+      "themes": ["covenant", "worship", "deliverance"],
+      "characters": ["moses", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 2, "speaker": "the-lord", "to": "moses", "note": "Sanctify unto me all the firstborn" },
+        { "s": 3, "e": 16, "speaker": "moses", "to": "israelites", "note": "Remember this day; unleavened bread" },
+        { "s": 17, "e": 22, "speaker": "moses", "to": "reader", "note": "The pillar of cloud and fire" }
+      ]
+    },
+    {
+      "c": 14,
+      "title": "The Red Sea Divided",
+      "synopsis": "Pharaoh pursues Israel with his chariots and traps them against the sea. Moses bids the fearful people stand still and see the salvation of the Lord, and the sea divides before his outstretched rod. Israel crosses on dry ground, the waters return upon the Egyptian host, and the people believe the Lord and his servant Moses.",
+      "years": "about 1300 BC",
+      "yearNum": -1300,
+      "approx": true,
+      "place": "red-sea",
+      "themes": ["deliverance", "faith", "miracles"],
+      "characters": ["moses", "pharaoh", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 4, "speaker": "the-lord", "to": "moses", "note": "Encamp by the sea; I will be honoured" },
+        { "s": 5, "e": 12, "speaker": "moses", "to": "reader", "note": "Pharaoh pursues; Israel fears" },
+        { "s": 13, "e": 14, "speaker": "moses", "to": "israelites", "note": "Stand still and see God's salvation" },
+        { "s": 15, "e": 18, "speaker": "the-lord", "to": "moses", "note": "Stretch out thy rod over the sea" },
+        { "s": 19, "e": 31, "speaker": "moses", "to": "reader", "note": "The crossing; Egypt's host overthrown" }
+      ]
+    },
+    {
+      "c": 15,
+      "title": "The Song of the Sea",
+      "synopsis": "Moses and Israel sing to the Lord who has triumphed gloriously, casting horse and rider into the sea, and Miriam answers with timbrels and dances. The song exalts the Lord as a man of war who will plant his people in his holy habitation. In the wilderness the bitter waters of Marah are made sweet by a tree the Lord shows Moses.",
+      "years": "about 1300 BC",
+      "yearNum": -1300,
+      "approx": true,
+      "place": "red-sea",
+      "themes": ["worship", "deliverance", "faith"],
+      "characters": ["moses", "miriam", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 19, "speaker": "moses", "to": "the-lord", "note": "The song of triumph at the sea" },
+        { "s": 20, "e": 27, "speaker": "moses", "to": "reader", "note": "Miriam's chorus; Marah made sweet" }
+      ]
+    },
+    {
+      "c": 16,
+      "title": "Manna and Quail from Heaven",
+      "synopsis": "In the wilderness of Sin the whole congregation murmurs for the flesh pots of Egypt. The Lord rains bread from heaven each morning and sends quail at evening, testing whether the people will walk in his law. A double portion falls before the sabbath, and an omer of manna is laid up before the Testimony for the generations to come.",
+      "years": "about 1300 BC",
+      "yearNum": -1300,
+      "approx": true,
+      "place": "wilderness-paran",
+      "themes": ["faith", "obedience", "miracles"],
+      "characters": ["moses", "aaron", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 3, "speaker": "moses", "to": "reader", "note": "The congregation murmurs for bread" },
+        { "s": 4, "e": 5, "speaker": "the-lord", "to": "moses", "note": "I will rain bread from heaven" },
+        { "s": 6, "e": 36, "speaker": "moses", "to": "reader", "note": "Manna gathered; the sabbath rest kept" }
+      ]
+    },
+    {
+      "c": 17,
+      "title": "Water from the Rock; Amalek",
+      "synopsis": "At Rephidim the people chide Moses for water, and the Lord commands him to smite the rock in Horeb, from which water flows. Amalek attacks Israel, and Joshua fights while Moses holds up his hands, stayed by Aaron and Hur, until victory. Moses builds an altar named Jehovah-nissi, the Lord my banner.",
+      "years": "about 1300 BC",
+      "yearNum": -1300,
+      "approx": true,
+      "place": "wilderness-paran",
+      "themes": ["miracles", "war", "prayer"],
+      "characters": ["moses", "aaron", "joshua", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 16, "speaker": "moses", "to": "reader", "note": "The smitten rock; hands upheld against Amalek" }
+      ]
+    },
+    {
+      "c": 18,
+      "title": "Jethro's Counsel to Moses",
+      "synopsis": "Jethro, Moses' father-in-law, brings Zipporah and her sons to the camp and rejoices at all the Lord has done. Seeing Moses judge the people from morning to evening, Jethro counsels him to teach the statutes and appoint able men as rulers of thousands, hundreds, fifties, and tens. Moses hearkens, and only the hard causes are brought to him.",
+      "years": "about 1300 BC",
+      "yearNum": -1300,
+      "approx": true,
+      "place": "mount-sinai",
+      "themes": ["leadership", "wisdom", "family"],
+      "characters": ["moses", "aaron"],
+      "segments": [
+        { "s": 1, "e": 27, "speaker": "moses", "to": "reader", "note": "Jethro rejoices; judges appointed" }
+      ]
+    },
+    {
+      "c": 19,
+      "title": "Sinai: A Kingdom of Priests",
+      "synopsis": "In the third month Israel camps before mount Sinai, and the Lord offers to make them a peculiar treasure, a kingdom of priests, and an holy nation if they obey his covenant. The people answer that all the Lord has spoken they will do. After three days of sanctification the mount burns with fire, smoke, and trumpet blasts as the Lord descends.",
+      "years": "about 1300 BC",
+      "yearNum": -1300,
+      "approx": true,
+      "place": "mount-sinai",
+      "themes": ["covenant", "revelation", "worship"],
+      "characters": ["moses", "aaron", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 2, "speaker": "moses", "to": "reader", "note": "Israel camps before the mount" },
+        { "s": 3, "e": 6, "speaker": "the-lord", "to": "moses", "note": "Ye shall be a kingdom of priests" },
+        { "s": 7, "e": 25, "speaker": "moses", "to": "reader", "note": "The people sanctified; the mount quakes" }
+      ]
+    },
+    {
+      "c": 20,
+      "title": "The Ten Commandments",
+      "synopsis": "God speaks the ten commandments from the smoking mount: no other gods, no graven images, his name not in vain, the sabbath kept holy, parents honoured, and no murder, adultery, theft, false witness, or coveting. The trembling people ask Moses to speak with them instead, lest they die. Moses draws near the thick darkness, and the Lord gives directions for altars of unhewn stone.",
+      "years": "about 1300 BC",
+      "yearNum": -1300,
+      "approx": true,
+      "place": "mount-sinai",
+      "themes": ["law", "covenant", "obedience", "worship"],
+      "characters": ["moses", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 17, "speaker": "the-lord", "to": "israelites", "note": "The ten commandments spoken from Sinai" },
+        { "s": 18, "e": 21, "speaker": "moses", "to": "reader", "note": "The people tremble; Moses draws near" },
+        { "s": 22, "e": 26, "speaker": "the-lord", "to": "moses", "note": "Build me an altar of earth" }
+      ]
+    },
+    {
+      "c": 21,
+      "title": "Judgments on Servants and Injuries",
+      "synopsis": "The Lord sets judgments before Israel governing Hebrew servants and their release in the seventh year. Laws follow for violence, injury, and negligence, including life for life, eye for eye, tooth for tooth. Owners are made answerable even for the goring ox that was known to push.",
+      "years": "about 1300 BC",
+      "yearNum": -1300,
+      "approx": true,
+      "place": "mount-sinai",
+      "themes": ["law", "justice-and-mercy"],
+      "characters": ["moses", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 36, "speaker": "the-lord", "to": "moses", "note": "Judgments on servitude and injury" }
+      ]
+    },
+    {
+      "c": 22,
+      "title": "Laws of Restitution and Mercy",
+      "synopsis": "The covenant code continues with restitution for theft, fire, and breach of trust. Israel must not vex the stranger nor afflict the widow and fatherless, for the Lord will hear their cry. Lending to the poor must be without usury, and the people are to be holy men unto their God.",
+      "years": "about 1300 BC",
+      "yearNum": -1300,
+      "approx": true,
+      "place": "mount-sinai",
+      "themes": ["law", "justice-and-mercy", "charity"],
+      "characters": ["moses", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 31, "speaker": "the-lord", "to": "moses", "note": "Restitution; care for stranger and widow" }
+      ]
+    },
+    {
+      "c": 23,
+      "title": "Justice, Feasts, and the Angel",
+      "synopsis": "The Lord forbids false report, following a multitude to do evil, and taking bribes, and commands rest for land and servant in the seventh year and the sabbath day. Three feasts in the year all males shall keep before the Lord. God promises his Angel to go before Israel to bring them into the land, warning them to make no covenant with its gods.",
+      "years": "about 1300 BC",
+      "yearNum": -1300,
+      "approx": true,
+      "place": "mount-sinai",
+      "themes": ["law", "worship", "covenant"],
+      "characters": ["moses", "the-lord", "angel"],
+      "segments": [
+        { "s": 1, "e": 33, "speaker": "the-lord", "to": "moses", "note": "Just judgment; feasts; the Angel promised" }
+      ]
+    },
+    {
+      "c": 24,
+      "title": "The Covenant Sealed in Blood",
+      "synopsis": "Moses tells the people all the words of the Lord, and they answer with one voice that they will obey. He builds an altar, sprinkles the blood of the covenant on the people, and with Aaron, Nadab, Abihu, and seventy elders sees the God of Israel. Moses goes up into the cloud-covered mount and remains forty days and forty nights.",
+      "years": "about 1300 BC",
+      "yearNum": -1300,
+      "approx": true,
+      "place": "mount-sinai",
+      "themes": ["covenant", "worship", "revelation"],
+      "characters": ["moses", "aaron", "joshua", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 2, "speaker": "the-lord", "to": "moses", "note": "Come up unto the Lord" },
+        { "s": 3, "e": 18, "speaker": "moses", "to": "reader", "note": "Blood of the covenant; forty days" }
+      ]
+    },
+    {
+      "c": 25,
+      "title": "The Ark and the Mercy Seat",
+      "synopsis": "The Lord asks a freewill offering of gold, silver, and fine materials, that Israel may make him a sanctuary so he may dwell among them. He gives the pattern of the ark of the testimony crowned by the mercy seat and cherubims, where he will meet and commune with Moses. Patterns follow for the table of shewbread and the candlestick of pure gold.",
+      "years": "about 1300 BC",
+      "yearNum": -1300,
+      "approx": true,
+      "place": "mount-sinai",
+      "themes": ["temple", "worship", "revelation"],
+      "characters": ["moses", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 1, "speaker": "moses", "to": "reader", "note": "The Lord speaks unto Moses" },
+        { "s": 2, "e": 40, "speaker": "the-lord", "to": "moses", "note": "Patterns for ark, table, and candlestick" }
+      ]
+    },
+    {
+      "c": 26,
+      "title": "The Pattern of the Tabernacle",
+      "synopsis": "The Lord details the tabernacle's ten curtains of fine twined linen, its coverings, boards, sockets, and bars. A veil of blue, purple, and scarlet divides the holy place from the most holy, where the ark rests. All is to be made after the pattern shown Moses in the mount.",
+      "years": "about 1300 BC",
+      "yearNum": -1300,
+      "approx": true,
+      "place": "mount-sinai",
+      "themes": ["temple", "worship", "obedience"],
+      "characters": ["moses", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 37, "speaker": "the-lord", "to": "moses", "note": "Curtains, boards, and the dividing veil" }
+      ]
+    },
+    {
+      "c": 27,
+      "title": "The Altar and the Court",
+      "synopsis": "The Lord prescribes the altar of shittim wood overlaid with brass, with horns on its four corners. The court of the tabernacle is hung with fine linen on pillars of brass. Pure olive oil beaten for the light is to keep the lamp burning always before the testimony.",
+      "years": "about 1300 BC",
+      "yearNum": -1300,
+      "approx": true,
+      "place": "mount-sinai",
+      "themes": ["temple", "worship"],
+      "characters": ["moses", "aaron", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 21, "speaker": "the-lord", "to": "moses", "note": "The brasen altar and the court" }
+      ]
+    },
+    {
+      "c": 28,
+      "title": "Garments for the Priesthood",
+      "synopsis": "Aaron and his sons are taken from among Israel to minister in the priest's office. Holy garments are prescribed for glory and beauty: the ephod, the breastplate of judgment with twelve engraved stones, the Urim and Thummim, the robe with bells and pomegranates, and the mitre's gold plate reading Holiness to the Lord. Aaron bears the names of the children of Israel upon his heart.",
+      "years": "about 1300 BC",
+      "yearNum": -1300,
+      "approx": true,
+      "place": "mount-sinai",
+      "themes": ["priesthood", "temple", "worship"],
+      "characters": ["moses", "aaron", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 43, "speaker": "the-lord", "to": "moses", "note": "Ephod, breastplate, and holy garments" }
+      ]
+    },
+    {
+      "c": 29,
+      "title": "The Consecration of the Priests",
+      "synopsis": "The Lord ordains the rites for hallowing Aaron and his sons: washing, anointing, and the sacrifices of consecration for seven days. The continual burnt offering of two lambs is commanded morning and evening at the tabernacle door. There the Lord promises to meet with Israel, dwell among them, and be their God.",
+      "years": "about 1300 BC",
+      "yearNum": -1300,
+      "approx": true,
+      "place": "mount-sinai",
+      "themes": ["priesthood", "worship", "covenant"],
+      "characters": ["moses", "aaron", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 46, "speaker": "the-lord", "to": "moses", "note": "Anointing rites; the daily offering" }
+      ]
+    },
+    {
+      "c": 30,
+      "title": "Incense, Ransom, and Anointing Oil",
+      "synopsis": "The Lord commands an altar of incense before the veil, where Aaron burns perpetual incense morning and evening. Every numbered soul gives a half shekel ransom, rich and poor alike, and a brasen laver is set for washing. The holy anointing oil and pure perfume are compounded, never to be imitated for common use.",
+      "years": "about 1300 BC",
+      "yearNum": -1300,
+      "approx": true,
+      "place": "mount-sinai",
+      "themes": ["temple", "worship", "law"],
+      "characters": ["moses", "aaron", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 38, "speaker": "the-lord", "to": "moses", "note": "Incense altar, atonement money, holy oil" }
+      ]
+    },
+    {
+      "c": 31,
+      "title": "Craftsmen Called; Tables Given",
+      "synopsis": "The Lord calls Bezaleel and Aholiab by name, filling them with the spirit of God in wisdom and workmanship for all the sanctuary's labor. The sabbath is given as a perpetual sign between the Lord and Israel throughout their generations. Moses receives two tables of testimony written with the finger of God.",
+      "years": "about 1300 BC",
+      "yearNum": -1300,
+      "approx": true,
+      "place": "mount-sinai",
+      "themes": ["temple", "covenant", "law"],
+      "characters": ["moses", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 17, "speaker": "the-lord", "to": "moses", "note": "Spirit-filled craftsmen; the sabbath sign" },
+        { "s": 18, "e": 18, "speaker": "moses", "to": "reader", "note": "Tables written with God's finger" }
+      ]
+    },
+    {
+      "c": 32,
+      "title": "The Golden Calf",
+      "synopsis": "While Moses tarries in the mount, the people make Aaron fashion a golden calf and rise up to play before it. The Lord's wrath waxes hot, but Moses pleads the covenant with Abraham, Isaac, and Israel, and the Lord repents of the evil. Coming down, Moses breaks the tables, grinds the calf to powder, and the sons of Levi rally to the Lord's side.",
+      "years": "about 1300 BC",
+      "yearNum": -1300,
+      "approx": true,
+      "place": "mount-sinai",
+      "themes": ["apostasy", "justice-and-mercy", "repentance"],
+      "characters": ["moses", "aaron", "joshua", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 6, "speaker": "moses", "to": "reader", "note": "Aaron makes the calf" },
+        { "s": 7, "e": 14, "speaker": "the-lord", "to": "moses", "note": "Wrath threatened; Moses intercedes" },
+        { "s": 15, "e": 35, "speaker": "moses", "to": "reader", "note": "The tables broken; Levi's zeal" }
+      ]
+    },
+    {
+      "c": 33,
+      "title": "Shew Me Thy Glory",
+      "synopsis": "The Lord tells Israel to journey on but says he will not go up in their midst, lest he consume the stiffnecked people, and Israel mourns. Moses meets the Lord at the tabernacle of the congregation, where the Lord speaks to him face to face, as a man speaks unto his friend. Moses pleads for the Lord's presence and asks to see his glory, and is granted to see his back parts from the cleft of the rock.",
+      "years": "about 1300 BC",
+      "yearNum": -1300,
+      "approx": true,
+      "place": "mount-sinai",
+      "themes": ["revelation", "prayer", "humility"],
+      "characters": ["moses", "joshua", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 3, "speaker": "the-lord", "to": "moses", "note": "Depart; I will not go up" },
+        { "s": 4, "e": 11, "speaker": "moses", "to": "reader", "note": "The tent pitched; face to face" },
+        { "s": 12, "e": 23, "speaker": "the-lord", "to": "moses", "note": "My presence shall go with thee" }
+      ]
+    },
+    {
+      "c": 34,
+      "title": "New Tables; The Lord Proclaimed",
+      "synopsis": "Moses hews two new tables and ascends Sinai, where the Lord descends and proclaims his name: merciful and gracious, longsuffering, abundant in goodness and truth. The covenant is renewed with warnings against the gods of Canaan, and the feasts and sabbath repeated. After forty days Moses returns, and the skin of his face shines so that he veils it before the people.",
+      "years": "about 1300 BC",
+      "yearNum": -1300,
+      "approx": true,
+      "place": "mount-sinai",
+      "themes": ["covenant", "justice-and-mercy", "revelation"],
+      "characters": ["moses", "aaron", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 3, "speaker": "the-lord", "to": "moses", "note": "Hew two tables like the first" },
+        { "s": 4, "e": 9, "speaker": "moses", "to": "reader", "note": "The Lord proclaims his merciful name" },
+        { "s": 10, "e": 26, "speaker": "the-lord", "to": "moses", "note": "Covenant renewed; feasts commanded" },
+        { "s": 27, "e": 35, "speaker": "moses", "to": "reader", "note": "Forty days; Moses' shining face" }
+      ]
+    },
+    {
+      "c": 35,
+      "title": "Willing Hearts Bring Offerings",
+      "synopsis": "Moses gathers the congregation, rehearses the sabbath command, and invites every willing heart to bring an offering for the sanctuary. Men and women bring gold, fine linen, and precious stones, and wise-hearted women spin with their hands. Bezaleel and Aholiab are named as the inspired craftsmen who will teach and work.",
+      "years": "about 1300 BC",
+      "yearNum": -1300,
+      "approx": true,
+      "place": "mount-sinai",
+      "themes": ["consecration", "worship", "obedience"],
+      "characters": ["moses", "aaron"],
+      "segments": [
+        { "s": 1, "e": 35, "speaker": "moses", "to": "reader", "note": "Freewill offerings for the sanctuary" }
+      ]
+    },
+    {
+      "c": 36,
+      "title": "More Than Enough for the Work",
+      "synopsis": "The wise-hearted workmen begin the sanctuary, and the people bring free offerings every morning. The craftsmen tell Moses the people bring much more than enough, and he restrains them from bringing. The curtains, boards, veil, and hanging of the tabernacle are made exactly as the Lord commanded.",
+      "years": "about 1300 BC",
+      "yearNum": -1300,
+      "approx": true,
+      "place": "mount-sinai",
+      "themes": ["consecration", "obedience", "temple"],
+      "characters": ["moses"],
+      "segments": [
+        { "s": 1, "e": 38, "speaker": "moses", "to": "reader", "note": "The people restrained; tabernacle built" }
+      ]
+    },
+    {
+      "c": 37,
+      "title": "The Holy Furniture Fashioned",
+      "synopsis": "Bezaleel makes the ark of shittim wood overlaid with pure gold, and the mercy seat with its two cherubims of beaten work. He fashions the table of shewbread, the candlestick of one beaten work of pure gold, and the altar of incense. The holy anointing oil and pure incense are compounded after the art of the apothecary.",
+      "years": "about 1300 BC",
+      "yearNum": -1300,
+      "approx": true,
+      "place": "mount-sinai",
+      "themes": ["temple", "worship", "obedience"],
+      "characters": ["moses"],
+      "segments": [
+        { "s": 1, "e": 29, "speaker": "moses", "to": "reader", "note": "Ark, mercy seat, and golden furniture" }
+      ]
+    },
+    {
+      "c": 38,
+      "title": "The Court Finished and Counted",
+      "synopsis": "The altar of burnt offering and its brasen vessels are made, and the laver from the lookingglasses of the assembling women. The hangings and pillars of the court are completed round about. A careful sum reckons all the gold, silver, and brass consecrated to the work.",
+      "years": "about 1300 BC",
+      "yearNum": -1300,
+      "approx": true,
+      "place": "mount-sinai",
+      "themes": ["temple", "consecration", "records"],
+      "characters": ["moses", "aaron"],
+      "segments": [
+        { "s": 1, "e": 31, "speaker": "moses", "to": "reader", "note": "Altar, laver, court, and the tally" }
+      ]
+    },
+    {
+      "c": 39,
+      "title": "The Work Finished and Blessed",
+      "synopsis": "The holy garments for Aaron are made: ephod, breastplate with twelve stones, robe, coats, and the plate of the holy crown engraved Holiness to the Lord. All the work of the tabernacle is finished as the Lord commanded Moses, and the people bring it to him. Moses looks upon all the work, and behold, they had done it as the Lord commanded, and Moses blesses them.",
+      "years": "about 1300 BC",
+      "yearNum": -1300,
+      "approx": true,
+      "place": "mount-sinai",
+      "themes": ["obedience", "priesthood", "temple"],
+      "characters": ["moses", "aaron"],
+      "segments": [
+        { "s": 1, "e": 43, "speaker": "moses", "to": "reader", "note": "Priestly garments; Moses blesses the work" }
+      ]
+    },
+    {
+      "c": 40,
+      "title": "The Glory Fills the Tabernacle",
+      "synopsis": "The Lord commands Moses to rear up the tabernacle on the first day of the first month and to anoint and sanctify it and the priests. Moses sets every piece in order as the Lord commanded him. A cloud covers the tent, the glory of the Lord fills the tabernacle, and the cloud and fire lead Israel in all their journeys.",
+      "years": "about 1300 BC",
+      "yearNum": -1300,
+      "approx": true,
+      "place": "mount-sinai",
+      "themes": ["temple", "worship", "revelation"],
+      "characters": ["moses", "aaron", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 15, "speaker": "the-lord", "to": "moses", "note": "Rear up and anoint the tabernacle" },
+        { "s": 16, "e": 38, "speaker": "moses", "to": "reader", "note": "All set in order; the glory descends" }
+      ]
+    }
+  ]
+}

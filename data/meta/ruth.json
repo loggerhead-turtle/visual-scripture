@@ -1,0 +1,175 @@
+{
+  "book": "Ruth",
+  "slug": "ruth",
+  "narrator": "chronicler",
+  "plates": "history",
+  "chapters": [
+    {
+      "c": 1,
+      "title": "Naomi and Ruth Return to Bethlehem",
+      "synopsis": "Famine drives Naomi's family from Bethlehem to Moab, where her sons marry Moabite women before Naomi's husband and both sons die. Widowed and bereft, Naomi determines to return home and urges her daughters-in-law to stay among their own people. Ruth clings to Naomi, declaring, 'whither thou goest, I will go,' and the two women arrive together in Bethlehem at the start of barley harvest.",
+      "years": "about 1100 BC",
+      "yearNum": -1100,
+      "approx": true,
+      "place": "bethlehem",
+      "themes": [
+        "family",
+        "endurance",
+        "covenant"
+      ],
+      "characters": [
+        "naomi",
+        "ruth"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 5,
+          "speaker": "chronicler",
+          "to": "reader",
+          "note": "Naomi's family and losses in Moab"
+        },
+        {
+          "s": 6,
+          "e": 18,
+          "speaker": "ruth",
+          "to": "naomi",
+          "note": "Ruth's vow of loyalty to Naomi"
+        },
+        {
+          "s": 19,
+          "e": 22,
+          "speaker": "chronicler",
+          "to": "reader",
+          "note": "Naomi and Ruth arrive in Bethlehem"
+        }
+      ]
+    },
+    {
+      "c": 2,
+      "title": "Ruth Gleans in the Field of Boaz",
+      "synopsis": "Ruth goes out to glean leftover grain to support herself and Naomi, and providentially comes to the field of Boaz, a kinsman of Naomi's husband. Boaz notices Ruth's kindness to Naomi and instructs his workers to let extra grain fall for her and to protect her. Ruth returns home with a generous gleaning, and Naomi rejoices to learn Boaz is a close relative.",
+      "years": "about 1100 BC",
+      "yearNum": -1100,
+      "approx": true,
+      "place": "bethlehem",
+      "themes": [
+        "charity",
+        "family",
+        "hope"
+      ],
+      "characters": [
+        "ruth",
+        "naomi",
+        "boaz"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 3,
+          "speaker": "chronicler",
+          "to": "reader",
+          "note": "Ruth goes to glean in the fields"
+        },
+        {
+          "s": 4,
+          "e": 16,
+          "speaker": "boaz",
+          "to": "ruth",
+          "note": "Boaz shows Ruth favor and protection"
+        },
+        {
+          "s": 17,
+          "e": 23,
+          "speaker": "chronicler",
+          "to": "reader",
+          "note": "Ruth reports the day's gleaning to Naomi"
+        }
+      ]
+    },
+    {
+      "c": 3,
+      "title": "Ruth at the Threshing Floor",
+      "synopsis": "Naomi instructs Ruth to approach Boaz at the threshing floor by night and ask him, as a near kinsman, to spread his skirt over her in marriage. Boaz blesses Ruth for not seeking a younger man and agrees to redeem her, but notes a nearer kinsman must first be given the chance. He sends her home before dawn with a generous gift of barley for Naomi.",
+      "years": "about 1100 BC",
+      "yearNum": -1100,
+      "approx": true,
+      "place": "bethlehem",
+      "themes": [
+        "family",
+        "covenant",
+        "hope"
+      ],
+      "characters": [
+        "ruth",
+        "naomi",
+        "boaz"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 5,
+          "speaker": "naomi",
+          "to": "ruth",
+          "note": "Naomi's instructions for the threshing floor"
+        },
+        {
+          "s": 6,
+          "e": 13,
+          "speaker": "boaz",
+          "to": "ruth",
+          "note": "Boaz promises to redeem Ruth if the nearer kinsman declines"
+        },
+        {
+          "s": 14,
+          "e": 18,
+          "speaker": "chronicler",
+          "to": "reader",
+          "note": "Ruth returns to Naomi with barley"
+        }
+      ]
+    },
+    {
+      "c": 4,
+      "title": "Boaz Redeems Ruth",
+      "synopsis": "At the city gate Boaz publicly offers the nearer kinsman the right to redeem Naomi's land and marry Ruth, but the man declines rather than jeopardize his own inheritance, and Boaz becomes Ruth's redeemer before witnesses and elders. Boaz marries Ruth, and she bears a son, Obed, whom the women of Bethlehem bless as a restorer of Naomi's life. The chapter closes with the genealogy from Pharez to David, Obed's grandson.",
+      "years": "about 1100 BC",
+      "yearNum": -1100,
+      "approx": true,
+      "place": "bethlehem",
+      "themes": [
+        "family",
+        "covenant",
+        "hope"
+      ],
+      "characters": [
+        "ruth",
+        "naomi",
+        "boaz"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 12,
+          "speaker": "boaz",
+          "to": "israelites",
+          "note": "Boaz redeems Ruth before the elders at the gate"
+        },
+        {
+          "s": 13,
+          "e": 17,
+          "speaker": "chronicler",
+          "to": "reader",
+          "note": "Ruth bears Obed; Naomi is comforted"
+        },
+        {
+          "s": 18,
+          "e": 22,
+          "speaker": "chronicler",
+          "to": "reader",
+          "note": "The genealogy from Pharez to David"
+        }
+      ]
+    }
+  ]
+}

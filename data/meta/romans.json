@@ -1,0 +1,232 @@
+{
+  "book": "Romans",
+  "slug": "romans",
+  "narrator": "paul",
+  "plates": "pauline-epistles",
+  "chapters": [
+    {
+      "c": 1,
+      "title": "The Gospel Is God's Power",
+      "synopsis": "Paul introduces himself to the saints at Rome as an apostle set apart for the gospel and declares he is not ashamed of it, for it is the power of God unto salvation to everyone who believes. He then describes how the gentile world, refusing to honor the God plainly revealed in creation, has descended into idolatry and every kind of unrighteousness.",
+      "years": "AD 57",
+      "yearNum": 57,
+      "approx": false,
+      "place": null,
+      "themes": ["grace", "faith", "mission"],
+      "characters": ["paul", "jesus-christ"],
+      "segments": [
+        { "s": 1, "e": 32, "speaker": "paul", "to": "church", "note": "Greeting; the gospel's power; the gentile world condemned" }
+      ]
+    },
+    {
+      "c": 2,
+      "title": "God Judges Without Respect of Persons",
+      "synopsis": "Paul warns that those who judge others while doing the same things store up wrath for themselves, for God will render to every man according to his deeds. Possessing the law or the name of Jew is not enough; true circumcision is of the heart, and the doers of the law are justified rather than the hearers.",
+      "years": "AD 57",
+      "yearNum": 57,
+      "approx": false,
+      "place": null,
+      "themes": ["judgment", "obedience", "justice-and-mercy"],
+      "characters": ["paul"],
+      "segments": [
+        { "s": 1, "e": 29, "speaker": "paul", "to": "church", "note": "God's impartial judgment of Jew and gentile alike" }
+      ]
+    },
+    {
+      "c": 3,
+      "title": "All Have Sinned, Justified Freely",
+      "synopsis": "Paul concludes that Jews and gentiles alike are all under sin, so that no flesh is justified by the deeds of the law. God's righteousness now comes by faith in Jesus Christ, whose atoning sacrifice justifies sinners freely by grace, leaving no room for boasting.",
+      "years": "AD 57",
+      "yearNum": 57,
+      "approx": false,
+      "place": null,
+      "themes": ["grace", "faith", "atonement"],
+      "characters": ["paul", "jesus-christ"],
+      "segments": [
+        { "s": 1, "e": 31, "speaker": "paul", "to": "church", "note": "All under sin; justification by grace through faith" }
+      ]
+    },
+    {
+      "c": 4,
+      "title": "Abraham Justified by Faith",
+      "synopsis": "Paul shows that Abraham was counted righteous because he believed God, long before circumcision or the law, and that David likewise described the blessedness of forgiven sin. Abraham, who staggered not at God's promise despite his age, becomes the father of all who believe.",
+      "years": "AD 57",
+      "yearNum": 57,
+      "approx": false,
+      "place": null,
+      "themes": ["faith", "covenant", "grace"],
+      "characters": ["paul", "abraham", "david", "sarah"],
+      "segments": [
+        { "s": 1, "e": 25, "speaker": "paul", "to": "church", "note": "Abraham's faith counted for righteousness" }
+      ]
+    },
+    {
+      "c": 5,
+      "title": "Peace with God Through Christ",
+      "synopsis": "Being justified by faith, believers have peace with God and rejoice even in tribulation, for God proved his love in that Christ died for us while we were yet sinners. As sin and death entered the world through one man, Adam, so righteousness and life abound to many through one man, Jesus Christ.",
+      "years": "AD 57",
+      "yearNum": 57,
+      "approx": false,
+      "place": null,
+      "themes": ["grace", "atonement", "hope"],
+      "characters": ["paul", "adam", "jesus-christ"],
+      "segments": [
+        { "s": 1, "e": 21, "speaker": "paul", "to": "church", "note": "Peace through justification; Adam and Christ contrasted" }
+      ]
+    },
+    {
+      "c": 6,
+      "title": "Dead to Sin, Alive to God",
+      "synopsis": "Paul teaches that those baptized into Christ are baptized into his death and raised to walk in newness of life, so they must not continue in sin that grace may abound. Freed from sin, believers become servants of righteousness, for the wages of sin is death but the gift of God is eternal life.",
+      "years": "AD 57",
+      "yearNum": 57,
+      "approx": false,
+      "place": null,
+      "themes": ["baptism", "repentance", "obedience"],
+      "characters": ["paul", "jesus-christ"],
+      "segments": [
+        { "s": 1, "e": 23, "speaker": "paul", "to": "church", "note": "Baptism into newness of life; servants of righteousness" }
+      ]
+    },
+    {
+      "c": 7,
+      "title": "The Law and the Inner Struggle",
+      "synopsis": "Paul explains that believers are dead to the law through the body of Christ, as a widow is freed from the law of her husband. He describes the anguished struggle of the divided self, willing what is good yet doing what he hates, and cries out for deliverance through Jesus Christ.",
+      "years": "AD 57",
+      "yearNum": 57,
+      "approx": false,
+      "place": null,
+      "themes": ["law", "repentance", "deliverance"],
+      "characters": ["paul"],
+      "segments": [
+        { "s": 1, "e": 25, "speaker": "paul", "to": "church", "note": "Freed from the law; the war within" }
+      ]
+    },
+    {
+      "c": 8,
+      "title": "Life in the Spirit",
+      "synopsis": "There is now no condemnation to those in Christ Jesus who walk after the Spirit, by whom believers cry Abba, Father, as joint-heirs with Christ. Paul declares that all things work together for good to them that love God, and that nothing in creation can separate the saints from the love of God in Christ.",
+      "years": "AD 57",
+      "yearNum": 57,
+      "approx": false,
+      "place": null,
+      "themes": ["grace", "hope", "endurance"],
+      "characters": ["paul", "jesus-christ"],
+      "segments": [
+        { "s": 1, "e": 39, "speaker": "paul", "to": "church", "note": "No condemnation; nothing separates us from God's love" }
+      ]
+    },
+    {
+      "c": 9,
+      "title": "God's Purpose Concerning Israel",
+      "synopsis": "Paul grieves for his kinsmen Israel and reviews how God's promise has always run through chosen lines, from Isaac to Jacob, for the children of the promise are counted as the seed. God, like a potter over the clay, shows mercy on whom he will, and has called a people from among both Jews and gentiles.",
+      "years": "AD 57",
+      "yearNum": 57,
+      "approx": false,
+      "place": null,
+      "themes": ["covenant", "gathering-of-israel", "justice-and-mercy"],
+      "characters": ["paul", "abraham", "isaac", "moses"],
+      "segments": [
+        { "s": 1, "e": 33, "speaker": "paul", "to": "church", "note": "Sorrow for Israel; the children of promise" }
+      ]
+    },
+    {
+      "c": 10,
+      "title": "Faith Comes by Hearing",
+      "synopsis": "Paul testifies that Israel has a zeal for God without knowledge, seeking to establish its own righteousness instead of the righteousness of faith. Whosoever shall call upon the name of the Lord shall be saved, yet none can call without hearing, nor hear without a preacher, for faith comes by hearing the word of God.",
+      "years": "AD 57",
+      "yearNum": 57,
+      "approx": false,
+      "place": null,
+      "themes": ["faith", "missionary-work"],
+      "characters": ["paul", "moses", "isaiah"],
+      "segments": [
+        { "s": 1, "e": 21, "speaker": "paul", "to": "church", "note": "Righteousness by faith; beautiful feet of preachers" }
+      ]
+    },
+    {
+      "c": 11,
+      "title": "A Remnant of Israel Preserved",
+      "synopsis": "Paul insists God has not cast away his people, for as in Elijah's day a faithful remnant remains according to the election of grace. Using the figure of an olive tree, he warns the grafted-in gentiles not to boast against the natural branches, for Israel's blindness is partial and temporary, and all Israel shall be saved.",
+      "years": "AD 57",
+      "yearNum": 57,
+      "approx": false,
+      "place": null,
+      "themes": ["gathering-of-israel", "covenant", "hope"],
+      "characters": ["paul", "elijah"],
+      "segments": [
+        { "s": 1, "e": 36, "speaker": "paul", "to": "church", "note": "The remnant; olive tree; all Israel saved" }
+      ]
+    },
+    {
+      "c": 12,
+      "title": "A Living Sacrifice of Love",
+      "synopsis": "Paul beseeches the saints to present their bodies a living sacrifice and to be transformed by the renewing of their minds rather than conformed to the world. As one body with many members exercising differing gifts, they are to love without hypocrisy, bless their persecutors, and overcome evil with good.",
+      "years": "AD 57",
+      "yearNum": 57,
+      "approx": false,
+      "place": null,
+      "themes": ["discipleship", "charity", "humility"],
+      "characters": ["paul"],
+      "segments": [
+        { "s": 1, "e": 21, "speaker": "paul", "to": "church", "note": "Living sacrifice; many members, one body; sincere love" }
+      ]
+    },
+    {
+      "c": 13,
+      "title": "Love Fulfils the Law",
+      "synopsis": "Paul counsels the saints to be subject to governing powers and to render taxes, custom, fear, and honor where they are due. All the commandments are summed up in loving one's neighbor as oneself, and knowing the night is far spent, believers should cast off the works of darkness and put on the Lord Jesus Christ.",
+      "years": "AD 57",
+      "yearNum": 57,
+      "approx": false,
+      "place": null,
+      "themes": ["obedience", "charity", "second-coming"],
+      "characters": ["paul"],
+      "segments": [
+        { "s": 1, "e": 14, "speaker": "paul", "to": "church", "note": "Subjection to authority; love fulfils the law" }
+      ]
+    },
+    {
+      "c": 14,
+      "title": "Receive the Weak in Faith",
+      "synopsis": "Paul urges the strong not to despise nor judge those with scruples about food and holy days, for every servant stands or falls to his own master and each will answer to God. The kingdom of God is not meat and drink but righteousness, peace, and joy, so no one should put a stumbling block in a brother's way.",
+      "years": "AD 57",
+      "yearNum": 57,
+      "approx": false,
+      "place": null,
+      "themes": ["charity", "judgment", "agency"],
+      "characters": ["paul"],
+      "segments": [
+        { "s": 1, "e": 23, "speaker": "paul", "to": "church", "note": "Do not judge a brother over meat and days" }
+      ]
+    },
+    {
+      "c": 15,
+      "title": "Christ, the Hope of All Nations",
+      "synopsis": "Paul teaches that the strong ought to bear the infirmities of the weak, following Christ who pleased not himself, and cites the prophets to show that the gentiles were always meant to glorify God. He describes his own ministry from Jerusalem round about to Illyricum and his plans to visit Rome on his way to Spain after carrying a collection to the poor saints at Jerusalem.",
+      "years": "AD 57",
+      "yearNum": 57,
+      "approx": false,
+      "place": null,
+      "themes": ["mission", "hope", "charity"],
+      "characters": ["paul", "jesus-christ", "isaiah"],
+      "segments": [
+        { "s": 1, "e": 33, "speaker": "paul", "to": "church", "note": "Gentile hope; Paul's ministry and travel plans" }
+      ]
+    },
+    {
+      "c": 16,
+      "title": "Greetings and Final Benediction",
+      "synopsis": "Paul commends Phebe and sends warm greetings to a long roll of fellow laborers in Rome, including Priscilla and Aquila who risked their own necks for his life. He warns the saints to mark and avoid those who cause divisions, and closes with praise to God who is able to establish them according to the gospel.",
+      "years": "AD 57",
+      "yearNum": 57,
+      "approx": false,
+      "place": null,
+      "themes": ["charity", "mission", "endurance"],
+      "characters": ["paul", "aquila-priscilla", "timothy"],
+      "segments": [
+        { "s": 1, "e": 27, "speaker": "paul", "to": "church", "note": "Personal greetings, warnings, and doxology" }
+      ]
+    }
+  ]
+}

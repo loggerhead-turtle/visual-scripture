@@ -1,0 +1,122 @@
+{
+  "book": "Micah",
+  "slug": "micah",
+  "narrator": "micah",
+  "plates": "prophets-minor",
+  "chapters": [
+    {
+      "c": 1,
+      "title": "Samaria and Jerusalem Judged",
+      "synopsis": "Micah receives a vision concerning Samaria and Jerusalem, seeing the Lord come down from his place so that the mountains melt beneath him. Samaria's idolatry brings an incurable wound that reaches even to the gate of Jerusalem, and Micah laments over the towns of Judah with wordplay on their names.",
+      "years": "about 720 BC",
+      "yearNum": -720,
+      "approx": true,
+      "place": null,
+      "themes": ["judgment", "apostasy", "prophecy"],
+      "characters": ["micah", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 1, "speaker": "micah", "to": "reader", "note": "Micah's vision concerning Samaria and Jerusalem" },
+        { "s": 2, "e": 7, "speaker": "the-lord", "to": "house-of-israel", "note": "The Lord comes down; mountains melt in judgment" },
+        { "s": 8, "e": 16, "speaker": "micah", "to": "reader", "note": "Micah laments Samaria's wound reaching Jerusalem's gate" }
+      ]
+    },
+    {
+      "c": 2,
+      "title": "Woe to the Covetous",
+      "synopsis": "The Lord pronounces woe on those who devise iniquity upon their beds, coveting fields and houses and oppressing a man and his heritage. Micah exposes false prophets who preach only of wine and strong drink while silencing true prophecy, yet the Lord promises to gather the remnant of Israel like sheep in a fold.",
+      "years": "about 720 BC",
+      "yearNum": -720,
+      "approx": true,
+      "place": null,
+      "themes": ["judgment", "justice-and-mercy", "gathering-of-israel"],
+      "characters": ["micah", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 5, "speaker": "the-lord", "to": "house-of-israel", "note": "Woe to those who covet fields and oppress" },
+        { "s": 6, "e": 11, "speaker": "micah", "to": "reader", "note": "False prophets preach only ease; true prophets silenced" },
+        { "s": 12, "e": 13, "speaker": "the-lord", "to": "house-of-israel", "note": "The remnant of Israel gathered like sheep" }
+      ]
+    },
+    {
+      "c": 3,
+      "title": "Zion Plowed as a Field",
+      "synopsis": "Micah condemns the rulers of Israel who hate good and love evil, who eat the flesh of the people they should protect, and the false prophets who divine for money. Filled with the power of the Spirit to declare Jacob's transgression, Micah warns that because of the leaders' bribery and bloodshed, Zion shall be plowed as a field and Jerusalem become heaps.",
+      "years": "about 720 BC",
+      "yearNum": -720,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["justice-and-mercy", "judgment", "leadership"],
+      "characters": ["micah"],
+      "segments": [
+        { "s": 1, "e": 4, "speaker": "micah", "to": "reader", "note": "Rulers who abhor judgment, who devour my people" },
+        { "s": 5, "e": 8, "speaker": "micah", "to": "reader", "note": "False prophets for hire; Micah full of power and spirit" },
+        { "s": 9, "e": 12, "speaker": "micah", "to": "reader", "note": "Zion shall be plowed as a field for bribery and blood" }
+      ]
+    },
+    {
+      "c": 4,
+      "title": "Swords into Plowshares",
+      "synopsis": "In the last days, Micah sees the Lord's mountain established above the hills, with many nations flowing to it to learn his ways, beating their swords into plowshares so that every man may sit under his own vine and fig tree. The Lord promises to gather the lame and outcast into a strong nation, and though the daughter of Zion is besieged, she will be delivered from her enemies.",
+      "years": "about 720 BC",
+      "yearNum": -720,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["second-coming", "peace", "gathering-of-israel"],
+      "characters": ["micah", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 5, "speaker": "micah", "to": "reader", "note": "In the last days many nations flow to the Lord's mountain" },
+        { "s": 6, "e": 8, "speaker": "the-lord", "to": "house-of-israel", "note": "The Lord gathers the lame and outcast, a strong nation" },
+        { "s": 9, "e": 13, "speaker": "micah", "to": "reader", "note": "Daughter of Zion besieged, yet delivered from her enemies" }
+      ]
+    },
+    {
+      "c": 5,
+      "title": "A Ruler Out of Bethlehem",
+      "synopsis": "Though Bethlehem Ephratah is little among the thousands of Judah, out of it shall come forth a ruler whose goings forth have been from of old, from everlasting, and this one shall be peace when Assyria invades the land. The remnant of Jacob will be as dew among many nations, and the Lord will cut off the horses, chariots, witchcrafts, and graven images of his people.",
+      "years": "about 720 BC",
+      "yearNum": -720,
+      "approx": true,
+      "place": "bethlehem",
+      "themes": ["messiah", "prophecy", "covenant"],
+      "characters": ["micah", "the-lord", "jesus-christ"],
+      "segments": [
+        { "s": 1, "e": 3, "speaker": "the-lord", "to": "house-of-israel", "note": "Out of Bethlehem shall come forth a ruler from everlasting" },
+        { "s": 4, "e": 6, "speaker": "micah", "to": "reader", "note": "This one shall be peace when Assyria invades" },
+        { "s": 7, "e": 9, "speaker": "micah", "to": "reader", "note": "The remnant of Jacob as dew among many nations" },
+        { "s": 10, "e": 15, "speaker": "the-lord", "to": "house-of-israel", "note": "The Lord cuts off horses, witchcrafts, and graven images" }
+      ]
+    },
+    {
+      "c": 6,
+      "title": "What Doth the Lord Require",
+      "synopsis": "The Lord brings a controversy against his people, asking what he has done to weary them and recalling how he brought them from Egypt despite Balak and Balaam. Micah declares that the Lord requires only to do justly, love mercy, and walk humbly with God, and condemns the wicked balances and violence that instead fill the city.",
+      "years": "about 720 BC",
+      "yearNum": -720,
+      "approx": true,
+      "place": null,
+      "themes": ["justice-and-mercy", "humility", "covenant"],
+      "characters": ["micah", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 5, "speaker": "the-lord", "to": "house-of-israel", "note": "The Lord's controversy: what have I done unto thee?" },
+        { "s": 6, "e": 8, "speaker": "micah", "to": "reader", "note": "Do justly, love mercy, walk humbly with thy God" },
+        { "s": 9, "e": 16, "speaker": "the-lord", "to": "house-of-israel", "note": "Wicked balances and violence bring desolation" }
+      ]
+    },
+    {
+      "c": 7,
+      "title": "Who Is a God Like Thee",
+      "synopsis": "Micah laments that the godly have perished and no man can trust his neighbor or even his own household, yet he will look unto the Lord and wait for the God of his salvation. He foresees cities rebuilt and nations confounded, and closes praising the Lord who pardons iniquity and casts sins into the depths of the sea, performing the ancient oath sworn to Abraham and Jacob.",
+      "years": "about 720 BC",
+      "yearNum": -720,
+      "approx": true,
+      "place": null,
+      "themes": ["hope", "justice-and-mercy", "covenant"],
+      "characters": ["micah", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 6, "speaker": "micah", "to": "reader", "note": "The godly perished; no man may trust his neighbor" },
+        { "s": 7, "e": 10, "speaker": "micah", "to": "reader", "note": "I will look unto the Lord and wait for him" },
+        { "s": 11, "e": 17, "speaker": "the-lord", "to": "house-of-israel", "note": "Cities rebuilt; nations confounded before the Lord" },
+        { "s": 18, "e": 20, "speaker": "micah", "to": "the-lord", "note": "Who is a God like thee, pardoning iniquity" }
+      ]
+    }
+  ]
+}

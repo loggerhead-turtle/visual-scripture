@@ -1,0 +1,442 @@
+{
+  "book": "Proverbs",
+  "slug": "proverbs",
+  "narrator": "solomon",
+  "plates": "wisdom",
+  "chapters": [
+    {
+      "c": 1,
+      "title": "The Beginning of Knowledge",
+      "synopsis": "Solomon opens his collection of proverbs and declares that the fear of the Lord is the beginning of knowledge. He warns his son against joining sinners who lie in wait for blood, and wisdom herself cries aloud in the streets against those who refuse her counsel.",
+      "years": "about 950 BC",
+      "yearNum": -950,
+      "approx": true,
+      "place": null,
+      "themes": ["wisdom", "humility", "family"],
+      "characters": ["solomon"],
+      "segments": [
+        { "s": 1, "e": 33, "speaker": "solomon", "to": "reader", "note": "The purpose of proverbs; wisdom cries in the streets" }
+      ]
+    },
+    {
+      "c": 2,
+      "title": "Searching for Wisdom as Treasure",
+      "synopsis": "Solomon urges his son to seek wisdom as men search for silver and hidden treasures. Those who find it receive understanding from the Lord, and it preserves them from the ways of evil men and the flattering stranger.",
+      "years": "about 950 BC",
+      "yearNum": -950,
+      "approx": true,
+      "place": null,
+      "themes": ["wisdom", "family"],
+      "characters": ["solomon"],
+      "segments": [
+        { "s": 1, "e": 22, "speaker": "solomon", "to": "reader", "note": "Seek wisdom like hid treasure; it preserves the upright" }
+      ]
+    },
+    {
+      "c": 3,
+      "title": "Trust in the Lord Wholly",
+      "synopsis": "Solomon counsels his son to trust in the Lord with all his heart and lean not on his own understanding. He teaches that the Lord chastens those he loves, and pronounces happy the man who finds wisdom, whose ways are ways of pleasantness and peace.",
+      "years": "about 950 BC",
+      "yearNum": -950,
+      "approx": true,
+      "place": null,
+      "themes": ["wisdom", "humility"],
+      "characters": ["solomon"],
+      "segments": [
+        { "s": 1, "e": 35, "speaker": "solomon", "to": "reader", "note": "Trust the Lord; happy is the man that findeth wisdom" }
+      ]
+    },
+    {
+      "c": 4,
+      "title": "Get Wisdom, Get Understanding",
+      "synopsis": "Solomon recalls the instruction his own father gave him and passes it to his children: wisdom is the principal thing, so get wisdom at any cost. The path of the just shines brighter unto the perfect day, and he charges his son to keep his heart with all diligence.",
+      "years": "about 950 BC",
+      "yearNum": -950,
+      "approx": true,
+      "place": null,
+      "themes": ["wisdom", "family"],
+      "characters": ["solomon"],
+      "segments": [
+        { "s": 1, "e": 27, "speaker": "solomon", "to": "reader", "note": "A father's charge: wisdom is the principal thing" }
+      ]
+    },
+    {
+      "c": 5,
+      "title": "Rejoice with the Wife of Thy Youth",
+      "synopsis": "Solomon warns his son against the strange woman whose end is bitter as wormwood. He counsels faithfulness instead, urging him to drink from his own cistern and rejoice with the wife of his youth, for the ways of man are before the eyes of the Lord.",
+      "years": "about 950 BC",
+      "yearNum": -950,
+      "approx": true,
+      "place": null,
+      "themes": ["family", "wisdom"],
+      "characters": ["solomon"],
+      "segments": [
+        { "s": 1, "e": 23, "speaker": "solomon", "to": "reader", "note": "Flee the strange woman; be faithful in marriage" }
+      ]
+    },
+    {
+      "c": 6,
+      "title": "Go to the Ant, Thou Sluggard",
+      "synopsis": "Solomon warns against rash pledges of surety and sends the sluggard to learn diligence from the ant. He lists seven things the Lord hates, including a proud look and hands that shed innocent blood, and again warns that adultery destroys the soul.",
+      "years": "about 950 BC",
+      "yearNum": -950,
+      "approx": true,
+      "place": null,
+      "themes": ["wisdom", "humility", "family"],
+      "characters": ["solomon"],
+      "segments": [
+        { "s": 1, "e": 35, "speaker": "solomon", "to": "reader", "note": "The ant's diligence; seven things the Lord hates" }
+      ]
+    },
+    {
+      "c": 7,
+      "title": "The Flattering Words of Folly",
+      "synopsis": "Solomon tells of watching a young man void of understanding drawn away by the flattering words of a seductress. The youth follows her as an ox goes to the slaughter, and Solomon pleads with his sons not to stray into her paths, for her house is the way to death.",
+      "years": "about 950 BC",
+      "yearNum": -950,
+      "approx": true,
+      "place": null,
+      "themes": ["wisdom", "family"],
+      "characters": ["solomon"],
+      "segments": [
+        { "s": 1, "e": 27, "speaker": "solomon", "to": "reader", "note": "A cautionary tale of the youth and the seductress" }
+      ]
+    },
+    {
+      "c": 8,
+      "title": "Wisdom Cries at the Gates",
+      "synopsis": "Wisdom is personified as a woman crying at the gates of the city, offering counsel better than rubies. She declares that she was with the Lord before the creation of the earth, rejoicing always before him, and that all who find her find life.",
+      "years": "about 950 BC",
+      "yearNum": -950,
+      "approx": true,
+      "place": null,
+      "themes": ["wisdom"],
+      "characters": ["solomon"],
+      "segments": [
+        { "s": 1, "e": 36, "speaker": "solomon", "to": "reader", "note": "Wisdom personified; she was with the Lord at creation" }
+      ]
+    },
+    {
+      "c": 9,
+      "title": "Wisdom Hath Builded Her House",
+      "synopsis": "Wisdom builds her house on seven pillars and spreads a feast, inviting the simple to forsake foolishness and live. The foolish woman also calls from her doorway, but her guests do not know that the dead are there. The fear of the Lord remains the beginning of wisdom.",
+      "years": "about 950 BC",
+      "yearNum": -950,
+      "approx": true,
+      "place": null,
+      "themes": ["wisdom", "humility"],
+      "characters": ["solomon"],
+      "segments": [
+        { "s": 1, "e": 18, "speaker": "solomon", "to": "reader", "note": "Two feasts: wisdom's invitation and folly's snare" }
+      ]
+    },
+    {
+      "c": 10,
+      "title": "A Wise Son Maketh Glad",
+      "synopsis": "Solomon begins his great collection of two-line sayings, contrasting the righteous and the wicked. A wise son makes a glad father, the memory of the just is blessed, and hatred stirs strife while love covers all sins.",
+      "years": "about 950 BC",
+      "yearNum": -950,
+      "approx": true,
+      "place": null,
+      "themes": ["wisdom", "family"],
+      "characters": ["solomon"],
+      "segments": [
+        { "s": 1, "e": 32, "speaker": "solomon", "to": "reader", "note": "Couplets contrasting the righteous and the wicked" }
+      ]
+    },
+    {
+      "c": 11,
+      "title": "A Just Weight Is His Delight",
+      "synopsis": "Solomon teaches that a false balance is abomination to the Lord but a just weight is his delight. Pride brings shame while with the lowly is wisdom, and the liberal soul that waters others shall itself be watered.",
+      "years": "about 950 BC",
+      "yearNum": -950,
+      "approx": true,
+      "place": null,
+      "themes": ["wisdom", "humility"],
+      "characters": ["solomon"],
+      "segments": [
+        { "s": 1, "e": 31, "speaker": "solomon", "to": "reader", "note": "Honest dealing, humility, and the generous soul" }
+      ]
+    },
+    {
+      "c": 12,
+      "title": "Whoso Loveth Instruction",
+      "synopsis": "Solomon contrasts those who love instruction with those who hate reproof. A virtuous woman is a crown to her husband, a righteous man regards the life of his beast, and lying lips are abomination to the Lord.",
+      "years": "about 950 BC",
+      "yearNum": -950,
+      "approx": true,
+      "place": null,
+      "themes": ["wisdom", "family"],
+      "characters": ["solomon"],
+      "segments": [
+        { "s": 1, "e": 28, "speaker": "solomon", "to": "reader", "note": "Instruction, truthful lips, and diligent labor" }
+      ]
+    },
+    {
+      "c": 13,
+      "title": "The Light of the Righteous",
+      "synopsis": "Solomon teaches that a wise son hears his father's instruction and that hope deferred makes the heart sick. The light of the righteous rejoices, wealth gotten by vanity diminishes, and he that spares the rod fails to love his son.",
+      "years": "about 950 BC",
+      "yearNum": -950,
+      "approx": true,
+      "place": null,
+      "themes": ["wisdom", "family"],
+      "characters": ["solomon"],
+      "segments": [
+        { "s": 1, "e": 25, "speaker": "solomon", "to": "reader", "note": "Hope, honest wealth, and a father's correction" }
+      ]
+    },
+    {
+      "c": 14,
+      "title": "Every Wise Woman Buildeth Her House",
+      "synopsis": "Solomon observes that every wise woman builds her house while the foolish plucks it down with her hands. There is a way that seems right to a man whose end is death, righteousness exalts a nation, and the fear of the Lord is a fountain of life.",
+      "years": "about 950 BC",
+      "yearNum": -950,
+      "approx": true,
+      "place": null,
+      "themes": ["wisdom", "family", "humility"],
+      "characters": ["solomon"],
+      "segments": [
+        { "s": 1, "e": 35, "speaker": "solomon", "to": "reader", "note": "Building the house; righteousness exalteth a nation" }
+      ]
+    },
+    {
+      "c": 15,
+      "title": "A Soft Answer Turneth Away Wrath",
+      "synopsis": "Solomon teaches that a soft answer turns away wrath but grievous words stir up anger. The eyes of the Lord are in every place, a merry heart makes a cheerful countenance, and better is a dinner of herbs where love is than a stalled ox with hatred.",
+      "years": "about 950 BC",
+      "yearNum": -950,
+      "approx": true,
+      "place": null,
+      "themes": ["wisdom", "humility", "family"],
+      "characters": ["solomon"],
+      "segments": [
+        { "s": 1, "e": 33, "speaker": "solomon", "to": "reader", "note": "Gentle speech, a merry heart, and love at table" }
+      ]
+    },
+    {
+      "c": 16,
+      "title": "Pride Goeth Before Destruction",
+      "synopsis": "Solomon counsels committing one's works to the Lord, who weighs the spirits and directs a man's steps. Pride goes before destruction and a haughty spirit before a fall, and he that rules his spirit is better than he that takes a city.",
+      "years": "about 950 BC",
+      "yearNum": -950,
+      "approx": true,
+      "place": null,
+      "themes": ["wisdom", "humility"],
+      "characters": ["solomon"],
+      "segments": [
+        { "s": 1, "e": 33, "speaker": "solomon", "to": "reader", "note": "The Lord directs our steps; pride precedes a fall" }
+      ]
+    },
+    {
+      "c": 17,
+      "title": "A Friend Loveth at All Times",
+      "synopsis": "Solomon prizes a dry morsel with quietness above a house full of strife. A friend loves at all times and a brother is born for adversity, children's children are the crown of old men, and a merry heart does good like a medicine.",
+      "years": "about 950 BC",
+      "yearNum": -950,
+      "approx": true,
+      "place": null,
+      "themes": ["wisdom", "family"],
+      "characters": ["solomon"],
+      "segments": [
+        { "s": 1, "e": 28, "speaker": "solomon", "to": "reader", "note": "Friendship, family peace, and a cheerful heart" }
+      ]
+    },
+    {
+      "c": 18,
+      "title": "A Strong Tower and a Brother",
+      "synopsis": "Solomon declares that the name of the Lord is a strong tower into which the righteous run and are safe. He warns against answering a matter before hearing it, notes that death and life are in the power of the tongue, and praises the friend that sticks closer than a brother.",
+      "years": "about 950 BC",
+      "yearNum": -950,
+      "approx": true,
+      "place": null,
+      "themes": ["wisdom", "family"],
+      "characters": ["solomon"],
+      "segments": [
+        { "s": 1, "e": 24, "speaker": "solomon", "to": "reader", "note": "The Lord a strong tower; the tongue's power" }
+      ]
+    },
+    {
+      "c": 19,
+      "title": "Better the Poor in Integrity",
+      "synopsis": "Solomon teaches that a poor man walking in integrity is better than a fool with perverse lips. He that has pity on the poor lends to the Lord, and parents are urged to chasten their sons while there is hope.",
+      "years": "about 950 BC",
+      "yearNum": -950,
+      "approx": true,
+      "place": null,
+      "themes": ["wisdom", "humility", "family"],
+      "characters": ["solomon"],
+      "segments": [
+        { "s": 1, "e": 29, "speaker": "solomon", "to": "reader", "note": "Integrity above riches; mercy to the poor" }
+      ]
+    },
+    {
+      "c": 20,
+      "title": "Wine Is a Mocker",
+      "synopsis": "Solomon warns that wine is a mocker and strong drink is raging, and that whoever is deceived thereby is not wise. He commends the just man whose children are blessed after him and condemns divers weights and false balances as abomination to the Lord.",
+      "years": "about 950 BC",
+      "yearNum": -950,
+      "approx": true,
+      "place": null,
+      "themes": ["wisdom", "family"],
+      "characters": ["solomon"],
+      "segments": [
+        { "s": 1, "e": 30, "speaker": "solomon", "to": "reader", "note": "Sobriety, honest measures, and the just man's walk" }
+      ]
+    },
+    {
+      "c": 21,
+      "title": "The King's Heart in His Hand",
+      "synopsis": "Solomon teaches that the king's heart is in the hand of the Lord, who turns it as the rivers of water. To do justice and judgment is more acceptable to the Lord than sacrifice, and there is no wisdom nor counsel against the Lord.",
+      "years": "about 950 BC",
+      "yearNum": -950,
+      "approx": true,
+      "place": null,
+      "themes": ["wisdom", "humility"],
+      "characters": ["solomon"],
+      "segments": [
+        { "s": 1, "e": 31, "speaker": "solomon", "to": "reader", "note": "The Lord weighs hearts; justice above sacrifice" }
+      ]
+    },
+    {
+      "c": 22,
+      "title": "A Good Name Above Riches",
+      "synopsis": "Solomon declares that a good name is rather to be chosen than great riches. He counsels parents to train up a child in the way he should go, warns against oppressing the poor, and begins a section of the words of the wise.",
+      "years": "about 950 BC",
+      "yearNum": -950,
+      "approx": true,
+      "place": null,
+      "themes": ["wisdom", "family", "humility"],
+      "characters": ["solomon"],
+      "segments": [
+        { "s": 1, "e": 29, "speaker": "solomon", "to": "reader", "note": "A good name; train up a child" }
+      ]
+    },
+    {
+      "c": 23,
+      "title": "Apply Thine Heart to Instruction",
+      "synopsis": "Solomon warns against laboring to be rich, for wealth makes itself wings and flies away. He urges his son to buy the truth and sell it not, to hearken to the father that begat him, and paints a vivid picture of the woes that follow wine.",
+      "years": "about 950 BC",
+      "yearNum": -950,
+      "approx": true,
+      "place": null,
+      "themes": ["wisdom", "family"],
+      "characters": ["solomon"],
+      "segments": [
+        { "s": 1, "e": 35, "speaker": "solomon", "to": "reader", "note": "Buy the truth; honor thy parents; shun wine" }
+      ]
+    },
+    {
+      "c": 24,
+      "title": "Through Wisdom Is a House Builded",
+      "synopsis": "Solomon teaches that through wisdom a house is built and by understanding it is established. He counsels against envying evil men, observes that a just man falls seven times and rises again, and describes the field of the slothful overgrown with thorns.",
+      "years": "about 950 BC",
+      "yearNum": -950,
+      "approx": true,
+      "place": null,
+      "themes": ["wisdom", "humility"],
+      "characters": ["solomon"],
+      "segments": [
+        { "s": 1, "e": 34, "speaker": "solomon", "to": "reader", "note": "Wisdom builds; the just rise after falling" }
+      ]
+    },
+    {
+      "c": 25,
+      "title": "Proverbs Copied for Hezekiah",
+      "synopsis": "These proverbs of Solomon were copied out by the men of King Hezekiah. It is the glory of God to conceal a thing, a word fitly spoken is like apples of gold in pictures of silver, and feeding a hungry enemy heaps coals of fire upon his head.",
+      "years": "about 950 BC",
+      "yearNum": -950,
+      "approx": true,
+      "place": null,
+      "themes": ["wisdom", "humility"],
+      "characters": ["solomon", "hezekiah"],
+      "segments": [
+        { "s": 1, "e": 28, "speaker": "solomon", "to": "reader", "note": "Words fitly spoken; kindness to an enemy" }
+      ]
+    },
+    {
+      "c": 26,
+      "title": "Answering a Fool's Folly",
+      "synopsis": "Solomon describes the fool, the sluggard who turns on his bed as a door on its hinges, and the talebearer whose words are as wounds. Where no wood is, the fire goes out, and he that digs a pit shall fall therein.",
+      "years": "about 950 BC",
+      "yearNum": -950,
+      "approx": true,
+      "place": null,
+      "themes": ["wisdom"],
+      "characters": ["solomon"],
+      "segments": [
+        { "s": 1, "e": 28, "speaker": "solomon", "to": "reader", "note": "Portraits of the fool, sluggard, and talebearer" }
+      ]
+    },
+    {
+      "c": 27,
+      "title": "Boast Not of Tomorrow",
+      "synopsis": "Solomon warns against boasting of tomorrow, for no one knows what a day may bring forth. Faithful are the wounds of a friend, iron sharpens iron as a man sharpens the countenance of his friend, and he counsels diligent care of one's flocks.",
+      "years": "about 950 BC",
+      "yearNum": -950,
+      "approx": true,
+      "place": null,
+      "themes": ["wisdom", "humility", "family"],
+      "characters": ["solomon"],
+      "segments": [
+        { "s": 1, "e": 27, "speaker": "solomon", "to": "reader", "note": "Humility about tomorrow; iron sharpeneth iron" }
+      ]
+    },
+    {
+      "c": 28,
+      "title": "The Righteous Bold as a Lion",
+      "synopsis": "Solomon observes that the wicked flee when no man pursues, but the righteous are bold as a lion. He that covers his sins shall not prosper, but whoever confesses and forsakes them shall have mercy, and a faithful man shall abound with blessings.",
+      "years": "about 950 BC",
+      "yearNum": -950,
+      "approx": true,
+      "place": null,
+      "themes": ["wisdom", "humility"],
+      "characters": ["solomon"],
+      "segments": [
+        { "s": 1, "e": 28, "speaker": "solomon", "to": "reader", "note": "Boldness of the righteous; confessing brings mercy" }
+      ]
+    },
+    {
+      "c": 29,
+      "title": "Where There Is No Vision",
+      "synopsis": "Solomon teaches that where there is no vision the people perish, but he that keeps the law is happy. The rod and reproof give wisdom while a child left to himself brings his mother to shame, and the fear of man brings a snare.",
+      "years": "about 950 BC",
+      "yearNum": -950,
+      "approx": true,
+      "place": null,
+      "themes": ["wisdom", "family", "humility"],
+      "characters": ["solomon"],
+      "segments": [
+        { "s": 1, "e": 27, "speaker": "solomon", "to": "reader", "note": "Vision, correction of children, and trust in the Lord" }
+      ]
+    },
+    {
+      "c": 30,
+      "title": "Two Things Have I Required",
+      "synopsis": "The collection preserves the sayings of Agur, who confesses himself more brutish than any man and asks for neither poverty nor riches. Every word of God is pure, and the sayings marvel at things too wonderful to know, numbering wonders by threes and fours.",
+      "years": "about 950 BC",
+      "yearNum": -950,
+      "approx": true,
+      "place": null,
+      "themes": ["wisdom", "humility"],
+      "characters": ["solomon"],
+      "segments": [
+        { "s": 1, "e": 33, "speaker": "solomon", "to": "reader", "note": "Agur's humble sayings; neither poverty nor riches" }
+      ]
+    },
+    {
+      "c": 31,
+      "title": "The Virtuous Woman",
+      "synopsis": "The chapter records the words King Lemuel learned from his mother, warning kings against wine and urging them to plead the cause of the poor. It closes with the portrait of the virtuous woman whose price is far above rubies, whose children arise and call her blessed.",
+      "years": "about 950 BC",
+      "yearNum": -950,
+      "approx": true,
+      "place": null,
+      "themes": ["family", "wisdom"],
+      "characters": ["solomon"],
+      "segments": [
+        { "s": 1, "e": 31, "speaker": "solomon", "to": "reader", "note": "Lemuel's lesson; the virtuous woman praised" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,525 @@
+{
+  "book": "Numbers",
+  "slug": "numbers",
+  "narrator": "moses",
+  "plates": "law",
+  "chapters": [
+    {
+      "c": 1,
+      "title": "Israel Numbered for War",
+      "synopsis": "In the wilderness of Sinai the Lord commands Moses to number all men able to go to war, tribe by tribe. The count reaches 603,550, while the Levites are set apart to tend the tabernacle.",
+      "years": "about 1300 BC",
+      "yearNum": -1300,
+      "approx": true,
+      "place": "mount-sinai",
+      "themes": ["law", "obedience"],
+      "characters": ["moses", "aaron"],
+      "segments": [
+        { "s": 1, "e": 3, "speaker": "the-lord", "to": "moses", "note": "command to number Israel" },
+        { "s": 4, "e": 54, "speaker": "moses", "to": "reader", "note": "the census recorded" }
+      ]
+    },
+    {
+      "c": 2,
+      "title": "The Order of the Camp",
+      "synopsis": "The Lord arranges the twelve tribes around the tabernacle, each under its own standard on the east, south, west, and north. Israel camps and marches in this appointed order.",
+      "years": "about 1300 BC",
+      "yearNum": -1300,
+      "approx": true,
+      "place": "mount-sinai",
+      "themes": ["law", "obedience"],
+      "characters": ["moses", "aaron"],
+      "segments": [
+        { "s": 1, "e": 34, "speaker": "the-lord", "to": "moses", "note": "arrangement of the tribes" }
+      ]
+    },
+    {
+      "c": 3,
+      "title": "The Levites Given to Aaron",
+      "synopsis": "The Lord takes the tribe of Levi in place of Israel's firstborn and gives them to Aaron to serve the tabernacle. The Levite families are numbered and assigned their charges around the sanctuary.",
+      "years": "about 1300 BC",
+      "yearNum": -1300,
+      "approx": true,
+      "place": "mount-sinai",
+      "themes": ["law", "worship"],
+      "characters": ["moses", "aaron"],
+      "segments": [
+        { "s": 1, "e": 4, "speaker": "moses", "to": "reader", "note": "the generations of Aaron" },
+        { "s": 5, "e": 51, "speaker": "the-lord", "to": "moses", "note": "the Levites appointed and numbered" }
+      ]
+    },
+    {
+      "c": 4,
+      "title": "Service of the Levite Families",
+      "synopsis": "The Lord assigns the Kohathites, Gershonites, and Merarites their duties in carrying the sanctuary and its furnishings. All who serve between thirty and fifty years of age are numbered for the work.",
+      "years": "about 1300 BC",
+      "yearNum": -1300,
+      "approx": true,
+      "place": "mount-sinai",
+      "themes": ["law", "worship"],
+      "characters": ["moses", "aaron"],
+      "segments": [
+        { "s": 1, "e": 33, "speaker": "the-lord", "to": "moses", "note": "duties of the Levite families" },
+        { "s": 34, "e": 49, "speaker": "moses", "to": "reader", "note": "the Levites numbered for service" }
+      ]
+    },
+    {
+      "c": 5,
+      "title": "Purity Within the Camp",
+      "synopsis": "The Lord commands that the unclean be put outside the camp and that trespasses be confessed with restitution. He gives the trial of jealousy for a wife suspected of unfaithfulness.",
+      "years": "about 1300 BC",
+      "yearNum": -1300,
+      "approx": true,
+      "place": "mount-sinai",
+      "themes": ["law", "obedience"],
+      "characters": ["moses"],
+      "segments": [
+        { "s": 1, "e": 31, "speaker": "the-lord", "to": "moses", "note": "camp purity and the jealousy trial" }
+      ]
+    },
+    {
+      "c": 6,
+      "title": "The Nazarite and the Blessing",
+      "synopsis": "The Lord gives the vow of the Nazarite, who abstains from wine and leaves his hair uncut as one separated unto God. He then teaches Aaron the priestly blessing that puts the Lord's name upon Israel.",
+      "years": "about 1300 BC",
+      "yearNum": -1300,
+      "approx": true,
+      "place": "mount-sinai",
+      "themes": ["law", "covenant", "worship"],
+      "characters": ["moses", "aaron"],
+      "segments": [
+        { "s": 1, "e": 27, "speaker": "the-lord", "to": "moses", "note": "Nazarite vow; priestly blessing" }
+      ]
+    },
+    {
+      "c": 7,
+      "title": "Offerings of the Twelve Princes",
+      "synopsis": "At the dedication of the altar the prince of each tribe brings identical offerings on twelve successive days. Moses then hears the voice of the Lord speaking from off the mercy seat.",
+      "years": "about 1300 BC",
+      "yearNum": -1300,
+      "approx": true,
+      "place": "mount-sinai",
+      "themes": ["worship", "covenant"],
+      "characters": ["moses", "aaron"],
+      "segments": [
+        { "s": 1, "e": 89, "speaker": "moses", "to": "reader", "note": "dedication gifts of the princes" }
+      ]
+    },
+    {
+      "c": 8,
+      "title": "The Levites Cleansed for Service",
+      "synopsis": "Aaron lights the seven lamps, and the Levites are washed, presented, and offered to the Lord in place of Israel's firstborn. They begin their service at twenty-five and retire from labor at fifty.",
+      "years": "about 1300 BC",
+      "yearNum": -1300,
+      "approx": true,
+      "place": "mount-sinai",
+      "themes": ["law", "worship"],
+      "characters": ["moses", "aaron"],
+      "segments": [
+        { "s": 1, "e": 19, "speaker": "the-lord", "to": "moses", "note": "cleansing of the Levites commanded" },
+        { "s": 20, "e": 26, "speaker": "moses", "to": "reader", "note": "the Levites consecrated" }
+      ]
+    },
+    {
+      "c": 9,
+      "title": "The Passover and the Cloud",
+      "synopsis": "Israel keeps the passover at Sinai, and the Lord provides a second passover for those who were unclean or far away. The cloud covers the tabernacle, and Israel journeys or rests only at the Lord's command.",
+      "years": "about 1300 BC",
+      "yearNum": -1300,
+      "approx": true,
+      "place": "mount-sinai",
+      "themes": ["obedience", "worship", "deliverance"],
+      "characters": ["moses", "aaron"],
+      "segments": [
+        { "s": 1, "e": 14, "speaker": "the-lord", "to": "moses", "note": "the second passover appointed" },
+        { "s": 15, "e": 23, "speaker": "moses", "to": "reader", "note": "the guiding cloud" }
+      ]
+    },
+    {
+      "c": 10,
+      "title": "Trumpets and the Journey Begins",
+      "synopsis": "The Lord commands two silver trumpets to call the assembly and to sound alarms. In the second year the cloud lifts, and Israel departs from Sinai in ordered ranks, the ark going before them.",
+      "years": "about 1300 BC",
+      "yearNum": -1300,
+      "approx": true,
+      "place": "mount-sinai",
+      "themes": ["obedience", "deliverance"],
+      "characters": ["moses", "aaron"],
+      "segments": [
+        { "s": 1, "e": 10, "speaker": "the-lord", "to": "moses", "note": "the silver trumpets" },
+        { "s": 11, "e": 36, "speaker": "moses", "to": "reader", "note": "departure from Sinai" }
+      ]
+    },
+    {
+      "c": 11,
+      "title": "Fire, Quails, and Seventy Elders",
+      "synopsis": "The people complain and fire from the Lord burns at Taberah; then they lust for flesh and weep for Egypt. The Lord puts his Spirit on seventy elders to help Moses and sends quails, followed by a plague.",
+      "years": "about 1299 BC",
+      "yearNum": -1299,
+      "approx": true,
+      "place": "wilderness-paran",
+      "themes": ["obedience", "deliverance"],
+      "characters": ["moses", "joshua"],
+      "segments": [
+        { "s": 1, "e": 35, "speaker": "moses", "to": "reader", "note": "murmuring, seventy elders, quails" }
+      ]
+    },
+    {
+      "c": 12,
+      "title": "Miriam and Aaron Murmur",
+      "synopsis": "Miriam and Aaron speak against Moses, but the Lord declares that he speaks with Moses mouth to mouth. Miriam is struck with leprosy, and at Moses' plea she is healed after seven days outside the camp.",
+      "years": "about 1299 BC",
+      "yearNum": -1299,
+      "approx": true,
+      "place": "wilderness-paran",
+      "themes": ["obedience", "law"],
+      "characters": ["moses", "aaron", "miriam"],
+      "segments": [
+        { "s": 1, "e": 16, "speaker": "moses", "to": "reader", "note": "Miriam and Aaron rebuked" }
+      ]
+    },
+    {
+      "c": 13,
+      "title": "Spies Search the Promised Land",
+      "synopsis": "Twelve men, one from each tribe, search the land of Canaan for forty days and return with its fruit. Ten spies spread an evil report of walled cities and giants, while Caleb urges Israel to go up at once.",
+      "years": "about 1299 BC",
+      "yearNum": -1299,
+      "approx": true,
+      "place": "wilderness-paran",
+      "themes": ["faith", "obedience"],
+      "characters": ["moses", "joshua"],
+      "segments": [
+        { "s": 1, "e": 33, "speaker": "moses", "to": "reader", "note": "the twelve spies and their report" }
+      ]
+    },
+    {
+      "c": 14,
+      "title": "Forty Years of Wandering Decreed",
+      "synopsis": "Israel weeps, rebels, and seeks to return to Egypt despite the pleas of Joshua and Caleb. Moses intercedes, and the Lord pardons but decrees that the faithless generation will die during forty years in the wilderness.",
+      "years": "about 1299 BC",
+      "yearNum": -1299,
+      "approx": true,
+      "place": "wilderness-paran",
+      "themes": ["obedience", "faith", "covenant"],
+      "characters": ["moses", "aaron", "joshua"],
+      "segments": [
+        { "s": 1, "e": 25, "speaker": "moses", "to": "reader", "note": "rebellion; Moses intercedes" },
+        { "s": 26, "e": 38, "speaker": "the-lord", "to": "moses", "note": "forty years decreed" },
+        { "s": 39, "e": 45, "speaker": "moses", "to": "reader", "note": "presumptuous attack fails" }
+      ]
+    },
+    {
+      "c": 15,
+      "title": "Offerings and the Sabbath Breaker",
+      "synopsis": "The Lord gives laws of offerings for the land Israel will yet inherit, with one law for Israelite and stranger alike. A man gathering sticks on the sabbath is stoned, and Israel is commanded to wear fringes of remembrance.",
+      "years": "about 1299-1263 BC",
+      "yearNum": -1290,
+      "approx": true,
+      "place": "wilderness-paran",
+      "themes": ["law", "obedience", "covenant"],
+      "characters": ["moses", "aaron"],
+      "segments": [
+        { "s": 1, "e": 31, "speaker": "the-lord", "to": "moses", "note": "offerings for the promised land" },
+        { "s": 32, "e": 36, "speaker": "moses", "to": "reader", "note": "the sabbath breaker" },
+        { "s": 37, "e": 41, "speaker": "the-lord", "to": "moses", "note": "fringes of remembrance commanded" }
+      ]
+    },
+    {
+      "c": 16,
+      "title": "The Rebellion of Korah",
+      "synopsis": "Korah, Dathan, and Abiram rise against Moses and Aaron, claiming all the congregation is holy. The earth swallows the rebels, fire consumes their company, and a plague is stayed only when Aaron makes atonement.",
+      "years": "about 1299-1263 BC",
+      "yearNum": -1290,
+      "approx": true,
+      "place": "wilderness-paran",
+      "themes": ["obedience", "law"],
+      "characters": ["moses", "aaron"],
+      "segments": [
+        { "s": 1, "e": 50, "speaker": "moses", "to": "reader", "note": "Korah's rebellion and judgment" }
+      ]
+    },
+    {
+      "c": 17,
+      "title": "Aaron's Rod Buds and Blossoms",
+      "synopsis": "To end the murmuring, twelve rods are laid before the Lord, one for each tribe. Aaron's rod buds, blossoms, and yields almonds, and it is kept before the testimony as a token against the rebels.",
+      "years": "about 1299-1263 BC",
+      "yearNum": -1290,
+      "approx": true,
+      "place": "wilderness-paran",
+      "themes": ["obedience", "worship"],
+      "characters": ["moses", "aaron"],
+      "segments": [
+        { "s": 1, "e": 5, "speaker": "the-lord", "to": "moses", "note": "twelve rods commanded" },
+        { "s": 6, "e": 13, "speaker": "moses", "to": "reader", "note": "Aaron's rod blossoms" }
+      ]
+    },
+    {
+      "c": 18,
+      "title": "The Charge of Priests and Levites",
+      "synopsis": "The Lord gives Aaron and his sons the charge of the sanctuary and grants them the offerings of Israel for their support. The Levites receive the tithes and in turn offer a tithe of the tithe to the priests.",
+      "years": "about 1299-1263 BC",
+      "yearNum": -1290,
+      "approx": true,
+      "place": "wilderness-paran",
+      "themes": ["law", "worship"],
+      "characters": ["moses", "aaron"],
+      "segments": [
+        { "s": 1, "e": 24, "speaker": "the-lord", "to": "aaron", "note": "the priests' charge and portion" },
+        { "s": 25, "e": 32, "speaker": "the-lord", "to": "moses", "note": "the tithe of the tithe" }
+      ]
+    },
+    {
+      "c": 19,
+      "title": "The Ashes of the Red Heifer",
+      "synopsis": "The Lord ordains that a red heifer without blemish be burned and its ashes kept for the water of separation. This water purifies those defiled by touching the dead, and neglecting it defiles the sanctuary.",
+      "years": "about 1299-1263 BC",
+      "yearNum": -1290,
+      "approx": true,
+      "place": "wilderness-paran",
+      "themes": ["law", "worship"],
+      "characters": ["moses", "aaron"],
+      "segments": [
+        { "s": 1, "e": 22, "speaker": "the-lord", "to": "moses", "note": "the water of separation" }
+      ]
+    },
+    {
+      "c": 20,
+      "title": "Water from the Rock at Meribah",
+      "synopsis": "Miriam dies at Kadesh, and the people strive for water. Moses smites the rock and water flows, but he and Aaron are barred from the promised land; Edom refuses passage, and Aaron dies on mount Hor.",
+      "years": "about 1263 BC",
+      "yearNum": -1263,
+      "approx": true,
+      "place": "wilderness-paran",
+      "themes": ["obedience", "deliverance"],
+      "characters": ["moses", "aaron", "miriam"],
+      "segments": [
+        { "s": 1, "e": 29, "speaker": "moses", "to": "reader", "note": "Meribah; deaths of Miriam, Aaron" }
+      ]
+    },
+    {
+      "c": 21,
+      "title": "The Serpent of Brass",
+      "synopsis": "Israel defeats Arad, then murmurs and is bitten by fiery serpents; all who look on the brass serpent Moses raises are healed. Journeying on, Israel conquers Sihon king of the Amorites and Og king of Bashan.",
+      "years": "about 1263 BC",
+      "yearNum": -1263,
+      "approx": true,
+      "place": "wilderness-paran",
+      "themes": ["deliverance", "faith", "obedience"],
+      "characters": ["moses"],
+      "segments": [
+        { "s": 1, "e": 35, "speaker": "moses", "to": "reader", "note": "brass serpent; Sihon and Og" }
+      ]
+    },
+    {
+      "c": 22,
+      "title": "Balaam and the Speaking Ass",
+      "synopsis": "Balak king of Moab hires the prophet Balaam to curse Israel. An angel blocks Balaam's way, his ass speaks, and he is permitted to go only on condition that he speak the word God gives him.",
+      "years": "about 1262 BC",
+      "yearNum": -1262,
+      "approx": true,
+      "place": "wilderness-paran",
+      "themes": ["obedience", "deliverance"],
+      "characters": ["moses", "angel"],
+      "segments": [
+        { "s": 1, "e": 41, "speaker": "moses", "to": "reader", "note": "Balaam episode preserved by Moses" }
+      ]
+    },
+    {
+      "c": 23,
+      "title": "Israel Cannot Be Cursed",
+      "synopsis": "Balak builds altars, but each time Balaam opens his mouth he blesses Israel instead of cursing them. God is not a man that he should lie, and no enchantment can prevail against Jacob.",
+      "years": "about 1262 BC",
+      "yearNum": -1262,
+      "approx": true,
+      "place": "wilderness-paran",
+      "themes": ["covenant", "deliverance"],
+      "characters": ["moses"],
+      "segments": [
+        { "s": 1, "e": 30, "speaker": "moses", "to": "reader", "note": "Balaam's parables recorded by Moses" }
+      ]
+    },
+    {
+      "c": 24,
+      "title": "The Star Out of Jacob",
+      "synopsis": "Balaam, seeing Israel's tents, blesses them a third time and prophesies of a Star out of Jacob and a Sceptre out of Israel. He foretells the fate of Moab and the surrounding nations, and returns to his place.",
+      "years": "about 1262 BC",
+      "yearNum": -1262,
+      "approx": true,
+      "place": "wilderness-paran",
+      "themes": ["prophecy", "covenant"],
+      "characters": ["moses"],
+      "segments": [
+        { "s": 1, "e": 25, "speaker": "moses", "to": "reader", "note": "Balaam's final prophecies recorded" }
+      ]
+    },
+    {
+      "c": 25,
+      "title": "Israel Snared at Baal-peor",
+      "synopsis": "Israel commits whoredom with the daughters of Moab and bows to Baal-peor, and a plague breaks out. Phinehas turns away the Lord's wrath by his zeal and receives a covenant of an everlasting priesthood.",
+      "years": "about 1262 BC",
+      "yearNum": -1262,
+      "approx": true,
+      "place": "wilderness-paran",
+      "themes": ["obedience", "covenant", "law"],
+      "characters": ["moses"],
+      "segments": [
+        { "s": 1, "e": 18, "speaker": "moses", "to": "reader", "note": "Baal-peor and the plague stayed" }
+      ]
+    },
+    {
+      "c": 26,
+      "title": "The Second Numbering of Israel",
+      "synopsis": "In the plains of Moab a new census counts 601,730 men of war, by whose numbers the land will be divided. Of those numbered at Sinai, only Caleb and Joshua remain, as the Lord had sworn.",
+      "years": "about 1262 BC",
+      "yearNum": -1262,
+      "approx": true,
+      "place": "wilderness-paran",
+      "themes": ["covenant", "law"],
+      "characters": ["moses", "joshua"],
+      "segments": [
+        { "s": 1, "e": 65, "speaker": "moses", "to": "reader", "note": "the second census" }
+      ]
+    },
+    {
+      "c": 27,
+      "title": "Joshua Chosen to Succeed Moses",
+      "synopsis": "The daughters of Zelophehad win the right of daughters to inherit, and it becomes a statute in Israel. Moses views the land from mount Abarim, and Joshua is set before the congregation and given a charge.",
+      "years": "about 1262 BC",
+      "yearNum": -1262,
+      "approx": true,
+      "place": "wilderness-paran",
+      "themes": ["law", "leadership", "covenant"],
+      "characters": ["moses", "joshua"],
+      "segments": [
+        { "s": 1, "e": 23, "speaker": "moses", "to": "reader", "note": "inheritance law; Joshua commissioned" }
+      ]
+    },
+    {
+      "c": 28,
+      "title": "The Continual Offerings Appointed",
+      "synopsis": "The Lord appoints the daily, weekly, and monthly offerings, and those of passover and the day of firstfruits. Israel is to offer them in their due season as a continual sweet savour unto the Lord.",
+      "years": "about 1262 BC",
+      "yearNum": -1262,
+      "approx": true,
+      "place": "wilderness-paran",
+      "themes": ["law", "worship"],
+      "characters": ["moses"],
+      "segments": [
+        { "s": 1, "e": 31, "speaker": "the-lord", "to": "moses", "note": "daily and seasonal offerings" }
+      ]
+    },
+    {
+      "c": 29,
+      "title": "Offerings of the Seventh Month",
+      "synopsis": "The Lord prescribes the offerings for the feast of trumpets, the day of atonement, and each day of the feast of tabernacles. The seventh month is filled with holy convocations and sacrifice.",
+      "years": "about 1262 BC",
+      "yearNum": -1262,
+      "approx": true,
+      "place": "wilderness-paran",
+      "themes": ["law", "worship"],
+      "characters": ["moses"],
+      "segments": [
+        { "s": 1, "e": 40, "speaker": "the-lord", "to": "moses", "note": "seventh-month feast offerings" }
+      ]
+    },
+    {
+      "c": 30,
+      "title": "The Law of Vows",
+      "synopsis": "Moses declares the Lord's law of vows: a man must keep every word that proceeds out of his mouth. A woman's vow may be established or disallowed by her father or her husband on the day he hears it.",
+      "years": "about 1262 BC",
+      "yearNum": -1262,
+      "approx": true,
+      "place": "wilderness-paran",
+      "themes": ["law", "obedience", "covenant"],
+      "characters": ["moses"],
+      "segments": [
+        { "s": 1, "e": 16, "speaker": "moses", "to": "israelites", "note": "the binding nature of vows" }
+      ]
+    },
+    {
+      "c": 31,
+      "title": "Vengeance Upon Midian",
+      "synopsis": "At the Lord's command Israel wars against Midian for the matter of Peor, and Balaam is slain with the sword. The soldiers and spoil are purified, and the prey is divided between the warriors, the congregation, and the Lord.",
+      "years": "about 1262 BC",
+      "yearNum": -1262,
+      "approx": true,
+      "place": "wilderness-paran",
+      "themes": ["war", "obedience", "law"],
+      "characters": ["moses", "aaron"],
+      "segments": [
+        { "s": 1, "e": 54, "speaker": "moses", "to": "reader", "note": "war with Midian; spoil divided" }
+      ]
+    },
+    {
+      "c": 32,
+      "title": "Reuben and Gad Choose Their Land",
+      "synopsis": "Reuben and Gad ask for the cattle lands east of Jordan, and Moses warns them not to discourage their brethren. They covenant to cross armed before Israel until the land is conquered, and receive their inheritance.",
+      "years": "about 1262 BC",
+      "yearNum": -1262,
+      "approx": true,
+      "place": "wilderness-paran",
+      "themes": ["covenant", "obedience"],
+      "characters": ["moses"],
+      "segments": [
+        { "s": 1, "e": 42, "speaker": "moses", "to": "reader", "note": "inheritance east of Jordan" }
+      ]
+    },
+    {
+      "c": 33,
+      "title": "The Journeys of Israel Rehearsed",
+      "synopsis": "Moses records the stages of Israel's journeys from Rameses in Egypt to the plains of Moab by Jordan. The Lord then commands Israel to drive out the inhabitants of Canaan and destroy their idols.",
+      "years": "about 1262 BC",
+      "yearNum": -1262,
+      "approx": true,
+      "place": "wilderness-paran",
+      "themes": ["deliverance", "records", "obedience"],
+      "characters": ["moses", "aaron"],
+      "segments": [
+        { "s": 1, "e": 49, "speaker": "moses", "to": "reader", "note": "the itinerary from Egypt" },
+        { "s": 50, "e": 56, "speaker": "the-lord", "to": "moses", "note": "command to dispossess Canaan" }
+      ]
+    },
+    {
+      "c": 34,
+      "title": "Borders of the Promised Land",
+      "synopsis": "The Lord traces the borders of the land of Canaan that Israel is to inherit. Eleazar, Joshua, and a prince from each tribe are named to divide the inheritance west of Jordan.",
+      "years": "about 1262 BC",
+      "yearNum": -1262,
+      "approx": true,
+      "place": "wilderness-paran",
+      "themes": ["covenant", "law"],
+      "characters": ["moses", "joshua"],
+      "segments": [
+        { "s": 1, "e": 29, "speaker": "the-lord", "to": "moses", "note": "borders and dividers of the land" }
+      ]
+    },
+    {
+      "c": 35,
+      "title": "Cities of Refuge Appointed",
+      "synopsis": "The Levites receive forty-eight cities with their suburbs, six of them cities of refuge. One who kills unawares may flee there from the avenger until judged, but no satisfaction may ransom a murderer.",
+      "years": "about 1262 BC",
+      "yearNum": -1262,
+      "approx": true,
+      "place": "wilderness-paran",
+      "themes": ["law", "justice-and-mercy"],
+      "characters": ["moses"],
+      "segments": [
+        { "s": 1, "e": 34, "speaker": "the-lord", "to": "moses", "note": "Levite cities and refuge law" }
+      ]
+    },
+    {
+      "c": 36,
+      "title": "Inheritance Kept Within the Tribe",
+      "synopsis": "The family of Zelophehad's daughters raises the question of inheritances passing between tribes. Moses commands that heiresses marry within their father's tribe, and the daughters obey the word of the Lord.",
+      "years": "about 1262 BC",
+      "yearNum": -1262,
+      "approx": true,
+      "place": "wilderness-paran",
+      "themes": ["law", "family", "obedience"],
+      "characters": ["moses"],
+      "segments": [
+        { "s": 1, "e": 13, "speaker": "moses", "to": "reader", "note": "marriage law for heiresses" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "book": "Philemon",
+  "slug": "philemon",
+  "narrator": "paul",
+  "plates": "pauline-epistles",
+  "chapters": [
+    {
+      "c": 1,
+      "title": "A Plea for a Runaway Slave",
+      "synopsis": "Writing as a prisoner for Christ, Paul thanks God for Philemon's love and faith toward the saints, then pleads on behalf of Onesimus, his son begotten in his bonds, once unprofitable but now profitable to both. He asks that Philemon receive Onesimus not now as a servant but as a brother beloved, offering to repay any debt himself while expressing confidence in Philemon's obedience.",
+      "years": "AD 61",
+      "yearNum": 61,
+      "approx": false,
+      "place": null,
+      "themes": ["charity", "family", "obedience"],
+      "characters": ["paul", "onesimus"],
+      "segments": [
+        { "s": 1, "e": 25, "speaker": "paul", "to": "church", "note": "Letter to Philemon: receive Onesimus as a brother" }
+      ]
+    }
+  ]
+}

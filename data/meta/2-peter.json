@@ -1,0 +1,50 @@
+{
+  "book": "2 Peter",
+  "slug": "2-peter",
+  "narrator": "peter",
+  "plates": "general-epistles",
+  "chapters": [
+    {
+      "c": 1,
+      "title": "Make Your Calling and Election Sure",
+      "synopsis": "Peter teaches that through the exceeding great and precious promises of God the saints may become partakers of the divine nature, adding to their faith virtue, knowledge, temperance, patience, godliness, brotherly kindness, and charity. He urges them to give diligence to make their calling and election sure. Knowing his death is near, he recalls hearing the Father's voice on the holy mount and testifies of the more sure word of prophecy, for prophecy came as holy men of God spake, moved by the Holy Ghost.",
+      "years": "about AD 66",
+      "yearNum": 66,
+      "approx": true,
+      "place": null,
+      "themes": ["faith", "prophecy", "revelation", "charity"],
+      "characters": ["peter", "jesus-christ", "god-the-father"],
+      "segments": [
+        { "s": 1, "e": 21, "speaker": "peter", "to": "church", "note": "Divine nature; calling and election; sure prophecy" }
+      ]
+    },
+    {
+      "c": 2,
+      "title": "False Teachers Among You",
+      "synopsis": "Peter warns that as there were false prophets among ancient Israel, false teachers will arise among the saints, privily bringing in damnable heresies and making merchandise of souls. God, who spared not the angels that sinned nor the old world in the days of Noah, knows how to deliver the godly and reserve the unjust unto judgment. Those who forsake the right way follow the way of Balaam, loving the wages of unrighteousness.",
+      "years": "about AD 66",
+      "yearNum": 66,
+      "approx": true,
+      "place": null,
+      "themes": ["apostasy", "judgment", "deliverance"],
+      "characters": ["peter", "noah"],
+      "segments": [
+        { "s": 1, "e": 22, "speaker": "peter", "to": "church", "note": "Beware false teachers; God delivers the godly" }
+      ]
+    },
+    {
+      "c": 3,
+      "title": "The Day of the Lord Will Come",
+      "synopsis": "Peter answers the scoffers who ask where is the promise of Christ's coming, reminding the saints that one day is with the Lord as a thousand years and that the Lord is not slack, but longsuffering, not willing that any should perish. The day of the Lord will come as a thief in the night, when the elements shall melt with fervent heat, and the faithful look for new heavens and a new earth wherein dwelleth righteousness. He commends the epistles of his beloved brother Paul and bids the saints grow in grace.",
+      "years": "about AD 66",
+      "yearNum": 66,
+      "approx": true,
+      "place": null,
+      "themes": ["second-coming", "judgment", "hope", "endurance"],
+      "characters": ["peter", "jesus-christ", "paul"],
+      "segments": [
+        { "s": 1, "e": 18, "speaker": "peter", "to": "church", "note": "Scoffers answered; the day of the Lord; grow in grace" }
+      ]
+    }
+  ]
+}

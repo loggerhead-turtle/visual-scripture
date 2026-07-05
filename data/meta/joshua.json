@@ -1,0 +1,372 @@
+{
+  "book": "Joshua",
+  "slug": "joshua",
+  "narrator": "joshua",
+  "plates": "history",
+  "chapters": [
+    {
+      "c": 1,
+      "title": "Be Strong and of Good Courage",
+      "synopsis": "After the death of Moses, the Lord commissions Joshua to lead Israel over Jordan into the promised land. He commands him to meditate in the book of the law day and night and promises to be with him as He was with Moses. Joshua directs the people to prepare, and they pledge their obedience.",
+      "years": "about 1250 BC",
+      "yearNum": -1250,
+      "approx": true,
+      "place": "jordan-river",
+      "themes": ["leadership", "covenant", "obedience"],
+      "characters": ["joshua"],
+      "segments": [
+        { "s": 1, "e": 9, "speaker": "the-lord", "to": "joshua", "note": "Be strong and of a good courage" },
+        { "s": 10, "e": 15, "speaker": "joshua", "to": "israelites", "note": "Joshua commands the people to prepare" },
+        { "s": 16, "e": 18, "speaker": "israelites", "to": "joshua", "note": "All that thou commandest we will do" }
+      ]
+    },
+    {
+      "c": 2,
+      "title": "Rahab Hides the Spies",
+      "synopsis": "Joshua sends two spies to view Jericho, and Rahab hides them on her roof from the king's men. She confesses that the Lord has given Israel the land, and the spies covenant to spare her household, marked by a scarlet cord in the window. The spies return and report that the inhabitants faint because of Israel.",
+      "years": "about 1250 BC",
+      "yearNum": -1250,
+      "approx": true,
+      "place": "jericho",
+      "themes": ["faith", "covenant", "deliverance"],
+      "characters": ["joshua", "rahab"],
+      "segments": [
+        { "s": 1, "e": 7, "speaker": "joshua", "to": "reader", "note": "Rahab hides the two spies" },
+        { "s": 8, "e": 13, "speaker": "rahab", "to": "israelites", "note": "Rahab confesses the Lord gave Israel the land" },
+        { "s": 14, "e": 24, "speaker": "joshua", "to": "reader", "note": "The scarlet cord covenant; the spies return" }
+      ]
+    },
+    {
+      "c": 3,
+      "title": "Jordan Stands in a Heap",
+      "synopsis": "Israel follows the ark of the covenant to the edge of Jordan at flood stage. When the priests' feet touch the water, the river stands in a heap and the nation crosses on dry ground. The miracle certifies that the living God is among them and magnifies Joshua before all Israel.",
+      "years": "about 1250 BC",
+      "yearNum": -1250,
+      "approx": true,
+      "place": "jordan-river",
+      "themes": ["faith", "miracles", "covenant"],
+      "characters": ["joshua"],
+      "segments": [
+        { "s": 1, "e": 6, "speaker": "joshua", "to": "reader", "note": "Israel follows the ark to Jordan" },
+        { "s": 7, "e": 8, "speaker": "the-lord", "to": "joshua", "note": "This day will I magnify thee" },
+        { "s": 9, "e": 13, "speaker": "joshua", "to": "israelites", "note": "Hereby ye shall know the living God" },
+        { "s": 14, "e": 17, "speaker": "joshua", "to": "reader", "note": "The waters stand; Israel crosses dry" }
+      ]
+    },
+    {
+      "c": 4,
+      "title": "Twelve Stones of Memorial",
+      "synopsis": "At the Lord's command, twelve men carry twelve stones from the midst of Jordan to build a memorial at Gilgal. The stones are to prompt children in later generations to ask their meaning, so the crossing will never be forgotten. All the earth is to know that the hand of the Lord is mighty.",
+      "years": "about 1250 BC",
+      "yearNum": -1250,
+      "approx": true,
+      "place": "jordan-river",
+      "themes": ["records", "covenant", "worship"],
+      "characters": ["joshua"],
+      "segments": [
+        { "s": 1, "e": 3, "speaker": "the-lord", "to": "joshua", "note": "Take twelve stones out of Jordan" },
+        { "s": 4, "e": 24, "speaker": "joshua", "to": "reader", "note": "The memorial raised at Gilgal" }
+      ]
+    },
+    {
+      "c": 5,
+      "title": "The Captain of the Lord's Host",
+      "synopsis": "In the plains of Jericho the new generation is circumcised, rolling away the reproach of Egypt, and Israel keeps the passover. The manna ceases as the people eat the fruit of the land. A man with a drawn sword appears to Joshua and declares himself captain of the host of the Lord.",
+      "years": "about 1250 BC",
+      "yearNum": -1250,
+      "approx": true,
+      "place": "jericho",
+      "themes": ["covenant", "worship", "revelation"],
+      "characters": ["joshua"],
+      "segments": [
+        { "s": 1, "e": 12, "speaker": "joshua", "to": "reader", "note": "Circumcision and passover; the manna ceases" },
+        { "s": 13, "e": 15, "speaker": "angel", "to": "joshua", "note": "The captain of the Lord's host appears" }
+      ]
+    },
+    {
+      "c": 6,
+      "title": "The Walls of Jericho Fall",
+      "synopsis": "Following the Lord's strange battle plan, Israel circles Jericho once a day for six days, and seven times on the seventh. At the trumpet blast and the people's shout the wall falls down flat, and the city is destroyed. Rahab and her father's household are saved alive as promised.",
+      "years": "about 1245 BC",
+      "yearNum": -1245,
+      "approx": true,
+      "place": "jericho",
+      "themes": ["obedience", "faith", "deliverance", "war"],
+      "characters": ["joshua", "rahab"],
+      "segments": [
+        { "s": 1, "e": 5, "speaker": "the-lord", "to": "joshua", "note": "I have given into thine hand Jericho" },
+        { "s": 6, "e": 27, "speaker": "joshua", "to": "reader", "note": "The wall falls; Rahab is spared" }
+      ]
+    },
+    {
+      "c": 7,
+      "title": "Achan Troubles Israel",
+      "synopsis": "Achan secretly takes of the accursed spoil of Jericho, and Israel is shamefully beaten at Ai. Joshua tears his clothes before the ark, and the Lord reveals that Israel has sinned and cannot stand until the sin is purged. Achan is found out by lot, confesses, and is executed in the valley of Achor.",
+      "years": "about 1245 BC",
+      "yearNum": -1245,
+      "approx": true,
+      "place": "bethel",
+      "themes": ["obedience", "judgment", "covenant"],
+      "characters": ["joshua"],
+      "segments": [
+        { "s": 1, "e": 5, "speaker": "joshua", "to": "reader", "note": "Israel is smitten before Ai" },
+        { "s": 6, "e": 9, "speaker": "joshua", "to": "the-lord", "note": "Joshua pleads before the ark" },
+        { "s": 10, "e": 15, "speaker": "the-lord", "to": "joshua", "note": "Israel hath sinned; sanctify the people" },
+        { "s": 16, "e": 26, "speaker": "joshua", "to": "reader", "note": "Achan confesses and is judged" }
+      ]
+    },
+    {
+      "c": 8,
+      "title": "Ai Taken by Ambush",
+      "synopsis": "The Lord directs Joshua to take Ai by an ambush set behind the city, and this time the stratagem succeeds completely. Afterward Joshua builds an altar on mount Ebal, writes a copy of the law of Moses, and reads every word of the law, the blessings and cursings, before all the congregation.",
+      "years": "about 1245 BC",
+      "yearNum": -1245,
+      "approx": true,
+      "place": "bethel",
+      "themes": ["war", "obedience", "law", "covenant"],
+      "characters": ["joshua"],
+      "segments": [
+        { "s": 1, "e": 2, "speaker": "the-lord", "to": "joshua", "note": "Fear not; lay thee an ambush" },
+        { "s": 3, "e": 29, "speaker": "joshua", "to": "reader", "note": "Ai falls to the ambush" },
+        { "s": 30, "e": 35, "speaker": "joshua", "to": "reader", "note": "The law read at mount Ebal" }
+      ]
+    },
+    {
+      "c": 9,
+      "title": "The Gibeonites' Cunning Covenant",
+      "synopsis": "Fearing destruction, the Gibeonites come to Joshua in old garments with mouldy bread, pretending to be from a far country. Israel makes a league with them without asking counsel of the Lord. When the ruse is discovered the oath still stands, and the Gibeonites become hewers of wood and drawers of water.",
+      "years": "about 1244 BC",
+      "yearNum": -1244,
+      "approx": true,
+      "place": null,
+      "themes": ["covenant", "justice-and-mercy"],
+      "characters": ["joshua"],
+      "segments": [
+        { "s": 1, "e": 15, "speaker": "joshua", "to": "reader", "note": "Gibeon deceives Israel into a league" },
+        { "s": 16, "e": 27, "speaker": "joshua", "to": "reader", "note": "The deception found out; the oath honored" }
+      ]
+    },
+    {
+      "c": 10,
+      "title": "The Day the Sun Stood Still",
+      "synopsis": "Five Amorite kings attack Gibeon, and Israel marches all night to its defense. The Lord casts down great hailstones, and at Joshua's word the sun stands still upon Gibeon until the people avenge themselves. Joshua then sweeps through the south country, taking its cities and kings.",
+      "years": "about 1243 BC",
+      "yearNum": -1243,
+      "approx": true,
+      "place": null,
+      "themes": ["war", "miracles", "deliverance", "faith"],
+      "characters": ["joshua"],
+      "segments": [
+        { "s": 1, "e": 11, "speaker": "joshua", "to": "reader", "note": "Israel rescues Gibeon; hailstones fall" },
+        { "s": 12, "e": 14, "speaker": "joshua", "to": "the-lord", "note": "Sun, stand thou still upon Gibeon" },
+        { "s": 15, "e": 43, "speaker": "joshua", "to": "reader", "note": "The five kings and the south subdued" }
+      ]
+    },
+    {
+      "c": 11,
+      "title": "The Northern Kings Subdued",
+      "synopsis": "Jabin king of Hazor gathers a vast northern confederacy with horses and chariots very many. Joshua falls upon them suddenly at the waters of Merom and destroys them, burning Hazor. The long war ends, and the land rests from war.",
+      "years": "about 1242 BC",
+      "yearNum": -1242,
+      "approx": true,
+      "place": null,
+      "themes": ["war", "obedience"],
+      "characters": ["joshua"],
+      "segments": [
+        { "s": 1, "e": 23, "speaker": "joshua", "to": "reader", "note": "The northern confederacy destroyed at Merom" }
+      ]
+    },
+    {
+      "c": 12,
+      "title": "The Roll of Conquered Kings",
+      "synopsis": "The record lists the kings defeated by Israel: Sihon and Og beyond Jordan under Moses, and thirty-one kings west of Jordan under Joshua. The catalogue stands as a witness of the Lord's faithfulness in giving the whole land.",
+      "years": "about 1240 BC",
+      "yearNum": -1240,
+      "approx": true,
+      "place": null,
+      "themes": ["war", "records"],
+      "characters": ["joshua", "moses"],
+      "segments": [
+        { "s": 1, "e": 24, "speaker": "joshua", "to": "reader", "note": "The kings conquered east and west of Jordan" }
+      ]
+    },
+    {
+      "c": 13,
+      "title": "Land Yet to Be Possessed",
+      "synopsis": "Joshua is old, and the Lord names the regions that remain unconquered, promising to drive out their inhabitants. The inheritance of Reuben, Gad, and half of Manasseh east of Jordan, given by Moses, is rehearsed. Levi receives no land, for the Lord is their inheritance.",
+      "years": "about 1240 BC",
+      "yearNum": -1240,
+      "approx": true,
+      "place": null,
+      "themes": ["covenant", "records"],
+      "characters": ["joshua", "moses"],
+      "segments": [
+        { "s": 1, "e": 7, "speaker": "the-lord", "to": "joshua", "note": "There remaineth yet very much land" },
+        { "s": 8, "e": 33, "speaker": "joshua", "to": "reader", "note": "The eastern tribes' inheritance rehearsed" }
+      ]
+    },
+    {
+      "c": 14,
+      "title": "Caleb Claims His Mountain",
+      "synopsis": "As the division of Canaan by lot begins, Caleb reminds Joshua of the promise made forty-five years before, when he wholly followed the Lord as a spy. Still strong at eighty-five, he asks for the mountain of the Anakims, and Joshua blesses him and gives him Hebron.",
+      "years": "about 1238 BC",
+      "yearNum": -1238,
+      "approx": true,
+      "place": "hebron",
+      "themes": ["faith", "endurance", "covenant"],
+      "characters": ["joshua", "moses"],
+      "segments": [
+        { "s": 1, "e": 5, "speaker": "joshua", "to": "reader", "note": "The division by lot begins" },
+        { "s": 6, "e": 15, "speaker": "joshua", "to": "reader", "note": "Caleb asks for and receives Hebron" }
+      ]
+    },
+    {
+      "c": 15,
+      "title": "The Inheritance of Judah",
+      "synopsis": "The borders and cities of the tribe of Judah are described in detail, from the wilderness of Zin to the great sea. Caleb drives out the sons of Anak from Hebron, and Othniel wins Achsah his daughter. The Jebusites, however, remain unconquered in Jerusalem.",
+      "years": "about 1238 BC",
+      "yearNum": -1238,
+      "approx": true,
+      "place": "hebron",
+      "themes": ["records", "covenant"],
+      "characters": ["joshua"],
+      "segments": [
+        { "s": 1, "e": 63, "speaker": "joshua", "to": "reader", "note": "Judah's borders and cities listed" }
+      ]
+    },
+    {
+      "c": 16,
+      "title": "The Lot of Ephraim",
+      "synopsis": "The children of Joseph receive their inheritance, and the borders of Ephraim are traced through the hill country from Bethel toward the sea. The Canaanites of Gezer are not driven out but serve under tribute.",
+      "years": "about 1237 BC",
+      "yearNum": -1237,
+      "approx": true,
+      "place": "bethel",
+      "themes": ["records", "covenant"],
+      "characters": ["joshua"],
+      "segments": [
+        { "s": 1, "e": 10, "speaker": "joshua", "to": "reader", "note": "Ephraim's borders described" }
+      ]
+    },
+    {
+      "c": 17,
+      "title": "The Portion of Manasseh",
+      "synopsis": "Manasseh receives its lot west of Jordan, and the daughters of Zelophehad claim the inheritance promised them by Moses. The children of Joseph complain that their portion is too small, and Joshua tells them to prove their strength by clearing the wooded hill country and driving out the Canaanites.",
+      "years": "about 1237 BC",
+      "yearNum": -1237,
+      "approx": true,
+      "place": null,
+      "themes": ["records", "covenant", "faith"],
+      "characters": ["joshua"],
+      "segments": [
+        { "s": 1, "e": 18, "speaker": "joshua", "to": "reader", "note": "Manasseh's lot; Joseph's complaint answered" }
+      ]
+    },
+    {
+      "c": 18,
+      "title": "The Land Divided at Shiloh",
+      "synopsis": "The tabernacle is set up at Shiloh, and Joshua rebukes seven tribes still slack to possess their land. Surveyors describe the remaining country in a book, and lots are cast before the Lord. Benjamin's inheritance falls between Judah and Joseph.",
+      "years": "about 1236 BC",
+      "yearNum": -1236,
+      "approx": true,
+      "place": "shiloh",
+      "themes": ["records", "worship", "covenant"],
+      "characters": ["joshua"],
+      "segments": [
+        { "s": 1, "e": 10, "speaker": "joshua", "to": "reader", "note": "The land surveyed and cast by lot" },
+        { "s": 11, "e": 28, "speaker": "joshua", "to": "reader", "note": "Benjamin's borders and cities" }
+      ]
+    },
+    {
+      "c": 19,
+      "title": "The Last Lots Are Drawn",
+      "synopsis": "The remaining six tribes receive their inheritances by lot at Shiloh: Simeon, Zebulun, Issachar, Asher, Naphtali, and Dan. When the dividing is finished, Israel gives Joshua his own inheritance, Timnath-serah in mount Ephraim, and he builds his city there.",
+      "years": "about 1236 BC",
+      "yearNum": -1236,
+      "approx": true,
+      "place": "shiloh",
+      "themes": ["records", "covenant"],
+      "characters": ["joshua"],
+      "segments": [
+        { "s": 1, "e": 51, "speaker": "joshua", "to": "reader", "note": "Six tribes' lots; Joshua's inheritance" }
+      ]
+    },
+    {
+      "c": 20,
+      "title": "Cities of Refuge Appointed",
+      "synopsis": "The Lord commands Israel to appoint the cities of refuge spoken of by Moses, where one who kills a person unawares may flee from the avenger of blood. Six cities are set apart on both sides of Jordan, that the slayer may stand before the congregation for judgment.",
+      "years": "about 1235 BC",
+      "yearNum": -1235,
+      "approx": true,
+      "place": null,
+      "themes": ["justice-and-mercy", "law", "deliverance"],
+      "characters": ["joshua"],
+      "segments": [
+        { "s": 1, "e": 6, "speaker": "the-lord", "to": "joshua", "note": "Appoint the cities of refuge" },
+        { "s": 7, "e": 9, "speaker": "joshua", "to": "reader", "note": "Six cities set apart" }
+      ]
+    },
+    {
+      "c": 21,
+      "title": "Cities for the Levites",
+      "synopsis": "The Levites receive forty-eight cities with their suburbs out of every tribe, as the Lord commanded by Moses. The record closes with the testimony that the Lord gave Israel all the land He sware to give: there failed not ought of any good thing which the Lord had spoken.",
+      "years": "about 1235 BC",
+      "yearNum": -1235,
+      "approx": true,
+      "place": "shiloh",
+      "themes": ["priesthood", "covenant", "records"],
+      "characters": ["joshua"],
+      "segments": [
+        { "s": 1, "e": 42, "speaker": "joshua", "to": "reader", "note": "Forty-eight Levite cities assigned" },
+        { "s": 43, "e": 45, "speaker": "joshua", "to": "reader", "note": "Not one good promise failed" }
+      ]
+    },
+    {
+      "c": 22,
+      "title": "The Altar of Witness",
+      "synopsis": "Joshua blesses the eastern tribes and sends them home to their inheritance beyond Jordan. When they build a great altar by the river, the western tribes gather for war, fearing rebellion against the Lord. The easterners explain it is not for sacrifice but a witness that they too have a part in the Lord.",
+      "years": "about 1230 BC",
+      "yearNum": -1230,
+      "approx": true,
+      "place": "jordan-river",
+      "themes": ["covenant", "peace", "worship"],
+      "characters": ["joshua"],
+      "segments": [
+        { "s": 1, "e": 8, "speaker": "joshua", "to": "israelites", "note": "Joshua blesses the eastern tribes homeward" },
+        { "s": 9, "e": 34, "speaker": "joshua", "to": "reader", "note": "The altar Ed: a witness, not rebellion" }
+      ]
+    },
+    {
+      "c": 23,
+      "title": "Joshua's Farewell Charge",
+      "synopsis": "Old and stricken in age, Joshua gathers Israel's leaders and rehearses all the Lord has fought for them. He charges them to be very courageous to keep the law, to cleave unto the Lord, and to make no marriages with the remaining nations, lest the good land be lost.",
+      "years": "about 1200 BC",
+      "yearNum": -1200,
+      "approx": true,
+      "place": null,
+      "themes": ["covenant", "obedience", "endurance"],
+      "characters": ["joshua"],
+      "segments": [
+        { "s": 1, "e": 2, "speaker": "joshua", "to": "reader", "note": "Joshua, old, gathers Israel's leaders" },
+        { "s": 3, "e": 16, "speaker": "joshua", "to": "israelites", "note": "Cleave unto the Lord your God" }
+      ]
+    },
+    {
+      "c": 24,
+      "title": "Choose You This Day",
+      "synopsis": "At Shechem Joshua rehearses the Lord's dealings from Abraham to the conquest, then demands a decision: choose you this day whom ye will serve, but as for me and my house, we will serve the Lord. The people covenant to serve the Lord, and a great stone is set up as witness. Joshua dies at a hundred and ten years old.",
+      "years": "about 1200 BC",
+      "yearNum": -1200,
+      "approx": true,
+      "place": null,
+      "themes": ["covenant", "agency", "obedience"],
+      "characters": ["joshua"],
+      "segments": [
+        { "s": 1, "e": 13, "speaker": "joshua", "to": "israelites", "note": "Joshua rehearses the Lord's mighty acts" },
+        { "s": 14, "e": 15, "speaker": "joshua", "to": "israelites", "note": "Choose you this day whom ye will serve" },
+        { "s": 16, "e": 24, "speaker": "israelites", "to": "joshua", "note": "The people covenant to serve the Lord" },
+        { "s": 25, "e": 33, "speaker": "chronicler", "to": "reader", "note": "The witness stone; Joshua dies" }
+      ]
+    }
+  ]
+}

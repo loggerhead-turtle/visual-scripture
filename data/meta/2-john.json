@@ -1,0 +1,22 @@
+{
+  "book": "2 John",
+  "slug": "2-john",
+  "narrator": "john-beloved",
+  "plates": "general-epistles",
+  "chapters": [
+    {
+      "c": 1,
+      "title": "Walk in Truth and Love",
+      "synopsis": "John, the elder, writes to the elect lady and her children, rejoicing that he has found her children walking in truth. He repeats the commandment heard from the beginning, that we love one another, and warns that many deceivers who deny that Jesus Christ is come in the flesh have entered the world. The faithful must abide in the doctrine of Christ and give no welcome to those who bring another teaching.",
+      "years": "about AD 90",
+      "yearNum": 90,
+      "approx": true,
+      "place": null,
+      "themes": ["charity", "obedience", "apostasy"],
+      "characters": ["john-beloved", "jesus-christ"],
+      "segments": [
+        { "s": 1, "e": 13, "speaker": "john-beloved", "to": "church", "note": "Love one another; abide in the doctrine of Christ" }
+      ]
+    }
+  ]
+}

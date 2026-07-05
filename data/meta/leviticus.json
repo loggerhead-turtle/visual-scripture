@@ -1,0 +1,387 @@
+{
+  "book": "Leviticus",
+  "slug": "leviticus",
+  "narrator": "moses",
+  "plates": "law",
+  "chapters": [
+    {
+      "c": 1,
+      "title": "The Law of Burnt Offerings",
+      "synopsis": "The Lord calls to Moses from the tabernacle and gives instructions for burnt offerings from the herd, the flock, and the fowls. Each offering is wholly consumed on the altar as a voluntary act of devotion and atonement.",
+      "years": "about 1300 BC",
+      "yearNum": -1300,
+      "approx": true,
+      "place": "mount-sinai",
+      "themes": ["law", "worship"],
+      "characters": ["moses", "aaron"],
+      "segments": [
+        { "s": 1, "e": 17, "speaker": "the-lord", "to": "moses", "note": "instructions for burnt offerings" }
+      ]
+    },
+    {
+      "c": 2,
+      "title": "The Offering of Fine Flour",
+      "synopsis": "The Lord prescribes meat offerings of fine flour with oil and frankincense, baked or fried. No leaven or honey may be burned, and every offering must be seasoned with salt, the token of the covenant.",
+      "years": "about 1300 BC",
+      "yearNum": -1300,
+      "approx": true,
+      "place": "mount-sinai",
+      "themes": ["law", "covenant", "worship"],
+      "characters": ["moses"],
+      "segments": [
+        { "s": 1, "e": 16, "speaker": "the-lord", "to": "moses", "note": "instructions for meat offerings" }
+      ]
+    },
+    {
+      "c": 3,
+      "title": "Peace Offerings Before the Lord",
+      "synopsis": "The Lord gives the law of peace offerings taken from the herd or the flock. The fat is burned upon the altar, and Israel is commanded to eat neither fat nor blood.",
+      "years": "about 1300 BC",
+      "yearNum": -1300,
+      "approx": true,
+      "place": "mount-sinai",
+      "themes": ["law", "worship"],
+      "characters": ["moses", "aaron"],
+      "segments": [
+        { "s": 1, "e": 17, "speaker": "the-lord", "to": "moses", "note": "instructions for peace offerings" }
+      ]
+    },
+    {
+      "c": 4,
+      "title": "Offerings for Sins of Ignorance",
+      "synopsis": "The Lord sets out sin offerings for priests, for the whole congregation, for rulers, and for common people who sin through ignorance. When the offering is made, the sin is forgiven.",
+      "years": "about 1300 BC",
+      "yearNum": -1300,
+      "approx": true,
+      "place": "mount-sinai",
+      "themes": ["law", "worship"],
+      "characters": ["moses", "aaron"],
+      "segments": [
+        { "s": 1, "e": 35, "speaker": "the-lord", "to": "moses", "note": "sin offerings for ignorance" }
+      ]
+    },
+    {
+      "c": 5,
+      "title": "Trespass Offerings and Confession",
+      "synopsis": "The Lord requires confession and a trespass offering for hidden sins, rash oaths, and touching unclean things. The poor may bring turtledoves or fine flour, so that atonement is within reach of all.",
+      "years": "about 1300 BC",
+      "yearNum": -1300,
+      "approx": true,
+      "place": "mount-sinai",
+      "themes": ["law", "worship"],
+      "characters": ["moses"],
+      "segments": [
+        { "s": 1, "e": 19, "speaker": "the-lord", "to": "moses", "note": "trespass offerings and confession" }
+      ]
+    },
+    {
+      "c": 6,
+      "title": "Continual Fire Upon the Altar",
+      "synopsis": "The Lord commands restitution plus a fifth part for trespass against a neighbor. He gives the priests the laws of the burnt, meat, and sin offerings, and the fire on the altar must never go out.",
+      "years": "about 1300 BC",
+      "yearNum": -1300,
+      "approx": true,
+      "place": "mount-sinai",
+      "themes": ["law", "obedience", "worship"],
+      "characters": ["moses", "aaron"],
+      "segments": [
+        { "s": 1, "e": 30, "speaker": "the-lord", "to": "moses", "note": "restitution and priestly offering laws" }
+      ]
+    },
+    {
+      "c": 7,
+      "title": "Laws of the Priests' Portions",
+      "synopsis": "The Lord completes the laws of the trespass and peace offerings, including thanksgiving offerings. The priests receive their appointed portions, and eating fat or blood is strictly forbidden.",
+      "years": "about 1300 BC",
+      "yearNum": -1300,
+      "approx": true,
+      "place": "mount-sinai",
+      "themes": ["law", "worship"],
+      "characters": ["moses", "aaron"],
+      "segments": [
+        { "s": 1, "e": 38, "speaker": "the-lord", "to": "moses", "note": "trespass and peace offering laws" }
+      ]
+    },
+    {
+      "c": 8,
+      "title": "Aaron and His Sons Consecrated",
+      "synopsis": "Moses washes, clothes, and anoints Aaron and his sons before the congregation, consecrating them to the priesthood as the Lord commanded. They remain at the tabernacle door seven days to fulfil their consecration.",
+      "years": "about 1300 BC",
+      "yearNum": -1300,
+      "approx": true,
+      "place": "mount-sinai",
+      "themes": ["law", "obedience", "worship"],
+      "characters": ["moses", "aaron"],
+      "segments": [
+        { "s": 1, "e": 36, "speaker": "moses", "to": "reader", "note": "the priests are consecrated" }
+      ]
+    },
+    {
+      "c": 9,
+      "title": "The Glory of the Lord Appears",
+      "synopsis": "On the eighth day Aaron offers the first sacrifices for himself and for the people, and blesses them. The glory of the Lord appears, and fire from the Lord consumes the offering on the altar.",
+      "years": "about 1300 BC",
+      "yearNum": -1300,
+      "approx": true,
+      "place": "mount-sinai",
+      "themes": ["worship", "obedience"],
+      "characters": ["moses", "aaron"],
+      "segments": [
+        { "s": 1, "e": 24, "speaker": "moses", "to": "reader", "note": "first offerings; divine fire descends" }
+      ]
+    },
+    {
+      "c": 10,
+      "title": "Strange Fire Before the Lord",
+      "synopsis": "Nadab and Abihu, sons of Aaron, offer strange fire and are consumed by fire from the Lord. Priests are forbidden wine when serving, and Moses instructs Aaron's remaining sons in their sacred duties.",
+      "years": "about 1300 BC",
+      "yearNum": -1300,
+      "approx": true,
+      "place": "mount-sinai",
+      "themes": ["obedience", "law", "worship"],
+      "characters": ["moses", "aaron"],
+      "segments": [
+        { "s": 1, "e": 20, "speaker": "moses", "to": "reader", "note": "Nadab and Abihu consumed" }
+      ]
+    },
+    {
+      "c": 11,
+      "title": "Clean and Unclean Meats",
+      "synopsis": "The Lord distinguishes the beasts, fish, fowls, and creeping things that Israel may and may not eat. The people are to sanctify themselves and be holy, for the Lord is holy.",
+      "years": "about 1300 BC",
+      "yearNum": -1300,
+      "approx": true,
+      "place": "mount-sinai",
+      "themes": ["law", "obedience"],
+      "characters": ["moses", "aaron"],
+      "segments": [
+        { "s": 1, "e": 47, "speaker": "the-lord", "to": "moses", "note": "laws of clean and unclean" }
+      ]
+    },
+    {
+      "c": 12,
+      "title": "Purification After Childbirth",
+      "synopsis": "The Lord gives the days of purification for a mother after the birth of a son or a daughter. She then brings a burnt offering and a sin offering, or two doves if she is poor.",
+      "years": "about 1300 BC",
+      "yearNum": -1300,
+      "approx": true,
+      "place": "mount-sinai",
+      "themes": ["law", "worship"],
+      "characters": ["moses"],
+      "segments": [
+        { "s": 1, "e": 8, "speaker": "the-lord", "to": "moses", "note": "purification after childbirth" }
+      ]
+    },
+    {
+      "c": 13,
+      "title": "Discerning the Plague of Leprosy",
+      "synopsis": "The Lord teaches the priests how to examine skin diseases and pronounce a person clean or unclean. Lepers must dwell apart outside the camp, and garments with the plague are burned.",
+      "years": "about 1300 BC",
+      "yearNum": -1300,
+      "approx": true,
+      "place": "mount-sinai",
+      "themes": ["law"],
+      "characters": ["moses", "aaron"],
+      "segments": [
+        { "s": 1, "e": 59, "speaker": "the-lord", "to": "moses", "note": "laws for discerning leprosy" }
+      ]
+    },
+    {
+      "c": 14,
+      "title": "Cleansing the Healed Leper",
+      "synopsis": "The Lord prescribes the rites for cleansing a healed leper, using two birds, cedar wood, scarlet, and hyssop, with offerings on the eighth day. He also gives the law for leprosy found in a house.",
+      "years": "about 1300 BC",
+      "yearNum": -1300,
+      "approx": true,
+      "place": "mount-sinai",
+      "themes": ["law", "worship"],
+      "characters": ["moses", "aaron"],
+      "segments": [
+        { "s": 1, "e": 57, "speaker": "the-lord", "to": "moses", "note": "rites for cleansing lepers" }
+      ]
+    },
+    {
+      "c": 15,
+      "title": "Laws of Bodily Issues",
+      "synopsis": "The Lord declares the uncleanness caused by bodily issues in men and women and the washings required. Israel must be separated from uncleanness so the tabernacle among them is not defiled.",
+      "years": "about 1300 BC",
+      "yearNum": -1300,
+      "approx": true,
+      "place": "mount-sinai",
+      "themes": ["law"],
+      "characters": ["moses", "aaron"],
+      "segments": [
+        { "s": 1, "e": 33, "speaker": "the-lord", "to": "moses", "note": "laws of uncleanness and washing" }
+      ]
+    },
+    {
+      "c": 16,
+      "title": "The Day of Atonement",
+      "synopsis": "The Lord appoints one day each year when Aaron enters the holy place with blood to make atonement for himself and all Israel. A scapegoat bears the sins of the people into the wilderness.",
+      "years": "about 1300 BC",
+      "yearNum": -1300,
+      "approx": true,
+      "place": "mount-sinai",
+      "themes": ["atonement", "law", "worship"],
+      "characters": ["moses", "aaron"],
+      "segments": [
+        { "s": 1, "e": 34, "speaker": "the-lord", "to": "moses", "note": "the yearly day of atonement" }
+      ]
+    },
+    {
+      "c": 17,
+      "title": "The Life Is in the Blood",
+      "synopsis": "The Lord commands that sacrifices be brought only to the tabernacle door and forbids offerings to devils. Eating blood is forbidden, for the life of the flesh is in the blood, given to make atonement.",
+      "years": "about 1300 BC",
+      "yearNum": -1300,
+      "approx": true,
+      "place": "mount-sinai",
+      "themes": ["law", "atonement", "worship"],
+      "characters": ["moses", "aaron"],
+      "segments": [
+        { "s": 1, "e": 16, "speaker": "the-lord", "to": "moses", "note": "sacrifice at the tabernacle only" }
+      ]
+    },
+    {
+      "c": 18,
+      "title": "Walk Not in Their Ordinances",
+      "synopsis": "The Lord forbids Israel to follow the practices of Egypt and Canaan, listing unlawful marriages and relations. Such abominations defiled the land before them, and Israel must keep the Lord's statutes and live.",
+      "years": "about 1300 BC",
+      "yearNum": -1300,
+      "approx": true,
+      "place": "mount-sinai",
+      "themes": ["law", "obedience"],
+      "characters": ["moses"],
+      "segments": [
+        { "s": 1, "e": 30, "speaker": "the-lord", "to": "moses", "note": "unlawful relations forbidden" }
+      ]
+    },
+    {
+      "c": 19,
+      "title": "Ye Shall Be Holy",
+      "synopsis": "The Lord commands Israel to be holy as he is holy, gathering laws of honesty, justice, care for the poor and the stranger, and love of neighbor. Every command rests on the refrain, I am the Lord.",
+      "years": "about 1300 BC",
+      "yearNum": -1300,
+      "approx": true,
+      "place": "mount-sinai",
+      "themes": ["law", "obedience", "covenant"],
+      "characters": ["moses"],
+      "segments": [
+        { "s": 1, "e": 37, "speaker": "the-lord", "to": "moses", "note": "laws of holiness and neighborly love" }
+      ]
+    },
+    {
+      "c": 20,
+      "title": "Penalties for Defilement",
+      "synopsis": "The Lord fixes penalties for giving children to Molech, turning to familiar spirits, and unlawful relations. Israel is severed from other peoples to be holy unto the Lord.",
+      "years": "about 1300 BC",
+      "yearNum": -1300,
+      "approx": true,
+      "place": "mount-sinai",
+      "themes": ["law", "obedience", "covenant"],
+      "characters": ["moses"],
+      "segments": [
+        { "s": 1, "e": 27, "speaker": "the-lord", "to": "moses", "note": "penalties for grave sins" }
+      ]
+    },
+    {
+      "c": 21,
+      "title": "The Holiness of the Priests",
+      "synopsis": "The Lord sets stricter standards for priests concerning mourning, marriage, and bodily blemish. Those who offer the bread of their God must be holy and without profaning his sanctuaries.",
+      "years": "about 1300 BC",
+      "yearNum": -1300,
+      "approx": true,
+      "place": "mount-sinai",
+      "themes": ["law", "worship"],
+      "characters": ["moses", "aaron"],
+      "segments": [
+        { "s": 1, "e": 24, "speaker": "the-lord", "to": "moses", "note": "standards of priestly holiness" }
+      ]
+    },
+    {
+      "c": 22,
+      "title": "Holy Things Kept Holy",
+      "synopsis": "The Lord instructs the priests to keep themselves clean before eating the holy offerings and states who in a priest's house may eat them. Every sacrifice brought to the Lord must be without blemish.",
+      "years": "about 1300 BC",
+      "yearNum": -1300,
+      "approx": true,
+      "place": "mount-sinai",
+      "themes": ["law", "worship"],
+      "characters": ["moses", "aaron"],
+      "segments": [
+        { "s": 1, "e": 33, "speaker": "the-lord", "to": "moses", "note": "clean priests, unblemished offerings" }
+      ]
+    },
+    {
+      "c": 23,
+      "title": "The Feasts of the Lord",
+      "synopsis": "The Lord appoints his holy convocations: the sabbath, passover and unleavened bread, firstfruits, pentecost, trumpets, the day of atonement, and the feast of tabernacles. Each feast is a statute for ever throughout Israel's generations.",
+      "years": "about 1300 BC",
+      "yearNum": -1300,
+      "approx": true,
+      "place": "mount-sinai",
+      "themes": ["worship", "law", "covenant"],
+      "characters": ["moses"],
+      "segments": [
+        { "s": 1, "e": 44, "speaker": "the-lord", "to": "moses", "note": "the appointed feasts" }
+      ]
+    },
+    {
+      "c": 24,
+      "title": "The Lamps, Bread, and Blasphemer",
+      "synopsis": "The Lord commands pure oil for the continual lamps and twelve loaves of shewbread set weekly before him. A man who blasphemes the name of the Lord is judged and stoned, and the law of just recompense is given.",
+      "years": "about 1300 BC",
+      "yearNum": -1300,
+      "approx": true,
+      "place": "mount-sinai",
+      "themes": ["law", "worship", "obedience"],
+      "characters": ["moses", "aaron"],
+      "segments": [
+        { "s": 1, "e": 9, "speaker": "the-lord", "to": "moses", "note": "the lamps and shewbread" },
+        { "s": 10, "e": 23, "speaker": "moses", "to": "reader", "note": "the blasphemer judged" }
+      ]
+    },
+    {
+      "c": 25,
+      "title": "Sabbath Years and the Jubilee",
+      "synopsis": "The Lord ordains a sabbath rest for the land every seventh year and a jubilee every fiftieth, when land returns to its family and Israelite servants go free. The land is the Lord's, and his people are not to oppress one another.",
+      "years": "about 1300 BC",
+      "yearNum": -1300,
+      "approx": true,
+      "place": "mount-sinai",
+      "themes": ["law", "covenant", "deliverance"],
+      "characters": ["moses"],
+      "segments": [
+        { "s": 1, "e": 55, "speaker": "the-lord", "to": "moses", "note": "sabbath years and jubilee" }
+      ]
+    },
+    {
+      "c": 26,
+      "title": "Blessings and Cursings Declared",
+      "synopsis": "The Lord promises rain, peace, and his presence if Israel keeps his commandments, and warns of terror, famine, and scattering if they do not. Yet if they confess and humble themselves, he will remember his covenant.",
+      "years": "about 1300 BC",
+      "yearNum": -1300,
+      "approx": true,
+      "place": "mount-sinai",
+      "themes": ["covenant", "obedience", "deliverance"],
+      "characters": ["moses"],
+      "segments": [
+        { "s": 1, "e": 46, "speaker": "the-lord", "to": "moses", "note": "covenant blessings and cursings" }
+      ]
+    },
+    {
+      "c": 27,
+      "title": "Vows, Devotions, and Tithes",
+      "synopsis": "The Lord gives the valuations for persons, animals, houses, and fields devoted by vow, and the rules for redeeming them. The tithe of the land and of the flock is holy unto the Lord.",
+      "years": "about 1300 BC",
+      "yearNum": -1300,
+      "approx": true,
+      "place": "mount-sinai",
+      "themes": ["law", "covenant", "worship"],
+      "characters": ["moses"],
+      "segments": [
+        { "s": 1, "e": 34, "speaker": "the-lord", "to": "moses", "note": "valuations of vows and tithes" }
+      ]
+    }
+  ]
+}

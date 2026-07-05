@@ -1,0 +1,770 @@
+{
+  "book": "Genesis",
+  "slug": "genesis",
+  "narrator": "moses",
+  "plates": "law",
+  "chapters": [
+    {
+      "c": 1,
+      "title": "The Creation of Heaven and Earth",
+      "synopsis": "God creates the heavens, the earth, light, seas, plants, and living creatures over six days. Each stage of creation is pronounced good. On the sixth day God creates man and woman in His own image and gives them dominion over the earth.",
+      "years": "about 4000 BC",
+      "yearNum": -4000,
+      "approx": true,
+      "place": null,
+      "themes": ["creation", "worship"],
+      "characters": ["the-lord", "adam", "eve"],
+      "segments": [
+        { "s": 1, "e": 25, "speaker": "moses", "to": "reader", "note": "Moses recounts the six creative periods" },
+        { "s": 26, "e": 31, "speaker": "the-lord", "to": "adam", "note": "God creates man and grants dominion" }
+      ]
+    },
+    {
+      "c": 2,
+      "title": "Eden and the First Marriage",
+      "synopsis": "God rests on the seventh day and hallows it. He plants the garden of Eden, places Adam there, and commands him not to eat of the tree of knowledge of good and evil. Seeing that it is not good for man to be alone, God creates Eve, and the two are joined as husband and wife.",
+      "years": "about 4000 BC",
+      "yearNum": -4000,
+      "approx": true,
+      "place": null,
+      "themes": ["creation", "family", "covenant"],
+      "characters": ["the-lord", "adam", "eve"],
+      "segments": [
+        { "s": 1, "e": 15, "speaker": "moses", "to": "reader", "note": "The sabbath; Adam placed in Eden" },
+        { "s": 16, "e": 17, "speaker": "the-lord", "to": "adam", "note": "Command concerning the forbidden tree" },
+        { "s": 18, "e": 25, "speaker": "moses", "to": "reader", "note": "Eve created; the first marriage" }
+      ]
+    },
+    {
+      "c": 3,
+      "title": "The Fall of Adam and Eve",
+      "synopsis": "The serpent persuades Eve to eat the forbidden fruit, and Adam eats also. Their eyes are opened, and they hide from God, who questions them and pronounces consequences on the serpent, the woman, and the man. Adam and Eve are sent out of Eden into the mortal world.",
+      "years": "about 4000 BC",
+      "yearNum": -4000,
+      "approx": true,
+      "place": null,
+      "themes": ["fall", "agency", "judgment"],
+      "characters": ["adam", "eve", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 8, "speaker": "moses", "to": "reader", "note": "The serpent beguiles Eve" },
+        { "s": 9, "e": 19, "speaker": "the-lord", "to": "adam", "note": "God questions and judges Adam and Eve" },
+        { "s": 20, "e": 24, "speaker": "moses", "to": "reader", "note": "Adam and Eve leave Eden" }
+      ]
+    },
+    {
+      "c": 4,
+      "title": "Cain, Abel, and the First Murder",
+      "synopsis": "Cain and Abel bring offerings to the Lord, and Abel's is accepted while Cain's is not. In anger Cain kills his brother and is cursed to wander the earth. The chapter closes with Cain's posterity and the birth of Seth, through whom men begin to call upon the Lord.",
+      "years": "about 3900 BC",
+      "yearNum": -3900,
+      "approx": true,
+      "place": null,
+      "themes": ["agency", "judgment", "family"],
+      "characters": ["adam", "eve", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 26, "speaker": "moses", "to": "reader", "note": "Cain slays Abel; Seth is born" }
+      ]
+    },
+    {
+      "c": 5,
+      "title": "The Generations from Adam to Noah",
+      "synopsis": "Moses records the family line from Adam through Seth down to Noah, noting the long lives of the patriarchs. Enoch stands out because he walks with God and is taken without tasting death. The genealogy ends with Noah and his three sons.",
+      "years": "about 3400 BC",
+      "yearNum": -3400,
+      "approx": true,
+      "place": null,
+      "themes": ["records", "family"],
+      "characters": ["adam", "enoch", "noah"],
+      "segments": [
+        { "s": 1, "e": 32, "speaker": "moses", "to": "reader", "note": "Genealogy from Adam to Noah" }
+      ]
+    },
+    {
+      "c": 6,
+      "title": "Noah Commanded to Build the Ark",
+      "synopsis": "Wickedness fills the earth until God grieves that He made man, but Noah finds grace in His eyes. God tells Noah He will destroy all flesh with a flood and gives him exact instructions for building an ark. Noah obeys everything the Lord commands.",
+      "years": "about 2400 BC",
+      "yearNum": -2400,
+      "approx": true,
+      "place": null,
+      "themes": ["judgment", "obedience", "covenant"],
+      "characters": ["noah", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 12, "speaker": "moses", "to": "reader", "note": "The earth is corrupt before God" },
+        { "s": 13, "e": 21, "speaker": "the-lord", "to": "noah", "note": "God commands Noah to build the ark" },
+        { "s": 22, "e": 22, "speaker": "moses", "to": "reader", "note": "Noah does all God commands" }
+      ]
+    },
+    {
+      "c": 7,
+      "title": "The Flood Covers the Earth",
+      "synopsis": "The Lord commands Noah to enter the ark with his family and the animals. Rain falls for forty days and the waters rise until every high hill is covered. All flesh outside the ark dies, while Noah and those with him are preserved.",
+      "years": "about 2350 BC",
+      "yearNum": -2350,
+      "approx": true,
+      "place": null,
+      "themes": ["judgment", "deliverance", "obedience"],
+      "characters": ["noah", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 4, "speaker": "the-lord", "to": "noah", "note": "Come thou into the ark" },
+        { "s": 5, "e": 24, "speaker": "moses", "to": "reader", "note": "The flood destroys all flesh" }
+      ]
+    },
+    {
+      "c": 8,
+      "title": "The Waters Recede from the Earth",
+      "synopsis": "God remembers Noah, the rains stop, and the ark rests on the mountains of Ararat. Noah sends out a raven and a dove to test whether the ground is dry. At God's word Noah leaves the ark and offers sacrifice, and the Lord promises never again to smite every living thing.",
+      "years": "about 2350 BC",
+      "yearNum": -2350,
+      "approx": true,
+      "place": null,
+      "themes": ["deliverance", "worship", "hope"],
+      "characters": ["noah", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 14, "speaker": "moses", "to": "reader", "note": "The waters abate; the dove returns" },
+        { "s": 15, "e": 19, "speaker": "the-lord", "to": "noah", "note": "Go forth from the ark" },
+        { "s": 20, "e": 22, "speaker": "moses", "to": "reader", "note": "Noah's sacrifice; the Lord's promise" }
+      ]
+    },
+    {
+      "c": 9,
+      "title": "The Covenant of the Rainbow",
+      "synopsis": "God blesses Noah and his sons, commands them to multiply, and establishes a covenant never again to destroy the earth by flood, setting the rainbow as its token. Noah later plants a vineyard, and an incident with his sons brings a blessing on Shem and Japheth. Noah dies at nine hundred fifty years.",
+      "years": "about 2350 BC",
+      "yearNum": -2350,
+      "approx": true,
+      "place": null,
+      "themes": ["covenant", "family"],
+      "characters": ["noah", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 17, "speaker": "the-lord", "to": "noah", "note": "The rainbow covenant established" },
+        { "s": 18, "e": 29, "speaker": "moses", "to": "reader", "note": "Noah's sons; his final years" }
+      ]
+    },
+    {
+      "c": 10,
+      "title": "The Table of Nations",
+      "synopsis": "Moses lists the descendants of Shem, Ham, and Japheth after the flood. From these families the nations of the earth spread out into their lands and languages. The record traces how the world was divided among Noah's posterity.",
+      "years": "about 2300 BC",
+      "yearNum": -2300,
+      "approx": true,
+      "place": null,
+      "themes": ["records", "family"],
+      "characters": ["noah"],
+      "segments": [
+        { "s": 1, "e": 32, "speaker": "moses", "to": "reader", "note": "Nations descend from Noah's sons" }
+      ]
+    },
+    {
+      "c": 11,
+      "title": "Babel and the Line to Abram",
+      "synopsis": "The people, still of one language, build a tower at Babel to make themselves a name, and the Lord confounds their speech and scatters them abroad. Moses then traces the family line from Shem down to Terah. Terah's son Abram marries Sarai, and the family journeys toward Canaan as far as Haran.",
+      "years": "about 2200 BC",
+      "yearNum": -2200,
+      "approx": true,
+      "place": null,
+      "themes": ["pride-cycle", "judgment", "records"],
+      "characters": ["noah", "abraham", "sarah"],
+      "segments": [
+        { "s": 1, "e": 32, "speaker": "moses", "to": "reader", "note": "The tower of Babel; genealogy to Abram" }
+      ]
+    },
+    {
+      "c": 12,
+      "title": "The Call and Covenant of Abram",
+      "synopsis": "The Lord calls Abram to leave his country, promising to make of him a great nation in whom all families of the earth will be blessed. Abram journeys through Canaan, building altars near Bethel. A famine drives him to Egypt, where Pharaoh takes Sarai until God intervenes with plagues.",
+      "years": "about 1920 BC",
+      "yearNum": -1920,
+      "approx": true,
+      "place": "bethel",
+      "themes": ["covenant", "obedience", "faith"],
+      "characters": ["abraham", "sarah", "the-lord", "pharaoh"],
+      "segments": [
+        { "s": 1, "e": 3, "speaker": "the-lord", "to": "abraham", "note": "Get thee out; the great promise" },
+        { "s": 4, "e": 20, "speaker": "moses", "to": "reader", "note": "Abram in Canaan and Egypt" }
+      ]
+    },
+    {
+      "c": 13,
+      "title": "Abram and Lot Part Ways",
+      "synopsis": "Abram returns from Egypt to Bethel, rich in flocks and herds. When strife arises between his herdmen and Lot's, Abram generously lets Lot choose first, and Lot picks the well-watered plain of Jordan near Sodom. The Lord then renews His promise, giving Abram all the land he can see and posterity as the dust of the earth.",
+      "years": "about 1917 BC",
+      "yearNum": -1917,
+      "approx": true,
+      "place": "hebron",
+      "themes": ["peace", "covenant", "humility"],
+      "characters": ["abraham", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 13, "speaker": "moses", "to": "reader", "note": "Abram and Lot separate peacefully" },
+        { "s": 14, "e": 17, "speaker": "the-lord", "to": "abraham", "note": "All the land promised to Abram's seed" },
+        { "s": 18, "e": 18, "speaker": "moses", "to": "reader", "note": "Abram settles at Hebron" }
+      ]
+    },
+    {
+      "c": 14,
+      "title": "Abram Rescues Lot; Melchizedek Blesses",
+      "synopsis": "Warring kings sack Sodom and carry Lot away captive. Abram arms his household, defeats the kings by night, and recovers Lot and all the goods. Melchizedek, king of Salem and priest of the most high God, blesses Abram, who pays him tithes and refuses any reward from the king of Sodom.",
+      "years": "about 1913 BC",
+      "yearNum": -1913,
+      "approx": true,
+      "place": "dead-sea",
+      "themes": ["war", "deliverance", "priesthood"],
+      "characters": ["abraham", "melchizedek"],
+      "segments": [
+        { "s": 1, "e": 17, "speaker": "moses", "to": "reader", "note": "The battle of the kings; Lot rescued" },
+        { "s": 18, "e": 20, "speaker": "melchizedek", "to": "abraham", "note": "Melchizedek blesses Abram" },
+        { "s": 21, "e": 24, "speaker": "moses", "to": "reader", "note": "Abram refuses the spoils of Sodom" }
+      ]
+    },
+    {
+      "c": 15,
+      "title": "The Covenant Sealed in Vision",
+      "synopsis": "In vision the Lord promises childless Abram an heir from his own body and posterity as numberless as the stars, and Abram's belief is counted to him for righteousness. Through a solemn sacrifice the Lord covenants to give the land to Abram's seed. He also foretells four hundred years of affliction in a strange land before their return.",
+      "years": "about 1913 BC",
+      "yearNum": -1913,
+      "approx": true,
+      "place": "hebron",
+      "themes": ["covenant", "faith", "prophecy"],
+      "characters": ["abraham", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 21, "speaker": "the-lord", "to": "abraham", "note": "The Lord covenants with Abram in vision" }
+      ]
+    },
+    {
+      "c": 16,
+      "title": "Hagar and the Birth of Ishmael",
+      "synopsis": "Sarai, still barren, gives her handmaid Hagar to Abram, but once Hagar conceives, contention drives her into the wilderness. The angel of the Lord finds her by a fountain, tells her to return, and promises that her son Ishmael will father a multitude. Hagar returns and bears Ishmael when Abram is eighty-six.",
+      "years": "about 1911 BC",
+      "yearNum": -1911,
+      "approx": true,
+      "place": "hebron",
+      "themes": ["family", "revelation", "endurance"],
+      "characters": ["abraham", "sarah", "hagar", "angel"],
+      "segments": [
+        { "s": 1, "e": 6, "speaker": "moses", "to": "reader", "note": "Hagar conceives and flees from Sarai" },
+        { "s": 7, "e": 12, "speaker": "angel", "to": "hagar", "note": "The angel promises Ishmael's posterity" },
+        { "s": 13, "e": 16, "speaker": "moses", "to": "reader", "note": "Ishmael is born to Abram" }
+      ]
+    },
+    {
+      "c": 17,
+      "title": "The Covenant of Circumcision",
+      "synopsis": "When Abram is ninety-nine, the Lord appears and establishes an everlasting covenant, changing his name to Abraham and Sarai's to Sarah. Circumcision is given as the covenant's token, and God promises that Sarah herself will bear Isaac within a year. Abraham circumcises every male of his house that same day.",
+      "years": "about 1898 BC",
+      "yearNum": -1898,
+      "approx": true,
+      "place": "hebron",
+      "themes": ["covenant", "obedience"],
+      "characters": ["abraham", "sarah", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 22, "speaker": "the-lord", "to": "abraham", "note": "Names changed; circumcision; Isaac promised" },
+        { "s": 23, "e": 27, "speaker": "moses", "to": "reader", "note": "Abraham obeys the same day" }
+      ]
+    },
+    {
+      "c": 18,
+      "title": "Three Visitors and a Promised Son",
+      "synopsis": "Three holy visitors come to Abraham's tent at Mamre, and he feeds them. The Lord promises that Sarah will bear a son within the year, and Sarah laughs within herself, for she is old. As the visitors turn toward Sodom, the Lord reveals its coming judgment, and Abraham boldly pleads for the city to be spared for the sake of the righteous.",
+      "years": "about 1898 BC",
+      "yearNum": -1898,
+      "approx": true,
+      "place": "hebron",
+      "themes": ["faith", "justice-and-mercy", "prayer"],
+      "characters": ["abraham", "sarah", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 8, "speaker": "moses", "to": "reader", "note": "Abraham entertains three visitors" },
+        { "s": 9, "e": 21, "speaker": "the-lord", "to": "abraham", "note": "Sarah shall bear; Sodom's doom weighed" },
+        { "s": 22, "e": 33, "speaker": "abraham", "to": "the-lord", "note": "Abraham pleads for Sodom" }
+      ]
+    },
+    {
+      "c": 19,
+      "title": "The Destruction of Sodom and Gomorrah",
+      "synopsis": "Two angels come to Sodom, and Lot shelters them from the violent men of the city. At dawn the angels pull Lot's family out of the city, and the Lord rains fire and brimstone on Sodom and Gomorrah. Lot's wife looks back and becomes a pillar of salt, while Lot and his daughters escape to the mountains.",
+      "years": "about 1897 BC",
+      "yearNum": -1897,
+      "approx": true,
+      "place": "dead-sea",
+      "themes": ["judgment", "deliverance"],
+      "characters": ["angel", "abraham"],
+      "segments": [
+        { "s": 1, "e": 38, "speaker": "moses", "to": "reader", "note": "Angels rescue Lot; Sodom destroyed" }
+      ]
+    },
+    {
+      "c": 20,
+      "title": "Abraham and Abimelech at Gerar",
+      "synopsis": "Abraham sojourns in Gerar and again calls Sarah his sister, so Abimelech the king takes her. God warns Abimelech in a dream that Sarah is a married woman, and he restores her with gifts and an honest rebuke. Abraham prays for Abimelech's house, and God heals them.",
+      "years": "about 1897 BC",
+      "yearNum": -1897,
+      "approx": true,
+      "place": "gaza",
+      "themes": ["revelation", "prayer", "justice-and-mercy"],
+      "characters": ["abraham", "sarah", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 18, "speaker": "moses", "to": "reader", "note": "God warns Abimelech; Sarah restored" }
+      ]
+    },
+    {
+      "c": 21,
+      "title": "Isaac Born; Hagar Sent Away",
+      "synopsis": "Sarah bears Isaac in Abraham's old age, just as the Lord promised. At Sarah's insistence Hagar and Ishmael are sent into the wilderness, where God hears the lad's voice and preserves them, promising Ishmael a great nation. Abraham and Abimelech make a covenant of peace at Beersheba.",
+      "years": "about 1896 BC",
+      "yearNum": -1896,
+      "approx": true,
+      "place": "beersheba",
+      "themes": ["covenant", "family", "deliverance"],
+      "characters": ["abraham", "sarah", "isaac", "hagar", "angel"],
+      "segments": [
+        { "s": 1, "e": 11, "speaker": "moses", "to": "reader", "note": "Isaac is born; Sarah's demand" },
+        { "s": 12, "e": 13, "speaker": "the-lord", "to": "abraham", "note": "Hearken unto Sarah; Ishmael blessed" },
+        { "s": 14, "e": 16, "speaker": "moses", "to": "reader", "note": "Hagar despairs in the wilderness" },
+        { "s": 17, "e": 18, "speaker": "angel", "to": "hagar", "note": "God hears the lad's voice" },
+        { "s": 19, "e": 34, "speaker": "moses", "to": "reader", "note": "Ishmael preserved; covenant at Beersheba" }
+      ]
+    },
+    {
+      "c": 22,
+      "title": "The Offering of Isaac",
+      "synopsis": "God tests Abraham, commanding him to offer his beloved son Isaac on mount Moriah. Abraham obeys, and at the last moment the angel of the Lord stays his hand and a ram is provided instead. Because Abraham withheld nothing, the Lord swears that in his seed all nations of the earth will be blessed.",
+      "years": "about 1872 BC",
+      "yearNum": -1872,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["faith", "obedience", "messiah"],
+      "characters": ["abraham", "isaac", "angel", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 2, "speaker": "the-lord", "to": "abraham", "note": "Take now thy son, thine only son" },
+        { "s": 3, "e": 10, "speaker": "moses", "to": "reader", "note": "Abraham and Isaac ascend Moriah" },
+        { "s": 11, "e": 18, "speaker": "angel", "to": "abraham", "note": "The sacrifice stayed; the oath sworn" },
+        { "s": 19, "e": 24, "speaker": "moses", "to": "reader", "note": "The return; Nahor's family" }
+      ]
+    },
+    {
+      "c": 23,
+      "title": "Sarah's Death and Burial at Machpelah",
+      "synopsis": "Sarah dies at Hebron at one hundred twenty-seven years, and Abraham mourns for her. He courteously negotiates with the sons of Heth and buys the cave of Machpelah from Ephron for four hundred shekels of silver. It becomes the family burying place, Abraham's first owned ground in the promised land.",
+      "years": "about 1859 BC",
+      "yearNum": -1859,
+      "approx": true,
+      "place": "hebron",
+      "themes": ["family", "covenant"],
+      "characters": ["abraham", "sarah"],
+      "segments": [
+        { "s": 1, "e": 20, "speaker": "moses", "to": "reader", "note": "Abraham buys the cave of Machpelah" }
+      ]
+    },
+    {
+      "c": 24,
+      "title": "A Wife Sought for Isaac",
+      "synopsis": "Abraham sends his trusted servant back to his kindred to find a wife for Isaac. At a well the servant prays for a sign, and Rebekah answers it exactly, drawing water for him and his camels. Her family consents, Rebekah willingly goes, and Isaac loves her and is comforted after his mother's death.",
+      "years": "about 1857 BC",
+      "yearNum": -1857,
+      "approx": true,
+      "place": null,
+      "themes": ["family", "prayer", "covenant"],
+      "characters": ["abraham", "isaac", "rebekah"],
+      "segments": [
+        { "s": 1, "e": 9, "speaker": "moses", "to": "reader", "note": "Abraham charges his servant with an oath" },
+        { "s": 10, "e": 49, "speaker": "moses", "to": "reader", "note": "The prayer at the well; Rebekah found" },
+        { "s": 50, "e": 67, "speaker": "moses", "to": "reader", "note": "Rebekah consents and marries Isaac" }
+      ]
+    },
+    {
+      "c": 25,
+      "title": "Esau and Jacob: The Birthright Sold",
+      "synopsis": "Abraham dies at one hundred seventy-five and is buried beside Sarah at Machpelah. Rebekah, barren for years, conceives twins, and the Lord tells her that two nations struggle in her womb and the elder will serve the younger. Esau, a hunter, sells his birthright to Jacob for a mess of pottage.",
+      "years": "about 1837 BC",
+      "yearNum": -1837,
+      "approx": true,
+      "place": "beersheba",
+      "themes": ["family", "covenant", "agency"],
+      "characters": ["abraham", "isaac", "rebekah", "jacob-israel", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 22, "speaker": "moses", "to": "reader", "note": "Abraham's death; Rebekah conceives twins" },
+        { "s": 23, "e": 23, "speaker": "the-lord", "to": "rebekah", "note": "Two nations are in thy womb" },
+        { "s": 24, "e": 34, "speaker": "moses", "to": "reader", "note": "Esau sells his birthright to Jacob" }
+      ]
+    },
+    {
+      "c": 26,
+      "title": "Isaac's Covenant and Wells",
+      "synopsis": "During a famine the Lord tells Isaac to stay in Gerar and renews with him the covenant made with Abraham. Isaac prospers greatly, and the envious Philistines stop up his wells until he moves and digs again, finding room at Rehoboth. At Beersheba the Lord appears again, and Abimelech comes to make a covenant of peace with him.",
+      "years": "about 1800 BC",
+      "yearNum": -1800,
+      "approx": true,
+      "place": "beersheba",
+      "themes": ["covenant", "peace", "obedience"],
+      "characters": ["isaac", "rebekah", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 1, "speaker": "moses", "to": "reader", "note": "Famine sends Isaac toward Gerar" },
+        { "s": 2, "e": 5, "speaker": "the-lord", "to": "isaac", "note": "The Abrahamic covenant renewed with Isaac" },
+        { "s": 6, "e": 23, "speaker": "moses", "to": "reader", "note": "Isaac prospers; strife over the wells" },
+        { "s": 24, "e": 24, "speaker": "the-lord", "to": "isaac", "note": "Fear not, for I am with thee" },
+        { "s": 25, "e": 35, "speaker": "moses", "to": "reader", "note": "Covenant with Abimelech at Beersheba" }
+      ]
+    },
+    {
+      "c": 27,
+      "title": "Jacob Obtains the Blessing",
+      "synopsis": "Aged and dim-eyed, Isaac prepares to bless Esau, but Rebekah disguises Jacob in his brother's clothing. Isaac unknowingly gives Jacob the blessing of the firstborn, with dew of heaven and dominion over his brethren. When the deception is discovered, Esau weeps and vows to kill Jacob, and Rebekah arranges to send Jacob away to her brother Laban.",
+      "years": "about 1760 BC",
+      "yearNum": -1760,
+      "approx": true,
+      "place": "beersheba",
+      "themes": ["family", "covenant", "agency"],
+      "characters": ["isaac", "rebekah", "jacob-israel"],
+      "segments": [
+        { "s": 1, "e": 25, "speaker": "moses", "to": "reader", "note": "Rebekah's plan; Jacob disguised" },
+        { "s": 26, "e": 29, "speaker": "isaac", "to": "jacob-israel", "note": "Isaac pronounces the firstborn blessing" },
+        { "s": 30, "e": 46, "speaker": "moses", "to": "reader", "note": "Esau's grief; Jacob must flee" }
+      ]
+    },
+    {
+      "c": 28,
+      "title": "Jacob's Ladder at Bethel",
+      "synopsis": "Isaac blesses Jacob again and sends him to Padan-aram to marry among his mother's kindred. On the way Jacob sleeps at Bethel and dreams of a ladder reaching to heaven with angels ascending and descending. The Lord stands above it and renews the covenant of Abraham with him, and Jacob vows that the Lord shall be his God.",
+      "years": "about 1760 BC",
+      "yearNum": -1760,
+      "approx": true,
+      "place": "bethel",
+      "themes": ["covenant", "revelation", "temple"],
+      "characters": ["isaac", "jacob-israel", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 12, "speaker": "moses", "to": "reader", "note": "Jacob sent away; the ladder dream" },
+        { "s": 13, "e": 15, "speaker": "the-lord", "to": "jacob-israel", "note": "The covenant renewed at Bethel" },
+        { "s": 16, "e": 22, "speaker": "moses", "to": "reader", "note": "Jacob's vow; the pillar at Bethel" }
+      ]
+    },
+    {
+      "c": 29,
+      "title": "Jacob Serves for Rachel and Leah",
+      "synopsis": "Jacob arrives in Haran, meets Rachel at the well, and agrees to serve her father Laban seven years for her hand. On the wedding night Laban substitutes Leah, and Jacob must serve seven more years for Rachel. Leah, less loved, bears Jacob four sons, including Levi and Judah.",
+      "years": "about 1753 BC",
+      "yearNum": -1753,
+      "approx": true,
+      "place": null,
+      "themes": ["family", "endurance"],
+      "characters": ["jacob-israel", "rachel"],
+      "segments": [
+        { "s": 1, "e": 35, "speaker": "moses", "to": "reader", "note": "Jacob deceived; Leah bears four sons" }
+      ]
+    },
+    {
+      "c": 30,
+      "title": "The Children of Jacob Multiply",
+      "synopsis": "Rivalry between Rachel and Leah brings Jacob many children through them and their handmaids, and at last God remembers Rachel and she bears Joseph. Jacob then seeks to return home, but Laban persuades him to stay for wages of speckled and spotted flocks. Through skill and God's blessing Jacob's flocks increase greatly.",
+      "years": "about 1745 BC",
+      "yearNum": -1745,
+      "approx": true,
+      "place": null,
+      "themes": ["family", "endurance"],
+      "characters": ["jacob-israel", "rachel", "joseph-egypt"],
+      "segments": [
+        { "s": 1, "e": 43, "speaker": "moses", "to": "reader", "note": "Eleven sons born; Jacob's flocks increase" }
+      ]
+    },
+    {
+      "c": 31,
+      "title": "Jacob Flees from Laban",
+      "synopsis": "The Lord tells Jacob to return to the land of his fathers, and he recounts to Rachel and Leah how God has protected him despite Laban's changing wages. Jacob departs secretly with his family and flocks, and Laban pursues him to mount Gilead, but God warns Laban in a dream not to harm him. After sharp words the two make a covenant of peace at a heap of witness stones.",
+      "years": "about 1739 BC",
+      "yearNum": -1739,
+      "approx": true,
+      "place": null,
+      "themes": ["deliverance", "covenant", "family"],
+      "characters": ["jacob-israel", "rachel", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 2, "speaker": "moses", "to": "reader", "note": "Laban's countenance turns against Jacob" },
+        { "s": 3, "e": 3, "speaker": "the-lord", "to": "jacob-israel", "note": "Return unto the land of thy fathers" },
+        { "s": 4, "e": 16, "speaker": "jacob-israel", "to": "rachel", "note": "Jacob recounts God's dealings with him" },
+        { "s": 17, "e": 55, "speaker": "moses", "to": "reader", "note": "The flight, pursuit, and covenant heap" }
+      ]
+    },
+    {
+      "c": 32,
+      "title": "Wrestling at Peniel; Named Israel",
+      "synopsis": "Learning that Esau approaches with four hundred men, Jacob divides his camp and pleads with God to deliver him, then sends generous gifts ahead to his brother. Alone at the ford Jabbok he wrestles with a heavenly visitor until daybreak. His name is changed to Israel, for as a prince he has power with God, and he calls the place Peniel.",
+      "years": "about 1739 BC",
+      "yearNum": -1739,
+      "approx": true,
+      "place": "jordan-river",
+      "themes": ["prayer", "humility", "covenant"],
+      "characters": ["jacob-israel", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 8, "speaker": "moses", "to": "reader", "note": "Esau approaches; Jacob divides his camp" },
+        { "s": 9, "e": 12, "speaker": "jacob-israel", "to": "the-lord", "note": "Jacob's prayer for deliverance" },
+        { "s": 13, "e": 23, "speaker": "moses", "to": "reader", "note": "Gifts sent ahead to Esau" },
+        { "s": 24, "e": 32, "speaker": "moses", "to": "reader", "note": "Jacob wrestles and is named Israel" }
+      ]
+    },
+    {
+      "c": 33,
+      "title": "Jacob and Esau Reconciled",
+      "synopsis": "Jacob bows himself seven times before Esau, but Esau runs to embrace him, and the brothers weep together. Esau at first refuses the gift, then accepts it at Jacob's urging, and offers to travel with him. Jacob journeys gently to Succoth and then to Shechem, where he buys ground and raises an altar to the God of Israel.",
+      "years": "about 1739 BC",
+      "yearNum": -1739,
+      "approx": true,
+      "place": null,
+      "themes": ["peace", "family", "charity"],
+      "characters": ["jacob-israel"],
+      "segments": [
+        { "s": 1, "e": 20, "speaker": "moses", "to": "reader", "note": "The brothers embrace; an altar raised" }
+      ]
+    },
+    {
+      "c": 34,
+      "title": "The Trouble at Shechem",
+      "synopsis": "Dinah, Jacob's daughter, is defiled by Shechem the son of Hamor, who then seeks to marry her. Jacob's sons answer deceitfully, requiring every male of the city to be circumcised. While the men are sore, Simeon and Levi slay them all and spoil the city, and Jacob fears the reprisal of the land.",
+      "years": "about 1732 BC",
+      "yearNum": -1732,
+      "approx": true,
+      "place": null,
+      "themes": ["justice-and-mercy", "family", "war"],
+      "characters": ["jacob-israel"],
+      "segments": [
+        { "s": 1, "e": 31, "speaker": "moses", "to": "reader", "note": "Dinah wronged; Simeon and Levi's revenge" }
+      ]
+    },
+    {
+      "c": 35,
+      "title": "Return to Bethel; Rachel Dies",
+      "synopsis": "God commands Jacob to return to Bethel, so his household puts away their strange gods and he builds an altar there. God appears again, confirms the name Israel, and renews the promises of nations and land. On the journey Rachel dies giving birth to Benjamin, and Isaac dies at Hebron and is buried by Esau and Jacob.",
+      "years": "about 1729 BC",
+      "yearNum": -1729,
+      "approx": true,
+      "place": "bethel",
+      "themes": ["covenant", "worship", "family"],
+      "characters": ["jacob-israel", "rachel", "isaac", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 1, "speaker": "the-lord", "to": "jacob-israel", "note": "Arise, go up to Bethel" },
+        { "s": 2, "e": 8, "speaker": "moses", "to": "reader", "note": "Idols buried; the altar at Bethel" },
+        { "s": 9, "e": 13, "speaker": "the-lord", "to": "jacob-israel", "note": "The name Israel and covenant confirmed" },
+        { "s": 14, "e": 29, "speaker": "moses", "to": "reader", "note": "Benjamin born; Rachel and Isaac die" }
+      ]
+    },
+    {
+      "c": 36,
+      "title": "The Generations of Esau",
+      "synopsis": "Moses records the family of Esau, who is Edom, and his move to mount Seir away from Jacob because their riches were too great to dwell together. The chapter lists Esau's sons, the dukes of Edom, and the kings who reigned there before any king reigned in Israel.",
+      "years": "about 1730 BC",
+      "yearNum": -1730,
+      "approx": true,
+      "place": null,
+      "themes": ["records", "family"],
+      "characters": [],
+      "segments": [
+        { "s": 1, "e": 43, "speaker": "moses", "to": "reader", "note": "Genealogy of Esau and the dukes of Edom" }
+      ]
+    },
+    {
+      "c": 37,
+      "title": "Joseph Sold into Egypt",
+      "synopsis": "Jacob loves Joseph more than all his sons and gives him a coat of many colours, and Joseph's dreams of sheaves and stars bowing to him deepen his brothers' hatred. At Dothan they strip him, cast him into a pit, and sell him to Ishmaelite traders for twenty pieces of silver. They dip the coat in blood, and Jacob mourns his son as dead while Joseph is sold to Potiphar in Egypt.",
+      "years": "about 1729 BC",
+      "yearNum": -1729,
+      "approx": true,
+      "place": "hebron",
+      "themes": ["family", "prophecy", "agency"],
+      "characters": ["joseph-egypt", "jacob-israel"],
+      "segments": [
+        { "s": 1, "e": 4, "speaker": "moses", "to": "reader", "note": "The coat of many colours; the brothers' envy" },
+        { "s": 5, "e": 11, "speaker": "joseph-egypt", "to": "jacob-israel", "note": "Joseph recounts his prophetic dreams" },
+        { "s": 12, "e": 36, "speaker": "moses", "to": "reader", "note": "Joseph sold; Jacob mourns" }
+      ]
+    },
+    {
+      "c": 38,
+      "title": "Judah and Tamar",
+      "synopsis": "Judah leaves his brothers, marries a Canaanite, and raises sons who die in wickedness, leaving Tamar a childless widow. When Judah withholds his youngest son from her, Tamar disguises herself and bears twins by Judah himself. Confronted with his own pledge, Judah confesses that she has been more righteous than he.",
+      "years": "about 1727 BC",
+      "yearNum": -1727,
+      "approx": true,
+      "place": null,
+      "themes": ["family", "justice-and-mercy"],
+      "characters": [],
+      "segments": [
+        { "s": 1, "e": 30, "speaker": "moses", "to": "reader", "note": "Judah's sons; Tamar bears Pharez and Zarah" }
+      ]
+    },
+    {
+      "c": 39,
+      "title": "Joseph in Potiphar's House",
+      "synopsis": "The Lord is with Joseph in Egypt, and Potiphar makes him overseer of all he has. Potiphar's wife tempts Joseph day after day, but he refuses to sin against God and flees, leaving his garment in her hand. Falsely accused, Joseph is cast into prison, where the Lord again gives him favour with the keeper.",
+      "years": "about 1728 BC",
+      "yearNum": -1728,
+      "approx": true,
+      "place": "egypt-goshen",
+      "themes": ["obedience", "endurance", "faith"],
+      "characters": ["joseph-egypt", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 23, "speaker": "moses", "to": "reader", "note": "Joseph resists temptation; cast into prison" }
+      ]
+    },
+    {
+      "c": 40,
+      "title": "Dreams of the Butler and Baker",
+      "synopsis": "Pharaoh's chief butler and chief baker are imprisoned with Joseph, and each dreams a troubling dream. Joseph, declaring that interpretations belong to God, tells the butler he will be restored in three days and the baker that he will be hanged. Both come to pass, yet the restored butler forgets Joseph.",
+      "years": "about 1718 BC",
+      "yearNum": -1718,
+      "approx": true,
+      "place": "egypt-goshen",
+      "themes": ["revelation", "endurance"],
+      "characters": ["joseph-egypt", "pharaoh"],
+      "segments": [
+        { "s": 1, "e": 23, "speaker": "moses", "to": "reader", "note": "Joseph interprets two prisoners' dreams" }
+      ]
+    },
+    {
+      "c": 41,
+      "title": "Joseph Interprets Pharaoh's Dreams",
+      "synopsis": "Two years later Pharaoh dreams of seven lean kine devouring seven fat ones, and of thin ears consuming full ears, and none can interpret. The butler remembers Joseph, who is brought from prison and declares that God has shown Pharaoh seven years of plenty followed by seven of famine. Pharaoh sets Joseph over all Egypt, and he gathers corn as the sand of the sea against the famine.",
+      "years": "about 1715 BC",
+      "yearNum": -1715,
+      "approx": true,
+      "place": "egypt-goshen",
+      "themes": ["revelation", "wisdom", "leadership"],
+      "characters": ["joseph-egypt", "pharaoh"],
+      "segments": [
+        { "s": 1, "e": 16, "speaker": "moses", "to": "reader", "note": "Pharaoh dreams; Joseph brought from prison" },
+        { "s": 17, "e": 24, "speaker": "pharaoh", "to": "joseph-egypt", "note": "Pharaoh recounts his double dream" },
+        { "s": 25, "e": 36, "speaker": "joseph-egypt", "to": "pharaoh", "note": "God hath shewed Pharaoh what He will do" },
+        { "s": 37, "e": 57, "speaker": "moses", "to": "reader", "note": "Joseph made ruler; the famine begins" }
+      ]
+    },
+    {
+      "c": 42,
+      "title": "Ten Brothers Bow Before Joseph",
+      "synopsis": "The famine drives Jacob's ten elder sons to Egypt to buy corn, and they bow before Joseph without knowing him. Joseph speaks roughly, accuses them as spies, and keeps Simeon bound until they bring Benjamin. Finding their money returned in their sacks, the brothers tremble, and Jacob refuses at first to let Benjamin go.",
+      "years": "about 1707 BC",
+      "yearNum": -1707,
+      "approx": true,
+      "place": "egypt-goshen",
+      "themes": ["family", "justice-and-mercy"],
+      "characters": ["joseph-egypt", "jacob-israel"],
+      "segments": [
+        { "s": 1, "e": 38, "speaker": "moses", "to": "reader", "note": "The brothers buy corn; Simeon held" }
+      ]
+    },
+    {
+      "c": 43,
+      "title": "Benjamin Comes Down to Egypt",
+      "synopsis": "When the corn is spent, Judah pledges his own life for Benjamin, and Jacob at last sends his sons back with double money and a present. Joseph brings them to his own house and feasts them, asking tenderly after their father. Seeing Benjamin, he must leave the room to weep, and Benjamin's portion is five times any of theirs.",
+      "years": "about 1706 BC",
+      "yearNum": -1706,
+      "approx": true,
+      "place": "egypt-goshen",
+      "themes": ["family", "charity"],
+      "characters": ["joseph-egypt", "jacob-israel"],
+      "segments": [
+        { "s": 1, "e": 34, "speaker": "moses", "to": "reader", "note": "The brothers return; Joseph feasts them" }
+      ]
+    },
+    {
+      "c": 44,
+      "title": "The Silver Cup and Judah's Plea",
+      "synopsis": "Joseph has his silver cup hidden in Benjamin's sack, and his steward overtakes the brothers and accuses them. Brought back in anguish, they are told Benjamin must remain as a servant. Judah steps forward and pleads to stay in the boy's place, for he cannot bear to see his father's grief if Benjamin is lost.",
+      "years": "about 1706 BC",
+      "yearNum": -1706,
+      "approx": true,
+      "place": "egypt-goshen",
+      "themes": ["family", "charity", "justice-and-mercy"],
+      "characters": ["joseph-egypt"],
+      "segments": [
+        { "s": 1, "e": 17, "speaker": "moses", "to": "reader", "note": "The cup found in Benjamin's sack" },
+        { "s": 18, "e": 34, "speaker": "moses", "to": "reader", "note": "Judah pleads to take Benjamin's place" }
+      ]
+    },
+    {
+      "c": 45,
+      "title": "Joseph Reveals Himself",
+      "synopsis": "Unable to refrain any longer, Joseph sends everyone out and weeps aloud, telling his brothers, 'I am Joseph.' He assures them that God, not they, sent him to Egypt to preserve life, and bids them bring their father down to dwell in Goshen. Pharaoh gladly confirms the invitation, and Jacob's spirit revives at the news that Joseph is alive.",
+      "years": "about 1706 BC",
+      "yearNum": -1706,
+      "approx": true,
+      "place": "egypt-goshen",
+      "themes": ["charity", "deliverance", "family"],
+      "characters": ["joseph-egypt", "pharaoh", "jacob-israel"],
+      "segments": [
+        { "s": 1, "e": 3, "speaker": "moses", "to": "reader", "note": "Joseph weeps before his brothers" },
+        { "s": 4, "e": 13, "speaker": "joseph-egypt", "to": "israelites", "note": "God did send me to preserve life" },
+        { "s": 14, "e": 28, "speaker": "moses", "to": "reader", "note": "Pharaoh's welcome; Jacob's spirit revives" }
+      ]
+    },
+    {
+      "c": 46,
+      "title": "Israel Journeys Down to Egypt",
+      "synopsis": "Jacob offers sacrifice at Beersheba, and God speaks in the visions of the night, telling him not to fear to go down into Egypt, for there He will make of him a great nation. All Jacob's family, seventy souls, travel into Egypt. Joseph rides to Goshen to meet his father, and they weep on each other's necks.",
+      "years": "about 1706 BC",
+      "yearNum": -1706,
+      "approx": true,
+      "place": "egypt-goshen",
+      "themes": ["covenant", "family", "revelation"],
+      "characters": ["jacob-israel", "joseph-egypt", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 1, "speaker": "moses", "to": "reader", "note": "Sacrifice at Beersheba" },
+        { "s": 2, "e": 4, "speaker": "the-lord", "to": "jacob-israel", "note": "Fear not to go down into Egypt" },
+        { "s": 5, "e": 34, "speaker": "moses", "to": "reader", "note": "Seventy souls; father and son reunited" }
+      ]
+    },
+    {
+      "c": 47,
+      "title": "Jacob Blesses Pharaoh; Goshen Given",
+      "synopsis": "Joseph presents his father and brothers to Pharaoh, and aged Jacob blesses the king. The family settles in the best of the land in Goshen, while the famine grows so severe that Joseph gathers all Egypt's money, cattle, and land for Pharaoh. Jacob lives seventeen years in Egypt and makes Joseph swear to bury him with his fathers in Canaan.",
+      "years": "about 1705 BC",
+      "yearNum": -1705,
+      "approx": true,
+      "place": "egypt-goshen",
+      "themes": ["family", "leadership"],
+      "characters": ["jacob-israel", "joseph-egypt", "pharaoh"],
+      "segments": [
+        { "s": 1, "e": 31, "speaker": "moses", "to": "reader", "note": "Israel settles in Goshen; the famine deepens" }
+      ]
+    },
+    {
+      "c": 48,
+      "title": "Ephraim and Manasseh Blessed",
+      "synopsis": "On his deathbed Jacob adopts Joseph's sons Ephraim and Manasseh as his own, giving them each a tribal inheritance in Israel. Guiding his hands wittingly, he crosses them to set the younger Ephraim before Manasseh despite Joseph's protest. He blesses the lads in the name of the God who has fed him all his life long.",
+      "years": "about 1689 BC",
+      "yearNum": -1689,
+      "approx": true,
+      "place": "egypt-goshen",
+      "themes": ["covenant", "family", "priesthood"],
+      "characters": ["jacob-israel", "joseph-egypt"],
+      "segments": [
+        { "s": 1, "e": 14, "speaker": "moses", "to": "reader", "note": "Jacob adopts and crosses his hands" },
+        { "s": 15, "e": 22, "speaker": "jacob-israel", "to": "joseph-egypt", "note": "Jacob blesses Ephraim and Manasseh" }
+      ]
+    },
+    {
+      "c": 49,
+      "title": "Jacob Blesses the Twelve Tribes",
+      "synopsis": "Jacob gathers his twelve sons to tell them what shall befall them in the last days. He blesses each in turn, promising Judah the sceptre until Shiloh come and pronouncing Joseph a fruitful bough whose branches run over the wall. Having charged them to bury him in the cave of Machpelah, Jacob gathers up his feet and dies.",
+      "years": "about 1689 BC",
+      "yearNum": -1689,
+      "approx": true,
+      "place": "egypt-goshen",
+      "themes": ["prophecy", "covenant", "family"],
+      "characters": ["jacob-israel", "joseph-egypt"],
+      "segments": [
+        { "s": 1, "e": 1, "speaker": "moses", "to": "reader", "note": "Jacob calls his sons together" },
+        { "s": 2, "e": 27, "speaker": "jacob-israel", "to": "israelites", "note": "Jacob blesses the twelve tribes" },
+        { "s": 28, "e": 33, "speaker": "moses", "to": "reader", "note": "The burial charge; Jacob dies" }
+      ]
+    },
+    {
+      "c": 50,
+      "title": "Burials and a Promise of Deliverance",
+      "synopsis": "Joseph mourns his father, and with Pharaoh's leave a great company carries Jacob to Canaan and buries him in the cave of Machpelah. The brothers fear revenge, but Joseph comforts them: they meant evil, but God meant it unto good. Joseph lives to see his great-grandchildren, prophesies that God will bring Israel out of Egypt, and dies at one hundred ten.",
+      "years": "about 1635 BC",
+      "yearNum": -1635,
+      "approx": true,
+      "place": "egypt-goshen",
+      "themes": ["family", "charity", "prophecy"],
+      "characters": ["joseph-egypt", "jacob-israel"],
+      "segments": [
+        { "s": 1, "e": 26, "speaker": "moses", "to": "reader", "note": "Jacob buried; Joseph forgives and dies" }
+      ]
+    }
+  ]
+}

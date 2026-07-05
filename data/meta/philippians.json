@@ -1,0 +1,64 @@
+{
+  "book": "Philippians",
+  "slug": "philippians",
+  "narrator": "paul",
+  "plates": "pauline-epistles",
+  "chapters": [
+    {
+      "c": 1,
+      "title": "To Live Is Christ",
+      "synopsis": "Paul thanks God upon every remembrance of the beloved Philippian saints, confident that he which has begun a good work in them will perform it until the day of Jesus Christ. Though a prisoner, he rejoices that his bonds have furthered the gospel throughout the palace, and declares that for him to live is Christ and to die is gain, urging the saints to stand fast in one spirit.",
+      "years": "AD 61",
+      "yearNum": 61,
+      "approx": false,
+      "place": null,
+      "themes": ["hope", "endurance", "mission"],
+      "characters": ["paul", "timothy", "jesus-christ"],
+      "segments": [
+        { "s": 1, "e": 30, "speaker": "paul", "to": "church", "note": "Joy in bonds; to live is Christ" }
+      ]
+    },
+    {
+      "c": 2,
+      "title": "Let This Mind Be in You",
+      "synopsis": "In this landmark hymn of Christ's condescension, Paul pleads, Let this mind be in you which was also in Christ Jesus, who, being in the form of God, took upon him the form of a servant and became obedient unto death, even the death of the cross. Therefore God has highly exalted him, that at the name of Jesus every knee should bow and every tongue confess. Paul bids the saints work out their own salvation with fear and trembling and shine as lights in the world, and commends Timothy and Epaphroditus.",
+      "years": "AD 61",
+      "yearNum": 61,
+      "approx": false,
+      "place": null,
+      "themes": ["humility", "atonement", "discipleship"],
+      "characters": ["paul", "jesus-christ", "timothy"],
+      "segments": [
+        { "s": 1, "e": 30, "speaker": "paul", "to": "church", "note": "Christ's condescension; every knee shall bow" }
+      ]
+    },
+    {
+      "c": 3,
+      "title": "Press Toward the Mark",
+      "synopsis": "Paul recounts his impeccable credentials as a Hebrew of the Hebrews and a Pharisee, then counts them all but loss for the excellency of the knowledge of Christ Jesus, that he may know him and the power of his resurrection. Forgetting those things which are behind, he presses toward the mark for the prize of the high calling of God in Christ Jesus, awaiting the Savior who shall change our vile body like unto his glorious body.",
+      "years": "AD 61",
+      "yearNum": 61,
+      "approx": false,
+      "place": null,
+      "themes": ["discipleship", "resurrection", "endurance"],
+      "characters": ["paul", "jesus-christ"],
+      "segments": [
+        { "s": 1, "e": 21, "speaker": "paul", "to": "church", "note": "All things loss for Christ; press toward the mark" }
+      ]
+    },
+    {
+      "c": 4,
+      "title": "Rejoice in the Lord Alway",
+      "synopsis": "Paul exhorts the saints to rejoice in the Lord alway and to be careful for nothing, but in every thing by prayer with thanksgiving let their requests be made known unto God, whose peace passes all understanding. He bids them think on whatsoever things are true, honest, just, pure, lovely, and of good report, testifies that he has learned in whatsoever state he is to be content, and declares, I can do all things through Christ which strengtheneth me.",
+      "years": "AD 61",
+      "yearNum": 61,
+      "approx": false,
+      "place": null,
+      "themes": ["prayer", "peace", "hope"],
+      "characters": ["paul", "jesus-christ"],
+      "segments": [
+        { "s": 1, "e": 23, "speaker": "paul", "to": "church", "note": "Rejoice alway; all things through Christ" }
+      ]
+    }
+  ]
+}

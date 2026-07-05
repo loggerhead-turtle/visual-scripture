@@ -1,0 +1,322 @@
+{
+  "book": "Judges",
+  "slug": "judges",
+  "narrator": "chronicler",
+  "plates": "history",
+  "chapters": [
+    {
+      "c": 1,
+      "title": "An Unfinished Conquest",
+      "synopsis": "After Joshua's death the tribes ask the Lord who shall go up first against the Canaanites, and Judah leads the way, taking Jerusalem and Hebron. Tribe after tribe, however, fails to drive out the inhabitants of the land. The Canaanites remain among Israel, dwelling in the valleys and the strong cities.",
+      "years": "about 1200 BC",
+      "yearNum": -1200,
+      "approx": true,
+      "place": "hebron",
+      "themes": ["war", "obedience", "covenant"],
+      "characters": [],
+      "segments": [
+        { "s": 1, "e": 36, "speaker": "chronicler", "to": "reader", "note": "Judah leads; the tribes fail to drive out Canaan" }
+      ]
+    },
+    {
+      "c": 2,
+      "title": "The Cycle of Apostasy Begins",
+      "synopsis": "An angel of the Lord rebukes Israel at Bochim for making leagues with the inhabitants of the land, and the people weep. After Joshua's generation dies, a new generation arises that knows not the Lord. The pattern of the whole book is set: apostasy, oppression, crying unto the Lord, and deliverance by judges.",
+      "years": "about 1200 BC",
+      "yearNum": -1200,
+      "approx": true,
+      "place": null,
+      "themes": ["apostasy", "pride-cycle", "covenant"],
+      "characters": ["joshua"],
+      "segments": [
+        { "s": 1, "e": 3, "speaker": "angel", "to": "israelites", "note": "The angel rebukes Israel at Bochim" },
+        { "s": 4, "e": 23, "speaker": "chronicler", "to": "reader", "note": "A generation that knew not the Lord" }
+      ]
+    },
+    {
+      "c": 3,
+      "title": "Othniel, Ehud, and Shamgar",
+      "synopsis": "The Lord leaves nations in the land to prove Israel, and the people serve Baalim and intermarry with the Canaanites. When they cry unto the Lord, He raises up deliverers: Othniel who defeats Mesopotamia, left-handed Ehud who slays fat king Eglon of Moab, and Shamgar who smites the Philistines with an ox goad.",
+      "years": "about 1190 BC",
+      "yearNum": -1190,
+      "approx": true,
+      "place": null,
+      "themes": ["deliverance", "apostasy", "pride-cycle"],
+      "characters": [],
+      "segments": [
+        { "s": 1, "e": 31, "speaker": "chronicler", "to": "reader", "note": "Three judges deliver Israel from oppressors" }
+      ]
+    },
+    {
+      "c": 4,
+      "title": "Deborah and Barak Deliver Israel",
+      "synopsis": "Israel is sold into the hand of Jabin of Canaan, whose captain Sisera has nine hundred chariots of iron. Deborah the prophetess summons Barak to battle at mount Tabor, warning that the Lord will sell Sisera into the hand of a woman. The army is routed, and Jael slays the fleeing Sisera with a tent nail.",
+      "years": "about 1150 BC",
+      "yearNum": -1150,
+      "approx": true,
+      "place": null,
+      "themes": ["deliverance", "war", "leadership", "prophecy"],
+      "characters": ["deborah"],
+      "segments": [
+        { "s": 1, "e": 5, "speaker": "chronicler", "to": "reader", "note": "Deborah the prophetess judges Israel" },
+        { "s": 6, "e": 9, "speaker": "deborah", "to": "israelites", "note": "Deborah summons Barak to battle" },
+        { "s": 10, "e": 24, "speaker": "chronicler", "to": "reader", "note": "Sisera routed; Jael's tent nail" }
+      ]
+    },
+    {
+      "c": 5,
+      "title": "The Song of Deborah",
+      "synopsis": "Deborah and Barak sing a song of triumph over Sisera, praising the Lord for the willing offering of the people. The song recalls how the stars in their courses fought against Sisera, blesses Jael above women in the tent, and pictures Sisera's mother waiting vainly at her window. The land rests forty years.",
+      "years": "about 1150 BC",
+      "yearNum": -1150,
+      "approx": true,
+      "place": null,
+      "themes": ["worship", "deliverance", "liberty"],
+      "characters": ["deborah"],
+      "segments": [
+        { "s": 1, "e": 1, "speaker": "chronicler", "to": "reader", "note": "Deborah and Barak sing that day" },
+        { "s": 2, "e": 31, "speaker": "deborah", "to": "israelites", "note": "Deborah's song of triumph" }
+      ]
+    },
+    {
+      "c": 6,
+      "title": "Gideon and the Fleece",
+      "synopsis": "Midian impoverishes Israel for seven years, driving the people into dens and caves. The angel of the Lord finds Gideon threshing wheat in hiding and hails him as a mighty man of valour, sent to save Israel. Gideon throws down his father's altar of Baal, and twice asks the sign of the fleece to confirm his call.",
+      "years": "about 1130 BC",
+      "yearNum": -1130,
+      "approx": true,
+      "place": null,
+      "themes": ["faith", "deliverance", "revelation"],
+      "characters": ["gideon"],
+      "segments": [
+        { "s": 1, "e": 10, "speaker": "chronicler", "to": "reader", "note": "Midian oppresses; a prophet rebukes Israel" },
+        { "s": 11, "e": 24, "speaker": "angel", "to": "gideon", "note": "The angel calls Gideon, mighty man of valour" },
+        { "s": 25, "e": 35, "speaker": "chronicler", "to": "reader", "note": "Gideon throws down the altar of Baal" },
+        { "s": 36, "e": 40, "speaker": "gideon", "to": "the-lord", "note": "The sign of the fleece, wet and dry" }
+      ]
+    },
+    {
+      "c": 7,
+      "title": "Gideon's Three Hundred",
+      "synopsis": "Lest Israel vaunt itself, the Lord thins Gideon's army from thirty-two thousand to three hundred men who lap water like a dog. Encouraged by a Midianite's dream of a barley cake, Gideon surrounds the camp by night with trumpets, pitchers, and lamps. At the cry 'the sword of the Lord, and of Gideon' the host flees and destroys itself.",
+      "years": "about 1130 BC",
+      "yearNum": -1130,
+      "approx": true,
+      "place": null,
+      "themes": ["faith", "deliverance", "humility", "war"],
+      "characters": ["gideon"],
+      "segments": [
+        { "s": 1, "e": 8, "speaker": "chronicler", "to": "reader", "note": "The army reduced to three hundred" },
+        { "s": 9, "e": 25, "speaker": "chronicler", "to": "reader", "note": "Trumpets and pitchers rout Midian by night" }
+      ]
+    },
+    {
+      "c": 8,
+      "title": "Gideon Refuses a Crown",
+      "synopsis": "Gideon pacifies jealous Ephraim, punishes the men of Succoth and Penuel who refused his hungry troops bread, and captures the kings Zebah and Zalmunna. Israel asks him to rule as king, but he answers that the Lord shall rule over them. Yet the golden ephod he makes becomes a snare, and after his death Israel returns to Baalim.",
+      "years": "about 1128 BC",
+      "yearNum": -1128,
+      "approx": true,
+      "place": null,
+      "themes": ["kingship", "war", "apostasy"],
+      "characters": ["gideon"],
+      "segments": [
+        { "s": 1, "e": 21, "speaker": "chronicler", "to": "reader", "note": "Gideon pursues and takes the kings of Midian" },
+        { "s": 22, "e": 35, "speaker": "chronicler", "to": "reader", "note": "The Lord shall rule; the ephod becomes a snare" }
+      ]
+    },
+    {
+      "c": 9,
+      "title": "Abimelech and the Bramble King",
+      "synopsis": "Gideon's son Abimelech murders his seventy brothers on one stone and is made king at Shechem. Jotham, the sole survivor, tells the parable of the trees that chose the bramble to reign over them, and calls down fire on both sides. Shechem and Abimelech destroy each other, and a millstone from a tower crushes his skull.",
+      "years": "about 1120 BC",
+      "yearNum": -1120,
+      "approx": true,
+      "place": null,
+      "themes": ["kingship", "judgment", "parables"],
+      "characters": [],
+      "segments": [
+        { "s": 1, "e": 6, "speaker": "chronicler", "to": "reader", "note": "Abimelech slays his brethren and is made king" },
+        { "s": 7, "e": 21, "speaker": "chronicler", "to": "reader", "note": "Jotham's parable of the trees and the bramble" },
+        { "s": 22, "e": 57, "speaker": "chronicler", "to": "reader", "note": "God requites the wickedness of Abimelech" }
+      ]
+    },
+    {
+      "c": 10,
+      "title": "Israel Sold for Its Idols",
+      "synopsis": "Tola and Jair judge Israel for forty-five years, but the people again serve the gods of every nation around them. The Lord sells them to the Philistines and Ammonites, and when they cry to Him He answers that they should cry to the gods they have chosen. Israel puts away the strange gods, and His soul is grieved for their misery.",
+      "years": "about 1110 BC",
+      "yearNum": -1110,
+      "approx": true,
+      "place": null,
+      "themes": ["apostasy", "repentance", "justice-and-mercy"],
+      "characters": [],
+      "segments": [
+        { "s": 1, "e": 10, "speaker": "chronicler", "to": "reader", "note": "Tola and Jair; Israel serves strange gods" },
+        { "s": 11, "e": 14, "speaker": "the-lord", "to": "israelites", "note": "Cry unto the gods which ye have chosen" },
+        { "s": 15, "e": 18, "speaker": "chronicler", "to": "reader", "note": "Israel puts away the strange gods" }
+      ]
+    },
+    {
+      "c": 11,
+      "title": "Jephthah's Victory and Vow",
+      "synopsis": "Jephthah, a mighty man thrust out by his brethren, is recalled by the elders of Gilead to fight Ammon. After his diplomacy is refused, the Spirit of the Lord comes upon him, and he vows to offer whatever comes first from his door if he returns in peace. He routs Ammon, and his only child, his daughter, comes out to meet him with timbrels.",
+      "years": "about 1100 BC",
+      "yearNum": -1100,
+      "approx": true,
+      "place": null,
+      "themes": ["deliverance", "war", "judgment"],
+      "characters": [],
+      "segments": [
+        { "s": 1, "e": 28, "speaker": "chronicler", "to": "reader", "note": "Gilead recalls Jephthah; Ammon refuses peace" },
+        { "s": 29, "e": 40, "speaker": "chronicler", "to": "reader", "note": "Jephthah's rash vow and his daughter" }
+      ]
+    },
+    {
+      "c": 12,
+      "title": "Shibboleth at the Fords",
+      "synopsis": "Ephraim quarrels with Jephthah for going to battle without them, and civil war breaks out. The Gileadites hold the fords of Jordan and test fugitives with the word Shibboleth, slaying those who cannot frame it aright. After Jephthah, the judges Ibzan, Elon, and Abdon lead Israel in quieter years.",
+      "years": "about 1100 BC",
+      "yearNum": -1100,
+      "approx": true,
+      "place": "jordan-river",
+      "themes": ["war", "pride-cycle", "judgment"],
+      "characters": [],
+      "segments": [
+        { "s": 1, "e": 15, "speaker": "chronicler", "to": "reader", "note": "Civil war with Ephraim; three minor judges" }
+      ]
+    },
+    {
+      "c": 13,
+      "title": "A Nazarite Promised to Manoah",
+      "synopsis": "Israel is delivered to the Philistines forty years, and the angel of the Lord appears to the barren wife of Manoah of Dan. He promises a son who shall be a Nazarite from the womb and shall begin to deliver Israel. When the angel ascends in the flame of the altar, Manoah fears, but his wife trusts; Samson is born, and the Spirit begins to move him.",
+      "years": "about 1090 BC",
+      "yearNum": -1090,
+      "approx": true,
+      "place": null,
+      "themes": ["covenant", "family", "deliverance"],
+      "characters": ["samson"],
+      "segments": [
+        { "s": 1, "e": 14, "speaker": "chronicler", "to": "reader", "note": "The angel foretells Samson's birth" },
+        { "s": 15, "e": 25, "speaker": "chronicler", "to": "reader", "note": "Manoah's offering; Samson is born" }
+      ]
+    },
+    {
+      "c": 14,
+      "title": "Samson's Riddle at Timnath",
+      "synopsis": "Samson demands a Philistine wife of Timnath, a thing of the Lord seeking occasion against the Philistines. He tears a young lion with his bare hands and later finds honey in its carcase, and at his wedding feast he poses the riddle of the eater and the sweet. His wife wheedles out the answer, and in anger Samson slays thirty men of Ashkelon.",
+      "years": "about 1080 BC",
+      "yearNum": -1080,
+      "approx": true,
+      "place": null,
+      "themes": ["pride-cycle", "agency"],
+      "characters": ["samson"],
+      "segments": [
+        { "s": 1, "e": 20, "speaker": "chronicler", "to": "reader", "note": "The lion, the riddle, and the lost wager" }
+      ]
+    },
+    {
+      "c": 15,
+      "title": "Foxes, Fire, and a Jawbone",
+      "synopsis": "Denied his wife, Samson ties firebrands to three hundred foxes and burns the Philistine harvests. The men of Judah bind him and deliver him up, but the Spirit of the Lord comes upon him, the cords melt, and he slays a thousand men with the jawbone of an ass. God cleaves a hollow place to give the thirsty victor water, and Samson judges Israel twenty years.",
+      "years": "about 1080 BC",
+      "yearNum": -1080,
+      "approx": true,
+      "place": null,
+      "themes": ["deliverance", "war"],
+      "characters": ["samson"],
+      "segments": [
+        { "s": 1, "e": 20, "speaker": "chronicler", "to": "reader", "note": "A thousand slain with the jawbone of an ass" }
+      ]
+    },
+    {
+      "c": 16,
+      "title": "Samson and Delilah",
+      "synopsis": "Samson carries away the gates of Gaza by night, but then loves Delilah, who is hired to discover the secret of his strength. Betrayed and shorn, he is blinded and made to grind in the prison house at Gaza. When the Philistines gather to praise Dagon, Samson prays for strength once more and pulls down the house upon them all.",
+      "years": "about 1070 BC",
+      "yearNum": -1070,
+      "approx": true,
+      "place": "gaza",
+      "themes": ["pride-cycle", "judgment", "deliverance"],
+      "characters": ["samson"],
+      "segments": [
+        { "s": 1, "e": 3, "speaker": "chronicler", "to": "reader", "note": "Samson carries away the gates of Gaza" },
+        { "s": 4, "e": 22, "speaker": "chronicler", "to": "reader", "note": "Delilah betrays the secret of his strength" },
+        { "s": 23, "e": 27, "speaker": "chronicler", "to": "reader", "note": "The blind captive mocked in Dagon's house" },
+        { "s": 28, "e": 28, "speaker": "samson", "to": "the-lord", "note": "Strengthen me only this once" },
+        { "s": 29, "e": 31, "speaker": "chronicler", "to": "reader", "note": "Samson pulls down the house in death" }
+      ]
+    },
+    {
+      "c": 17,
+      "title": "Micah and His Idols",
+      "synopsis": "In days when there is no king in Israel and every man does what is right in his own eyes, Micah of mount Ephraim makes a graven image and an ephod from stolen silver. He consecrates first his son and then a wandering Levite to be his private priest, sure that the Lord will now do him good.",
+      "years": "about 1070 BC",
+      "yearNum": -1070,
+      "approx": true,
+      "place": null,
+      "themes": ["apostasy", "priesthood"],
+      "characters": [],
+      "segments": [
+        { "s": 1, "e": 13, "speaker": "chronicler", "to": "reader", "note": "Micah's graven image and hired Levite" }
+      ]
+    },
+    {
+      "c": 18,
+      "title": "The Danites Steal a Priest",
+      "synopsis": "The tribe of Dan, still seeking an inheritance, sends spies who lodge at Micah's house and covet his gods and his priest. Six hundred armed Danites carry off the image, the ephod, and the Levite, silencing Micah's protest. They burn peaceful Laish, rebuild it as Dan, and set up the graven image for generations.",
+      "years": "about 1070 BC",
+      "yearNum": -1070,
+      "approx": true,
+      "place": null,
+      "themes": ["apostasy", "war"],
+      "characters": [],
+      "segments": [
+        { "s": 1, "e": 31, "speaker": "chronicler", "to": "reader", "note": "Dan takes Micah's gods and burns Laish" }
+      ]
+    },
+    {
+      "c": 19,
+      "title": "The Outrage at Gibeah",
+      "synopsis": "A Levite retrieves his concubine from her father's house in Bethlehem-judah and lodges at Gibeah of Benjamin. The men of the city, sons of Belial, abuse the woman through the night until she dies at the door. The Levite divides her body into twelve pieces and sends them through all Israel, and the nation is summoned to consider the horror.",
+      "years": "about 1060 BC",
+      "yearNum": -1060,
+      "approx": true,
+      "place": "bethlehem",
+      "themes": ["apostasy", "judgment"],
+      "characters": [],
+      "segments": [
+        { "s": 1, "e": 30, "speaker": "chronicler", "to": "reader", "note": "The crime of Gibeah summons all Israel" }
+      ]
+    },
+    {
+      "c": 20,
+      "title": "War Against Benjamin",
+      "synopsis": "Four hundred thousand Israelites gather as one man and demand the guilty men of Gibeah, but Benjamin refuses and takes the field. Twice Israel is beaten back with great slaughter, weeping and inquiring of the Lord at Bethel. On the third day an ambush takes the city, and the tribe of Benjamin is destroyed to six hundred men.",
+      "years": "about 1060 BC",
+      "yearNum": -1060,
+      "approx": true,
+      "place": "bethel",
+      "themes": ["war", "judgment", "prayer"],
+      "characters": [],
+      "segments": [
+        { "s": 1, "e": 17, "speaker": "chronicler", "to": "reader", "note": "Israel gathers as one man against Gibeah" },
+        { "s": 18, "e": 48, "speaker": "chronicler", "to": "reader", "note": "Benjamin nearly destroyed in three battles" }
+      ]
+    },
+    {
+      "c": 21,
+      "title": "Wives for the Remnant",
+      "synopsis": "Israel weeps that a tribe is cut off, having sworn not to give their daughters to Benjamin. Wives are found for the survivors from Jabesh-gilead and from the daughters dancing at Shiloh's feast, and Benjamin is rebuilt. The book closes on its refrain: in those days there was no king in Israel; every man did that which was right in his own eyes.",
+      "years": "about 1050 BC",
+      "yearNum": -1050,
+      "approx": true,
+      "place": "shiloh",
+      "themes": ["family", "covenant", "kingship"],
+      "characters": [],
+      "segments": [
+        { "s": 1, "e": 25, "speaker": "chronicler", "to": "reader", "note": "Benjamin restored; no king in Israel" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "book": "Obadiah",
+  "slug": "obadiah",
+  "narrator": "chronicler",
+  "plates": "prophets-minor",
+  "chapters": [
+    {
+      "c": 1,
+      "title": "Edom's Pride Brought Down",
+      "synopsis": "Obadiah sees a vision of judgment against Edom, whose pride in the clefts of the rock will not save it from being brought down and plundered. Because Edom stood aloof and even joined in violence against his brother Jacob on the day of Jerusalem's calamity, the Lord declares that as Edom did to others, it shall be done to him. In the day of the Lord upon all nations, saviours will come up on mount Zion, and the kingdom shall be the Lord's.",
+      "years": "about 580 BC",
+      "yearNum": -580,
+      "approx": true,
+      "place": null,
+      "themes": ["pride-cycle", "judgment", "justice-and-mercy", "gathering-of-israel"],
+      "characters": ["jacob-israel", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 4, "speaker": "chronicler", "to": "reader", "note": "The vision of Obadiah against proud Edom" },
+        { "s": 5, "e": 9, "speaker": "the-lord", "to": "reader", "note": "Edom plundered; its wise men destroyed" },
+        { "s": 10, "e": 14, "speaker": "the-lord", "to": "reader", "note": "Edom judged for violence against brother Jacob" },
+        { "s": 15, "e": 18, "speaker": "the-lord", "to": "house-of-israel", "note": "The day of the Lord upon all nations" },
+        { "s": 19, "e": 21, "speaker": "chronicler", "to": "reader", "note": "Israel's borders restored; the kingdom the Lord's" }
+      ]
+    }
+  ]
+}

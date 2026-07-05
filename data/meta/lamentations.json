@@ -1,0 +1,80 @@
+{
+  "book": "Lamentations",
+  "slug": "lamentations",
+  "narrator": "jeremiah",
+  "plates": "prophets-major",
+  "chapters": [
+    {
+      "c": 1,
+      "title": "How Doth the City Sit Solitary",
+      "synopsis": "Jeremiah mourns over Jerusalem, which sits solitary like a widow after Babylon carries her people captive. The city weeps sore in the night with none to comfort her, and she confesses that the Lord is righteous, for she has rebelled against his commandment.",
+      "years": "about 586 BC",
+      "yearNum": -586,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["exile", "judgment", "repentance"],
+      "characters": ["jeremiah"],
+      "segments": [
+        { "s": 1, "e": 22, "speaker": "jeremiah", "to": "reader", "note": "Jerusalem sits desolate, weeping with none to comfort" }
+      ]
+    },
+    {
+      "c": 2,
+      "title": "The Lord's Anger Against Zion",
+      "synopsis": "Jeremiah describes how the Lord in his anger has cast down the beauty of Israel, swallowing up her palaces and breaking the bars of her gates. The elders sit on the ground in silence, children faint in the streets, and the prophet calls Zion to pour out her heart like water before the Lord.",
+      "years": "about 586 BC",
+      "yearNum": -586,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["judgment", "exile", "humility"],
+      "characters": ["jeremiah"],
+      "segments": [
+        { "s": 1, "e": 22, "speaker": "jeremiah", "to": "reader", "note": "Zion's walls and sanctuary cast down in wrath" }
+      ]
+    },
+    {
+      "c": 3,
+      "title": "Great Is Thy Faithfulness",
+      "synopsis": "Jeremiah speaks as the man who has seen affliction by the rod of the Lord's wrath, walled in and weighed down with sorrow. Yet in the depths he remembers that the Lord's mercies are new every morning and great is his faithfulness, and he calls his people to search their ways and turn again to the Lord.",
+      "years": "about 586 BC",
+      "yearNum": -586,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["hope", "endurance", "repentance"],
+      "characters": ["jeremiah"],
+      "segments": [
+        { "s": 1, "e": 20, "speaker": "jeremiah", "to": "reader", "note": "The man who has seen affliction" },
+        { "s": 21, "e": 39, "speaker": "jeremiah", "to": "reader", "note": "Mercies new every morning; hope in the Lord" },
+        { "s": 40, "e": 66, "speaker": "jeremiah", "to": "reader", "note": "Search our ways; a cry from the low dungeon" }
+      ]
+    },
+    {
+      "c": 4,
+      "title": "How Is the Gold Become Dim",
+      "synopsis": "Jeremiah laments how the gold has become dim and the precious sons of Zion are esteemed as earthen pitchers. He recounts the horrors of the siege, when those slain by the sword fared better than those wasted by hunger, and traces the ruin to the sins of prophets and priests.",
+      "years": "about 586 BC",
+      "yearNum": -586,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["judgment", "exile", "apostasy"],
+      "characters": ["jeremiah"],
+      "segments": [
+        { "s": 1, "e": 22, "speaker": "jeremiah", "to": "reader", "note": "Famine and ruin; the punishment accomplished" }
+      ]
+    },
+    {
+      "c": 5,
+      "title": "Turn Us unto Thee, O Lord",
+      "synopsis": "In a closing prayer, Jeremiah asks the Lord to remember what has come upon his people: their inheritance turned to strangers, their joy ceased, and Mount Zion desolate. He affirms that the Lord remains forever and pleads, turn thou us unto thee, and we shall be turned; renew our days as of old.",
+      "years": "about 586 BC",
+      "yearNum": -586,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["prayer", "hope", "repentance"],
+      "characters": ["jeremiah"],
+      "segments": [
+        { "s": 1, "e": 22, "speaker": "jeremiah", "to": "the-lord", "note": "Remember, O Lord; turn us and renew our days" }
+      ]
+    }
+  ]
+}

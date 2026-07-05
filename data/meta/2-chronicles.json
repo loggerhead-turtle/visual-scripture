@@ -1,0 +1,539 @@
+{
+  "book": "2 Chronicles",
+  "slug": "2-chronicles",
+  "narrator": "chronicler",
+  "plates": "history",
+  "chapters": [
+    {
+      "c": 1,
+      "title": "Solomon Asks for Wisdom",
+      "synopsis": "Solomon, established in the kingdom, worships at the brasen altar in Gibeon, and God appears by night offering him whatever he asks. Solomon asks for wisdom and knowledge to judge so great a people. God grants wisdom and adds riches and honor, and Solomon gathers chariots, horsemen, and wealth in Jerusalem.",
+      "years": "about 970 BC",
+      "yearNum": -970,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["wisdom", "kingship", "revelation"],
+      "characters": ["solomon"],
+      "segments": [
+        { "s": 1, "e": 6, "speaker": "chronicler", "to": "reader", "note": "Solomon worships at the brasen altar in Gibeon" },
+        { "s": 7, "e": 12, "speaker": "the-lord", "to": "solomon", "note": "Solomon asks wisdom; God adds riches and honor" },
+        { "s": 13, "e": 17, "speaker": "chronicler", "to": "reader", "note": "Chariots, horsemen, and silver as stones" }
+      ]
+    },
+    {
+      "c": 2,
+      "title": "Preparing to Build the House",
+      "synopsis": "Solomon determines to build a house for the name of the Lord and a house for his kingdom, and numbers a vast workforce of bearers and hewers. He writes to Huram king of Tyre for cedar from Lebanon and a craftsman skilled in gold, purple, and engraving. Huram answers gladly and sends Huram his master workman.",
+      "years": "about 966 BC",
+      "yearNum": -966,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["temple", "leadership"],
+      "characters": ["solomon"],
+      "segments": [
+        { "s": 1, "e": 18, "speaker": "chronicler", "to": "reader", "note": "Solomon's letter to Huram; laborers numbered" }
+      ]
+    },
+    {
+      "c": 3,
+      "title": "Building Begins on Moriah",
+      "synopsis": "Solomon begins to build the house of the Lord at Jerusalem on Mount Moriah, where the Lord appeared to David at the threshingfloor of Ornan. The chronicler records the measurements, the gold-overlaid holy places, the carved cherubim, and the veil. Two great pillars, Jachin and Boaz, are set before the temple.",
+      "years": "about 966 BC",
+      "yearNum": -966,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["temple", "worship"],
+      "characters": ["solomon", "david"],
+      "segments": [
+        { "s": 1, "e": 17, "speaker": "chronicler", "to": "reader", "note": "The temple built on Moriah; the pillars raised" }
+      ]
+    },
+    {
+      "c": 4,
+      "title": "Furnishings of the Temple",
+      "synopsis": "Solomon makes the altar of brass, the great molten sea standing on twelve oxen, ten lavers, ten golden candlesticks, and ten tables. Huram finishes the pots, shovels, and basins of bright brass cast in the plain of Jordan. The vessels of gold for the house of God are completed in great abundance.",
+      "years": "about 965 BC",
+      "yearNum": -965,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["temple", "worship"],
+      "characters": ["solomon"],
+      "segments": [
+        { "s": 1, "e": 22, "speaker": "chronicler", "to": "reader", "note": "The molten sea, lavers, and golden vessels" }
+      ]
+    },
+    {
+      "c": 5,
+      "title": "The Ark Enters the Temple",
+      "synopsis": "The work finished, Solomon assembles the elders of Israel, and the Levites bring the ark of the covenant up from the city of David into the holy of holies. Nothing is in the ark save the two tables Moses put there at Horeb. As singers and trumpeters praise the Lord as one, a cloud of glory fills the house so the priests cannot stand to minister.",
+      "years": "about 959 BC",
+      "yearNum": -959,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["temple", "covenant", "worship"],
+      "characters": ["solomon", "moses"],
+      "segments": [
+        { "s": 1, "e": 14, "speaker": "chronicler", "to": "reader", "note": "The ark brought up; glory fills the house" }
+      ]
+    },
+    {
+      "c": 6,
+      "title": "Solomon's Prayer of Dedication",
+      "synopsis": "Solomon blesses the congregation, recounting how the Lord chose Jerusalem and fulfilled his promise to David. Kneeling on a brasen scaffold with hands spread toward heaven, he dedicates the temple, pleading that God will hear from heaven when his people pray toward this place — in sin, drought, famine, or captivity — and forgive.",
+      "years": "about 959 BC",
+      "yearNum": -959,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["temple", "prayer", "covenant"],
+      "characters": ["solomon", "david"],
+      "segments": [
+        { "s": 1, "e": 11, "speaker": "solomon", "to": "multitude", "note": "Solomon blesses the assembled congregation" },
+        { "s": 12, "e": 42, "speaker": "solomon", "to": "the-lord", "note": "The dedication prayer: hear thou from heaven" }
+      ]
+    },
+    {
+      "c": 7,
+      "title": "Fire From Heaven Answers",
+      "synopsis": "Fire comes down from heaven and consumes the offerings, and the glory of the Lord fills the house as all Israel worships. Solomon keeps the feast seven days and sends the people away glad of heart. The Lord appears to Solomon by night: if my people humble themselves, pray, and turn from their wicked ways, I will hear and heal their land — but apostasy will make this house an astonishment.",
+      "years": "about 959 BC",
+      "yearNum": -959,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["temple", "repentance", "covenant"],
+      "characters": ["solomon", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 11, "speaker": "chronicler", "to": "reader", "note": "Fire falls; the feast of dedication kept" },
+        { "s": 12, "e": 22, "speaker": "the-lord", "to": "solomon", "note": "If my people humble themselves and pray" }
+      ]
+    },
+    {
+      "c": 8,
+      "title": "Solomon's Cities and Service",
+      "synopsis": "In twenty years Solomon builds store cities, fortifies Beth-horon, and settles conquered peoples under tribute. He brings Pharaoh's daughter to her own house, keeps the appointed feasts and offerings, and sets the courses of priests and Levites as David ordered. His ships bring gold from Ophir.",
+      "years": "about 950 BC",
+      "yearNum": -950,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["kingship", "leadership", "worship"],
+      "characters": ["solomon"],
+      "segments": [
+        { "s": 1, "e": 18, "speaker": "chronicler", "to": "reader", "note": "Building projects, ordered worship, gold from Ophir" }
+      ]
+    },
+    {
+      "c": 9,
+      "title": "The Queen of Sheba Marvels",
+      "synopsis": "The queen of Sheba comes to prove Solomon with hard questions and finds the half of his wisdom was not told her; there is no more spirit in her. The chronicler catalogs Solomon's gold, ivory throne, and fleet, for he passes all the kings of the earth in riches and wisdom. After reigning forty years, Solomon sleeps with his fathers, and Rehoboam reigns.",
+      "years": "about 945 BC",
+      "yearNum": -945,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["wisdom", "kingship"],
+      "characters": ["solomon"],
+      "segments": [
+        { "s": 1, "e": 12, "speaker": "chronicler", "to": "reader", "note": "The queen of Sheba proves Solomon with questions" },
+        { "s": 13, "e": 31, "speaker": "chronicler", "to": "reader", "note": "Solomon's incomparable wealth, reign, and death" }
+      ]
+    },
+    {
+      "c": 10,
+      "title": "The Kingdom Is Divided",
+      "synopsis": "All Israel gathers at Shechem to make Rehoboam king, asking him to lighten Solomon's heavy yoke. Rejecting the old men's counsel for that of his young companions, Rehoboam answers roughly: my father chastised you with whips, but I with scorpions. Ten tribes revolt to Jeroboam, and Israel rebels against the house of David to this day.",
+      "years": "about 930 BC",
+      "yearNum": -930,
+      "approx": true,
+      "place": null,
+      "themes": ["kingship", "pride-cycle", "judgment"],
+      "characters": ["solomon"],
+      "segments": [
+        { "s": 1, "e": 19, "speaker": "chronicler", "to": "reader", "note": "Rehoboam's harsh answer; ten tribes revolt" }
+      ]
+    },
+    {
+      "c": 11,
+      "title": "Judah Strengthened, Priests Gather",
+      "synopsis": "Rehoboam musters an army to reclaim Israel, but the prophet Shemaiah forbids war against their brethren, for this thing is from God. Rehoboam fortifies cities of defence in Judah. The priests and Levites, cast off by Jeroboam's golden calves, leave their suburbs and come to Jerusalem, strengthening the kingdom for three years.",
+      "years": "about 928 BC",
+      "yearNum": -928,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["obedience", "priesthood", "kingship"],
+      "characters": [],
+      "segments": [
+        { "s": 1, "e": 4, "speaker": "chronicler", "to": "reader", "note": "Shemaiah forbids war against Israel" },
+        { "s": 5, "e": 23, "speaker": "chronicler", "to": "reader", "note": "Fenced cities; faithful Levites gather to Judah" }
+      ]
+    },
+    {
+      "c": 12,
+      "title": "Shishak Humbles Rehoboam",
+      "synopsis": "When Rehoboam is established, he forsakes the law of the Lord, and Shishak king of Egypt comes up against Jerusalem with a vast host. At Shemaiah's word the princes humble themselves, so the Lord grants some deliverance, though Shishak carries away the treasures and Solomon's golden shields. Rehoboam does evil because he prepared not his heart to seek the Lord.",
+      "years": "about 926 BC",
+      "yearNum": -926,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["pride-cycle", "humility", "repentance"],
+      "characters": [],
+      "segments": [
+        { "s": 1, "e": 16, "speaker": "chronicler", "to": "reader", "note": "Shishak invades; princes humble themselves" }
+      ]
+    },
+    {
+      "c": 13,
+      "title": "Abijah Trusts the Covenant",
+      "synopsis": "War arises between Abijah of Judah and Jeroboam of Israel. From Mount Zemaraim Abijah declares that the Lord gave the kingdom to David by a covenant of salt, and that Judah keeps the true priesthood and worship while Israel serves golden calves. Though ambushed and outnumbered two to one, Judah cries to the Lord and prevails, because they rely upon the God of their fathers.",
+      "years": "about 913 BC",
+      "yearNum": -913,
+      "approx": true,
+      "place": null,
+      "themes": ["covenant", "war", "faith"],
+      "characters": ["david"],
+      "segments": [
+        { "s": 1, "e": 3, "speaker": "chronicler", "to": "reader", "note": "War between Abijah and Jeroboam" },
+        { "s": 4, "e": 12, "speaker": "chronicler", "to": "israelites", "note": "Abijah's speech: God himself is with us" },
+        { "s": 13, "e": 22, "speaker": "chronicler", "to": "reader", "note": "Judah cries to God and prevails" }
+      ]
+    },
+    {
+      "c": 14,
+      "title": "Asa's Reform and Deliverance",
+      "synopsis": "Asa does what is good and right, taking away strange altars and high places and commanding Judah to seek the Lord; the land has rest ten years. When Zerah the Ethiopian comes with a host of a thousand thousand, Asa cries that it is nothing with the Lord to help, whether with many or with them that have no power. The Lord smites the Ethiopians before Judah.",
+      "years": "about 900 BC",
+      "yearNum": -900,
+      "approx": true,
+      "place": null,
+      "themes": ["obedience", "deliverance", "war"],
+      "characters": [],
+      "segments": [
+        { "s": 1, "e": 8, "speaker": "chronicler", "to": "reader", "note": "Asa's reforms; the land at rest" },
+        { "s": 9, "e": 15, "speaker": "chronicler", "to": "reader", "note": "Asa's cry; Zerah's million-man host routed" }
+      ]
+    },
+    {
+      "c": 15,
+      "title": "A Covenant to Seek the Lord",
+      "synopsis": "The Spirit comes on Azariah, who tells Asa the Lord is with you while ye be with him; if ye seek him, he will be found. Emboldened, Asa purges the idols, renews the altar, and gathers Judah with strangers from Israel who see that God is with him. They covenant with shouting and trumpets to seek the Lord with all their heart, and he gives them rest.",
+      "years": "about 895 BC",
+      "yearNum": -895,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["covenant", "repentance", "worship"],
+      "characters": [],
+      "segments": [
+        { "s": 1, "e": 7, "speaker": "chronicler", "to": "reader", "note": "Azariah's prophecy: the Lord is with you" },
+        { "s": 8, "e": 19, "speaker": "chronicler", "to": "reader", "note": "Judah covenants with an oath to seek God" }
+      ]
+    },
+    {
+      "c": 16,
+      "title": "Asa Leans on Syria",
+      "synopsis": "When Baasha of Israel builds Ramah against him, Asa buys help from Ben-hadad of Syria with temple treasure instead of relying on the Lord. The seer Hanani rebukes him — the eyes of the Lord run to and fro to shew himself strong for the perfect heart — and Asa angrily imprisons him. Diseased in his feet, Asa seeks physicians and not the Lord, and dies.",
+      "years": "about 870 BC",
+      "yearNum": -870,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["faith", "pride-cycle", "judgment"],
+      "characters": [],
+      "segments": [
+        { "s": 1, "e": 14, "speaker": "chronicler", "to": "reader", "note": "The Syrian treaty; Hanani rebukes Asa" }
+      ]
+    },
+    {
+      "c": 17,
+      "title": "Jehoshaphat Teaches the Law",
+      "synopsis": "Jehoshaphat strengthens himself against Israel, seeks the God of his father, and walks in his commandments; his heart is lifted up in the ways of the Lord. In his third year he sends princes, Levites, and priests with the book of the law to teach throughout the cities of Judah. The fear of the Lord falls on surrounding kingdoms, and Judah grows mighty.",
+      "years": "about 870 BC",
+      "yearNum": -870,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["obedience", "leadership", "records"],
+      "characters": [],
+      "segments": [
+        { "s": 1, "e": 19, "speaker": "chronicler", "to": "reader", "note": "Teachers sent through Judah with the law" }
+      ]
+    },
+    {
+      "c": 18,
+      "title": "Micaiah Prophesies Ahab's Fall",
+      "synopsis": "Jehoshaphat joins affinity with Ahab, who urges him to war at Ramoth-gilead while four hundred prophets promise victory. Micaiah alone tells the truth: Israel scattered as sheep without a shepherd, and a lying spirit in the prophets' mouths. Ahab disguises himself in battle, but a bow drawn at a venture strikes him between the joints of his harness, and he dies at sunset.",
+      "years": "about 853 BC",
+      "yearNum": -853,
+      "approx": true,
+      "place": null,
+      "themes": ["prophecy", "kingship", "judgment"],
+      "characters": ["ahab"],
+      "segments": [
+        { "s": 1, "e": 11, "speaker": "chronicler", "to": "reader", "note": "Ahab's alliance; four hundred prophets flatter" },
+        { "s": 12, "e": 27, "speaker": "chronicler", "to": "reader", "note": "Micaiah's vision: Israel scattered, a lying spirit" },
+        { "s": 28, "e": 34, "speaker": "chronicler", "to": "reader", "note": "Ahab disguised, slain by a chance arrow" }
+      ]
+    },
+    {
+      "c": 19,
+      "title": "Judges Set Throughout Judah",
+      "synopsis": "The seer Jehu meets Jehoshaphat returning from Ramoth-gilead: shouldest thou help the ungodly? yet good things are found in thee. Jehoshaphat goes out among the people to bring them back to the Lord and appoints judges city by city. He charges them to judge for the Lord and not for man, for there is no iniquity with the Lord, nor respect of persons, nor taking of gifts.",
+      "years": "about 852 BC",
+      "yearNum": -852,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["justice-and-mercy", "leadership"],
+      "characters": [],
+      "segments": [
+        { "s": 1, "e": 11, "speaker": "chronicler", "to": "reader", "note": "Jehu's rebuke; judges charged to fear God" }
+      ]
+    },
+    {
+      "c": 20,
+      "title": "The Battle Is Not Yours",
+      "synopsis": "A great multitude of Moab, Ammon, and Mount Seir comes against Jehoshaphat, who proclaims a fast and prays before all Judah: we have no might, neither know we what to do, but our eyes are upon thee. The Spirit tells Jahaziel the battle is not yours, but God's. Singers sent before the army praise the beauty of holiness, the invaders destroy one another, and Judah spends three days gathering spoil.",
+      "years": "about 850 BC",
+      "yearNum": -850,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["prayer", "deliverance", "faith"],
+      "characters": [],
+      "segments": [
+        { "s": 1, "e": 13, "speaker": "chronicler", "to": "reader", "note": "Judah fasts; Jehoshaphat's prayer of dependence" },
+        { "s": 14, "e": 19, "speaker": "chronicler", "to": "reader", "note": "Jahaziel: the battle is God's, not yours" },
+        { "s": 20, "e": 37, "speaker": "chronicler", "to": "reader", "note": "Singers lead; the enemies destroy each other" }
+      ]
+    },
+    {
+      "c": 21,
+      "title": "Jehoram Walks in Ahab's Ways",
+      "synopsis": "Jehoram slays all his brothers with the sword and, married to Ahab's daughter, leads Judah into idolatry; yet the Lord will not destroy the house of David because of his covenant. A writing from Elijah warns of a great plague on his people and a fearful disease in his bowels. Edom revolts, the Philistines and Arabians spoil his house, and Jehoram dies unlamented.",
+      "years": "about 848 BC",
+      "yearNum": -848,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["apostasy", "judgment", "covenant"],
+      "characters": ["elijah", "david"],
+      "segments": [
+        { "s": 1, "e": 20, "speaker": "chronicler", "to": "reader", "note": "Jehoram's murders; Elijah's letter of doom" }
+      ]
+    },
+    {
+      "c": 22,
+      "title": "Athaliah Seizes the Throne",
+      "synopsis": "Ahaziah reigns one year, counselled to his destruction by the house of Ahab, and is slain in Jehu's purge. His mother Athaliah then destroys all the seed royal of Judah. But Jehoshabeath hides the infant Joash in the house of God for six years while Athaliah reigns over the land.",
+      "years": "about 841 BC",
+      "yearNum": -841,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["judgment", "kingship", "deliverance"],
+      "characters": [],
+      "segments": [
+        { "s": 1, "e": 12, "speaker": "chronicler", "to": "reader", "note": "Ahaziah slain; Joash hidden from Athaliah" }
+      ]
+    },
+    {
+      "c": 23,
+      "title": "Joash Crowned, Athaliah Slain",
+      "synopsis": "In the seventh year Jehoiada the priest gathers the Levites and captains, and they crown the boy Joash in the temple, crying God save the king. Athaliah rends her clothes and cries treason, and is put to death outside the house of the Lord. Jehoiada makes a covenant between the Lord, the king, and the people, and the altars of Baal are broken down.",
+      "years": "about 835 BC",
+      "yearNum": -835,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["covenant", "kingship", "worship"],
+      "characters": [],
+      "segments": [
+        { "s": 1, "e": 21, "speaker": "chronicler", "to": "reader", "note": "The hidden heir crowned; Baal's house broken" }
+      ]
+    },
+    {
+      "c": 24,
+      "title": "Joash Repairs, Then Forsakes",
+      "synopsis": "Joash does right all the days of Jehoiada, gathering money in a chest to repair the house of the Lord. After Jehoiada dies, the princes turn the king to idols; Jehoiada's son Zechariah testifies against them and is stoned at the king's command in the temple court. A small Syrian band executes judgment on Judah, and Joash is slain on his bed by his own servants.",
+      "years": "about 812 BC",
+      "yearNum": -812,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["temple", "apostasy", "judgment"],
+      "characters": [],
+      "segments": [
+        { "s": 1, "e": 14, "speaker": "chronicler", "to": "reader", "note": "The chest at the gate; the house repaired" },
+        { "s": 15, "e": 27, "speaker": "chronicler", "to": "reader", "note": "Zechariah stoned; Joash slain by servants" }
+      ]
+    },
+    {
+      "c": 25,
+      "title": "Amaziah's Divided Heart",
+      "synopsis": "Amaziah does right, but not with a perfect heart. At a prophet's word he sends home hired soldiers of Israel, trusting that God is able to give much more than a hundred talents, and defeats Edom — then brings home Edom's gods and worships them. Warned but unheeding, he provokes Joash of Israel, who breaks down Jerusalem's wall; conspirators later slay Amaziah at Lachish.",
+      "years": "about 796 BC",
+      "yearNum": -796,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["obedience", "apostasy", "pride-cycle"],
+      "characters": [],
+      "segments": [
+        { "s": 1, "e": 13, "speaker": "chronicler", "to": "reader", "note": "Hired hosts sent home; Edom defeated" },
+        { "s": 14, "e": 28, "speaker": "chronicler", "to": "reader", "note": "Edom's gods adopted; Israel humbles Amaziah" }
+      ]
+    },
+    {
+      "c": 26,
+      "title": "Uzziah's Pride Brings Leprosy",
+      "synopsis": "Uzziah reigns fifty-two years, and as long as he seeks the Lord, God makes him prosper with armies, towers, engines of war, and vineyards, for he loves husbandry. But when he is strong his heart is lifted up: he enters the temple to burn incense, a right belonging only to the priests. Leprosy rises in his forehead, and he dwells in a several house, cut off from the house of the Lord.",
+      "years": "about 767 BC",
+      "yearNum": -767,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["pride-cycle", "priesthood", "judgment"],
+      "characters": ["isaiah"],
+      "segments": [
+        { "s": 1, "e": 15, "speaker": "chronicler", "to": "reader", "note": "Uzziah prospers marvellously while seeking God" },
+        { "s": 16, "e": 23, "speaker": "chronicler", "to": "reader", "note": "Presumptuous incense; leprosy until death" }
+      ]
+    },
+    {
+      "c": 27,
+      "title": "Jotham Prepares His Ways",
+      "synopsis": "Jotham does right in the sight of the Lord, though he enters not into the temple as his father presumed to, and the people still do corruptly. He builds the high gate of the house of the Lord, fortifies cities, and subdues the Ammonites. Jotham becomes mighty because he prepared his ways before the Lord his God.",
+      "years": "about 740 BC",
+      "yearNum": -740,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["obedience", "kingship"],
+      "characters": [],
+      "segments": [
+        { "s": 1, "e": 9, "speaker": "chronicler", "to": "reader", "note": "Jotham mighty because his ways were prepared" }
+      ]
+    },
+    {
+      "c": 28,
+      "title": "Ahaz Deepens Judah's Apostasy",
+      "synopsis": "Ahaz makes molten images for Baalim and burns his children in the fire, so the Lord delivers Judah to Syria and to Israel, which slays a hundred twenty thousand in one day. The prophet Oded persuades Israel to clothe, feed, and return their Judahite captives. In distress Ahaz trespasses yet more, sacrificing to the gods of Damascus and shutting up the house of the Lord.",
+      "years": "about 732 BC",
+      "yearNum": -732,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["apostasy", "judgment", "charity"],
+      "characters": [],
+      "segments": [
+        { "s": 1, "e": 15, "speaker": "chronicler", "to": "reader", "note": "Judah smitten; Oded frees the captives" },
+        { "s": 16, "e": 27, "speaker": "chronicler", "to": "reader", "note": "Ahaz shuts the temple, serves Damascus's gods" }
+      ]
+    },
+    {
+      "c": 29,
+      "title": "Hezekiah Opens the Doors",
+      "synopsis": "In the first month of his first year, Hezekiah opens and repairs the doors of the house of the Lord and charges the Levites to sanctify it, for our fathers have trespassed. The priests carry the uncleanness out to the brook Kidron in sixteen days. Sin offerings are made for all Israel, and worship is restored with the words of David — the Levites sing praise with gladness while the burnt offering ascends.",
+      "years": "about 715 BC",
+      "yearNum": -715,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["temple", "repentance", "worship"],
+      "characters": ["hezekiah", "david"],
+      "segments": [
+        { "s": 1, "e": 19, "speaker": "chronicler", "to": "reader", "note": "Hezekiah's charge; the house cleansed" },
+        { "s": 20, "e": 36, "speaker": "chronicler", "to": "reader", "note": "Sin offerings; the song of the Lord begins" }
+      ]
+    },
+    {
+      "c": 30,
+      "title": "A Passover for All Israel",
+      "synopsis": "Hezekiah sends posts from Beer-sheba to Dan, inviting even the remnant of Ephraim and Manasseh to return to the Lord and keep the passover at Jerusalem. Some laugh the messengers to scorn, but many humble themselves and come. Hezekiah prays for those unprepared — the good Lord pardon every one that prepareth his heart — and the feast is kept fourteen days with joy not seen since Solomon.",
+      "years": "about 715 BC",
+      "yearNum": -715,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["worship", "repentance", "gathering-of-israel"],
+      "characters": ["hezekiah", "solomon"],
+      "segments": [
+        { "s": 1, "e": 12, "speaker": "chronicler", "to": "reader", "note": "Letters to all Israel: turn again" },
+        { "s": 13, "e": 27, "speaker": "chronicler", "to": "reader", "note": "The great passover; Hezekiah prays for the unclean" }
+      ]
+    },
+    {
+      "c": 31,
+      "title": "Order and Offerings Restored",
+      "synopsis": "The worshippers go out and break the images and cut down the groves throughout Judah and beyond. Hezekiah appoints the courses of priests and Levites and commands the people to give their portion, and tithes lie in heaps for four months. In every work he begins in the service of God's house, he does it with all his heart, and prospers.",
+      "years": "about 714 BC",
+      "yearNum": -714,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["obedience", "worship", "consecration"],
+      "characters": ["hezekiah"],
+      "segments": [
+        { "s": 1, "e": 21, "speaker": "chronicler", "to": "reader", "note": "Idols broken; tithes heaped; wholehearted service" }
+      ]
+    },
+    {
+      "c": 32,
+      "title": "Sennacherib Defied and Destroyed",
+      "synopsis": "Sennacherib of Assyria invades Judah, and Hezekiah stops the fountains, strengthens the wall, and rallies the people: there be more with us than with him — with us is the Lord our God to fight our battles. Assyrian messengers rail against God as if he were like the idols of the nations. Hezekiah and Isaiah pray, and the Lord sends an angel who cuts off the host; Sennacherib returns shamefaced and is slain by his own sons.",
+      "years": "about 701 BC",
+      "yearNum": -701,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["deliverance", "faith", "prayer"],
+      "characters": ["hezekiah", "isaiah", "angel"],
+      "segments": [
+        { "s": 1, "e": 8, "speaker": "chronicler", "to": "reader", "note": "There be more with us than with him" },
+        { "s": 9, "e": 23, "speaker": "chronicler", "to": "reader", "note": "Assyria's railing; an angel destroys the host" },
+        { "s": 24, "e": 33, "speaker": "chronicler", "to": "reader", "note": "Hezekiah's sickness, pride, riches, and death" }
+      ]
+    },
+    {
+      "c": 33,
+      "title": "Manasseh Humbled and Restored",
+      "synopsis": "Manasseh rebuilds the high places, sets a carved idol in God's house, and seduces Judah to do worse than the heathen. The Assyrians take him with hooks to Babylon, where in affliction he humbles himself greatly and prays; God is intreated and brings him back to Jerusalem, and Manasseh knows that the Lord he is God. He removes the idols, but his son Amon trespasses more and more and is slain by his servants.",
+      "years": "about 670 BC",
+      "yearNum": -670,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["repentance", "humility", "apostasy"],
+      "characters": [],
+      "segments": [
+        { "s": 1, "e": 20, "speaker": "chronicler", "to": "reader", "note": "Manasseh's sins, captivity, prayer, and return" },
+        { "s": 21, "e": 25, "speaker": "chronicler", "to": "reader", "note": "Amon's brief wicked reign" }
+      ]
+    },
+    {
+      "c": 34,
+      "title": "Josiah and the Book Found",
+      "synopsis": "While yet young, Josiah begins to seek the God of David and purges Judah and even Israel of altars, groves, and images. During temple repairs Hilkiah finds the book of the law, and hearing it read, Josiah rends his clothes. The prophetess Huldah declares the written curses will come, but not in Josiah's days because his heart was tender; king and people covenant to keep the words of the book.",
+      "years": "about 622 BC",
+      "yearNum": -622,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["records", "covenant", "repentance"],
+      "characters": ["josiah", "david"],
+      "segments": [
+        { "s": 1, "e": 13, "speaker": "chronicler", "to": "reader", "note": "Young Josiah purges the land of idols" },
+        { "s": 14, "e": 33, "speaker": "chronicler", "to": "reader", "note": "The law found; Huldah; the covenant renewed" }
+      ]
+    },
+    {
+      "c": 35,
+      "title": "Josiah's Passover and Death",
+      "synopsis": "Josiah keeps a passover to the Lord such as has not been kept since the days of Samuel the prophet, with the ark settled, the courses set, and thousands of offerings given by king and princes. Afterward he needlessly goes out against Pharaoh Necho at Megiddo, disguising himself, and archers wound him mortally. All Judah mourns, and Jeremiah laments for Josiah.",
+      "years": "about 609 BC",
+      "yearNum": -609,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["worship", "judgment", "kingship"],
+      "characters": ["josiah", "jeremiah", "samuel"],
+      "segments": [
+        { "s": 1, "e": 19, "speaker": "chronicler", "to": "reader", "note": "The greatest passover since Samuel's days" },
+        { "s": 20, "e": 27, "speaker": "chronicler", "to": "reader", "note": "Josiah slain at Megiddo; Jeremiah laments" }
+      ]
+    },
+    {
+      "c": 36,
+      "title": "The Fall and the Decree",
+      "synopsis": "Judah's last kings — Jehoahaz, Jehoiakim, Jehoiachin, and Zedekiah — do evil, and Zedekiah stiffens his neck against Nebuchadnezzar and against Jeremiah speaking from the mouth of the Lord. The people mock the messengers God sends in compassion until there is no remedy: the Chaldees burn the house of God and carry Judah to Babylon for seventy years, until the land enjoys her sabbaths. Then Cyrus of Persia proclaims that the Lord has charged him to build him a house at Jerusalem: who is among you of all his people? let him go up.",
+      "years": "about 586-538 BC",
+      "yearNum": -538,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["exile", "judgment", "prophecy", "deliverance"],
+      "characters": ["nebuchadnezzar", "jeremiah", "cyrus"],
+      "segments": [
+        { "s": 1, "e": 10, "speaker": "chronicler", "to": "reader", "note": "Jehoahaz, Jehoiakim, Jehoiachin carried away" },
+        { "s": 11, "e": 21, "speaker": "chronicler", "to": "reader", "note": "Zedekiah rebels; Jerusalem burned; seventy years" },
+        { "s": 22, "e": 23, "speaker": "cyrus", "to": "israelites", "note": "Cyrus's decree: go up and build" }
+      ]
+    }
+  ]
+}

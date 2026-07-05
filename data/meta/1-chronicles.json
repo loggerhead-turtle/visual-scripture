@@ -1,0 +1,427 @@
+{
+  "book": "1 Chronicles",
+  "slug": "1-chronicles",
+  "narrator": "chronicler",
+  "plates": "history",
+  "chapters": [
+    {
+      "c": 1,
+      "title": "From Adam to Abraham",
+      "synopsis": "The chronicler opens with a genealogy running from Adam through Noah's sons to Abraham. The lines of Ishmael, Keturah, and Esau are listed, along with the early kings of Edom. The list frames all nations as one family before narrowing to Israel.",
+      "years": "before 2000 BC",
+      "yearNum": -2000,
+      "approx": true,
+      "place": null,
+      "themes": ["records", "family"],
+      "characters": ["adam", "noah", "abraham", "isaac"],
+      "segments": [
+        { "s": 1, "e": 54, "speaker": "chronicler", "to": "reader", "note": "Genealogy from Adam through Abraham to Edom's kings" }
+      ]
+    },
+    {
+      "c": 2,
+      "title": "The Sons of Israel and Judah",
+      "synopsis": "The twelve sons of Israel are named, and the genealogy turns to Judah. Judah's line runs through Perez and Hezron down to Jesse and his sons, including David. Caleb's family and other clans of Judah fill out the record.",
+      "years": "before 1000 BC",
+      "yearNum": -1000,
+      "approx": true,
+      "place": null,
+      "themes": ["records", "family"],
+      "characters": ["jacob-israel", "boaz", "david"],
+      "segments": [
+        { "s": 1, "e": 55, "speaker": "chronicler", "to": "reader", "note": "Judah's line traced from Israel's sons to David" }
+      ]
+    },
+    {
+      "c": 3,
+      "title": "The Royal Line of David",
+      "synopsis": "David's sons born at Hebron and Jerusalem are listed, including Solomon. The chapter then follows the kings of Judah from Solomon to Zedekiah and the exile. The royal line continues through Zerubbabel and his descendants after the captivity.",
+      "years": "to about 538 BC",
+      "yearNum": -538,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["records", "kingship", "family"],
+      "characters": ["david", "solomon", "josiah"],
+      "segments": [
+        { "s": 1, "e": 24, "speaker": "chronicler", "to": "reader", "note": "David's descendants through the kings and past the exile" }
+      ]
+    },
+    {
+      "c": 4,
+      "title": "Clans of Judah and Simeon",
+      "synopsis": "Further families of Judah are recorded, including Jabez, who prays that God will bless him and enlarge his border, and God grants his request. The genealogy and settlements of Simeon follow, with notes of their expansion for pasture.",
+      "years": "before 1000 BC",
+      "yearNum": -1000,
+      "approx": true,
+      "place": null,
+      "themes": ["records", "family", "prayer"],
+      "characters": [],
+      "segments": [
+        { "s": 1, "e": 43, "speaker": "chronicler", "to": "reader", "note": "Judah's clans, Jabez's prayer, and Simeon's settlements" }
+      ]
+    },
+    {
+      "c": 5,
+      "title": "Tribes Beyond the Jordan",
+      "synopsis": "The families of Reuben, Gad, and the half tribe of Manasseh east of the Jordan are recorded. They win battles when they cry to God and trust him, but their later unfaithfulness ends in captivity under the kings of Assyria.",
+      "years": "to about 732 BC",
+      "yearNum": -732,
+      "approx": true,
+      "place": null,
+      "themes": ["records", "faith", "exile"],
+      "characters": [],
+      "segments": [
+        { "s": 1, "e": 26, "speaker": "chronicler", "to": "reader", "note": "Reuben, Gad, and Manasseh; victory, apostasy, captivity" }
+      ]
+    },
+    {
+      "c": 6,
+      "title": "The Priests and Singers of Levi",
+      "synopsis": "The genealogy of Levi traces the high priests from Aaron down to the captivity. David's appointed temple singers, including Asaph and his fellows, are named with their lines. The chapter closes with the cities given to the Levites throughout Israel.",
+      "years": "about 1000 BC",
+      "yearNum": -1000,
+      "approx": true,
+      "place": null,
+      "themes": ["records", "priesthood", "worship"],
+      "characters": ["aaron", "asaph", "samuel", "david"],
+      "segments": [
+        { "s": 1, "e": 81, "speaker": "chronicler", "to": "reader", "note": "Levi's line: priests, singers, and Levite cities" }
+      ]
+    },
+    {
+      "c": 7,
+      "title": "Families of the Northern Tribes",
+      "synopsis": "The genealogies of Issachar, Benjamin, Naphtali, Manasseh, Ephraim, and Asher are recorded, mostly as musters of valiant men. Ephraim's line runs down to Joshua the son of Nun.",
+      "years": "before 1000 BC",
+      "yearNum": -1000,
+      "approx": true,
+      "place": null,
+      "themes": ["records", "family"],
+      "characters": ["joshua"],
+      "segments": [
+        { "s": 1, "e": 40, "speaker": "chronicler", "to": "reader", "note": "Musters of six tribes; Ephraim's line to Joshua" }
+      ]
+    },
+    {
+      "c": 8,
+      "title": "Benjamin and the House of Saul",
+      "synopsis": "The families of Benjamin are traced with their dwelling places in Geba, Jerusalem, and elsewhere. The chapter settles on the line of Saul through Jonathan, whose descendants are numbered as mighty men of valor.",
+      "years": "before 1000 BC",
+      "yearNum": -1000,
+      "approx": true,
+      "place": null,
+      "themes": ["records", "family", "kingship"],
+      "characters": ["saul", "jonathan"],
+      "segments": [
+        { "s": 1, "e": 40, "speaker": "chronicler", "to": "reader", "note": "Benjamin's clans and Saul's family line" }
+      ]
+    },
+    {
+      "c": 9,
+      "title": "Those Who Returned to Jerusalem",
+      "synopsis": "After noting that Judah was carried to Babylon for transgression, the chronicler lists the first families to dwell again in Jerusalem: Israelites, priests, Levites, and temple servants. The duties of the gatekeepers and other temple workers are described, and Saul's genealogy is repeated to introduce the story ahead.",
+      "years": "about 538 BC",
+      "yearNum": -538,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["records", "temple", "exile"],
+      "characters": ["saul"],
+      "segments": [
+        { "s": 1, "e": 44, "speaker": "chronicler", "to": "reader", "note": "Returned families and temple duties; Saul's line repeated" }
+      ]
+    },
+    {
+      "c": 10,
+      "title": "The Fall of King Saul",
+      "synopsis": "The Philistines defeat Israel on Mount Gilboa, where Saul's sons die and Saul falls on his own sword. The men of Jabesh-gilead recover and bury the bodies. The chronicler says Saul died for his transgression and for seeking a familiar spirit, so the kingdom passed to David.",
+      "years": "about 1000 BC",
+      "yearNum": -1000,
+      "approx": true,
+      "place": null,
+      "themes": ["kingship", "judgment", "war"],
+      "characters": ["saul", "jonathan"],
+      "segments": [
+        { "s": 1, "e": 14, "speaker": "chronicler", "to": "reader", "note": "Saul and his sons fall at Gilboa" }
+      ]
+    },
+    {
+      "c": 11,
+      "title": "David Crowned and Zion Taken",
+      "synopsis": "All Israel gathers to Hebron and anoints David king according to the word of the Lord. David captures the stronghold of Zion, which becomes the city of David, and grows great because the Lord of hosts is with him. His mighty men and their exploits are honored by name.",
+      "years": "about 1000 BC",
+      "yearNum": -1000,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["kingship", "leadership", "covenant"],
+      "characters": ["david"],
+      "segments": [
+        { "s": 1, "e": 47, "speaker": "chronicler", "to": "reader", "note": "David anointed at Hebron; Jerusalem taken; mighty men" }
+      ]
+    },
+    {
+      "c": 12,
+      "title": "Warriors Gather to David",
+      "synopsis": "Mighty men from every tribe come to David at Ziklag and later at Hebron to turn the kingdom of Saul to him. The men of Issachar have understanding of the times, and day by day the host grows like the host of God. Israel keeps three days of feasting, for there is joy in Israel.",
+      "years": "about 1000 BC",
+      "yearNum": -1000,
+      "approx": true,
+      "place": "hebron",
+      "themes": ["leadership", "kingship", "war"],
+      "characters": ["david"],
+      "segments": [
+        { "s": 1, "e": 40, "speaker": "chronicler", "to": "reader", "note": "The tribes rally to make David king" }
+      ]
+    },
+    {
+      "c": 13,
+      "title": "The Ark on a New Cart",
+      "synopsis": "David and all Israel go to bring the ark of God up from Kirjath-jearim with music and rejoicing. When the oxen stumble, Uzza puts out his hand to steady the ark and is struck dead. David, afraid, leaves the ark at the house of Obed-edom, whose household the Lord blesses.",
+      "years": "about 1000 BC",
+      "yearNum": -1000,
+      "approx": true,
+      "place": null,
+      "themes": ["worship", "obedience", "judgment"],
+      "characters": ["david"],
+      "segments": [
+        { "s": 1, "e": 14, "speaker": "chronicler", "to": "reader", "note": "Uzza dies; the ark rests with Obed-edom" }
+      ]
+    },
+    {
+      "c": 14,
+      "title": "David Established Over Israel",
+      "synopsis": "Hiram of Tyre builds David a house, and David perceives that the Lord has confirmed him king for the sake of Israel. When the Philistines attack, David inquires of God before each battle and defeats them at Baal-perazim and again in the valley. His fame spreads into all lands.",
+      "years": "about 1000 BC",
+      "yearNum": -1000,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["kingship", "revelation", "war"],
+      "characters": ["david"],
+      "segments": [
+        { "s": 1, "e": 17, "speaker": "chronicler", "to": "reader", "note": "David inquires of God and defeats the Philistines" }
+      ]
+    },
+    {
+      "c": 15,
+      "title": "The Ark Borne by Levites",
+      "synopsis": "David prepares a place for the ark and declares that only the Levites may carry it, for the earlier breach came from not seeking God after the due order. Sanctified priests and Levites bear the ark on their shoulders with singers and instruments. David dances before the ark, and Michal despises him in her heart.",
+      "years": "about 1000 BC",
+      "yearNum": -1000,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["worship", "obedience", "priesthood"],
+      "characters": ["david"],
+      "segments": [
+        { "s": 1, "e": 29, "speaker": "chronicler", "to": "reader", "note": "Levites carry the ark to Jerusalem with music" }
+      ]
+    },
+    {
+      "c": 16,
+      "title": "A Psalm Before the Ark",
+      "synopsis": "The ark is set in the tent David pitched, with offerings and a blessing for all the people. David delivers a psalm of thanksgiving, calling Israel to remember the covenant and declare God's glory among the nations. Regular worship is appointed before the ark under Asaph and the priests.",
+      "years": "about 1000 BC",
+      "yearNum": -1000,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["worship", "covenant", "records"],
+      "characters": ["david", "asaph"],
+      "segments": [
+        { "s": 1, "e": 7, "speaker": "chronicler", "to": "reader", "note": "The ark set in its tent; Asaph appointed" },
+        { "s": 8, "e": 36, "speaker": "david", "to": "israelites", "note": "David's psalm: give thanks, remember the covenant" },
+        { "s": 37, "e": 43, "speaker": "chronicler", "to": "reader", "note": "Daily worship established before the ark" }
+      ]
+    },
+    {
+      "c": 17,
+      "title": "The Covenant of an Everlasting House",
+      "synopsis": "David wishes to build the Lord a house, but through Nathan the Lord answers that he will instead build David a house, raising a son to build the temple and establishing his throne forever. David sits before the Lord and offers a humble prayer of gratitude, asking that the promise be fulfilled.",
+      "years": "about 1000 BC",
+      "yearNum": -1000,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["covenant", "kingship", "temple", "prophecy"],
+      "characters": ["david", "nathan", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 2, "speaker": "chronicler", "to": "reader", "note": "David tells Nathan his desire to build" },
+        { "s": 3, "e": 15, "speaker": "the-lord", "to": "david", "note": "Through Nathan: a son shall build; a throne forever" },
+        { "s": 16, "e": 27, "speaker": "david", "to": "the-lord", "note": "David's prayer: who am I, O Lord?" }
+      ]
+    },
+    {
+      "c": 18,
+      "title": "Victories on Every Side",
+      "synopsis": "David subdues the Philistines, Moab, Zobah, Syria, and Edom, and the Lord preserves him wherever he goes. Dedicated silver and gold from the conquered nations are gathered for the Lord. David reigns over all Israel, executing judgment and justice among all his people.",
+      "years": "about 995 BC",
+      "yearNum": -995,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["war", "kingship", "justice-and-mercy"],
+      "characters": ["david"],
+      "segments": [
+        { "s": 1, "e": 17, "speaker": "chronicler", "to": "reader", "note": "David's conquests; spoils dedicated to the Lord" }
+      ]
+    },
+    {
+      "c": 19,
+      "title": "Kindness Repaid with War",
+      "synopsis": "David sends comforters to Hanun king of Ammon, but the Ammonites shame the messengers and hire Syrian chariots for war. Joab divides the army with his brother Abishai, trusting God to do what is good. Israel routs both the Syrians and the Ammonites.",
+      "years": "about 995 BC",
+      "yearNum": -995,
+      "approx": true,
+      "place": null,
+      "themes": ["war", "leadership"],
+      "characters": ["david"],
+      "segments": [
+        { "s": 1, "e": 19, "speaker": "chronicler", "to": "reader", "note": "Ammon shames David's envoys; Joab defeats the alliance" }
+      ]
+    },
+    {
+      "c": 20,
+      "title": "Rabbah Falls and Giants Fall",
+      "synopsis": "Joab besieges and destroys Rabbah of the Ammonites, and David takes the crown of their king. In later wars with the Philistines, David's men slay the giants of Gath, including a brother of Goliath. The enemies of Israel are subdued by the hand of David and his servants.",
+      "years": "about 995 BC",
+      "yearNum": -995,
+      "approx": true,
+      "place": null,
+      "themes": ["war", "deliverance"],
+      "characters": ["david"],
+      "segments": [
+        { "s": 1, "e": 8, "speaker": "chronicler", "to": "reader", "note": "Rabbah taken; giants of Gath slain" }
+      ]
+    },
+    {
+      "c": 21,
+      "title": "The Census and the Threshingfloor",
+      "synopsis": "Satan provokes David to number Israel, and the Lord sends a pestilence that slays seventy thousand. David sees the destroying angel over Jerusalem and pleads that the punishment fall on him instead. At the prophet Gad's word he buys the threshingfloor of Ornan, builds an altar, and the plague is stayed.",
+      "years": "about 975 BC",
+      "yearNum": -975,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["repentance", "judgment", "justice-and-mercy", "temple"],
+      "characters": ["david", "satan", "angel"],
+      "segments": [
+        { "s": 1, "e": 30, "speaker": "chronicler", "to": "reader", "note": "Census, plague, and the altar at Ornan's floor" }
+      ]
+    },
+    {
+      "c": 22,
+      "title": "Preparing for the House of God",
+      "synopsis": "David declares Ornan's threshingfloor the site of the house of the Lord and gathers stone, iron, brass, and cedar in abundance. Because he has shed much blood, the building will fall to Solomon, a man of rest. David charges Solomon to keep the law and be strong, and commands the princes to help him.",
+      "years": "about 970 BC",
+      "yearNum": -970,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["temple", "leadership", "obedience"],
+      "characters": ["david", "solomon"],
+      "segments": [
+        { "s": 1, "e": 5, "speaker": "chronicler", "to": "reader", "note": "David gathers materials in abundance" },
+        { "s": 6, "e": 16, "speaker": "david", "to": "solomon", "note": "Charge to Solomon: build, be strong" },
+        { "s": 17, "e": 19, "speaker": "david", "to": "israelites", "note": "The princes commanded to help Solomon" }
+      ]
+    },
+    {
+      "c": 23,
+      "title": "The Levites Numbered and Organized",
+      "synopsis": "David, old and full of days, makes Solomon king and numbers the Levites from thirty years old and upward. He divides the sons of Levi into courses for the work of the house of the Lord. Their duty shifts from carrying the tabernacle to serving, thanking, and praising in the temple.",
+      "years": "about 970 BC",
+      "yearNum": -970,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["temple", "priesthood", "leadership"],
+      "characters": ["david", "solomon", "aaron", "moses"],
+      "segments": [
+        { "s": 1, "e": 32, "speaker": "chronicler", "to": "reader", "note": "Levite courses appointed for temple service" }
+      ]
+    },
+    {
+      "c": 24,
+      "title": "Courses of the Priests",
+      "synopsis": "The sons of Aaron are divided by lot into twenty-four courses for the priesthood service, Eleazar's and Ithamar's lines alike. The remaining Levite families likewise cast lots before the king. Order in worship is settled by lot rather than rank.",
+      "years": "about 970 BC",
+      "yearNum": -970,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["priesthood", "temple", "records"],
+      "characters": ["david", "aaron"],
+      "segments": [
+        { "s": 1, "e": 31, "speaker": "chronicler", "to": "reader", "note": "Twenty-four priestly courses set by lot" }
+      ]
+    },
+    {
+      "c": 25,
+      "title": "Singers Appointed to Prophesy",
+      "synopsis": "David and the captains separate the sons of Asaph, Heman, and Jeduthun to prophesy with harps, psalteries, and cymbals. Two hundred eighty-eight trained singers are divided into twenty-four courses by lot, teacher and scholar alike. Music becomes an ordered ministry of the house of God.",
+      "years": "about 970 BC",
+      "yearNum": -970,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["worship", "temple", "prophecy"],
+      "characters": ["david", "asaph"],
+      "segments": [
+        { "s": 1, "e": 31, "speaker": "chronicler", "to": "reader", "note": "Courses of temple singers appointed by lot" }
+      ]
+    },
+    {
+      "c": 26,
+      "title": "Gatekeepers and Treasurers",
+      "synopsis": "The porters are assigned by lot to the gates of the house of the Lord, strong men for the service. Other Levites keep the treasuries of dedicated spoils won in battle. Officers and judges are set over Israel for the outward business of God and king.",
+      "years": "about 970 BC",
+      "yearNum": -970,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["temple", "leadership", "records"],
+      "characters": ["david"],
+      "segments": [
+        { "s": 1, "e": 32, "speaker": "chronicler", "to": "reader", "note": "Gates, treasuries, and officers assigned" }
+      ]
+    },
+    {
+      "c": 27,
+      "title": "Captains of the Twelve Courses",
+      "synopsis": "Twelve courses of twenty-four thousand men each serve the king month by month, with a named captain over every course. Rulers over the tribes and stewards over the king's fields, vineyards, herds, and treasures are listed. David's counselors, including Ahithophel and Hushai, close the roster.",
+      "years": "about 970 BC",
+      "yearNum": -970,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["leadership", "kingship", "records"],
+      "characters": ["david"],
+      "segments": [
+        { "s": 1, "e": 34, "speaker": "chronicler", "to": "reader", "note": "Monthly army courses and royal officers listed" }
+      ]
+    },
+    {
+      "c": 28,
+      "title": "The Pattern Given to Solomon",
+      "synopsis": "David assembles all the princes of Israel and testifies that God chose Solomon to build the house. He charges Solomon to know the God of his father and serve him with a perfect heart, for the Lord searches all hearts. David delivers the written pattern of the temple, received by the Spirit, and bids his son be strong and do it.",
+      "years": "about 970 BC",
+      "yearNum": -970,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["temple", "covenant", "obedience", "revelation"],
+      "characters": ["david", "solomon"],
+      "segments": [
+        { "s": 1, "e": 1, "speaker": "chronicler", "to": "reader", "note": "David assembles the princes of Israel" },
+        { "s": 2, "e": 8, "speaker": "david", "to": "israelites", "note": "God has chosen Solomon to build" },
+        { "s": 9, "e": 10, "speaker": "david", "to": "solomon", "note": "Know thou the God of thy father" },
+        { "s": 11, "e": 19, "speaker": "chronicler", "to": "reader", "note": "The pattern of the temple delivered" },
+        { "s": 20, "e": 21, "speaker": "david", "to": "solomon", "note": "Be strong; the Lord will not fail thee" }
+      ]
+    },
+    {
+      "c": 29,
+      "title": "Offerings, Prayer, and a King's Rest",
+      "synopsis": "David gives his own treasure for the temple, and the princes and people offer willingly with a perfect heart, rejoicing. David blesses the Lord before the congregation, confessing that all things come of God and asking that the people's hearts stay true. Solomon is made king a second time, and David dies in a good old age, full of days, riches, and honor.",
+      "years": "about 970 BC",
+      "yearNum": -970,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["temple", "consecration", "prayer", "kingship"],
+      "characters": ["david", "solomon"],
+      "segments": [
+        { "s": 1, "e": 5, "speaker": "david", "to": "israelites", "note": "David invites willing offerings for the house" },
+        { "s": 6, "e": 9, "speaker": "chronicler", "to": "reader", "note": "Princes and people offer willingly, rejoicing" },
+        { "s": 10, "e": 19, "speaker": "david", "to": "the-lord", "note": "All things come of thee, O Lord" },
+        { "s": 20, "e": 30, "speaker": "chronicler", "to": "reader", "note": "Solomon enthroned; David dies full of days" }
+      ]
+    }
+  ]
+}

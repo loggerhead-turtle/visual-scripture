@@ -1,0 +1,211 @@
+{
+  "book": "Hosea",
+  "slug": "hosea",
+  "narrator": "hosea",
+  "plates": "prophets-minor",
+  "chapters": [
+    {
+      "c": 1,
+      "title": "Hosea's Marriage as a Sign",
+      "synopsis": "The Lord commands Hosea to take a wife of whoredoms, and he marries Gomer as a living sign of Israel's unfaithfulness to her God. Their children receive names of judgment, Jezreel, Lo-ruhamah, and Lo-ammi, yet the Lord promises that Israel will one day be numberless as the sand of the sea and be called the sons of the living God.",
+      "years": "about 750 BC",
+      "yearNum": -750,
+      "approx": true,
+      "place": "samaria-city",
+      "themes": ["covenant", "apostasy", "prophecy"],
+      "characters": ["hosea", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 3, "speaker": "hosea", "to": "reader", "note": "Hosea marries Gomer at the Lord's word" },
+        { "s": 4, "e": 9, "speaker": "the-lord", "to": "hosea", "note": "Children named Jezreel, Lo-ruhamah, Lo-ammi" },
+        { "s": 10, "e": 11, "speaker": "the-lord", "to": "hosea", "note": "Israel yet numberless as the sand" }
+      ]
+    },
+    {
+      "c": 2,
+      "title": "Allured into the Wilderness",
+      "synopsis": "The Lord pleads with faithless Israel, who has chased other lovers and forgotten the giver of her corn, wine, and oil. He will hedge her way with thorns, then allure her into the wilderness and speak comfortably to her, betrothing her to himself for ever in righteousness and mercy.",
+      "years": "about 750 BC",
+      "yearNum": -750,
+      "approx": true,
+      "place": "samaria-city",
+      "themes": ["covenant", "repentance", "hope"],
+      "characters": ["hosea", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 13, "speaker": "the-lord", "to": "house-of-israel", "note": "Israel's harlotry hedged with thorns" },
+        { "s": 14, "e": 23, "speaker": "the-lord", "to": "house-of-israel", "note": "Allured, comforted, and betrothed for ever" }
+      ]
+    },
+    {
+      "c": 3,
+      "title": "Bought Back with Silver",
+      "synopsis": "Hosea buys back his estranged wife for fifteen pieces of silver and a measure of barley, loving her as the Lord loves Israel despite her wandering. Israel will likewise abide many days without king or sacrifice, and afterward return and seek the Lord and David their king in the latter days.",
+      "years": "about 750 BC",
+      "yearNum": -750,
+      "approx": true,
+      "place": "samaria-city",
+      "themes": ["covenant", "restoration", "hope"],
+      "characters": ["hosea", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 3, "speaker": "hosea", "to": "reader", "note": "Hosea redeems his wife for silver" },
+        { "s": 4, "e": 5, "speaker": "hosea", "to": "reader", "note": "Israel to return in the latter days" }
+      ]
+    },
+    {
+      "c": 4,
+      "title": "Destroyed for Lack of Knowledge",
+      "synopsis": "The Lord brings a controversy against Israel, where there is no truth, no mercy, and no knowledge of God in the land. Because the people are destroyed for lack of knowledge and the priests have rejected it, both priest and people will be punished for their ways.",
+      "years": "about 750 BC",
+      "yearNum": -750,
+      "approx": true,
+      "place": "samaria-city",
+      "themes": ["apostasy", "judgment"],
+      "characters": ["the-lord"],
+      "segments": [
+        { "s": 1, "e": 19, "speaker": "the-lord", "to": "house-of-israel", "note": "Controversy: no knowledge of God in the land" }
+      ]
+    },
+    {
+      "c": 5,
+      "title": "Till They Acknowledge Their Offence",
+      "synopsis": "Judgment is pronounced on the priests, the people, and the royal house, for the spirit of whoredoms has caused Ephraim and Judah to stumble. The Lord withdraws himself like a moth and a lion, returning to his place until they acknowledge their offence and seek his face early in affliction.",
+      "years": "about 750 BC",
+      "yearNum": -750,
+      "approx": true,
+      "place": "samaria-city",
+      "themes": ["judgment", "repentance"],
+      "characters": ["the-lord"],
+      "segments": [
+        { "s": 1, "e": 15, "speaker": "the-lord", "to": "house-of-israel", "note": "The Lord withdraws till Israel seeks him" }
+      ]
+    },
+    {
+      "c": 6,
+      "title": "Mercy, Not Sacrifice",
+      "synopsis": "Hosea calls Israel to return to the Lord, who has torn and will heal, and who will revive his people after two days and raise them up on the third. The Lord answers that Israel's goodness vanishes like a morning cloud, for he desired mercy and not sacrifice, the knowledge of God more than burnt offerings.",
+      "years": "about 750 BC",
+      "yearNum": -750,
+      "approx": true,
+      "place": "samaria-city",
+      "themes": ["repentance", "justice-and-mercy", "resurrection"],
+      "characters": ["hosea", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 3, "speaker": "hosea", "to": "house-of-israel", "note": "Come, let us return unto the Lord" },
+        { "s": 4, "e": 11, "speaker": "the-lord", "to": "house-of-israel", "note": "I desired mercy, and not sacrifice" }
+      ]
+    },
+    {
+      "c": 7,
+      "title": "A Cake Not Turned",
+      "synopsis": "Ephraim mixes himself among the nations and becomes a cake not turned, half-baked and useless, and a silly dove fluttering between Egypt and Assyria. The people return, but not to the Most High, and though the Lord would have redeemed them, they speak lies against him.",
+      "years": "about 750 BC",
+      "yearNum": -750,
+      "approx": true,
+      "place": "samaria-city",
+      "themes": ["apostasy", "pride-cycle"],
+      "characters": ["the-lord"],
+      "segments": [
+        { "s": 1, "e": 16, "speaker": "the-lord", "to": "house-of-israel", "note": "Ephraim a cake not turned, a silly dove" }
+      ]
+    },
+    {
+      "c": 8,
+      "title": "Sowing Wind, Reaping Whirlwind",
+      "synopsis": "Israel has cast off good, set up kings without God, and worshipped the calf of Samaria, so they have sown the wind and shall reap the whirlwind. Though the Lord wrote to them the great things of his law, they counted it a strange thing, and their altars have become altars to sin.",
+      "years": "about 750 BC",
+      "yearNum": -750,
+      "approx": true,
+      "place": "samaria-city",
+      "themes": ["apostasy", "judgment", "law"],
+      "characters": ["the-lord"],
+      "segments": [
+        { "s": 1, "e": 14, "speaker": "the-lord", "to": "house-of-israel", "note": "The calf of Samaria; whirlwind harvest" }
+      ]
+    },
+    {
+      "c": 9,
+      "title": "The Days of Visitation",
+      "synopsis": "Hosea warns Israel not to rejoice like the nations, for the days of visitation and recompence have come, and the prophet is counted a fool. Ephraim's glory will fly away like a bird, and because they did not hearken, they will be wanderers among the nations.",
+      "years": "about 750 BC",
+      "yearNum": -750,
+      "approx": true,
+      "place": "samaria-city",
+      "themes": ["judgment", "exile", "prophecy"],
+      "characters": ["hosea", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 17, "speaker": "hosea", "to": "house-of-israel", "note": "Visitation comes; Ephraim's glory flies away" }
+      ]
+    },
+    {
+      "c": 10,
+      "title": "Break Up Your Fallow Ground",
+      "synopsis": "Israel is an empty vine bringing forth fruit only to himself, and the calf of Beth-aven will be carried to Assyria as tribute. Hosea pleads with the people to sow in righteousness, reap in mercy, and break up their fallow ground, for it is time to seek the Lord until he rains righteousness upon them.",
+      "years": "about 750 BC",
+      "yearNum": -750,
+      "approx": true,
+      "place": "samaria-city",
+      "themes": ["repentance", "judgment", "humility"],
+      "characters": ["hosea"],
+      "segments": [
+        { "s": 1, "e": 15, "speaker": "hosea", "to": "house-of-israel", "note": "Sow righteousness; it is time to seek the Lord" }
+      ]
+    },
+    {
+      "c": 11,
+      "title": "Drawn with Cords of Love",
+      "synopsis": "The Lord remembers Israel as a child whom he loved and called out of Egypt, teaching Ephraim to walk and drawing them with cords of a man, with bands of love. Though they are bent on backsliding, his heart is turned within him, and he asks, how shall I give thee up, Ephraim?",
+      "years": "about 750 BC",
+      "yearNum": -750,
+      "approx": true,
+      "place": "samaria-city",
+      "themes": ["justice-and-mercy", "covenant", "hope"],
+      "characters": ["the-lord"],
+      "segments": [
+        { "s": 1, "e": 12, "speaker": "the-lord", "to": "house-of-israel", "note": "How shall I give thee up, Ephraim?" }
+      ]
+    },
+    {
+      "c": 12,
+      "title": "Jacob Wrestled and Prevailed",
+      "synopsis": "Ephraim feeds on wind and multiplies lies, making covenants with Assyria while carrying oil into Egypt. Hosea recalls how Jacob took his brother by the heel and had power with God, weeping and prevailing with the angel at Bethel, and urges Israel to turn to their God, keeping mercy and judgment.",
+      "years": "about 750 BC",
+      "yearNum": -750,
+      "approx": true,
+      "place": "samaria-city",
+      "themes": ["repentance", "covenant", "prayer"],
+      "characters": ["hosea", "jacob-israel", "angel"],
+      "segments": [
+        { "s": 1, "e": 14, "speaker": "hosea", "to": "house-of-israel", "note": "Remember Jacob; turn thou to thy God" }
+      ]
+    },
+    {
+      "c": 13,
+      "title": "Ransomed from the Grave",
+      "synopsis": "When Ephraim exalted himself in Baal worship he died, and his idolatry makes him like the morning cloud and the early dew that passes away. Yet the Lord who has been Israel's God since Egypt promises to ransom them from the power of the grave and to redeem them from death, saying, O death, I will be thy plagues.",
+      "years": "about 750 BC",
+      "yearNum": -750,
+      "approx": true,
+      "place": "samaria-city",
+      "themes": ["judgment", "resurrection", "deliverance"],
+      "characters": ["the-lord"],
+      "segments": [
+        { "s": 1, "e": 16, "speaker": "the-lord", "to": "house-of-israel", "note": "O death, I will be thy plagues" }
+      ]
+    },
+    {
+      "c": 14,
+      "title": "I Will Heal Their Backsliding",
+      "synopsis": "Hosea calls Israel to return to the Lord with words of repentance, asking him to take away all iniquity and receive them graciously. The Lord answers that he will heal their backsliding and love them freely, and Israel will grow as the lily and revive as the corn, for the ways of the Lord are right.",
+      "years": "about 750 BC",
+      "yearNum": -750,
+      "approx": true,
+      "place": "samaria-city",
+      "themes": ["repentance", "hope", "restoration"],
+      "characters": ["hosea", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 3, "speaker": "hosea", "to": "house-of-israel", "note": "Take with you words, and return" },
+        { "s": 4, "e": 8, "speaker": "the-lord", "to": "house-of-israel", "note": "I will be as the dew unto Israel" },
+        { "s": 9, "e": 9, "speaker": "hosea", "to": "reader", "note": "Who is wise shall understand these things" }
+      ]
+    }
+  ]
+}

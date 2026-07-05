@@ -1,0 +1,207 @@
+{
+  "book": "Nehemiah",
+  "slug": "nehemiah",
+  "narrator": "nehemiah",
+  "plates": "history",
+  "chapters": [
+    {
+      "c": 1,
+      "title": "News of Jerusalem's Ruin",
+      "synopsis": "Nehemiah, cupbearer to king Artaxerxes in Susa, hears that Jerusalem's walls lie broken and its gates burned. He weeps, fasts, and prays for days, confessing Israel's sins and pleading God's covenant promises.",
+      "years": "about 445 BC",
+      "yearNum": -445,
+      "approx": false,
+      "place": "susa",
+      "themes": ["prayer", "repentance", "covenant"],
+      "characters": ["nehemiah"],
+      "segments": [
+        { "s": 1, "e": 4, "speaker": "nehemiah", "to": "reader", "note": "Nehemiah hears of Jerusalem's ruined walls" },
+        { "s": 5, "e": 11, "speaker": "nehemiah", "to": "the-lord", "note": "Nehemiah's prayer of confession and petition" }
+      ]
+    },
+    {
+      "c": 2,
+      "title": "Nehemiah's Journey to Jerusalem",
+      "synopsis": "Sad before the king, Nehemiah is granted leave and letters of safe passage to Jerusalem. He inspects the broken walls by night and calls the people to rise up and rebuild.",
+      "years": "about 445 BC",
+      "yearNum": -445,
+      "approx": false,
+      "place": "susa",
+      "themes": ["leadership", "faith", "obedience"],
+      "characters": ["nehemiah"],
+      "segments": [
+        { "s": 1, "e": 8, "speaker": "nehemiah", "to": "reader", "note": "Nehemiah requests leave to rebuild Jerusalem" },
+        { "s": 9, "e": 16, "speaker": "nehemiah", "to": "reader", "note": "Nehemiah surveys the broken walls by night" },
+        { "s": 17, "e": 20, "speaker": "nehemiah", "to": "reader", "note": "Nehemiah calls the people to rebuild" }
+      ]
+    },
+    {
+      "c": 3,
+      "title": "The Builders of the Wall",
+      "synopsis": "Nehemiah catalogs the priests and families who each repair a section of the wall, many working near their own homes. The list shows the whole community united in a single labor.",
+      "years": "about 445 BC",
+      "yearNum": -445,
+      "approx": false,
+      "place": "jerusalem",
+      "themes": ["records", "leadership"],
+      "characters": [],
+      "segments": [
+        { "s": 1, "e": 32, "speaker": "nehemiah", "to": "reader", "note": "Each family repairs its section of the wall" }
+      ]
+    },
+    {
+      "c": 4,
+      "title": "Opposition and Armed Builders",
+      "synopsis": "Sanballat and Tobiah mock the builders and plot to attack Jerusalem. Nehemiah arms half the workers while the rest continue building, trusting the Lord to fight for them.",
+      "years": "about 445 BC",
+      "yearNum": -445,
+      "approx": false,
+      "place": "jerusalem",
+      "themes": ["war", "faith", "endurance"],
+      "characters": ["nehemiah"],
+      "segments": [
+        { "s": 1, "e": 9, "speaker": "nehemiah", "to": "reader", "note": "Enemies mock and plot against the builders" },
+        { "s": 10, "e": 23, "speaker": "nehemiah", "to": "reader", "note": "Builders work with a weapon in hand" }
+      ]
+    },
+    {
+      "c": 5,
+      "title": "Nehemiah Confronts Oppression",
+      "synopsis": "Poorer Jews cry out against nobles charging usury and taking their children as pledges for debt. Nehemiah rebukes the nobles publicly, cancels the debts, and models generosity as governor.",
+      "years": "about 445 BC",
+      "yearNum": -445,
+      "approx": false,
+      "place": "jerusalem",
+      "themes": ["justice-and-mercy", "leadership", "charity"],
+      "characters": ["nehemiah"],
+      "segments": [
+        { "s": 1, "e": 5, "speaker": "nehemiah", "to": "reader", "note": "The poor cry out against usury and debt" },
+        { "s": 6, "e": 13, "speaker": "nehemiah", "to": "israelites", "note": "Nehemiah rebukes the nobles for oppression" },
+        { "s": 14, "e": 19, "speaker": "nehemiah", "to": "reader", "note": "Nehemiah's generosity as governor" }
+      ]
+    },
+    {
+      "c": 6,
+      "title": "The Wall Finished in 52 Days",
+      "synopsis": "Enemies try to lure Nehemiah into a trap and spread false rumors of rebellion, but he refuses to be intimidated. The wall is completed in fifty-two days, to the enemies' dismay.",
+      "years": "about 445 BC",
+      "yearNum": -445,
+      "approx": false,
+      "place": "jerusalem",
+      "themes": ["endurance", "faith", "deliverance"],
+      "characters": ["nehemiah"],
+      "segments": [
+        { "s": 1, "e": 14, "speaker": "nehemiah", "to": "reader", "note": "Enemies try to lure and intimidate Nehemiah" },
+        { "s": 15, "e": 19, "speaker": "nehemiah", "to": "reader", "note": "The wall is finished in fifty-two days" }
+      ]
+    },
+    {
+      "c": 7,
+      "title": "Register of the Returned Exiles",
+      "synopsis": "Nehemiah appoints gatekeepers and singers to guard the city, then records the genealogical list of those who first returned from Babylon, matching the earlier register kept by Ezra.",
+      "years": "about 445 BC",
+      "yearNum": -445,
+      "approx": false,
+      "place": "jerusalem",
+      "themes": ["records", "gathering-of-israel"],
+      "characters": ["nehemiah"],
+      "segments": [
+        { "s": 1, "e": 4, "speaker": "nehemiah", "to": "reader", "note": "Nehemiah appoints gatekeepers over the city" },
+        { "s": 5, "e": 73, "speaker": "nehemiah", "to": "reader", "note": "The register of those who returned from exile" }
+      ]
+    },
+    {
+      "c": 8,
+      "title": "Ezra Reads the Law Aloud",
+      "synopsis": "Ezra reads the book of the law before the assembled people at the Water Gate, and Levites help them understand it. The people weep, then rejoice and keep the Feast of Tabernacles as it is written.",
+      "years": "about 445 BC",
+      "yearNum": -445,
+      "approx": false,
+      "place": "jerusalem",
+      "themes": ["worship", "records", "hope"],
+      "characters": ["ezra", "nehemiah"],
+      "segments": [
+        { "s": 1, "e": 8, "speaker": "ezra", "to": "israelites", "note": "Ezra reads the law before the assembled people" },
+        { "s": 9, "e": 12, "speaker": "nehemiah", "to": "reader", "note": "The people are told to rejoice, not weep" },
+        { "s": 13, "e": 18, "speaker": "nehemiah", "to": "reader", "note": "The Feast of Tabernacles is kept as written" }
+      ]
+    },
+    {
+      "c": 9,
+      "title": "A Great Prayer of Confession",
+      "synopsis": "The people fast, confess their sins, and separate themselves from foreigners. The Levites then lead all Israel in a sweeping prayer recounting the Lord's mighty acts and Israel's repeated apostasy and His enduring mercy.",
+      "years": "about 445 BC",
+      "yearNum": -445,
+      "approx": false,
+      "place": "jerusalem",
+      "themes": ["repentance", "covenant", "prayer"],
+      "characters": ["nehemiah"],
+      "segments": [
+        { "s": 1, "e": 5, "speaker": "nehemiah", "to": "reader", "note": "The people fast, confess, and separate themselves" },
+        { "s": 6, "e": 38, "speaker": "church", "to": "the-lord", "note": "Israel recounts God's mercies and their rebellions" }
+      ]
+    },
+    {
+      "c": 10,
+      "title": "The Covenant Sealed and Signed",
+      "synopsis": "Leaders, priests, and Levites seal a written covenant to keep God's law, tithe faithfully, and support the temple. A long list of names records who signed the agreement.",
+      "years": "about 445 BC",
+      "yearNum": -445,
+      "approx": false,
+      "place": "jerusalem",
+      "themes": ["covenant", "obedience", "records"],
+      "characters": ["nehemiah"],
+      "segments": [
+        { "s": 1, "e": 27, "speaker": "nehemiah", "to": "reader", "note": "Leaders and priests sign the sealed covenant" },
+        { "s": 28, "e": 39, "speaker": "church", "to": "the-lord", "note": "The people vow to keep the law and tithes" }
+      ]
+    },
+    {
+      "c": 11,
+      "title": "Settlers in Jerusalem and Judah",
+      "synopsis": "Leaders cast lots to bring one in ten families to live inside Jerusalem while the rest remain in the towns. Nehemiah records those who settle in the city alongside the priests, Levites, and villages of Judah and Benjamin.",
+      "years": "about 445 BC",
+      "yearNum": -445,
+      "approx": false,
+      "place": "jerusalem",
+      "themes": ["records", "gathering-of-israel"],
+      "characters": ["nehemiah"],
+      "segments": [
+        { "s": 1, "e": 36, "speaker": "nehemiah", "to": "reader", "note": "Settlers are chosen for Jerusalem and Judah's towns" }
+      ]
+    },
+    {
+      "c": 12,
+      "title": "Priests, Levites, and the Wall's Dedication",
+      "synopsis": "Nehemiah records the priests and Levites of the returning generations, then leads two great choirs in procession around the finished wall. The city rejoices with singing, music, and thanksgiving offerings.",
+      "years": "about 445 BC",
+      "yearNum": -445,
+      "approx": false,
+      "place": "jerusalem",
+      "themes": ["worship", "records", "hope"],
+      "characters": ["nehemiah", "ezra"],
+      "segments": [
+        { "s": 1, "e": 26, "speaker": "nehemiah", "to": "reader", "note": "Generations of priests and Levites recorded" },
+        { "s": 27, "e": 43, "speaker": "nehemiah", "to": "reader", "note": "Two choirs process joyfully around the dedicated wall" },
+        { "s": 44, "e": 47, "speaker": "nehemiah", "to": "reader", "note": "Offerings and singers appointed in order" }
+      ]
+    },
+    {
+      "c": 13,
+      "title": "Nehemiah's Later Reforms",
+      "synopsis": "Returning to Jerusalem after a time away, Nehemiah finds old abuses creeping back: Tobiah lodged in the temple, Levites unpaid, the Sabbath profaned, and mixed marriages again common. He forcefully corrects each one.",
+      "years": "about 433 BC",
+      "yearNum": -433,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["obedience", "covenant", "leadership"],
+      "characters": ["nehemiah"],
+      "segments": [
+        { "s": 1, "e": 9, "speaker": "nehemiah", "to": "reader", "note": "Nehemiah expels Tobiah from the temple chamber" },
+        { "s": 10, "e": 14, "speaker": "nehemiah", "to": "reader", "note": "Neglected Levites and tithes are restored" },
+        { "s": 15, "e": 22, "speaker": "nehemiah", "to": "reader", "note": "Nehemiah enforces the sanctity of the Sabbath" },
+        { "s": 23, "e": 31, "speaker": "nehemiah", "to": "reader", "note": "Nehemiah confronts mixed marriages and purifies the priesthood" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "book": "Ephesians",
+  "slug": "ephesians",
+  "narrator": "paul",
+  "plates": "pauline-epistles",
+  "chapters": [
+    {
+      "c": 1,
+      "title": "Chosen Before the Foundation",
+      "synopsis": "Writing from prison, Paul blesses God who has blessed the saints with all spiritual blessings and chosen them in Christ before the foundation of the world, predestinated unto the adoption of children. He teaches that in the dispensation of the fulness of times God will gather together in one all things in Christ, and prays that the Ephesians may receive the spirit of wisdom and revelation and know the hope of their calling.",
+      "years": "AD 61",
+      "yearNum": 61,
+      "approx": false,
+      "place": null,
+      "themes": ["grace", "revelation", "gathering-of-israel"],
+      "characters": ["paul", "jesus-christ", "god-the-father"],
+      "segments": [
+        { "s": 1, "e": 23, "speaker": "paul", "to": "church", "note": "Spiritual blessings; all things gathered in Christ" }
+      ]
+    },
+    {
+      "c": 2,
+      "title": "By Grace Are Ye Saved",
+      "synopsis": "Paul reminds the saints that they who were dead in trespasses and sins have been quickened together with Christ, for by grace are ye saved through faith, and that not of yourselves, it is the gift of God, not of works. The gentiles, once strangers and foreigners, are now fellowcitizens with the saints and of the household of God, built upon the foundation of apostles and prophets, Jesus Christ himself being the chief corner stone.",
+      "years": "AD 61",
+      "yearNum": 61,
+      "approx": false,
+      "place": null,
+      "themes": ["grace", "faith", "covenant"],
+      "characters": ["paul", "jesus-christ"],
+      "segments": [
+        { "s": 1, "e": 22, "speaker": "paul", "to": "church", "note": "Saved by grace; built on apostles and prophets" }
+      ]
+    },
+    {
+      "c": 3,
+      "title": "The Mystery Made Known",
+      "synopsis": "Paul, the prisoner of Jesus Christ for the gentiles, explains the mystery made known to him by revelation, that the gentiles should be fellowheirs and partakers of the promise in Christ by the gospel. He bows his knees to the Father, praying that the saints, rooted and grounded in love, may comprehend the breadth, length, depth, and height, and know the love of Christ which passeth knowledge.",
+      "years": "AD 61",
+      "yearNum": 61,
+      "approx": false,
+      "place": null,
+      "themes": ["revelation", "mission", "charity"],
+      "characters": ["paul", "jesus-christ", "god-the-father"],
+      "segments": [
+        { "s": 1, "e": 21, "speaker": "paul", "to": "church", "note": "Gentiles fellowheirs; know the love of Christ" }
+      ]
+    },
+    {
+      "c": 4,
+      "title": "One Lord, One Faith, One Baptism",
+      "synopsis": "Paul beseeches the saints to walk worthy of their vocation in lowliness and unity, for there is one body, one Spirit, one Lord, one faith, one baptism. Christ gave apostles, prophets, evangelists, pastors, and teachers for the perfecting of the saints, till all come to a unity of the faith and are no more tossed by every wind of doctrine. Putting off the old man, the saints must be kind one to another, forgiving as God for Christ's sake has forgiven them.",
+      "years": "AD 61",
+      "yearNum": 61,
+      "approx": false,
+      "place": null,
+      "themes": ["baptism", "leadership", "discipleship"],
+      "characters": ["paul", "jesus-christ"],
+      "segments": [
+        { "s": 1, "e": 32, "speaker": "paul", "to": "church", "note": "Unity of the faith; offices given to perfect the saints" }
+      ]
+    },
+    {
+      "c": 5,
+      "title": "Walk as Children of Light",
+      "synopsis": "Paul calls the saints to be followers of God as dear children, walking in love as Christ loved us and gave himself for us, and to walk as children of light, having no fellowship with the unfruitful works of darkness. He teaches husbands to love their wives even as Christ loved the church and gave himself for it, and wives and husbands to reverence one another, for this is a great mystery concerning Christ and the church.",
+      "years": "AD 61",
+      "yearNum": 61,
+      "approx": false,
+      "place": null,
+      "themes": ["family", "charity", "discipleship"],
+      "characters": ["paul", "jesus-christ"],
+      "segments": [
+        { "s": 1, "e": 33, "speaker": "paul", "to": "church", "note": "Walk in light; husbands love wives as Christ loved" }
+      ]
+    },
+    {
+      "c": 6,
+      "title": "The Whole Armor of God",
+      "synopsis": "Paul teaches children to honor their parents and fathers to bring up their children in the nurture and admonition of the Lord. In the letter's landmark close, he charges the saints to put on the whole armor of God against the wiles of the devil, for we wrestle not against flesh and blood: loins girt with truth, the breastplate of righteousness, feet shod with the gospel of peace, the shield of faith, the helmet of salvation, and the sword of the Spirit, praying always.",
+      "years": "AD 61",
+      "yearNum": 61,
+      "approx": false,
+      "place": null,
+      "themes": ["endurance", "faith", "family"],
+      "characters": ["paul", "satan"],
+      "segments": [
+        { "s": 1, "e": 24, "speaker": "paul", "to": "church", "note": "Family duties; put on the whole armor of God" }
+      ]
+    }
+  ]
+}

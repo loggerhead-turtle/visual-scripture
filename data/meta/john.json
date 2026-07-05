@@ -1,0 +1,336 @@
+{
+  "book": "John",
+  "slug": "john",
+  "narrator": "john-beloved",
+  "plates": "gospels",
+  "chapters": [
+    {
+      "c": 1,
+      "title": "In the Beginning Was the Word",
+      "synopsis": "John declares that the Word was with God and was God, and that this Word became flesh and dwelt among mortals full of grace and truth. John the Baptist testifies that he is not the Christ but the voice preparing the way, and points his own disciples to the Lamb of God. Andrew, Peter, Philip, and others leave their nets and their doubts to follow Jesus.",
+      "years": "AD 30",
+      "yearNum": 30,
+      "approx": true,
+      "place": "jordan-river",
+      "themes": ["revelation", "messiah", "discipleship"],
+      "characters": ["jesus-christ", "john-baptist", "andrew", "peter", "philip-apostle"],
+      "segments": [
+        { "s": 1, "e": 18, "speaker": "john-beloved", "to": "reader", "note": "The Word was God and became flesh" },
+        { "s": 19, "e": 34, "speaker": "john-baptist", "to": "multitude", "note": "John testifies of the Lamb of God" },
+        { "s": 35, "e": 51, "speaker": "john-beloved", "to": "reader", "note": "Andrew, Peter, and Philip are called" }
+      ]
+    },
+    {
+      "c": 2,
+      "title": "Water into Wine",
+      "synopsis": "At a wedding in Cana, Jesus turns water into wine at his mother's request, the first of his miracles, and his disciples believe on him. He goes down briefly to Capernaum, then up to Jerusalem for the passover, where he drives the moneychangers from the temple and speaks of raising up its destroyed temple in three days.",
+      "years": "AD 30",
+      "yearNum": 30,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["miracles", "faith", "temple"],
+      "characters": ["jesus-christ", "mary"],
+      "segments": [
+        { "s": 1, "e": 11, "speaker": "john-beloved", "to": "reader", "note": "Water made wine at the wedding in Cana" },
+        { "s": 12, "e": 12, "speaker": "john-beloved", "to": "reader", "note": "Jesus goes down to Capernaum" },
+        { "s": 13, "e": 25, "speaker": "john-beloved", "to": "reader", "note": "The temple cleansed at the passover" }
+      ]
+    },
+    {
+      "c": 3,
+      "title": "Ye Must Be Born Again",
+      "synopsis": "Nicodemus comes to Jesus by night, and Jesus teaches that no one can see the kingdom of God without being born again of water and of the Spirit. He declares that God so loved the world that he gave his only begotten Son, that whosoever believeth should not perish. John the Baptist rejoices that the bridegroom's voice has come, saying he must increase while I must decrease.",
+      "years": "AD 30",
+      "yearNum": 30,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["revelation", "faith", "baptism"],
+      "characters": ["jesus-christ", "nicodemus", "john-baptist"],
+      "segments": [
+        { "s": 1, "e": 21, "speaker": "jesus-christ", "to": "nicodemus", "note": "Born again; God so loved the world" },
+        { "s": 22, "e": 36, "speaker": "john-baptist", "to": "reader", "note": "He must increase, but I must decrease" }
+      ]
+    },
+    {
+      "c": 4,
+      "title": "The Water of Life at the Well",
+      "synopsis": "Weary at Jacob's well in Samaria, Jesus asks a woman for water and offers her living water that becomes a well springing up unto everlasting life. She recognizes him as a prophet and then hurries to tell the city, and many Samaritans believe on his word. Returning to Galilee, Jesus heals a nobleman's son at Capernaum with only a word, though he is absent from the boy's bedside.",
+      "years": "AD 30",
+      "yearNum": 30,
+      "approx": true,
+      "place": "samaria-city",
+      "themes": ["revelation", "conversion", "missionary-work"],
+      "characters": ["jesus-christ"],
+      "segments": [
+        { "s": 1, "e": 42, "speaker": "jesus-christ", "to": "reader", "note": "Living water offered at the well" },
+        { "s": 43, "e": 54, "speaker": "john-beloved", "to": "reader", "note": "The nobleman's son healed by a word" }
+      ]
+    },
+    {
+      "c": 5,
+      "title": "Take Up Thy Bed and Walk",
+      "synopsis": "At the pool of Bethesda in Jerusalem, Jesus heals a man who had been infirm thirty-eight years and bids him take up his bed and walk, though it is the sabbath day. When the Jews seek to kill him for this and for calling God his Father, Jesus testifies that the Father has committed all judgment to the Son and that the dead in the graves shall hear his voice.",
+      "years": "AD 31",
+      "yearNum": 31,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["miracles", "revelation", "judgment"],
+      "characters": ["jesus-christ"],
+      "segments": [
+        { "s": 1, "e": 16, "speaker": "john-beloved", "to": "reader", "note": "An infirm man healed at Bethesda" },
+        { "s": 17, "e": 47, "speaker": "jesus-christ", "to": "pharisees", "note": "The Son's authority to judge and give life" }
+      ]
+    },
+    {
+      "c": 6,
+      "title": "I Am the Bread of Life",
+      "synopsis": "Jesus feeds five thousand with five loaves and two fishes, then walks upon the sea to his disciples in the storm. When the multitude seeks him again, he teaches that he is the bread of life come down from heaven, and that whoso eateth his flesh and drinketh his blood hath eternal life. Many disciples are offended and walk no more with him, but Peter testifies that he has the words of eternal life.",
+      "years": "AD 31",
+      "yearNum": 31,
+      "approx": true,
+      "place": "sea-of-galilee",
+      "themes": ["miracles", "sacrament", "faith"],
+      "characters": ["jesus-christ", "peter", "andrew", "philip-apostle", "judas-iscariot"],
+      "segments": [
+        { "s": 1, "e": 14, "speaker": "john-beloved", "to": "reader", "note": "Five thousand fed with loaves and fishes" },
+        { "s": 15, "e": 21, "speaker": "john-beloved", "to": "reader", "note": "Jesus walks upon the sea" },
+        { "s": 22, "e": 71, "speaker": "jesus-christ", "to": "multitude", "note": "I am the bread of life discourse" }
+      ]
+    },
+    {
+      "c": 7,
+      "title": "Never Man Spake Like This Man",
+      "synopsis": "At the feast of tabernacles Jesus goes up to Jerusalem secretly and then teaches openly in the temple, declaring that his doctrine is not his own but the Father's who sent him. On the last great day of the feast he cries that whoever thirsts may come to him and drink, and the officers sent to take him return amazed, saying never man spake like this man.",
+      "years": "AD 32",
+      "yearNum": 32,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["revelation", "messiah", "judgment"],
+      "characters": ["jesus-christ"],
+      "segments": [
+        { "s": 1, "e": 13, "speaker": "john-beloved", "to": "reader", "note": "Jesus goes up to the feast in secret" },
+        { "s": 14, "e": 36, "speaker": "jesus-christ", "to": "multitude", "note": "My doctrine is not mine, but his that sent me" },
+        { "s": 37, "e": 53, "speaker": "john-beloved", "to": "reader", "note": "If any man thirst, let him come unto me" }
+      ]
+    },
+    {
+      "c": 8,
+      "title": "Before Abraham Was, I Am",
+      "synopsis": "Jesus forgives a woman taken in adultery, telling her accusers that he who is without sin should cast the first stone, and bids her sin no more. He declares himself the light of the world and that the truth shall make his followers free, and when the Jews boast of Abraham, he answers that before Abraham was, I am, at which they take up stones to stone him.",
+      "years": "AD 32",
+      "yearNum": 32,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["grace", "revelation", "judgment"],
+      "characters": ["jesus-christ", "abraham"],
+      "segments": [
+        { "s": 1, "e": 11, "speaker": "john-beloved", "to": "reader", "note": "He that is without sin cast the first stone" },
+        { "s": 12, "e": 30, "speaker": "jesus-christ", "to": "pharisees", "note": "I am the light of the world" },
+        { "s": 31, "e": 59, "speaker": "jesus-christ", "to": "pharisees", "note": "The truth shall make you free; before Abraham, I am" }
+      ]
+    },
+    {
+      "c": 9,
+      "title": "One Thing I Know: I Was Blind",
+      "synopsis": "Jesus anoints the eyes of a man blind from birth with clay and sends him to wash in the pool of Siloam, and he comes away seeing. The Pharisees, troubled that this was done on the sabbath, question the man and his parents and cast him out of the synagogue for confessing Christ. Jesus finds him again and opens his eyes further to see the Son of God, while those who claim to see remain blind in their sin.",
+      "years": "AD 32",
+      "yearNum": 32,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["miracles", "faith", "judgment"],
+      "characters": ["jesus-christ"],
+      "segments": [
+        { "s": 1, "e": 7, "speaker": "john-beloved", "to": "reader", "note": "Clay and the pool of Siloam restore sight" },
+        { "s": 8, "e": 34, "speaker": "john-beloved", "to": "reader", "note": "Pharisees question the healed man and his parents" },
+        { "s": 35, "e": 41, "speaker": "jesus-christ", "to": "pharisees", "note": "For judgment I am come; who is blind indeed" }
+      ]
+    },
+    {
+      "c": 10,
+      "title": "I Am the Good Shepherd",
+      "synopsis": "Jesus teaches that he is the good shepherd who calls his own sheep by name and lays down his life for them, unlike the hireling who flees. He has other sheep not of this fold that he must also bring. At the feast of dedication he declares that he and the Father are one, and when the Jews take up stones, he escapes out of their hand.",
+      "years": "AD 32",
+      "yearNum": 32,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["messiah", "discipleship", "atonement"],
+      "characters": ["jesus-christ"],
+      "segments": [
+        { "s": 1, "e": 21, "speaker": "jesus-christ", "to": "pharisees", "note": "The good shepherd lays down his life" },
+        { "s": 22, "e": 42, "speaker": "john-beloved", "to": "reader", "note": "I and my Father are one" }
+      ]
+    },
+    {
+      "c": 11,
+      "title": "I Am the Resurrection and the Life",
+      "synopsis": "Word comes that Lazarus is sick, but Jesus tarries until he has died, then comes to Bethany where Martha meets him and hears his testimony that he is the resurrection and the life. Jesus weeps, then calls Lazarus forth from the tomb four days dead, and many believe. The chief priests and Pharisees, alarmed, take counsel from that day to put Jesus to death.",
+      "years": "AD 33",
+      "yearNum": 33,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["resurrection", "faith", "atonement"],
+      "characters": ["jesus-christ", "martha", "lazarus"],
+      "segments": [
+        { "s": 1, "e": 16, "speaker": "john-beloved", "to": "reader", "note": "Lazarus falls sick; Jesus tarries" },
+        { "s": 17, "e": 37, "speaker": "jesus-christ", "to": "martha", "note": "I am the resurrection and the life" },
+        { "s": 38, "e": 44, "speaker": "john-beloved", "to": "reader", "note": "Lazarus comes forth from the tomb" },
+        { "s": 45, "e": 57, "speaker": "john-beloved", "to": "reader", "note": "The rulers take counsel to kill Jesus" }
+      ]
+    },
+    {
+      "c": 12,
+      "title": "A Corn of Wheat Must Die",
+      "synopsis": "At Bethany a woman anoints Jesus's feet with costly ointment against the day of his burial, and the next day the multitudes hail him with palms as he enters Jerusalem. When Greeks seek him out, Jesus teaches that a corn of wheat must fall into the ground and die to bring forth fruit, foretelling his own coming death. Though he has done many miracles, many still do not believe on him.",
+      "years": "AD 33",
+      "yearNum": 33,
+      "approx": false,
+      "place": "jerusalem",
+      "themes": ["atonement", "messiah", "discipleship"],
+      "characters": ["jesus-christ", "judas-iscariot"],
+      "segments": [
+        { "s": 1, "e": 11, "speaker": "john-beloved", "to": "reader", "note": "The anointing at Bethany" },
+        { "s": 12, "e": 19, "speaker": "john-beloved", "to": "reader", "note": "The triumphal entry into Jerusalem" },
+        { "s": 20, "e": 36, "speaker": "jesus-christ", "to": "disciples", "note": "A corn of wheat must die to bring forth fruit" },
+        { "s": 37, "e": 50, "speaker": "john-beloved", "to": "reader", "note": "Many still do not believe" }
+      ]
+    },
+    {
+      "c": 13,
+      "title": "A New Commandment I Give unto You",
+      "synopsis": "At supper Jesus rises, girds himself with a towel, and washes his disciples' feet as an example of humble service. He foretells that one of the twelve will betray him, and after Judas goes out into the night, Jesus gives a new commandment: that they love one another as he has loved them. He also foretells that Peter will deny him three times before the cock crows.",
+      "years": "AD 33",
+      "yearNum": 33,
+      "approx": false,
+      "place": "jerusalem",
+      "themes": ["charity", "discipleship", "sacrament"],
+      "characters": ["jesus-christ", "judas-iscariot", "peter", "john-beloved"],
+      "segments": [
+        { "s": 1, "e": 17, "speaker": "john-beloved", "to": "reader", "note": "Jesus washes the disciples' feet" },
+        { "s": 18, "e": 30, "speaker": "john-beloved", "to": "reader", "note": "The betrayer is named; Judas goes out" },
+        { "s": 31, "e": 38, "speaker": "jesus-christ", "to": "disciples", "note": "Love one another as I have loved you" }
+      ]
+    },
+    {
+      "c": 14,
+      "title": "I Am the Way, the Truth, and the Life",
+      "synopsis": "Jesus comforts his troubled disciples with the promise of many mansions in his Father's house and declares that he is the way, the truth, and the life, and that no one comes to the Father but by him. He promises another Comforter, the Holy Ghost, who will teach them all things, and leaves them his peace, not as the world gives.",
+      "years": "AD 33",
+      "yearNum": 33,
+      "approx": false,
+      "place": "jerusalem",
+      "themes": ["revelation", "hope", "discipleship"],
+      "characters": ["jesus-christ", "thomas", "philip-apostle"],
+      "segments": [
+        { "s": 1, "e": 31, "speaker": "jesus-christ", "to": "disciples", "note": "The way, the truth, the life; the Comforter promised" }
+      ]
+    },
+    {
+      "c": 15,
+      "title": "I Am the Vine, Ye Are the Branches",
+      "synopsis": "Jesus teaches that he is the true vine and his disciples are the branches, and that apart from him they can do nothing. He commands them to abide in his love and to love one another as he has loved them, laying down his life for his friends. He warns that the world will hate them as it hated him, for a servant is not greater than his lord.",
+      "years": "AD 33",
+      "yearNum": 33,
+      "approx": false,
+      "place": "jerusalem",
+      "themes": ["charity", "discipleship", "endurance"],
+      "characters": ["jesus-christ"],
+      "segments": [
+        { "s": 1, "e": 17, "speaker": "jesus-christ", "to": "disciples", "note": "The vine and the branches; love one another" },
+        { "s": 18, "e": 27, "speaker": "jesus-christ", "to": "disciples", "note": "The world will hate you as it hated me" }
+      ]
+    },
+    {
+      "c": 16,
+      "title": "Be of Good Cheer",
+      "synopsis": "Jesus warns his disciples that they will be put out of the synagogues and even killed, but promises that the Comforter will come and guide them into all truth. He tells them their sorrow at his going will be turned to joy, like a woman forgetting her travail for joy that a child is born, and bids them be of good cheer, for he has overcome the world.",
+      "years": "AD 33",
+      "yearNum": 33,
+      "approx": false,
+      "place": "jerusalem",
+      "themes": ["hope", "revelation", "endurance"],
+      "characters": ["jesus-christ"],
+      "segments": [
+        { "s": 1, "e": 33, "speaker": "jesus-christ", "to": "disciples", "note": "Sorrow turned to joy; I have overcome the world" }
+      ]
+    },
+    {
+      "c": 17,
+      "title": "The Intercessory Prayer",
+      "synopsis": "Lifting his eyes to heaven, Jesus prays to the Father that the hour has come to glorify the Son, and defines eternal life as knowing the only true God and Jesus Christ whom he has sent. He prays not for the world but for those the Father has given him, and for all who will believe on him through their word, that they may be one even as he and the Father are one.",
+      "years": "AD 33",
+      "yearNum": 33,
+      "approx": false,
+      "place": "jerusalem",
+      "themes": ["prayer", "atonement", "revelation"],
+      "characters": ["jesus-christ", "god-the-father"],
+      "segments": [
+        { "s": 1, "e": 26, "speaker": "jesus-christ", "to": "god-the-father", "note": "The intercessory prayer for his disciples and all believers" }
+      ]
+    },
+    {
+      "c": 18,
+      "title": "The Betrayal and the Denial",
+      "synopsis": "In a garden across the Kidron, Jesus is betrayed by Judas and arrested, and Peter cuts off a servant's ear before Jesus bids him put up his sword. Led first to Annas and then to Caiaphas, Jesus is questioned while Peter, warming himself in the courtyard, denies him three times before the cock crows. At daybreak he is delivered to Pilate, who finds in him no fault at all.",
+      "years": "AD 33",
+      "yearNum": 33,
+      "approx": false,
+      "place": "jerusalem",
+      "themes": ["atonement", "justice-and-mercy", "prophecy"],
+      "characters": ["jesus-christ", "judas-iscariot", "peter", "caiaphas", "pilate"],
+      "segments": [
+        { "s": 1, "e": 14, "speaker": "john-beloved", "to": "reader", "note": "Betrayed and arrested in the garden" },
+        { "s": 15, "e": 27, "speaker": "john-beloved", "to": "reader", "note": "Before Annas; Peter denies him thrice" },
+        { "s": 28, "e": 40, "speaker": "john-beloved", "to": "reader", "note": "Before Pilate; my kingdom is not of this world" }
+      ]
+    },
+    {
+      "c": 19,
+      "title": "It Is Finished",
+      "synopsis": "Pilate scourges Jesus and presents him crowned with thorns, but yields to the crowd's demand and delivers him to be crucified. On the cross Jesus commits his mother to the beloved disciple's care, and after crying that it is finished, bows his head and gives up the ghost. A soldier pierces his side, and Joseph of Arimathaea and Nicodemus lay his body in a new tomb.",
+      "years": "AD 33",
+      "yearNum": 33,
+      "approx": false,
+      "place": "jerusalem",
+      "themes": ["atonement", "martyrdom", "family"],
+      "characters": ["jesus-christ", "pilate", "mary", "john-beloved"],
+      "segments": [
+        { "s": 1, "e": 16, "speaker": "john-beloved", "to": "reader", "note": "Pilate scourges and delivers Jesus to be crucified" },
+        { "s": 17, "e": 30, "speaker": "john-beloved", "to": "reader", "note": "Crucified; Mary given to the beloved disciple" },
+        { "s": 31, "e": 42, "speaker": "john-beloved", "to": "reader", "note": "The side pierced; burial in a new tomb" }
+      ]
+    },
+    {
+      "c": 20,
+      "title": "My Lord and My God",
+      "synopsis": "Mary Magdalene finds the tomb empty and weeps until the risen Jesus calls her by name. That evening he appears to the gathered disciples and breathes on them the Holy Ghost, but Thomas, absent, refuses to believe without seeing. Eight days later Jesus invites Thomas to touch his wounds, and Thomas answers, my Lord and my God, that those who have not seen and yet believe may be blessed.",
+      "years": "AD 33",
+      "yearNum": 33,
+      "approx": false,
+      "place": "jerusalem",
+      "themes": ["resurrection", "faith", "hope"],
+      "characters": ["jesus-christ", "mary-magdalene", "peter", "john-beloved", "thomas"],
+      "segments": [
+        { "s": 1, "e": 18, "speaker": "john-beloved", "to": "reader", "note": "Mary Magdalene meets the risen Lord" },
+        { "s": 19, "e": 23, "speaker": "jesus-christ", "to": "disciples", "note": "Peace be unto you; receive ye the Holy Ghost" },
+        { "s": 24, "e": 29, "speaker": "thomas", "to": "jesus-christ", "note": "My Lord and my God" },
+        { "s": 30, "e": 31, "speaker": "john-beloved", "to": "reader", "note": "These are written that ye might believe" }
+      ]
+    },
+    {
+      "c": 21,
+      "title": "Feed My Sheep",
+      "synopsis": "By the sea of Galilee the risen Jesus fills the disciples' empty nets with a miraculous catch, and Peter swims ashore to him while the others follow in the ship. After they dine together, Jesus asks Peter three times if he loves him and charges him each time to feed his sheep, then foretells the manner of Peter's death and bids him, follow me.",
+      "years": "AD 33",
+      "yearNum": 33,
+      "approx": false,
+      "place": "sea-of-galilee",
+      "themes": ["discipleship", "charity", "mission"],
+      "characters": ["jesus-christ", "peter", "john-beloved", "thomas"],
+      "segments": [
+        { "s": 1, "e": 14, "speaker": "john-beloved", "to": "reader", "note": "A miraculous catch on the sea of Galilee" },
+        { "s": 15, "e": 19, "speaker": "jesus-christ", "to": "peter", "note": "Lovest thou me; feed my sheep" },
+        { "s": 20, "e": 25, "speaker": "john-beloved", "to": "reader", "note": "The beloved disciple's testimony and conclusion" }
+      ]
+    }
+  ]
+}

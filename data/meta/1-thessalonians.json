@@ -1,0 +1,78 @@
+{
+  "book": "1 Thessalonians",
+  "slug": "1-thessalonians",
+  "narrator": "paul",
+  "plates": "pauline-epistles",
+  "chapters": [
+    {
+      "c": 1,
+      "title": "Ensamples to All That Believe",
+      "synopsis": "Paul, with Silvanus and Timothy, gives thanks for the Thessalonians' work of faith, labor of love, and patience of hope, for the gospel came to them not in word only but in power and in the Holy Ghost. Having turned to God from idols to serve the living God and to wait for his Son from heaven, they have become ensamples to all that believe in Macedonia and Achaia.",
+      "years": "AD 51",
+      "yearNum": 51,
+      "approx": false,
+      "place": null,
+      "themes": ["faith", "conversion", "second-coming"],
+      "characters": ["paul", "silas", "timothy"],
+      "segments": [
+        { "s": 1, "e": 10, "speaker": "paul", "to": "church", "note": "Faith famous abroad; waiting for God's Son" }
+      ]
+    },
+    {
+      "c": 2,
+      "title": "Gentle as a Nurse",
+      "synopsis": "Paul recalls how he preached at Thessalonica after suffering at Philippi, not with flattering words or covetousness, but gentle among them, as a nurse cherishes her children, laboring night and day so as not to be chargeable. He thanks God that they received the word not as the word of men but as the word of God, and calls them his hope, joy, and crown of rejoicing at the coming of the Lord Jesus.",
+      "years": "AD 51",
+      "yearNum": 51,
+      "approx": false,
+      "place": null,
+      "themes": ["missionary-work", "charity", "endurance"],
+      "characters": ["paul", "silas", "timothy"],
+      "segments": [
+        { "s": 1, "e": 20, "speaker": "paul", "to": "church", "note": "Paul's tender ministry; the word received as God's" }
+      ]
+    },
+    {
+      "c": 3,
+      "title": "Timothy's Good Tidings",
+      "synopsis": "Unable to bear the suspense, Paul sends Timothy from Athens to establish and comfort the saints in their afflictions, lest the tempter had tempted them and his labor be in vain. Timothy returns with good tidings of their faith and charity, and Paul, greatly comforted, prays night and day to see their face and that the Lord may stablish their hearts unblameable in holiness at his coming.",
+      "years": "AD 51",
+      "yearNum": 51,
+      "approx": false,
+      "place": null,
+      "themes": ["faith", "endurance", "prayer"],
+      "characters": ["paul", "timothy", "satan"],
+      "segments": [
+        { "s": 1, "e": 13, "speaker": "paul", "to": "church", "note": "Timothy reports their steadfast faith and love" }
+      ]
+    },
+    {
+      "c": 4,
+      "title": "The Dead in Christ Shall Rise",
+      "synopsis": "Paul exhorts the saints to sanctification, to abound in brotherly love, to study to be quiet, and to work with their own hands. He then comforts those who mourn, teaching that the Lord himself shall descend from heaven with a shout, with the voice of the archangel and the trump of God, the dead in Christ shall rise first, and the living shall be caught up together with them in the clouds to meet the Lord in the air.",
+      "years": "AD 51",
+      "yearNum": 51,
+      "approx": false,
+      "place": null,
+      "themes": ["second-coming", "resurrection", "hope"],
+      "characters": ["paul", "jesus-christ"],
+      "segments": [
+        { "s": 1, "e": 18, "speaker": "paul", "to": "church", "note": "Walk in holiness; the dead in Christ rise first" }
+      ]
+    },
+    {
+      "c": 5,
+      "title": "Children of Light, Watch",
+      "synopsis": "Paul teaches that the day of the Lord comes as a thief in the night, but the saints, children of light and of the day, will not be overtaken if they watch and be sober, putting on the breastplate of faith and love and the hope of salvation for an helmet. He closes with rapid counsel to rejoice evermore, pray without ceasing, in every thing give thanks, quench not the Spirit, despise not prophesyings, prove all things, and hold fast that which is good.",
+      "years": "AD 51",
+      "yearNum": 51,
+      "approx": false,
+      "place": null,
+      "themes": ["second-coming", "prayer", "discipleship"],
+      "characters": ["paul"],
+      "segments": [
+        { "s": 1, "e": 28, "speaker": "paul", "to": "church", "note": "The day comes as a thief; pray without ceasing" }
+      ]
+    }
+  ]
+}

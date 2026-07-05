@@ -88,6 +88,14 @@ main { min-height: 72vh; }
 /* ---------- reader ---------- */
 .reader-layout { display: grid; grid-template-columns: 235px minmax(0,1fr) 320px; gap: 24px; align-items: start; }
 .reader-toc { position: sticky; top: 66px; max-height: calc(100vh - 90px); overflow-y: auto; padding-right: 4px; }
+.toc-volume { margin-bottom: 8px; border-bottom: 1px solid rgba(255,255,255,.05); padding-bottom: 6px; }
+.toc-vol-btn {
+  width: 100%; text-align: left; background: none; border: none; cursor: pointer; font-family: var(--serif);
+  color: var(--ink); font-size: 15px; padding: 8px 8px; display: flex; align-items: center; gap: 9px;
+}
+.toc-volume:not(.open) .toc-vol-btn { color: var(--ink-faint); }
+.toc-vol-btn:hover { color: var(--gold); }
+.toc-vol-books { padding-left: 6px; }
 .toc-book { margin-bottom: 4px; }
 .toc-book > button {
   width: 100%; text-align: left; background: none; border: none; color: var(--ink-dim); cursor: pointer;

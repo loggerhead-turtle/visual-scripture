@@ -1,0 +1,78 @@
+{
+  "book": "1 John",
+  "slug": "1-john",
+  "narrator": "john-beloved",
+  "plates": "general-epistles",
+  "chapters": [
+    {
+      "c": 1,
+      "title": "God Is Light",
+      "synopsis": "John opens with his eyewitness testimony of the Word of life, that which he has heard, seen, and handled, so that the saints may have fellowship with the Father and the Son. He declares that God is light and in him is no darkness at all, so those who walk in the light have fellowship one with another. If we confess our sins, God is faithful and just to forgive us, and the blood of Jesus Christ cleanseth us from all sin.",
+      "years": "about AD 90",
+      "yearNum": 90,
+      "approx": true,
+      "place": null,
+      "themes": ["atonement", "repentance", "revelation"],
+      "characters": ["john-beloved", "jesus-christ", "god-the-father"],
+      "segments": [
+        { "s": 1, "e": 10, "speaker": "john-beloved", "to": "church", "note": "Witness of the Word of life; walk in the light" }
+      ]
+    },
+    {
+      "c": 2,
+      "title": "Love Not the World",
+      "synopsis": "John, writing tenderly to his little children, teaches that if any man sin, we have an advocate with the Father, Jesus Christ the righteous, and that we know him only if we keep his commandments. He gives a new-yet-old commandment to love one another, warning that whoever hates his brother walks in darkness. The saints must love not the world nor its lusts, which pass away, and must abide in Christ against the antichrists who have gone out from among them.",
+      "years": "about AD 90",
+      "yearNum": 90,
+      "approx": true,
+      "place": null,
+      "themes": ["charity", "obedience", "apostasy"],
+      "characters": ["john-beloved", "jesus-christ", "god-the-father"],
+      "segments": [
+        { "s": 1, "e": 29, "speaker": "john-beloved", "to": "church", "note": "Christ our advocate; love not the world; abide in him" }
+      ]
+    },
+    {
+      "c": 3,
+      "title": "Behold What Manner of Love",
+      "synopsis": "John marvels at the love the Father has bestowed, that the saints should be called the sons of God, and promises that when Christ appears we shall be like him, for we shall see him as he is. Everyone with this hope purifies himself, for whoever is born of God does not continue in sin. Love must be shown in deed and in truth, not in word only, for Christ laid down his life for us and we ought to lay down our lives for the brethren.",
+      "years": "about AD 90",
+      "yearNum": 90,
+      "approx": true,
+      "place": null,
+      "themes": ["charity", "hope", "obedience"],
+      "characters": ["john-beloved", "jesus-christ", "god-the-father", "satan"],
+      "segments": [
+        { "s": 1, "e": 24, "speaker": "john-beloved", "to": "church", "note": "Sons of God; we shall be like him; love in deed" }
+      ]
+    },
+    {
+      "c": 4,
+      "title": "God Is Love",
+      "synopsis": "John warns the saints to try the spirits, for every spirit that confesses that Jesus Christ is come in the flesh is of God, and many false prophets have gone out into the world. He then declares that God is love, made manifest when God sent his only begotten Son to be the propitiation for our sins. Because God so loved us, we ought also to love one another; perfect love casteth out fear, and he who loves God must love his brother also.",
+      "years": "about AD 90",
+      "yearNum": 90,
+      "approx": true,
+      "place": null,
+      "themes": ["charity", "faith", "atonement"],
+      "characters": ["john-beloved", "jesus-christ", "god-the-father"],
+      "segments": [
+        { "s": 1, "e": 21, "speaker": "john-beloved", "to": "church", "note": "Try the spirits; God is love; love one another" }
+      ]
+    },
+    {
+      "c": 5,
+      "title": "Faith Overcomes the World",
+      "synopsis": "John teaches that whoever believes that Jesus is the Christ is born of God, and that this is the victory that overcometh the world, even our faith. God's commandments are not grievous, and three bear record in heaven of the Son, in whom is eternal life. These things are written that believers may know they have eternal life, and John closes with confidence that God hears the prayers of his children, warning them to keep themselves from idols.",
+      "years": "about AD 90",
+      "yearNum": 90,
+      "approx": true,
+      "place": null,
+      "themes": ["faith", "prayer", "hope"],
+      "characters": ["john-beloved", "jesus-christ", "god-the-father"],
+      "segments": [
+        { "s": 1, "e": 21, "speaker": "john-beloved", "to": "church", "note": "Faith overcomes the world; know ye have eternal life" }
+      ]
+    }
+  ]
+}

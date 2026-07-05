@@ -1,0 +1,40 @@
+{
+  "book": "Haggai",
+  "slug": "haggai",
+  "narrator": "chronicler",
+  "plates": "prophets-minor",
+  "chapters": [
+    {
+      "c": 1,
+      "title": "Consider Your Ways",
+      "synopsis": "The Lord asks through Haggai whether it is time for the people to dwell in their own ceiled houses while his house lies waste, and calls them to consider their ways, for they have sown much and brought in little because the temple remains unbuilt. The people obey the Lord's voice, and he stirs up their spirit to come and work on the house.",
+      "years": "about 520 BC",
+      "yearNum": -520,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["temple", "obedience", "leadership"],
+      "characters": [],
+      "segments": [
+        { "s": 1, "e": 4, "speaker": "the-lord", "to": "reader", "note": "Is it time to dwell in ceiled houses while my house waits?" },
+        { "s": 5, "e": 11, "speaker": "the-lord", "to": "reader", "note": "Consider your ways: sown much, brought in little" },
+        { "s": 12, "e": 15, "speaker": "chronicler", "to": "reader", "note": "The people obey; the Lord stirs them to build" }
+      ]
+    },
+    {
+      "c": 2,
+      "title": "The Latter Glory of This House",
+      "synopsis": "The Lord encourages the discouraged builders to be strong, for his spirit remains among them, and promises that the latter glory of this house shall be greater than the former. Through questions to the priests about holiness and defilement, the Lord promises blessing from that day forward, and declares that he will yet shake the heavens and earth and overthrow kingdoms, honoring his servant as a signet.",
+      "years": "about 520 BC",
+      "yearNum": -520,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["temple", "hope", "second-coming"],
+      "characters": [],
+      "segments": [
+        { "s": 1, "e": 9, "speaker": "the-lord", "to": "reader", "note": "Be strong; the latter glory shall exceed the former" },
+        { "s": 10, "e": 19, "speaker": "the-lord", "to": "reader", "note": "Holiness and defilement; from this day I will bless you" },
+        { "s": 20, "e": 23, "speaker": "the-lord", "to": "reader", "note": "The Lord will shake nations and honor his servant" }
+      ]
+    }
+  ]
+}

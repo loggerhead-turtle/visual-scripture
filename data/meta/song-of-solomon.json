@@ -1,0 +1,120 @@
+{
+  "book": "Song of Solomon",
+  "slug": "song-of-solomon",
+  "narrator": "solomon",
+  "plates": "wisdom",
+  "chapters": [
+    {
+      "c": 1,
+      "title": "The Song of Songs Begins",
+      "synopsis": "The bride opens the song of songs, longing for her beloved and recalling how the daughters of Jerusalem admire him. Though sun-darkened from keeping the vineyards, she is comely, and the bridegroom answers her with words of tender praise.",
+      "years": "about 950 BC",
+      "yearNum": -950,
+      "approx": true,
+      "place": null,
+      "themes": ["family", "covenant"],
+      "characters": ["solomon"],
+      "segments": [
+        { "s": 1, "e": 17, "speaker": "solomon", "to": "reader", "note": "Bride and bridegroom exchange first words of love" }
+      ]
+    },
+    {
+      "c": 2,
+      "title": "The Rose of Sharon",
+      "synopsis": "The bride calls herself the rose of Sharon and the lily of the valleys, and her beloved a banner of love over her. He calls her to rise up and come away, for the winter is past, the flowers appear on the earth, and the voice of the turtledove is heard in the land.",
+      "years": "about 950 BC",
+      "yearNum": -950,
+      "approx": true,
+      "place": null,
+      "themes": ["family", "covenant"],
+      "characters": ["solomon"],
+      "segments": [
+        { "s": 1, "e": 17, "speaker": "solomon", "to": "reader", "note": "Springtime invitation: rise up and come away" }
+      ]
+    },
+    {
+      "c": 3,
+      "title": "Seeking Him Whom She Loves",
+      "synopsis": "By night the bride seeks him whom her soul loves, asking the watchmen of the city until she finds him and will not let him go. The chapter closes with the splendor of King Solomon's procession, crowned in the day of his espousals and the gladness of his heart.",
+      "years": "about 950 BC",
+      "yearNum": -950,
+      "approx": true,
+      "place": null,
+      "themes": ["family", "covenant"],
+      "characters": ["solomon"],
+      "segments": [
+        { "s": 1, "e": 11, "speaker": "solomon", "to": "reader", "note": "The bride's search; Solomon's wedding procession" }
+      ]
+    },
+    {
+      "c": 4,
+      "title": "A Garden Enclosed",
+      "synopsis": "The bridegroom praises his bride from head to foot, declaring her altogether fair and without spot. He calls her a garden enclosed, a spring shut up, a fountain sealed, and she invites him to come into his garden and eat its pleasant fruits.",
+      "years": "about 950 BC",
+      "yearNum": -950,
+      "approx": true,
+      "place": null,
+      "themes": ["family", "covenant"],
+      "characters": ["solomon"],
+      "segments": [
+        { "s": 1, "e": 16, "speaker": "solomon", "to": "reader", "note": "The bridegroom's praise; the garden enclosed" }
+      ]
+    },
+    {
+      "c": 5,
+      "title": "The Beloved Sought and Praised",
+      "synopsis": "The bride dreams that her beloved knocks by night, but when she rises he has withdrawn, and she seeks him sorrowing through the city. Charged by the daughters of Jerusalem, she describes him as the chiefest among ten thousand, altogether lovely.",
+      "years": "about 950 BC",
+      "yearNum": -950,
+      "approx": true,
+      "place": null,
+      "themes": ["family", "covenant"],
+      "characters": ["solomon"],
+      "segments": [
+        { "s": 1, "e": 16, "speaker": "solomon", "to": "reader", "note": "The beloved missed by night, then described" }
+      ]
+    },
+    {
+      "c": 6,
+      "title": "Fair as the Moon",
+      "synopsis": "The daughters of Jerusalem ask where the beloved has gone, and the bride answers that he feeds among the lilies in his garden. He in turn praises her as beautiful as Tirzah, fair as the moon, clear as the sun, the choice one of her mother.",
+      "years": "about 950 BC",
+      "yearNum": -950,
+      "approx": true,
+      "place": null,
+      "themes": ["family", "covenant"],
+      "characters": ["solomon"],
+      "segments": [
+        { "s": 1, "e": 13, "speaker": "solomon", "to": "reader", "note": "Mutual belonging; fair as the moon" }
+      ]
+    },
+    {
+      "c": 7,
+      "title": "How Fair Is Love",
+      "synopsis": "The bridegroom continues his praise of the bride's grace and beauty, delighting in her as in the fruitful vine and the palm tree. She answers that she is her beloved's and his desire is toward her, and invites him out to the villages and vineyards.",
+      "years": "about 950 BC",
+      "yearNum": -950,
+      "approx": true,
+      "place": null,
+      "themes": ["family", "covenant"],
+      "characters": ["solomon"],
+      "segments": [
+        { "s": 1, "e": 13, "speaker": "solomon", "to": "reader", "note": "Delight in the bride; I am my beloved's" }
+      ]
+    },
+    {
+      "c": 8,
+      "title": "Love Strong as Death",
+      "synopsis": "The bride asks to be set as a seal upon her beloved's heart, for love is strong as death and many waters cannot quench it. The song closes with care for a little sister, the worth of a vineyard beyond price, and a final call for the beloved to make haste.",
+      "years": "about 950 BC",
+      "yearNum": -950,
+      "approx": true,
+      "place": null,
+      "themes": ["family", "covenant"],
+      "characters": ["solomon"],
+      "segments": [
+        { "s": 1, "e": 14, "speaker": "solomon", "to": "reader", "note": "A seal upon the heart; love unquenchable" }
+      ]
+    }
+  ]
+}

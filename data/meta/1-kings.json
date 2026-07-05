@@ -1,0 +1,332 @@
+{
+  "book": "1 Kings",
+  "slug": "1-kings",
+  "narrator": "chronicler",
+  "plates": "history",
+  "chapters": [
+    {
+      "c": 1,
+      "title": "Solomon Anointed over Adonijah",
+      "synopsis": "As David grows old, his son Adonijah exalts himself and holds a feast to claim the throne. Nathan and Bathsheba move David to act, and Solomon is anointed king at Gihon while Adonijah's guests scatter in fear.",
+      "years": "about 970 BC",
+      "yearNum": -970,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["kingship", "leadership"],
+      "characters": ["david", "solomon", "nathan"],
+      "segments": [
+        { "s": 1, "e": 53, "speaker": "chronicler", "to": "reader", "note": "Adonijah's bid fails; Solomon is anointed" }
+      ]
+    },
+    {
+      "c": 2,
+      "title": "David's Charge; Solomon's Throne Established",
+      "synopsis": "Dying, David charges Solomon to be strong and keep the statutes of the Lord written in the law of Moses. After David sleeps with his fathers, Solomon deals with Adonijah, Abiathar, Joab, and Shimei, and the kingdom is established in his hand.",
+      "years": "about 970 BC",
+      "yearNum": -970,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["kingship", "obedience", "justice-and-mercy"],
+      "characters": ["david", "solomon"],
+      "segments": [
+        { "s": 1, "e": 9, "speaker": "david", "to": "solomon", "note": "Keep the charge of the Lord thy God" },
+        { "s": 10, "e": 46, "speaker": "chronicler", "to": "reader", "note": "David dies; Solomon secures the kingdom" }
+      ]
+    },
+    {
+      "c": 3,
+      "title": "An Understanding Heart",
+      "synopsis": "The Lord appears to Solomon in a dream at Gibeon and invites him to ask what he will. Solomon asks for an understanding heart to judge the people, and God grants him wisdom plus riches and honor. The famous judgment between two mothers shows all Israel that the wisdom of God is in him.",
+      "years": "about 967 BC",
+      "yearNum": -967,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["wisdom", "prayer", "justice-and-mercy"],
+      "characters": ["solomon", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 5, "speaker": "chronicler", "to": "reader", "note": "The Lord appears to Solomon at Gibeon" },
+        { "s": 6, "e": 9, "speaker": "solomon", "to": "the-lord", "note": "Give thy servant an understanding heart" },
+        { "s": 10, "e": 14, "speaker": "the-lord", "to": "solomon", "note": "Wisdom granted, with riches and honor" },
+        { "s": 15, "e": 28, "speaker": "chronicler", "to": "reader", "note": "The judgment between two mothers" }
+      ]
+    },
+    {
+      "c": 4,
+      "title": "Wisdom Like Sand of the Sea",
+      "synopsis": "Solomon organizes his princes and twelve officers, and Judah and Israel dwell safely, every man under his vine and fig tree. God gives Solomon wisdom exceeding all the children of the east, and he speaks three thousand proverbs and a thousand and five songs.",
+      "years": "about 965 BC",
+      "yearNum": -965,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["wisdom", "kingship", "peace"],
+      "characters": ["solomon"],
+      "segments": [
+        { "s": 1, "e": 34, "speaker": "chronicler", "to": "reader", "note": "Solomon's officers, prosperity, and wisdom" }
+      ]
+    },
+    {
+      "c": 5,
+      "title": "Cedars of Lebanon for the Temple",
+      "synopsis": "Hiram king of Tyre, David's old friend, covenants with Solomon to supply cedar and fir for the house of the Lord. Solomon raises a levy of workmen, and timber and great costly stones are prepared for the foundation.",
+      "years": "about 966 BC",
+      "yearNum": -966,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["temple", "peace", "leadership"],
+      "characters": ["solomon"],
+      "segments": [
+        { "s": 1, "e": 18, "speaker": "chronicler", "to": "reader", "note": "League with Hiram; materials prepared" }
+      ]
+    },
+    {
+      "c": 6,
+      "title": "The House of the Lord Rises",
+      "synopsis": "In the four hundred eightieth year after the exodus, Solomon begins to build the house of the Lord, overlaying its cedar and carved work with pure gold. The Lord promises that if Solomon walks in his statutes, he will dwell among the children of Israel, and after seven years the house is finished.",
+      "years": "about 966-959 BC",
+      "yearNum": -962,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["temple", "obedience", "covenant"],
+      "characters": ["solomon", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 38, "speaker": "chronicler", "to": "reader", "note": "Seven years building the temple" }
+      ]
+    },
+    {
+      "c": 7,
+      "title": "Palace, Pillars, and Molten Sea",
+      "synopsis": "Solomon spends thirteen years building his own house and the house of the forest of Lebanon. Hiram of Tyre, a master worker in brass, casts the two pillars Jachin and Boaz, the molten sea, and all the vessels for the house of the Lord.",
+      "years": "about 959-946 BC",
+      "yearNum": -950,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["temple", "kingship"],
+      "characters": ["solomon"],
+      "segments": [
+        { "s": 1, "e": 51, "speaker": "chronicler", "to": "reader", "note": "Hiram's brasswork furnishes the temple" }
+      ]
+    },
+    {
+      "c": 8,
+      "title": "Dedication of the Temple",
+      "synopsis": "The ark is brought into the oracle, and the glory of the Lord fills the house in a cloud. Solomon spreads his hands toward heaven and dedicates the temple, pleading that God will hear from heaven and forgive when his people pray toward this place, then blesses the congregation and offers peace offerings for fourteen days.",
+      "years": "about 959 BC",
+      "yearNum": -959,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["temple", "prayer", "covenant"],
+      "characters": ["solomon"],
+      "segments": [
+        { "s": 1, "e": 21, "speaker": "chronicler", "to": "reader", "note": "The ark enters; glory fills the house" },
+        { "s": 22, "e": 53, "speaker": "solomon", "to": "the-lord", "note": "Dedicatory prayer: hear thou in heaven" },
+        { "s": 54, "e": 61, "speaker": "solomon", "to": "multitude", "note": "Solomon blesses the congregation" },
+        { "s": 62, "e": 66, "speaker": "chronicler", "to": "reader", "note": "Sacrifices and a joyful feast" }
+      ]
+    },
+    {
+      "c": 9,
+      "title": "The Lord Appears Again",
+      "synopsis": "The Lord appears to Solomon a second time, promising to establish his throne if he walks in integrity, but warning that Israel will be cut off and the house cast out if they turn to other gods. Solomon's building, cities, and navy prosper.",
+      "years": "about 946 BC",
+      "yearNum": -946,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["covenant", "obedience", "prophecy"],
+      "characters": ["solomon", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 2, "speaker": "chronicler", "to": "reader", "note": "The Lord appears the second time" },
+        { "s": 3, "e": 9, "speaker": "the-lord", "to": "solomon", "note": "Blessing promised, apostasy warned" },
+        { "s": 10, "e": 28, "speaker": "chronicler", "to": "reader", "note": "Solomon's cities, labor, and navy" }
+      ]
+    },
+    {
+      "c": 10,
+      "title": "The Queen of Sheba's Visit",
+      "synopsis": "The queen of Sheba comes to prove Solomon with hard questions and finds that the half was not told her, blessing the Lord who set him on the throne. Solomon's gold, ivory throne, and fleet make him exceed all the kings of the earth for riches and wisdom.",
+      "years": "about 945 BC",
+      "yearNum": -945,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["wisdom", "kingship"],
+      "characters": ["solomon"],
+      "segments": [
+        { "s": 1, "e": 29, "speaker": "chronicler", "to": "reader", "note": "Sheba's queen marvels; Solomon's splendor" }
+      ]
+    },
+    {
+      "c": 11,
+      "title": "Solomon's Heart Turns Away",
+      "synopsis": "Solomon loves many strange wives who turn his heart after other gods, and he builds high places for their idols. The Lord stirs up adversaries and tells him the kingdom will be rent away, and the prophet Ahijah promises ten tribes to Jeroboam. Solomon sleeps with his fathers after reigning forty years.",
+      "years": "about 940-931 BC",
+      "yearNum": -935,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["apostasy", "judgment", "covenant"],
+      "characters": ["solomon"],
+      "segments": [
+        { "s": 1, "e": 43, "speaker": "chronicler", "to": "reader", "note": "Idolatry, adversaries, and Ahijah's prophecy" }
+      ]
+    },
+    {
+      "c": 12,
+      "title": "The Kingdom Is Divided",
+      "synopsis": "Rehoboam rejects the old men's counsel and answers Israel roughly, and ten tribes revolt crying 'To your tents, O Israel.' Jeroboam reigns over Israel but sets up golden calves at Bethel and Dan, making Israel to sin so the people will not return to Jerusalem.",
+      "years": "930 BC",
+      "yearNum": -930,
+      "approx": false,
+      "place": "bethel",
+      "themes": ["kingship", "pride-cycle", "apostasy"],
+      "characters": [],
+      "segments": [
+        { "s": 1, "e": 33, "speaker": "chronicler", "to": "reader", "note": "Rehoboam's folly; Jeroboam's golden calves" }
+      ]
+    },
+    {
+      "c": 13,
+      "title": "The Man of God at Bethel",
+      "synopsis": "A man of God from Judah cries against the altar at Bethel, and Jeroboam's hand withers and is restored. Deceived by an old prophet into eating where the Lord forbade, the man of God is slain by a lion, yet his word against the altar stands sure.",
+      "years": "about 930 BC",
+      "yearNum": -930,
+      "approx": true,
+      "place": "bethel",
+      "themes": ["prophecy", "obedience", "judgment"],
+      "characters": [],
+      "segments": [
+        { "s": 1, "e": 34, "speaker": "chronicler", "to": "reader", "note": "Prophecy against the altar; disobedience punished" }
+      ]
+    },
+    {
+      "c": 14,
+      "title": "Ahijah Foretells Jeroboam's Doom",
+      "synopsis": "Jeroboam's wife goes disguised to blind Ahijah at Shiloh, but the prophet foretells the death of her child and the sweeping away of Jeroboam's house. In Judah, Rehoboam's people build high places, and Shishak of Egypt carries off the treasures of the Lord's house.",
+      "years": "about 925 BC",
+      "yearNum": -925,
+      "approx": true,
+      "place": "shiloh",
+      "themes": ["prophecy", "judgment", "apostasy"],
+      "characters": [],
+      "segments": [
+        { "s": 1, "e": 31, "speaker": "chronicler", "to": "reader", "note": "Judgment on Jeroboam; Judah's decline" }
+      ]
+    },
+    {
+      "c": 15,
+      "title": "Kings of Judah and Israel",
+      "synopsis": "Abijam walks in his father's sins, but Asa's heart is perfect with the Lord, removing idols and the sodomites from Judah. In Israel, Baasha destroys the house of Jeroboam according to Ahijah's word, and war continues between the kingdoms all their days.",
+      "years": "about 913-885 BC",
+      "yearNum": -900,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["kingship", "obedience", "war"],
+      "characters": [],
+      "segments": [
+        { "s": 1, "e": 34, "speaker": "chronicler", "to": "reader", "note": "Asa's reforms; Baasha's coup in Israel" }
+      ]
+    },
+    {
+      "c": 16,
+      "title": "Omri Builds Samaria; Ahab Reigns",
+      "synopsis": "Israel spirals through the short violent reigns of Baasha's house, Zimri, and Omri, who buys a hill and builds Samaria. Ahab the son of Omri marries Jezebel, serves Baal, and does more to provoke the Lord than all the kings before him.",
+      "years": "about 885-874 BC",
+      "yearNum": -880,
+      "approx": true,
+      "place": "samaria-city",
+      "themes": ["apostasy", "kingship", "judgment"],
+      "characters": ["ahab", "jezebel"],
+      "segments": [
+        { "s": 1, "e": 34, "speaker": "chronicler", "to": "reader", "note": "Coups in Israel; Ahab and Jezebel serve Baal" }
+      ]
+    },
+    {
+      "c": 17,
+      "title": "Elijah and the Widow's Cruse",
+      "synopsis": "Elijah the Tishbite declares to Ahab that there will be no dew nor rain but according to his word. Ravens feed him at the brook Cherith, a widow of Zarephath sustains him and her barrel of meal wastes not, and Elijah raises her son from death.",
+      "years": "about 863 BC",
+      "yearNum": -863,
+      "approx": true,
+      "place": null,
+      "themes": ["faith", "miracles", "prophecy"],
+      "characters": ["elijah", "ahab"],
+      "segments": [
+        { "s": 1, "e": 1, "speaker": "elijah", "to": "ahab", "note": "No rain but according to my word" },
+        { "s": 2, "e": 24, "speaker": "chronicler", "to": "reader", "note": "Ravens, the widow's meal, a son raised" }
+      ]
+    },
+    {
+      "c": 18,
+      "title": "Fire Falls on Mount Carmel",
+      "synopsis": "After three years of drought Elijah meets Ahab and gathers Israel and the prophets of Baal to Mount Carmel. He asks how long the people will halt between two opinions; Baal's prophets cry in vain, but fire falls on Elijah's drenched altar and the people confess the Lord is God. The prophets of Baal are slain and rain returns.",
+      "years": "about 860 BC",
+      "yearNum": -860,
+      "approx": true,
+      "place": "mount-carmel",
+      "themes": ["faith", "prophecy", "worship"],
+      "characters": ["elijah", "ahab", "jezebel"],
+      "segments": [
+        { "s": 1, "e": 19, "speaker": "chronicler", "to": "reader", "note": "Elijah meets Obadiah and confronts Ahab" },
+        { "s": 20, "e": 40, "speaker": "elijah", "to": "multitude", "note": "The contest with Baal's prophets; fire falls" },
+        { "s": 41, "e": 46, "speaker": "chronicler", "to": "reader", "note": "The sound of abundance of rain" }
+      ]
+    },
+    {
+      "c": 19,
+      "title": "A Still Small Voice",
+      "synopsis": "Fleeing Jezebel's threat, Elijah despairs in the wilderness, but an angel feeds him and he travels forty days to Horeb. The Lord is not in the wind, earthquake, or fire, but speaks in a still small voice, assuring Elijah of seven thousand who have not bowed to Baal and sending him to anoint Elisha, who leaves his oxen to follow.",
+      "years": "about 860 BC",
+      "yearNum": -860,
+      "approx": true,
+      "place": "mount-sinai",
+      "themes": ["revelation", "endurance", "hope"],
+      "characters": ["elijah", "jezebel", "elisha", "the-lord", "angel"],
+      "segments": [
+        { "s": 1, "e": 8, "speaker": "chronicler", "to": "reader", "note": "Elijah flees; an angel strengthens him" },
+        { "s": 9, "e": 18, "speaker": "the-lord", "to": "elijah", "note": "The still small voice at Horeb" },
+        { "s": 19, "e": 21, "speaker": "chronicler", "to": "reader", "note": "Elisha is called and follows" }
+      ]
+    },
+    {
+      "c": 20,
+      "title": "Ben-hadad Besieges Samaria",
+      "synopsis": "Ben-hadad of Syria besieges Samaria with thirty-two kings, but a prophet directs Ahab and the Lord twice delivers Syria into Israel's hand. Ahab spares Ben-hadad against the word of the Lord, and a prophet declares that Ahab's life shall go for his life.",
+      "years": "about 857 BC",
+      "yearNum": -857,
+      "approx": true,
+      "place": "samaria-city",
+      "themes": ["war", "prophecy", "deliverance"],
+      "characters": ["ahab"],
+      "segments": [
+        { "s": 1, "e": 43, "speaker": "chronicler", "to": "reader", "note": "Syria defeated twice; Ahab spares Ben-hadad" }
+      ]
+    },
+    {
+      "c": 21,
+      "title": "Naboth's Vineyard",
+      "synopsis": "Naboth refuses to sell the inheritance of his fathers, so Jezebel arranges false witnesses and has him stoned, and Ahab takes the vineyard. Elijah meets Ahab there with the word of doom on his house, but when Ahab humbles himself in sackcloth the Lord defers the evil to his son's days.",
+      "years": "about 855 BC",
+      "yearNum": -855,
+      "approx": true,
+      "place": "samaria-city",
+      "themes": ["justice-and-mercy", "judgment", "repentance"],
+      "characters": ["ahab", "jezebel", "elijah"],
+      "segments": [
+        { "s": 1, "e": 16, "speaker": "chronicler", "to": "reader", "note": "Jezebel's plot; Naboth stoned" },
+        { "s": 17, "e": 24, "speaker": "elijah", "to": "ahab", "note": "Doom pronounced on Ahab's house" },
+        { "s": 25, "e": 29, "speaker": "chronicler", "to": "reader", "note": "Ahab humbles himself; judgment deferred" }
+      ]
+    },
+    {
+      "c": 22,
+      "title": "Micaiah's Warning; Ahab Falls",
+      "synopsis": "Ahab and Jehoshaphat plan to retake Ramoth-gilead, and while four hundred prophets promise victory, Micaiah foresees Israel scattered as sheep without a shepherd. Ahab disguises himself in battle, but a bow drawn at a venture smites him, and dogs lick his blood as the Lord had spoken.",
+      "years": "about 853 BC",
+      "yearNum": -853,
+      "approx": true,
+      "place": null,
+      "themes": ["prophecy", "judgment", "war"],
+      "characters": ["ahab"],
+      "segments": [
+        { "s": 1, "e": 53, "speaker": "chronicler", "to": "reader", "note": "Micaiah's vision; Ahab dies at Ramoth-gilead" }
+      ]
+    }
+  ]
+}

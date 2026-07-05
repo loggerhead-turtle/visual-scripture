@@ -1,0 +1,78 @@
+{
+  "book": "James",
+  "slug": "james",
+  "narrator": "james-just",
+  "plates": "general-epistles",
+  "chapters": [
+    {
+      "c": 1,
+      "title": "Ask of God, Who Giveth Liberally",
+      "synopsis": "James greets the scattered twelve tribes and teaches that trials work patience and that anyone who lacks wisdom should ask of God, who gives to all liberally and upbraids not. This single verse later sends young Joseph Smith into the grove to pray, opening the Restoration. James adds that pure religion is to bridle the tongue, care for the fatherless and widows, and be doers of the word, not hearers only.",
+      "years": "about AD 49",
+      "yearNum": 49,
+      "approx": true,
+      "place": null,
+      "themes": ["faith", "wisdom", "prayer", "endurance"],
+      "characters": ["james-just"],
+      "segments": [
+        { "s": 1, "e": 27, "speaker": "james-just", "to": "church", "note": "Endure trials; ask God for wisdom; be doers" }
+      ]
+    },
+    {
+      "c": 2,
+      "title": "Faith Without Works Is Dead",
+      "synopsis": "James rebukes the saints for favoring the rich man in fine clothing over the poor, reminding them that the royal law is to love thy neighbour as thyself. He then teaches that faith without works is dead, pointing to Abraham offering Isaac and to Rahab as proof that faith is made perfect by what we do. Even the devils believe and tremble; living faith must show itself in action.",
+      "years": "about AD 49",
+      "yearNum": 49,
+      "approx": true,
+      "place": null,
+      "themes": ["faith", "charity", "obedience"],
+      "characters": ["james-just", "abraham", "rahab"],
+      "segments": [
+        { "s": 1, "e": 26, "speaker": "james-just", "to": "church", "note": "Respect not persons; faith is shown by works" }
+      ]
+    },
+    {
+      "c": 3,
+      "title": "The Tongue and Heavenly Wisdom",
+      "synopsis": "James warns that the tongue, though a little member, is like a small fire that kindles a great forest and a rudder that steers a whole ship. Out of the same mouth should not come both blessing and cursing, any more than a fountain gives both sweet and bitter water. He contrasts earthly, envious wisdom with the wisdom from above, which is pure, peaceable, gentle, and full of mercy.",
+      "years": "about AD 49",
+      "yearNum": 49,
+      "approx": true,
+      "place": null,
+      "themes": ["wisdom", "humility", "peace"],
+      "characters": ["james-just"],
+      "segments": [
+        { "s": 1, "e": 18, "speaker": "james-just", "to": "church", "note": "Bridle the tongue; seek the wisdom from above" }
+      ]
+    },
+    {
+      "c": 4,
+      "title": "Draw Nigh Unto God",
+      "synopsis": "James traces wars and strife among the saints to the lusts that battle within them, and warns that friendship with the world is enmity with God. He calls them to submit to God and resist the devil, promising that if they draw nigh to God he will draw nigh to them and that the humble will be lifted up. He forbids speaking evil of one another and boasting of tomorrow, for life is a vapour and all plans rest on the Lord's will.",
+      "years": "about AD 49",
+      "yearNum": 49,
+      "approx": true,
+      "place": null,
+      "themes": ["humility", "repentance", "obedience"],
+      "characters": ["james-just", "satan"],
+      "segments": [
+        { "s": 1, "e": 17, "speaker": "james-just", "to": "church", "note": "Resist the devil; humble yourselves before God" }
+      ]
+    },
+    {
+      "c": 5,
+      "title": "Patience Unto the Coming of the Lord",
+      "synopsis": "James warns the rich whose hoarded wealth is cankered and whose withheld wages cry to heaven, then urges the saints to be patient unto the coming of the Lord, as the farmer waits for the precious fruit of the earth. He holds up Job's endurance and Elijah's effectual prayer, and directs the sick to call for the elders of the church to anoint them with oil in the name of the Lord. Converting a sinner from error saves a soul from death.",
+      "years": "about AD 49",
+      "yearNum": 49,
+      "approx": true,
+      "place": null,
+      "themes": ["second-coming", "endurance", "prayer", "priesthood"],
+      "characters": ["james-just", "job", "elijah"],
+      "segments": [
+        { "s": 1, "e": 20, "speaker": "james-just", "to": "church", "note": "Be patient until the Lord comes; anoint the sick" }
+      ]
+    }
+  ]
+}

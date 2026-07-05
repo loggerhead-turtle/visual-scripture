@@ -1,0 +1,50 @@
+{
+  "book": "Titus",
+  "slug": "titus",
+  "narrator": "paul",
+  "plates": "pauline-epistles",
+  "chapters": [
+    {
+      "c": 1,
+      "title": "Order in Crete's Churches",
+      "synopsis": "Paul reminds Titus that he was left in Crete to set in order the things that were wanting and to ordain elders in every city who are blameless, the husband of one wife, and apt to hold fast the faithful word. He warns against unruly and vain talkers, especially those of the circumcision, for the Cretians are ever liars, and charges that they be rebuked sharply that they may be sound in the faith.",
+      "years": "AD 64",
+      "yearNum": 64,
+      "approx": false,
+      "place": null,
+      "themes": ["leadership", "priesthood", "obedience"],
+      "characters": ["paul"],
+      "segments": [
+        { "s": 1, "e": 16, "speaker": "paul", "to": "church", "note": "Charge to Titus: ordain elders, rebuke false teachers" }
+      ]
+    },
+    {
+      "c": 2,
+      "title": "Sound Doctrine for Every Age",
+      "synopsis": "Paul instructs Titus to teach the things that become sound doctrine to aged men and women, young women, young men, and servants, that the word of God not be blasphemed. The grace of God that brings salvation has appeared to all men, teaching them to deny ungodliness and worldly lusts and to live soberly, righteously, and godly, looking for the blessed hope and the glorious appearing of the great God and Savior Jesus Christ.",
+      "years": "AD 64",
+      "yearNum": 64,
+      "approx": false,
+      "place": null,
+      "themes": ["grace", "discipleship", "family"],
+      "characters": ["paul", "jesus-christ"],
+      "segments": [
+        { "s": 1, "e": 15, "speaker": "paul", "to": "church", "note": "Sound doctrine for all; grace that teaches godliness" }
+      ]
+    },
+    {
+      "c": 3,
+      "title": "Maintain Good Works",
+      "synopsis": "Paul directs Titus to remind the saints to be subject to rulers, to be gentle, and to be ready to every good work, for they themselves were once foolish and disobedient but were saved not by works of righteousness but by the washing of regeneration and the renewing of the Holy Ghost. He warns Titus to avoid foolish questions, genealogies, and contentions about the law, and to reject a heretic after a first and second admonition.",
+      "years": "AD 64",
+      "yearNum": 64,
+      "approx": false,
+      "place": null,
+      "themes": ["obedience", "grace", "charity"],
+      "characters": ["paul"],
+      "segments": [
+        { "s": 1, "e": 15, "speaker": "paul", "to": "church", "note": "Saved by grace, not works; avoid foolish contentions" }
+      ]
+    }
+  ]
+}

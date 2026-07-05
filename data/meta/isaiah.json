@@ -1,0 +1,1007 @@
+{
+  "book": "Isaiah",
+  "slug": "isaiah",
+  "narrator": "isaiah",
+  "plates": "prophets-major",
+  "chapters": [
+    {
+      "c": 1,
+      "title": "A Rebellious Nation Called to Account",
+      "synopsis": "Isaiah opens with the Lord's lament that Judah, his own reared children, have rebelled against him while the ox knows its owner. Empty sacrifices cannot cover a corrupt nation, but the Lord invites them to reason together, promising that though their sins be as scarlet they may become white as snow.",
+      "years": "about 740 BC",
+      "yearNum": -740,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["judgment", "repentance", "covenant"],
+      "characters": ["isaiah", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 9, "speaker": "isaiah", "to": "reader", "note": "Judah's rebellion against a loving father" },
+        { "s": 10, "e": 20, "speaker": "the-lord", "to": "house-of-israel", "note": "Empty sacrifice; come, let us reason together" },
+        { "s": 21, "e": 31, "speaker": "isaiah", "to": "house-of-israel", "note": "The faithful city becomes a harlot; redemption promised" }
+      ]
+    },
+    {
+      "c": 2,
+      "title": "The Mountain of the Lord's House",
+      "synopsis": "In the last days the Lord's temple will be established above the mountains, and all nations will flow to it to learn his ways and beat their swords into plowshares. Isaiah then warns proud Judah, full of idols and treasure, that the haughtiness of men will be brought low in the day of the Lord alone.",
+      "years": "about 740 BC",
+      "yearNum": -740,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["zion", "gathering-of-israel", "judgment"],
+      "characters": ["isaiah", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 5, "speaker": "isaiah", "to": "house-of-israel", "note": "Nations flow to the mountain of the Lord's house" },
+        { "s": 6, "e": 22, "speaker": "isaiah", "to": "house-of-israel", "note": "Pride and idols brought low in the day of the Lord" }
+      ]
+    },
+    {
+      "c": 3,
+      "title": "Judah's Leaders Fail the People",
+      "synopsis": "The Lord removes Jerusalem's stay and staff, leaving the nation to be misruled by children and oppressed by extortioners while the poor are ground down. The proud daughters of Zion, decked in finery, are warned that their ornaments will turn to shame and their men will fall by the sword.",
+      "years": "about 740 BC",
+      "yearNum": -740,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["judgment", "pride-cycle"],
+      "characters": ["isaiah", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 15, "speaker": "isaiah", "to": "house-of-israel", "note": "Leaders removed; the people oppressed" },
+        { "s": 16, "e": 26, "speaker": "isaiah", "to": "house-of-israel", "note": "The proud daughters of Zion humbled" }
+      ]
+    },
+    {
+      "c": 4,
+      "title": "A Branch Beautiful and Glorious",
+      "synopsis": "After judgment thins their numbers, seven women will beg to be called by one man's name to take away their reproach. The Lord promises a branch that is beautiful and glorious, and a cloud of glory over Zion by day and a flaming fire by night, a covering and refuge for the remnant.",
+      "years": "about 740 BC",
+      "yearNum": -740,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["hope", "zion", "messiah"],
+      "characters": ["isaiah", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 1, "speaker": "isaiah", "to": "reader", "note": "Seven women to one man after judgment" },
+        { "s": 2, "e": 6, "speaker": "isaiah", "to": "house-of-israel", "note": "The branch of the Lord and Zion's covering cloud" }
+      ]
+    },
+    {
+      "c": 5,
+      "title": "The Song of the Vineyard",
+      "synopsis": "Isaiah sings of a well-tended vineyard that yields only wild grapes, a figure of Israel's failure despite the Lord's care, and pronounces woes upon those who join house to house, call evil good, and are mighty to drink wine. Because of this the Lord will lift an ensign to the nations, who come swiftly like a roaring lion.",
+      "years": "about 740 BC",
+      "yearNum": -740,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["judgment", "apostasy"],
+      "characters": ["isaiah", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 7, "speaker": "isaiah", "to": "house-of-israel", "note": "The song of the unfruitful vineyard" },
+        { "s": 8, "e": 23, "speaker": "isaiah", "to": "house-of-israel", "note": "Six woes against Judah's corruption" },
+        { "s": 24, "e": 30, "speaker": "isaiah", "to": "nations", "note": "A distant nation summoned as the Lord's instrument" }
+      ]
+    },
+    {
+      "c": 6,
+      "title": "Isaiah's Vision and Call",
+      "synopsis": "In the year King Uzziah dies, Isaiah sees the Lord high and lifted up on his throne, attended by seraphim crying Holy, holy, holy. A live coal from the altar cleanses Isaiah's unclean lips, and when the Lord asks whom he shall send, Isaiah answers, Here am I; send me, and receives his commission despite a hard-hearted people.",
+      "years": "about 740 BC",
+      "yearNum": -740,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["revelation", "prophecy", "atonement"],
+      "characters": ["isaiah", "the-lord", "angel"],
+      "segments": [
+        { "s": 1, "e": 4, "speaker": "isaiah", "to": "reader", "note": "The Lord on his throne; seraphim cry holy" },
+        { "s": 5, "e": 8, "speaker": "isaiah", "to": "reader", "note": "The coal cleanses; Here am I, send me" },
+        { "s": 9, "e": 13, "speaker": "the-lord", "to": "isaiah", "note": "Isaiah's commission to a hardened people" }
+      ]
+    },
+    {
+      "c": 7,
+      "title": "The Sign of Immanuel",
+      "synopsis": "When Syria and Israel threaten Jerusalem, the Lord sends Isaiah to reassure fearful King Ahaz that their plot will fail, and offers him a sign. Ahaz refuses to ask, so the Lord himself gives the sign: a virgin shall conceive and bear a son, and shall call his name Immanuel, God with us.",
+      "years": "about 734 BC",
+      "yearNum": -734,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["messiah", "faith", "prophecy"],
+      "characters": ["isaiah", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 9, "speaker": "isaiah", "to": "reader", "note": "Ahaz reassured against the northern kings" },
+        { "s": 10, "e": 16, "speaker": "isaiah", "to": "reader", "note": "The sign of Immanuel offered and given" },
+        { "s": 17, "e": 25, "speaker": "isaiah", "to": "house-of-israel", "note": "Assyria to come as a scourge upon the land" }
+      ]
+    },
+    {
+      "c": 8,
+      "title": "Maher-shalal-hash-baz and a Sure Foundation",
+      "synopsis": "Isaiah's son is named Maher-shalal-hash-baz as a sign that Damascus and Samaria will fall swiftly to Assyria, and the Lord warns Judah not to fear conspiracies but to sanctify him and make him their fear. Those who reject the gentle waters of Shiloah will be overwhelmed, and Isaiah binds up the testimony and seals the law among his disciples.",
+      "years": "about 734 BC",
+      "yearNum": -734,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["prophecy", "faith", "judgment"],
+      "characters": ["isaiah", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 10, "speaker": "isaiah", "to": "reader", "note": "The sign-child; Assyria's swift overflow" },
+        { "s": 11, "e": 22, "speaker": "the-lord", "to": "house-of-israel", "note": "Sanctify the Lord; seal the testimony among disciples" }
+      ]
+    },
+    {
+      "c": 9,
+      "title": "Unto Us a Child Is Born",
+      "synopsis": "Isaiah promises that the people walking in darkness will see a great light, for unto us a child is born, unto us a son is given, called Wonderful, Counsellor, The mighty God, The everlasting Father, The Prince of Peace, upon whose government there will be no end. The chapter closes with warnings that pride and wickedness will bring the Lord's anger upon Israel and Syria.",
+      "years": "about 734 BC",
+      "yearNum": -734,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["messiah", "hope", "prophecy"],
+      "characters": ["isaiah", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 7, "speaker": "isaiah", "to": "house-of-israel", "note": "The child born; government upon his shoulder" },
+        { "s": 8, "e": 21, "speaker": "isaiah", "to": "house-of-israel", "note": "Pride and wrath against Israel and Syria" }
+      ]
+    },
+    {
+      "c": 10,
+      "title": "Assyria, the Rod of the Lord's Anger",
+      "synopsis": "Isaiah pronounces woe on unjust decree-makers and on Assyria, who though sent as the rod of the Lord's anger, boasts as if by his own power he cut off nations, and so will himself be punished. A remnant of Jacob will return and lean upon the Lord, and the Assyrian's yoke will be broken as in the day of Midian.",
+      "years": "about 725 BC",
+      "yearNum": -725,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["judgment", "pride-cycle", "hope"],
+      "characters": ["isaiah", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 4, "speaker": "isaiah", "to": "house-of-israel", "note": "Woe to those who decree unrighteous decrees" },
+        { "s": 5, "e": 19, "speaker": "isaiah", "to": "nations", "note": "Assyria the rod, proud and to be punished" },
+        { "s": 20, "e": 34, "speaker": "isaiah", "to": "house-of-israel", "note": "A remnant returns; the Assyrian yoke broken" }
+      ]
+    },
+    {
+      "c": 11,
+      "title": "The Root of Jesse and Millennial Peace",
+      "synopsis": "A rod comes forth out of the stem of Jesse, upon whom rests the spirit of the Lord, who judges the poor with righteousness and slays the wicked with the breath of his lips. Under his reign the wolf will dwell with the lamb and the earth will be full of the knowledge of the Lord, and he will gather scattered Israel a second time from the four corners of the earth.",
+      "years": "about 725 BC",
+      "yearNum": -725,
+      "approx": true,
+      "place": null,
+      "themes": ["messiah", "peace", "gathering-of-israel"],
+      "characters": ["isaiah", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 10, "speaker": "isaiah", "to": "reader", "note": "The root of Jesse; wolf and lamb at peace" },
+        { "s": 11, "e": 16, "speaker": "isaiah", "to": "house-of-israel", "note": "Israel gathered a second time from all lands" }
+      ]
+    },
+    {
+      "c": 12,
+      "title": "A Song of Praise and Salvation",
+      "synopsis": "In that day the redeemed will say the Lord is my strength and my song, and he has become my salvation. They are told to draw water out of the wells of salvation with joy and to make known his deeds among the nations, for great is the Holy One of Israel in their midst.",
+      "years": "about 725 BC",
+      "yearNum": -725,
+      "approx": true,
+      "place": null,
+      "themes": ["hope", "worship", "gathering-of-israel"],
+      "characters": ["isaiah", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 6, "speaker": "isaiah", "to": "house-of-israel", "note": "A song of thanksgiving for salvation" }
+      ]
+    },
+    {
+      "c": 13,
+      "title": "The Burden of Babylon",
+      "synopsis": "Isaiah lifts up an oracle against Babylon, calling for a gathering of nations as the Lord's battle-host to bring the great day of the Lord upon her, a day of terror and darkened heavens. Babylon, the glory of kingdoms, will be overthrown like Sodom and Gomorrah, never inhabited again.",
+      "years": "about 715 BC",
+      "yearNum": -715,
+      "approx": true,
+      "place": null,
+      "themes": ["judgment", "prophecy"],
+      "characters": ["isaiah", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 13, "speaker": "isaiah", "to": "nations", "note": "The Lord's host mustered against Babylon" },
+        { "s": 14, "e": 22, "speaker": "isaiah", "to": "nations", "note": "Babylon overthrown like Sodom and Gomorrah" }
+      ]
+    },
+    {
+      "c": 14,
+      "title": "Lucifer's Fall from Heaven",
+      "synopsis": "The Lord promises to have mercy on Jacob and set Israel in their own land, giving them rest from sorrow and fear. Israel takes up a taunting proverb against the king of Babylon, likening his pride to Lucifer, son of the morning, who said in his heart I will be like the most High yet is brought down to the sides of the pit.",
+      "years": "about 715 BC",
+      "yearNum": -715,
+      "approx": true,
+      "place": null,
+      "themes": ["judgment", "pride-cycle", "hope"],
+      "characters": ["isaiah", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 3, "speaker": "isaiah", "to": "house-of-israel", "note": "Mercy on Jacob; Israel restored to its land" },
+        { "s": 4, "e": 23, "speaker": "isaiah", "to": "nations", "note": "The taunt-song of Lucifer's fall" },
+        { "s": 24, "e": 32, "speaker": "isaiah", "to": "nations", "note": "Assyria's yoke broken; judgment on Philistia" }
+      ]
+    },
+    {
+      "c": 15,
+      "title": "The Burden of Moab",
+      "synopsis": "Isaiah laments over Moab, whose cities are laid waste in a night and whose people flee weeping through the streets with shaven heads and sackcloth. The waters of Nimrim are dried up, and fugitives carry their grief as far as the brook of the willows.",
+      "years": "about 715 BC",
+      "yearNum": -715,
+      "approx": true,
+      "place": null,
+      "themes": ["judgment", "prophecy"],
+      "characters": ["isaiah"],
+      "segments": [
+        { "s": 1, "e": 9, "speaker": "isaiah", "to": "nations", "note": "Moab's cities wasted; the people flee in grief" }
+      ]
+    },
+    {
+      "c": 16,
+      "title": "Moab's Pride and Coming Ruin",
+      "synopsis": "Isaiah calls Moab's fugitives to send tribute and find refuge under Zion's shadow, for Moab's pride and loud boasting will not save her. Within three years, as a hired servant counts, Moab's glory will be brought into contempt, and only a small remnant will remain.",
+      "years": "about 715 BC",
+      "yearNum": -715,
+      "approx": true,
+      "place": null,
+      "themes": ["judgment", "pride-cycle"],
+      "characters": ["isaiah"],
+      "segments": [
+        { "s": 1, "e": 5, "speaker": "isaiah", "to": "nations", "note": "Moab urged to seek refuge under Zion" },
+        { "s": 6, "e": 14, "speaker": "isaiah", "to": "nations", "note": "Moab's pride to end within three years" }
+      ]
+    },
+    {
+      "c": 17,
+      "title": "The Burden of Damascus",
+      "synopsis": "Damascus is prophesied to cease being a city and become a ruinous heap, and the glory of Jacob's kingdom allied with her will fade like a forsaken forest. Because Israel has forgotten the God of her salvation, harvest will be scant, though at evening trouble the tumultuous nations that rush against her will vanish before morning.",
+      "years": "about 734 BC",
+      "yearNum": -734,
+      "approx": true,
+      "place": null,
+      "themes": ["judgment", "apostasy"],
+      "characters": ["isaiah"],
+      "segments": [
+        { "s": 1, "e": 6, "speaker": "isaiah", "to": "nations", "note": "Damascus to become a ruinous heap" },
+        { "s": 7, "e": 14, "speaker": "isaiah", "to": "house-of-israel", "note": "Israel's forgetfulness; rushing nations rebuked" }
+      ]
+    },
+    {
+      "c": 18,
+      "title": "A Message to the Land Beyond Ethiopia",
+      "synopsis": "Isaiah addresses a distant, powerful land beyond the rivers of Ethiopia, sending swift ambassadors, and describes the Lord watching quietly like clear heat before harvest until he cuts down the confident nations. In that day a people terrible from their beginning will bring a present to the Lord of hosts in Zion.",
+      "years": "about 715 BC",
+      "yearNum": -715,
+      "approx": true,
+      "place": null,
+      "themes": ["prophecy", "gathering-of-israel"],
+      "characters": ["isaiah", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 6, "speaker": "isaiah", "to": "nations", "note": "A distant land warned of coming harvest of judgment" },
+        { "s": 7, "e": 7, "speaker": "isaiah", "to": "reader", "note": "A present brought to the Lord in Zion" }
+      ]
+    },
+    {
+      "c": 19,
+      "title": "The Burden of Egypt",
+      "synopsis": "The Lord rides upon a swift cloud into Egypt, and her idols tremble as civil strife, failed counsel, and a cruel lord bring her low. Yet the chapter turns to hope, promising an altar to the Lord in Egypt and a highway linking Egypt, Assyria, and Israel, a blessing in the midst of the earth.",
+      "years": "about 715 BC",
+      "yearNum": -715,
+      "approx": true,
+      "place": null,
+      "themes": ["judgment", "hope", "gathering-of-israel"],
+      "characters": ["isaiah", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 17, "speaker": "isaiah", "to": "nations", "note": "Egypt's idols tremble; counsel and strength fail" },
+        { "s": 18, "e": 25, "speaker": "isaiah", "to": "nations", "note": "An altar in Egypt; Egypt, Assyria, and Israel blessed together" }
+      ]
+    },
+    {
+      "c": 20,
+      "title": "Isaiah's Sign of Nakedness",
+      "synopsis": "When Assyria's captain takes Ashdod, the Lord commands Isaiah to walk barefoot and stripped of his sackcloth for three years as a sign of the shame that will come upon Egypt and Ethiopia when Assyria leads them away captive. Those who trusted in Egypt for help are left to ask how they will escape.",
+      "years": "about 711 BC",
+      "yearNum": -711,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["prophecy", "judgment"],
+      "characters": ["isaiah", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 6, "speaker": "isaiah", "to": "reader", "note": "Isaiah's sign of nakedness against Egypt's captors" }
+      ]
+    },
+    {
+      "c": 21,
+      "title": "The Fall of Babylon Foreseen",
+      "synopsis": "Isaiah, distressed by a grievous vision, foresees the fall of Babylon to Elam and Media, and a watchman reports riders returning with word that Babylon has fallen, her graven gods broken to the ground. Shorter burdens against Dumah and Arabia follow, warning of fleeing tribes and Kedar's fading glory.",
+      "years": "about 715 BC",
+      "yearNum": -715,
+      "approx": true,
+      "place": null,
+      "themes": ["judgment", "prophecy"],
+      "characters": ["isaiah"],
+      "segments": [
+        { "s": 1, "e": 10, "speaker": "isaiah", "to": "nations", "note": "The watchman's report: Babylon is fallen" },
+        { "s": 11, "e": 17, "speaker": "isaiah", "to": "nations", "note": "Burdens of Dumah and Arabia" }
+      ]
+    },
+    {
+      "c": 22,
+      "title": "The Valley of Vision and a Faithful Steward",
+      "synopsis": "Isaiah mourns over Jerusalem's careless revelry even as enemies breach her defenses, rebuking a people who eat and drink saying tomorrow we die instead of turning to the Lord. He then pronounces that Shebna the unfaithful steward will be removed and replaced by Eliakim, who will bear the key of the house of David.",
+      "years": "about 701 BC",
+      "yearNum": -701,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["judgment", "repentance", "leadership"],
+      "characters": ["isaiah"],
+      "segments": [
+        { "s": 1, "e": 14, "speaker": "isaiah", "to": "house-of-israel", "note": "Jerusalem's careless feasting amid the siege" },
+        { "s": 15, "e": 25, "speaker": "isaiah", "to": "reader", "note": "Shebna cast down; Eliakim given the key of David" }
+      ]
+    },
+    {
+      "c": 23,
+      "title": "The Burden of Tyre",
+      "synopsis": "Isaiah pronounces judgment on Tyre, the merchant city whose traders were princes and whose fame reached the ends of the earth, now made to howl as her harbors fail. After seventy years the Lord will visit Tyre, and her hire will at last be consecrated holiness to the Lord.",
+      "years": "about 701 BC",
+      "yearNum": -701,
+      "approx": true,
+      "place": null,
+      "themes": ["judgment", "pride-cycle"],
+      "characters": ["isaiah"],
+      "segments": [
+        { "s": 1, "e": 14, "speaker": "isaiah", "to": "nations", "note": "Tyre's merchant glory brought to howling" },
+        { "s": 15, "e": 18, "speaker": "isaiah", "to": "nations", "note": "After seventy years Tyre's gain consecrated to the Lord" }
+      ]
+    },
+    {
+      "c": 24,
+      "title": "The Earth Emptied and Judged",
+      "synopsis": "Isaiah begins his little apocalypse, describing the earth utterly emptied and turned upside down because its inhabitants have transgressed laws and broken the everlasting covenant. Yet amid the desolation a remnant lifts up its voice in singing, for the Lord of hosts will reign gloriously in Zion before his ancients.",
+      "years": "about 701 BC",
+      "yearNum": -701,
+      "approx": true,
+      "place": null,
+      "themes": ["judgment", "prophecy", "hope"],
+      "characters": ["isaiah", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 12, "speaker": "isaiah", "to": "reader", "note": "The earth emptied for its broken covenant" },
+        { "s": 13, "e": 23, "speaker": "isaiah", "to": "reader", "note": "A remnant sings; the Lord reigns in Zion" }
+      ]
+    },
+    {
+      "c": 25,
+      "title": "A Feast of Fat Things and Death Swallowed Up",
+      "synopsis": "Isaiah praises the Lord for being a strength to the poor and a refuge from the storm, foreseeing a feast of fat things prepared for all people upon this mountain. There the Lord will swallow up death in victory, wipe away tears from all faces, and take away the reproach of his people from off all the earth.",
+      "years": "about 701 BC",
+      "yearNum": -701,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["hope", "atonement", "gathering-of-israel"],
+      "characters": ["isaiah", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 5, "speaker": "isaiah", "to": "the-lord", "note": "Praise for the Lord as strength and refuge" },
+        { "s": 6, "e": 12, "speaker": "isaiah", "to": "reader", "note": "The feast of fat things; death swallowed up" }
+      ]
+    },
+    {
+      "c": 26,
+      "title": "A Song of Trust in Zion",
+      "synopsis": "Isaiah gives a song for the strong city whose walls are salvation, where those who trust in the Lord are kept in perfect peace. He confesses that other lords besides the Lord have ruled over them, but promises the dead shall live, and their bodies shall arise as the earth casts out her dead.",
+      "years": "about 701 BC",
+      "yearNum": -701,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["faith", "hope", "resurrection"],
+      "characters": ["isaiah", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 11, "speaker": "isaiah", "to": "the-lord", "note": "A song of the strong city and perfect peace" },
+        { "s": 12, "e": 21, "speaker": "isaiah", "to": "house-of-israel", "note": "The dead shall live; hide until indignation passes" }
+      ]
+    },
+    {
+      "c": 27,
+      "title": "Leviathan Punished, Jacob Gathered",
+      "synopsis": "In that day the Lord will punish leviathan the piercing serpent, and Israel will be like a vineyard the Lord keeps and waters continually rather than the fruitless vineyard of old. When Jacob's iniquity is purged, the Lord will thresh out his people from the Euphrates to the river of Egypt, and they will be gathered one by one to worship on the holy mountain.",
+      "years": "about 701 BC",
+      "yearNum": -701,
+      "approx": true,
+      "place": null,
+      "themes": ["gathering-of-israel", "hope", "judgment"],
+      "characters": ["isaiah", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 6, "speaker": "isaiah", "to": "reader", "note": "Leviathan punished; the Lord's vineyard kept" },
+        { "s": 7, "e": 13, "speaker": "isaiah", "to": "house-of-israel", "note": "Jacob purged and gathered one by one" }
+      ]
+    },
+    {
+      "c": 28,
+      "title": "Woe to the Drunkards of Ephraim",
+      "synopsis": "Isaiah pronounces woe on the drunkards of Ephraim, whose fading crown of pride will be trodden down, and rebukes priests and prophets who err through strong drink and mock his teaching, precept upon precept. Yet the Lord lays in Zion a tried, precious cornerstone, and he that believeth shall not make haste, though he must also teach by strange judgment, as in threshing grain, that men may learn.",
+      "years": "about 725 BC",
+      "yearNum": -725,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["judgment", "faith", "messiah"],
+      "characters": ["isaiah", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 13, "speaker": "isaiah", "to": "house-of-israel", "note": "Ephraim's drunken pride; mockers of precept upon precept" },
+        { "s": 14, "e": 29, "speaker": "the-lord", "to": "house-of-israel", "note": "The precious cornerstone; wisdom in threshing" }
+      ]
+    },
+    {
+      "c": 29,
+      "title": "The Marvellous Work and a Wonder",
+      "synopsis": "Isaiah warns Ariel, that is Jerusalem, that she will be brought low and speak as a familiar spirit out of the dust, her people's hearts far from the Lord though their lips honor him. He then foretells a marvellous work and a wonder in which a sealed book delivered to one unlearned, and a voice speaking as if from the dust, become a latter-day sign fulfilled in the coming forth of the Book of Mormon, restoring understanding to those whose eyes and ears have been closed.",
+      "years": "about 725 BC",
+      "yearNum": -725,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["prophecy", "revelation", "restoration"],
+      "characters": ["isaiah", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 14, "speaker": "isaiah", "to": "house-of-israel", "note": "Ariel humbled; lip-service without the heart" },
+        { "s": 15, "e": 24, "speaker": "isaiah", "to": "reader", "note": "The sealed book and voice from the dust, sign of the Book of Mormon" }
+      ]
+    },
+    {
+      "c": 30,
+      "title": "Woe to Those Who Trust in Egypt",
+      "synopsis": "Isaiah condemns rebellious children who seek help from Egypt without asking the Lord, calling them a rebellious people who bid the seers not to see. Yet the Lord waits to be gracious, promising that though bread and water be scant, their Teacher will not be removed, and their ears will hear a word behind them saying, This is the way, walk ye in it.",
+      "years": "about 701 BC",
+      "yearNum": -701,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["faith", "judgment", "hope"],
+      "characters": ["isaiah", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 17, "speaker": "isaiah", "to": "house-of-israel", "note": "Trust in Egypt rebuked as rebellion" },
+        { "s": 18, "e": 33, "speaker": "isaiah", "to": "house-of-israel", "note": "The Lord waits to be gracious; a voice behind them guides" }
+      ]
+    },
+    {
+      "c": 31,
+      "title": "Woe to Those Who Trust in Horses",
+      "synopsis": "Isaiah warns against relying on Egypt's horses and chariots instead of looking to the Holy One of Israel, for the Egyptians are men and not God, and their help shall fail. The Lord of hosts will defend Jerusalem as birds hovering, and Assyria will fall by a sword not of man.",
+      "years": "about 701 BC",
+      "yearNum": -701,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["faith", "judgment"],
+      "characters": ["isaiah", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 3, "speaker": "isaiah", "to": "house-of-israel", "note": "Woe to those trusting Egypt's horses" },
+        { "s": 4, "e": 9, "speaker": "isaiah", "to": "house-of-israel", "note": "The Lord defends Jerusalem; Assyria falls" }
+      ]
+    },
+    {
+      "c": 32,
+      "title": "A King Shall Reign in Righteousness",
+      "synopsis": "Isaiah foresees a king who reigns in righteousness and princes who rule in judgment, each a hiding place from the wind, until the Spirit is poured from on high and the wilderness becomes a fruitful field. He warns the careless women of complacent ease that briers and thorns will overtake the land before that peace comes.",
+      "years": "about 701 BC",
+      "yearNum": -701,
+      "approx": true,
+      "place": null,
+      "themes": ["messiah", "hope", "judgment"],
+      "characters": ["isaiah"],
+      "segments": [
+        { "s": 1, "e": 8, "speaker": "isaiah", "to": "reader", "note": "A righteous king and princes of judgment" },
+        { "s": 9, "e": 14, "speaker": "isaiah", "to": "house-of-israel", "note": "Careless women warned of coming desolation" },
+        { "s": 15, "e": 20, "speaker": "isaiah", "to": "reader", "note": "The Spirit poured out; peace and quiet resting places" }
+      ]
+    },
+    {
+      "c": 33,
+      "title": "Woe to the Spoiler; Zion's King Beheld",
+      "synopsis": "Isaiah pronounces woe upon the spoiler who has not himself been spoiled, and the people cry to the Lord to be gracious in trouble, as the land mourns under a treacherous foe. Sinners in Zion are afraid, but those who walk righteously will dwell on high and behold the King in his beauty in a land of far distances made near.",
+      "years": "about 701 BC",
+      "yearNum": -701,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["judgment", "hope", "zion"],
+      "characters": ["isaiah", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 12, "speaker": "isaiah", "to": "nations", "note": "Woe to the treacherous spoiler" },
+        { "s": 13, "e": 24, "speaker": "isaiah", "to": "house-of-israel", "note": "The righteous behold the King in his beauty" }
+      ]
+    },
+    {
+      "c": 34,
+      "title": "The Lord's Vengeance on the Nations",
+      "synopsis": "Isaiah summons all nations to hear of the Lord's indignation against them, when the heavens are rolled together as a scroll and his sword comes down upon Edom in judgment. The land becomes burning pitch and brimstone, possessed forever by wild creatures, for the Lord has cast the lot for it.",
+      "years": "about 701 BC",
+      "yearNum": -701,
+      "approx": true,
+      "place": null,
+      "themes": ["judgment", "prophecy"],
+      "characters": ["isaiah", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 17, "speaker": "isaiah", "to": "nations", "note": "The Lord's day of vengeance upon Edom and the nations" }
+      ]
+    },
+    {
+      "c": 35,
+      "title": "The Desert Shall Blossom as the Rose",
+      "synopsis": "Isaiah promises that the wilderness and the solitary place will be glad and the desert will rejoice and blossom as the rose, with the eyes of the blind opened and the ears of the deaf unstopped. A highway called the way of holiness will be raised up, and the ransomed of the Lord will return to Zion with everlasting joy upon their heads.",
+      "years": "about 701 BC",
+      "yearNum": -701,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["hope", "gathering-of-israel", "restoration"],
+      "characters": ["isaiah"],
+      "segments": [
+        { "s": 1, "e": 7, "speaker": "isaiah", "to": "reader", "note": "The desert blossoms; blind eyes and deaf ears opened" },
+        { "s": 8, "e": 10, "speaker": "isaiah", "to": "reader", "note": "The highway of holiness; the ransomed return with joy" }
+      ]
+    },
+    {
+      "c": 36,
+      "title": "Sennacherib Threatens Jerusalem",
+      "synopsis": "In Hezekiah's fourteenth year, Assyria's king Sennacherib besieges Judah's fortified cities, and his commander Rabshakeh stands before Jerusalem's wall to mock Hezekiah's trust in Egypt and in the Lord, urging the people to surrender. Hezekiah's officials ask him to speak in Aramaic, but he deliberately speaks in Hebrew to frighten the people on the wall.",
+      "years": "about 701 BC",
+      "yearNum": -701,
+      "approx": false,
+      "place": "jerusalem",
+      "themes": ["faith", "judgment"],
+      "characters": ["isaiah", "hezekiah"],
+      "segments": [
+        { "s": 1, "e": 10, "speaker": "isaiah", "to": "reader", "note": "Sennacherib's forces besiege Judah" },
+        { "s": 11, "e": 22, "speaker": "isaiah", "to": "reader", "note": "Rabshakeh mocks Hezekiah before the wall" }
+      ]
+    },
+    {
+      "c": 37,
+      "title": "Hezekiah's Prayer and the Angel's Deliverance",
+      "synopsis": "Hezekiah rends his clothes and sends to Isaiah, who assures him the Lord will defend Jerusalem, and when Sennacherib sends a taunting letter, Hezekiah spreads it before the Lord in the temple and prays. The Lord answers through Isaiah that the Assyrian will not enter the city, and that night the angel of the Lord slays the Assyrian camp, so Sennacherib withdraws and is later slain by his own sons.",
+      "years": "about 701 BC",
+      "yearNum": -701,
+      "approx": false,
+      "place": "jerusalem",
+      "themes": ["faith", "deliverance", "prayer"],
+      "characters": ["isaiah", "hezekiah", "the-lord", "angel"],
+      "segments": [
+        { "s": 1, "e": 13, "speaker": "isaiah", "to": "reader", "note": "Hezekiah seeks Isaiah amid the threat" },
+        { "s": 14, "e": 20, "speaker": "hezekiah", "to": "the-lord", "note": "Hezekiah's prayer in the temple" },
+        { "s": 21, "e": 38, "speaker": "isaiah", "to": "reader", "note": "The angel destroys the Assyrian camp" }
+      ]
+    },
+    {
+      "c": 38,
+      "title": "Hezekiah's Illness and the Sundial Sign",
+      "synopsis": "Hezekiah falls sick unto death, and after his earnest weeping prayer the Lord adds fifteen years to his life, giving the shadow's retreat on the sundial as a sign. Hezekiah writes a psalm of thanksgiving for his recovery from the pit of corruption.",
+      "years": "about 701 BC",
+      "yearNum": -701,
+      "approx": false,
+      "place": "jerusalem",
+      "themes": ["faith", "prayer", "hope"],
+      "characters": ["isaiah", "hezekiah", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 8, "speaker": "isaiah", "to": "reader", "note": "Hezekiah's prayer; fifteen years added; the sundial sign" },
+        { "s": 9, "e": 22, "speaker": "hezekiah", "to": "the-lord", "note": "Hezekiah's psalm of recovery" }
+      ]
+    },
+    {
+      "c": 39,
+      "title": "Envoys from Babylon",
+      "synopsis": "Babylon's king sends envoys with gifts to Hezekiah after his illness, and Hezekiah proudly shows them all his treasures and armory. Isaiah then prophesies that everything in the house will one day be carried away to Babylon and that some of Hezekiah's own sons will become eunuchs in that foreign court.",
+      "years": "about 701 BC",
+      "yearNum": -701,
+      "approx": false,
+      "place": "jerusalem",
+      "themes": ["judgment", "pride-cycle", "prophecy"],
+      "characters": ["isaiah", "hezekiah"],
+      "segments": [
+        { "s": 1, "e": 4, "speaker": "isaiah", "to": "reader", "note": "Babylon's envoys shown Hezekiah's treasures" },
+        { "s": 5, "e": 8, "speaker": "isaiah", "to": "hezekiah", "note": "Prophecy of the Babylonian captivity to come" }
+      ]
+    },
+    {
+      "c": 40,
+      "title": "Comfort Ye My People",
+      "synopsis": "Isaiah opens the book of comfort with the Lord's tender charge to speak comfortably to Jerusalem, for her warfare is accomplished, and a voice cries to prepare the way of the Lord in the wilderness. All flesh is grass that withers, but the word of the Lord stands forever, and those who wait upon him will renew their strength and mount up with wings as eagles.",
+      "years": "about 701 BC",
+      "yearNum": -701,
+      "approx": true,
+      "place": null,
+      "themes": ["hope", "revelation", "faith"],
+      "characters": ["isaiah", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 11, "speaker": "isaiah", "to": "house-of-israel", "note": "Comfort ye my people; the voice in the wilderness" },
+        { "s": 12, "e": 26, "speaker": "isaiah", "to": "house-of-israel", "note": "The Lord's incomparable greatness over creation" },
+        { "s": 27, "e": 31, "speaker": "isaiah", "to": "house-of-israel", "note": "Those who wait on the Lord renew their strength" }
+      ]
+    },
+    {
+      "c": 41,
+      "title": "Fear Not, I Will Help Thee",
+      "synopsis": "The Lord calls the nations to judgment, asking who raised up the one from the east who tramples kings, while reassuring Israel his servant, chosen and not cast away, saying fear thou not, for I am with thee. He promises to make the poor and needy find water in the desert, so that all may see and know the hand of the Lord has done this.",
+      "years": "about 701 BC",
+      "yearNum": -701,
+      "approx": true,
+      "place": null,
+      "themes": ["faith", "hope", "gathering-of-israel"],
+      "characters": ["isaiah", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 20, "speaker": "the-lord", "to": "house-of-israel", "note": "Fear not, for I am with thee" },
+        { "s": 21, "e": 29, "speaker": "the-lord", "to": "nations", "note": "Idols challenged to foretell things to come" }
+      ]
+    },
+    {
+      "c": 42,
+      "title": "The Lord's Chosen Servant",
+      "synopsis": "The Lord presents his servant, in whom his soul delights, who will bring forth judgment gently to the Gentiles, not crying nor breaking a bruised reed, and be given as a light to open blind eyes and free prisoners from darkness. He declares he will do a new thing and sing a new song, yet rebukes Israel, blind and deaf though chosen, for not laying these things to heart.",
+      "years": "about 701 BC",
+      "yearNum": -701,
+      "approx": true,
+      "place": null,
+      "themes": ["messiah", "hope", "judgment"],
+      "characters": ["isaiah", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 9, "speaker": "the-lord", "to": "reader", "note": "The gentle servant, a light to the Gentiles" },
+        { "s": 10, "e": 17, "speaker": "isaiah", "to": "house-of-israel", "note": "A new song; the Lord marches to battle" },
+        { "s": 18, "e": 25, "speaker": "the-lord", "to": "house-of-israel", "note": "Israel blind and deaf despite being chosen" }
+      ]
+    },
+    {
+      "c": 43,
+      "title": "Fear Not, for I Have Redeemed Thee",
+      "synopsis": "The Lord reassures Israel that having created and redeemed her by name, she is precious in his sight, and he will gather her seed from east and west, north and south. He declares himself the only Savior, blots out Israel's transgressions for his own sake, and promises to do a new thing, making a way in the wilderness for his chosen people.",
+      "years": "about 701 BC",
+      "yearNum": -701,
+      "approx": true,
+      "place": null,
+      "themes": ["gathering-of-israel", "hope", "atonement"],
+      "characters": ["isaiah", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 13, "speaker": "the-lord", "to": "house-of-israel", "note": "Fear not; Israel gathered from every direction" },
+        { "s": 14, "e": 21, "speaker": "the-lord", "to": "house-of-israel", "note": "A new way made in the wilderness" },
+        { "s": 22, "e": 28, "speaker": "the-lord", "to": "house-of-israel", "note": "Israel's neglect; transgressions blotted out" }
+      ]
+    },
+    {
+      "c": 44,
+      "title": "None Beside the Lord; Idols Mocked",
+      "synopsis": "The Lord pours his spirit upon Israel's seed like water on thirsty ground, declaring himself the first and the last, beside whom there is no God. He mocks the folly of the idol-maker who burns half a tree for warmth and bows to the other half as a god, then names Cyrus as his shepherd who will fulfill his pleasure in rebuilding Jerusalem.",
+      "years": "about 701 BC",
+      "yearNum": -701,
+      "approx": true,
+      "place": null,
+      "themes": ["hope", "revelation", "prophecy"],
+      "characters": ["isaiah", "the-lord", "cyrus"],
+      "segments": [
+        { "s": 1, "e": 8, "speaker": "the-lord", "to": "house-of-israel", "note": "The spirit poured out; there is no other God" },
+        { "s": 9, "e": 20, "speaker": "isaiah", "to": "reader", "note": "The folly of the idol-maker" },
+        { "s": 21, "e": 28, "speaker": "the-lord", "to": "house-of-israel", "note": "Cyrus named as the Lord's shepherd" }
+      ]
+    },
+    {
+      "c": 45,
+      "title": "Cyrus, the Lord's Anointed",
+      "synopsis": "The Lord calls Cyrus his anointed, whose right hand he holds to subdue nations, though Cyrus does not know him, that all may know there is none beside the Lord who forms light and creates darkness. He invites all the ends of the earth to look unto him and be saved, for every knee shall bow and every tongue confess.",
+      "years": "about 701 BC",
+      "yearNum": -701,
+      "approx": true,
+      "place": null,
+      "themes": ["prophecy", "hope", "gathering-of-israel"],
+      "characters": ["isaiah", "the-lord", "cyrus"],
+      "segments": [
+        { "s": 1, "e": 13, "speaker": "the-lord", "to": "cyrus", "note": "Cyrus raised up though he knows not the Lord" },
+        { "s": 14, "e": 25, "speaker": "the-lord", "to": "nations", "note": "Look unto me and be saved, all the earth" }
+      ]
+    },
+    {
+      "c": 46,
+      "title": "Babylon's Idols Bow, the Lord Carries",
+      "synopsis": "Isaiah contrasts Babylon's gods Bel and Nebo, carried as burdens on beasts into captivity, with the Lord who has carried Israel from the womb and will still carry and deliver them in old age. He declares the end from the beginning, calling a ravenous bird, meaning Cyrus, from the east to fulfill his counsel.",
+      "years": "about 701 BC",
+      "yearNum": -701,
+      "approx": true,
+      "place": null,
+      "themes": ["judgment", "faith", "prophecy"],
+      "characters": ["isaiah", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 7, "speaker": "isaiah", "to": "nations", "note": "Bel and Nebo carried away as helpless burdens" },
+        { "s": 8, "e": 13, "speaker": "the-lord", "to": "house-of-israel", "note": "The Lord who carries Israel declares the end from the beginning" }
+      ]
+    },
+    {
+      "c": 47,
+      "title": "The Fall of the Virgin Daughter of Babylon",
+      "synopsis": "Isaiah pronounces Babylon's humiliation, calling her the tender and delicate one to sit in the dust, for she trusted in her wickedness and said none seeth me. Her sorceries and many enchantments will not save her, and evil will come upon her suddenly which she cannot charm away.",
+      "years": "about 701 BC",
+      "yearNum": -701,
+      "approx": true,
+      "place": null,
+      "themes": ["judgment", "pride-cycle"],
+      "characters": ["isaiah"],
+      "segments": [
+        { "s": 1, "e": 15, "speaker": "isaiah", "to": "nations", "note": "Babylon's pride and sorceries brought to sudden ruin" }
+      ]
+    },
+    {
+      "c": 48,
+      "title": "Refined in the Furnace of Affliction",
+      "synopsis": "The Lord rebukes Israel for swearing by his name without truth or righteousness, yet declares he has refined her in the furnace of affliction for his own name's sake and will not give his glory to another. He urges them to go forth from Babylon, proclaiming that the Lord has redeemed his servant Jacob, though there is no peace to the wicked.",
+      "years": "about 701 BC",
+      "yearNum": -701,
+      "approx": true,
+      "place": null,
+      "themes": ["repentance", "hope", "gathering-of-israel"],
+      "characters": ["isaiah", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 11, "speaker": "the-lord", "to": "house-of-israel", "note": "Israel refined in the furnace for the Lord's name" },
+        { "s": 12, "e": 22, "speaker": "the-lord", "to": "house-of-israel", "note": "Go forth from Babylon; no peace to the wicked" }
+      ]
+    },
+    {
+      "c": 49,
+      "title": "A Light to the Gentiles; Can a Mother Forget",
+      "synopsis": "The Lord's servant is called from the womb to be a light to the Gentiles and to bring Jacob again to him, and though Zion says the Lord has forsaken her, he answers that a mother might forget her child, yet he will not forget her, for her walls are graven upon his hands. Kings and queens will become nursing fathers and mothers to Israel, gathered from far countries.",
+      "years": "about 701 BC",
+      "yearNum": -701,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["messiah", "hope", "gathering-of-israel"],
+      "characters": ["isaiah", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 12, "speaker": "isaiah", "to": "reader", "note": "The servant called as a light to the Gentiles" },
+        { "s": 13, "e": 26, "speaker": "the-lord", "to": "zion", "note": "Can a mother forget her child? Zion never forgotten" }
+      ]
+    },
+    {
+      "c": 50,
+      "title": "The Servant's Obedience in Suffering",
+      "synopsis": "The Lord asks where Israel's mother was put away for, having only their own sins as the cause of separation, and his servant declares he gave his back to the smiters and his cheeks to those who plucked off the hair, not hiding his face from shame because the Lord God helps him. He calls those who fear the Lord to trust in his name even while walking in darkness.",
+      "years": "about 701 BC",
+      "yearNum": -701,
+      "approx": true,
+      "place": null,
+      "themes": ["messiah", "atonement", "faith"],
+      "characters": ["isaiah", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 3, "speaker": "the-lord", "to": "house-of-israel", "note": "Israel's separation caused by her own sins" },
+        { "s": 4, "e": 11, "speaker": "isaiah", "to": "reader", "note": "The servant's obedience through suffering" }
+      ]
+    },
+    {
+      "c": 51,
+      "title": "Look unto Abraham; Awake, O Arm of the Lord",
+      "synopsis": "The Lord bids the righteous look to the rock from which they were hewn, to Abraham and Sarah, and promises that the Lord will comfort Zion and make her wilderness like Eden. He calls on his own arm to awake as in the days of old that dried up the sea, and promises the ransomed of the Lord shall return with everlasting joy.",
+      "years": "about 701 BC",
+      "yearNum": -701,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["faith", "hope", "gathering-of-israel"],
+      "characters": ["isaiah", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 8, "speaker": "the-lord", "to": "house-of-israel", "note": "Look unto Abraham and Sarah, the rock hewn" },
+        { "s": 9, "e": 16, "speaker": "isaiah", "to": "the-lord", "note": "Awake, O arm of the Lord, as in days of old" },
+        { "s": 17, "e": 23, "speaker": "isaiah", "to": "zion", "note": "Awake, Jerusalem, the cup of trembling removed" }
+      ]
+    },
+    {
+      "c": 52,
+      "title": "Awake, Awake, O Zion",
+      "synopsis": "Isaiah calls Zion to put on her beautiful garments, for the uncircumcised and unclean will no longer enter her, and celebrates how beautiful upon the mountains are the feet of him that bringeth good tidings of peace. The chapter closes as the Lord's servant is exalted and extolled, though many will be astonished at his marred appearance beyond that of any man.",
+      "years": "about 701 BC",
+      "yearNum": -701,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["hope", "messiah", "gathering-of-israel"],
+      "characters": ["isaiah", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 12, "speaker": "isaiah", "to": "zion", "note": "Awake, Zion; beautiful are the feet of the messenger" },
+        { "s": 13, "e": 15, "speaker": "the-lord", "to": "reader", "note": "The servant exalted though marred beyond recognition" }
+      ]
+    },
+    {
+      "c": 53,
+      "title": "He Was Wounded for Our Transgressions",
+      "synopsis": "Isaiah's suffering-servant song describes one despised and rejected of men, a man of sorrows acquainted with grief, who was wounded for our transgressions and bruised for our iniquities, bearing the chastisement of our peace. Though he is led as a lamb to the slaughter and cut off from the land of the living, the Lord will prolong his days and he will see the travail of his soul and be satisfied.",
+      "years": "about 701 BC",
+      "yearNum": -701,
+      "approx": true,
+      "place": null,
+      "themes": ["messiah", "atonement", "prophecy"],
+      "characters": ["isaiah", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 6, "speaker": "isaiah", "to": "reader", "note": "A man of sorrows wounded for our transgressions" },
+        { "s": 7, "e": 12, "speaker": "isaiah", "to": "reader", "note": "Led as a lamb to the slaughter; the Lord's pleasure prospers" }
+      ]
+    },
+    {
+      "c": 54,
+      "title": "Zion's Everlasting Covenant of Peace",
+      "synopsis": "The Lord calls the barren woman to sing, for her seed will inherit the Gentiles and her desolate cities be inhabited, since her Maker is her husband, the Lord of hosts. Though he hid his face a moment, with everlasting kindness he gathers her, and swears as in the days of Noah never again to be wroth, promising a covenant of peace no weapon formed against her shall prosper.",
+      "years": "about 701 BC",
+      "yearNum": -701,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["covenant", "hope", "gathering-of-israel"],
+      "characters": ["isaiah", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 10, "speaker": "the-lord", "to": "zion", "note": "The barren woman sings; everlasting kindness restored" },
+        { "s": 11, "e": 17, "speaker": "the-lord", "to": "zion", "note": "No weapon formed against thee shall prosper" }
+      ]
+    },
+    {
+      "c": 55,
+      "title": "Come to the Waters",
+      "synopsis": "The Lord invites everyone who thirsts to come to the waters freely, to buy wine and milk without money and without price, and to incline their ear that their soul may live through an everlasting covenant. He assures that his thoughts are higher than our thoughts, and his word that goes forth will not return void but accomplish what he pleases.",
+      "years": "about 701 BC",
+      "yearNum": -701,
+      "approx": true,
+      "place": null,
+      "themes": ["hope", "covenant", "revelation"],
+      "characters": ["isaiah", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 5, "speaker": "the-lord", "to": "reader", "note": "Come, buy wine and milk without price" },
+        { "s": 6, "e": 13, "speaker": "the-lord", "to": "reader", "note": "The Lord's word accomplishes what it is sent to do" }
+      ]
+    },
+    {
+      "c": 56,
+      "title": "Strangers and Eunuchs Welcomed",
+      "synopsis": "The Lord promises that the stranger and the eunuch who join themselves to him and keep his covenant will have a place and a name within his house, better than sons and daughters, for his house will be called a house of prayer for all people. He rebukes Israel's blind watchmen, greedy dogs that cannot bark, who look only to their own gain.",
+      "years": "about 701 BC",
+      "yearNum": -701,
+      "approx": true,
+      "place": null,
+      "themes": ["covenant", "gathering-of-israel", "leadership"],
+      "characters": ["isaiah", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 8, "speaker": "the-lord", "to": "reader", "note": "A house of prayer for all people, strangers included" },
+        { "s": 9, "e": 12, "speaker": "isaiah", "to": "house-of-israel", "note": "Israel's blind and greedy watchmen rebuked" }
+      ]
+    },
+    {
+      "c": 57,
+      "title": "The Righteous Perish, Idolatry Rebuked",
+      "synopsis": "Isaiah observes that the righteous perish and no one lays it to heart, taken away from evil to come, while he rebukes Israel's idolatry under every green tree and their forsaking of the Lord for false gods. Yet the Lord who inhabits eternity dwells also with the humble and contrite, promising peace to him that is near and to him that is far off.",
+      "years": "about 701 BC",
+      "yearNum": -701,
+      "approx": true,
+      "place": null,
+      "themes": ["apostasy", "humility", "hope"],
+      "characters": ["isaiah", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 13, "speaker": "isaiah", "to": "house-of-israel", "note": "The righteous taken from evil; idolatry rebuked" },
+        { "s": 14, "e": 21, "speaker": "the-lord", "to": "house-of-israel", "note": "The Lord dwells with the humble and contrite" }
+      ]
+    },
+    {
+      "c": 58,
+      "title": "The True Fast the Lord Has Chosen",
+      "synopsis": "The Lord rebukes a people who fast for show while oppressing their laborers and quarreling, and defines the fast he has chosen: to loose the bands of wickedness, to feed the hungry, and to bring the homeless poor into one's house. If they honor the sabbath and remove the yoke, their light will break forth as the morning and they will be called repairers of the breach.",
+      "years": "about 701 BC",
+      "yearNum": -701,
+      "approx": true,
+      "place": null,
+      "themes": ["repentance", "charity", "covenant"],
+      "characters": ["isaiah", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 5, "speaker": "the-lord", "to": "house-of-israel", "note": "Empty fasting for show is rebuked" },
+        { "s": 6, "e": 14, "speaker": "the-lord", "to": "house-of-israel", "note": "The true fast: loose bonds, feed the hungry, honor the sabbath" }
+      ]
+    },
+    {
+      "c": 59,
+      "title": "Sins That Separate from God",
+      "synopsis": "Isaiah declares that the Lord's hand is not shortened, but iniquities have separated the people from their God, whose hands are stained with blood and whose feet run to evil. Seeing no one to intercede, the Lord himself brings salvation with his own arm, and a Redeemer will come to Zion for those who turn from transgression.",
+      "years": "about 701 BC",
+      "yearNum": -701,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["apostasy", "repentance", "messiah"],
+      "characters": ["isaiah", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 15, "speaker": "isaiah", "to": "house-of-israel", "note": "Iniquities have separated Israel from God" },
+        { "s": 16, "e": 21, "speaker": "isaiah", "to": "zion", "note": "The Lord's own arm brings salvation; a Redeemer comes to Zion" }
+      ]
+    },
+    {
+      "c": 60,
+      "title": "Arise, Shine, for Thy Light Is Come",
+      "synopsis": "Isaiah calls Zion to arise and shine, for her light has come and the glory of the Lord is risen upon her, and Gentiles and kings will come to her light bringing gold and incense. Her gates will stay open continually to receive the wealth of nations, the sun and moon will be surpassed by the Lord's own glory, and violence will no longer be heard in her land.",
+      "years": "about 701 BC",
+      "yearNum": -701,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["hope", "zion", "gathering-of-israel"],
+      "characters": ["isaiah", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 14, "speaker": "isaiah", "to": "zion", "note": "Arise, shine; nations come to Zion's light" },
+        { "s": 15, "e": 22, "speaker": "the-lord", "to": "zion", "note": "Violence ends; the Lord himself is Zion's everlasting light" }
+      ]
+    },
+    {
+      "c": 61,
+      "title": "The Spirit of the Lord God Is upon Me",
+      "synopsis": "Isaiah's servant declares the Spirit of the Lord God is upon him, anointed to preach good tidings to the meek, to bind up the brokenhearted, and to proclaim liberty to captives and the acceptable year of the Lord, words Jesus later reads and applies to himself. Those who mourn in Zion will be given beauty for ashes and be called trees of righteousness, and the Lord promises to clothe his people with garments of salvation.",
+      "years": "about 701 BC",
+      "yearNum": -701,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["messiah", "hope", "atonement"],
+      "characters": ["isaiah", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 3, "speaker": "isaiah", "to": "reader", "note": "The Spirit of the Lord upon the anointed servant" },
+        { "s": 4, "e": 11, "speaker": "isaiah", "to": "zion", "note": "Beauty for ashes; garments of salvation" }
+      ]
+    },
+    {
+      "c": 62,
+      "title": "Zion's New Name and Coming Glory",
+      "synopsis": "For Zion's sake Isaiah will not hold his peace until her righteousness goes forth as brightness, and she is given a new name and called Hephzibah and Beulah, for the Lord delights in her as a bridegroom in his bride. Watchmen are set upon her walls to give the Lord no rest until Jerusalem is established, and the redeemed are called the sought out, a city not forsaken.",
+      "years": "about 701 BC",
+      "yearNum": -701,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["hope", "zion", "covenant"],
+      "characters": ["isaiah", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 5, "speaker": "isaiah", "to": "zion", "note": "Zion's new name; the Lord delights in her as a bride" },
+        { "s": 6, "e": 12, "speaker": "isaiah", "to": "zion", "note": "Watchmen on the walls; Zion the sought out" }
+      ]
+    },
+    {
+      "c": 63,
+      "title": "Who Is This That Cometh from Edom",
+      "synopsis": "Isaiah beholds a mighty figure coming from Edom with garments stained red, who declares he has trodden the winepress of wrath alone, for the day of vengeance is in his heart and the year of his redeemed is come. Isaiah then recalls the Lord's lovingkindnesses to Israel of old and pleads for the Lord to look down from heaven upon his afflicted people.",
+      "years": "about 701 BC",
+      "yearNum": -701,
+      "approx": true,
+      "place": null,
+      "themes": ["messiah", "judgment", "prayer"],
+      "characters": ["isaiah", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 6, "speaker": "isaiah", "to": "reader", "note": "The mighty one from Edom, garments stained in judgment" },
+        { "s": 7, "e": 19, "speaker": "isaiah", "to": "the-lord", "note": "Recalling the Lord's mercies; a plea for his people" }
+      ]
+    },
+    {
+      "c": 64,
+      "title": "Oh That Thou Wouldest Rend the Heavens",
+      "synopsis": "Isaiah cries for the Lord to rend the heavens and come down as at Sinai, that the nations may tremble at his presence, confessing that all their righteousnesses are as filthy rags before him. He pleads as with a potter, calling Israel the clay and the Lord the potter, the work of his hand, and asks him not to be wroth beyond measure with a desolate Zion.",
+      "years": "about 701 BC",
+      "yearNum": -701,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["prayer", "repentance", "humility"],
+      "characters": ["isaiah", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 7, "speaker": "isaiah", "to": "the-lord", "note": "Oh that thou wouldest rend the heavens and come down" },
+        { "s": 8, "e": 12, "speaker": "isaiah", "to": "the-lord", "note": "We are the clay, thou the potter; be not wroth" }
+      ]
+    },
+    {
+      "c": 65,
+      "title": "New Heavens and a New Earth",
+      "synopsis": "The Lord answers that he is sought of those who did not ask for him, while a rebellious people who sacrifice in gardens and eat swine's flesh provoke him continually, so that judgment falls yet a remnant, his elect, is preserved for blessing. He promises to create new heavens and a new earth in which the former troubles are forgotten, the child will not die a hundred years old, and the wolf and the lamb will feed together.",
+      "years": "about 701 BC",
+      "yearNum": -701,
+      "approx": true,
+      "place": null,
+      "themes": ["restoration", "hope", "judgment"],
+      "characters": ["isaiah", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 16, "speaker": "the-lord", "to": "house-of-israel", "note": "A rebellious people judged; the elect preserved" },
+        { "s": 17, "e": 25, "speaker": "the-lord", "to": "house-of-israel", "note": "New heavens and a new earth of peace" }
+      ]
+    },
+    {
+      "c": 66,
+      "title": "Heaven Is My Throne, Earth My Footstool",
+      "synopsis": "The Lord declares that heaven is his throne and earth his footstool, and that he looks to the man who is poor and of a contrite spirit and trembles at his word, rather than to empty temple ritual offered by hypocrites. He promises Zion will bring forth her children as in a moment, comforting them like a mother, while gathering all nations to see his glory and pronouncing lasting judgment on the rebellious.",
+      "years": "about 701 BC",
+      "yearNum": -701,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["hope", "gathering-of-israel", "judgment"],
+      "characters": ["isaiah", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 6, "speaker": "the-lord", "to": "house-of-israel", "note": "The contrite honored above empty ritual" },
+        { "s": 7, "e": 17, "speaker": "the-lord", "to": "zion", "note": "Zion's children born in a moment; comfort like a mother" },
+        { "s": 18, "e": 24, "speaker": "the-lord", "to": "nations", "note": "Nations gathered to see the Lord's glory; judgment endures" }
+      ]
+    }
+  ]
+}

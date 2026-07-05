@@ -1,0 +1,22 @@
+{
+  "note": "The Restoration unfolds across the young United States — from a grove in western New York to a valley in the Rocky Mountains.",
+  "map": { "w": 1000, "h": 620 },
+  "places": [
+    { "id": "sharon-vt", "name": "Sharon, Vermont", "kind": "city", "x": 845, "y": 130, "desc": "Birthplace of Joseph Smith Jr., December 23, 1805 — a rocky hill farm and a family that read the Bible together." },
+    { "id": "palmyra", "name": "Palmyra & Manchester, New York", "kind": "capital", "x": 730, "y": 165, "desc": "The Sacred Grove, where the Father and the Son appeared in 1820; and the hill Cumorah, where Moroni's plates lay buried. The Book of Mormon was printed on Main Street in 1830." },
+    { "id": "fayette", "name": "Fayette, New York", "kind": "city", "x": 705, "y": 200, "desc": "The Whitmer farm — the translation finished, the Three Witnesses shown the plates, and the Church of Christ organized in a log home, April 6, 1830." },
+    { "id": "colesville", "name": "Colesville, New York", "kind": "city", "x": 760, "y": 245, "desc": "Home of the Knight family and the church's first branch — and the first miracle of the restored church." },
+    { "id": "harmony-pa", "name": "Harmony, Pennsylvania", "kind": "city", "x": 745, "y": 285, "desc": "Emma's hometown, where most of the Book of Mormon was translated — and where John the Baptist restored the Aaronic Priesthood on the Susquehanna's banks, May 15, 1829." },
+    { "id": "kirtland", "name": "Kirtland, Ohio", "kind": "capital", "x": 565, "y": 235, "desc": "The first gathering place, 1831–1838: the School of the Prophets, the vision of the degrees of glory, and a temple where the Savior, Moses, Elias, and Elijah appeared in one afternoon." },
+    { "id": "hiram-oh", "name": "Hiram, Ohio", "kind": "city", "x": 585, "y": 270, "desc": "The Johnson farm — Doctrine & Covenants 76 was seen here, and a mob's tar could not stop the work." },
+    { "id": "independence", "name": "Independence, Missouri", "kind": "capital", "x": 245, "y": 385, "desc": "Designated the center place of Zion in 1831 — a temple lot dedicated, a printing press raised and wrecked, and a people driven but not released from the dream." },
+    { "id": "liberty-jail", "name": "Liberty Jail, Missouri", "kind": "feature", "x": 235, "y": 350, "desc": "The 'temple-prison,' winter 1838–39. From its darkness came the light of Sections 121–123: 'Peace be unto thy soul; thine adversity... shall be but a small moment.'" },
+    { "id": "far-west", "name": "Far West, Missouri", "kind": "city", "x": 215, "y": 305, "desc": "Caldwell County's Latter-day Saint capital — cornerstones laid, revelations received, and the exodus of 1839 begun." },
+    { "id": "adam-ondi-ahman", "name": "Adam-ondi-Ahman, Missouri", "kind": "feature", "x": 240, "y": 275, "desc": "The valley 'where Adam shall come to visit his people' (D&C 116) — a settlement of weeks and a prophecy of ages." },
+    { "id": "nauvoo", "name": "Nauvoo, Illinois", "kind": "capital", "x": 335, "y": 300, "desc": "'The city beautiful,' raised from a malarial swamp on the Mississippi, 1839–1846 — a temple on the bluff, baptism for the dead, and the endowment." },
+    { "id": "carthage", "name": "Carthage, Illinois", "kind": "feature", "x": 350, "y": 330, "desc": "The jail where Joseph and Hyrum Smith were martyred, June 27, 1844 — 'like a lamb to the slaughter' (D&C 135)." },
+    { "id": "winter-quarters", "name": "Winter Quarters, Nebraska", "kind": "city", "x": 165, "y": 285, "desc": "The Missouri-River camp of the exiled saints, 1846–47 — where Brigham Young received the order of the Camp of Israel (D&C 136)." },
+    { "id": "salt-lake-valley", "name": "Salt Lake Valley, Utah", "kind": "capital", "x": 60, "y": 320, "desc": "'This is the right place.' The gathering's mountain home — and where, in 1918, Joseph F. Smith saw the redemption of the dead (D&C 138)." }
+  ],
+  "trail": [[730,165],[705,200],[745,285],[565,235],[215,305],[335,300],[165,285],[60,320]]
+}

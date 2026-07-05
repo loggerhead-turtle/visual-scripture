@@ -1,0 +1,54 @@
+{
+  "book": "Joel",
+  "slug": "joel",
+  "narrator": "chronicler",
+  "plates": "prophets-minor",
+  "chapters": [
+    {
+      "c": 1,
+      "title": "That Which the Locust Left",
+      "synopsis": "The word of the Lord comes to Joel the son of Pethuel as wave after wave of locusts strips the land bare, ruining vine, fig tree, and harvest. Joel calls the drunkards to weep, the priests to mourn, and all the land to sanctify a fast and cry unto the Lord, for the day of the Lord is at hand.",
+      "years": "about 830 BC",
+      "yearNum": -830,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["judgment", "repentance", "prophecy"],
+      "characters": ["the-lord"],
+      "segments": [
+        { "s": 1, "e": 1, "speaker": "chronicler", "to": "reader", "note": "The word of the Lord to Joel" },
+        { "s": 2, "e": 20, "speaker": "chronicler", "to": "house-of-israel", "note": "Joel laments the locusts; sanctify a fast" }
+      ]
+    },
+    {
+      "c": 2,
+      "title": "I Will Pour Out My Spirit",
+      "synopsis": "Joel describes the great and terrible day of the Lord as an unstoppable army before which the earth quakes, and the Lord pleads, turn ye even to me with all your heart, and rend your heart and not your garments. To a repentant people the Lord promises to restore the years the locust has eaten and to pour out his Spirit upon all flesh, so that sons and daughters prophesy. Moroni quoted this promise to Joseph Smith, saying it was soon to be fulfilled.",
+      "years": "about 830 BC",
+      "yearNum": -830,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["repentance", "revelation", "second-coming", "restoration"],
+      "characters": ["the-lord"],
+      "segments": [
+        { "s": 1, "e": 11, "speaker": "chronicler", "to": "house-of-israel", "note": "The army of the day of the Lord" },
+        { "s": 12, "e": 17, "speaker": "the-lord", "to": "house-of-israel", "note": "Rend your heart, and not your garments" },
+        { "s": 18, "e": 27, "speaker": "the-lord", "to": "house-of-israel", "note": "I will restore the years the locust ate" },
+        { "s": 28, "e": 32, "speaker": "the-lord", "to": "house-of-israel", "note": "My Spirit poured out upon all flesh" }
+      ]
+    },
+    {
+      "c": 3,
+      "title": "Multitudes in the Valley of Decision",
+      "synopsis": "The Lord promises that when he brings again the captivity of Judah and Jerusalem, he will gather all nations into the valley of Jehoshaphat and plead with them there for scattering his people. Multitudes wait in the valley of decision, the sun and moon are darkened, and the Lord roars out of Zion, where he will dwell with his people for ever.",
+      "years": "about 830 BC",
+      "yearNum": -830,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["judgment", "second-coming", "gathering-of-israel", "zion"],
+      "characters": ["the-lord"],
+      "segments": [
+        { "s": 1, "e": 21, "speaker": "the-lord", "to": "nations", "note": "All nations judged; the Lord dwells in Zion" }
+      ]
+    }
+  ]
+}

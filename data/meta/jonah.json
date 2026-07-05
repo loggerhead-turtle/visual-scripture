@@ -1,0 +1,74 @@
+{
+  "book": "Jonah",
+  "slug": "jonah",
+  "narrator": "jonah",
+  "plates": "prophets-minor",
+  "chapters": [
+    {
+      "c": 1,
+      "title": "Jonah Flees to Tarshish",
+      "synopsis": "The Lord commands Jonah to arise and cry against Nineveh, but Jonah flees instead toward Tarshish to escape the Lord's presence. A great storm threatens the ship, and when the mariners cast lots and find Jonah at fault, he asks to be thrown overboard so the sea will calm. The Lord prepares a great fish to swallow him.",
+      "years": "about 780 BC",
+      "yearNum": -780,
+      "approx": true,
+      "place": null,
+      "themes": ["obedience", "prophecy", "deliverance"],
+      "characters": ["jonah", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 3, "speaker": "the-lord", "to": "jonah", "note": "Arise, go to Nineveh; Jonah flees instead" },
+        { "s": 4, "e": 10, "speaker": "jonah", "to": "reader", "note": "Storm arises; mariners cast lots and find Jonah" },
+        { "s": 11, "e": 16, "speaker": "jonah", "to": "reader", "note": "Jonah cast into the sea; the storm ceases" },
+        { "s": 17, "e": 17, "speaker": "jonah", "to": "reader", "note": "The Lord prepares a great fish to swallow Jonah" }
+      ]
+    },
+    {
+      "c": 2,
+      "title": "Prayer from the Fish's Belly",
+      "synopsis": "Jonah prays to the Lord from inside the great fish, describing his descent to the deep, the weeds wrapped about his head, and the bars of the earth closing upon him. He remembers the Lord and vows to pay what he has vowed, declaring that salvation is of the Lord. The Lord speaks to the fish, and it vomits Jonah out upon dry land.",
+      "years": "about 780 BC",
+      "yearNum": -780,
+      "approx": true,
+      "place": null,
+      "themes": ["prayer", "deliverance", "faith"],
+      "characters": ["jonah", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 9, "speaker": "jonah", "to": "the-lord", "note": "Jonah's prayer of deliverance from the deep" },
+        { "s": 10, "e": 10, "speaker": "jonah", "to": "reader", "note": "The Lord speaks to the fish; it vomits Jonah out" }
+      ]
+    },
+    {
+      "c": 3,
+      "title": "Nineveh Repents in Sackcloth",
+      "synopsis": "The Lord sends Jonah a second time to Nineveh, and Jonah preaches that in forty days the city will be overthrown. The king and people of that great city believe God, proclaiming a fast and covering themselves in sackcloth from the greatest to the least. When God sees that they turn from their evil way, he relents of the destruction he had said he would bring.",
+      "years": "about 780 BC",
+      "yearNum": -780,
+      "approx": true,
+      "place": "nineveh",
+      "themes": ["repentance", "judgment", "justice-and-mercy"],
+      "characters": ["jonah", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 2, "speaker": "the-lord", "to": "jonah", "note": "The Lord sends Jonah to Nineveh a second time" },
+        { "s": 3, "e": 4, "speaker": "jonah", "to": "reader", "note": "Jonah preaches: yet forty days, Nineveh destroyed" },
+        { "s": 5, "e": 9, "speaker": "jonah", "to": "reader", "note": "The king and people repent in sackcloth and ashes" },
+        { "s": 10, "e": 10, "speaker": "jonah", "to": "reader", "note": "God sees their works and relents from the evil" }
+      ]
+    },
+    {
+      "c": 4,
+      "title": "The Gourd and Jonah's Anger",
+      "synopsis": "Jonah is displeased and angry that the Lord spares Nineveh, asking to die rather than see mercy granted to the city he preached against. The Lord prepares a gourd to shade Jonah, then a worm to destroy it, teaching him through his grief over the plant. The Lord asks whether he should not have compassion on Nineveh, that great city of many thousands.",
+      "years": "about 780 BC",
+      "yearNum": -780,
+      "approx": true,
+      "place": "nineveh",
+      "themes": ["justice-and-mercy", "humility", "charity"],
+      "characters": ["jonah", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 3, "speaker": "jonah", "to": "the-lord", "note": "Jonah displeased; asks to die rather than see mercy" },
+        { "s": 4, "e": 4, "speaker": "the-lord", "to": "jonah", "note": "Doest thou well to be angry?" },
+        { "s": 5, "e": 8, "speaker": "jonah", "to": "reader", "note": "Jonah waits; the Lord prepares a gourd, then a worm" },
+        { "s": 9, "e": 11, "speaker": "the-lord", "to": "jonah", "note": "Should not I spare Nineveh, that great city?" }
+      ]
+    }
+  ]
+}

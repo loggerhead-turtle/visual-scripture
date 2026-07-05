@@ -1,0 +1,1010 @@
+{
+  "book": "Doctrine & Covenants",
+  "slug": "dc",
+  "narrator": "joseph-smith",
+  "plates": "dc-kirtland",
+  "chapters": [
+    {
+      "c": 71,
+      "title": "Proclaim the Gospel, Confound Enemies",
+      "synopsis": "The Lord calls Joseph Smith and Sidney Rigdon to lay aside the Bible translation and preach in the surrounding regions. They are to allay unkind feelings stirred up by apostate letters, confounding their enemies by declaring the truth openly.",
+      "years": "December 1, 1831",
+      "yearNum": 1831,
+      "approx": false,
+      "place": "hiram-oh",
+      "themes": ["missionary-work", "revelation"],
+      "characters": ["joseph-smith", "sidney-rigdon"],
+      "segments": [
+        { "s": 1, "e": 11, "speaker": "the-lord", "to": "sidney-rigdon", "note": "Joseph and Sidney called to proclaim and defend the gospel" }
+      ]
+    },
+    {
+      "c": 72,
+      "title": "A Bishop Called in Kirtland",
+      "synopsis": "Newel K. Whitney is appointed bishop for the Kirtland area. The Lord outlines the bishop's duties over the storehouse and the stewardships of the elders, requiring an account of every steward.",
+      "years": "December 4, 1831",
+      "yearNum": 1831,
+      "approx": false,
+      "place": "kirtland",
+      "themes": ["leadership", "consecration"],
+      "characters": ["joseph-smith", "newel-k-whitney"],
+      "segments": [
+        { "s": 1, "e": 26, "speaker": "the-lord", "to": "elders", "note": "Newel K. Whitney called as bishop; duties of stewardship" }
+      ]
+    },
+    {
+      "c": 73,
+      "title": "Return to the Translation",
+      "synopsis": "After weeks of preaching, Joseph Smith and Sidney Rigdon are told to resume the inspired translation of the Bible. They are to continue preaching only until the conference, then labor on the scriptures again.",
+      "years": "January 10, 1832",
+      "yearNum": 1832,
+      "approx": false,
+      "place": "hiram-oh",
+      "themes": ["records", "revelation"],
+      "characters": ["joseph-smith", "sidney-rigdon"],
+      "segments": [
+        { "s": 1, "e": 6, "speaker": "the-lord", "to": "sidney-rigdon", "note": "Resume the inspired translation of the scriptures" }
+      ]
+    },
+    {
+      "c": 74,
+      "title": "Little Children Are Holy",
+      "synopsis": "The Lord explains Paul's words about believing and unbelieving marriage partners. Little children are holy, sanctified through the atonement of Jesus Christ, and do not need the law of circumcision.",
+      "years": "January 1832",
+      "yearNum": 1832,
+      "approx": true,
+      "place": "hiram-oh",
+      "themes": ["family", "atonement"],
+      "characters": ["joseph-smith", "paul"],
+      "segments": [
+        { "s": 1, "e": 7, "speaker": "the-lord", "to": "joseph-smith", "note": "Explanation of 1 Corinthians 7:14; children are holy" }
+      ]
+    },
+    {
+      "c": 75,
+      "title": "Missionaries Sent Two by Two",
+      "synopsis": "At a conference in Amherst, Ohio, the Lord calls many elders on missions, pairing them companion by companion. He promises that those who are faithful will be laden with sheaves and instructs the church to support missionaries' families.",
+      "years": "January 25, 1832",
+      "yearNum": 1832,
+      "approx": false,
+      "place": null,
+      "themes": ["missionary-work", "obedience", "family"],
+      "characters": ["joseph-smith"],
+      "segments": [
+        { "s": 1, "e": 36, "speaker": "the-lord", "to": "elders", "note": "Elders called two by two to proclaim the gospel" }
+      ]
+    },
+    {
+      "c": 76,
+      "title": "The Vision of Three Glories",
+      "synopsis": "While pondering the resurrection, Joseph Smith and Sidney Rigdon see a vision of the Savior at the right hand of God and bear record that he lives. They behold the fall of Lucifer, the fate of the sons of perdition, and the celestial, terrestrial, and telestial kingdoms of glory.",
+      "years": "February 16, 1832",
+      "yearNum": 1832,
+      "approx": false,
+      "place": "hiram-oh",
+      "themes": ["revelation", "resurrection", "judgment"],
+      "characters": ["joseph-smith", "sidney-rigdon", "jesus-christ", "god-the-father", "satan"],
+      "segments": [
+        { "s": 1, "e": 10, "speaker": "the-lord", "to": "church", "note": "The Lord promises to reveal mysteries to the faithful" },
+        { "s": 11, "e": 24, "speaker": "joseph-smith", "to": "church", "note": "The vision of the Son: he lives" },
+        { "s": 25, "e": 49, "speaker": "joseph-smith", "to": "church", "note": "Fall of Lucifer and the sons of perdition" },
+        { "s": 50, "e": 70, "speaker": "joseph-smith", "to": "church", "note": "The celestial glory described" },
+        { "s": 71, "e": 80, "speaker": "joseph-smith", "to": "church", "note": "The terrestrial glory described" },
+        { "s": 81, "e": 113, "speaker": "joseph-smith", "to": "church", "note": "The telestial glory described" },
+        { "s": 114, "e": 119, "speaker": "joseph-smith", "to": "church", "note": "Great things seen, unlawful to utter" }
+      ]
+    },
+    {
+      "c": 77,
+      "title": "Keys to John's Revelation",
+      "synopsis": "In a series of questions and answers, the Lord explains symbols from the book of Revelation. The beasts, the sealed book, the seven seals, and the earth's seven thousand years of temporal existence are unfolded.",
+      "years": "March 1832",
+      "yearNum": 1832,
+      "approx": true,
+      "place": "hiram-oh",
+      "themes": ["revelation", "prophecy"],
+      "characters": ["joseph-smith", "john-beloved"],
+      "segments": [
+        { "s": 1, "e": 15, "speaker": "the-lord", "to": "joseph-smith", "note": "Questions and answers on the book of Revelation" }
+      ]
+    },
+    {
+      "c": 78,
+      "title": "A Storehouse for the Poor",
+      "synopsis": "The Lord directs the organization of a united firm to manage the storehouse and publishing concerns for the poor. He who receives all things with thankfulness shall be made glorious, for the earth and its fulness are the Lord's.",
+      "years": "March 1, 1832",
+      "yearNum": 1832,
+      "approx": false,
+      "place": "hiram-oh",
+      "themes": ["consecration", "covenant"],
+      "characters": ["joseph-smith", "newel-k-whitney", "sidney-rigdon"],
+      "segments": [
+        { "s": 1, "e": 22, "speaker": "the-lord", "to": "elders", "note": "An order established for the storehouse and the poor" }
+      ]
+    },
+    {
+      "c": 79,
+      "title": "A Mission to the East",
+      "synopsis": "Jared Carter is called to preach the gospel in the eastern countries in the power of his ordination. The Comforter will teach him truth, and if faithful he will be crowned with sheaves.",
+      "years": "March 12, 1832",
+      "yearNum": 1832,
+      "approx": false,
+      "place": "hiram-oh",
+      "themes": ["missionary-work"],
+      "characters": ["joseph-smith"],
+      "segments": [
+        { "s": 1, "e": 4, "speaker": "the-lord", "to": "elders", "note": "Jared Carter called to the eastern countries" }
+      ]
+    },
+    {
+      "c": 80,
+      "title": "You Cannot Go Amiss",
+      "synopsis": "Stephen Burnett is called to preach with Eden Smith as his companion. The Lord tells them to go north or south, east or west, for they cannot go amiss, declaring the things they have heard and believed.",
+      "years": "March 7, 1832",
+      "yearNum": 1832,
+      "approx": false,
+      "place": "hiram-oh",
+      "themes": ["missionary-work", "faith"],
+      "characters": ["joseph-smith"],
+      "segments": [
+        { "s": 1, "e": 5, "speaker": "the-lord", "to": "elders", "note": "Preach wherever you go; you cannot go amiss" }
+      ]
+    },
+    {
+      "c": 81,
+      "title": "A Counselor in the Presidency",
+      "synopsis": "A counselor is called to hold the keys of the kingdom with Joseph Smith in the Presidency of the High Priesthood. He is to be faithful in counsel, pray always, and succor the weak and lift up the hands which hang down.",
+      "years": "March 15, 1832",
+      "yearNum": 1832,
+      "approx": false,
+      "place": "hiram-oh",
+      "themes": ["leadership", "priesthood", "charity"],
+      "characters": ["joseph-smith"],
+      "segments": [
+        { "s": 1, "e": 7, "speaker": "the-lord", "to": "elders", "note": "A counselor called; succor the weak" }
+      ]
+    },
+    {
+      "c": 82,
+      "title": "Where Much Is Given",
+      "synopsis": "In Zion the Lord commands the leading elders to forgive one another and binds them in a united order for the benefit of the poor. Unto whom much is given much is required, and the Lord is bound when we do what he says.",
+      "years": "April 26, 1832",
+      "yearNum": 1832,
+      "approx": false,
+      "place": "independence",
+      "plates": "dc-missouri",
+      "themes": ["covenant", "consecration", "obedience"],
+      "characters": ["joseph-smith", "sidney-rigdon", "newel-k-whitney"],
+      "segments": [
+        { "s": 1, "e": 24, "speaker": "the-lord", "to": "elders", "note": "Forgive one another; a covenant order for the poor" }
+      ]
+    },
+    {
+      "c": 83,
+      "title": "Caring for Widows and Children",
+      "synopsis": "The Lord sets the order for supporting families in Zion. Women and children have claim upon their husbands and fathers, and widows and orphans have claim upon the church and the storehouse.",
+      "years": "April 30, 1832",
+      "yearNum": 1832,
+      "approx": false,
+      "place": "independence",
+      "plates": "dc-missouri",
+      "themes": ["family", "charity", "consecration"],
+      "characters": ["joseph-smith"],
+      "segments": [
+        { "s": 1, "e": 6, "speaker": "the-lord", "to": "church", "note": "Families, widows, and orphans have claim on the storehouse" }
+      ]
+    },
+    {
+      "c": 84,
+      "title": "The Oath and Covenant of Priesthood",
+      "synopsis": "The Lord reveals the lineage of the priesthood from Adam through Moses and explains the oath and covenant that belongs to it. Those who receive the priesthood and magnify their callings receive all that the Father has, and the elders are charged to preach the gospel to every creature.",
+      "years": "September 22-23, 1832",
+      "yearNum": 1832,
+      "approx": false,
+      "place": "kirtland",
+      "themes": ["priesthood", "covenant", "missionary-work"],
+      "characters": ["joseph-smith", "moses", "aaron"],
+      "segments": [
+        { "s": 1, "e": 42, "speaker": "the-lord", "to": "elders", "note": "Priesthood lineage; the oath and covenant" },
+        { "s": 43, "e": 102, "speaker": "the-lord", "to": "elders", "note": "Live by every word of God; the missionary charge" },
+        { "s": 103, "e": 120, "speaker": "the-lord", "to": "elders", "note": "Practical instructions for traveling ministers" }
+      ]
+    },
+    {
+      "c": 85,
+      "title": "One Mighty and Strong",
+      "synopsis": "In a letter to Zion, the Lord's word directs that the clerk keep a record of those who consecrate and receive inheritances. Those not found on the book of the law of God shall have no inheritance, and one mighty and strong will set in order the house of God.",
+      "years": "November 27, 1832",
+      "yearNum": 1832,
+      "approx": false,
+      "place": "kirtland",
+      "themes": ["records", "consecration", "obedience"],
+      "characters": ["joseph-smith", "william-w-phelps"],
+      "segments": [
+        { "s": 1, "e": 12, "speaker": "the-lord", "to": "william-w-phelps", "note": "Keep the record of inheritances in Zion" }
+      ]
+    },
+    {
+      "c": 86,
+      "title": "The Wheat and the Tares",
+      "synopsis": "The Lord explains the parable of the wheat and the tares: the tares must ripen before the field is burned, and the wheat is gathered first. The elders are lawful heirs of the priesthood, hidden with Christ, and their priesthood shall remain through their lineage.",
+      "years": "December 6, 1832",
+      "yearNum": 1832,
+      "approx": false,
+      "place": "kirtland",
+      "themes": ["prophecy", "priesthood", "gathering-of-israel"],
+      "characters": ["joseph-smith"],
+      "segments": [
+        { "s": 1, "e": 11, "speaker": "the-lord", "to": "church", "note": "Parable of wheat and tares; heirs of the priesthood" }
+      ]
+    },
+    {
+      "c": 87,
+      "title": "Prophecy on War",
+      "synopsis": "Joseph Smith receives a prophecy that war will shortly come to pass, beginning at the rebellion of South Carolina. War will be poured out upon all nations until a full end of all nations, and the saints are told to stand in holy places and be not moved.",
+      "years": "December 25, 1832",
+      "yearNum": 1832,
+      "approx": false,
+      "place": "kirtland",
+      "themes": ["prophecy", "war"],
+      "characters": ["joseph-smith"],
+      "segments": [
+        { "s": 1, "e": 8, "speaker": "the-lord", "to": "church", "note": "Wars foretold, beginning with South Carolina" }
+      ]
+    },
+    {
+      "c": 88,
+      "title": "The Olive Leaf",
+      "synopsis": "Called the olive leaf plucked from the Tree of Paradise, this revelation teaches that the light of Christ fills the immensity of space and governs all things. The Lord unfolds the order of the resurrections and the Second Coming, and commands the saints to organize a school of the prophets and build a house of God.",
+      "years": "December 27, 1832 - January 3, 1833",
+      "yearNum": 1832,
+      "approx": false,
+      "place": "kirtland",
+      "themes": ["revelation", "second-coming", "temple", "wisdom"],
+      "characters": ["joseph-smith", "jesus-christ"],
+      "segments": [
+        { "s": 1, "e": 45, "speaker": "the-lord", "to": "elders", "note": "The light of Christ fills the immensity of space" },
+        { "s": 46, "e": 116, "speaker": "the-lord", "to": "elders", "note": "Resurrections, the Second Coming, and the parable of the kingdoms" },
+        { "s": 117, "e": 141, "speaker": "the-lord", "to": "elders", "note": "A house of God and the school of the prophets" }
+      ]
+    },
+    {
+      "c": 89,
+      "title": "The Word of Wisdom",
+      "synopsis": "The Lord gives a word of wisdom for the temporal salvation of the saints, counseling against wine, strong drink, tobacco, and hot drinks. Wholesome herbs, grains, and fruits are ordained for man's use, and those who obey are promised health, wisdom, and protection from the destroying angel.",
+      "years": "February 27, 1833",
+      "yearNum": 1833,
+      "approx": false,
+      "place": "kirtland",
+      "themes": ["word-of-wisdom", "obedience"],
+      "characters": ["joseph-smith"],
+      "segments": [
+        { "s": 1, "e": 21, "speaker": "the-lord", "to": "church", "note": "A principle with promise for the saints' health" }
+      ]
+    },
+    {
+      "c": 90,
+      "title": "Oracles for the First Presidency",
+      "synopsis": "The keys of the kingdom are confirmed upon Joseph Smith, and his counselors are appointed to be accounted as equal with him in holding the keys of this last dispensation. The oracles are to be given through him to the church, and the gospel is to go to all nations.",
+      "years": "March 8, 1833",
+      "yearNum": 1833,
+      "approx": false,
+      "place": "kirtland",
+      "themes": ["priesthood", "leadership", "revelation"],
+      "characters": ["joseph-smith", "sidney-rigdon"],
+      "segments": [
+        { "s": 1, "e": 37, "speaker": "the-lord", "to": "joseph-smith", "note": "Keys of the kingdom; the Presidency established" }
+      ]
+    },
+    {
+      "c": 91,
+      "title": "Concerning the Apocrypha",
+      "synopsis": "As Joseph Smith works on the Bible translation, the Lord tells him it is not needful to translate the Apocrypha. It contains many true things and many interpolations of men, and whoever reads it with the Spirit shall obtain benefit.",
+      "years": "March 9, 1833",
+      "yearNum": 1833,
+      "approx": false,
+      "place": "kirtland",
+      "themes": ["records", "wisdom"],
+      "characters": ["joseph-smith"],
+      "segments": [
+        { "s": 1, "e": 6, "speaker": "the-lord", "to": "joseph-smith", "note": "The Apocrypha: true things and interpolations of men" }
+      ]
+    },
+    {
+      "c": 92,
+      "title": "Received into the Order",
+      "synopsis": "Frederick G. Williams is received into the united order and told to be a lively member. The Lord promises that as he is faithful in keeping the commandments, he will be blessed forever.",
+      "years": "March 15, 1833",
+      "yearNum": 1833,
+      "approx": false,
+      "place": "kirtland",
+      "themes": ["consecration", "obedience"],
+      "characters": ["joseph-smith"],
+      "segments": [
+        { "s": 1, "e": 2, "speaker": "the-lord", "to": "elders", "note": "A new member received into the united order" }
+      ]
+    },
+    {
+      "c": 93,
+      "title": "Light, Truth, and Intelligence",
+      "synopsis": "The Lord declares that all who forsake sin and come unto him shall see his face and know that he is. Quoting the record of John, he teaches that Christ received grace for grace until he received a fulness, that intelligence is the glory of God, and that truth and intelligence were not created.",
+      "years": "May 6, 1833",
+      "yearNum": 1833,
+      "approx": false,
+      "place": "kirtland",
+      "themes": ["revelation", "agency", "wisdom"],
+      "characters": ["joseph-smith", "jesus-christ"],
+      "segments": [
+        { "s": 1, "e": 53, "speaker": "the-lord", "to": "church", "note": "The glory of God is intelligence; grace for grace" }
+      ]
+    },
+    {
+      "c": 94,
+      "title": "Houses for the Work of God",
+      "synopsis": "The Lord gives directions for building up Kirtland as a stake of Zion. A house for the Presidency and a house for printing the scriptures are to be built on dedicated lots, kept holy and undefiled.",
+      "years": "August 2, 1833",
+      "yearNum": 1833,
+      "approx": false,
+      "place": "kirtland",
+      "themes": ["zion", "consecration"],
+      "characters": ["joseph-smith"],
+      "segments": [
+        { "s": 1, "e": 17, "speaker": "the-lord", "to": "church", "note": "Houses commanded for the Presidency and for printing" }
+      ]
+    },
+    {
+      "c": 95,
+      "title": "Chastened for the Temple Delay",
+      "synopsis": "The Lord chastens the saints for neglecting to build the house in Kirtland, for whom he loves he also chastens. He renews the commandment, promising to endow his servants with power from on high, and reveals the pattern of the building.",
+      "years": "June 1, 1833",
+      "yearNum": 1833,
+      "approx": false,
+      "place": "kirtland",
+      "themes": ["temple", "repentance", "obedience"],
+      "characters": ["joseph-smith"],
+      "segments": [
+        { "s": 1, "e": 17, "speaker": "the-lord", "to": "church", "note": "Build my house; whom I love I chasten" }
+      ]
+    },
+    {
+      "c": 96,
+      "title": "Order of the Kirtland Stake",
+      "synopsis": "The Lord directs the division of the Kirtland farm, appointing Newel K. Whitney to take charge of the place for the stake of Zion. Part of the land is set apart for the literary firm, and John Johnson is received into the order.",
+      "years": "June 4, 1833",
+      "yearNum": 1833,
+      "approx": false,
+      "place": "kirtland",
+      "themes": ["leadership", "consecration", "zion"],
+      "characters": ["joseph-smith", "newel-k-whitney"],
+      "segments": [
+        { "s": 1, "e": 9, "speaker": "the-lord", "to": "elders", "note": "The stake strengthened; stewardship over the farm" }
+      ]
+    },
+    {
+      "c": 97,
+      "title": "Zion Must Be Pure in Heart",
+      "synopsis": "The Lord approves the school of the elders in Zion and commands a temple to be built in Independence. Zion is the pure in heart; if she does what the Lord commands she shall escape, but otherwise sore affliction awaits.",
+      "years": "August 2, 1833",
+      "yearNum": 1833,
+      "approx": false,
+      "place": "kirtland",
+      "plates": "dc-missouri",
+      "themes": ["zion", "temple", "obedience"],
+      "characters": ["joseph-smith", "william-w-phelps"],
+      "segments": [
+        { "s": 1, "e": 28, "speaker": "the-lord", "to": "church", "note": "Zion, the pure in heart, must build a house" }
+      ]
+    },
+    {
+      "c": 98,
+      "title": "Renounce War, Proclaim Peace",
+      "synopsis": "As persecution rises in Missouri, the Lord counsels the saints to be patient in affliction and to befriend constitutional law. He gives the law of forgiveness toward enemies, commanding his people to renounce war and proclaim peace, bearing offenses and forgiving even repeated wrongs.",
+      "years": "August 6, 1833",
+      "yearNum": 1833,
+      "approx": false,
+      "place": "kirtland",
+      "plates": "dc-missouri",
+      "themes": ["peace", "endurance", "justice-and-mercy"],
+      "characters": ["joseph-smith"],
+      "segments": [
+        { "s": 1, "e": 48, "speaker": "the-lord", "to": "church", "note": "Be patient in affliction; forgive your enemies" }
+      ]
+    },
+    {
+      "c": 99,
+      "title": "Called to the Eastern Countries",
+      "synopsis": "John Murdock is called to proclaim the everlasting gospel in the eastern countries. Whoever receives him receives the Lord, and after his children are provided for he is to go up unto the land of Zion.",
+      "years": "August 1832",
+      "yearNum": 1832,
+      "approx": true,
+      "place": "hiram-oh",
+      "themes": ["missionary-work", "family"],
+      "characters": ["joseph-smith"],
+      "segments": [
+        { "s": 1, "e": 8, "speaker": "the-lord", "to": "elders", "note": "John Murdock called to proclaim the gospel" }
+      ]
+    },
+    {
+      "c": 100,
+      "title": "Your Families Are in My Hands",
+      "synopsis": "While Joseph Smith and Sidney Rigdon preach in New York, the Lord assures them that their families are well and in his hands. He promises to give them in the very hour what to say, and declares that Zion shall be redeemed though she is chastened for a little season.",
+      "years": "October 12, 1833",
+      "yearNum": 1833,
+      "approx": false,
+      "place": null,
+      "themes": ["missionary-work", "family", "revelation"],
+      "characters": ["joseph-smith", "sidney-rigdon"],
+      "segments": [
+        { "s": 1, "e": 17, "speaker": "the-lord", "to": "sidney-rigdon", "note": "It shall be given you what to say" }
+      ]
+    },
+    {
+      "c": 101,
+      "title": "Why Zion Was Scattered",
+      "synopsis": "After the saints are driven from Jackson County, the Lord explains that they were afflicted because of their transgressions, yet he will own them and Zion shall not be moved out of her place. In the parable of the nobleman and the olive trees he shows why the watchmen failed, and he commands the saints to continue gathering and to seek redress from judges and rulers.",
+      "years": "December 16, 1833",
+      "yearNum": 1833,
+      "approx": false,
+      "place": "kirtland",
+      "plates": "dc-missouri",
+      "themes": ["zion", "endurance", "deliverance"],
+      "characters": ["joseph-smith"],
+      "segments": [
+        { "s": 1, "e": 42, "speaker": "the-lord", "to": "church", "note": "Zion chastened, yet her redemption is sure" },
+        { "s": 43, "e": 62, "speaker": "the-lord", "to": "church", "note": "Parable of the nobleman and the olive trees" },
+        { "s": 63, "e": 101, "speaker": "the-lord", "to": "church", "note": "Continue the gathering; importune for redress" }
+      ]
+    },
+    {
+      "c": 102,
+      "title": "The First High Council",
+      "synopsis": "Minutes record the organization of the first high council of the church at Kirtland. Procedures are set for trying difficult cases, appointing councilors to speak, and rendering decisions in righteousness under the president's direction.",
+      "years": "February 17, 1834",
+      "yearNum": 1834,
+      "approx": false,
+      "place": "kirtland",
+      "themes": ["leadership", "justice-and-mercy"],
+      "characters": ["joseph-smith", "oliver-cowdery"],
+      "segments": [
+        { "s": 1, "e": 34, "speaker": "joseph-smith", "to": "church", "note": "Minutes: the first high council organized" }
+      ]
+    },
+    {
+      "c": 103,
+      "title": "The Redemption of Zion",
+      "synopsis": "The Lord explains why the saints were driven from Jackson County and promises that the redemption of Zion will come by power. Joseph Smith is directed to gather the strength of the Lord's house, and volunteers are recruited for the camp that will march to Missouri.",
+      "years": "February 24, 1834",
+      "yearNum": 1834,
+      "approx": false,
+      "place": "kirtland",
+      "plates": "dc-missouri",
+      "themes": ["zion", "deliverance", "obedience"],
+      "characters": ["joseph-smith", "parley-p-pratt"],
+      "segments": [
+        { "s": 1, "e": 40, "speaker": "the-lord", "to": "church", "note": "Zion's redemption by power; gather the camp" }
+      ]
+    },
+    {
+      "c": 104,
+      "title": "The United Order Reorganized",
+      "synopsis": "The Lord reorganizes the united order, assigning individual stewardships to its members. The earth is full and there is enough and to spare, but the abundance must be imparted to the poor through the Lord's storehouse and treasury.",
+      "years": "April 23, 1834",
+      "yearNum": 1834,
+      "approx": false,
+      "place": "kirtland",
+      "themes": ["consecration", "covenant", "charity"],
+      "characters": ["joseph-smith", "newel-k-whitney", "sidney-rigdon", "oliver-cowdery"],
+      "segments": [
+        { "s": 1, "e": 86, "speaker": "the-lord", "to": "elders", "note": "Stewardships assigned; the earth is full, and to spare" }
+      ]
+    },
+    {
+      "c": 105,
+      "title": "Wait for a Little Season",
+      "synopsis": "On Fishing River the Lord tells Zion's Camp that Zion's redemption must wait for a little season until the elders are endowed with power in the house at Kirtland. The saints are to sue for peace and grow in favor until the armies of Israel become very great.",
+      "years": "June 22, 1834",
+      "yearNum": 1834,
+      "approx": false,
+      "place": null,
+      "plates": "dc-missouri",
+      "themes": ["zion", "endurance", "peace"],
+      "characters": ["joseph-smith"],
+      "segments": [
+        { "s": 1, "e": 41, "speaker": "the-lord", "to": "church", "note": "Zion's redemption deferred; the camp to disband" }
+      ]
+    },
+    {
+      "c": 106,
+      "title": "Gird Up Your Loins to Preside",
+      "synopsis": "Warren A. Cowdery is called to preside over the church in the Freedom, New York, area. The Lord promises grace and assurance to those who humble themselves, for the coming of the Lord overtakes the children of light as a thief in the night no more.",
+      "years": "November 25, 1834",
+      "yearNum": 1834,
+      "approx": false,
+      "place": "kirtland",
+      "themes": ["leadership", "second-coming"],
+      "characters": ["joseph-smith"],
+      "segments": [
+        { "s": 1, "e": 8, "speaker": "the-lord", "to": "elders", "note": "A presiding officer called; children of the light" }
+      ]
+    },
+    {
+      "c": 107,
+      "title": "Order of the Priesthood Quorums",
+      "synopsis": "This great revelation on priesthood sets forth the Melchizedek and Aaronic priesthoods and the presiding quorums of the church: the First Presidency, the Twelve, and the Seventy. It traces the order of the priesthood from Adam and details the duties of every office, charging all to learn their duty and act in all diligence.",
+      "years": "March 28, 1835",
+      "yearNum": 1835,
+      "approx": false,
+      "place": "kirtland",
+      "themes": ["priesthood", "leadership"],
+      "characters": ["joseph-smith", "adam"],
+      "segments": [
+        { "s": 1, "e": 58, "speaker": "the-lord", "to": "church", "note": "Two priesthoods and the presiding quorums" },
+        { "s": 59, "e": 100, "speaker": "the-lord", "to": "church", "note": "Duties of the offices; let every man learn his duty" }
+      ]
+    },
+    {
+      "c": 108,
+      "title": "Strengthen Your Brethren",
+      "synopsis": "Lyman Sherman's sins are forgiven, and he is told to resist no more the voice of the Lord. He is promised a place among his brethren and charged to strengthen them in all his conversation, prayers, and doings.",
+      "years": "December 26, 1835",
+      "yearNum": 1835,
+      "approx": false,
+      "place": "kirtland",
+      "themes": ["repentance", "hope"],
+      "characters": ["joseph-smith"],
+      "segments": [
+        { "s": 1, "e": 8, "speaker": "the-lord", "to": "elders", "note": "Sins forgiven; strengthen your brethren" }
+      ]
+    },
+    {
+      "c": 109,
+      "title": "Dedication of the Kirtland Temple",
+      "synopsis": "Joseph Smith offers the dedicatory prayer for the Kirtland Temple, given to him by revelation. He asks the Lord to accept the house built through great tribulation, to endow his servants with power, and to gather and prosper Israel, that the Lord's glory may rest upon his people.",
+      "years": "March 27, 1836",
+      "yearNum": 1836,
+      "approx": false,
+      "place": "kirtland",
+      "themes": ["temple", "prayer", "worship"],
+      "characters": ["joseph-smith"],
+      "segments": [
+        { "s": 1, "e": 80, "speaker": "joseph-smith", "to": "the-lord", "note": "The dedicatory prayer for the house of the Lord" }
+      ]
+    },
+    {
+      "c": 110,
+      "title": "Visions in the Kirtland Temple",
+      "synopsis": "A week after the dedication, the Savior appears to Joseph Smith and Oliver Cowdery in the Kirtland Temple and accepts the house. Moses, Elias, and Elijah then appear in turn, committing the keys of the gathering of Israel, the gospel of Abraham, and the sealing power promised by Malachi.",
+      "years": "April 3, 1836",
+      "yearNum": 1836,
+      "approx": false,
+      "place": "kirtland",
+      "themes": ["restoration", "temple", "gathering-of-israel"],
+      "characters": ["jesus-christ", "moses", "elijah", "joseph-smith", "oliver-cowdery"],
+      "segments": [
+        { "s": 1, "e": 3, "speaker": "joseph-smith", "to": "church", "note": "Joseph and Oliver behold the Lord" },
+        { "s": 4, "e": 10, "speaker": "jesus-christ", "to": "joseph-smith", "note": "The Savior accepts his house" },
+        { "s": 11, "e": 16, "speaker": "joseph-smith", "to": "church", "note": "Moses, Elias, and Elijah commit their keys" }
+      ]
+    },
+    {
+      "c": 111,
+      "title": "Treasure More Precious Than Gold",
+      "synopsis": "In Salem, Massachusetts, the Lord tells Joseph Smith he is not displeased with the journey despite its follies. There is much treasure in the city for the good of Zion, and many people whom the Lord will gather in due time.",
+      "years": "August 6, 1836",
+      "yearNum": 1836,
+      "approx": false,
+      "place": null,
+      "themes": ["hope", "faith"],
+      "characters": ["joseph-smith"],
+      "segments": [
+        { "s": 1, "e": 11, "speaker": "the-lord", "to": "joseph-smith", "note": "Concern yourselves not; treasure and people in this city" }
+      ]
+    },
+    {
+      "c": 112,
+      "title": "Counsel to the Twelve",
+      "synopsis": "Thomas B. Marsh, president of the Twelve Apostles, is counseled to be humble, to pray always, and to admonish the quorum sharply for the Lord's name's sake. Vengeance will begin upon the Lord's house, and the keys of the dispensation stand with the First Presidency.",
+      "years": "July 23, 1837",
+      "yearNum": 1837,
+      "approx": false,
+      "place": "kirtland",
+      "themes": ["leadership", "humility", "missionary-work"],
+      "characters": ["thomas-b-marsh", "joseph-smith"],
+      "segments": [
+        { "s": 1, "e": 34, "speaker": "the-lord", "to": "thomas-b-marsh", "note": "Be humble; send the Twelve to all nations" }
+      ]
+    },
+    {
+      "c": 113,
+      "title": "Questions on Isaiah Answered",
+      "synopsis": "The Lord answers questions about Isaiah's prophecies of the stem, rod, and root of Jesse. Zion is called to put on her strength by returning to the authority of the priesthood and loosing herself from the bands of her neck.",
+      "years": "March 1838",
+      "yearNum": 1838,
+      "approx": true,
+      "place": "far-west",
+      "plates": "dc-missouri",
+      "themes": ["prophecy", "records"],
+      "characters": ["joseph-smith", "isaiah"],
+      "segments": [
+        { "s": 1, "e": 10, "speaker": "the-lord", "to": "joseph-smith", "note": "The stem, rod, and root of Jesse explained" }
+      ]
+    },
+    {
+      "c": 114,
+      "title": "A Mission Call for David Patten",
+      "synopsis": "David W. Patten is told to settle his business and prepare for a mission the following spring with the Twelve. Offices held by the unfaithful will be given to others.",
+      "years": "April 11, 1838",
+      "yearNum": 1838,
+      "approx": false,
+      "place": "far-west",
+      "plates": "dc-missouri",
+      "themes": ["missionary-work", "obedience"],
+      "characters": ["joseph-smith"],
+      "segments": [
+        { "s": 1, "e": 2, "speaker": "the-lord", "to": "elders", "note": "Prepare for a mission in the spring" }
+      ]
+    },
+    {
+      "c": 115,
+      "title": "The Church Receives Its Name",
+      "synopsis": "The Lord names his church The Church of Jesus Christ of Latter-day Saints and commands the saints to arise and shine forth as a standard for the nations. Far West is declared holy ground, and a house is to be built there.",
+      "years": "April 26, 1838",
+      "yearNum": 1838,
+      "approx": false,
+      "place": "far-west",
+      "plates": "dc-missouri",
+      "themes": ["restoration", "zion", "temple"],
+      "characters": ["joseph-smith", "sidney-rigdon", "hyrum-smith"],
+      "segments": [
+        { "s": 1, "e": 19, "speaker": "the-lord", "to": "church", "note": "The church named; arise and shine forth" }
+      ]
+    },
+    {
+      "c": 116,
+      "title": "Adam-ondi-Ahman Named",
+      "synopsis": "Spring Hill in Daviess County, Missouri, is named Adam-ondi-Ahman by the mouth of the Lord. It is the place where Adam, the Ancient of Days, shall come to visit his people as spoken of by Daniel the prophet.",
+      "years": "May 19, 1838",
+      "yearNum": 1838,
+      "approx": false,
+      "place": "adam-ondi-ahman",
+      "plates": "dc-missouri",
+      "themes": ["second-coming", "prophecy"],
+      "characters": ["joseph-smith", "adam"],
+      "segments": [
+        { "s": 1, "e": 1, "speaker": "the-lord", "to": "church", "note": "Spring Hill named Adam-ondi-Ahman" }
+      ]
+    },
+    {
+      "c": 117,
+      "title": "What Is Property unto Me?",
+      "synopsis": "William Marks and Newel K. Whitney are commanded to leave their business concerns in Kirtland and gather to Missouri before winter. The Lord asks what property is to him, and Oliver Granger is promised that his name shall be had in sacred remembrance.",
+      "years": "July 8, 1838",
+      "yearNum": 1838,
+      "approx": false,
+      "place": "far-west",
+      "plates": "dc-missouri",
+      "themes": ["consecration", "obedience"],
+      "characters": ["joseph-smith", "newel-k-whitney"],
+      "segments": [
+        { "s": 1, "e": 16, "speaker": "the-lord", "to": "elders", "note": "Leave Kirtland concerns; gather to the land of Zion" }
+      ]
+    },
+    {
+      "c": 118,
+      "title": "Filling the Quorum of the Twelve",
+      "synopsis": "The Lord directs that vacancies in the Twelve be filled, naming John Taylor, John E. Page, Wilford Woodruff, and Willard Richards. The Twelve are to depart from the Far West temple site the next spring to preach over the great waters.",
+      "years": "July 8, 1838",
+      "yearNum": 1838,
+      "approx": false,
+      "place": "far-west",
+      "plates": "dc-missouri",
+      "themes": ["leadership", "missionary-work"],
+      "characters": ["joseph-smith", "john-taylor"],
+      "segments": [
+        { "s": 1, "e": 6, "speaker": "the-lord", "to": "twelve-apostles", "note": "New apostles named; a mission over the great waters" }
+      ]
+    },
+    {
+      "c": 119,
+      "title": "The Law of Tithing",
+      "synopsis": "In answer to Joseph Smith's prayer, the Lord gives the law of tithing: the saints are to pay one-tenth of all their interest annually. This standing law will sanctify the land of Zion, and all who gather there shall observe it.",
+      "years": "July 8, 1838",
+      "yearNum": 1838,
+      "approx": false,
+      "place": "far-west",
+      "plates": "dc-missouri",
+      "themes": ["consecration", "obedience", "zion"],
+      "characters": ["joseph-smith"],
+      "segments": [
+        { "s": 1, "e": 7, "speaker": "the-lord", "to": "church", "note": "One-tenth of all interest annually, a standing law" }
+      ]
+    },
+    {
+      "c": 120,
+      "title": "Disposition of the Tithes",
+      "synopsis": "The Lord appoints a council to direct the use of tithed properties. The First Presidency, the bishop and his council, and the high council are to dispose of the tithes by the Lord's own voice unto them.",
+      "years": "July 8, 1838",
+      "yearNum": 1838,
+      "approx": false,
+      "place": "far-west",
+      "plates": "dc-missouri",
+      "themes": ["consecration", "leadership"],
+      "characters": ["joseph-smith"],
+      "segments": [
+        { "s": 1, "e": 1, "speaker": "the-lord", "to": "church", "note": "A council appointed to disburse the tithes" }
+      ]
+    },
+    {
+      "c": 121,
+      "title": "Prayer from Liberty Jail",
+      "synopsis": "From the dungeon of Liberty Jail, Joseph Smith cries out, asking how long the Lord's hand will be stayed while his people suffer. The Lord answers with peace, promising that adversity shall be but a small moment, and teaches that the rights of the priesthood operate only upon principles of righteousness, persuasion, and love unfeigned.",
+      "years": "March 20, 1839",
+      "yearNum": 1839,
+      "approx": false,
+      "place": "liberty-jail",
+      "plates": "dc-missouri",
+      "themes": ["endurance", "priesthood", "hope", "revelation"],
+      "characters": ["joseph-smith"],
+      "segments": [
+        { "s": 1, "e": 6, "speaker": "joseph-smith", "to": "the-lord", "note": "O God, where art thou?" },
+        { "s": 7, "e": 46, "speaker": "the-lord", "to": "joseph-smith", "note": "Peace be unto thy soul; principles of priesthood power" }
+      ]
+    },
+    {
+      "c": 122,
+      "title": "All These Things Give Experience",
+      "synopsis": "The Lord assures Joseph Smith in Liberty Jail that though the ends of the earth inquire after his name and fools deride him, the pure in heart will seek his counsel. Even if the very jaws of hell gape after him, all these things shall give him experience and be for his good, for the Son of Man hath descended below them all.",
+      "years": "March 1839",
+      "yearNum": 1839,
+      "approx": true,
+      "place": "liberty-jail",
+      "plates": "dc-missouri",
+      "themes": ["endurance", "hope", "atonement"],
+      "characters": ["joseph-smith", "jesus-christ"],
+      "segments": [
+        { "s": 1, "e": 9, "speaker": "the-lord", "to": "joseph-smith", "note": "Adversity for thy good; the Son descended below all" }
+      ]
+    },
+    {
+      "c": 123,
+      "title": "Duty Toward Our Persecutors",
+      "synopsis": "Continuing the Liberty Jail letter, Joseph Smith declares the saints' duty to gather up and document the sufferings and abuses inflicted upon them. These records are to be presented to the government, and the saints should cheerfully do all things that lie in their power, then stand still to see the salvation of God.",
+      "years": "March 1839",
+      "yearNum": 1839,
+      "approx": true,
+      "place": "liberty-jail",
+      "plates": "dc-missouri",
+      "themes": ["records", "justice-and-mercy", "endurance"],
+      "characters": ["joseph-smith"],
+      "segments": [
+        { "s": 1, "e": 17, "speaker": "joseph-smith", "to": "church", "note": "Document the persecutions; cheerfully do all things" }
+      ]
+    },
+    {
+      "c": 124,
+      "title": "Commandments for Nauvoo",
+      "synopsis": "At Nauvoo the Lord commands a proclamation to the kings of the earth and the building of the Nauvoo House and a temple where baptisms for the dead and the fulness of the priesthood can be administered. Hyrum Smith is called as patriarch and prophet, and the officers and quorums of the church are set in order.",
+      "years": "January 19, 1841",
+      "yearNum": 1841,
+      "approx": false,
+      "place": "nauvoo",
+      "plates": "dc-nauvoo",
+      "themes": ["temple", "baptism", "leadership", "zion"],
+      "characters": ["joseph-smith", "hyrum-smith", "sidney-rigdon", "brigham-young"],
+      "segments": [
+        { "s": 1, "e": 21, "speaker": "the-lord", "to": "church", "note": "A proclamation to kings; Hyrum called as patriarch" },
+        { "s": 22, "e": 83, "speaker": "the-lord", "to": "church", "note": "The Nauvoo House and the temple with its ordinances" },
+        { "s": 84, "e": 145, "speaker": "the-lord", "to": "church", "note": "Officers and quorums of the church set in order" }
+      ]
+    },
+    {
+      "c": 125,
+      "title": "Gathering Places in Iowa",
+      "synopsis": "The Lord declares his will concerning the saints in the Territory of Iowa. They are to gather and build up cities unto his name, including a city opposite Nauvoo to be called Zarahemla.",
+      "years": "March 1841",
+      "yearNum": 1841,
+      "approx": true,
+      "place": "nauvoo",
+      "plates": "dc-nauvoo",
+      "themes": ["gathering-of-israel", "zion"],
+      "characters": ["joseph-smith"],
+      "segments": [
+        { "s": 1, "e": 4, "speaker": "the-lord", "to": "saints", "note": "Build up cities in Iowa; Zarahemla named" }
+      ]
+    },
+    {
+      "c": 126,
+      "title": "Your Offering Is Acceptable",
+      "synopsis": "Brigham Young is told that his labors in traveling and leaving his family are acceptable to the Lord. He is no longer required to leave home, but is to take special care of his family and send the Lord's word abroad.",
+      "years": "July 9, 1841",
+      "yearNum": 1841,
+      "approx": false,
+      "place": "nauvoo",
+      "plates": "dc-nauvoo",
+      "themes": ["family", "obedience"],
+      "characters": ["brigham-young", "joseph-smith"],
+      "segments": [
+        { "s": 1, "e": 3, "speaker": "the-lord", "to": "brigham-young", "note": "Take special care of your family henceforth" }
+      ]
+    },
+    {
+      "c": 127,
+      "title": "An Epistle on Baptism for the Dead",
+      "synopsis": "Writing while away from Nauvoo because of his enemies, Joseph Smith glories in tribulation and directs that a recorder witness and record all baptisms for the dead. Whatever is recorded on earth shall be recorded in heaven, that all things may be done in order.",
+      "years": "September 1, 1842",
+      "yearNum": 1842,
+      "approx": false,
+      "place": "nauvoo",
+      "plates": "dc-nauvoo",
+      "themes": ["baptism", "records"],
+      "characters": ["joseph-smith"],
+      "segments": [
+        { "s": 1, "e": 12, "speaker": "joseph-smith", "to": "church", "note": "Let a recorder witness the baptisms for the dead" }
+      ]
+    },
+    {
+      "c": 128,
+      "title": "A Welding Link Between Generations",
+      "synopsis": "In a second epistle on baptism for the dead, Joseph Smith explains the recorders, witnesses, and books that bind on earth and in heaven. The fathers cannot be made perfect without us, nor we without our dead, forming a welding link between generations, and Joseph exults in the voices of restoration heard from Cumorah to the wilderness.",
+      "years": "September 6, 1842",
+      "yearNum": 1842,
+      "approx": false,
+      "place": "nauvoo",
+      "plates": "dc-nauvoo",
+      "themes": ["baptism", "records", "family", "temple"],
+      "characters": ["joseph-smith", "elijah", "moroni"],
+      "segments": [
+        { "s": 1, "e": 25, "speaker": "joseph-smith", "to": "church", "note": "Records that bind; a welding link with our dead" }
+      ]
+    },
+    {
+      "c": 129,
+      "title": "Discerning Angels and Spirits",
+      "synopsis": "Joseph Smith gives three grand keys for discerning heavenly messengers. A resurrected angel will shake hands and be felt, the spirit of a just man made perfect will not move, and a false spirit posing as an angel will offer his hand yet nothing will be felt.",
+      "years": "February 9, 1843",
+      "yearNum": 1843,
+      "approx": false,
+      "place": "nauvoo",
+      "plates": "dc-nauvoo",
+      "themes": ["revelation"],
+      "characters": ["joseph-smith"],
+      "segments": [
+        { "s": 1, "e": 9, "speaker": "joseph-smith", "to": "church", "note": "Three grand keys for discerning messengers" }
+      ]
+    },
+    {
+      "c": 130,
+      "title": "Items of Instruction at Ramus",
+      "synopsis": "At Ramus, Illinois, Joseph Smith teaches that the Father and the Son have bodies of flesh and bones as tangible as man's. Whatever intelligence we attain in this life rises with us in the resurrection, and all blessings are obtained by obedience to the laws upon which they are predicated.",
+      "years": "April 2, 1843",
+      "yearNum": 1843,
+      "approx": false,
+      "place": null,
+      "plates": "dc-nauvoo",
+      "themes": ["revelation", "obedience", "wisdom"],
+      "characters": ["joseph-smith"],
+      "segments": [
+        { "s": 1, "e": 23, "speaker": "joseph-smith", "to": "church", "note": "The Godhead, intelligence, and the law of blessings" }
+      ]
+    },
+    {
+      "c": 131,
+      "title": "The New and Everlasting Covenant",
+      "synopsis": "At Ramus, Joseph Smith teaches that in the celestial glory there are three heavens or degrees, and to obtain the highest a man must enter the new and everlasting covenant of marriage. It is impossible to be saved in ignorance, and all spirit is matter more fine and pure.",
+      "years": "May 16-17, 1843",
+      "yearNum": 1843,
+      "approx": false,
+      "place": null,
+      "plates": "dc-nauvoo",
+      "themes": ["covenant", "family", "wisdom"],
+      "characters": ["joseph-smith"],
+      "segments": [
+        { "s": 1, "e": 8, "speaker": "joseph-smith", "to": "church", "note": "Celestial marriage and the degrees of glory" }
+      ]
+    },
+    {
+      "c": 132,
+      "title": "The Eternity of the Marriage Covenant",
+      "synopsis": "The Lord reveals the new and everlasting covenant of marriage, by which those sealed by the Holy Spirit of Promise continue as husband and wife through eternity and receive exaltation. The revelation cites the example of Abraham and includes instructions concerning Emma Smith.",
+      "years": "July 12, 1843",
+      "yearNum": 1843,
+      "approx": false,
+      "place": "nauvoo",
+      "plates": "dc-nauvoo",
+      "themes": ["covenant", "family", "priesthood"],
+      "characters": ["joseph-smith", "emma-smith", "abraham"],
+      "segments": [
+        { "s": 1, "e": 66, "speaker": "the-lord", "to": "joseph-smith", "note": "The everlasting covenant of marriage and exaltation" }
+      ]
+    },
+    {
+      "c": 133,
+      "title": "Go Ye Out from Babylon",
+      "synopsis": "In this appendix to the Book of Commandments, the Lord commands the saints to go out from Babylon and prepare for the coming of the Bridegroom. He describes his return in red apparel, the gathering of Israel from the north countries, and the judgments that precede the great and dreadful day.",
+      "years": "November 3, 1831",
+      "yearNum": 1831,
+      "approx": false,
+      "place": "hiram-oh",
+      "themes": ["second-coming", "gathering-of-israel", "prophecy"],
+      "characters": ["joseph-smith", "jesus-christ"],
+      "segments": [
+        { "s": 1, "e": 74, "speaker": "the-lord", "to": "church", "note": "Prepare for the Bridegroom; Israel gathered from the north" }
+      ]
+    },
+    {
+      "c": 134,
+      "title": "Of Governments and Laws",
+      "synopsis": "The church adopts a declaration of belief regarding governments and laws. Governments are instituted of God for the benefit of man, religious opinion should be free from civil constraint, and all people are bound to sustain and uphold their governments while protected in their inherent rights.",
+      "years": "August 17, 1835",
+      "yearNum": 1835,
+      "approx": false,
+      "place": "kirtland",
+      "themes": ["law", "liberty", "agency"],
+      "characters": ["oliver-cowdery"],
+      "segments": [
+        { "s": 1, "e": 12, "speaker": "church", "to": "nations", "note": "A declaration of belief on governments and laws" }
+      ]
+    },
+    {
+      "c": 135,
+      "title": "The Martyrdom of Joseph and Hyrum",
+      "synopsis": "John Taylor announces the martyrdom of Joseph Smith and his brother Hyrum, shot by a mob in Carthage Jail on June 27, 1844. He testifies that Joseph has done more for the salvation of men in this world than any other who lived in it, save Jesus only, and that he sealed his mission with his blood.",
+      "years": "June 27, 1844",
+      "yearNum": 1844,
+      "approx": false,
+      "place": "carthage",
+      "plates": "dc-nauvoo",
+      "themes": ["martyrdom"],
+      "characters": ["joseph-smith", "hyrum-smith", "john-taylor"],
+      "segments": [
+        { "s": 1, "e": 7, "speaker": "john-taylor", "to": "church", "note": "Joseph and Hyrum sealed their testimony with blood" }
+      ]
+    },
+    {
+      "c": 136,
+      "title": "The Word and Will of the Lord",
+      "synopsis": "At Winter Quarters the Lord gives his word and will through President Brigham Young concerning the Camp of Israel in its journey to the West. The saints are organized into companies under captains, covenant to walk in all the ordinances of the Lord, and are told to praise him with singing and dancing and to cease to contend one with another.",
+      "years": "January 14, 1847",
+      "yearNum": 1847,
+      "approx": false,
+      "place": "winter-quarters",
+      "plates": "dc-later",
+      "themes": ["covenant", "gathering-of-israel", "leadership"],
+      "characters": ["brigham-young", "joseph-smith"],
+      "segments": [
+        { "s": 1, "e": 42, "speaker": "the-lord", "to": "saints", "note": "The Camp of Israel organized for the journey west" }
+      ]
+    },
+    {
+      "c": 137,
+      "title": "Vision of the Celestial Kingdom",
+      "synopsis": "In the Kirtland Temple, Joseph Smith sees the celestial kingdom, beholding the Father and the Son, Adam, Abraham, and his own parents, and marvels at seeing his brother Alvin there. The voice of the Lord declares that all who would have received the gospel shall be heirs of the celestial kingdom, and that children who die are saved in it.",
+      "years": "January 21, 1836",
+      "yearNum": 1836,
+      "approx": false,
+      "place": "kirtland",
+      "themes": ["revelation", "judgment", "hope"],
+      "characters": ["joseph-smith", "adam", "abraham", "god-the-father", "jesus-christ"],
+      "segments": [
+        { "s": 1, "e": 6, "speaker": "joseph-smith", "to": "church", "note": "The celestial kingdom and Alvin beheld in vision" },
+        { "s": 7, "e": 10, "speaker": "the-lord", "to": "joseph-smith", "note": "Heirs of the celestial kingdom declared" }
+      ]
+    },
+    {
+      "c": 138,
+      "title": "The Redemption of the Dead",
+      "synopsis": "Pondering the scriptures on the eve of general conference, President Joseph F. Smith sees a vision of the Savior's ministry in the spirit world. Christ organizes righteous messengers to carry the gospel to the spirits in prison, opening the way for the redemption of the dead through vicarious ordinances.",
+      "years": "October 3, 1918",
+      "yearNum": 1918,
+      "approx": false,
+      "place": "salt-lake-valley",
+      "plates": "dc-later",
+      "themes": ["resurrection", "hope", "missionary-work"],
+      "characters": ["joseph-f-smith", "jesus-christ", "adam", "eve"],
+      "segments": [
+        { "s": 1, "e": 11, "speaker": "joseph-f-smith", "to": "church", "note": "Pondering the scriptures, the vision opens" },
+        { "s": 12, "e": 60, "speaker": "joseph-f-smith", "to": "church", "note": "The Savior's ministry among the spirits of the dead" }
+      ]
+    }
+  ]
+}
