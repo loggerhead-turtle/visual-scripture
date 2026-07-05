@@ -1,0 +1,230 @@
+{
+  "book": "Zechariah",
+  "slug": "zechariah",
+  "narrator": "zechariah-prophet",
+  "plates": "prophets-minor",
+  "chapters": [
+    {
+      "c": 1,
+      "title": "Return unto Me, Vision of Horses",
+      "synopsis": "The Lord calls Zechariah's generation to turn unto him as their fathers did not, that he might turn unto them. In a night vision an angel shows Zechariah a man among the myrtle trees with red horses patrolling the earth, revealing the Lord's jealousy for Zion, and then four horns that scattered Judah and four carpenters sent to cast the horns down.",
+      "years": "about 520 BC",
+      "yearNum": -520,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["repentance", "revelation", "restoration"],
+      "characters": ["zechariah-prophet", "the-lord", "angel"],
+      "segments": [
+        { "s": 1, "e": 6, "speaker": "the-lord", "to": "house-of-israel", "note": "Turn ye unto me, and I will turn unto you" },
+        { "s": 7, "e": 17, "speaker": "angel", "to": "zechariah-prophet", "note": "Vision of horses; the Lord's jealousy for Zion" },
+        { "s": 18, "e": 21, "speaker": "angel", "to": "zechariah-prophet", "note": "Four horns that scattered Judah, four carpenters" }
+      ]
+    },
+    {
+      "c": 2,
+      "title": "A Measuring Line for Jerusalem",
+      "synopsis": "Zechariah sees a man going out with a measuring line to measure the width and length of Jerusalem, and an angel explains that the city will be inhabited as towns without walls, for the Lord himself will be a wall of fire round about her. The Lord calls his people to flee from Babylon, promising to come and dwell in the midst of Zion, with many nations joining themselves to him in that day.",
+      "years": "about 520 BC",
+      "yearNum": -520,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["restoration", "gathering-of-israel", "prophecy"],
+      "characters": ["zechariah-prophet", "the-lord", "angel"],
+      "segments": [
+        { "s": 1, "e": 5, "speaker": "angel", "to": "zechariah-prophet", "note": "A man measures Jerusalem's width and length" },
+        { "s": 6, "e": 9, "speaker": "the-lord", "to": "house-of-israel", "note": "Flee from Babylon; the Lord comes to dwell in Zion" },
+        { "s": 10, "e": 13, "speaker": "the-lord", "to": "house-of-israel", "note": "Many nations join the Lord in that day" }
+      ]
+    },
+    {
+      "c": 3,
+      "title": "Joshua's Filthy Garments Removed",
+      "synopsis": "Zechariah sees Joshua the high priest standing in filthy garments before the angel of the Lord while Satan stands ready to resist him, but the Lord rebukes Satan and commands the filthy garments removed and a fair mitre set on Joshua's head. The angel promises the coming of the Branch and shows a stone with seven eyes, when every man will call his neighbor under the vine and fig tree.",
+      "years": "about 520 BC",
+      "yearNum": -520,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["atonement", "priesthood", "messiah"],
+      "characters": ["zechariah-prophet", "the-lord", "angel", "satan"],
+      "segments": [
+        { "s": 1, "e": 5, "speaker": "angel", "to": "zechariah-prophet", "note": "Joshua the priest in filthy garments; Satan resists" },
+        { "s": 6, "e": 10, "speaker": "angel", "to": "zechariah-prophet", "note": "The Branch promised; the stone with seven eyes" }
+      ]
+    },
+    {
+      "c": 4,
+      "title": "Not by Might, Nor by Power",
+      "synopsis": "Zechariah sees a golden candlestick with seven lamps flanked by two olive trees, and the angel explains that Zerubbabel will finish the temple not by might nor by power, but by the Lord's spirit. The two olive branches represent the two anointed ones who stand by the Lord of the whole earth.",
+      "years": "about 520 BC",
+      "yearNum": -520,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["temple", "priesthood", "revelation"],
+      "characters": ["zechariah-prophet", "angel"],
+      "segments": [
+        { "s": 1, "e": 5, "speaker": "angel", "to": "zechariah-prophet", "note": "Vision of the golden candlestick and two olive trees" },
+        { "s": 6, "e": 10, "speaker": "angel", "to": "zechariah-prophet", "note": "Not by might nor by power, but by my spirit" },
+        { "s": 11, "e": 14, "speaker": "angel", "to": "zechariah-prophet", "note": "The two anointed ones stand by the Lord" }
+      ]
+    },
+    {
+      "c": 5,
+      "title": "The Flying Roll and the Ephah",
+      "synopsis": "Zechariah sees a great flying roll representing the curse that goes out over the whole earth against thieves and false swearers. In a second vision a woman embodying wickedness is shut up in an ephah and carried away by winged women to build her a house in the land of Shinar.",
+      "years": "about 520 BC",
+      "yearNum": -520,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["judgment", "revelation"],
+      "characters": ["zechariah-prophet", "angel"],
+      "segments": [
+        { "s": 1, "e": 4, "speaker": "angel", "to": "zechariah-prophet", "note": "A flying roll: the curse over the whole earth" },
+        { "s": 5, "e": 11, "speaker": "angel", "to": "zechariah-prophet", "note": "A woman of wickedness carried away in an ephah" }
+      ]
+    },
+    {
+      "c": 6,
+      "title": "Four Chariots and the Crowned Branch",
+      "synopsis": "Zechariah sees four chariots come out from between two mountains of brass, identified as the four spirits of heaven going forth over all the earth. The Lord commands crowns made and set upon Joshua's head as a sign of the Branch, who shall build the temple of the Lord and be a priest upon his throne.",
+      "years": "about 520 BC",
+      "yearNum": -520,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["messiah", "temple", "prophecy"],
+      "characters": ["zechariah-prophet", "angel"],
+      "segments": [
+        { "s": 1, "e": 8, "speaker": "angel", "to": "zechariah-prophet", "note": "Four chariots go forth as the four spirits of heaven" },
+        { "s": 9, "e": 15, "speaker": "the-lord", "to": "zechariah-prophet", "note": "Crown Joshua: the Branch shall build the temple" }
+      ]
+    },
+    {
+      "c": 7,
+      "title": "True Fasting and Former Prophets",
+      "synopsis": "The people of Bethel send to ask whether they should continue to weep and fast as they have done for many years. The Lord answers through the former prophets that he desires true judgment, mercy, and compassion toward the widow, the fatherless, the stranger, and the poor, and reminds them that because their fathers refused to hear, he scattered them among all nations.",
+      "years": "about 518 BC",
+      "yearNum": -518,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["justice-and-mercy", "repentance", "apostasy"],
+      "characters": ["zechariah-prophet", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 3, "speaker": "zechariah-prophet", "to": "reader", "note": "The people ask whether to keep the fast" },
+        { "s": 4, "e": 10, "speaker": "the-lord", "to": "house-of-israel", "note": "Execute true judgment; shew mercy and compassion" },
+        { "s": 11, "e": 14, "speaker": "the-lord", "to": "house-of-israel", "note": "They refused to hear; the Lord scattered them abroad" }
+      ]
+    },
+    {
+      "c": 8,
+      "title": "Old Men and Children in Jerusalem's Streets",
+      "synopsis": "The Lord, jealous for Zion, promises that old men and old women will again sit in the streets of Jerusalem while boys and girls play there, and that he will save his remnant people and be their God in truth and righteousness. Fasts will turn to joy and gladness, and many peoples and strong nations will come to seek the Lord in Jerusalem, ten men taking hold of the skirt of a Jew.",
+      "years": "about 518 BC",
+      "yearNum": -518,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["restoration", "hope", "gathering-of-israel"],
+      "characters": ["the-lord"],
+      "segments": [
+        { "s": 1, "e": 8, "speaker": "the-lord", "to": "house-of-israel", "note": "The Lord returns to Zion; old and young fill her streets" },
+        { "s": 9, "e": 17, "speaker": "the-lord", "to": "house-of-israel", "note": "Let your hands be strong; speak truth, love peace" },
+        { "s": 18, "e": 23, "speaker": "the-lord", "to": "house-of-israel", "note": "Fasts turned to joy; nations seek the Lord in Jerusalem" }
+      ]
+    },
+    {
+      "c": 9,
+      "title": "Thy King Cometh, Lowly and Riding",
+      "synopsis": "A burden falls on Hadrach, Damascus, Tyrus, and the Philistine cities, while the Lord promises to camp about his house as a protector. Zechariah foresees a King coming to Zion, lowly and riding upon a colt, who will cut off the chariot and battle bow and speak peace to the nations, and describes Ephraim and Judah as the Lord's bow and arrow of deliverance.",
+      "years": "about 500 BC",
+      "yearNum": -500,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["messiah", "peace", "prophecy"],
+      "characters": ["zechariah-prophet", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 8, "speaker": "the-lord", "to": "reader", "note": "Judgment on neighboring nations; the Lord camps at his house" },
+        { "s": 9, "e": 10, "speaker": "zechariah-prophet", "to": "reader", "note": "Behold, thy King cometh, lowly, riding upon an ass" },
+        { "s": 11, "e": 17, "speaker": "the-lord", "to": "house-of-israel", "note": "Prisoners of hope; Ephraim and Judah as the Lord's bow" }
+      ]
+    },
+    {
+      "c": 10,
+      "title": "The Lord Visits His Flock",
+      "synopsis": "The Lord tells his people to ask rain of him rather than trust idols and teraphim, and expresses anger against false shepherds who have led the flock astray. He promises to visit his flock, strengthen Judah and the house of Joseph, and bring them again from Egypt and Assyria to dwell in their own land.",
+      "years": "about 500 BC",
+      "yearNum": -500,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["gathering-of-israel", "leadership", "hope"],
+      "characters": ["the-lord"],
+      "segments": [
+        { "s": 1, "e": 3, "speaker": "the-lord", "to": "house-of-israel", "note": "Ask rain of the Lord, not idols; anger at false shepherds" },
+        { "s": 4, "e": 7, "speaker": "the-lord", "to": "house-of-israel", "note": "Out of Judah the cornerstone; the Lord visits his flock" },
+        { "s": 8, "e": 12, "speaker": "the-lord", "to": "house-of-israel", "note": "Israel gathered again from Egypt and Assyria" }
+      ]
+    },
+    {
+      "c": 11,
+      "title": "Thirty Pieces of Silver",
+      "synopsis": "Fire devours the cedars and shepherds of the land as judgment falls, and Zechariah acts out feeding a doomed flock with two staves named Beauty and Bands. Valued at thirty pieces of silver and cast to the potter in the house of the Lord, the price shows how the people reject their shepherd, and the Lord commands Zechariah to take up the instruments of a foolish shepherd who abandons the flock.",
+      "years": "about 490 BC",
+      "yearNum": -490,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["judgment", "prophecy", "leadership"],
+      "characters": ["zechariah-prophet", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 3, "speaker": "zechariah-prophet", "to": "reader", "note": "Fire devours the cedars and shepherds of the land" },
+        { "s": 4, "e": 14, "speaker": "zechariah-prophet", "to": "reader", "note": "Zechariah feeds the flock; thirty pieces cast to the potter" },
+        { "s": 15, "e": 17, "speaker": "the-lord", "to": "zechariah-prophet", "note": "Take the instruments of a foolish shepherd" }
+      ]
+    },
+    {
+      "c": 12,
+      "title": "They Shall Look on Him Whom They Pierced",
+      "synopsis": "The Lord makes Jerusalem a cup of trembling and a burdensome stone for all the surrounding peoples, promising to defend her inhabitants and destroy the nations that come against her. He will pour upon the house of David the spirit of grace and supplication, and they will look upon him whom they have pierced and mourn as for an only son.",
+      "years": "about 480 BC",
+      "yearNum": -480,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["second-coming", "messiah", "prophecy"],
+      "characters": ["the-lord"],
+      "segments": [
+        { "s": 1, "e": 5, "speaker": "the-lord", "to": "reader", "note": "Jerusalem a cup of trembling for all nations" },
+        { "s": 6, "e": 9, "speaker": "the-lord", "to": "reader", "note": "The Lord defends Jerusalem's inhabitants in that day" },
+        { "s": 10, "e": 14, "speaker": "the-lord", "to": "house-of-israel", "note": "They shall look upon me whom they have pierced, and mourn" }
+      ]
+    },
+    {
+      "c": 13,
+      "title": "Smite the Shepherd",
+      "synopsis": "The Lord opens a fountain for sin and uncleanness and promises to cut off idols and false prophets from the land, so that any who claim to prophesy falsely will be ashamed even before their own family. A third of the people will be refined as silver and tried as gold through suffering, as the sword is called to awake against the Lord's shepherd, scattering the sheep.",
+      "years": "about 480 BC",
+      "yearNum": -480,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["atonement", "judgment", "messiah"],
+      "characters": ["the-lord"],
+      "segments": [
+        { "s": 1, "e": 3, "speaker": "the-lord", "to": "house-of-israel", "note": "A fountain opened; idols and false prophets cut off" },
+        { "s": 4, "e": 6, "speaker": "the-lord", "to": "reader", "note": "The prophets ashamed; wounds in the house of friends" },
+        { "s": 7, "e": 9, "speaker": "the-lord", "to": "reader", "note": "Awake, O sword, against my shepherd; sheep scattered" }
+      ]
+    },
+    {
+      "c": 14,
+      "title": "The Lord Shall Be King Over All the Earth",
+      "synopsis": "The Lord gathers all nations against Jerusalem to battle, then stands with his feet upon the mount of Olives, which cleaves in two before him, and living waters flow out from Jerusalem toward both the east and west seas. The Lord becomes King over all the earth, sending plague on the nations that fought against his city, while every survivor comes up to worship him and keep the feast of tabernacles, and holiness unto the Lord is written even upon the bells of the horses.",
+      "years": "about 480 BC",
+      "yearNum": -480,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["second-coming", "judgment", "hope"],
+      "characters": ["the-lord"],
+      "segments": [
+        { "s": 1, "e": 5, "speaker": "the-lord", "to": "reader", "note": "Nations gathered against Jerusalem; the Lord's feet touch Olivet" },
+        { "s": 6, "e": 11, "speaker": "zechariah-prophet", "to": "reader", "note": "Living waters flow out; the Lord king over all the earth" },
+        { "s": 12, "e": 15, "speaker": "the-lord", "to": "reader", "note": "Plague upon the nations that fought against Jerusalem" },
+        { "s": 16, "e": 21, "speaker": "zechariah-prophet", "to": "reader", "note": "Survivors keep the feast; holiness unto the Lord on all things" }
+      ]
+    }
+  ]
+}

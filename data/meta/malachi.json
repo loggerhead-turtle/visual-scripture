@@ -1,0 +1,72 @@
+{
+  "book": "Malachi",
+  "slug": "malachi",
+  "narrator": "malachi",
+  "plates": "prophets-minor",
+  "chapters": [
+    {
+      "c": 1,
+      "title": "I Have Loved You, Saith the Lord",
+      "synopsis": "The Lord declares his love for Jacob over Esau, then rebukes the priests who despise his table by offering blind, lame, and sick sacrifices instead of the best of their flocks. He promises that his name will yet be great among the Gentiles from the rising to the setting of the sun, and pronounces a curse on the deceiver who offers a corrupt thing to the Lord.",
+      "years": "about 430 BC",
+      "yearNum": -430,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["covenant", "worship", "apostasy"],
+      "characters": ["malachi", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 5, "speaker": "the-lord", "to": "house-of-israel", "note": "I have loved Jacob, and hated Esau" },
+        { "s": 6, "e": 11, "speaker": "the-lord", "to": "reader", "note": "Priests offer blind and lame sacrifices at my table" },
+        { "s": 12, "e": 14, "speaker": "the-lord", "to": "reader", "note": "A deceiver cursed who offers a corrupt thing" }
+      ]
+    },
+    {
+      "c": 2,
+      "title": "The Covenant of Levi Broken",
+      "synopsis": "The Lord condemns the priests for corrupting the covenant of Levi through partiality in the law, and Malachi charges Judah with dealing treacherously by marrying the daughters of a strange god and profaning the Lord's holiness. The Lord declares that he hates putting away, and answers the people's weary complaint, where is the God of judgment, with the promise of a coming messenger.",
+      "years": "about 430 BC",
+      "yearNum": -430,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["covenant", "priesthood", "apostasy"],
+      "characters": ["malachi", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 9, "speaker": "the-lord", "to": "reader", "note": "The covenant of Levi corrupted by the priests" },
+        { "s": 10, "e": 12, "speaker": "malachi", "to": "reader", "note": "Judah profanes the covenant, marrying strange gods" },
+        { "s": 13, "e": 17, "speaker": "malachi", "to": "reader", "note": "The Lord hates divorce; wearied by Israel's words" }
+      ]
+    },
+    {
+      "c": 3,
+      "title": "Bring Ye All the Tithes",
+      "synopsis": "The Lord promises to send his messenger to prepare the way before him, and to come suddenly to his temple like a refiner's fire to purify the sons of Levi. He asks whether a man will rob God, and commands the people to bring all the tithes into the storehouse and prove him, that he may pour out a blessing they cannot contain, while a book of remembrance is written for those who fear the Lord.",
+      "years": "about 430 BC",
+      "yearNum": -430,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["temple", "obedience", "covenant"],
+      "characters": ["malachi", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 6, "speaker": "the-lord", "to": "reader", "note": "The Lord's messenger prepares the way; he comes as a refiner" },
+        { "s": 7, "e": 12, "speaker": "the-lord", "to": "house-of-israel", "note": "Will a man rob God? Bring all the tithes" },
+        { "s": 13, "e": 18, "speaker": "the-lord", "to": "reader", "note": "A book of remembrance written for them that fear the Lord" }
+      ]
+    },
+    {
+      "c": 4,
+      "title": "Elijah Before the Great Day",
+      "synopsis": "Malachi warns that the day of the Lord will burn as an oven for the proud and wicked, while the Sun of Righteousness will arise with healing in his wings for those who fear the Lord's name. The people are told to remember the law of Moses given at Horeb, and the Lord promises to send Elijah the prophet before the great and dreadful day of the Lord, turning the hearts of the fathers to the children. This promise is fulfilled when the prophet Elijah appears to Joseph Smith and Oliver Cowdery in the Kirtland Temple, recorded in Doctrine and Covenants 110, restoring the sealing power that binds families for eternity.",
+      "years": "about 430 BC",
+      "yearNum": -430,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["second-coming", "restoration", "temple"],
+      "characters": ["malachi", "the-lord", "elijah"],
+      "segments": [
+        { "s": 1, "e": 3, "speaker": "the-lord", "to": "reader", "note": "The day burns as an oven; the Sun of Righteousness arises" },
+        { "s": 4, "e": 4, "speaker": "malachi", "to": "reader", "note": "Remember the law of Moses given at Horeb" },
+        { "s": 5, "e": 6, "speaker": "the-lord", "to": "reader", "note": "Elijah sent to turn the hearts before the great day" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1221 @@
+{
+  "book": "1 Samuel",
+  "slug": "1-samuel",
+  "narrator": "chronicler",
+  "plates": "history",
+  "chapters": [
+    {
+      "c": 1,
+      "title": "Hannah's Prayer for a Son",
+      "synopsis": "Hannah, barren and grieved, weeps and vows before the Lord at Shiloh that if He grants her a son she will give him back to the Lord's service. The priest blesses her, mistaking her silent prayer for drunkenness, and the Lord remembers her. Hannah bears Samuel and, once weaned, brings him to Shiloh to be raised in the tabernacle.",
+      "years": "about 1100 BC",
+      "yearNum": -1100,
+      "approx": true,
+      "place": "shiloh",
+      "themes": [
+        "prayer",
+        "faith",
+        "family"
+      ],
+      "characters": [
+        "hannah",
+        "samuel"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 8,
+          "speaker": "chronicler",
+          "to": "reader",
+          "note": "Elkanah's family; Hannah's grief"
+        },
+        {
+          "s": 9,
+          "e": 11,
+          "speaker": "hannah",
+          "to": "the-lord",
+          "note": "Hannah's vow for a son"
+        },
+        {
+          "s": 12,
+          "e": 18,
+          "speaker": "chronicler",
+          "to": "reader",
+          "note": "The priest blesses Hannah's faith"
+        },
+        {
+          "s": 19,
+          "e": 28,
+          "speaker": "chronicler",
+          "to": "reader",
+          "note": "Samuel is born and dedicated to the Lord"
+        }
+      ]
+    },
+    {
+      "c": 2,
+      "title": "Hannah's Song; Eli's Wicked Sons",
+      "synopsis": "Hannah offers a song of thanksgiving praising the Lord who raises up the poor and brings low the proud. Meanwhile Eli's sons abuse their priestly office and take sacrifices meant for the Lord by force, while young Samuel grows in favor before Him. A man of God warns Eli that his sons' wickedness will bring judgment on his entire priestly house.",
+      "years": "about 1100 BC",
+      "yearNum": -1100,
+      "approx": true,
+      "place": "shiloh",
+      "themes": [
+        "prayer",
+        "judgment",
+        "priesthood"
+      ],
+      "characters": [
+        "hannah",
+        "samuel"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 10,
+          "speaker": "hannah",
+          "to": "the-lord",
+          "note": "Hannah's song of thanksgiving"
+        },
+        {
+          "s": 11,
+          "e": 26,
+          "speaker": "chronicler",
+          "to": "reader",
+          "note": "Eli's sons' wickedness; Samuel grows in favor"
+        },
+        {
+          "s": 27,
+          "e": 36,
+          "speaker": "chronicler",
+          "to": "reader",
+          "note": "Judgment is foretold on Eli's priestly house"
+        }
+      ]
+    },
+    {
+      "c": 3,
+      "title": "The Lord Calls Samuel",
+      "synopsis": "The young Samuel, ministering under Eli at Shiloh, hears his name called in the night and mistakes the Lord's voice for Eli's until the old priest recognizes what is happening and tells him how to answer. The Lord confirms to Samuel that judgment will fall on Eli's house for his sons' sins. Samuel grows, and all Israel comes to know him as a prophet of the Lord.",
+      "years": "about 1100 BC",
+      "yearNum": -1100,
+      "approx": true,
+      "place": "shiloh",
+      "themes": [
+        "revelation",
+        "prophecy",
+        "obedience"
+      ],
+      "characters": [
+        "samuel",
+        "the-lord"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 10,
+          "speaker": "chronicler",
+          "to": "reader",
+          "note": "Samuel ministers under Eli; the Lord calls him"
+        },
+        {
+          "s": 11,
+          "e": 14,
+          "speaker": "the-lord",
+          "to": "samuel",
+          "note": "The Lord reveals judgment on Eli's house"
+        },
+        {
+          "s": 15,
+          "e": 21,
+          "speaker": "chronicler",
+          "to": "reader",
+          "note": "Samuel is established as a prophet in Israel"
+        }
+      ]
+    },
+    {
+      "c": 4,
+      "title": "The Ark Captured; Eli Dies",
+      "synopsis": "Israel is defeated by the Philistines and, hoping the ark of the covenant will save them, brings it into camp, only to be routed again as the ark is captured and Eli's two sons are killed. When Eli hears the ark is taken he falls backward and dies, and his daughter-in-law names her newborn son Ichabod, for the glory has departed from Israel.",
+      "years": "about 1100 BC",
+      "yearNum": -1100,
+      "approx": true,
+      "place": "shiloh",
+      "themes": [
+        "judgment",
+        "apostasy"
+      ],
+      "characters": [
+        "samuel"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 11,
+          "speaker": "chronicler",
+          "to": "reader",
+          "note": "Israel is defeated; the ark of God is captured"
+        },
+        {
+          "s": 12,
+          "e": 22,
+          "speaker": "chronicler",
+          "to": "reader",
+          "note": "Eli dies; Ichabod is born"
+        }
+      ]
+    },
+    {
+      "c": 5,
+      "title": "The Ark Among the Philistines",
+      "synopsis": "The Philistines set the captured ark in the temple of their god Dagon at Ashdod, but each morning find Dagon's image fallen before it, at last broken in pieces. The Lord afflicts the Philistine cities with tumors wherever the ark is carried, and the people cry out in terror as the plague spreads from city to city.",
+      "years": "about 1100 BC",
+      "yearNum": -1100,
+      "approx": true,
+      "place": null,
+      "themes": [
+        "judgment",
+        "deliverance"
+      ],
+      "characters": [],
+      "segments": [
+        {
+          "s": 1,
+          "e": 12,
+          "speaker": "chronicler",
+          "to": "reader",
+          "note": "The ark topples Dagon and afflicts the Philistines"
+        }
+      ]
+    },
+    {
+      "c": 6,
+      "title": "The Ark Returns to Israel",
+      "synopsis": "After seven months the Philistine priests advise sending the ark back with a guilt offering of golden images, setting it on a new cart drawn by untended cows to test whether Israel's God caused their plagues. The cows go straight to Beth-shemesh, and the Israelites rejoice, but some men look into the ark and are struck down for their irreverence.",
+      "years": "about 1100 BC",
+      "yearNum": -1100,
+      "approx": true,
+      "place": null,
+      "themes": [
+        "judgment",
+        "deliverance",
+        "obedience"
+      ],
+      "characters": [],
+      "segments": [
+        {
+          "s": 1,
+          "e": 12,
+          "speaker": "chronicler",
+          "to": "reader",
+          "note": "Philistines send back the ark with a guilt offering"
+        },
+        {
+          "s": 13,
+          "e": 21,
+          "speaker": "chronicler",
+          "to": "reader",
+          "note": "The ark reaches Beth-shemesh; irreverent men are struck"
+        }
+      ]
+    },
+    {
+      "c": 7,
+      "title": "Samuel Leads Israel to Repentance",
+      "synopsis": "The ark rests at Kirjath-jearim for twenty years while Samuel calls Israel to put away foreign gods and serve the Lord alone. At Mizpah Samuel offers sacrifice and prays as the Philistines advance, and the Lord thunders against them, routing their army so decisively that Samuel raises a stone called Ebenezer, 'the Lord helped us.' Samuel judges Israel faithfully all his days.",
+      "years": "about 1100 BC",
+      "yearNum": -1100,
+      "approx": true,
+      "place": null,
+      "themes": [
+        "repentance",
+        "deliverance",
+        "leadership"
+      ],
+      "characters": [
+        "samuel"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 6,
+          "speaker": "samuel",
+          "to": "israelites",
+          "note": "Samuel calls Israel to put away foreign gods"
+        },
+        {
+          "s": 7,
+          "e": 14,
+          "speaker": "chronicler",
+          "to": "reader",
+          "note": "The Lord thunders; Philistines are routed at Ebenezer"
+        },
+        {
+          "s": 15,
+          "e": 17,
+          "speaker": "chronicler",
+          "to": "reader",
+          "note": "Samuel judges Israel all his days"
+        }
+      ]
+    },
+    {
+      "c": 8,
+      "title": "Israel Demands a King",
+      "synopsis": "In Samuel's old age the elders of Israel, unhappy with his corrupt sons as judges, demand a king to rule them like other nations. Samuel warns them plainly of the cost such a king will exact from their sons, daughters, fields, and flocks. The Lord tells Samuel that the people have rejected Him, not Samuel, but to heed their voice and grant their request.",
+      "years": "about 1050 BC",
+      "yearNum": -1050,
+      "approx": true,
+      "place": null,
+      "themes": [
+        "kingship",
+        "leadership",
+        "agency"
+      ],
+      "characters": [
+        "samuel"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 9,
+          "speaker": "chronicler",
+          "to": "reader",
+          "note": "Elders demand a king like the other nations"
+        },
+        {
+          "s": 10,
+          "e": 18,
+          "speaker": "samuel",
+          "to": "israelites",
+          "note": "Samuel warns of the manner of the king"
+        },
+        {
+          "s": 19,
+          "e": 22,
+          "speaker": "the-lord",
+          "to": "samuel",
+          "note": "The Lord tells Samuel to heed the people's voice"
+        }
+      ]
+    },
+    {
+      "c": 9,
+      "title": "Saul Meets Samuel",
+      "synopsis": "Saul, a tall and handsome Benjamite, searches for his father's lost donkeys and comes at his servant's suggestion to consult the seer Samuel. The Lord has already told Samuel that this very man will be sent to save Israel from the Philistines. Samuel honors Saul with a place at the feast and speaks privately with him, preparing him for what is to come.",
+      "years": "about 1050 BC",
+      "yearNum": -1050,
+      "approx": true,
+      "place": null,
+      "themes": [
+        "prophecy",
+        "leadership"
+      ],
+      "characters": [
+        "saul",
+        "samuel"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 14,
+          "speaker": "chronicler",
+          "to": "reader",
+          "note": "Saul searches for his father's lost donkeys"
+        },
+        {
+          "s": 15,
+          "e": 21,
+          "speaker": "the-lord",
+          "to": "samuel",
+          "note": "The Lord identifies Saul as Israel's deliverer"
+        },
+        {
+          "s": 22,
+          "e": 27,
+          "speaker": "chronicler",
+          "to": "reader",
+          "note": "Samuel honors Saul and prepares him"
+        }
+      ]
+    },
+    {
+      "c": 10,
+      "title": "Saul Anointed King",
+      "synopsis": "Samuel privately anoints Saul with oil and gives him three confirming signs, promising the Spirit of the Lord will come upon him and turn him into another man. The signs are fulfilled and Saul prophesies among a company of prophets, astonishing those who know him. At Mizpah Saul is chosen by lot before all Israel, though he hides among the baggage, and Samuel proclaims the manner of the kingdom.",
+      "years": "about 1050 BC",
+      "yearNum": -1050,
+      "approx": true,
+      "place": null,
+      "themes": [
+        "kingship",
+        "revelation",
+        "leadership"
+      ],
+      "characters": [
+        "saul",
+        "samuel"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 8,
+          "speaker": "samuel",
+          "to": "saul",
+          "note": "Samuel anoints Saul and gives him signs"
+        },
+        {
+          "s": 9,
+          "e": 16,
+          "speaker": "chronicler",
+          "to": "reader",
+          "note": "The signs are fulfilled; Saul prophesies"
+        },
+        {
+          "s": 17,
+          "e": 27,
+          "speaker": "chronicler",
+          "to": "reader",
+          "note": "Saul is chosen by lot and proclaimed king"
+        }
+      ]
+    },
+    {
+      "c": 11,
+      "title": "Saul Delivers Jabesh-gilead",
+      "synopsis": "When the Ammonites threaten to gouge out the right eye of every man in Jabesh-gilead as the price of a treaty, Saul is stirred by the Spirit of the Lord and summons all Israel to battle by cutting up oxen and sending the pieces throughout the land. Saul's army delivers Jabesh-gilead with a decisive victory, and the people renew Saul's kingdom at Gilgal with sacrifices before the Lord.",
+      "years": "about 1050 BC",
+      "yearNum": -1050,
+      "approx": true,
+      "place": null,
+      "themes": [
+        "deliverance",
+        "leadership",
+        "war"
+      ],
+      "characters": [
+        "saul"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 11,
+          "speaker": "chronicler",
+          "to": "reader",
+          "note": "Saul rallies Israel and delivers Jabesh-gilead"
+        },
+        {
+          "s": 12,
+          "e": 15,
+          "speaker": "chronicler",
+          "to": "reader",
+          "note": "Saul's kingship is renewed at Gilgal"
+        }
+      ]
+    },
+    {
+      "c": 12,
+      "title": "Samuel's Farewell Address",
+      "synopsis": "Samuel, now old, reviews before Israel his years of faithful, uncorrupt service as judge, and none can accuse him of wrongdoing. He recounts the Lord's mighty deliverances from Egypt onward and calls down thunder and rain in wheat harvest as a sign that asking for a king was a great evil in the Lord's sight. Samuel nonetheless urges Israel to fear and serve the Lord faithfully, promising he will continue to pray for them.",
+      "years": "about 1050 BC",
+      "yearNum": -1050,
+      "approx": true,
+      "place": null,
+      "themes": [
+        "leadership",
+        "prayer",
+        "obedience"
+      ],
+      "characters": [
+        "samuel"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 5,
+          "speaker": "samuel",
+          "to": "israelites",
+          "note": "Samuel reviews his years of faithful service"
+        },
+        {
+          "s": 6,
+          "e": 18,
+          "speaker": "samuel",
+          "to": "israelites",
+          "note": "Samuel recounts the Lord's deliverances and calls a sign"
+        },
+        {
+          "s": 19,
+          "e": 25,
+          "speaker": "samuel",
+          "to": "israelites",
+          "note": "Samuel urges continued obedience despite the king"
+        }
+      ]
+    },
+    {
+      "c": 13,
+      "title": "Saul's Unlawful Sacrifice",
+      "synopsis": "As the Philistines mass at Michmash and Israel's army scatters in fear, Saul grows impatient waiting for Samuel and offers a burnt offering himself, though only a priest should. Samuel arrives moments later and rebukes Saul, declaring that his kingdom will not continue because of his disobedience. Israel is left nearly disarmed, since the Philistines controlled the region's blacksmiths, and Philistine raiders spread through the land unopposed.",
+      "years": "about 1050 BC",
+      "yearNum": -1050,
+      "approx": true,
+      "place": null,
+      "themes": [
+        "obedience",
+        "judgment",
+        "war"
+      ],
+      "characters": [
+        "saul",
+        "samuel"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 7,
+          "speaker": "chronicler",
+          "to": "reader",
+          "note": "Philistines mass at Michmash; Israel scatters in fear"
+        },
+        {
+          "s": 8,
+          "e": 14,
+          "speaker": "samuel",
+          "to": "saul",
+          "note": "Samuel rebukes Saul's unlawful sacrifice"
+        },
+        {
+          "s": 15,
+          "e": 23,
+          "speaker": "chronicler",
+          "to": "reader",
+          "note": "Israel is left disarmed as Philistine raiders spread out"
+        }
+      ]
+    },
+    {
+      "c": 14,
+      "title": "Jonathan's Daring Attack",
+      "synopsis": "Jonathan and his armor-bearer climb alone to a Philistine garrison, trusting that the Lord can save by many or by few, and their surprise attack throws the whole camp into panic that Israel exploits into a rout. Saul's rash oath forbidding food until evening nearly costs Jonathan his life when he unknowingly tastes honey, but the people intervene and rescue him from his father's vow.",
+      "years": "about 1050 BC",
+      "yearNum": -1050,
+      "approx": true,
+      "place": null,
+      "themes": [
+        "faith",
+        "war",
+        "justice-and-mercy"
+      ],
+      "characters": [
+        "saul",
+        "jonathan"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 15,
+          "speaker": "chronicler",
+          "to": "reader",
+          "note": "Jonathan and his armor-bearer attack the garrison"
+        },
+        {
+          "s": 16,
+          "e": 23,
+          "speaker": "chronicler",
+          "to": "reader",
+          "note": "Panic routs the Philistines; Israel pursues"
+        },
+        {
+          "s": 24,
+          "e": 46,
+          "speaker": "chronicler",
+          "to": "reader",
+          "note": "Saul's rash oath endangers Jonathan"
+        },
+        {
+          "s": 47,
+          "e": 52,
+          "speaker": "chronicler",
+          "to": "reader",
+          "note": "Saul's wars and family are summarized"
+        }
+      ]
+    },
+    {
+      "c": 15,
+      "title": "Saul Rejected as King",
+      "synopsis": "The Lord commands Saul through Samuel to destroy Amalek utterly for its ancient cruelty to Israel, but Saul spares king Agag and the best of the flocks, claiming they were kept for sacrifice. Samuel confronts Saul, declaring that to obey is better than sacrifice and that because Saul has rejected the Lord's word, the Lord rejects him from being king. Samuel himself slays Agag before the Lord at Gilgal.",
+      "years": "about 1040 BC",
+      "yearNum": -1040,
+      "approx": true,
+      "place": null,
+      "themes": [
+        "obedience",
+        "judgment",
+        "repentance"
+      ],
+      "characters": [
+        "saul",
+        "samuel"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 9,
+          "speaker": "samuel",
+          "to": "saul",
+          "note": "Saul is commanded to destroy Amalek utterly"
+        },
+        {
+          "s": 10,
+          "e": 23,
+          "speaker": "samuel",
+          "to": "saul",
+          "note": "Samuel rebukes Saul: to obey is better than sacrifice"
+        },
+        {
+          "s": 24,
+          "e": 35,
+          "speaker": "chronicler",
+          "to": "reader",
+          "note": "Saul is rejected as king; Samuel slays Agag"
+        }
+      ]
+    },
+    {
+      "c": 16,
+      "title": "David Anointed and Brought to Saul",
+      "synopsis": "The Lord sends Samuel to Bethlehem to anoint one of Jesse's sons as king, and looking past the elder sons' stature, the Lord chooses David, the youngest, for the Lord looks on the heart rather than outward appearance. The Spirit of the Lord comes upon David from that day, while an evil spirit troubles Saul, and David is brought to court to soothe the king with his harp.",
+      "years": "about 1025 BC",
+      "yearNum": -1025,
+      "approx": true,
+      "place": "bethlehem",
+      "themes": [
+        "prophecy",
+        "leadership",
+        "revelation"
+      ],
+      "characters": [
+        "samuel",
+        "saul",
+        "david"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 13,
+          "speaker": "samuel",
+          "to": "reader",
+          "note": "Samuel anoints David, the youngest of Jesse's sons"
+        },
+        {
+          "s": 14,
+          "e": 23,
+          "speaker": "chronicler",
+          "to": "reader",
+          "note": "David comes to soothe tormented Saul with music"
+        }
+      ]
+    },
+    {
+      "c": 17,
+      "title": "David and Goliath",
+      "synopsis": "The Philistine champion Goliath taunts Israel's army for forty days, and none dare face him until young David arrives with provisions for his brothers and hears the giant's defiance of the living God. David tells Saul that the Lord, who delivered him from lion and bear, will deliver him from the Philistine, and refusing armor, he fells Goliath with a sling and stone and cuts off his head. The Philistines flee, and Saul asks whose son this young man is.",
+      "years": "about 1025 BC",
+      "yearNum": -1025,
+      "approx": true,
+      "place": null,
+      "themes": [
+        "faith",
+        "deliverance",
+        "war"
+      ],
+      "characters": [
+        "saul",
+        "david",
+        "goliath"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 11,
+          "speaker": "chronicler",
+          "to": "reader",
+          "note": "Goliath challenges Israel's armies"
+        },
+        {
+          "s": 12,
+          "e": 30,
+          "speaker": "chronicler",
+          "to": "reader",
+          "note": "David arrives and hears the giant's challenge"
+        },
+        {
+          "s": 31,
+          "e": 40,
+          "speaker": "david",
+          "to": "saul",
+          "note": "David trusts the Lord who delivered him before"
+        },
+        {
+          "s": 41,
+          "e": 51,
+          "speaker": "chronicler",
+          "to": "reader",
+          "note": "David slays Goliath with sling and stone"
+        },
+        {
+          "s": 52,
+          "e": 58,
+          "speaker": "chronicler",
+          "to": "reader",
+          "note": "Philistines flee; Saul asks David's lineage"
+        }
+      ]
+    },
+    {
+      "c": 18,
+      "title": "David and Jonathan's Covenant",
+      "synopsis": "Jonathan's soul is knit to David's, and the two make a covenant of friendship as Jonathan strips off his robe and armor to give to David. Saul's jealousy grows as the women sing that David has slain his ten thousands, and he begins to fear and plot against David. David nonetheless behaves wisely in all his ways and marries Saul's daughter Michal, who loves him.",
+      "years": "about 1025 BC",
+      "yearNum": -1025,
+      "approx": true,
+      "place": null,
+      "themes": [
+        "family",
+        "faith",
+        "leadership"
+      ],
+      "characters": [
+        "saul",
+        "david",
+        "jonathan"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 4,
+          "speaker": "jonathan",
+          "to": "david",
+          "note": "Jonathan's soul is knit to David; they covenant"
+        },
+        {
+          "s": 5,
+          "e": 16,
+          "speaker": "chronicler",
+          "to": "reader",
+          "note": "Saul grows jealous of David's success"
+        },
+        {
+          "s": 17,
+          "e": 30,
+          "speaker": "chronicler",
+          "to": "reader",
+          "note": "David marries Michal; his fame increases"
+        }
+      ]
+    },
+    {
+      "c": 19,
+      "title": "Saul Seeks to Kill David",
+      "synopsis": "Jonathan intercedes for David and briefly reconciles him to Saul, but the king's jealousy soon returns, and he tries to pin David to the wall with a javelin. Saul's daughter Michal helps David escape through a window by night, and David flees to Samuel at Ramah, where Saul's pursuing messengers fall to prophesying instead of capturing him.",
+      "years": "about 1024 BC",
+      "yearNum": -1024,
+      "approx": true,
+      "place": null,
+      "themes": [
+        "deliverance",
+        "family"
+      ],
+      "characters": [
+        "saul",
+        "david",
+        "jonathan",
+        "samuel"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 7,
+          "speaker": "jonathan",
+          "to": "saul",
+          "note": "Jonathan intercedes for David with his father"
+        },
+        {
+          "s": 8,
+          "e": 17,
+          "speaker": "chronicler",
+          "to": "reader",
+          "note": "David escapes through a window by night"
+        },
+        {
+          "s": 18,
+          "e": 24,
+          "speaker": "chronicler",
+          "to": "reader",
+          "note": "David flees to Samuel; Saul's messengers prophesy"
+        }
+      ]
+    },
+    {
+      "c": 20,
+      "title": "David and Jonathan's Covenant Renewed",
+      "synopsis": "David and Jonathan devise a plan to test whether Saul truly intends to kill David, using David's absence from a feast as a signal. Saul's fury at the feast, even hurling his spear at his own son, proves David's danger is real. Jonathan warns David in the field with prearranged arrows, and the two part in tears, renewing their covenant of friendship before the Lord.",
+      "years": "about 1024 BC",
+      "yearNum": -1024,
+      "approx": true,
+      "place": null,
+      "themes": [
+        "covenant",
+        "family",
+        "faith"
+      ],
+      "characters": [
+        "saul",
+        "david",
+        "jonathan"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 23,
+          "speaker": "david",
+          "to": "jonathan",
+          "note": "David and Jonathan plan to test Saul's intent"
+        },
+        {
+          "s": 24,
+          "e": 34,
+          "speaker": "chronicler",
+          "to": "reader",
+          "note": "Saul's fury at the feast reveals his intent"
+        },
+        {
+          "s": 35,
+          "e": 42,
+          "speaker": "jonathan",
+          "to": "david",
+          "note": "Jonathan warns David and the two part in tears"
+        }
+      ]
+    },
+    {
+      "c": 21,
+      "title": "David Flees to Nob and Gath",
+      "synopsis": "Fleeing Saul, David comes to the priests at Nob, where he receives shewbread for his hunger and the sword of Goliath, which he had left there. He then flees to Achish, king of Gath, but fearing for his life among the Philistines, feigns madness, scratching at the gate and letting spittle fall on his beard until Achish sends him away.",
+      "years": "about 1024 BC",
+      "yearNum": -1024,
+      "approx": true,
+      "place": null,
+      "themes": [
+        "endurance",
+        "faith"
+      ],
+      "characters": [
+        "david"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 9,
+          "speaker": "chronicler",
+          "to": "reader",
+          "note": "David receives shewbread and Goliath's sword at Nob"
+        },
+        {
+          "s": 10,
+          "e": 15,
+          "speaker": "chronicler",
+          "to": "reader",
+          "note": "David feigns madness before the king of Gath"
+        }
+      ]
+    },
+    {
+      "c": 22,
+      "title": "The Cave of Adullam; Doeg's Massacre",
+      "synopsis": "David gathers a band of the distressed and discontented at the cave of Adullam, and places his parents in Moab for safety. Saul, enraged that the priests at Nob helped David, orders their slaughter, which his own guard refuses but a foreign herdsman carries out, killing eighty-five priests and the inhabitants of Nob. Only Abiathar the priest escapes and joins David.",
+      "years": "about 1024 BC",
+      "yearNum": -1024,
+      "approx": true,
+      "place": null,
+      "themes": [
+        "endurance",
+        "judgment",
+        "leadership"
+      ],
+      "characters": [
+        "saul",
+        "david"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 5,
+          "speaker": "chronicler",
+          "to": "reader",
+          "note": "David gathers followers at the cave of Adullam"
+        },
+        {
+          "s": 6,
+          "e": 19,
+          "speaker": "chronicler",
+          "to": "reader",
+          "note": "Saul orders the slaughter of the priests of Nob"
+        },
+        {
+          "s": 20,
+          "e": 23,
+          "speaker": "chronicler",
+          "to": "reader",
+          "note": "A lone priest escapes and joins David"
+        }
+      ]
+    },
+    {
+      "c": 23,
+      "title": "David Delivers Keilah",
+      "synopsis": "David inquires of the Lord and delivers the city of Keilah from a Philistine raid, but learns the people would betray him to Saul and flees into the wilderness of Ziph. There Jonathan finds David and strengthens his hand in God, reaffirming that David will be king and he himself will serve under him. Saul nearly traps David near Maon, but is called away by a Philistine invasion.",
+      "years": "about 1023 BC",
+      "yearNum": -1023,
+      "approx": true,
+      "place": null,
+      "themes": [
+        "deliverance",
+        "faith",
+        "endurance"
+      ],
+      "characters": [
+        "saul",
+        "david",
+        "jonathan"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 13,
+          "speaker": "chronicler",
+          "to": "reader",
+          "note": "David delivers Keilah, then flees Saul's pursuit"
+        },
+        {
+          "s": 14,
+          "e": 18,
+          "speaker": "jonathan",
+          "to": "david",
+          "note": "Jonathan encourages David in the wilderness of Ziph"
+        },
+        {
+          "s": 19,
+          "e": 29,
+          "speaker": "chronicler",
+          "to": "reader",
+          "note": "Saul pursues David but is called away"
+        }
+      ]
+    },
+    {
+      "c": 24,
+      "title": "David Spares Saul at En-gedi",
+      "synopsis": "Saul enters a cave at En-gedi to relieve himself, not knowing David and his men are hiding within, and David secretly cuts off a corner of Saul's robe rather than kill the Lord's anointed. Afterward David calls out to Saul, showing the piece of robe as proof he means no harm, and Saul weeps, acknowledging that David is more righteous than he and will surely become king.",
+      "years": "about 1023 BC",
+      "yearNum": -1023,
+      "approx": true,
+      "place": null,
+      "themes": [
+        "justice-and-mercy",
+        "humility"
+      ],
+      "characters": [
+        "saul",
+        "david"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 7,
+          "speaker": "chronicler",
+          "to": "reader",
+          "note": "David cuts Saul's robe but spares his life"
+        },
+        {
+          "s": 8,
+          "e": 15,
+          "speaker": "david",
+          "to": "saul",
+          "note": "David reveals himself and pleads his innocence"
+        },
+        {
+          "s": 16,
+          "e": 22,
+          "speaker": "saul",
+          "to": "david",
+          "note": "Saul weeps and acknowledges David's righteousness"
+        }
+      ]
+    },
+    {
+      "c": 25,
+      "title": "Samuel's Death; Nabal and Abigail",
+      "synopsis": "Samuel dies and all Israel mourns him. When a wealthy but churlish man refuses to reward David's men for protecting his flocks, David sets out in anger to destroy his household, but the man's wise wife intercepts David with generous gifts and pleads for restraint, turning aside his wrath. Struck by her words, the man dies of a seizure ten days later, and David takes the woman as his wife.",
+      "years": "about 1020 BC",
+      "yearNum": -1020,
+      "approx": true,
+      "place": null,
+      "themes": [
+        "justice-and-mercy",
+        "wisdom",
+        "family"
+      ],
+      "characters": [
+        "samuel",
+        "david"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 1,
+          "speaker": "chronicler",
+          "to": "reader",
+          "note": "Samuel dies and is mourned by Israel"
+        },
+        {
+          "s": 2,
+          "e": 13,
+          "speaker": "chronicler",
+          "to": "reader",
+          "note": "A churlish man refuses to reward David's men"
+        },
+        {
+          "s": 14,
+          "e": 31,
+          "speaker": "chronicler",
+          "to": "reader",
+          "note": "A wise woman intercedes to avert bloodshed"
+        },
+        {
+          "s": 32,
+          "e": 44,
+          "speaker": "chronicler",
+          "to": "reader",
+          "note": "David blesses the woman and takes her as wife"
+        }
+      ]
+    },
+    {
+      "c": 26,
+      "title": "David Spares Saul Again",
+      "synopsis": "David and a companion slip into Saul's camp by night while the whole army sleeps, and David again refuses to kill the Lord's anointed, taking only Saul's spear and water jug as proof of how close he came. From a distance David calls out to Saul's commander and to Saul himself, and Saul again confesses his fault, blessing David and acknowledging that he will prevail.",
+      "years": "about 1020 BC",
+      "yearNum": -1020,
+      "approx": true,
+      "place": null,
+      "themes": [
+        "justice-and-mercy",
+        "humility"
+      ],
+      "characters": [
+        "saul",
+        "david"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 12,
+          "speaker": "chronicler",
+          "to": "reader",
+          "note": "David and a companion enter Saul's sleeping camp"
+        },
+        {
+          "s": 13,
+          "e": 20,
+          "speaker": "david",
+          "to": "saul",
+          "note": "David again refuses to harm the Lord's anointed"
+        },
+        {
+          "s": 21,
+          "e": 25,
+          "speaker": "saul",
+          "to": "david",
+          "note": "Saul confesses his fault and blesses David"
+        }
+      ]
+    },
+    {
+      "c": 27,
+      "title": "David Takes Refuge with Achish",
+      "synopsis": "Weary of Saul's pursuit, David takes refuge among the Philistines under Achish, king of Gath, who grants him the town of Ziklag to dwell in. From there David raids nearby raiding peoples, letting Achish believe he is attacking Israel's own territory, and so keeps his true loyalties hidden while surviving among Israel's enemies.",
+      "years": "about 1015 BC",
+      "yearNum": -1015,
+      "approx": true,
+      "place": null,
+      "themes": [
+        "endurance",
+        "faith"
+      ],
+      "characters": [
+        "saul",
+        "david"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 12,
+          "speaker": "chronicler",
+          "to": "reader",
+          "note": "David takes refuge among the Philistines at Ziklag"
+        }
+      ]
+    },
+    {
+      "c": 28,
+      "title": "Saul Consults the Witch of Endor",
+      "synopsis": "As the Philistines gather for battle, Achish enlists David's men in his army, but David's true loyalty is soon tested. Forsaken by the Lord, who no longer answers by dream or prophet, Saul in desperation seeks out a medium at Endor, though he himself had banned such practices. Samuel's spirit is called up and pronounces that Saul and his sons will die the next day, and Saul collapses in terror.",
+      "years": "about 1013 BC",
+      "yearNum": -1013,
+      "approx": true,
+      "place": null,
+      "themes": [
+        "apostasy",
+        "judgment",
+        "prophecy"
+      ],
+      "characters": [
+        "saul",
+        "samuel"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 2,
+          "speaker": "chronicler",
+          "to": "reader",
+          "note": "Achish enlists David's men for the coming battle"
+        },
+        {
+          "s": 3,
+          "e": 14,
+          "speaker": "chronicler",
+          "to": "reader",
+          "note": "Forsaken Saul consults the witch of Endor"
+        },
+        {
+          "s": 15,
+          "e": 19,
+          "speaker": "samuel",
+          "to": "saul",
+          "note": "Samuel's spirit foretells Saul's defeat and death"
+        },
+        {
+          "s": 20,
+          "e": 25,
+          "speaker": "chronicler",
+          "to": "reader",
+          "note": "Saul collapses in fear; the woman feeds him"
+        }
+      ]
+    },
+    {
+      "c": 29,
+      "title": "The Philistines Distrust David",
+      "synopsis": "As the Philistine army mobilizes for battle against Israel, the other Philistine lords object to David's presence, fearing he will turn against them in the fight to regain favor with Saul. Achish reluctantly agrees and sends David and his men back to Ziklag, sparing David the impossible choice of fighting against his own people.",
+      "years": "about 1013 BC",
+      "yearNum": -1013,
+      "approx": true,
+      "place": null,
+      "themes": [
+        "deliverance"
+      ],
+      "characters": [
+        "saul",
+        "david"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 11,
+          "speaker": "chronicler",
+          "to": "reader",
+          "note": "Philistine lords insist David be sent back"
+        }
+      ]
+    },
+    {
+      "c": 30,
+      "title": "David Recovers Ziklag",
+      "synopsis": "David returns to find Ziklag burned by Amalekite raiders and all the families, including his own wives, taken captive. David inquires of the Lord and pursues the raiders, finding an abandoned Egyptian servant who guides him to their camp. David overtakes the Amalekites, recovers everyone and everything taken, and generously shares the spoil even with those too exhausted to fight.",
+      "years": "about 1013 BC",
+      "yearNum": -1013,
+      "approx": true,
+      "place": null,
+      "themes": [
+        "deliverance",
+        "faith",
+        "charity"
+      ],
+      "characters": [
+        "david"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 6,
+          "speaker": "chronicler",
+          "to": "reader",
+          "note": "Amalekites burn Ziklag and take the families captive"
+        },
+        {
+          "s": 7,
+          "e": 20,
+          "speaker": "chronicler",
+          "to": "reader",
+          "note": "David inquires of the Lord and pursues the raiders"
+        },
+        {
+          "s": 21,
+          "e": 31,
+          "speaker": "chronicler",
+          "to": "reader",
+          "note": "David recovers all and shares the spoil generously"
+        }
+      ]
+    },
+    {
+      "c": 31,
+      "title": "The Death of Saul",
+      "synopsis": "The Philistines press Israel hard on mount Gilboa, wounding Saul severely, and rather than fall into enemy hands he takes his own life, and Jonathan and his brothers die in the same battle. The men of Jabesh-gilead, remembering Saul's earlier deliverance of their city, make a night journey to recover the bodies from the wall of Beth-shan and give them honorable burial.",
+      "years": "about 1010 BC",
+      "yearNum": -1010,
+      "approx": true,
+      "place": null,
+      "themes": [
+        "war",
+        "judgment",
+        "endurance"
+      ],
+      "characters": [
+        "saul",
+        "jonathan"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 7,
+          "speaker": "chronicler",
+          "to": "reader",
+          "note": "Saul and his sons die in battle on Gilboa"
+        },
+        {
+          "s": 8,
+          "e": 13,
+          "speaker": "chronicler",
+          "to": "reader",
+          "note": "Jabesh-gilead recovers and buries their bodies"
+        }
+      ]
+    }
+  ]
+}
