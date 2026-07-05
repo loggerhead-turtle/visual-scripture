@@ -26,12 +26,15 @@ export async function renderStories(el, params) {
     }).join('');
     const place = s.place ? allPlaces.find(p => p.id === s.place) : null;
     const hay = `${s.title} ${s.blurb} ${(s.characters || []).map(id => (ents.byId[id] || {}).name || '').join(' ')}`.toLowerCase();
-    return `<a class="story-card" data-cat="${s.cat}" data-vol="${s.vol}" data-hay="${esc(hay)}" href="#/read/${s.refs[0].slug}/${s.refs[0].c}">
+    const placeLink = place ? ` · <a href="#/map?place=${s.place}">📍 ${esc(place.name)}</a>` : '';
+    const guideLink = s.allegory ? ` · <a href="#/allegory/${s.allegory}" style="color:var(--teal)">visual guide ↗</a>` : '';
+    const goto = `${s.refs[0].slug}/${s.refs[0].c}`;
+    return `<div class="story-card" role="link" style="cursor:pointer" data-cat="${s.cat}" data-vol="${s.vol}" data-hay="${esc(hay)}" data-goto="${goto}">
       <h3>${esc(s.title)}</h3>
       <p>${esc(s.blurb)}</p>
       <div class="faces">${faces}</div>
-      <div class="refs">${refs}${place ? ` · 📍 ${esc(place.name)}` : ''}${s.allegory ? ` · <span style="color:var(--teal)">visual guide ↗</span>` : ''}</div>
-    </a>`;
+      <div class="refs">${refs}${placeLink}${guideLink}</div>
+    </div>`;
   }).join('');
 
   el.innerHTML = `
@@ -70,4 +73,12 @@ export async function renderStories(el, params) {
     el.querySelectorAll('[data-vol]').forEach(x => x.style.borderColor = x === b ? 'var(--gold)' : '');
     applyFilter();
   }));
+
+  const grid = el.querySelector('#story-grid');
+  grid.addEventListener('click', e => {
+    if (e.target.closest('a')) return;
+    const card = e.target.closest('.story-card');
+    if (!card) return;
+    location.hash = '#/read/' + card.dataset.goto;
+  });
 }
