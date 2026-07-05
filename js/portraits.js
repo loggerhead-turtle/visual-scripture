@@ -54,23 +54,35 @@ const FACE = {
   broad:  { cheek: 1.06, jaw: 0.88, chin: 0.86, square: 0.40 },
 };
 
-function facePath(cx, cy, hw, hh, shapeKey) {
+// Shared face geometry so the beard traces the very same jaw the face uses.
+function faceMetrics(cx, cy, hw, hh, shapeKey) {
   const s = FACE[shapeKey] || FACE.oval;
-  const chinY = cy + hh * s.chin;
-  const jawY = cy + hh * 0.52;
-  const cheekY = cy + hh * 0.06;
-  const tempY = cy - hh * 0.62;
-  const topY = cy - hh;
-  const jx = hw * s.jaw, cw = hw * s.cheek, chinW = hw * s.square * 0.5;
-  // right side down to chin, then mirror up the left
-  return `M ${cx} ${topY}`
-    + ` C ${cx + cw * 0.7} ${topY} ${cx + cw} ${tempY} ${cx + cw} ${cheekY}`
-    + ` C ${cx + cw} ${(cheekY + jawY) / 2} ${cx + jx + 4} ${jawY} ${cx + jx} ${jawY + hh * 0.14}`
-    + ` C ${cx + jx - 2} ${chinY - hh * 0.18} ${cx + chinW + hw * 0.22} ${chinY} ${cx + chinW} ${chinY}`
-    + ` L ${cx - chinW} ${chinY}`
-    + ` C ${cx - chinW - hw * 0.22} ${chinY} ${cx - jx + 2} ${chinY - hh * 0.18} ${cx - jx} ${jawY + hh * 0.14}`
-    + ` C ${cx - jx - 4} ${jawY} ${cx - cw} ${(cheekY + jawY) / 2} ${cx - cw} ${cheekY}`
-    + ` C ${cx - cw} ${tempY} ${cx - cw * 0.7} ${topY} ${cx} ${topY} Z`;
+  return {
+    hw, hh, topY: cy - hh, tempY: cy - hh * 0.62,
+    cw: hw * s.cheek, cheekY: cy + hh * 0.06,
+    jx: hw * s.jaw, jawY: cy + hh * 0.52, jawDrop: hh * 0.14,
+    chinW: hw * s.square * 0.5, chinY: cy + hh * s.chin,
+  };
+}
+
+// The lower face outline as a continuation string (no leading M): from the
+// right cheek point down around the chin to the left cheek point. `grow`
+// pushes it outward, `hang` drops the chin lower (for long beards).
+function jawlineC(cx, m, grow = 0, hang = 0) {
+  const { hw, hh, cw, cheekY, jx, jawY, jawDrop, chinW, chinY } = m;
+  return ` C ${cx + cw + grow} ${(cheekY + jawY) / 2} ${cx + jx + 4 + grow} ${jawY} ${cx + jx + grow} ${jawY + jawDrop}`
+    + ` C ${cx + jx - 2 + grow} ${chinY - hh * 0.18 + hang} ${cx + chinW + hw * 0.22 + grow} ${chinY + hang} ${cx + chinW} ${chinY + hang}`
+    + ` L ${cx - chinW} ${chinY + hang}`
+    + ` C ${cx - chinW - hw * 0.22 - grow} ${chinY + hang} ${cx - jx + 2 - grow} ${chinY - hh * 0.18 + hang} ${cx - jx - grow} ${jawY + jawDrop}`
+    + ` C ${cx - jx - 4 - grow} ${jawY} ${cx - cw - grow} ${(cheekY + jawY) / 2} ${cx - cw - grow} ${cheekY}`;
+}
+
+function facePath(cx, cy, hw, hh, shapeKey) {
+  const m = faceMetrics(cx, cy, hw, hh, shapeKey);
+  return `M ${cx} ${m.topY}`
+    + ` C ${cx + m.cw * 0.7} ${m.topY} ${cx + m.cw} ${m.tempY} ${cx + m.cw} ${m.cheekY}`
+    + jawlineC(cx, m)
+    + ` C ${cx - m.cw} ${m.tempY} ${cx - m.cw * 0.7} ${m.topY} ${cx} ${m.topY} Z`;
 }
 
 // eyebrows
@@ -173,47 +185,53 @@ function hair(cx, cy, hw, hh, style, col, age) {
   return { back, front };
 }
 
-// beard hugging the jaw. Drawn over the lower face.
-function beard(cx, cy, hw, hh, kind, col, mouthY) {
-  if (!kind || kind === 'none') return { over: '', lip: false };
-  const dk = shade(col, -20);
-  const jawL = cx - hw * 0.9, jawR = cx + hw * 0.9;
-  const jawTop = cy + hh * 0.02;      // near the ears / sideburns
-  const chinY = cy + hh * 1.04;
-  const cheekLine = cy + hh * 0.38;   // upper edge of the beard across cheeks
-  const mustache = (full) => `<path d="M ${cx - 6.5} ${mouthY - 2.5} Q ${cx - 3} ${mouthY - (full ? 0 : 1)} ${cx} ${mouthY - 1.5} Q ${cx + 3} ${mouthY - (full ? 0 : 1)} ${cx + 6.5} ${mouthY - 2.5} Q ${cx + 3} ${mouthY + 1.5} ${cx} ${mouthY + 0.5} Q ${cx - 3} ${mouthY + 1.5} ${cx - 6.5} ${mouthY - 2.5} Z" fill="${col}"/>`;
+// Beard traces the SAME jaw outline the face uses (via faceMetrics `m`), so it
+// always hugs the face regardless of face shape. The filled shape = the lower
+// jaw outline (outer) closed by an upper edge across the cheeks (inner).
+function beard(cx, m, kind, col, mouthY) {
+  if (!kind || kind === 'none') return '';
+  const dk = shade(col, -20), lt = shade(col, 18);
+  const { cw, cheekY, chinY, hh } = m;
+  const mustache = full => `<path d="M ${cx - 6.5} ${mouthY - 2.4} Q ${cx - 3} ${mouthY - (full ? 0.2 : 1.2)} ${cx} ${mouthY - 1.4} Q ${cx + 3} ${mouthY - (full ? 0.2 : 1.2)} ${cx + 6.5} ${mouthY - 2.4} Q ${cx + 3} ${mouthY + 1.4} ${cx} ${mouthY + 0.4} Q ${cx - 3} ${mouthY + 1.4} ${cx - 6.5} ${mouthY - 2.4} Z" fill="${col}"/>`;
+  // upper edge of the beard: rises to `topRise` on the cheeks, dips to Yc at centre
+  const innerEdge = (topRise, coverMouth) => {
+    const Ys = cheekY + hh * topRise;
+    const Yc = coverMouth ? mouthY - 1 : mouthY + 4.5;
+    return ` C ${cx - cw * 0.62} ${Ys} ${cx - m.hw * 0.5} ${Yc - 2} ${cx - 7} ${Yc}`
+      + ` Q ${cx} ${Yc + 2.2} ${cx + 7} ${Yc}`
+      + ` C ${cx + m.hw * 0.5} ${Yc - 2} ${cx + cw * 0.62} ${Ys} ${cx + cw} ${cheekY}`;
+  };
+  // outer = jaw outline from right cheek round to left cheek
+  const shell = (grow, hang, topRise, coverMouth) =>
+    `M ${cx + cw + grow} ${cheekY}` + jawlineC(cx, m, grow, hang) + innerEdge(topRise, coverMouth) + ' Z';
+
   switch (kind) {
     case 'stubble':
-      return { over: `<path d="M ${jawL} ${cheekLine} C ${jawL - 2} ${chinY - hh * 0.2} ${cx - hw * 0.4} ${chinY} ${cx} ${chinY} C ${cx + hw * 0.4} ${chinY} ${jawR + 2} ${chinY - hh * 0.2} ${jawR} ${cheekLine}" fill="${col}" opacity=".28"/>`, lip: false };
+      return `<path d="${shell(0, 0, 0.34, false)}" fill="${col}" opacity=".26"/>`;
     case 'mustache':
-      return { over: mustache(false), lip: false };
+      return mustache(false);
     case 'goatee':
-      return { over: mustache(false) + `<path d="M ${cx - 6} ${mouthY + 3} Q ${cx} ${mouthY + 2} ${cx + 6} ${mouthY + 3} Q ${cx + 5} ${chinY - 2} ${cx} ${chinY + 1} Q ${cx - 5} ${chinY - 2} ${cx - 6} ${mouthY + 3} Z" fill="${col}"/>`, lip: false };
-    case 'short': {
-      const outer = `M ${jawL - 1} ${jawTop} C ${jawL - 3} ${cheekLine + 6} ${cx - hw * 0.4} ${chinY - 2} ${cx} ${chinY} C ${cx + hw * 0.4} ${chinY - 2} ${jawR + 3} ${cheekLine + 6} ${jawR + 1} ${jawTop}`;
-      const inner = `C ${cx + hw * 0.55} ${cheekLine + 3} ${cx + 8} ${mouthY + 4} ${cx} ${mouthY + 4} C ${cx - 8} ${mouthY + 4} ${cx - hw * 0.55} ${cheekLine + 3} ${jawL - 1} ${jawTop} Z`;
-      return { over: `<path d="${outer} ${inner}" fill="${col}"/>` + mustache(false), lip: true };
+      return mustache(false) + `<path d="M ${cx - 6} ${mouthY + 3} Q ${cx} ${mouthY + 2} ${cx + 6} ${mouthY + 3} Q ${cx + 5.5} ${chinY - 2} ${cx} ${chinY + 1.5} Q ${cx - 5.5} ${chinY - 2} ${cx - 6} ${mouthY + 3} Z" fill="${col}"/>`;
+    case 'chinstrap': { // chin-curtain / Donegal (no mustache) — e.g. Brigham Young
+      const d = shell(0.5, hh * 0.02, 0.5, false);
+      return `<path d="${d}" fill="${col}"/><path d="${d}" fill="${dk}" opacity=".18"/>`;
     }
-    case 'chinstrap': { // chin-curtain / Donegal (jawline beard, no mustache) — e.g. Brigham Young
-      const outer = `M ${jawL - 1} ${jawTop} C ${jawL - 3} ${cheekLine + 7} ${cx - hw * 0.4} ${chinY} ${cx} ${chinY + 1} C ${cx + hw * 0.4} ${chinY} ${jawR + 3} ${cheekLine + 7} ${jawR + 1} ${jawTop}`;
-      const inner = `C ${cx + hw * 0.64} ${cheekLine + 6} ${cx + 9} ${mouthY + 5} ${cx} ${mouthY + 5} C ${cx - 9} ${mouthY + 5} ${cx - hw * 0.64} ${cheekLine + 6} ${jawL - 1} ${jawTop} Z`;
-      return { over: `<path d="${outer} ${inner}" fill="${col}"/>`, lip: false };
+    case 'short': {
+      const d = shell(0.5, 0, 0.5, false);
+      return `<path d="${d}" fill="${col}"/><path d="${d}" fill="${dk}" opacity=".15"/>` + mustache(false);
     }
     case 'forked': {
-      const outer = `M ${jawL - 1} ${jawTop} C ${jawL - 4} ${chinY} ${cx - hw * 0.5} ${chinY + hh * 0.5} ${cx - 4} ${chinY + hh * 0.7} L ${cx} ${chinY + hh * 0.35} L ${cx + 4} ${chinY + hh * 0.7} C ${cx + hw * 0.5} ${chinY + hh * 0.5} ${jawR + 4} ${chinY} ${jawR + 1} ${jawTop}`;
-      const inner = `C ${cx + hw * 0.6} ${cheekLine + 2} ${cx + 9} ${mouthY + 5} ${cx} ${mouthY + 5} C ${cx - 9} ${mouthY + 5} ${cx - hw * 0.6} ${cheekLine + 2} ${jawL - 1} ${jawTop} Z`;
-      return { over: `<path d="${outer} ${inner}" fill="${col}"/><path d="${outer} ${inner}" fill="${dk}" opacity=".25"/>` + mustache(true), lip: true };
+      const d = shell(1, hh * 0.72, 0.18, false);
+      const split = `<path d="M ${cx} ${chinY + hh * 0.1} L ${cx} ${chinY + hh * 0.9}" stroke="${dk}" stroke-width="2.2" opacity=".4" fill="none"/>`;
+      return `<path d="${d}" fill="${col}"/><path d="${d}" fill="${dk}" opacity=".2"/>${split}` + mustache(true);
     }
     case 'long': {
-      const hang = chinY + hh * 0.85;
-      const outer = `M ${jawL - 1} ${jawTop} C ${jawL - 5} ${chinY} ${cx - hw * 0.6} ${hang} ${cx} ${hang + hh * 0.08} C ${cx + hw * 0.6} ${hang} ${jawR + 5} ${chinY} ${jawR + 1} ${jawTop}`;
-      const inner = `C ${cx + hw * 0.6} ${cheekLine + 2} ${cx + 9} ${mouthY + 5} ${cx} ${mouthY + 5} C ${cx - 9} ${mouthY + 5} ${cx - hw * 0.6} ${cheekLine + 2} ${jawL - 1} ${jawTop} Z`;
-      return { over: `<path d="${outer} ${inner}" fill="${col}"/><path d="M ${cx} ${mouthY + 6} L ${cx} ${hang}" stroke="${dk}" stroke-width="1.6" opacity=".35"/>` + mustache(true), lip: true };
+      const d = shell(1.5, hh * 0.82, 0.13, false);
+      return `<path d="${d}" fill="${col}"/><path d="${d}" fill="${lt}" opacity=".12"/><path d="M ${cx} ${mouthY + 8} L ${cx} ${chinY + hh * 0.74}" stroke="${dk}" stroke-width="1.4" opacity=".26"/>` + mustache(true);
     }
     default: { // 'full'
-      const outer = `M ${jawL - 1} ${jawTop} C ${jawL - 4} ${chinY - hh * 0.1} ${cx - hw * 0.45} ${chinY + hh * 0.14} ${cx} ${chinY + hh * 0.16} C ${cx + hw * 0.45} ${chinY + hh * 0.14} ${jawR + 4} ${chinY - hh * 0.1} ${jawR + 1} ${jawTop}`;
-      const inner = `C ${cx + hw * 0.58} ${cheekLine + 2} ${cx + 9} ${mouthY + 4} ${cx} ${mouthY + 4} C ${cx - 9} ${mouthY + 4} ${cx - hw * 0.58} ${cheekLine + 2} ${jawL - 1} ${jawTop} Z`;
-      return { over: `<path d="${outer} ${inner}" fill="${col}"/><path d="${outer} ${inner}" fill="${dk}" opacity=".2"/>` + mustache(true), lip: true };
+      const d = shell(1, hh * 0.16, 0.18, false);
+      return `<path d="${d}" fill="${col}"/><path d="${d}" fill="${dk}" opacity=".18"/>` + mustache(true);
     }
   }
 }
@@ -275,8 +293,10 @@ function bust(p, cx, w, h) {
   out += `<ellipse cx="${cx - hw}" cy="${eyeY + 4}" rx="3.4" ry="5" fill="${skin}"/><ellipse cx="${cx + hw}" cy="${eyeY + 4}" rx="3.4" ry="5" fill="${skin}"/><path d="M ${cx - hw + 1} ${eyeY + 1} q -2 3 0 6" fill="none" stroke="${dkskin}" stroke-width="1" opacity=".6"/><path d="M ${cx + hw - 1} ${eyeY + 1} q 2 3 0 6" fill="none" stroke="${dkskin}" stroke-width="1" opacity=".6"/>`;
 
   // face
-  out += `<path d="${facePath(cx, cy, hw, hh, p.face)}" fill="${skin}"/>`;
-  out += `<path d="${facePath(cx, cy, hw, hh, p.face)}" fill="${dkskin}" opacity=".10" transform="translate(2.2,1.5) scale(0.98)" transform-origin="${cx} ${cy}"/>`;
+  const m = faceMetrics(cx, cy, hw, hh, p.face);
+  const fp = facePath(cx, cy, hw, hh, p.face);
+  out += `<path d="${fp}" fill="${skin}"/>`;
+  out += `<path d="${fp}" fill="${dkskin}" opacity=".10" transform="translate(2.2,1.5) scale(0.98)" transform-origin="${cx} ${cy}"/>`;
   // cheeks / age lines
   if (p.age === 'old') {
     out += `<path d="M ${cx - hw * 0.5} ${cy + hh * 0.5} q 3 3 1 7 M ${cx + hw * 0.5} ${cy + hh * 0.5} q -3 3 -1 7" fill="none" stroke="${dkskin}" stroke-width="1" opacity=".4"/>`;
@@ -288,10 +308,9 @@ function bust(p, cx, w, h) {
   out += eyes(cx, eyeY, ex, p.eyes, p.hair);
   out += nose(cx, noseTop, noseBase, p.nose, skin);
 
-  // beard (over jaw) — may cover the mouth
-  const B = beard(cx, cy, hw, hh, p.beard, p.hair, mouthY);
-  out += mouth(cx, mouthY, p.mouth, skin, B.lip && (p.beard === 'long' || p.beard === 'forked'));
-  out += B.over;
+  // beard traces the same jaw as the face; mouth stays visible above it
+  out += mouth(cx, mouthY, p.mouth, skin, false);
+  out += beard(cx, m, p.beard, p.hair, mouthY);
 
   // hair (front) + headgear
   out += paintVeil(H.front);
