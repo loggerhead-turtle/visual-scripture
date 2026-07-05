@@ -743,7 +743,7 @@
       "characters": ["isaiah", "the-lord"],
       "segments": [
         { "s": 1, "e": 12, "speaker": "isaiah", "to": "reader", "note": "The servant called as a light to the Gentiles" },
-        { "s": 13, "e": 26, "speaker": "the-lord", "to": "zion", "note": "Can a mother forget her child? Zion never forgotten" }
+        { "s": 13, "e": 26, "speaker": "the-lord", "to": "house-of-israel", "note": "Can a mother forget her child? Zion never forgotten" }
       ]
     },
     {
@@ -774,7 +774,7 @@
       "segments": [
         { "s": 1, "e": 8, "speaker": "the-lord", "to": "house-of-israel", "note": "Look unto Abraham and Sarah, the rock hewn" },
         { "s": 9, "e": 16, "speaker": "isaiah", "to": "the-lord", "note": "Awake, O arm of the Lord, as in days of old" },
-        { "s": 17, "e": 23, "speaker": "isaiah", "to": "zion", "note": "Awake, Jerusalem, the cup of trembling removed" }
+        { "s": 17, "e": 23, "speaker": "isaiah", "to": "house-of-israel", "note": "Awake, Jerusalem, the cup of trembling removed" }
       ]
     },
     {
@@ -788,7 +788,7 @@
       "themes": ["hope", "messiah", "gathering-of-israel"],
       "characters": ["isaiah", "the-lord"],
       "segments": [
-        { "s": 1, "e": 12, "speaker": "isaiah", "to": "zion", "note": "Awake, Zion; beautiful are the feet of the messenger" },
+        { "s": 1, "e": 12, "speaker": "isaiah", "to": "house-of-israel", "note": "Awake, Zion; beautiful are the feet of the messenger" },
         { "s": 13, "e": 15, "speaker": "the-lord", "to": "reader", "note": "The servant exalted though marred beyond recognition" }
       ]
     },
@@ -818,8 +818,8 @@
       "themes": ["covenant", "hope", "gathering-of-israel"],
       "characters": ["isaiah", "the-lord"],
       "segments": [
-        { "s": 1, "e": 10, "speaker": "the-lord", "to": "zion", "note": "The barren woman sings; everlasting kindness restored" },
-        { "s": 11, "e": 17, "speaker": "the-lord", "to": "zion", "note": "No weapon formed against thee shall prosper" }
+        { "s": 1, "e": 10, "speaker": "the-lord", "to": "house-of-israel", "note": "The barren woman sings; everlasting kindness restored" },
+        { "s": 11, "e": 17, "speaker": "the-lord", "to": "house-of-israel", "note": "No weapon formed against thee shall prosper" }
       ]
     },
     {
@@ -894,7 +894,7 @@
       "characters": ["isaiah", "the-lord"],
       "segments": [
         { "s": 1, "e": 15, "speaker": "isaiah", "to": "house-of-israel", "note": "Iniquities have separated Israel from God" },
-        { "s": 16, "e": 21, "speaker": "isaiah", "to": "zion", "note": "The Lord's own arm brings salvation; a Redeemer comes to Zion" }
+        { "s": 16, "e": 21, "speaker": "isaiah", "to": "house-of-israel", "note": "The Lord's own arm brings salvation; a Redeemer comes to Zion" }
       ]
     },
     {
@@ -908,8 +908,8 @@
       "themes": ["hope", "zion", "gathering-of-israel"],
       "characters": ["isaiah", "the-lord"],
       "segments": [
-        { "s": 1, "e": 14, "speaker": "isaiah", "to": "zion", "note": "Arise, shine; nations come to Zion's light" },
-        { "s": 15, "e": 22, "speaker": "the-lord", "to": "zion", "note": "Violence ends; the Lord himself is Zion's everlasting light" }
+        { "s": 1, "e": 14, "speaker": "isaiah", "to": "house-of-israel", "note": "Arise, shine; nations come to Zion's light" },
+        { "s": 15, "e": 22, "speaker": "the-lord", "to": "house-of-israel", "note": "Violence ends; the Lord himself is Zion's everlasting light" }
       ]
     },
     {
@@ -924,7 +924,7 @@
       "characters": ["isaiah", "the-lord"],
       "segments": [
         { "s": 1, "e": 3, "speaker": "isaiah", "to": "reader", "note": "The Spirit of the Lord upon the anointed servant" },
-        { "s": 4, "e": 11, "speaker": "isaiah", "to": "zion", "note": "Beauty for ashes; garments of salvation" }
+        { "s": 4, "e": 11, "speaker": "isaiah", "to": "house-of-israel", "note": "Beauty for ashes; garments of salvation" }
       ]
     },
     {
@@ -938,8 +938,8 @@
       "themes": ["hope", "zion", "covenant"],
       "characters": ["isaiah", "the-lord"],
       "segments": [
-        { "s": 1, "e": 5, "speaker": "isaiah", "to": "zion", "note": "Zion's new name; the Lord delights in her as a bride" },
-        { "s": 6, "e": 12, "speaker": "isaiah", "to": "zion", "note": "Watchmen on the walls; Zion the sought out" }
+        { "s": 1, "e": 5, "speaker": "isaiah", "to": "house-of-israel", "note": "Zion's new name; the Lord delights in her as a bride" },
+        { "s": 6, "e": 12, "speaker": "isaiah", "to": "house-of-israel", "note": "Watchmen on the walls; Zion the sought out" }
       ]
     },
     {
@@ -999,7 +999,7 @@
       "characters": ["isaiah", "the-lord"],
       "segments": [
         { "s": 1, "e": 6, "speaker": "the-lord", "to": "house-of-israel", "note": "The contrite honored above empty ritual" },
-        { "s": 7, "e": 17, "speaker": "the-lord", "to": "zion", "note": "Zion's children born in a moment; comfort like a mother" },
+        { "s": 7, "e": 17, "speaker": "the-lord", "to": "house-of-israel", "note": "Zion's children born in a moment; comfort like a mother" },
         { "s": 18, "e": 24, "speaker": "the-lord", "to": "nations", "note": "Nations gathered to see the Lord's glory; judgment endures" }
       ]
     }

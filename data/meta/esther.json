@@ -1,0 +1,157 @@
+{
+  "book": "Esther",
+  "slug": "esther",
+  "narrator": "chronicler",
+  "plates": "history",
+  "chapters": [
+    {
+      "c": 1,
+      "title": "The King Deposes Queen Vashti",
+      "synopsis": "King Ahasuerus holds a lavish feast at Susa displaying his wealth, followed by a seven-day banquet for all the people. When Queen Vashti refuses his summons to appear, his counselors advise deposing her as an example to all wives.",
+      "years": "about 483 BC",
+      "yearNum": -483,
+      "approx": true,
+      "place": "susa",
+      "themes": ["leadership", "judgment", "family"],
+      "characters": [],
+      "segments": [
+        { "s": 1, "e": 9, "speaker": "chronicler", "to": "reader", "note": "Ahasuerus holds a great feast at Susa" },
+        { "s": 10, "e": 22, "speaker": "chronicler", "to": "reader", "note": "Vashti refuses the king and is deposed" }
+      ]
+    },
+    {
+      "c": 2,
+      "title": "Esther Becomes Queen",
+      "synopsis": "Young women are gathered before the king, and Esther, raised by her cousin Mordecai, finds favor and is crowned queen without revealing her Jewish identity. Mordecai later uncovers and reports a plot to assassinate the king.",
+      "years": "about 479 BC",
+      "yearNum": -479,
+      "approx": true,
+      "place": "susa",
+      "themes": ["faith", "deliverance", "leadership"],
+      "characters": ["esther", "mordecai"],
+      "segments": [
+        { "s": 1, "e": 18, "speaker": "chronicler", "to": "reader", "note": "Esther is chosen and crowned queen" },
+        { "s": 19, "e": 23, "speaker": "chronicler", "to": "reader", "note": "Mordecai exposes a plot against the king" }
+      ]
+    },
+    {
+      "c": 3,
+      "title": "Haman's Plot Against the Jews",
+      "synopsis": "Haman is advanced above all the princes, and when Mordecai refuses to bow to him, Haman resolves to destroy all the Jews of the kingdom. He casts lots for the date and secures a royal decree for their annihilation.",
+      "years": "about 474 BC",
+      "yearNum": -474,
+      "approx": true,
+      "place": "susa",
+      "themes": ["pride-cycle", "judgment", "deliverance"],
+      "characters": ["mordecai", "haman"],
+      "segments": [
+        { "s": 1, "e": 6, "speaker": "chronicler", "to": "reader", "note": "Haman is enraged that Mordecai will not bow" },
+        { "s": 7, "e": 15, "speaker": "chronicler", "to": "reader", "note": "Haman secures a decree to destroy the Jews" }
+      ]
+    },
+    {
+      "c": 4,
+      "title": "For Such a Time as This",
+      "synopsis": "Mordecai mourns publicly and sends word urging Esther to plead for her people before the king. Esther fears to approach him unbidden, but Mordecai warns that deliverance will come from elsewhere if she stays silent, and she asks all the Jews to fast for her.",
+      "years": "about 474 BC",
+      "yearNum": -474,
+      "approx": true,
+      "place": "susa",
+      "themes": ["faith", "deliverance", "prayer"],
+      "characters": ["esther", "mordecai"],
+      "segments": [
+        { "s": 1, "e": 8, "speaker": "chronicler", "to": "reader", "note": "Mordecai mourns and appeals to Esther" },
+        { "s": 9, "e": 14, "speaker": "mordecai", "to": "esther", "note": "Who knoweth whether thou art come for such a time" },
+        { "s": 15, "e": 17, "speaker": "esther", "to": "mordecai", "note": "Esther asks the Jews to fast for her" }
+      ]
+    },
+    {
+      "c": 5,
+      "title": "Esther's Banquet Invitation",
+      "synopsis": "Esther approaches the king unbidden and is graciously received, inviting him and Haman to a private banquet. Elated yet still enraged at Mordecai, Haman has gallows built to hang him.",
+      "years": "about 474 BC",
+      "yearNum": -474,
+      "approx": true,
+      "place": "susa",
+      "themes": ["faith", "pride-cycle"],
+      "characters": ["esther", "haman", "mordecai"],
+      "segments": [
+        { "s": 1, "e": 8, "speaker": "chronicler", "to": "reader", "note": "Esther is received and invites the king to a banquet" },
+        { "s": 9, "e": 14, "speaker": "chronicler", "to": "reader", "note": "Haman builds gallows for Mordecai" }
+      ]
+    },
+    {
+      "c": 6,
+      "title": "The King Honors Mordecai",
+      "synopsis": "Unable to sleep, the king reads the chronicles and learns Mordecai was never rewarded for exposing the assassination plot. He commands the humiliated Haman to honor Mordecai publicly through the city streets.",
+      "years": "about 474 BC",
+      "yearNum": -474,
+      "approx": true,
+      "place": "susa",
+      "themes": ["justice-and-mercy", "leadership"],
+      "characters": ["mordecai", "haman"],
+      "segments": [
+        { "s": 1, "e": 14, "speaker": "chronicler", "to": "reader", "note": "Haman is forced to honor Mordecai before the city" }
+      ]
+    },
+    {
+      "c": 7,
+      "title": "Haman Exposed and Hanged",
+      "synopsis": "At her second banquet Esther reveals her Jewish identity and exposes Haman's murderous plot to the king. In his fury the king orders Haman hanged on the very gallows built for Mordecai.",
+      "years": "about 474 BC",
+      "yearNum": -474,
+      "approx": true,
+      "place": "susa",
+      "themes": ["judgment", "deliverance", "justice-and-mercy"],
+      "characters": ["esther", "haman"],
+      "segments": [
+        { "s": 1, "e": 6, "speaker": "esther", "to": "reader", "note": "Esther exposes Haman's plot to the king" },
+        { "s": 7, "e": 10, "speaker": "chronicler", "to": "reader", "note": "Haman is hanged on his own gallows" }
+      ]
+    },
+    {
+      "c": 8,
+      "title": "Mordecai's Decree of Defense",
+      "synopsis": "The king gives Haman's estate to Esther and promotes Mordecai to his former place. Since the first decree cannot be revoked, a new decree permits the Jews throughout the empire to defend themselves against their enemies.",
+      "years": "about 474 BC",
+      "yearNum": -474,
+      "approx": true,
+      "place": "susa",
+      "themes": ["deliverance", "justice-and-mercy", "leadership"],
+      "characters": ["esther", "mordecai"],
+      "segments": [
+        { "s": 1, "e": 8, "speaker": "chronicler", "to": "reader", "note": "Mordecai is raised to Haman's former place" },
+        { "s": 9, "e": 17, "speaker": "chronicler", "to": "reader", "note": "A new decree lets the Jews defend themselves" }
+      ]
+    },
+    {
+      "c": 9,
+      "title": "Deliverance and the Feast of Purim",
+      "synopsis": "On the appointed day the Jews defend themselves and prevail decisively over their enemies throughout the provinces. Mordecai and Esther establish the annual Feast of Purim to commemorate their deliverance.",
+      "years": "about 474-473 BC",
+      "yearNum": -474,
+      "approx": true,
+      "place": "susa",
+      "themes": ["deliverance", "gathering-of-israel", "hope"],
+      "characters": ["esther", "mordecai"],
+      "segments": [
+        { "s": 1, "e": 19, "speaker": "chronicler", "to": "reader", "note": "The Jews defend themselves and prevail" },
+        { "s": 20, "e": 32, "speaker": "chronicler", "to": "reader", "note": "Purim is established to commemorate deliverance" }
+      ]
+    },
+    {
+      "c": 10,
+      "title": "Mordecai's Greatness Recorded",
+      "synopsis": "King Ahasuerus's greatness is recorded in the chronicles of Media and Persia. The account also preserves Mordecai's rise to power and his continued care for the welfare of his people.",
+      "years": "about 473 BC",
+      "yearNum": -473,
+      "approx": true,
+      "place": "susa",
+      "themes": ["leadership", "records"],
+      "characters": ["mordecai"],
+      "segments": [
+        { "s": 1, "e": 3, "speaker": "chronicler", "to": "reader", "note": "Mordecai's greatness and service are recorded" }
+      ]
+    }
+  ]
+}

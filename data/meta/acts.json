@@ -1,0 +1,443 @@
+{
+  "book": "Acts",
+  "slug": "acts",
+  "narrator": "luke",
+  "plates": "acts-history",
+  "chapters": [
+    {
+      "c": 1,
+      "title": "The Ascension and a New Witness",
+      "synopsis": "Jesus promises the apostles power from the Holy Ghost and charges them to be witnesses in Jerusalem, Judaea, Samaria, and to the uttermost part of the earth, then ascends into heaven from the mount of Olives as two angels promise his return in like manner. Back in Jerusalem the disciples choose Matthias by lot to replace Judas among the twelve.",
+      "years": "AD 33",
+      "yearNum": 33,
+      "approx": false,
+      "place": "jerusalem",
+      "themes": ["missionary-work", "hope", "second-coming"],
+      "characters": ["jesus-christ", "peter"],
+      "segments": [
+        { "s": 1, "e": 8, "speaker": "jesus-christ", "to": "twelve-apostles", "note": "Ye shall be witnesses unto the uttermost part" },
+        { "s": 9, "e": 11, "speaker": "luke", "to": "reader", "note": "The ascension from the mount of Olives" },
+        { "s": 12, "e": 26, "speaker": "luke", "to": "reader", "note": "Matthias chosen to replace Judas" }
+      ]
+    },
+    {
+      "c": 2,
+      "title": "The Spirit Poured Out at Pentecost",
+      "synopsis": "On the day of Pentecost the Holy Ghost falls on the gathered disciples with a sound of rushing wind and tongues of fire, and they speak in tongues understood by devout Jews from every nation. Peter stands and testifies to the multitude that this fulfils Joel's prophecy and that the crucified Jesus is both Lord and Christ, and about three thousand souls are baptized that day.",
+      "years": "AD 33",
+      "yearNum": 33,
+      "approx": false,
+      "place": "jerusalem",
+      "themes": ["revelation", "conversion", "gathering-of-israel"],
+      "characters": ["peter"],
+      "segments": [
+        { "s": 1, "e": 13, "speaker": "luke", "to": "reader", "note": "The Spirit falls with tongues of fire" },
+        { "s": 14, "e": 40, "speaker": "peter", "to": "multitude", "note": "This Jesus hath God made both Lord and Christ" },
+        { "s": 41, "e": 47, "speaker": "luke", "to": "reader", "note": "Three thousand baptized; the saints together" }
+      ]
+    },
+    {
+      "c": 3,
+      "title": "Silver and Gold Have I None",
+      "synopsis": "At the temple gate called Beautiful, Peter heals a man lame from birth in the name of Jesus Christ, and the man leaps up walking and praising God. As the amazed people gather, Peter testifies that it is faith in Christ's name, not his own power, that has made the man whole, and calls all Israel to repent and be converted.",
+      "years": "AD 33",
+      "yearNum": 33,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["miracles", "faith", "repentance"],
+      "characters": ["peter"],
+      "segments": [
+        { "s": 1, "e": 10, "speaker": "luke", "to": "reader", "note": "A lame man healed at the temple gate" },
+        { "s": 11, "e": 26, "speaker": "peter", "to": "multitude", "note": "Repent and be converted, that your sins be blotted out" }
+      ]
+    },
+    {
+      "c": 4,
+      "title": "We Cannot but Speak",
+      "synopsis": "The priests and Sadducees, troubled at the apostles' preaching of the resurrection, arrest Peter and John, but the rulers can find no way to punish them since the healed man stands before them. Peter and John answer boldly that they cannot but speak the things they have seen and heard, and the released apostles join the believers in prayer, after which the place is shaken and all are filled with the Holy Ghost.",
+      "years": "AD 33",
+      "yearNum": 33,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["faith", "endurance", "missionary-work"],
+      "characters": ["peter", "john-beloved"],
+      "segments": [
+        { "s": 1, "e": 22, "speaker": "luke", "to": "reader", "note": "Peter and John arrested and testify before the council" },
+        { "s": 23, "e": 37, "speaker": "luke", "to": "reader", "note": "The believers pray together and are filled with the Spirit" }
+      ]
+    },
+    {
+      "c": 5,
+      "title": "We Ought to Obey God Rather Than Men",
+      "synopsis": "Ananias and Sapphira fall dead for lying to the Holy Ghost about the price of their land, and great fear comes upon the church as the apostles work many signs and wonders. The apostles are imprisoned but freed by an angel in the night, and brought again before the council Peter declares that they ought to obey God rather than men, until Gamaliel's counsel spares them from death.",
+      "years": "AD 33",
+      "yearNum": 33,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["judgment", "obedience", "faith"],
+      "characters": ["peter"],
+      "segments": [
+        { "s": 1, "e": 11, "speaker": "luke", "to": "reader", "note": "Ananias and Sapphira lie to the Holy Ghost" },
+        { "s": 12, "e": 25, "speaker": "luke", "to": "reader", "note": "Signs and wonders; an angel frees the apostles" },
+        { "s": 26, "e": 42, "speaker": "peter", "to": "multitude", "note": "We ought to obey God rather than men" }
+      ]
+    },
+    {
+      "c": 6,
+      "title": "A Man Full of Faith",
+      "synopsis": "As the number of disciples multiplies, murmuring arises over the neglect of Grecian widows, and the apostles have seven men chosen to serve tables, including Stephen, a man full of faith and of the Holy Ghost. Stephen does great wonders among the people, and when men of the synagogue cannot resist his wisdom, they suborn false witnesses and bring him before the council.",
+      "years": "AD 34",
+      "yearNum": 34,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["leadership", "faith", "charity"],
+      "characters": ["stephen"],
+      "segments": [
+        { "s": 1, "e": 7, "speaker": "luke", "to": "reader", "note": "Seven are chosen to serve, including Stephen" },
+        { "s": 8, "e": 15, "speaker": "luke", "to": "reader", "note": "Stephen is falsely accused before the council" }
+      ]
+    },
+    {
+      "c": 7,
+      "title": "Stephen's Witness and Martyrdom",
+      "synopsis": "Before the council, Stephen recounts Israel's history from Abraham through Joseph and Moses to Solomon's temple, showing how the fathers always resisted the Holy Ghost and slew the prophets who foretold the Just One. Cut to the heart, the council gnashes on him, but Stephen, full of the Holy Ghost, sees Jesus standing on the right hand of God and is stoned outside the city while Saul consents to his death.",
+      "years": "AD 34",
+      "yearNum": 34,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["prophecy", "martyrdom", "endurance"],
+      "characters": ["stephen"],
+      "segments": [
+        { "s": 1, "e": 53, "speaker": "stephen", "to": "multitude", "note": "Stephen recounts Israel's history and its rebellion" },
+        { "s": 54, "e": 60, "speaker": "luke", "to": "reader", "note": "Stephen is stoned and forgives his killers" }
+      ]
+    },
+    {
+      "c": 8,
+      "title": "Philip and the Ethiopian",
+      "synopsis": "Persecution scatters the saints from Jerusalem, and Philip goes down to Samaria preaching Christ, where many believe and are baptized, including Simon the sorcerer, who is rebuked for trying to buy the gift of God with money. An angel then sends Philip to a desert road, where he teaches an Ethiopian official from Isaiah's prophecy and baptizes him.",
+      "years": "AD 34",
+      "yearNum": 34,
+      "approx": true,
+      "place": "samaria-city",
+      "themes": ["missionary-work", "conversion", "baptism"],
+      "characters": ["philip-evangelist"],
+      "segments": [
+        { "s": 1, "e": 25, "speaker": "luke", "to": "reader", "note": "Philip preaches in Samaria; Simon rebuked" },
+        { "s": 26, "e": 40, "speaker": "philip-evangelist", "to": "reader", "note": "The Ethiopian is taught from Isaiah and baptized" }
+      ]
+    },
+    {
+      "c": 9,
+      "title": "Saul Is Turned on the Damascus Road",
+      "synopsis": "Breathing threats against the disciples, Saul is struck down by a light from heaven on the road to Damascus and hears the Lord's voice asking why he persecutes him. Blind for three days, he is healed and baptized, and immediately begins to preach Christ in the synagogues, to the astonishment of all who knew him as a persecutor. Peter, traveling among the saints, heals Aeneas and raises Dorcas from the dead at Joppa.",
+      "years": "AD 34",
+      "yearNum": 34,
+      "approx": true,
+      "place": "damascus",
+      "themes": ["conversion", "revelation", "missionary-work"],
+      "characters": ["paul", "peter"],
+      "segments": [
+        { "s": 1, "e": 19, "speaker": "luke", "to": "reader", "note": "Saul is converted on the road to Damascus" },
+        { "s": 20, "e": 31, "speaker": "luke", "to": "reader", "note": "Saul preaches Christ in the synagogues" },
+        { "s": 32, "e": 43, "speaker": "luke", "to": "reader", "note": "Peter heals Aeneas and raises Dorcas" }
+      ]
+    },
+    {
+      "c": 10,
+      "title": "God Is No Respecter of Persons",
+      "synopsis": "Cornelius, a devout Roman centurion, is told in a vision to send for Peter, while Peter himself is prepared by a vision of a sheet of unclean animals to learn that he should call no man common or unclean. Peter goes to Cornelius's house and testifies that God is no respecter of persons, and while he yet speaks, the Holy Ghost falls on the Gentiles, who are baptized.",
+      "years": "AD 34",
+      "yearNum": 34,
+      "approx": true,
+      "place": null,
+      "themes": ["revelation", "conversion", "gathering-of-israel"],
+      "characters": ["peter", "cornelius"],
+      "segments": [
+        { "s": 1, "e": 8, "speaker": "luke", "to": "reader", "note": "Cornelius is told in a vision to send for Peter" },
+        { "s": 9, "e": 23, "speaker": "luke", "to": "reader", "note": "Peter's vision of the sheet from heaven" },
+        { "s": 24, "e": 48, "speaker": "peter", "to": "cornelius", "note": "God is no respecter of persons" }
+      ]
+    },
+    {
+      "c": 11,
+      "title": "Then Hath God Granted Repentance",
+      "synopsis": "Peter returns to Jerusalem and defends his preaching to Gentiles by recounting his vision and the Spirit's outpouring on Cornelius's household, and the brethren conclude that God has granted repentance unto life to the Gentiles also. The gospel spreads to Antioch, where Barnabas is sent to strengthen the growing church and the disciples are first called Christians.",
+      "years": "AD 34",
+      "yearNum": 34,
+      "approx": true,
+      "place": "antioch",
+      "themes": ["gathering-of-israel", "conversion", "missionary-work"],
+      "characters": ["peter", "barnabas"],
+      "segments": [
+        { "s": 1, "e": 18, "speaker": "peter", "to": "church", "note": "Peter defends preaching the gospel to Gentiles" },
+        { "s": 19, "e": 30, "speaker": "luke", "to": "reader", "note": "The church at Antioch; disciples first called Christians" }
+      ]
+    },
+    {
+      "c": 12,
+      "title": "Peter Is Freed by an Angel",
+      "synopsis": "Herod kills James the brother of John and imprisons Peter, intending to bring him out to the people after the passover, but an angel of the Lord leads Peter past the sleeping guards and the iron gate to freedom while the church prays for him. Herod, struck by an angel for accepting worship as a god, is eaten of worms and dies, while the word of God grows and multiplies.",
+      "years": "AD 44",
+      "yearNum": 44,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["deliverance", "faith", "prayer"],
+      "characters": ["peter", "herod"],
+      "segments": [
+        { "s": 1, "e": 5, "speaker": "luke", "to": "reader", "note": "James killed; Peter imprisoned by Herod" },
+        { "s": 6, "e": 19, "speaker": "luke", "to": "reader", "note": "An angel leads Peter out of prison" },
+        { "s": 20, "e": 25, "speaker": "luke", "to": "reader", "note": "Herod is smitten and dies" }
+      ]
+    },
+    {
+      "c": 13,
+      "title": "Sent Forth from Antioch",
+      "synopsis": "The Holy Ghost calls Barnabas and Saul to their missionary work, and the church at Antioch sends them forth with fasting and prayer. On Cyprus they strike the sorcerer Elymas blind before the deputy, and at Antioch in Pisidia Paul preaches in the synagogue that through Christ is preached the forgiveness of sins, so that many Gentiles believe though the Jews are stirred to persecution.",
+      "years": "AD 47",
+      "yearNum": 47,
+      "approx": true,
+      "place": "antioch",
+      "themes": ["missionary-work", "conversion", "gathering-of-israel"],
+      "characters": ["paul", "barnabas"],
+      "segments": [
+        { "s": 1, "e": 3, "speaker": "luke", "to": "reader", "note": "Barnabas and Saul set apart and sent out" },
+        { "s": 4, "e": 12, "speaker": "luke", "to": "reader", "note": "Elymas the sorcerer struck blind on Cyprus" },
+        { "s": 13, "e": 41, "speaker": "paul", "to": "house-of-israel", "note": "Through this man is preached forgiveness of sins" },
+        { "s": 42, "e": 52, "speaker": "luke", "to": "reader", "note": "Gentiles believe; the Jews stir up persecution" }
+      ]
+    },
+    {
+      "c": 14,
+      "title": "We Also Are Men of Like Passions",
+      "synopsis": "At Iconium Paul and Barnabas preach boldly despite a plot to stone them, and at Lystra, after healing a man crippled from birth, they must restrain the crowds who would worship them as gods, protesting that they too are only men. Paul is stoned and left for dead at Lystra but rises and continues on, and the missionaries return through the cities strengthening the new disciples.",
+      "years": "AD 47",
+      "yearNum": 47,
+      "approx": true,
+      "place": null,
+      "themes": ["missionary-work", "endurance", "faith"],
+      "characters": ["paul", "barnabas"],
+      "segments": [
+        { "s": 1, "e": 7, "speaker": "luke", "to": "reader", "note": "Paul and Barnabas preach at Iconium" },
+        { "s": 8, "e": 18, "speaker": "luke", "to": "reader", "note": "A cripple healed at Lystra; taken for gods" },
+        { "s": 19, "e": 28, "speaker": "luke", "to": "reader", "note": "Paul stoned; the churches strengthened on return" }
+      ]
+    },
+    {
+      "c": 15,
+      "title": "The Council at Jerusalem",
+      "synopsis": "A dispute arises over whether Gentile converts must be circumcised after the law of Moses, and the apostles and elders gather at Jerusalem, where Peter, Paul, and Barnabas testify of God's work among the Gentiles and James proposes that they be spared this burden. Letters are sent confirming the decision, but Paul and Barnabas afterward part ways over whether to take John Mark on their next journey.",
+      "years": "AD 49",
+      "yearNum": 49,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["leadership", "gathering-of-israel", "liberty"],
+      "characters": ["paul", "barnabas", "peter"],
+      "segments": [
+        { "s": 1, "e": 21, "speaker": "luke", "to": "reader", "note": "The council debates the law of Moses for Gentiles" },
+        { "s": 22, "e": 41, "speaker": "luke", "to": "reader", "note": "The decision sent forth; Paul and Barnabas separate" }
+      ]
+    },
+    {
+      "c": 16,
+      "title": "Come Over into Macedonia",
+      "synopsis": "Paul takes on Timothy at Lystra, and in a night vision a man of Macedonia begs him to come and help them, so the company sails for Philippi. There Lydia, a seller of purple, believes and is baptized with her household, and after Paul casts a spirit of divination out of a servant girl, he and Silas are beaten and imprisoned, only to be freed by an earthquake and to baptize their jailer's whole household.",
+      "years": "AD 49",
+      "yearNum": 49,
+      "approx": true,
+      "place": null,
+      "themes": ["missionary-work", "conversion", "deliverance"],
+      "characters": ["paul", "silas", "timothy", "lydia"],
+      "segments": [
+        { "s": 1, "e": 10, "speaker": "luke", "to": "reader", "note": "Timothy joins Paul; the vision of Macedonia" },
+        { "s": 11, "e": 15, "speaker": "luke", "to": "reader", "note": "Lydia believes and is baptized at Philippi" },
+        { "s": 16, "e": 40, "speaker": "luke", "to": "reader", "note": "Paul and Silas imprisoned, then freed by earthquake" }
+      ]
+    },
+    {
+      "c": 17,
+      "title": "The Unknown God at Mars Hill",
+      "synopsis": "Paul reasons in the synagogues at Thessalonica and Berea, where many search the scriptures daily to see whether these things are so, though persecution follows him from city to city. At Athens, provoked by a city full of idols, Paul stands on Mars Hill and preaches that the God who made the world, whom they ignorantly worship as an unknown god, has appointed a day of judgment through the man he raised from the dead.",
+      "years": "AD 50",
+      "yearNum": 50,
+      "approx": true,
+      "place": "athens",
+      "themes": ["missionary-work", "revelation", "judgment"],
+      "characters": ["paul"],
+      "segments": [
+        { "s": 1, "e": 15, "speaker": "luke", "to": "reader", "note": "Paul preaches at Thessalonica and Berea" },
+        { "s": 16, "e": 21, "speaker": "luke", "to": "reader", "note": "Paul is provoked by idols at Athens" },
+        { "s": 22, "e": 31, "speaker": "paul", "to": "nations", "note": "The unknown God, whom I declare unto you" },
+        { "s": 32, "e": 34, "speaker": "luke", "to": "reader", "note": "Some mock, some believe on Mars Hill" }
+      ]
+    },
+    {
+      "c": 18,
+      "title": "I Have Much People in This City",
+      "synopsis": "At Corinth Paul labors with Aquila and Priscilla, tentmakers, and is told in a vision that the Lord has much people in that city, so he continues preaching there for a year and a half despite being brought before Gallio. He then sails for Syria, leaving Aquila and Priscilla at Ephesus, where Apollos, an eloquent believer, is taught the way of God more perfectly.",
+      "years": "AD 51",
+      "yearNum": 51,
+      "approx": true,
+      "place": "corinth",
+      "themes": ["missionary-work", "endurance", "conversion"],
+      "characters": ["paul", "aquila-priscilla", "apollos"],
+      "segments": [
+        { "s": 1, "e": 17, "speaker": "luke", "to": "reader", "note": "Paul labors at Corinth; brought before Gallio" },
+        { "s": 18, "e": 28, "speaker": "luke", "to": "reader", "note": "Apollos taught more perfectly at Ephesus" }
+      ]
+    },
+    {
+      "c": 19,
+      "title": "Mightily Grew the Word of God at Ephesus",
+      "synopsis": "At Ephesus Paul finds disciples who had not heard of the Holy Ghost, and after he baptizes and lays hands on them they receive the gift and prophesy. Paul's mighty works expose the seven sons of Sceva who try vainly to cast out devils in Jesus's name without belief, and the word of God grows mightily, until Demetrius the silversmith stirs a great riot over the loss of trade in idols of Diana.",
+      "years": "AD 54",
+      "yearNum": 54,
+      "approx": true,
+      "place": "ephesus",
+      "themes": ["baptism", "revelation", "missionary-work"],
+      "characters": ["paul"],
+      "segments": [
+        { "s": 1, "e": 12, "speaker": "luke", "to": "reader", "note": "Disciples at Ephesus receive the Holy Ghost" },
+        { "s": 13, "e": 20, "speaker": "luke", "to": "reader", "note": "The seven sons of Sceva fail to cast out devils" },
+        { "s": 21, "e": 41, "speaker": "luke", "to": "reader", "note": "Demetrius stirs a riot over Diana of the Ephesians" }
+      ]
+    },
+    {
+      "c": 20,
+      "title": "None of These Things Move Me",
+      "synopsis": "At Troas Paul raises Eutychus, a young man who had fallen dead from a window during his long preaching, then sails toward Jerusalem. Calling the elders of Ephesus to Miletus, he testifies that he has kept back nothing profitable, declares that none of these things move him, neither counts he his life dear, and warns them to watch for grievous wolves, before they part in tears.",
+      "years": "AD 57",
+      "yearNum": 57,
+      "approx": true,
+      "place": "ephesus",
+      "themes": ["endurance", "leadership", "faith"],
+      "characters": ["paul"],
+      "segments": [
+        { "s": 1, "e": 12, "speaker": "luke", "to": "reader", "note": "Eutychus raised from the dead at Troas" },
+        { "s": 13, "e": 16, "speaker": "luke", "to": "reader", "note": "The voyage on toward Miletus" },
+        { "s": 17, "e": 38, "speaker": "paul", "to": "elders", "note": "None of these things move me; farewell to the elders" }
+      ]
+    },
+    {
+      "c": 21,
+      "title": "Bound in Spirit to Jerusalem",
+      "synopsis": "Warned by prophecy at Tyre and by Agabus at Caesarea that bonds and afflictions await him, Paul insists he is ready not only to be bound but to die at Jerusalem for the name of the Lord Jesus. Arriving at Jerusalem, he is seized in the temple by a mob that would kill him, until the chief captain rescues him and permits Paul to speak to the people.",
+      "years": "AD 57",
+      "yearNum": 57,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["endurance", "prophecy", "faith"],
+      "characters": ["paul"],
+      "segments": [
+        { "s": 1, "e": 16, "speaker": "luke", "to": "reader", "note": "Warnings of bonds; Paul is ready to die at Jerusalem" },
+        { "s": 17, "e": 40, "speaker": "luke", "to": "reader", "note": "Paul seized in the temple and rescued by the captain" }
+      ]
+    },
+    {
+      "c": 22,
+      "title": "Paul's Defense to the Multitude",
+      "synopsis": "Standing on the stairs before the hostile crowd, Paul recounts in Hebrew his own conversion on the road to Damascus and his call to bear Christ's name to the Gentiles. When the mention of the Gentiles enrages the multitude to cry for his death, the chief captain orders him scourged, but Paul stays the lash by declaring his birthright as a Roman citizen.",
+      "years": "AD 57",
+      "yearNum": 57,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["conversion", "missionary-work", "endurance"],
+      "characters": ["paul"],
+      "segments": [
+        { "s": 1, "e": 21, "speaker": "paul", "to": "multitude", "note": "Paul recounts his conversion and call to the Gentiles" },
+        { "s": 22, "e": 30, "speaker": "luke", "to": "reader", "note": "Paul claims his rights as a Roman citizen" }
+      ]
+    },
+    {
+      "c": 23,
+      "title": "As Thou Hast Testified in Jerusalem",
+      "synopsis": "Before the council Paul divides the Pharisees and Sadducees by declaring his hope in the resurrection, and that night the Lord stands by him, promising that as he has testified in Jerusalem he must also bear witness at Rome. When forty men vow to kill Paul, his nephew reveals the plot, and the chief captain sends him under heavy guard to Felix the governor at Caesarea.",
+      "years": "AD 57",
+      "yearNum": 57,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["endurance", "prophecy", "deliverance"],
+      "characters": ["paul"],
+      "segments": [
+        { "s": 1, "e": 11, "speaker": "luke", "to": "reader", "note": "Before the council; the Lord promises Rome" },
+        { "s": 12, "e": 35, "speaker": "luke", "to": "reader", "note": "A plot uncovered; Paul sent to Felix" }
+      ]
+    },
+    {
+      "c": 24,
+      "title": "Almost Thou Persuadest Me",
+      "synopsis": "Accused by the high priest's orator Tertullus of being a pestilent troublemaker, Paul answers Felix that he worships the God of his fathers and lives in hope of the resurrection of the just and unjust. Felix, trembling as Paul reasons of righteousness and judgment to come, delays decision and leaves Paul bound for two years, hoping for a bribe.",
+      "years": "AD 58",
+      "yearNum": 58,
+      "approx": true,
+      "place": null,
+      "themes": ["justice-and-mercy", "faith", "endurance"],
+      "characters": ["paul", "felix-festus-agrippa"],
+      "segments": [
+        { "s": 1, "e": 9, "speaker": "luke", "to": "reader", "note": "Tertullus accuses Paul before Felix" },
+        { "s": 10, "e": 21, "speaker": "paul", "to": "felix-festus-agrippa", "note": "Paul's hope in the resurrection of the dead" },
+        { "s": 22, "e": 27, "speaker": "luke", "to": "reader", "note": "Felix trembles, delays, and leaves Paul bound" }
+      ]
+    },
+    {
+      "c": 25,
+      "title": "I Appeal unto Caesar",
+      "synopsis": "Festus succeeds Felix and, under pressure from the Jews, asks Paul if he will go up to Jerusalem to be judged, but Paul, discerning the danger, appeals to Caesar as a Roman citizen. When King Agrippa and Bernice come to Caesarea, Festus lays Paul's case before them, uncertain what charge to send with him to Rome.",
+      "years": "AD 60",
+      "yearNum": 60,
+      "approx": true,
+      "place": null,
+      "themes": ["justice-and-mercy", "endurance", "faith"],
+      "characters": ["paul", "felix-festus-agrippa"],
+      "segments": [
+        { "s": 1, "e": 12, "speaker": "luke", "to": "reader", "note": "Paul appeals unto Caesar before Festus" },
+        { "s": 13, "e": 27, "speaker": "luke", "to": "reader", "note": "Festus presents Paul's case to Agrippa" }
+      ]
+    },
+    {
+      "c": 26,
+      "title": "Almost Thou Persuadest Me to Be a Christian",
+      "synopsis": "Before King Agrippa, Paul recounts his zealous life as a Pharisee, his vision of the risen Lord on the Damascus road, and his commission to open the eyes of Jews and Gentiles alike and turn them from darkness to light. Agrippa answers that Paul almost persuades him to be a Christian, and the king and Festus agree that Paul might have been set free had he not appealed to Caesar.",
+      "years": "AD 60",
+      "yearNum": 60,
+      "approx": true,
+      "place": null,
+      "themes": ["conversion", "missionary-work", "revelation"],
+      "characters": ["paul", "felix-festus-agrippa"],
+      "segments": [
+        { "s": 1, "e": 23, "speaker": "paul", "to": "felix-festus-agrippa", "note": "Paul's vision and commission on the Damascus road" },
+        { "s": 24, "e": 32, "speaker": "luke", "to": "reader", "note": "Almost thou persuadest me to be a Christian" }
+      ]
+    },
+    {
+      "c": 27,
+      "title": "The Storm and the Shipwreck",
+      "synopsis": "Sailing for Rome as a prisoner, Paul warns the ship's company against setting out, and when a tempestuous wind called Euroclydon drives them for many days without sight of sun or stars, all hope of being saved is taken away. An angel assures Paul that though the ship will be lost, not a life will perish, and the vessel finally breaks apart on a shoal, yet all two hundred and seventy-six aboard come safely to land.",
+      "years": "AD 60",
+      "yearNum": 60,
+      "approx": true,
+      "place": null,
+      "themes": ["deliverance", "faith", "endurance"],
+      "characters": ["paul"],
+      "segments": [
+        { "s": 1, "e": 20, "speaker": "luke", "to": "reader", "note": "The voyage begins; the great storm rises" },
+        { "s": 21, "e": 44, "speaker": "luke", "to": "reader", "note": "An angel's promise; all come safe to land" }
+      ]
+    },
+    {
+      "c": 28,
+      "title": "Preaching at Rome Unhindered",
+      "synopsis": "Shipwrecked on Malta, Paul shakes off a viper unharmed and heals the father of the island's chief man, so that the people take him for a god. Arriving at last in Rome, Paul calls the local Jewish leaders together to explain his case, and though many disbelieve his testimony of Christ from the law and the prophets, he dwells two years in his own hired house, preaching the kingdom of God unhindered.",
+      "years": "AD 61",
+      "yearNum": 61,
+      "approx": true,
+      "place": "rome",
+      "themes": ["deliverance", "missionary-work", "hope"],
+      "characters": ["paul"],
+      "segments": [
+        { "s": 1, "e": 10, "speaker": "luke", "to": "reader", "note": "Shipwrecked on Malta; the viper and healings" },
+        { "s": 11, "e": 31, "speaker": "luke", "to": "reader", "note": "Arrival at Rome; preaching the kingdom unhindered" }
+      ]
+    }
+  ]
+}
