@@ -194,6 +194,11 @@ function beard(cx, cy, hw, hh, kind, col, mouthY) {
       const inner = `C ${cx + hw * 0.55} ${cheekLine + 3} ${cx + 8} ${mouthY + 4} ${cx} ${mouthY + 4} C ${cx - 8} ${mouthY + 4} ${cx - hw * 0.55} ${cheekLine + 3} ${jawL - 1} ${jawTop} Z`;
       return { over: `<path d="${outer} ${inner}" fill="${col}"/>` + mustache(false), lip: true };
     }
+    case 'chinstrap': { // chin-curtain / Donegal (jawline beard, no mustache) — e.g. Brigham Young
+      const outer = `M ${jawL - 1} ${jawTop} C ${jawL - 3} ${cheekLine + 7} ${cx - hw * 0.4} ${chinY} ${cx} ${chinY + 1} C ${cx + hw * 0.4} ${chinY} ${jawR + 3} ${cheekLine + 7} ${jawR + 1} ${jawTop}`;
+      const inner = `C ${cx + hw * 0.64} ${cheekLine + 6} ${cx + 9} ${mouthY + 5} ${cx} ${mouthY + 5} C ${cx - 9} ${mouthY + 5} ${cx - hw * 0.64} ${cheekLine + 6} ${jawL - 1} ${jawTop} Z`;
+      return { over: `<path d="${outer} ${inner}" fill="${col}"/>`, lip: false };
+    }
     case 'forked': {
       const outer = `M ${jawL - 1} ${jawTop} C ${jawL - 4} ${chinY} ${cx - hw * 0.5} ${chinY + hh * 0.5} ${cx - 4} ${chinY + hh * 0.7} L ${cx} ${chinY + hh * 0.35} L ${cx + 4} ${chinY + hh * 0.7} C ${cx + hw * 0.5} ${chinY + hh * 0.5} ${jawR + 4} ${chinY} ${jawR + 1} ${jawTop}`;
       const inner = `C ${cx + hw * 0.6} ${cheekLine + 2} ${cx + 9} ${mouthY + 5} ${cx} ${mouthY + 5} C ${cx - 9} ${mouthY + 5} ${cx - hw * 0.6} ${cheekLine + 2} ${jawL - 1} ${jawTop} Z`;
@@ -220,6 +225,13 @@ function headgear(p, cx, cy, hw, hh) {
     case 'helmet': return `<path d="M ${cx - hw - 3} ${cy - hh * 0.05} C ${cx - hw - 3} ${topY - hh * 0.5} ${cx + hw + 3} ${topY - hh * 0.5} ${cx + hw + 3} ${cy - hh * 0.05} L ${cx + hw - 1} ${cy - hh * 0.05} C ${cx + hw - 1} ${topY - hh * 0.02} ${cx - hw + 1} ${topY - hh * 0.02} ${cx - hw + 1} ${cy - hh * 0.05} Z" fill="${shade(g, 26)}" stroke="${a}" stroke-width="1.6"/><path d="M ${cx} ${topY - hh * 0.5} L ${cx} ${topY - hh * 0.85} Q ${cx + 5} ${topY - hh * 0.7} ${cx + 3} ${topY - hh * 0.35}" fill="${a}"/><line x1="${cx}" y1="${cy - hh * 0.05}" x2="${cx}" y2="${cy + hh * 0.5}" stroke="${shade(g, 10)}" stroke-width="2.5"/>`;
     case 'hood': return `<path d="M ${cx - hw - 7} ${cy + hh * 1.15} C ${cx - hw - 10} ${cy - hh * 0.9} ${cx - hw * 0.5} ${topY - 11} ${cx} ${topY - 11} C ${cx + hw * 0.5} ${topY - 11} ${cx + hw + 10} ${cy - hh * 0.9} ${cx + hw + 7} ${cy + hh * 1.15} L ${cx + hw + 1} ${cy + hh * 0.7} C ${cx + hw + 2} ${cy - hh * 0.55} ${cx + hw * 0.5} ${topY - 2} ${cx} ${topY - 2} C ${cx - hw * 0.5} ${topY - 2} ${cx - hw - 2} ${cy - hh * 0.55} ${cx - hw - 1} ${cy + hh * 0.7} Z" fill="${shade(g, 16)}" stroke="${shade(g, -14)}" stroke-width="1"/>`;
     case 'turban': return `<path d="M ${cx - hw - 2} ${cy - hh * 0.2} C ${cx - hw - 4} ${topY - hh * 0.6} ${cx + hw + 4} ${topY - hh * 0.6} ${cx + hw + 2} ${cy - hh * 0.2} C ${cx + hw * 0.5} ${cy - hh * 0.55} ${cx - hw * 0.5} ${cy - hh * 0.55} ${cx - hw - 2} ${cy - hh * 0.2} Z" fill="${shade(g, 34)}"/><path d="M ${cx - hw - 2} ${cy - hh * 0.4} Q ${cx} ${topY - hh * 0.2} ${cx + hw + 2} ${cy - hh * 0.4}" fill="none" stroke="${shade(g, 6)}" stroke-width="2.4"/><path d="M ${cx - hw + 2} ${cy - hh * 0.55} Q ${cx} ${topY - hh * 0.45} ${cx + hw - 2} ${cy - hh * 0.55}" fill="none" stroke="${a}" stroke-width="1.6"/>`;
+    case 'nemes': { // Egyptian striped headdress with lappets over the shoulders
+      const stripe = shade(a, -40), cloth = a;
+      return `<path d="M ${cx - hw - 4} ${cy + hh * 1.5} L ${cx - hw - 7} ${cy - hh * 0.2} C ${cx - hw - 7} ${topY - 12} ${cx + hw + 7} ${topY - 12} ${cx + hw + 7} ${cy - hh * 0.2} L ${cx + hw + 4} ${cy + hh * 1.5} L ${cx + hw * 0.5} ${cy + hh * 1.5} L ${cx + hw * 0.55} ${cy + hh * 0.2} C ${cx + hw * 0.4} ${topY + 2} ${cx - hw * 0.4} ${topY + 2} ${cx - hw * 0.55} ${cy + hh * 0.2} L ${cx - hw * 0.5} ${cy + hh * 1.5} Z" fill="${cloth}"/>`
+        + `<g stroke="${stripe}" stroke-width="2" opacity=".55">${[-0.8, -0.55, -0.3, 0.3, 0.55, 0.8].map(f => `<line x1="${cx + hw * f * 1.1}" y1="${cy - hh * 0.3}" x2="${cx + hw * f * 1.3}" y2="${cy + hh * 1.45}"/>`).join('')}</g>`
+        + `<path d="M ${cx - hw - 6} ${cy - hh * 0.25} C ${cx - hw - 6} ${topY - 10} ${cx + hw + 6} ${topY - 10} ${cx + hw + 6} ${cy - hh * 0.25}" fill="none" stroke="${stripe}" stroke-width="2.5"/>`
+        + `<ellipse cx="${cx}" cy="${topY - 3}" rx="4" ry="5" fill="${shade(a, -20)}"/><ellipse cx="${cx}" cy="${topY - 4}" rx="2" ry="3" fill="#c0492f"/>`;
+    }
     case 'circlet': return `<path d="M ${cx - hw} ${cy - hh * 0.52} Q ${cx} ${cy - hh * 0.92} ${cx + hw} ${cy - hh * 0.52}" fill="none" stroke="${a}" stroke-width="3.2"/><circle cx="${cx}" cy="${cy - hh * 0.74}" r="2.4" fill="${shade(a, 55)}"/>`;
     case 'veilband': return `<path d="M ${cx - hw} ${cy - hh * 0.5} Q ${cx} ${cy - hh * 0.8} ${cx + hw} ${cy - hh * 0.5}" fill="none" stroke="${a}" stroke-width="2.4" opacity=".8"/>`;
     default: return '';
