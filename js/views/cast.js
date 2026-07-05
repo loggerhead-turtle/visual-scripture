@@ -5,7 +5,7 @@ export async function renderCast(el, params, focusId) {
   const [ents, apps] = await Promise.all([entities(), appearances()]);
 
   // group characters by the book where they FIRST appear (their "home" book)
-  const order = Object.fromEntries(BOOKS.map((b, i) => [b.slug, i]));
+  const order = BOOKS.reduce((m, b, i) => { m[b.slug] = i; return m; }, {});
   const byBook = new Map(BOOKS.map(b => [b.slug, []]));
   const nowhere = [];
   for (const ch of ents.characters) {

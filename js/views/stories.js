@@ -14,7 +14,7 @@ export async function renderStories(el, params) {
       return e ? `<span class="fc" title="${esc(e.name)}">${avatar(e)}</span>` : '';
     }).join('');
     const place = s.place ? places.places.find(p => p.id === s.place) : null;
-    const hay = `${s.title} ${s.blurb} ${(s.characters || []).map(id => ents.byId[id]?.name || '').join(' ')}`.toLowerCase();
+    const hay = `${s.title} ${s.blurb} ${(s.characters || []).map(id => (ents.byId[id] || {}).name || '').join(' ')}`.toLowerCase();
     return `<a class="story-card" data-cat="${s.cat}" data-hay="${esc(hay)}" href="#/read/${s.refs[0].slug}/${s.refs[0].c}">
       <h3>${esc(s.title)}</h3>
       <p>${esc(s.blurb)}</p>

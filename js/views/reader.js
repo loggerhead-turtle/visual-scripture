@@ -21,7 +21,7 @@ export async function renderReader(el, slug, c, params) {
 
   const toc = BOOKS.map(b => {
     const cur = b.slug === slug;
-    const color = platesData.platesKeys[(platesData.books.find(x => x.slug === b.slug) || {}).plates]?.color || '#888';
+    const color = (platesData.platesKeys[(platesData.books.find(x => x.slug === b.slug) || {}).plates] || {}).color || '#888';
     return `<div class="toc-book ${cur ? 'current' : ''}" data-slug="${b.slug}">
       <button type="button"><span class="dot" style="background:${color}"></span>${b.name}</button>
       <div class="toc-chapters" ${cur ? '' : 'hidden'}>${Array.from({ length: b.chapters }, (_, i) =>
@@ -50,7 +50,7 @@ export async function renderReader(el, slug, c, params) {
           <div class="chapter-meta">
             <a class="pill link" href="#/plates?p=${platesKey}"><span class="dot" style="background:${pk.color || '#888'}"></span>${pk.short || 'Plates'}</a>
             ${place ? `<a class="pill link" href="#/map?place=${place.id}">📍 ${place.name}</a>` : ''}
-            <a class="pill link" href="#/timeline?y=${cm.yearNum ?? ''}">🕰 ${esc(cm.years || 'Timeline')}</a>
+            <a class="pill link" href="#/timeline?y=${cm.yearNum == null ? '' : cm.yearNum}">🕰 ${esc(cm.years || 'Timeline')}</a>
             ${themes}
           </div>
           ${chars ? `<div class="chapter-meta" style="margin-top:8px">${chars}</div>` : ''}
@@ -99,7 +99,7 @@ export async function renderReader(el, slug, c, params) {
       p.classList.toggle('seg-active', !!seg && v >= seg.s && v <= seg.e);
       if (seg) {
         const spk = ents.byId[seg.speaker];
-        p.style.borderLeftColor = (!!seg && v >= seg.s && v <= seg.e) ? (spk?.portrait?.accent || 'var(--gold-dim)') : 'transparent';
+        p.style.borderLeftColor = (!!seg && v >= seg.s && v <= seg.e) ? ((spk && spk.portrait && spk.portrait.accent) || 'var(--gold-dim)') : 'transparent';
       }
     });
   };
@@ -120,7 +120,8 @@ export async function renderReader(el, slug, c, params) {
   el.querySelectorAll('.verse').forEach(p => observer.observe(p));
 
   const vParam = parseInt(params.get('v') || '', 10);
-  if (vParam) document.getElementById(`v${vParam}`)?.scrollIntoView({ block: 'center' });
+  const vEl = vParam && document.getElementById(`v${vParam}`);
+  if (vEl) vEl.scrollIntoView({ block: 'center' });
 }
 
 const defaultSeg = (meta, n) => ({ s: 1, e: n, speaker: meta.narrator, to: 'reader', note: `${meta.book}: the narrator addresses the reader` });

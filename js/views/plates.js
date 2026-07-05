@@ -75,7 +75,7 @@ export async function renderPlates(el, params) {
 
   const detail = el.querySelector('#plate-detail');
   const show = id => {
-    const s = src(id) || Object.entries(data.platesKeys).find(([k]) => k === id)?.[1];
+    const s = src(id) || data.platesKeys[id];
     if (!s) return;
     detail.innerHTML = `<h3 style="color:${s.color}">${esc(s.name)}</h3>
       <div style="font-size:12px;color:var(--ink-faint);margin-bottom:8px">${esc(s.era || s.writer || '')}</div>

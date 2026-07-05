@@ -16,7 +16,8 @@ export async function renderAllegories(el, params, focusId) {
     if (a.kind === 'scene') wireScene(card, a);
     if (a.kind === 'stages') wireStages(card, a);
   }
-  if (focusId) el.querySelector(`[data-alle="${focusId}"]`)?.scrollIntoView({ behavior: 'smooth' });
+  const focusEl = focusId && el.querySelector(`[data-alle="${focusId}"]`);
+  if (focusEl) focusEl.scrollIntoView({ behavior: 'smooth' });
 }
 
 function alleCard(a) {
@@ -46,7 +47,8 @@ function wireScene(card, a) {
     card.querySelectorAll('[data-hot]').forEach(h => {
       h.setAttribute('opacity', h.dataset.hot === id ? '1' : '0');
     });
-    card.querySelector(`.symbol-item[data-sym="${id}"]`)?.scrollIntoView({ block: 'nearest' });
+    const item = card.querySelector(`.symbol-item[data-sym="${id}"]`);
+    if (item) item.scrollIntoView({ block: 'nearest' });
   };
   card.addEventListener('click', e => {
     const it = e.target.closest('.symbol-item');
@@ -228,7 +230,7 @@ function wireStages(card, a) {
     const mainCrown = s.main === 'corrupt' ? 'corrupt' : s.main === 'decaying' ? 'decaying' : 'good';
     const mainFruit = s.main === 'good' ? 'good' : s.main === 'corrupt' ? 'corrupt' : s.main === 'recovering' ? 'good' : 'none';
     setTree(svg, 'vy-main', { crown: mainCrown, fruit: mainFruit, graft: s.graft !== undefined, fire: false });
-    const scattered = s.scattered ?? 0;
+    const scattered = s.scattered == null ? 0 : s.scattered;
     ['vy-s1', 'vy-s2', 'vy-s3'].forEach((id, j) => {
       const vis = j < (scattered || (s.main === 'recovering' || s.fire ? 0 : 0));
       const corrupt = s.main === 'corrupt';

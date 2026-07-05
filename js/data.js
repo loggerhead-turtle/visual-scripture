@@ -28,7 +28,7 @@ export const BOOKS = [
   { slug: 'ether', name: 'Ether', chapters: 15 },
   { slug: 'moroni', name: 'Moroni', chapters: 10 },
 ];
-export const bookBySlug = Object.fromEntries(BOOKS.map(b => [b.slug, b]));
+export const bookBySlug = BOOKS.reduce((m, b) => { m[b.slug] = b; return m; }, {});
 
 export const loadText = slug => fetchJSON(`data/text/${slug}.json`);
 export const loadMeta = slug => fetchJSON(`data/meta/${slug}.json`);
@@ -89,5 +89,5 @@ export function prevNextChapter(slug, c) {
 }
 
 export const fmtYear = n => n == null ? 'date unknown' : (n < 0 ? `${-n} BC` : `AD ${n}`);
-export const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+export const esc = s => String(s == null ? '' : s).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
 export const themeName = id => id.split('-').map(w => w[0].toUpperCase() + w.slice(1)).join(' ').replace('And', '&');

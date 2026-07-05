@@ -11,8 +11,8 @@ import { renderAllegories } from './views/allegories.js';
 
 const view = document.getElementById('view');
 const nav = document.getElementById('mainnav');
-document.getElementById('navtoggle').addEventListener('click', () => nav.classList.toggle('open'));
-nav.addEventListener('click', e => { if (e.target.tagName === 'A') nav.classList.remove('open'); });
+// (nav toggle handlers live in an inline script in index.html so the menu
+// works even if this module fails to load)
 
 loadArtManifest().then(m => setArtManifest(m.art || m));
 
