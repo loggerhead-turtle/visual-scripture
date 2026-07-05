@@ -1,0 +1,1024 @@
+{
+  "book": "2 Kings",
+  "slug": "2-kings",
+  "narrator": "chronicler",
+  "plates": "history",
+  "chapters": [
+    {
+      "c": 1,
+      "title": "Elijah and the Fire from Heaven",
+      "synopsis": "Israel's king falls through a lattice and, instead of inquiring of the Lord, sends messengers to consult the god of Ekron about his recovery. Elijah intercepts the messengers with word that the king will die for this insult to the Lord, and when two companies of soldiers are sent to arrest him, fire from heaven consumes them until a third captain humbly begs for his life. The king dies exactly as Elijah foretold.",
+      "years": "about 850 BC",
+      "yearNum": -850,
+      "approx": true,
+      "place": "samaria-city",
+      "themes": [
+        "judgment",
+        "prophecy",
+        "apostasy"
+      ],
+      "characters": [
+        "elijah"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 8,
+          "speaker": "chronicler",
+          "to": "reader",
+          "note": "The king seeks a false god instead of the Lord"
+        },
+        {
+          "s": 9,
+          "e": 16,
+          "speaker": "elijah",
+          "to": "reader",
+          "note": "Elijah confronts the king's messengers with fire from heaven"
+        },
+        {
+          "s": 17,
+          "e": 18,
+          "speaker": "chronicler",
+          "to": "reader",
+          "note": "The king dies as Elijah foretold"
+        }
+      ]
+    },
+    {
+      "c": 2,
+      "title": "Elijah Taken Up; Elisha's Mantle",
+      "synopsis": "Elijah and Elisha travel together toward the Jordan while Elisha insists on staying at his master's side to the last, asking for a double portion of his spirit. A chariot and horses of fire separate them, and Elijah is taken up in a whirlwind, leaving his mantle behind for Elisha, who parts the Jordan with it just as Elijah had. Elisha then heals the bitter waters at Jericho, and mocking youths at Bethel are judged for their scorn of the prophet.",
+      "years": "about 850 BC",
+      "yearNum": -850,
+      "approx": true,
+      "place": "jordan-river",
+      "themes": [
+        "prophecy",
+        "faith",
+        "endurance"
+      ],
+      "characters": [
+        "elijah",
+        "elisha"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 6,
+          "speaker": "chronicler",
+          "to": "reader",
+          "note": "Elijah and Elisha travel toward the Jordan together"
+        },
+        {
+          "s": 7,
+          "e": 12,
+          "speaker": "chronicler",
+          "to": "reader",
+          "note": "Elijah is taken up in a whirlwind of fire"
+        },
+        {
+          "s": 13,
+          "e": 18,
+          "speaker": "chronicler",
+          "to": "reader",
+          "note": "Elisha receives Elijah's mantle and parts the Jordan"
+        },
+        {
+          "s": 19,
+          "e": 25,
+          "speaker": "chronicler",
+          "to": "reader",
+          "note": "Elisha heals the waters at Jericho"
+        }
+      ]
+    },
+    {
+      "c": 3,
+      "title": "War Against Moab; Elisha's Counsel",
+      "synopsis": "Israel allies with Judah and Edom to put down a rebellion in Moab, but the combined armies nearly perish of thirst in the wilderness until Elisha, at Jehoshaphat's request, promises water and victory without wind or rain. The water fills the land overnight and deceives the Moabites into a disastrous attack, but the campaign ends grimly when Moab's desperate king sacrifices his own son upon the wall.",
+      "years": "about 848 BC",
+      "yearNum": -848,
+      "approx": true,
+      "place": null,
+      "themes": [
+        "war",
+        "faith",
+        "prophecy"
+      ],
+      "characters": [
+        "elisha"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 8,
+          "speaker": "chronicler",
+          "to": "reader",
+          "note": "Israel and its allies march against rebellious Moab"
+        },
+        {
+          "s": 9,
+          "e": 20,
+          "speaker": "elisha",
+          "to": "israelites",
+          "note": "Elisha promises water and victory through a minstrel's song"
+        },
+        {
+          "s": 21,
+          "e": 27,
+          "speaker": "chronicler",
+          "to": "reader",
+          "note": "Moab's desperate sacrifice ends the campaign"
+        }
+      ]
+    },
+    {
+      "c": 4,
+      "title": "Elisha's Miracles of Provision and Life",
+      "synopsis": "Elisha multiplies a widow's small pot of oil to fill every vessel she can borrow, saving her sons from being sold for debt. He promises a childless Shunammite woman a son and later raises that same son from death after he dies suddenly in the field. Elisha also purifies a poisonous pottage for the company of prophets and feeds a hundred men with only twenty barley loaves.",
+      "years": "about 840 BC",
+      "yearNum": -840,
+      "approx": true,
+      "place": null,
+      "themes": [
+        "deliverance",
+        "faith",
+        "charity"
+      ],
+      "characters": [
+        "elisha"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 7,
+          "speaker": "elisha",
+          "to": "reader",
+          "note": "Elisha multiplies a widow's oil to pay her debts"
+        },
+        {
+          "s": 8,
+          "e": 37,
+          "speaker": "elisha",
+          "to": "reader",
+          "note": "Elisha promises, then raises, the Shunammite woman's son"
+        },
+        {
+          "s": 38,
+          "e": 41,
+          "speaker": "elisha",
+          "to": "reader",
+          "note": "Elisha purifies a poisonous pottage"
+        },
+        {
+          "s": 42,
+          "e": 44,
+          "speaker": "elisha",
+          "to": "reader",
+          "note": "Elisha feeds a hundred men with barley loaves"
+        }
+      ]
+    },
+    {
+      "c": 5,
+      "title": "Naaman Healed of Leprosy",
+      "synopsis": "Naaman, a great Syrian captain afflicted with leprosy, comes to Elisha at the word of a captive Israelite girl, and is healed after washing seven times in the Jordan, though he is offended at first by the simplicity of the command. Naaman confesses that there is no God in all the earth but in Israel and offers Elisha gifts, which the prophet refuses. Elisha's servant Gehazi secretly takes payment from Naaman by deceit, and Naaman's leprosy clings to him instead.",
+      "years": "about 840 BC",
+      "yearNum": -840,
+      "approx": true,
+      "place": "jordan-river",
+      "themes": [
+        "faith",
+        "humility",
+        "charity"
+      ],
+      "characters": [
+        "naaman",
+        "elisha"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 14,
+          "speaker": "chronicler",
+          "to": "reader",
+          "note": "Naaman the Syrian seeks healing from his leprosy"
+        },
+        {
+          "s": 15,
+          "e": 19,
+          "speaker": "naaman",
+          "to": "elisha",
+          "note": "Naaman confesses faith and offers gifts, which Elisha refuses"
+        },
+        {
+          "s": 20,
+          "e": 27,
+          "speaker": "chronicler",
+          "to": "reader",
+          "note": "Gehazi's greed brings Naaman's leprosy upon him"
+        }
+      ]
+    },
+    {
+      "c": 6,
+      "title": "The Floating Axe Head; Blinded Army",
+      "synopsis": "Elisha causes a borrowed axe head to float so a poor prophet need not lose it, and repeatedly warns Israel's king of Syrian ambushes by revealing their plans. When Syria sends an army to capture him at Dothan, Elisha strikes them with blindness and leads them straight into Samaria, then asks the king to feed rather than kill them. Later a Syrian siege brings such famine to Samaria that desperate mothers resort to horror to survive.",
+      "years": "about 840 BC",
+      "yearNum": -840,
+      "approx": true,
+      "place": "samaria-city",
+      "themes": [
+        "faith",
+        "deliverance",
+        "charity"
+      ],
+      "characters": [
+        "elisha"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 7,
+          "speaker": "elisha",
+          "to": "reader",
+          "note": "Elisha recovers a borrowed axe head from the river"
+        },
+        {
+          "s": 8,
+          "e": 23,
+          "speaker": "elisha",
+          "to": "reader",
+          "note": "Elisha leads the blinded Syrian army into Samaria"
+        },
+        {
+          "s": 24,
+          "e": 33,
+          "speaker": "chronicler",
+          "to": "reader",
+          "note": "Famine grips besieged Samaria"
+        }
+      ]
+    },
+    {
+      "c": 7,
+      "title": "The Siege of Samaria Lifted",
+      "synopsis": "Elisha prophesies that within a day the famine-stricken city will have abundant food at low prices, though a skeptical officer doubts it aloud. That same night four desperate lepers venture to the Syrian camp and find it abandoned, its soldiers having fled in panic at a sound the Lord made them hear. Samaria is delivered and provisions flood the city exactly as Elisha said, and the doubting officer is trampled in the rush and does not live to eat of it.",
+      "years": "about 840 BC",
+      "yearNum": -840,
+      "approx": true,
+      "place": "samaria-city",
+      "themes": [
+        "prophecy",
+        "deliverance",
+        "faith"
+      ],
+      "characters": [
+        "elisha"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 2,
+          "speaker": "elisha",
+          "to": "reader",
+          "note": "Elisha prophesies the famine will end within a day"
+        },
+        {
+          "s": 3,
+          "e": 15,
+          "speaker": "chronicler",
+          "to": "reader",
+          "note": "Four lepers find the Syrian camp abandoned"
+        },
+        {
+          "s": 16,
+          "e": 20,
+          "speaker": "chronicler",
+          "to": "reader",
+          "note": "Samaria is delivered and Elisha's word is fulfilled"
+        }
+      ]
+    },
+    {
+      "c": 8,
+      "title": "The Shunammite's Land Restored",
+      "synopsis": "The Shunammite woman returns from a seven-year sojourn abroad to find her land restored by the king's own order after hearing of Elisha's miracles on her behalf. Elisha weeps before a Syrian official, foreseeing the terrible cruelty he will one day inflict on Israel as king, and the man murders his own master to take the throne. Wicked kings then reign in Judah, walking in the way of the house of Ahab through marriage alliance.",
+      "years": "about 800 BC",
+      "yearNum": -800,
+      "approx": true,
+      "place": "samaria-city",
+      "themes": [
+        "deliverance",
+        "prophecy",
+        "judgment"
+      ],
+      "characters": [
+        "elisha"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 6,
+          "speaker": "chronicler",
+          "to": "reader",
+          "note": "The Shunammite woman's land is restored"
+        },
+        {
+          "s": 7,
+          "e": 15,
+          "speaker": "elisha",
+          "to": "reader",
+          "note": "Elisha weeps, foreseeing a coming king's future cruelty"
+        },
+        {
+          "s": 16,
+          "e": 29,
+          "speaker": "chronicler",
+          "to": "reader",
+          "note": "Wicked kings reign in Judah after Jehoshaphat"
+        }
+      ]
+    },
+    {
+      "c": 9,
+      "title": "Jehu Anointed; Jezebel's Death",
+      "synopsis": "At Elisha's direction a prophet's servant secretly anoints an army commander king over Israel, charging him to avenge the blood of the Lord's prophets on the house of Ahab. The newly anointed king drives furiously to Jezreel and kills the reigning kings of both Israel and Judah. Jezebel, painted and adorned, taunts him from a window, but at his command she is thrown down and her body is devoured by dogs, just as Elijah had once foretold.",
+      "years": "about 841 BC",
+      "yearNum": -841,
+      "approx": true,
+      "place": "samaria-city",
+      "themes": [
+        "judgment",
+        "prophecy"
+      ],
+      "characters": [
+        "elisha",
+        "jezebel"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 13,
+          "speaker": "chronicler",
+          "to": "reader",
+          "note": "A prophet's servant anoints a new king over Israel"
+        },
+        {
+          "s": 14,
+          "e": 26,
+          "speaker": "chronicler",
+          "to": "reader",
+          "note": "The kings of Israel and Judah are struck down"
+        },
+        {
+          "s": 27,
+          "e": 37,
+          "speaker": "chronicler",
+          "to": "reader",
+          "note": "Jezebel is thrown down and eaten by dogs"
+        }
+      ]
+    },
+    {
+      "c": 10,
+      "title": "The House of Ahab Destroyed",
+      "synopsis": "Israel's new king systematically destroys every remaining descendant of Ahab's house and every priest and worshipper of Baal, gathering them under pretense of a great sacrifice and slaughtering them all. Though zealous against Baal, he fails to turn from the false worship established earlier in Israel, and his reign closes with the Lord's promise of a limited dynasty despite this incomplete obedience.",
+      "years": "about 841 BC",
+      "yearNum": -841,
+      "approx": true,
+      "place": "samaria-city",
+      "themes": [
+        "judgment",
+        "apostasy",
+        "justice-and-mercy"
+      ],
+      "characters": [],
+      "segments": [
+        {
+          "s": 1,
+          "e": 11,
+          "speaker": "chronicler",
+          "to": "reader",
+          "note": "The house of Ahab is destroyed"
+        },
+        {
+          "s": 12,
+          "e": 17,
+          "speaker": "chronicler",
+          "to": "reader",
+          "note": "Remaining kinsmen of the former royal house are slain"
+        },
+        {
+          "s": 18,
+          "e": 28,
+          "speaker": "chronicler",
+          "to": "reader",
+          "note": "The worshippers of Baal are deceived and slaughtered"
+        },
+        {
+          "s": 29,
+          "e": 36,
+          "speaker": "chronicler",
+          "to": "reader",
+          "note": "The new king's reign falls short of full obedience"
+        }
+      ]
+    },
+    {
+      "c": 11,
+      "title": "Athaliah's Usurpation; Joash Crowned",
+      "synopsis": "A queen mother seizes the throne of Judah by slaying the entire royal family, but an infant heir is secretly hidden in the temple for six years by a priest and his wife. In the seventh year the priest brings the boy out, crowns him king before the guard and the people, and the usurping queen is put to death when she discovers the plot too late. The priest then leads the people in a covenant to serve the Lord and tears down the house of Baal.",
+      "years": "about 835 BC",
+      "yearNum": -835,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": [
+        "deliverance",
+        "covenant",
+        "judgment"
+      ],
+      "characters": [],
+      "segments": [
+        {
+          "s": 1,
+          "e": 3,
+          "speaker": "chronicler",
+          "to": "reader",
+          "note": "A queen slays the royal seed and seizes the throne"
+        },
+        {
+          "s": 4,
+          "e": 12,
+          "speaker": "chronicler",
+          "to": "reader",
+          "note": "A priest hides the rightful heir and plans his coronation"
+        },
+        {
+          "s": 13,
+          "e": 21,
+          "speaker": "chronicler",
+          "to": "reader",
+          "note": "The young king is crowned and the usurper is slain"
+        }
+      ]
+    },
+    {
+      "c": 12,
+      "title": "Joash Repairs the Temple",
+      "synopsis": "The boy king, guided by the priest who saved him, grows to repair the long-neglected temple, instituting a system for collecting and accounting the people's offerings honestly. Later, facing a Syrian threat, he strips the temple and palace treasuries to buy off the invading king rather than fight. His reign ends when his own servants conspire against him and kill him in his bed.",
+      "years": "about 800 BC",
+      "yearNum": -800,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": [
+        "leadership",
+        "records"
+      ],
+      "characters": [],
+      "segments": [
+        {
+          "s": 1,
+          "e": 16,
+          "speaker": "chronicler",
+          "to": "reader",
+          "note": "Joash repairs the temple with the people's offerings"
+        },
+        {
+          "s": 17,
+          "e": 21,
+          "speaker": "chronicler",
+          "to": "reader",
+          "note": "Joash buys off an invader and is later slain by servants"
+        }
+      ]
+    },
+    {
+      "c": 13,
+      "title": "The Death of Elisha",
+      "synopsis": "Israel suffers oppression under Syria as punishment for continued sin, though the Lord shows mercy and raises up deliverance for a season. Elisha grows old and gives Israel's king a final symbolic prophecy of victory over Syria before he dies, and remarkably, a dead man thrown into Elisha's tomb springs to life the moment he touches the prophet's bones. Even in Elisha's death the Lord's covenant compassion toward Israel is not withdrawn.",
+      "years": "about 800 BC",
+      "yearNum": -800,
+      "approx": true,
+      "place": "samaria-city",
+      "themes": [
+        "prophecy",
+        "judgment",
+        "hope"
+      ],
+      "characters": [
+        "elisha"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 9,
+          "speaker": "chronicler",
+          "to": "reader",
+          "note": "Israel suffers oppression for its continued sin"
+        },
+        {
+          "s": 10,
+          "e": 13,
+          "speaker": "chronicler",
+          "to": "reader",
+          "note": "A new king reigns over Israel"
+        },
+        {
+          "s": 14,
+          "e": 21,
+          "speaker": "elisha",
+          "to": "reader",
+          "note": "Elisha dies; a dead man revives touching his bones"
+        },
+        {
+          "s": 22,
+          "e": 25,
+          "speaker": "chronicler",
+          "to": "reader",
+          "note": "The Lord shows mercy despite Israel's unfaithfulness"
+        }
+      ]
+    },
+    {
+      "c": 14,
+      "title": "Amaziah's Reign; Jeroboam Restores the Border",
+      "synopsis": "Judah's king executes justice for his father's murder but spares the murderers' children according to the law of Moses, then grows proud after a victory over Edom and rashly provokes Israel to war, suffering a humiliating defeat and the plunder of Jerusalem's temple. Later Jeroboam the second reigns long over Israel and restores its border to its former extent, though the record notes his continued departure from the Lord.",
+      "years": "about 790 BC",
+      "yearNum": -790,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": [
+        "pride-cycle",
+        "judgment",
+        "war"
+      ],
+      "characters": [],
+      "segments": [
+        {
+          "s": 1,
+          "e": 22,
+          "speaker": "chronicler",
+          "to": "reader",
+          "note": "Amaziah reigns in Judah, then wars rashly against Israel"
+        },
+        {
+          "s": 23,
+          "e": 29,
+          "speaker": "chronicler",
+          "to": "reader",
+          "note": "Jeroboam the second restores Israel's border"
+        }
+      ]
+    },
+    {
+      "c": 15,
+      "title": "A Rapid Succession of Kings",
+      "synopsis": "Judah's king reigns long and does right but is struck with leprosy for encroaching on priestly duty, ruling apart while his son governs in his stead. Israel meanwhile is thrown into chaos as one king after another seizes the throne through assassination, and the Assyrian empire begins to press into the northern kingdom's territory. Judah's next king, Jotham, continues to build and strengthen the kingdom as Assyria's shadow lengthens.",
+      "years": "about 750 BC",
+      "yearNum": -750,
+      "approx": true,
+      "place": "samaria-city",
+      "themes": [
+        "judgment",
+        "pride-cycle",
+        "kingship"
+      ],
+      "characters": [],
+      "segments": [
+        {
+          "s": 1,
+          "e": 7,
+          "speaker": "chronicler",
+          "to": "reader",
+          "note": "Judah's king reigns long but is struck with leprosy"
+        },
+        {
+          "s": 8,
+          "e": 31,
+          "speaker": "chronicler",
+          "to": "reader",
+          "note": "A rapid succession of kings rule troubled Israel"
+        },
+        {
+          "s": 32,
+          "e": 38,
+          "speaker": "chronicler",
+          "to": "reader",
+          "note": "Jotham reigns over Judah as Assyria presses in"
+        }
+      ]
+    },
+    {
+      "c": 16,
+      "title": "Ahaz Turns to Assyria",
+      "synopsis": "Facing invasion from Syria and Israel allied together, Judah's king Ahaz turns for help not to the Lord but to the king of Assyria, stripping the temple treasury to purchase his aid. Ahaz then has an altar built in Jerusalem after a pagan pattern he saw in Damascus, setting it in place of the Lord's altar and further corrupting the temple's worship.",
+      "years": "about 735 BC",
+      "yearNum": -735,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": [
+        "apostasy",
+        "faith",
+        "kingship"
+      ],
+      "characters": [],
+      "segments": [
+        {
+          "s": 1,
+          "e": 9,
+          "speaker": "chronicler",
+          "to": "reader",
+          "note": "Ahaz turns to Assyria rather than trust the Lord"
+        },
+        {
+          "s": 10,
+          "e": 20,
+          "speaker": "chronicler",
+          "to": "reader",
+          "note": "Ahaz alters the temple altar after a pagan pattern"
+        }
+      ]
+    },
+    {
+      "c": 17,
+      "title": "The Fall of Samaria",
+      "synopsis": "Israel's last king, Hoshea, rebels against Assyria, and after a long siege Samaria falls, its people carried away captive into distant lands, ending the northern kingdom forever. The record explains plainly that this judgment came because Israel forsook the Lord's commandments for idols and the customs of the nations despite generations of prophetic warning. Foreign peoples are resettled in the land and adopt a mixed worship of the Lord alongside their own gods.",
+      "years": "about 722 BC",
+      "yearNum": -722,
+      "approx": true,
+      "place": "samaria-city",
+      "themes": [
+        "judgment",
+        "apostasy",
+        "exile"
+      ],
+      "characters": [],
+      "segments": [
+        {
+          "s": 1,
+          "e": 6,
+          "speaker": "chronicler",
+          "to": "reader",
+          "note": "Israel falls to Assyria and is carried into exile"
+        },
+        {
+          "s": 7,
+          "e": 23,
+          "speaker": "chronicler",
+          "to": "reader",
+          "note": "The Lord explains Israel's fall as the fruit of idolatry"
+        },
+        {
+          "s": 24,
+          "e": 41,
+          "speaker": "chronicler",
+          "to": "reader",
+          "note": "Foreign peoples resettle Samaria with mixed worship"
+        }
+      ]
+    },
+    {
+      "c": 18,
+      "title": "Hezekiah's Reforms; Assyria Invades",
+      "synopsis": "Hezekiah reigns over Judah with unmatched trust in the Lord, removing idolatrous shrines and even the bronze serpent Moses had made, which the people had begun to worship. When Assyria's king Sennacherib invades and besieges Jerusalem after already taking Samaria years before, his field commander stands before the city walls and mockingly demands surrender, blaspheming the Lord's power to deliver.",
+      "years": "about 710 BC",
+      "yearNum": -710,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": [
+        "faith",
+        "apostasy",
+        "war"
+      ],
+      "characters": [
+        "hezekiah"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 8,
+          "speaker": "chronicler",
+          "to": "reader",
+          "note": "Hezekiah reigns well and trusts in the Lord"
+        },
+        {
+          "s": 9,
+          "e": 16,
+          "speaker": "chronicler",
+          "to": "reader",
+          "note": "Assyria besieges Judah and exacts heavy tribute"
+        },
+        {
+          "s": 17,
+          "e": 37,
+          "speaker": "chronicler",
+          "to": "reader",
+          "note": "An Assyrian officer taunts Jerusalem and blasphemes the Lord"
+        }
+      ]
+    },
+    {
+      "c": 19,
+      "title": "Hezekiah's Prayer; Assyria's Defeat",
+      "synopsis": "Hezekiah sends to Isaiah for counsel in his distress and receives assurance that the Lord will defend Jerusalem. When Sennacherib sends a further taunting letter, Hezekiah spreads it before the Lord in the temple and prays earnestly for deliverance. Isaiah prophesies that the Assyrian king will not even shoot an arrow into the city, and that night the angel of the Lord slays the Assyrian army, forcing Sennacherib to withdraw, where he is later assassinated by his own sons.",
+      "years": "about 701 BC",
+      "yearNum": -701,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": [
+        "prayer",
+        "deliverance",
+        "prophecy"
+      ],
+      "characters": [
+        "hezekiah",
+        "isaiah"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 7,
+          "speaker": "hezekiah",
+          "to": "isaiah",
+          "note": "Hezekiah seeks Isaiah's counsel in his distress"
+        },
+        {
+          "s": 8,
+          "e": 13,
+          "speaker": "chronicler",
+          "to": "reader",
+          "note": "Sennacherib sends a further taunting letter"
+        },
+        {
+          "s": 14,
+          "e": 19,
+          "speaker": "hezekiah",
+          "to": "the-lord",
+          "note": "Hezekiah spreads the letter before the Lord in prayer"
+        },
+        {
+          "s": 20,
+          "e": 34,
+          "speaker": "isaiah",
+          "to": "hezekiah",
+          "note": "Isaiah prophesies deliverance and Assyria's defeat"
+        },
+        {
+          "s": 35,
+          "e": 37,
+          "speaker": "chronicler",
+          "to": "reader",
+          "note": "The angel of the Lord destroys the Assyrian army"
+        }
+      ]
+    },
+    {
+      "c": 20,
+      "title": "Hezekiah's Illness and Pride",
+      "synopsis": "Hezekiah falls deathly ill, and after weeping and praying is granted fifteen more years of life, confirmed by the shadow moving backward on a sundial as a sign. Later Hezekiah proudly shows visiting Babylonian envoys all the treasures of his kingdom, and Isaiah rebukes him, prophesying that everything he has shown them, and even his own descendants, will one day be carried away to Babylon.",
+      "years": "about 700 BC",
+      "yearNum": -700,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": [
+        "prayer",
+        "prophecy",
+        "pride-cycle"
+      ],
+      "characters": [
+        "hezekiah",
+        "isaiah"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 11,
+          "speaker": "hezekiah",
+          "to": "the-lord",
+          "note": "Hezekiah prays and is healed with a miraculous sign"
+        },
+        {
+          "s": 12,
+          "e": 19,
+          "speaker": "isaiah",
+          "to": "hezekiah",
+          "note": "Hezekiah shows Babylonian envoys his treasures; Isaiah rebukes him"
+        },
+        {
+          "s": 20,
+          "e": 21,
+          "speaker": "chronicler",
+          "to": "reader",
+          "note": "Hezekiah's reign concludes"
+        }
+      ]
+    },
+    {
+      "c": 21,
+      "title": "Manasseh's Wickedness",
+      "synopsis": "Manasseh undoes his father Hezekiah's reforms, rebuilding the pagan shrines, worshipping the host of heaven, and even sacrificing his own son, filling Jerusalem with innocent blood. The Lord pronounces through His prophets that such evil will bring the same judgment on Jerusalem that fell on Samaria and the house of Ahab. His son Amon briefly continues this same wickedness before being assassinated by his own servants.",
+      "years": "about 687 BC",
+      "yearNum": -687,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": [
+        "apostasy",
+        "judgment"
+      ],
+      "characters": [],
+      "segments": [
+        {
+          "s": 1,
+          "e": 18,
+          "speaker": "chronicler",
+          "to": "reader",
+          "note": "Manasseh leads Judah into extreme idolatry"
+        },
+        {
+          "s": 19,
+          "e": 26,
+          "speaker": "chronicler",
+          "to": "reader",
+          "note": "Amon briefly continues his father's wickedness"
+        }
+      ]
+    },
+    {
+      "c": 22,
+      "title": "The Book of the Law Is Found",
+      "synopsis": "Young Josiah begins to repair the neglected temple, and during the work the high priest discovers a forgotten book of the law. When it is read before Josiah, he tears his clothes in alarm at how far the nation has strayed from its commandments. He sends to inquire of the Lord, and the prophetess Huldah confirms that judgment will come on Jerusalem, but not in Josiah's own lifetime, because his heart was tender before the Lord.",
+      "years": "about 622 BC",
+      "yearNum": -622,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": [
+        "records",
+        "repentance",
+        "prophecy"
+      ],
+      "characters": [
+        "josiah"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 7,
+          "speaker": "chronicler",
+          "to": "reader",
+          "note": "Young Josiah begins to repair the temple"
+        },
+        {
+          "s": 8,
+          "e": 13,
+          "speaker": "chronicler",
+          "to": "reader",
+          "note": "The book of the law is found and read to the king"
+        },
+        {
+          "s": 14,
+          "e": 20,
+          "speaker": "chronicler",
+          "to": "reader",
+          "note": "A prophetess foretells judgment tempered by mercy"
+        }
+      ]
+    },
+    {
+      "c": 23,
+      "title": "Josiah's Covenant Renewal and Death",
+      "synopsis": "Josiah gathers all Judah to hear the book of the law and leads the nation in renewing its covenant with the Lord, then thoroughly purges the land of idolatrous altars, priests, and practices from Jerusalem to Bethel and beyond. He keeps a Passover unlike any since the days of the judges, but is killed in battle against Pharaoh Necho at Megiddo, and his successors quickly return to evil ways under Egyptian and then Babylonian pressure.",
+      "years": "about 621 BC",
+      "yearNum": -621,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": [
+        "covenant",
+        "repentance",
+        "judgment"
+      ],
+      "characters": [
+        "josiah"
+      ],
+      "segments": [
+        {
+          "s": 1,
+          "e": 3,
+          "speaker": "josiah",
+          "to": "israelites",
+          "note": "Josiah renews the covenant before all the people"
+        },
+        {
+          "s": 4,
+          "e": 20,
+          "speaker": "chronicler",
+          "to": "reader",
+          "note": "Josiah purges the land of idolatry"
+        },
+        {
+          "s": 21,
+          "e": 25,
+          "speaker": "chronicler",
+          "to": "reader",
+          "note": "Josiah keeps a great Passover unlike any before"
+        },
+        {
+          "s": 26,
+          "e": 30,
+          "speaker": "chronicler",
+          "to": "reader",
+          "note": "Josiah dies in battle against Pharaoh Necho"
+        },
+        {
+          "s": 31,
+          "e": 37,
+          "speaker": "chronicler",
+          "to": "reader",
+          "note": "Jehoahaz and Jehoiakim reign after Josiah"
+        }
+      ]
+    },
+    {
+      "c": 24,
+      "title": "Jehoiachin Exiled to Babylon",
+      "synopsis": "Jehoiakim rebels against Babylon after years of vassalage, and the Lord sends raiding bands against Judah in fulfillment of the judgment pronounced for Manasseh's sins. His son Jehoiachin reigns only briefly before surrendering Jerusalem to Nebuchadnezzar, who carries him, the queen mother, and the nation's leading citizens and craftsmen into exile in Babylon. Nebuchadnezzar installs Zedekiah as a puppet king in Jerusalem in his place.",
+      "years": "about 597 BC",
+      "yearNum": -597,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": [
+        "judgment",
+        "exile"
+      ],
+      "characters": [],
+      "segments": [
+        {
+          "s": 1,
+          "e": 7,
+          "speaker": "chronicler",
+          "to": "reader",
+          "note": "Jehoiakim rebels against Babylon"
+        },
+        {
+          "s": 8,
+          "e": 17,
+          "speaker": "chronicler",
+          "to": "reader",
+          "note": "Jehoiachin surrenders and is carried to Babylon"
+        },
+        {
+          "s": 18,
+          "e": 20,
+          "speaker": "chronicler",
+          "to": "reader",
+          "note": "Zedekiah is installed as king in Jerusalem"
+        }
+      ]
+    },
+    {
+      "c": 25,
+      "title": "The Fall of Jerusalem",
+      "synopsis": "Zedekiah rebels against Babylon, and Nebuchadnezzar's army besieges Jerusalem until famine forces its walls open, capturing and blinding the fleeing king after slaying his sons before his eyes. The Babylonians burn the temple and the city, breaking down its walls and carrying away its treasures and its people into exile, leaving only the poorest to tend the land under a governor who is soon assassinated. The book closes decades later as the exiled king of Judah is released from prison and given honor at the Babylonian king's table.",
+      "years": "about 586 BC",
+      "yearNum": -586,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": [
+        "judgment",
+        "exile",
+        "endurance"
+      ],
+      "characters": [],
+      "segments": [
+        {
+          "s": 1,
+          "e": 7,
+          "speaker": "chronicler",
+          "to": "reader",
+          "note": "Jerusalem falls after a long siege; Zedekiah is captured"
+        },
+        {
+          "s": 8,
+          "e": 21,
+          "speaker": "chronicler",
+          "to": "reader",
+          "note": "The temple is burned and the city's people taken captive"
+        },
+        {
+          "s": 22,
+          "e": 26,
+          "speaker": "chronicler",
+          "to": "reader",
+          "note": "A governor is appointed and then assassinated"
+        },
+        {
+          "s": 27,
+          "e": 30,
+          "speaker": "chronicler",
+          "to": "reader",
+          "note": "The exiled king of Judah is released and honored in Babylon"
+        }
+      ]
+    }
+  ]
+}
