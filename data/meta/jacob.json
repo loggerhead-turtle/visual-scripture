@@ -1,0 +1,108 @@
+{
+  "book": "Jacob",
+  "slug": "jacob",
+  "narrator": "jacob1",
+  "plates": "small-plates",
+  "chapters": [
+    {
+      "c": 1,
+      "title": "Jacob Receives the Sacred Charge",
+      "synopsis": "Nephi, grown old, gives the small plates to his brother Jacob with the charge to record only the most precious preaching and revelation. Nephi anoints a successor king and dies, and the people begin to grow hard, seeking riches and many wives. Jacob and his brother Joseph, having been consecrated priests and teachers, labor to magnify their office and answer for the people's sins on their own heads.",
+      "years": "between 544 and 421 BC",
+      "yearNum": -544,
+      "approx": true,
+      "place": "city-of-nephi",
+      "themes": ["records", "leadership", "priesthood"],
+      "characters": ["jacob1", "nephi1", "joseph1"],
+      "segments": [
+        { "s": 1, "e": 19, "speaker": "jacob1", "to": "reader", "note": "Nephi's death; Jacob takes the record" }
+      ]
+    },
+    {
+      "c": 2,
+      "title": "Jacob Rebukes Pride and Unchastity",
+      "synopsis": "At the temple, Jacob declares the weighty errand he has from the Lord against the sins growing among his people. He rebukes their pride in riches, teaching that they should seek the kingdom of God first and use wealth to clothe the naked and free the captive. He then condemns the grosser crime of unauthorized plural wives and concubines, for the Lord delights in the chastity of women and has heard the mourning of their hearts.",
+      "years": "between 544 and 421 BC",
+      "yearNum": -543,
+      "approx": true,
+      "place": "city-of-nephi",
+      "themes": ["pride-cycle", "repentance", "humility", "family"],
+      "characters": ["jacob1"],
+      "segments": [
+        { "s": 1, "e": 35, "speaker": "jacob1", "to": "nephites", "note": "Temple sermon against pride and unchastity" }
+      ]
+    },
+    {
+      "c": 3,
+      "title": "Comfort for the Pure in Heart",
+      "synopsis": "Jacob comforts the pure in heart, promising that God will console them in their afflictions and plead their cause. He warns the unrepentant that the Lamanites, whose husbands and wives love one another, are more righteous than they in keeping this commandment. Unless the Nephites repent, the Lamanites' skins will be whiter than theirs at the judgment bar.",
+      "years": "between 544 and 421 BC",
+      "yearNum": -543,
+      "approx": true,
+      "place": "city-of-nephi",
+      "themes": ["family", "repentance", "justice-and-mercy"],
+      "characters": ["jacob1"],
+      "segments": [
+        { "s": 1, "e": 14, "speaker": "jacob1", "to": "nephites", "note": "Comfort for the pure; warning to the impure" }
+      ]
+    },
+    {
+      "c": 4,
+      "title": "Why We Write: To Know Christ",
+      "synopsis": "Jacob explains the labor of engraving on plates: his people write so their children and future generations may know that the ancients knew of Christ and worshiped the Father in His name. All the prophets, and Abraham's offering of Isaac, testify of God and His Son. Jacob marvels that the Jews will reject the sure foundation, the stone on which they might build, yet by the Atonement it will become their great and last cornerstone.",
+      "years": "between 544 and 421 BC",
+      "yearNum": -542,
+      "approx": true,
+      "place": null,
+      "themes": ["records", "atonement", "prophecy"],
+      "characters": ["jacob1", "jesus-christ"],
+      "segments": [
+        { "s": 1, "e": 18, "speaker": "jacob1", "to": "reader", "note": "The purpose of the record; Christ the cornerstone" }
+      ]
+    },
+    {
+      "c": 5,
+      "title": "The Allegory of the Olive Trees",
+      "synopsis": "Jacob quotes the prophet Zenos's allegory of a tame olive tree, the house of Israel, that begins to decay. The Lord of the vineyard grafts in wild branches, plants natural branches in far corners of the vineyard, and labors again and again with his servant to save the fruit. In a final pruning, with servants few, the natural branches are grafted back, the trees become one, and the good fruit is gathered before the vineyard is burned.",
+      "years": "between 544 and 421 BC",
+      "yearNum": -542,
+      "approx": true,
+      "place": null,
+      "themes": ["gathering-of-israel", "covenant", "endurance"],
+      "characters": ["jacob1", "zenos"],
+      "segments": [
+        { "s": 1, "e": 2, "speaker": "jacob1", "to": "nephites", "note": "Jacob introduces Zenos's allegory" },
+        { "s": 3, "e": 77, "speaker": "zenos", "to": "house-of-israel", "note": "The allegory of the olive trees" }
+      ]
+    },
+    {
+      "c": 6,
+      "title": "The Lord Will Labor with Israel",
+      "synopsis": "Jacob applies Zenos's allegory: the Lord will remember the house of Israel and labor in His vineyard one last time before the world is burned. How merciful is our God, who cleaves unto His people as long as they will not harden their hearts. Jacob pleads with his hearers to repent, enter the strait gate, and not deny the Christ, lest they face the lake of fire and brimstone.",
+      "years": "between 544 and 421 BC",
+      "yearNum": -542,
+      "approx": true,
+      "place": null,
+      "themes": ["repentance", "justice-and-mercy", "judgment"],
+      "characters": ["jacob1", "zenos"],
+      "segments": [
+        { "s": 1, "e": 13, "speaker": "jacob1", "to": "nephites", "note": "Jacob applies the allegory and pleads repentance" }
+      ]
+    },
+    {
+      "c": 7,
+      "title": "The Fall of the Antichrist Sherem",
+      "synopsis": "A learned man named Sherem comes among the people denying the Christ and seeks to shake Jacob from the faith, but Jacob, grounded by revelations and angelic ministry, cannot be moved. Sherem demands a sign, is smitten by God, and before dying confesses Christ and the power of the Holy Ghost, fearing he has committed the unpardonable sin. Peace returns, the Lamanites' hatred continues, and Jacob, growing old, hands the plates to his son Enos and bids the reader adieu.",
+      "years": "between 544 and 421 BC",
+      "yearNum": -540,
+      "approx": true,
+      "place": "city-of-nephi",
+      "themes": ["faith", "apostasy", "revelation"],
+      "characters": ["jacob1", "enos1"],
+      "segments": [
+        { "s": 1, "e": 23, "speaker": "jacob1", "to": "reader", "note": "Jacob recounts Sherem's challenge and downfall" },
+        { "s": 24, "e": 27, "speaker": "jacob1", "to": "reader", "note": "Final days; the plates pass to Enos" }
+      ]
+    }
+  ]
+}

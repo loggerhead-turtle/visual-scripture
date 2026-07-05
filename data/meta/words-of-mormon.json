@@ -1,0 +1,23 @@
+{
+  "book": "Words of Mormon",
+  "slug": "words-of-mormon",
+  "narrator": "mormon",
+  "plates": "mormon-own",
+  "chapters": [
+    {
+      "c": 1,
+      "title": "Mormon Adds the Small Plates",
+      "synopsis": "Writing nearly a thousand years after Lehi, Mormon explains that while abridging the large plates he found the small plates of Nephi and was pleased with their prophecies of Christ. He includes them with his abridgment for a wise purpose, following the workings of the Spirit though he knows not all things. He then bridges the story to King Benjamin, who with holy prophets and his own righteous labor establishes peace in Zarahemla.",
+      "years": "about AD 385",
+      "yearNum": 385,
+      "approx": true,
+      "place": null,
+      "themes": ["records", "revelation", "leadership"],
+      "characters": ["mormon", "benjamin", "amaleki1"],
+      "segments": [
+        { "s": 1, "e": 11, "speaker": "mormon", "to": "reader", "note": "Why the small plates are included" },
+        { "s": 12, "e": 18, "speaker": "mormon", "to": "reader", "note": "King Benjamin establishes peace" }
+      ]
+    }
+  ]
+}

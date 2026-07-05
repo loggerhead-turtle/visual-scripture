@@ -1,0 +1,13 @@
+{
+  "_readme": [
+    "Optional: map a character or group id (see data/characters.json) to an image URL,",
+    "and the site will show that image instead of the built-in illustrated portrait.",
+    "This is where you can plug in official art from the Church's Media Library",
+    "(churchofjesuschrist.org/media) for personal, noncommercial use. Official artwork",
+    "is copyrighted, so it is not bundled in this repository - download images you are",
+    "licensed to use into assets/art/ and reference them here, e.g.:",
+    "  \"nephi1\": \"assets/art/nephi.jpg\"",
+    "Any id left unmapped keeps its illustrated SVG card."
+  ],
+  "art": {}
+}

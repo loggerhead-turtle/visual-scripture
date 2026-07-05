@@ -1,0 +1,136 @@
+{
+  "book": "Mormon",
+  "slug": "mormon",
+  "narrator": "mormon",
+  "plates": "mormon-own",
+  "chapters": [
+    {
+      "c": 1,
+      "title": "A Sober Child in a Dying Nation",
+      "synopsis": "Ammaron tells ten-year-old Mormon where the records lie hidden and charges him to take up the plates of Nephi at twenty-four. War breaks out between Nephites and Lamanites, wickedness spreads, and the Three Nephites are taken from among the people. Though Mormon tastes of the goodness of Jesus, he is forbidden to preach to a hardened people.",
+      "years": "AD 321-326",
+      "yearNum": 322,
+      "approx": false,
+      "place": "zarahemla",
+      "themes": ["records", "apostasy", "revelation"],
+      "characters": ["mormon"],
+      "segments": [
+        { "s": 1, "e": 19, "speaker": "mormon", "to": "reader", "note": "Mormon's charge and his people's decline" }
+      ]
+    },
+    {
+      "c": 2,
+      "title": "Sorrowing Without Repentance",
+      "synopsis": "At sixteen Mormon is made leader of the Nephite armies and spends decades in retreating warfare. He briefly hopes when the people mourn, but their sorrow is the sorrowing of the damned, not repentance unto life. He retrieves the plates from the hill Shim and records the carnage as a treaty divides the land.",
+      "years": "AD 327-350",
+      "yearNum": 340,
+      "approx": false,
+      "place": "zarahemla",
+      "themes": ["war", "repentance", "leadership"],
+      "characters": ["mormon"],
+      "segments": [
+        { "s": 1, "e": 29, "speaker": "mormon", "to": "reader", "note": "Mormon leads armies through years of retreat" }
+      ]
+    },
+    {
+      "c": 3,
+      "title": "Mormon Refuses to Lead",
+      "synopsis": "After ten years of peace the Lamanite king declares war again, and the Nephites twice repel the attack at Desolation. When they swear vengeance and march to attack first, Mormon utterly refuses to lead them, for the Lord forbids offensive war. He turns to the future, writing so that all Israel and the Gentiles will stand prepared at the judgment.",
+      "years": "AD 350-362",
+      "yearNum": 360,
+      "approx": false,
+      "place": "desolation",
+      "themes": ["war", "judgment", "obedience"],
+      "characters": ["mormon"],
+      "segments": [
+        { "s": 1, "e": 22, "speaker": "mormon", "to": "reader", "note": "Mormon resigns; all must stand before Christ" }
+      ]
+    },
+    {
+      "c": 4,
+      "title": "Judgments Sweep the Wicked",
+      "synopsis": "The Nephite armies attack first and are driven back, beginning an exchange of slaughter around Desolation and Teancum. Both sides sink to sacrificing prisoners, and Mormon observes that the wicked are punished by the wicked. As the Lamanites overrun the land, Mormon gathers all the records Ammaron hid in the hill Shim.",
+      "years": "AD 363-375",
+      "yearNum": 370,
+      "approx": false,
+      "place": "desolation",
+      "themes": ["war", "judgment", "apostasy"],
+      "characters": ["mormon"],
+      "segments": [
+        { "s": 1, "e": 23, "speaker": "mormon", "to": "reader", "note": "The wicked punish the wicked" }
+      ]
+    },
+    {
+      "c": 5,
+      "title": "Writing for a Future Remnant",
+      "synopsis": "Mormon repents of his oath and leads the Nephites once more, but without faith they flee like dew before the sun. He explains why he writes: this record will go to the Gentiles and to the remnant of Lehi, that they may know their covenants and believe the gospel. He pleads with future readers to know that they are of the house of Israel.",
+      "years": "AD 375-384",
+      "yearNum": 380,
+      "approx": false,
+      "place": "desolation",
+      "themes": ["records", "covenant", "gathering-of-israel"],
+      "characters": ["mormon"],
+      "segments": [
+        { "s": 1, "e": 24, "speaker": "mormon", "to": "reader", "note": "Why this record is being written" }
+      ]
+    },
+    {
+      "c": 6,
+      "title": "The Last Gathering at Cumorah",
+      "synopsis": "Mormon gathers his people to the land of Cumorah for a final stand and hides all the records in the hill, save the few plates he gives Moroni. Two hundred thirty thousand Nephites fall in a single day's battle. Surveying the dead from the hilltop, Mormon cries, O ye fair ones, how could ye have departed from the ways of the Lord.",
+      "years": "AD 385",
+      "yearNum": 385,
+      "approx": false,
+      "place": "cumorah",
+      "themes": ["war", "judgment", "endurance"],
+      "characters": ["mormon", "moroni"],
+      "segments": [
+        { "s": 1, "e": 22, "speaker": "mormon", "to": "reader", "note": "The final battle and Mormon's lament" }
+      ]
+    },
+    {
+      "c": 7,
+      "title": "To the Remnant of Lehi",
+      "synopsis": "Mormon's last recorded words address the remnant of Lehi's seed in the latter days. He tells them they are of the house of Israel, urges them to lay down their weapons of war, and testifies of Christ's death, resurrection, and redeeming power. If they believe the Bible, they will believe this record also, and it will teach them to be baptized and endure to the end.",
+      "years": "AD 385",
+      "yearNum": 385,
+      "approx": false,
+      "place": null,
+      "themes": ["covenant", "peace", "baptism"],
+      "characters": ["mormon"],
+      "segments": [
+        { "s": 1, "e": 10, "speaker": "mormon", "to": "lamanites", "note": "To the latter-day remnant of Lehi" }
+      ]
+    },
+    {
+      "c": 8,
+      "title": "Moroni Writes Alone",
+      "synopsis": "Moroni takes up his fallen father's record: the Nephites are destroyed, his kindred slain, and he wanders alone with nowhere to go. He prophesies that the record will come forth in a day of secret combinations, polluted churches, and disasters, when people love money more than the poor. He warns latter-day readers that Jesus Christ has shown them to him.",
+      "years": "AD 400-401",
+      "yearNum": 400,
+      "approx": false,
+      "place": null,
+      "plates": "moroni-own",
+      "themes": ["records", "prophecy", "apostasy"],
+      "characters": ["moroni", "mormon"],
+      "segments": [
+        { "s": 1, "e": 41, "speaker": "moroni", "to": "reader", "note": "Moroni, alone, prophesies of our day" }
+      ]
+    },
+    {
+      "c": 9,
+      "title": "A God of Miracles Still",
+      "synopsis": "Moroni speaks to those who deny revelations, asking how they will feel to stand before God with a consciousness of guilt. God is unchangeable, a God of miracles yesterday, today, and forever; if miracles have ceased, it is because faith has ceased. He urges all to pray to the Father in the name of Jesus and closes with an apology for the weakness of their writing.",
+      "years": "AD 401",
+      "yearNum": 401,
+      "approx": false,
+      "place": null,
+      "plates": "moroni-own",
+      "themes": ["faith", "revelation", "repentance"],
+      "characters": ["moroni"],
+      "segments": [
+        { "s": 1, "e": 37, "speaker": "moroni", "to": "reader", "note": "Moroni to those who deny revelation" }
+      ]
+    }
+  ]
+}

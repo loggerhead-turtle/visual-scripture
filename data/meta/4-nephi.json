@@ -1,0 +1,22 @@
+{
+  "book": "4 Nephi",
+  "slug": "4-nephi",
+  "narrator": "mormon",
+  "plates": "mormon-abridgment",
+  "chapters": [
+    {
+      "c": 1,
+      "title": "Two Centuries of Zion",
+      "synopsis": "All the people are converted, and for nearly two hundred years there are no contentions, no poor, and no manner of -ites, because the love of God dwells in every heart. Then pride in costly apparel returns, the people divide into classes and churches for gain, and by three hundred years both Nephites and Lamanites have grown wicked. Ammaron, constrained by the Holy Ghost, hides up the sacred records.",
+      "years": "AD 35-321",
+      "yearNum": 200,
+      "approx": true,
+      "place": "zarahemla",
+      "themes": ["peace", "charity", "pride-cycle", "apostasy"],
+      "characters": ["nephi3"],
+      "segments": [
+        { "s": 1, "e": 49, "speaker": "mormon", "to": "reader", "note": "The golden age and its slow unraveling" }
+      ]
+    }
+  ]
+}

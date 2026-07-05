@@ -1,0 +1,443 @@
+{
+  "book": "Mosiah",
+  "slug": "mosiah",
+  "narrator": "mormon",
+  "plates": "mormon-abridgment",
+  "chapters": [
+    {
+      "c": 1,
+      "title": "Benjamin Teaches His Sons",
+      "synopsis": "Aging King Benjamin teaches his sons the language and prophecies of their fathers, stressing that the brass plates preserved their faith. He charges his son Mosiah to gather the people so he can give them a name and announce his successor.",
+      "years": "about 130 BC",
+      "yearNum": -130,
+      "approx": false,
+      "place": "zarahemla",
+      "themes": ["records", "family", "leadership"],
+      "characters": ["benjamin", "mosiah2"],
+      "segments": [
+        { "s": 1, "e": 9, "speaker": "mormon", "to": "reader", "note": "Benjamin teaches his sons from the records" },
+        { "s": 10, "e": 14, "speaker": "benjamin", "to": "mosiah2", "note": "Benjamin charges Mosiah to gather the people" },
+        { "s": 15, "e": 18, "speaker": "mormon", "to": "reader", "note": "Mosiah receives the kingdom and the records" }
+      ]
+    },
+    {
+      "c": 2,
+      "title": "In the Service of Your God",
+      "synopsis": "Families gather in tents around the temple, and Benjamin speaks from a tower. He recounts his service as king, teaches that serving others is serving God, and warns against rebellion, calling all to obedience and gratitude.",
+      "years": "about 124 BC",
+      "yearNum": -124,
+      "approx": false,
+      "place": "zarahemla",
+      "themes": ["humility", "obedience", "covenant"],
+      "characters": ["benjamin", "mosiah2"],
+      "segments": [
+        { "s": 1, "e": 8, "speaker": "mormon", "to": "reader", "note": "The people gather at the temple" },
+        { "s": 9, "e": 41, "speaker": "benjamin", "to": "multitude", "note": "Benjamin on service, indebtedness, and obedience" }
+      ]
+    },
+    {
+      "c": 3,
+      "title": "The Angel Foretells Christ",
+      "synopsis": "Benjamin relates the words an angel spoke to him: Jesus Christ will come, work miracles, suffer, and atone for sin. The angel teaches that the natural man is an enemy to God and must yield to the Holy Spirit through Christ's atonement.",
+      "years": "about 124 BC",
+      "yearNum": -124,
+      "approx": false,
+      "place": "zarahemla",
+      "themes": ["atonement", "prophecy", "humility"],
+      "characters": ["benjamin", "angel"],
+      "segments": [
+        { "s": 1, "e": 1, "speaker": "benjamin", "to": "multitude", "note": "Benjamin continues his address" },
+        { "s": 2, "e": 27, "speaker": "angel", "to": "benjamin", "note": "The angel's prophecy of Christ's ministry and atonement" }
+      ]
+    },
+    {
+      "c": 4,
+      "title": "Retain a Remission of Sins",
+      "synopsis": "Overcome by Benjamin's words, the multitude falls to the earth and receives a remission of sins. Benjamin teaches them to remember God's goodness, care for the poor, watch their thoughts and deeds, and so retain that remission.",
+      "years": "about 124 BC",
+      "yearNum": -124,
+      "approx": false,
+      "place": "zarahemla",
+      "themes": ["repentance", "humility", "charity"],
+      "characters": ["benjamin"],
+      "segments": [
+        { "s": 1, "e": 3, "speaker": "mormon", "to": "reader", "note": "The people cry for mercy and are filled with joy" },
+        { "s": 4, "e": 30, "speaker": "benjamin", "to": "multitude", "note": "Believe in God, impart to the poor, watch yourselves" }
+      ]
+    },
+    {
+      "c": 5,
+      "title": "Children of Christ",
+      "synopsis": "The people declare a mighty change of heart and covenant to obey God. Benjamin gives them the name of Christ, teaching that through covenant they become His sons and daughters and must remain steadfast to be sealed His.",
+      "years": "about 124 BC",
+      "yearNum": -124,
+      "approx": false,
+      "place": "zarahemla",
+      "themes": ["covenant", "conversion"],
+      "characters": ["benjamin"],
+      "segments": [
+        { "s": 1, "e": 1, "speaker": "mormon", "to": "reader", "note": "Benjamin asks the people to answer" },
+        { "s": 2, "e": 5, "speaker": "multitude", "to": "benjamin", "note": "The people declare their covenant and changed hearts" },
+        { "s": 6, "e": 15, "speaker": "benjamin", "to": "multitude", "note": "Take upon you the name of Christ" }
+      ]
+    },
+    {
+      "c": 6,
+      "title": "Mosiah Begins His Reign",
+      "synopsis": "Benjamin records the names of all who entered the covenant and consecrates Mosiah as king. Three years later Benjamin dies, and Mosiah reigns in righteousness, laboring with his own hands as his father did.",
+      "years": "about 124-121 BC",
+      "yearNum": -124,
+      "approx": false,
+      "place": "zarahemla",
+      "themes": ["covenant", "leadership", "records"],
+      "characters": ["benjamin", "mosiah2"],
+      "segments": [
+        { "s": 1, "e": 7, "speaker": "mormon", "to": "reader", "note": "Mosiah consecrated king; Benjamin dies" }
+      ]
+    },
+    {
+      "c": 7,
+      "title": "Ammon Finds the People of Limhi",
+      "synopsis": "Mosiah sends Ammon and fifteen men to learn the fate of those who left for the land of Nephi. Ammon finds King Limhi's people in bondage to the Lamanites, and Limhi rejoices, telling his people deliverance is near if they turn to God.",
+      "years": "about 121 BC",
+      "yearNum": -121,
+      "approx": false,
+      "place": "city-of-nephi",
+      "themes": ["deliverance", "covenant"],
+      "characters": ["ammon1", "limhi"],
+      "segments": [
+        { "s": 1, "e": 16, "speaker": "mormon", "to": "reader", "note": "Ammon's expedition finds Limhi's people" },
+        { "s": 17, "e": 33, "speaker": "limhi", "to": "multitude", "note": "Limhi recounts their bondage and urges trust in God" }
+      ]
+    },
+    {
+      "c": 8,
+      "title": "A Seer Is Greater Than a Prophet",
+      "synopsis": "Limhi tells Ammon of a lost expedition that found twenty-four gold plates among the ruins of a destroyed people. Ammon explains that King Mosiah is a seer who can translate them, and teaches that a seer's gift is greater than a prophet's.",
+      "years": "about 121 BC",
+      "yearNum": -121,
+      "approx": false,
+      "place": "city-of-nephi",
+      "themes": ["records", "revelation"],
+      "characters": ["ammon1", "limhi", "mosiah2"],
+      "segments": [
+        { "s": 1, "e": 6, "speaker": "mormon", "to": "reader", "note": "Limhi shares his people's records with Ammon" },
+        { "s": 7, "e": 12, "speaker": "limhi", "to": "ammon1", "note": "Limhi tells of the twenty-four gold plates" },
+        { "s": 13, "e": 21, "speaker": "ammon1", "to": "limhi", "note": "Ammon explains seers, revelators, and translation" }
+      ]
+    },
+    {
+      "c": 9,
+      "title": "Zeniff Reclaims the Land of Nephi",
+      "synopsis": "Zeniff begins his own record: over-zealous to inherit the land of his fathers, he leads a colony back to the land of Nephi and covenants with King Laman for possession of two cities. The Lamanite king's hidden design is to bring them into bondage, and war soon follows, but Zeniff's people drive off the attack in God's strength.",
+      "years": "about 200-187 BC",
+      "yearNum": -200,
+      "approx": false,
+      "place": "city-of-nephi",
+      "themes": ["records", "war", "deliverance"],
+      "characters": ["zeniff"],
+      "segments": [
+        { "s": 1, "e": 19, "speaker": "zeniff", "to": "reader", "note": "Zeniff's first-person record of the colony" }
+      ]
+    },
+    {
+      "c": 10,
+      "title": "Zeniff Arms His People",
+      "synopsis": "Zeniff sets guards and prepares weapons, and his people prosper for over twenty years. He explains the Lamanites' inherited traditions of hatred toward Nephi's descendants, then leads his people to victory in another battle before conferring the kingdom on his son Noah.",
+      "years": "about 187-160 BC",
+      "yearNum": -178,
+      "approx": false,
+      "place": "shilom",
+      "themes": ["war", "faith"],
+      "characters": ["zeniff"],
+      "segments": [
+        { "s": 1, "e": 22, "speaker": "zeniff", "to": "reader", "note": "Zeniff on Lamanite traditions and the second war" }
+      ]
+    },
+    {
+      "c": 11,
+      "title": "King Noah's Wicked Reign",
+      "synopsis": "Noah replaces his father's priests with flatterers, taxes the people a fifth of all they own, and leads them into pride and immorality. The prophet Abinadi warns that bondage awaits unless they repent, and Noah seeks his life.",
+      "years": "about 160-150 BC",
+      "yearNum": -160,
+      "approx": false,
+      "place": "city-of-nephi",
+      "themes": ["apostasy", "pride-cycle", "prophecy"],
+      "characters": ["king-noah", "abinadi", "zeniff"],
+      "segments": [
+        { "s": 1, "e": 19, "speaker": "mormon", "to": "reader", "note": "Noah's riotous reign and heavy taxes" },
+        { "s": 20, "e": 25, "speaker": "abinadi", "to": "multitude", "note": "Abinadi delivers the Lord's warning of bondage" },
+        { "s": 26, "e": 29, "speaker": "mormon", "to": "reader", "note": "Noah seeks to slay Abinadi" }
+      ]
+    },
+    {
+      "c": 12,
+      "title": "Abinadi Is Brought Before Noah",
+      "synopsis": "After two years Abinadi returns in disguise and prophesies destruction, famine, and bondage. The people bind him and deliver him to King Noah, whose priests try to cross him with scripture; Abinadi rebukes them for teaching what they do not live and recites the commandments.",
+      "years": "about 148 BC",
+      "yearNum": -148,
+      "approx": false,
+      "place": "city-of-nephi",
+      "themes": ["prophecy", "judgment", "repentance"],
+      "characters": ["abinadi", "king-noah"],
+      "segments": [
+        { "s": 1, "e": 8, "speaker": "abinadi", "to": "multitude", "note": "Abinadi prophesies destruction upon this generation" },
+        { "s": 9, "e": 24, "speaker": "mormon", "to": "reader", "note": "Abinadi arraigned; the priests question him" },
+        { "s": 25, "e": 37, "speaker": "abinadi", "to": "king-noah", "note": "Abinadi rebukes the priests and begins the commandments" }
+      ]
+    },
+    {
+      "c": 13,
+      "title": "Abinadi Recites the Commandments",
+      "synopsis": "When Noah orders him seized, Abinadi is protected by divine power and his face shines as he finishes delivering the Ten Commandments. He teaches that salvation does not come by the law of Moses alone, for the law points forward to the redemption of God.",
+      "years": "about 148 BC",
+      "yearNum": -148,
+      "approx": false,
+      "place": "city-of-nephi",
+      "themes": ["obedience", "prophecy", "atonement"],
+      "characters": ["abinadi", "king-noah"],
+      "segments": [
+        { "s": 1, "e": 1, "speaker": "mormon", "to": "reader", "note": "Noah orders Abinadi taken" },
+        { "s": 2, "e": 35, "speaker": "abinadi", "to": "king-noah", "note": "The commandments; the law points to Christ" }
+      ]
+    },
+    {
+      "c": 14,
+      "title": "The Suffering Servant",
+      "synopsis": "Abinadi recites Isaiah's prophecy of the Messiah: a man of sorrows, despised and rejected, wounded for our transgressions. Like a lamb led to slaughter, he bears the iniquities of all and makes his soul an offering for sin.",
+      "years": "about 148 BC",
+      "yearNum": -148,
+      "approx": false,
+      "place": "city-of-nephi",
+      "themes": ["atonement", "prophecy"],
+      "characters": ["abinadi", "isaiah"],
+      "segments": [
+        { "s": 1, "e": 12, "speaker": "isaiah", "to": "king-noah", "note": "Abinadi quotes Isaiah on the suffering Messiah" }
+      ]
+    },
+    {
+      "c": 15,
+      "title": "God Himself Shall Redeem His People",
+      "synopsis": "Abinadi teaches how Christ is both the Father and the Son, subjecting the flesh to the will of the Spirit. He explains who Christ's seed are, declares how beautiful are the feet of those who publish peace, and testifies of resurrection and redemption.",
+      "years": "about 148 BC",
+      "yearNum": -148,
+      "approx": false,
+      "place": "city-of-nephi",
+      "themes": ["atonement", "resurrection", "prophecy"],
+      "characters": ["abinadi"],
+      "segments": [
+        { "s": 1, "e": 31, "speaker": "abinadi", "to": "king-noah", "note": "Christ as Father and Son; the first resurrection" }
+      ]
+    },
+    {
+      "c": 16,
+      "title": "Redemption Through Christ",
+      "synopsis": "Abinadi concludes his defense: all mankind is lost and fallen except they rely on Christ, who breaks the bands of death. The wicked remain as though there were no redemption, while the righteous rise to endless life and happiness.",
+      "years": "about 148 BC",
+      "yearNum": -148,
+      "approx": false,
+      "place": "city-of-nephi",
+      "themes": ["resurrection", "judgment", "atonement"],
+      "characters": ["abinadi"],
+      "segments": [
+        { "s": 1, "e": 15, "speaker": "abinadi", "to": "king-noah", "note": "The fall, redemption, and final judgment" }
+      ]
+    },
+    {
+      "c": 17,
+      "title": "Abinadi Seals His Testimony",
+      "synopsis": "The young priest Alma believes Abinadi, pleads for him, and is cast out; he hides and writes Abinadi's words. Noah condemns Abinadi to death by fire, and the prophet prophesies that Noah will suffer the same fate before sealing his testimony with his life.",
+      "years": "about 148 BC",
+      "yearNum": -148,
+      "approx": false,
+      "place": "city-of-nephi",
+      "themes": ["prophecy", "endurance", "judgment"],
+      "characters": ["abinadi", "alma1", "king-noah"],
+      "segments": [
+        { "s": 1, "e": 8, "speaker": "mormon", "to": "reader", "note": "Alma believes; Noah condemns Abinadi" },
+        { "s": 9, "e": 19, "speaker": "abinadi", "to": "king-noah", "note": "Abinadi's final prophecy against Noah's people" },
+        { "s": 20, "e": 20, "speaker": "mormon", "to": "reader", "note": "Abinadi suffers death by fire" }
+      ]
+    },
+    {
+      "c": 18,
+      "title": "Covenant at the Waters of Mormon",
+      "synopsis": "Alma teaches Abinadi's words privately and gathers believers at the waters of Mormon. He invites them to bear one another's burdens and stand as witnesses of God, baptizes about two hundred souls, and organizes the church of Christ before Noah's army drives them into the wilderness.",
+      "years": "about 147-145 BC",
+      "yearNum": -147,
+      "approx": false,
+      "place": "waters-of-mormon",
+      "themes": ["baptism", "covenant", "conversion"],
+      "characters": ["alma1", "king-noah"],
+      "segments": [
+        { "s": 1, "e": 7, "speaker": "mormon", "to": "reader", "note": "Alma gathers believers at the waters of Mormon" },
+        { "s": 8, "e": 10, "speaker": "alma1", "to": "church", "note": "The baptismal covenant: mourn with those that mourn" },
+        { "s": 11, "e": 35, "speaker": "mormon", "to": "reader", "note": "Baptisms, church order, and escape from Noah" }
+      ]
+    },
+    {
+      "c": 19,
+      "title": "The Death of King Noah",
+      "synopsis": "Gideon rises against King Noah, but a Lamanite invasion interrupts them. Noah orders the men to abandon their families and flee; his own followers later burn him alive, fulfilling Abinadi's words, and his son Limhi rules under tribute to the Lamanites.",
+      "years": "about 145 BC",
+      "yearNum": -145,
+      "approx": false,
+      "place": "city-of-nephi",
+      "themes": ["judgment", "leadership", "prophecy"],
+      "characters": ["gideon1", "king-noah", "limhi"],
+      "segments": [
+        { "s": 1, "e": 29, "speaker": "mormon", "to": "reader", "note": "Noah burned; Limhi reigns under tribute" }
+      ]
+    },
+    {
+      "c": 20,
+      "title": "The Stolen Daughters of the Lamanites",
+      "synopsis": "Noah's fugitive priests abduct twenty-four Lamanite daughters, and the Lamanite king wrongly blames Limhi's people and attacks. Limhi's people fight desperately and capture the wounded king; Gideon discerns the priests' guilt, and the king pacifies his army.",
+      "years": "about 145-123 BC",
+      "yearNum": -140,
+      "approx": false,
+      "place": "shemlon",
+      "themes": ["war", "peace", "justice-and-mercy"],
+      "characters": ["limhi", "gideon1"],
+      "segments": [
+        { "s": 1, "e": 26, "speaker": "mormon", "to": "reader", "note": "The abduction, the battle, and peace restored" }
+      ]
+    },
+    {
+      "c": 21,
+      "title": "Bondage in the Land of Nephi",
+      "synopsis": "The Lamanites smite and burden Limhi's people, who are driven three times in battle before they humble themselves. The Lord softens their bondage as they cry to Him, and when Ammon arrives Limhi rejoices, for a path of deliverance is opening.",
+      "years": "about 122-121 BC",
+      "yearNum": -122,
+      "approx": false,
+      "place": "city-of-nephi",
+      "themes": ["humility", "deliverance", "endurance"],
+      "characters": ["limhi", "ammon1", "gideon1"],
+      "segments": [
+        { "s": 1, "e": 36, "speaker": "mormon", "to": "reader", "note": "Defeats, humbling, and the hope Ammon brings" }
+      ]
+    },
+    {
+      "c": 22,
+      "title": "Limhi's People Escape",
+      "synopsis": "Gideon proposes sending the Lamanite guards a tribute of wine, and while the guards lie drunken the whole people slip out a secret pass by night. They journey to Zarahemla, where Mosiah receives them with joy, while a Lamanite army loses their trail in the wilderness.",
+      "years": "about 121-120 BC",
+      "yearNum": -121,
+      "approx": false,
+      "place": "city-of-nephi",
+      "themes": ["deliverance"],
+      "characters": ["gideon1", "limhi", "ammon1", "mosiah2"],
+      "segments": [
+        { "s": 1, "e": 16, "speaker": "mormon", "to": "reader", "note": "The wine stratagem and flight to Zarahemla" }
+      ]
+    },
+    {
+      "c": 23,
+      "title": "Alma's People in the Land of Helam",
+      "synopsis": "Alma's people build the city of Helam and prosper, and Alma refuses to be a king, teaching that they should trust no man to reign in unrighteousness. A Lamanite army led by Amulon, chief of Noah's old priests, finds them and sets taskmasters over them.",
+      "years": "about 145-121 BC",
+      "yearNum": -145,
+      "approx": false,
+      "place": "helam",
+      "themes": ["leadership", "endurance", "deliverance"],
+      "characters": ["alma1", "amulon"],
+      "segments": [
+        { "s": 1, "e": 39, "speaker": "mormon", "to": "reader", "note": "Helam built; Amulon brings Alma's people into bondage" }
+      ]
+    },
+    {
+      "c": 24,
+      "title": "Delivered Out of Bondage",
+      "synopsis": "Amulon persecutes Alma's people and forbids them to pray aloud, but they pour out their hearts silently. The Lord eases their burdens until they carry them with cheer, then causes a deep sleep to fall on their guards, and the people escape to Zarahemla.",
+      "years": "about 145-120 BC",
+      "yearNum": -125,
+      "approx": false,
+      "place": "helam",
+      "themes": ["deliverance", "prayer", "endurance"],
+      "characters": ["alma1", "amulon"],
+      "segments": [
+        { "s": 1, "e": 12, "speaker": "mormon", "to": "reader", "note": "Amulon's persecution; silent prayers" },
+        { "s": 13, "e": 14, "speaker": "the-lord", "to": "alma1", "note": "The Lord covenants to ease their burdens" },
+        { "s": 15, "e": 25, "speaker": "mormon", "to": "reader", "note": "Burdens made light; escape to Zarahemla" }
+      ]
+    },
+    {
+      "c": 25,
+      "title": "One People in Zarahemla",
+      "synopsis": "Mosiah gathers the people and reads the records of Zeniff and of Alma, filling them with wonder, sorrow, and gratitude. Limhi and his people are baptized, and Alma organizes churches throughout the land with authority from God.",
+      "years": "about 120 BC",
+      "yearNum": -120,
+      "approx": false,
+      "place": "zarahemla",
+      "themes": ["records", "baptism", "deliverance"],
+      "characters": ["mosiah2", "alma1", "limhi"],
+      "segments": [
+        { "s": 1, "e": 24, "speaker": "mormon", "to": "reader", "note": "The records read; churches established across Zarahemla" }
+      ]
+    },
+    {
+      "c": 26,
+      "title": "Whosoever Repents Shall Be Forgiven",
+      "synopsis": "A rising generation refuses to believe, and unbelievers ensnare church members with flattery. Troubled over how to judge transgressors, Alma inquires of the Lord, who declares that He will forgive all who truly repent, while the unrepentant are to be blotted out of the church.",
+      "years": "about 120-100 BC",
+      "yearNum": -110,
+      "approx": false,
+      "place": "zarahemla",
+      "themes": ["repentance", "justice-and-mercy", "revelation"],
+      "characters": ["alma1", "mosiah2"],
+      "segments": [
+        { "s": 1, "e": 14, "speaker": "mormon", "to": "reader", "note": "Unbelief spreads; Alma inquires of the Lord" },
+        { "s": 15, "e": 32, "speaker": "the-lord", "to": "alma1", "note": "The Lord teaches how to judge transgressors" },
+        { "s": 33, "e": 39, "speaker": "mormon", "to": "reader", "note": "Alma regulates the church in righteousness" }
+      ]
+    },
+    {
+      "c": 27,
+      "title": "An Angel Stops Alma the Younger",
+      "synopsis": "Alma the Younger and the sons of Mosiah secretly seek to destroy the church until an angel appears with a voice of thunder, calling Alma to repentance. Struck dumb and helpless, Alma awakens after two days declaring he has been born of the Spirit, and the young men spend their days repairing the harm they caused.",
+      "years": "about 100-92 BC",
+      "yearNum": -100,
+      "approx": false,
+      "place": "zarahemla",
+      "themes": ["conversion", "repentance", "revelation"],
+      "characters": ["alma2", "alma1", "mosiah2", "ammon2", "aaron2", "omner", "himni", "angel"],
+      "segments": [
+        { "s": 1, "e": 12, "speaker": "mormon", "to": "reader", "note": "Persecution forbidden; the rebels confronted" },
+        { "s": 13, "e": 16, "speaker": "angel", "to": "alma2", "note": "The angel commands Alma to stop destroying the church" },
+        { "s": 17, "e": 23, "speaker": "mormon", "to": "reader", "note": "Alma struck dumb; fasting and prayer" },
+        { "s": 24, "e": 31, "speaker": "alma2", "to": "multitude", "note": "Alma testifies he is born of the Spirit" },
+        { "s": 32, "e": 37, "speaker": "mormon", "to": "reader", "note": "The converted young men strengthen the church" }
+      ]
+    },
+    {
+      "c": 28,
+      "title": "The Sons of Mosiah Choose a Mission",
+      "synopsis": "The sons of Mosiah beg leave to preach to the Lamanites, unable to bear that any soul should perish, and the Lord promises Mosiah their safety. Mosiah, with no son to take the throne, translates the twenty-four gold plates and confers all the records on Alma the Younger.",
+      "years": "about 92 BC",
+      "yearNum": -92,
+      "approx": false,
+      "place": "zarahemla",
+      "themes": ["missionary-work", "records", "revelation"],
+      "characters": ["mosiah2", "ammon2", "aaron2", "omner", "himni", "alma2"],
+      "segments": [
+        { "s": 1, "e": 20, "speaker": "mormon", "to": "reader", "note": "The mission granted; the records conferred on Alma" }
+      ]
+    },
+    {
+      "c": 29,
+      "title": "The Reign of the Judges Begins",
+      "synopsis": "Mosiah proposes that judges chosen by the voice of the people replace kings, warning how much wickedness one unrighteous king can cause. The people gladly accept, Alma the Younger becomes the first chief judge, and both Mosiah and Alma the Elder die that same year.",
+      "years": "about 92-91 BC",
+      "yearNum": -91,
+      "approx": false,
+      "place": "zarahemla",
+      "themes": ["liberty", "leadership", "justice-and-mercy"],
+      "characters": ["mosiah2", "alma2", "alma1"],
+      "segments": [
+        { "s": 1, "e": 4, "speaker": "mormon", "to": "reader", "note": "The people ask Aaron to be king" },
+        { "s": 5, "e": 32, "speaker": "mosiah2", "to": "nephites", "note": "Mosiah's written counsel for a reign of judges" },
+        { "s": 33, "e": 47, "speaker": "mormon", "to": "reader", "note": "Judges chosen; Mosiah and Alma the Elder die" }
+      ]
+    }
+  ]
+}

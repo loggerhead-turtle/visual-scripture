@@ -1,0 +1,39 @@
+{
+  "sources": [
+    { "id": "brass-plates", "name": "The Brass Plates", "color": "#b08d3f", "era": "before 600 BC", "desc": "Israel's scriptures kept by Laban in Jerusalem — the five books of Moses, a record of the Jews down to Zedekiah, and prophets like Isaiah, Zenos, Zenock, and Neum. Brought to the promised land by Nephi; quoted throughout the record.", "kind": "source" },
+    { "id": "small-plates", "name": "The Small Plates of Nephi", "color": "#3fa7a0", "era": "600 – c. 130 BC", "desc": "Nephi's second, sacred record — 'the things of my soul' — passed from Jacob down to Amaleki, who delivered it full to King Benjamin. Mormon attached it whole because the Spirit whispered 'for a wise purpose.' It replaced the lost 116 pages.", "kind": "source", "books": ["1-nephi", "2-nephi", "jacob", "enos", "jarom", "omni"] },
+    { "id": "large-plates", "name": "The Large Plates of Nephi", "color": "#c87f3a", "era": "600 BC – AD 385", "desc": "The national chronicle — reigns, wars, and ministries — kept continuously from Nephi to Ammaron, who hid all the records in the hill Shim and charged the ten-year-old Mormon to take them up.", "kind": "source" },
+    { "id": "ether-24", "name": "The 24 Gold Plates of Ether", "color": "#8e6bb8", "era": "c. 2200 – 580 BC", "desc": "The Jaredite record found by Limhi's 43 explorers among the bones of a destroyed nation, translated by King Mosiah with the interpreters.", "kind": "source" },
+    { "id": "plates-of-mormon", "name": "The Plates of Mormon", "color": "#e8b64c", "era": "AD 345 – 421", "desc": "The gold plates delivered to Joseph Smith: Mormon's abridgment of the large plates, the small plates attached whole, Mormon's and Moroni's own words, Moroni's abridgment of Ether, and a sealed portion.", "kind": "output" }
+  ],
+  "flows": [
+    { "from": "brass-plates", "to": "small-plates", "label": "quoted by Nephi & Jacob" },
+    { "from": "small-plates", "to": "plates-of-mormon", "label": "attached whole, unabridged (1 Nephi – Omni)" },
+    { "from": "large-plates", "to": "plates-of-mormon", "label": "abridged by Mormon (Mosiah – 4 Nephi, Mormon 1–7)" },
+    { "from": "ether-24", "to": "plates-of-mormon", "label": "abridged by Moroni (Ether)" }
+  ],
+  "platesKeys": {
+    "small-plates": { "name": "Small Plates of Nephi", "short": "Small Plates", "color": "#3fa7a0", "writer": "First-person: Nephi, Jacob & heirs", "desc": "Unabridged personal ministry record, written by the prophets themselves." },
+    "mormon-abridgment": { "name": "Mormon's Abridgment of the Large Plates", "short": "Mormon's Abridgment", "color": "#e8b64c", "writer": "Mormon, abridging c. AD 345–385", "desc": "Mormon compresses ~500 years of the large plates, weaving in sermons, letters, and his own 'and thus we see' commentary." },
+    "mormon-own": { "name": "Mormon's Own Record", "short": "Mormon's Own Words", "color": "#c87f3a", "writer": "Mormon, first person", "desc": "Mormon speaks directly — his editorial bridge (Words of Mormon) and his eyewitness account of the Nephite fall." },
+    "ether-abridgment": { "name": "Moroni's Abridgment of Ether", "short": "Ether Abridgment", "color": "#8e6bb8", "writer": "Moroni, abridging the 24 plates", "desc": "The Jaredite epic, retold by Moroni with his own sermons on faith and grace woven through." },
+    "moroni-own": { "name": "Moroni's Own Record", "short": "Moroni's Own Words", "color": "#b8524f", "writer": "Moroni, first person, AD 401–421", "desc": "The last Nephite writes alone — ordinances, his father's sermon and letters, and the closing promise." }
+  },
+  "books": [
+    { "slug": "1-nephi", "name": "1 Nephi", "plates": "small-plates", "writer": "nephi1", "span": "600–570 BC" },
+    { "slug": "2-nephi", "name": "2 Nephi", "plates": "small-plates", "writer": "nephi1", "span": "588–545 BC" },
+    { "slug": "jacob", "name": "Jacob", "plates": "small-plates", "writer": "jacob1", "span": "544–421 BC" },
+    { "slug": "enos", "name": "Enos", "plates": "small-plates", "writer": "enos1", "span": "c. 420 BC" },
+    { "slug": "jarom", "name": "Jarom", "plates": "small-plates", "writer": "jarom1", "span": "399–361 BC" },
+    { "slug": "omni", "name": "Omni", "plates": "small-plates", "writer": "amaleki1", "span": "361–130 BC" },
+    { "slug": "words-of-mormon", "name": "Words of Mormon", "plates": "mormon-own", "writer": "mormon", "span": "AD 385" },
+    { "slug": "mosiah", "name": "Mosiah", "plates": "mormon-abridgment", "writer": "mormon", "span": "200–91 BC" },
+    { "slug": "alma", "name": "Alma", "plates": "mormon-abridgment", "writer": "mormon", "span": "91–52 BC" },
+    { "slug": "helaman", "name": "Helaman", "plates": "mormon-abridgment", "writer": "mormon", "span": "52–1 BC" },
+    { "slug": "3-nephi", "name": "3 Nephi", "plates": "mormon-abridgment", "writer": "mormon", "span": "AD 1–35" },
+    { "slug": "4-nephi", "name": "4 Nephi", "plates": "mormon-abridgment", "writer": "mormon", "span": "AD 35–321" },
+    { "slug": "mormon", "name": "Mormon", "plates": "mormon-own", "writer": "mormon", "span": "AD 321–401", "note": "Chapters 8–9 finished by Moroni" },
+    { "slug": "ether", "name": "Ether", "plates": "ether-abridgment", "writer": "moroni", "span": "Jaredite era" },
+    { "slug": "moroni", "name": "Moroni", "plates": "moroni-own", "writer": "moroni", "span": "AD 401–421" }
+  ]
+}

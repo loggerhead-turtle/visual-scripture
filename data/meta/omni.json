@@ -1,0 +1,26 @@
+{
+  "book": "Omni",
+  "slug": "omni",
+  "narrator": "amaleki1",
+  "plates": "small-plates",
+  "chapters": [
+    {
+      "c": 1,
+      "title": "Five Record Keepers and Two Peoples",
+      "synopsis": "Five successive keepers of the small plates each add a few words: Omni fights to preserve his people, Amaron records the destruction of the wicked, Chemish writes a single verse, and Abinadom knows of no new revelation. Amaleki then tells how Mosiah, warned of the Lord, leads the faithful from the land of Nephi and discovers the people of Zarahemla, descendants of Mulek who had dwindled without records, along with Coriantumr, the last of the Jaredites. Mosiah is made king over the united people, and the childless Amaleki delivers the full plates to King Benjamin, inviting all to come unto Christ and offer their whole souls to Him.",
+      "years": "between 361 and 130 BC",
+      "yearNum": -250,
+      "approx": true,
+      "place": "zarahemla",
+      "themes": ["records", "deliverance", "leadership"],
+      "characters": ["omni1", "amaron", "chemish", "abinadom", "amaleki1", "mosiah1", "benjamin", "coriantumr"],
+      "segments": [
+        { "s": 1, "e": 3, "speaker": "omni1", "to": "reader", "note": "Omni, a fighting man, keeps the record" },
+        { "s": 4, "e": 8, "speaker": "amaron", "to": "reader", "note": "Amaron records the wicked destroyed" },
+        { "s": 9, "e": 9, "speaker": "chemish", "to": "reader", "note": "Chemish writes a single verse" },
+        { "s": 10, "e": 11, "speaker": "abinadom", "to": "reader", "note": "Abinadom knows no new revelation" },
+        { "s": 12, "e": 30, "speaker": "amaleki1", "to": "reader", "note": "Mosiah finds Zarahemla; plates go to Benjamin" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,152 @@
+{
+  "book": "Moroni",
+  "slug": "moroni",
+  "narrator": "moroni",
+  "plates": "moroni-own",
+  "chapters": [
+    {
+      "c": 1,
+      "title": "Alive to Write a Little More",
+      "synopsis": "Moroni, who had not expected to survive, writes a few more things that may one day be of worth to the Lamanites. The wars among the Lamanites are exceedingly fierce, and they kill every Nephite who will not deny the Christ. Moroni will not deny him, so he wanders wherever he can for the safety of his life.",
+      "years": "AD 401-421",
+      "yearNum": 401,
+      "approx": true,
+      "place": null,
+      "themes": ["endurance", "records", "faith"],
+      "characters": ["moroni"],
+      "segments": [
+        { "s": 1, "e": 4, "speaker": "moroni", "to": "reader", "note": "Moroni writes for the Lamanites' future good" }
+      ]
+    },
+    {
+      "c": 2,
+      "title": "Power to Give the Holy Ghost",
+      "synopsis": "Moroni records the words Christ spoke when he touched his twelve disciples one by one. They were to call on the Father in mighty prayer and then have power to give the Holy Ghost by the laying on of hands. This the disciples did to all who came unto them.",
+      "years": "AD 401-421",
+      "yearNum": 405,
+      "approx": true,
+      "place": null,
+      "themes": ["priesthood", "prayer"],
+      "characters": ["jesus-christ", "moroni"],
+      "segments": [
+        { "s": 1, "e": 3, "speaker": "moroni", "to": "reader", "note": "Christ's words on conferring the Holy Ghost" }
+      ]
+    },
+    {
+      "c": 3,
+      "title": "Ordaining Priests and Teachers",
+      "synopsis": "Moroni preserves the manner in which the disciples ordained priests and teachers. After praying to the Father in the name of Christ, they laid on hands and ordained by the power of the Holy Ghost. The words of the ordination are given so the pattern will not be lost.",
+      "years": "AD 401-421",
+      "yearNum": 405,
+      "approx": true,
+      "place": null,
+      "themes": ["priesthood", "obedience"],
+      "characters": ["moroni"],
+      "segments": [
+        { "s": 1, "e": 4, "speaker": "moroni", "to": "reader", "note": "The manner of ordination preserved" }
+      ]
+    },
+    {
+      "c": 4,
+      "title": "The Prayer on the Bread",
+      "synopsis": "Moroni gives the exact manner of administering the sacramental bread according to Christ's commandment. The elder or priest kneels with the church and blesses the bread. The prayer asks that all who partake may eat in remembrance of the Son's body and always keep his Spirit.",
+      "years": "AD 401-421",
+      "yearNum": 405,
+      "approx": true,
+      "place": null,
+      "themes": ["sacrament", "covenant", "prayer"],
+      "characters": ["moroni"],
+      "segments": [
+        { "s": 1, "e": 2, "speaker": "moroni", "to": "reader", "note": "The manner of blessing the bread" },
+        { "s": 3, "e": 3, "speaker": "church", "to": "the-lord", "note": "Sacrament prayer on the bread" }
+      ]
+    },
+    {
+      "c": 5,
+      "title": "The Prayer on the Wine",
+      "synopsis": "Moroni records the short companion prayer for the sacramental wine. Those who drink do it in remembrance of the blood of the Son, which was shed for them. In return they witness to the Father that they always remember him, that they may have his Spirit.",
+      "years": "AD 401-421",
+      "yearNum": 405,
+      "approx": true,
+      "place": null,
+      "themes": ["sacrament", "covenant"],
+      "characters": ["moroni"],
+      "segments": [
+        { "s": 1, "e": 1, "speaker": "moroni", "to": "reader", "note": "The manner of blessing the wine" },
+        { "s": 2, "e": 2, "speaker": "church", "to": "the-lord", "note": "Sacrament prayer on the wine" }
+      ]
+    },
+    {
+      "c": 6,
+      "title": "Nourished by the Good Word",
+      "synopsis": "Moroni describes how baptism required a broken heart and fruits of real repentance. Members were numbered and remembered, nourished by the good word of God, and met often to fast, pray, and partake of the sacrament. Meetings were conducted as the Spirit directed, and sincere repentance always brought forgiveness.",
+      "years": "AD 401-421",
+      "yearNum": 405,
+      "approx": true,
+      "place": null,
+      "themes": ["baptism", "repentance", "sacrament"],
+      "characters": ["moroni"],
+      "segments": [
+        { "s": 1, "e": 9, "speaker": "moroni", "to": "reader", "note": "How the church received and nourished members" }
+      ]
+    },
+    {
+      "c": 7,
+      "title": "Faith, Hope, and Charity",
+      "synopsis": "Moroni records his father Mormon's synagogue sermon on the peaceable followers of Christ. Mormon teaches how to judge between good and evil by the light of Christ, that angels have not ceased to minister, and that miracles end only when faith dies. He crowns the sermon with charity, the pure love of Christ, without which we are nothing.",
+      "years": "AD 401-421",
+      "yearNum": 405,
+      "approx": true,
+      "place": null,
+      "themes": ["faith", "hope", "charity"],
+      "characters": ["mormon", "moroni"],
+      "segments": [
+        { "s": 1, "e": 1, "speaker": "moroni", "to": "reader", "note": "Moroni introduces his father's sermon" },
+        { "s": 2, "e": 48, "speaker": "mormon", "to": "church", "note": "Mormon's sermon on faith, hope, charity" }
+      ]
+    },
+    {
+      "c": 8,
+      "title": "Little Children Are Alive in Christ",
+      "synopsis": "In an epistle to Moroni, Mormon condemns the baptism of little children as solemn mockery before God. Little children are whole, alive in Christ through his atonement, and need no repentance; it is parents and the accountable who must repent and be baptized. To suppose otherwise denies the mercies of Christ.",
+      "years": "AD 401-421",
+      "yearNum": 405,
+      "approx": true,
+      "place": null,
+      "themes": ["baptism", "atonement", "justice-and-mercy"],
+      "characters": ["mormon", "moroni"],
+      "segments": [
+        { "s": 1, "e": 1, "speaker": "moroni", "to": "reader", "note": "An epistle from Mormon to Moroni" },
+        { "s": 2, "e": 30, "speaker": "mormon", "to": "moroni", "note": "Little children need no baptism" }
+      ]
+    },
+    {
+      "c": 9,
+      "title": "Labor While the Vessel Holds",
+      "synopsis": "Mormon's second epistle describes a people past feeling, delighting in abomination and atrocity on both sides of the war. Though his heart breaks, he urges Moroni to labor diligently, for they have a labor to perform while in this tabernacle of clay. May Christ lift thee up, he writes, and the hope of his glory rest in your mind forever.",
+      "years": "AD 401-421",
+      "yearNum": 405,
+      "approx": true,
+      "place": null,
+      "themes": ["endurance", "hope", "war"],
+      "characters": ["mormon", "moroni"],
+      "segments": [
+        { "s": 1, "e": 26, "speaker": "mormon", "to": "moroni", "note": "Labor on; may Christ lift thee up" }
+      ]
+    },
+    {
+      "c": 10,
+      "title": "Moroni's Farewell Promise",
+      "synopsis": "Moroni's final words exhort readers to ask God, with real intent, whether these things are true, promising an answer by the power of the Holy Ghost. He reviews the gifts of God and pleads, come unto Christ and be perfected in him. He closes looking to the day he will meet the reader before the pleasing bar of the great Jehovah.",
+      "years": "AD 421",
+      "yearNum": 421,
+      "approx": false,
+      "place": null,
+      "themes": ["faith", "revelation", "endurance", "charity"],
+      "characters": ["moroni"],
+      "segments": [
+        { "s": 1, "e": 34, "speaker": "moroni", "to": "lamanites", "note": "Written to the Lamanites, and all readers" }
+      ]
+    }
+  ]
+}

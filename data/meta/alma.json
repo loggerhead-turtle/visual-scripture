@@ -1,0 +1,930 @@
+{
+  "book": "Alma",
+  "slug": "alma",
+  "narrator": "mormon",
+  "plates": "mormon-abridgment",
+  "chapters": [
+    {
+      "c": 1,
+      "title": "Nehor Introduces Priestcraft",
+      "synopsis": "Nehor preaches for popularity and pay, teaching that all mankind will be saved, and slays the aged Gideon who withstands him. Alma condemns Nehor to death for enforcing priestcraft by the sword, yet priestcraft spreads, while the faithful church prospers by caring for one another.",
+      "years": "about 91-88 BC",
+      "yearNum": -91,
+      "approx": false,
+      "place": "zarahemla",
+      "themes": ["apostasy", "pride-cycle", "justice-and-mercy"],
+      "characters": ["nehor", "gideon1", "alma2"],
+      "segments": [
+        { "s": 1, "e": 33, "speaker": "mormon", "to": "reader", "note": "Nehor's priestcraft, trial, and the church's prosperity" }
+      ]
+    },
+    {
+      "c": 2,
+      "title": "Amlici Seeks to Be King",
+      "synopsis": "Amlici, a man after the order of Nehor, seeks the throne, and when the voice of the people rejects him his followers crown him anyway. Civil war erupts; Alma leads the Nephites, slays Amlici in single combat by the river Sidon, and the Amlicite and Lamanite armies are driven off.",
+      "years": "about 87 BC",
+      "yearNum": -87,
+      "approx": false,
+      "place": "zarahemla",
+      "themes": ["liberty", "war", "leadership"],
+      "characters": ["amlici", "alma2"],
+      "segments": [
+        { "s": 1, "e": 38, "speaker": "mormon", "to": "reader", "note": "The Amlicite rebellion and battle at the Sidon" }
+      ]
+    },
+    {
+      "c": 3,
+      "title": "The Mark of the Amlicites",
+      "synopsis": "The Amlicites mark their foreheads red, unknowingly fulfilling the word of God that the rebellious set a mark upon themselves. After a second Lamanite invasion is repulsed, Mormon teaches that every person receives wages of the master he chooses to obey.",
+      "years": "about 87-86 BC",
+      "yearNum": -87,
+      "approx": false,
+      "place": "river-sidon",
+      "themes": ["apostasy", "judgment", "war"],
+      "characters": ["alma2", "amlici"],
+      "segments": [
+        { "s": 1, "e": 27, "speaker": "mormon", "to": "reader", "note": "The mark, the curse, and wages of obedience" }
+      ]
+    },
+    {
+      "c": 4,
+      "title": "Alma Resigns the Judgment Seat",
+      "synopsis": "Thousands join the church after the wars, but within a few years its members grow proud, costly in apparel, and scornful of the needy. Grieved, Alma gives the judgment seat to Nephihah and keeps the office of high priest, choosing to reclaim his people by pure testimony.",
+      "years": "about 86-83 BC",
+      "yearNum": -84,
+      "approx": false,
+      "place": "zarahemla",
+      "themes": ["pride-cycle", "leadership", "humility"],
+      "characters": ["alma2"],
+      "segments": [
+        { "s": 1, "e": 20, "speaker": "mormon", "to": "reader", "note": "Church pride; Alma chooses the ministry over the judgment seat" }
+      ]
+    },
+    {
+      "c": 5,
+      "title": "A Mighty Change of Heart",
+      "synopsis": "Alma asks the church in Zarahemla more than forty searching questions: have ye been spiritually born of God, and can ye feel so now? He testifies that the Good Shepherd calls all, warns the proud and unrepentant, and invites everyone to repent and enter the fold.",
+      "years": "about 83 BC",
+      "yearNum": -83,
+      "approx": false,
+      "place": "zarahemla",
+      "themes": ["conversion", "repentance", "humility"],
+      "characters": ["alma2"],
+      "segments": [
+        { "s": 1, "e": 2, "speaker": "mormon", "to": "reader", "note": "Alma begins his ministry in Zarahemla" },
+        { "s": 3, "e": 62, "speaker": "alma2", "to": "church", "note": "Have ye received his image in your countenances?" }
+      ]
+    },
+    {
+      "c": 6,
+      "title": "The Church Set in Order",
+      "synopsis": "Alma ordains priests and elders, and repentant souls are baptized while the unrepentant are blotted out of the church. The church is regulated in Zarahemla, worship gathers all people whether they belong to the church or not, and Alma goes on to Gideon.",
+      "years": "about 83 BC",
+      "yearNum": -83,
+      "approx": false,
+      "place": "zarahemla",
+      "themes": ["repentance", "leadership", "baptism"],
+      "characters": ["alma2"],
+      "segments": [
+        { "s": 1, "e": 8, "speaker": "mormon", "to": "reader", "note": "The church regulated; Alma travels to Gideon" }
+      ]
+    },
+    {
+      "c": 7,
+      "title": "He Shall Take Upon Him Our Infirmities",
+      "synopsis": "Finding the people of Gideon faithful, Alma prophesies that the Son of God will be born of Mary and will take upon himself the pains, sicknesses, and infirmities of his people so he can succor them. He urges them to repent, be baptized, and press forward with faith, hope, and charity.",
+      "years": "about 83 BC",
+      "yearNum": -83,
+      "approx": false,
+      "place": "gideon",
+      "themes": ["atonement", "baptism", "hope"],
+      "characters": ["alma2"],
+      "segments": [
+        { "s": 1, "e": 27, "speaker": "alma2", "to": "church", "note": "Christ will succor his people; walk blameless" }
+      ]
+    },
+    {
+      "c": 8,
+      "title": "Alma Returns to Ammonihah",
+      "synopsis": "After baptizing many in Melek, Alma is mocked, spit upon, and cast out of Ammonihah. An angel commands him to return, and Amulek, forewarned by vision, receives him; the two are called to preach together against a city plotting to destroy the liberty of the people.",
+      "years": "about 82 BC",
+      "yearNum": -82,
+      "approx": false,
+      "place": "ammonihah",
+      "themes": ["missionary-work", "obedience", "revelation"],
+      "characters": ["alma2", "amulek", "angel"],
+      "segments": [
+        { "s": 1, "e": 13, "speaker": "mormon", "to": "reader", "note": "Melek receives Alma; Ammonihah casts him out" },
+        { "s": 14, "e": 17, "speaker": "angel", "to": "alma2", "note": "The angel commands Alma to return and preach" },
+        { "s": 18, "e": 32, "speaker": "mormon", "to": "reader", "note": "Amulek receives Alma; both are called to preach" }
+      ]
+    },
+    {
+      "c": 9,
+      "title": "Alma Warns Ammonihah",
+      "synopsis": "Alma calls Ammonihah to repentance, warning that a people once so enlightened will fare worse than the Lamanites if they rebel. He testifies the Son of God is coming soon and that only repentance can turn away the utter destruction decreed against the city.",
+      "years": "about 82 BC",
+      "yearNum": -82,
+      "approx": false,
+      "place": "ammonihah",
+      "themes": ["repentance", "judgment", "prophecy"],
+      "characters": ["alma2", "amulek"],
+      "segments": [
+        { "s": 1, "e": 7, "speaker": "alma2", "to": "reader", "note": "Alma records the people's contentious challenge" },
+        { "s": 8, "e": 30, "speaker": "alma2", "to": "multitude", "note": "Repent or be destroyed; Christ cometh quickly" },
+        { "s": 31, "e": 34, "speaker": "alma2", "to": "reader", "note": "The people seek to seize Alma; Amulek stands" }
+      ]
+    },
+    {
+      "c": 10,
+      "title": "The Testimony of Amulek",
+      "synopsis": "Amulek, a descendant of Nephi, tells how an angel sent him to receive the prophet he once refused to hear. He testifies the city is preserved only by the prayers of its righteous few, and crafty lawyers led by Zeezrom begin trying to trap the two witnesses in their words.",
+      "years": "about 82 BC",
+      "yearNum": -82,
+      "approx": false,
+      "place": "ammonihah",
+      "themes": ["revelation", "justice-and-mercy", "missionary-work"],
+      "characters": ["amulek", "alma2", "zeezrom"],
+      "segments": [
+        { "s": 1, "e": 1, "speaker": "mormon", "to": "reader", "note": "Amulek rises to speak" },
+        { "s": 2, "e": 11, "speaker": "amulek", "to": "multitude", "note": "Amulek's lineage and the angel's visit" },
+        { "s": 12, "e": 16, "speaker": "mormon", "to": "reader", "note": "Lawyers seek to catch him in his words" },
+        { "s": 17, "e": 27, "speaker": "amulek", "to": "multitude", "note": "Amulek exposes the lawyers' wicked designs" },
+        { "s": 28, "e": 32, "speaker": "mormon", "to": "reader", "note": "The people cry against Amulek; Zeezrom introduced" }
+      ]
+    },
+    {
+      "c": 11,
+      "title": "Amulek Confounds Zeezrom",
+      "synopsis": "After Mormon explains the Nephite system of coinage, the lawyer Zeezrom offers Amulek six onties of silver to deny God. Amulek withstands him, teaching that the Lord will not save people in their sins and that every soul will be resurrected and stand before God to be judged.",
+      "years": "about 82 BC",
+      "yearNum": -82,
+      "approx": false,
+      "place": "ammonihah",
+      "themes": ["resurrection", "judgment", "atonement"],
+      "characters": ["amulek", "zeezrom", "alma2"],
+      "segments": [
+        { "s": 1, "e": 20, "speaker": "mormon", "to": "reader", "note": "Judges, lawyers, and the Nephite coinage" },
+        { "s": 21, "e": 46, "speaker": "amulek", "to": "zeezrom", "note": "Amulek answers Zeezrom on redemption and resurrection" }
+      ]
+    },
+    {
+      "c": 12,
+      "title": "The Plan of Redemption Unfolded",
+      "synopsis": "Zeezrom trembles as Alma exposes his lying scheme and teaches that the unrepentant harden their hearts until they know nothing of God's mysteries. Alma unfolds the fall of Adam, the probationary state, and the plan of redemption prepared from the foundation of the world.",
+      "years": "about 82 BC",
+      "yearNum": -82,
+      "approx": false,
+      "place": "ammonihah",
+      "themes": ["atonement", "judgment", "revelation"],
+      "characters": ["alma2", "zeezrom", "amulek"],
+      "segments": [
+        { "s": 1, "e": 8, "speaker": "mormon", "to": "reader", "note": "Zeezrom trembles and begins to inquire" },
+        { "s": 9, "e": 37, "speaker": "alma2", "to": "multitude", "note": "The fall, probation, and plan of redemption" }
+      ]
+    },
+    {
+      "c": 13,
+      "title": "Priests After the Holy Order",
+      "synopsis": "Alma teaches that priests were ordained after the order of the Son from the foundation of the world because of their exceeding faith. He holds up Melchizedek, the king of Salem who established peace, and pleads with the people to humble themselves and enter the Lord's rest.",
+      "years": "about 82 BC",
+      "yearNum": -82,
+      "approx": false,
+      "place": "ammonihah",
+      "themes": ["priesthood", "faith", "humility"],
+      "characters": ["alma2"],
+      "segments": [
+        { "s": 1, "e": 31, "speaker": "alma2", "to": "multitude", "note": "The holy order, Melchizedek, and entering God's rest" }
+      ]
+    },
+    {
+      "c": 14,
+      "title": "The Prison Walls Fall",
+      "synopsis": "The believers of Ammonihah are cast out or burned, and Alma and Amulek are forced to watch, the Spirit constraining them not to intervene. After days of abuse in prison, the two are filled with power, the prison walls collapse on their persecutors, and they walk out unharmed.",
+      "years": "about 82-81 BC",
+      "yearNum": -81,
+      "approx": false,
+      "place": "ammonihah",
+      "themes": ["endurance", "faith", "judgment"],
+      "characters": ["alma2", "amulek", "zeezrom"],
+      "segments": [
+        { "s": 1, "e": 29, "speaker": "mormon", "to": "reader", "note": "Martyrdom of believers; deliverance from prison" }
+      ]
+    },
+    {
+      "c": 15,
+      "title": "Zeezrom Healed and Baptized",
+      "synopsis": "In Sidom, Alma and Amulek find Zeezrom burning with fever under the harrowing memory of his sins. Believing in Christ, Zeezrom leaps to his feet healed and is baptized and begins to preach, while Alma takes the sacrificing Amulek home to Zarahemla to strengthen him.",
+      "years": "about 81 BC",
+      "yearNum": -81,
+      "approx": false,
+      "place": "ammonihah",
+      "themes": ["faith", "repentance", "baptism"],
+      "characters": ["zeezrom", "alma2", "amulek"],
+      "segments": [
+        { "s": 1, "e": 19, "speaker": "mormon", "to": "reader", "note": "Zeezrom's healing; a church established in Sidom" }
+      ]
+    },
+    {
+      "c": 16,
+      "title": "Ammonihah Laid Waste",
+      "synopsis": "A Lamanite army destroys Ammonihah in a single day, fulfilling the prophets' word, and the place is called the Desolation of Nehors. Zoram's Nephite forces recover the captives through Alma's seership, and years of peace follow as Alma and Amulek preach throughout the land.",
+      "years": "about 81-77 BC",
+      "yearNum": -80,
+      "approx": false,
+      "place": "ammonihah",
+      "themes": ["judgment", "prophecy", "peace"],
+      "characters": ["alma2", "amulek"],
+      "segments": [
+        { "s": 1, "e": 21, "speaker": "mormon", "to": "reader", "note": "The Desolation of Nehors; peace and preaching follow" }
+      ]
+    },
+    {
+      "c": 17,
+      "title": "Ammon at the Waters of Sebus",
+      "synopsis": "Alma meets the sons of Mosiah, who have fasted and prayed through fourteen years of mission among the Lamanites. The record turns back to their beginning: Ammon becomes a servant of King Lamoni and defends the royal flocks at Sebus, cutting off the arms of the scatterers.",
+      "years": "about 90 BC",
+      "yearNum": -90,
+      "approx": false,
+      "place": "land-of-ishmael",
+      "themes": ["missionary-work", "faith"],
+      "characters": ["ammon2", "aaron2", "omner", "himni", "lamoni", "alma2"],
+      "segments": [
+        { "s": 1, "e": 39, "speaker": "mormon", "to": "reader", "note": "The mission begins; Ammon defends Lamoni's flocks" }
+      ]
+    },
+    {
+      "c": 18,
+      "title": "King Lamoni Believes",
+      "synopsis": "Astonished at Ammon's power and faithfulness, Lamoni supposes him to be the Great Spirit. Ammon teaches him of God, the creation, and the redemption through Christ; Lamoni believes, cries for mercy, and falls to the earth as if dead.",
+      "years": "about 90 BC",
+      "yearNum": -90,
+      "approx": false,
+      "place": "land-of-ishmael",
+      "themes": ["conversion", "missionary-work", "faith"],
+      "characters": ["ammon2", "lamoni"],
+      "segments": [
+        { "s": 1, "e": 23, "speaker": "mormon", "to": "reader", "note": "Lamoni marvels; Ammon wins his trust" },
+        { "s": 24, "e": 39, "speaker": "ammon2", "to": "lamoni", "note": "Ammon teaches from the creation to redemption" },
+        { "s": 40, "e": 43, "speaker": "mormon", "to": "reader", "note": "Lamoni believes and falls as if dead" }
+      ]
+    },
+    {
+      "c": 19,
+      "title": "Lamoni's Household Converted",
+      "synopsis": "Lamoni awakens testifying of the Redeemer, and he, the queen, Ammon, and the servants are all overcome by the Spirit. The servant woman Abish gathers the people, raises the queen by the hand, and despite contention many believe and a church is established among the Lamanites.",
+      "years": "about 90 BC",
+      "yearNum": -90,
+      "approx": false,
+      "place": "land-of-ishmael",
+      "themes": ["conversion", "revelation", "faith"],
+      "characters": ["lamoni", "ammon2", "abish"],
+      "segments": [
+        { "s": 1, "e": 36, "speaker": "mormon", "to": "reader", "note": "The royal household overcome; Abish gathers witnesses" }
+      ]
+    },
+    {
+      "c": 20,
+      "title": "Ammon Meets Lamoni's Father",
+      "synopsis": "The Lord sends Ammon toward Middoni to free his imprisoned brethren, and on the way he and Lamoni meet Lamoni's father, king over all the land. The old king commands Lamoni to slay Ammon and attacks him, but Ammon spares his life and wins his promise to free the prisoners.",
+      "years": "about 90 BC",
+      "yearNum": -90,
+      "approx": false,
+      "place": "middoni",
+      "themes": ["missionary-work", "deliverance", "charity"],
+      "characters": ["ammon2", "lamoni", "lamoni-father", "aaron2"],
+      "segments": [
+        { "s": 1, "e": 30, "speaker": "mormon", "to": "reader", "note": "The confrontation on the road; the brethren freed" }
+      ]
+    },
+    {
+      "c": 21,
+      "title": "Aaron Preaches and Suffers Prison",
+      "synopsis": "Aaron and his brethren preach among the Amalekites and in the land of Jerusalem, where hardened hearts reject them, and in Middoni they are imprisoned and abused. After Ammon and Lamoni obtain their release, they preach again with success while Ammon teaches freely in Lamoni's land.",
+      "years": "about 90-77 BC",
+      "yearNum": -85,
+      "approx": false,
+      "place": "middoni",
+      "themes": ["missionary-work", "endurance"],
+      "characters": ["aaron2", "ammon2", "lamoni"],
+      "segments": [
+        { "s": 1, "e": 23, "speaker": "mormon", "to": "reader", "note": "Rejection, imprisonment, deliverance, and renewed preaching" }
+      ]
+    },
+    {
+      "c": 22,
+      "title": "The King Gives Away His Sins",
+      "synopsis": "Aaron teaches Lamoni's father from the creation and the fall to the plan of redemption. The great king offers to forsake his kingdom and prays that he would give away all his sins to know God; he is overcome, awakens converted, and his whole household believes.",
+      "years": "about 90-77 BC",
+      "yearNum": -85,
+      "approx": false,
+      "place": "city-of-nephi",
+      "themes": ["conversion", "prayer", "humility"],
+      "characters": ["aaron2", "lamoni-father"],
+      "segments": [
+        { "s": 1, "e": 4, "speaker": "mormon", "to": "reader", "note": "Aaron is led to the king over all the land" },
+        { "s": 5, "e": 16, "speaker": "aaron2", "to": "lamoni-father", "note": "Aaron teaches the fall and the plan of redemption" },
+        { "s": 17, "e": 18, "speaker": "lamoni-father", "to": "the-lord", "note": "I will give away all my sins to know thee" },
+        { "s": 19, "e": 35, "speaker": "mormon", "to": "reader", "note": "The king's household converted; the lands described" }
+      ]
+    },
+    {
+      "c": 23,
+      "title": "The Anti-Nephi-Lehies",
+      "synopsis": "The king proclaims religious liberty throughout the land, and thousands of Lamanites in seven lands are converted and never fall away. The believers take upon themselves the name Anti-Nephi-Lehies to be distinguished from their unconverted brethren.",
+      "years": "about 90-77 BC",
+      "yearNum": -84,
+      "approx": false,
+      "place": "city-of-nephi",
+      "themes": ["conversion", "liberty", "peace"],
+      "characters": ["aaron2", "ammon2", "lamoni", "anti-nephi-lehi"],
+      "segments": [
+        { "s": 1, "e": 18, "speaker": "mormon", "to": "reader", "note": "Free preaching; thousands converted take a new name" }
+      ]
+    },
+    {
+      "c": 24,
+      "title": "Swords Buried Deep in the Earth",
+      "synopsis": "As unconverted Lamanites prepare for war, the king of the Anti-Nephi-Lehies persuades his people to covenant never again to shed blood. They bury their swords deep in the earth, and when the attack comes over a thousand die praising God, while more than that number of attackers are converted.",
+      "years": "about 90-77 BC",
+      "yearNum": -80,
+      "approx": false,
+      "place": "land-of-ishmael",
+      "themes": ["covenant", "peace", "conversion"],
+      "characters": ["anti-nephi-lehi", "ammon2"],
+      "segments": [
+        { "s": 1, "e": 5, "speaker": "mormon", "to": "reader", "note": "The Amalekites stir up war against the converts" },
+        { "s": 6, "e": 16, "speaker": "anti-nephi-lehi", "to": "people-of-ammon", "note": "The king's covenant speech: bury our weapons" },
+        { "s": 17, "e": 30, "speaker": "mormon", "to": "reader", "note": "The martyrdom; more converted than were slain" }
+      ]
+    },
+    {
+      "c": 25,
+      "title": "Abinadi's Words Fulfilled",
+      "synopsis": "The frustrated Lamanites destroy Ammonihah and later hunt down the seed of Noah's priests, fulfilling Abinadi's prophecies. Many more Lamanites are converted, bury their weapons, and keep the law of Moses while looking forward to Christ.",
+      "years": "about 90-77 BC",
+      "yearNum": -80,
+      "approx": false,
+      "place": "land-of-ishmael",
+      "themes": ["prophecy", "conversion", "peace"],
+      "characters": ["ammon2", "aaron2"],
+      "segments": [
+        { "s": 1, "e": 17, "speaker": "mormon", "to": "reader", "note": "Prophecy fulfilled; converts multiply and keep the law" }
+      ]
+    },
+    {
+      "c": 26,
+      "title": "Ammon Glories in the Lord",
+      "synopsis": "Ammon rejoices with his brethren over the thousands of Lamanites brought into God's fold. When Aaron thinks his joy carries him into boasting, Ammon answers that he boasts in God, whose power, mercy, and long-suffering wrought the whole harvest.",
+      "years": "about 90-77 BC",
+      "yearNum": -77,
+      "approx": false,
+      "place": "land-of-ishmael",
+      "themes": ["missionary-work", "humility", "hope"],
+      "characters": ["ammon2", "aaron2"],
+      "segments": [
+        { "s": 1, "e": 9, "speaker": "ammon2", "to": "aaron2", "note": "How great reason have we to rejoice" },
+        { "s": 10, "e": 10, "speaker": "aaron2", "to": "ammon2", "note": "Aaron fears Ammon's joy becomes boasting" },
+        { "s": 11, "e": 37, "speaker": "ammon2", "to": "aaron2", "note": "I will boast of my God, not of myself" }
+      ]
+    },
+    {
+      "c": 27,
+      "title": "Refuge in the Land of Jershon",
+      "synopsis": "When further slaughter threatens the unresisting converts, the Lord commands Ammon to lead them out of the land. The Nephites give them Jershon for an inheritance and pledge armies to protect them, and they become known as the people of Ammon, distinguished for their perfect honesty.",
+      "years": "about 90-77 BC",
+      "yearNum": -77,
+      "approx": false,
+      "place": "jershon",
+      "themes": ["deliverance", "charity", "peace"],
+      "characters": ["ammon2", "alma2", "anti-nephi-lehi"],
+      "segments": [
+        { "s": 1, "e": 30, "speaker": "mormon", "to": "reader", "note": "The exodus to Jershon; the people of Ammon" }
+      ]
+    },
+    {
+      "c": 28,
+      "title": "Mourning Swallowed Up in Hope",
+      "synopsis": "A tremendous battle, the greatest since Lehi left Jerusalem, drives the Lamanites back but leaves tens of thousands dead. Amid a season of fasting and mourning, Mormon contrasts the fear of the wicked with the joyful hope of those who die in the Lord.",
+      "years": "about 77-76 BC",
+      "yearNum": -76,
+      "approx": false,
+      "place": "zarahemla",
+      "themes": ["war", "hope", "resurrection"],
+      "characters": [],
+      "segments": [
+        { "s": 1, "e": 14, "speaker": "mormon", "to": "reader", "note": "The great battle; sorrow, fasting, and hope" }
+      ]
+    },
+    {
+      "c": 29,
+      "title": "O That I Were an Angel",
+      "synopsis": "Alma yearns to cry repentance to every people with the trump of God, then checks himself, content that the Lord grants unto all nations to teach his word. He glories not in himself but in the joy of souls brought to God, remembering the deliverance of his fathers.",
+      "years": "about 76 BC",
+      "yearNum": -76,
+      "approx": false,
+      "place": null,
+      "themes": ["missionary-work", "humility", "hope"],
+      "characters": ["alma2"],
+      "segments": [
+        { "s": 1, "e": 17, "speaker": "alma2", "to": "reader", "note": "Alma's psalm of missionary longing and joy" }
+      ]
+    },
+    {
+      "c": 30,
+      "title": "Korihor the Anti-Christ",
+      "synopsis": "Korihor preaches that there is no God, no Christ, and no sin, leading many into wickedness. Brought before Alma, he demands a sign and is struck dumb by the power of God; he confesses he was deceived by the devil and dies trodden down among the Zoramites.",
+      "years": "about 74 BC",
+      "yearNum": -74,
+      "approx": false,
+      "place": "zarahemla",
+      "themes": ["apostasy", "faith", "judgment"],
+      "characters": ["korihor", "alma2"],
+      "segments": [
+        { "s": 1, "e": 11, "speaker": "mormon", "to": "reader", "note": "Peace under the law; Korihor appears" },
+        { "s": 12, "e": 18, "speaker": "korihor", "to": "nephites", "note": "Korihor's doctrine: no Christ, no sin" },
+        { "s": 19, "e": 29, "speaker": "mormon", "to": "reader", "note": "Korihor expelled from Jershon and Gideon" },
+        { "s": 30, "e": 55, "speaker": "alma2", "to": "korihor", "note": "Alma confounds Korihor, who is struck dumb" },
+        { "s": 56, "e": 60, "speaker": "mormon", "to": "reader", "note": "Korihor's confession and miserable end" }
+      ]
+    },
+    {
+      "c": 31,
+      "title": "Mission to the Zoramites",
+      "synopsis": "Alma leads a mission to the apostate Zoramites, who pray one set prayer weekly from a high stand called the Rameumptom and deny Christ. Grieved at their pride and costly apparel, Alma pleads with the Lord for strength and comfort, and the missionaries separate to preach.",
+      "years": "about 74 BC",
+      "yearNum": -74,
+      "approx": false,
+      "place": "antionum",
+      "themes": ["apostasy", "prayer", "missionary-work"],
+      "characters": ["alma2", "ammon2", "aaron2", "amulek", "zeezrom", "shiblon", "corianton"],
+      "segments": [
+        { "s": 1, "e": 14, "speaker": "mormon", "to": "reader", "note": "The mission arrives; the Rameumptom discovered" },
+        { "s": 15, "e": 18, "speaker": "zoramites", "to": "the-lord", "note": "The Zoramites' fixed prayer of election" },
+        { "s": 19, "e": 25, "speaker": "mormon", "to": "reader", "note": "Alma grieves over their pride and gold" },
+        { "s": 26, "e": 35, "speaker": "alma2", "to": "the-lord", "note": "Alma's prayer for strength and for souls" },
+        { "s": 36, "e": 38, "speaker": "mormon", "to": "reader", "note": "The missionaries filled with the Spirit" }
+      ]
+    },
+    {
+      "c": 32,
+      "title": "An Experiment upon the Word",
+      "synopsis": "The poor among the Zoramites, cast out of their synagogues, are prepared in humility to hear the word. Alma teaches that faith is not a perfect knowledge but a seed to be planted and nourished; as it swells and enlightens the soul, it grows into a tree bearing the fruit of eternal life.",
+      "years": "about 74 BC",
+      "yearNum": -74,
+      "approx": false,
+      "place": "antionum",
+      "themes": ["faith", "humility"],
+      "characters": ["alma2", "amulek"],
+      "segments": [
+        { "s": 1, "e": 7, "speaker": "mormon", "to": "reader", "note": "The poor in heart come to Alma" },
+        { "s": 8, "e": 43, "speaker": "alma2", "to": "zoramites", "note": "Faith as a seed; nourish the word" }
+      ]
+    },
+    {
+      "c": 33,
+      "title": "Plant the Word in Your Hearts",
+      "synopsis": "Answering how to begin their experiment of faith, Alma quotes Zenos on worship that can be offered anywhere, in fields, houses, and wilderness, and Zenock and Moses on the mercies granted because of the Son. He urges the Zoramites to plant this word of Christ in their hearts.",
+      "years": "about 74 BC",
+      "yearNum": -74,
+      "approx": false,
+      "place": "antionum",
+      "themes": ["prayer", "faith", "atonement"],
+      "characters": ["alma2", "zenos", "zenock"],
+      "segments": [
+        { "s": 1, "e": 3, "speaker": "alma2", "to": "zoramites", "note": "Ye can worship God outside your synagogues" },
+        { "s": 4, "e": 11, "speaker": "zenos", "to": "the-lord", "note": "Zenos's prayer: thou art merciful because of thy Son" },
+        { "s": 12, "e": 23, "speaker": "alma2", "to": "zoramites", "note": "Zenock, the brazen serpent, and planting the word" }
+      ]
+    },
+    {
+      "c": 34,
+      "title": "The Great and Last Sacrifice",
+      "synopsis": "Amulek testifies that the atonement of Christ, an infinite and eternal sacrifice, is the great and last sacrifice toward which all the law points. He teaches the people to pray always, care for the needy, and not procrastinate the day of repentance, for this life is the time to prepare to meet God.",
+      "years": "about 74 BC",
+      "yearNum": -74,
+      "approx": false,
+      "place": "antionum",
+      "themes": ["atonement", "prayer", "repentance"],
+      "characters": ["amulek", "alma2"],
+      "segments": [
+        { "s": 1, "e": 1, "speaker": "mormon", "to": "reader", "note": "Amulek rises as the second witness" },
+        { "s": 2, "e": 41, "speaker": "amulek", "to": "zoramites", "note": "The infinite atonement; do not procrastinate repentance" }
+      ]
+    },
+    {
+      "c": 35,
+      "title": "Converts Gather to Jershon",
+      "synopsis": "The ruling Zoramites cast out all who believe the word, and the people of Ammon receive the outcasts in Jershon. The angry Zoramites join the Lamanites and prepare for war, while Alma, grieved at the people's growing iniquity, gathers his sons to give each his charge.",
+      "years": "about 74 BC",
+      "yearNum": -74,
+      "approx": false,
+      "place": "jershon",
+      "themes": ["conversion", "charity", "war"],
+      "characters": ["alma2", "amulek"],
+      "segments": [
+        { "s": 1, "e": 16, "speaker": "mormon", "to": "reader", "note": "Believers expelled to Jershon; war clouds gather" }
+      ]
+    },
+    {
+      "c": 36,
+      "title": "Alma Recounts His Conversion",
+      "synopsis": "Alma tells Helaman how three days of harrowing torment for his sins turned to exquisite joy when he remembered his father's words and cried to Jesus Christ for mercy. He testifies that God has delivered the faithful in all generations and will lift up all who trust in Him.",
+      "years": "about 74 BC",
+      "yearNum": -74,
+      "approx": false,
+      "place": "zarahemla",
+      "themes": ["conversion", "repentance", "atonement"],
+      "characters": ["alma2", "helaman1"],
+      "segments": [
+        { "s": 1, "e": 30, "speaker": "alma2", "to": "helaman1", "note": "Born of God: Alma's conversion retold" }
+      ]
+    },
+    {
+      "c": 37,
+      "title": "Small and Simple Things",
+      "synopsis": "Alma entrusts Helaman with the sacred records, teaching that by small and simple things great things are brought to pass. He commands that the twenty-four Jaredite plates' secret oaths be withheld, and likens the Liahona to the word of Christ: look to God and live.",
+      "years": "about 74 BC",
+      "yearNum": -74,
+      "approx": false,
+      "place": "zarahemla",
+      "themes": ["records", "obedience", "faith"],
+      "characters": ["alma2", "helaman1"],
+      "segments": [
+        { "s": 1, "e": 47, "speaker": "alma2", "to": "helaman1", "note": "The records, the interpreters, and the Liahona" }
+      ]
+    },
+    {
+      "c": 38,
+      "title": "Alma's Counsel to Shiblon",
+      "synopsis": "Alma rejoices in Shiblon's steadiness, faithfulness, and patience under persecution among the Zoramites. He briefly retells his own deliverance and counsels his son to teach diligently, be diligent and temperate, bridle all his passions, and refrain from pride and boasting.",
+      "years": "about 74 BC",
+      "yearNum": -74,
+      "approx": false,
+      "place": "zarahemla",
+      "themes": ["humility", "endurance", "faith"],
+      "characters": ["alma2", "shiblon"],
+      "segments": [
+        { "s": 1, "e": 15, "speaker": "alma2", "to": "shiblon", "note": "Continue steadfast; bridle all your passions" }
+      ]
+    },
+    {
+      "c": 39,
+      "title": "Alma Rebukes Corianton",
+      "synopsis": "Alma grieves that Corianton forsook the ministry to go after the harlot Isabel, teaching that sexual sin is an abomination exceeded only by murder and denying the Holy Ghost. He commands his son to repent, forsake his sins, and return to preach, for Christ surely comes to take away the sins of the world.",
+      "years": "about 74 BC",
+      "yearNum": -74,
+      "approx": false,
+      "place": "zarahemla",
+      "themes": ["repentance", "family"],
+      "characters": ["alma2", "corianton"],
+      "segments": [
+        { "s": 1, "e": 19, "speaker": "alma2", "to": "corianton", "note": "The seriousness of sin; repent and return" }
+      ]
+    },
+    {
+      "c": 40,
+      "title": "The Resurrection of the Dead",
+      "synopsis": "Alma answers Corianton's worry about the resurrection, teaching that between death and rising the righteous rest in paradise while the wicked wait in darkness. All will rise, every limb and joint restored to its perfect frame, to stand before God and be judged.",
+      "years": "about 74 BC",
+      "yearNum": -74,
+      "approx": false,
+      "place": "zarahemla",
+      "themes": ["resurrection", "hope", "judgment"],
+      "characters": ["alma2", "corianton"],
+      "segments": [
+        { "s": 1, "e": 26, "speaker": "alma2", "to": "corianton", "note": "The spirit world and the restoration of the body" }
+      ]
+    },
+    {
+      "c": 41,
+      "title": "The Plan of Restoration",
+      "synopsis": "Alma teaches that restoration means all things return to their proper order: good for good, evil for evil. No one is restored from sin to happiness, for wickedness never was happiness; what we send out returns to us again.",
+      "years": "about 74 BC",
+      "yearNum": -74,
+      "approx": false,
+      "place": "zarahemla",
+      "themes": ["judgment", "repentance"],
+      "characters": ["alma2", "corianton"],
+      "segments": [
+        { "s": 1, "e": 15, "speaker": "alma2", "to": "corianton", "note": "Wickedness never was happiness" }
+      ]
+    },
+    {
+      "c": 42,
+      "title": "Mercy Claimeth the Penitent",
+      "synopsis": "Alma resolves Corianton's last complaint, that punishment of the sinner seems unjust, by unfolding how justice and mercy meet in the atonement. God gives men a probationary space to repent; mercy claims the penitent through Christ, while justice claims all others, and God ceases not to be God.",
+      "years": "about 74 BC",
+      "yearNum": -74,
+      "approx": false,
+      "place": "zarahemla",
+      "themes": ["justice-and-mercy", "atonement", "repentance"],
+      "characters": ["alma2", "corianton"],
+      "segments": [
+        { "s": 1, "e": 31, "speaker": "alma2", "to": "corianton", "note": "Justice, mercy, and the demands of the atonement" }
+      ]
+    },
+    {
+      "c": 43,
+      "title": "Moroni Outmaneuvers Zerahemnah",
+      "synopsis": "Zoramite defector Zerahemnah leads a Lamanite army against the Nephites, who fight only to defend their families, lands, and liberty. Young Captain Moroni armors his men, learns the enemy's course from Alma's seership, and traps the Lamanite host at the river Sidon near Manti.",
+      "years": "about 74 BC",
+      "yearNum": -74,
+      "approx": false,
+      "place": "manti",
+      "themes": ["war", "liberty", "faith"],
+      "characters": ["captain-moroni", "zerahemnah", "lehi2", "alma2"],
+      "segments": [
+        { "s": 1, "e": 54, "speaker": "mormon", "to": "reader", "note": "Armored Nephites trap Zerahemnah at the Sidon" }
+      ]
+    },
+    {
+      "c": 44,
+      "title": "A Covenant of Peace",
+      "synopsis": "Moroni halts the slaughter and offers the surrounded Lamanites their lives if they will covenant never to war against the Nephites again. Zerahemnah refuses and renews the fight until he is scalped and his army decimated; the survivors covenant peace and depart.",
+      "years": "about 74-73 BC",
+      "yearNum": -73,
+      "approx": false,
+      "place": "manti",
+      "themes": ["war", "covenant", "liberty"],
+      "characters": ["captain-moroni", "zerahemnah"],
+      "segments": [
+        { "s": 1, "e": 7, "speaker": "captain-moroni", "to": "zerahemnah", "note": "Moroni demands a covenant of peace" },
+        { "s": 8, "e": 9, "speaker": "zerahemnah", "to": "captain-moroni", "note": "Zerahemnah surrenders weapons but refuses the oath" },
+        { "s": 10, "e": 24, "speaker": "mormon", "to": "reader", "note": "Battle renewed; the covenant finally made" }
+      ]
+    },
+    {
+      "c": 45,
+      "title": "Alma Blesses and Departs",
+      "synopsis": "Alma questions Helaman's faith, entrusts him with the records, and prophesies the eventual destruction of the Nephites four hundred years after Christ's coming. He blesses his sons and the land, then departs toward Melek and is never heard of again.",
+      "years": "about 73 BC",
+      "yearNum": -73,
+      "approx": false,
+      "place": "zarahemla",
+      "themes": ["prophecy", "faith", "records"],
+      "characters": ["alma2", "helaman1"],
+      "segments": [
+        { "s": 1, "e": 1, "speaker": "mormon", "to": "reader", "note": "The people rejoice and fast" },
+        { "s": 2, "e": 14, "speaker": "alma2", "to": "helaman1", "note": "Alma's charge and prophecy of Nephite destruction" },
+        { "s": 15, "e": 24, "speaker": "mormon", "to": "reader", "note": "Alma departs; Helaman renews the church" }
+      ]
+    },
+    {
+      "c": 46,
+      "title": "The Title of Liberty",
+      "synopsis": "Amalickiah, seeking to be king, draws away lower judges and dissenters. Moroni rends his coat and writes on it 'In memory of our God, our religion, and freedom,' and the people rally in covenant, forcing Amalickiah to flee to the Lamanites while his followers submit or are punished.",
+      "years": "about 73-72 BC",
+      "yearNum": -72,
+      "approx": false,
+      "place": "zarahemla",
+      "themes": ["liberty", "covenant", "war"],
+      "characters": ["captain-moroni", "amalickiah", "helaman1"],
+      "segments": [
+        { "s": 1, "e": 41, "speaker": "mormon", "to": "reader", "note": "Amalickiah's dissent; the covenant of freedom" }
+      ]
+    },
+    {
+      "c": 47,
+      "title": "Amalickiah Rises by Fraud",
+      "synopsis": "Among the Lamanites, Amalickiah gains an army by treachery, has his rival Lehonti poisoned by degrees, and murders the Lamanite king while feigning loyalty. He marries the queen and by fraud and murder makes himself king over all the Lamanites.",
+      "years": "about 72 BC",
+      "yearNum": -72,
+      "approx": false,
+      "place": "city-of-nephi",
+      "themes": ["secret-combinations", "apostasy", "leadership"],
+      "characters": ["amalickiah"],
+      "segments": [
+        { "s": 1, "e": 36, "speaker": "mormon", "to": "reader", "note": "Poison, murder, and a stolen throne" }
+      ]
+    },
+    {
+      "c": 48,
+      "title": "The Character of Captain Moroni",
+      "synopsis": "Amalickiah inflames the Lamanites against the Nephites while Moroni fortifies cities and prepares the minds of his people to be faithful. Mormon praises Moroni as a man of perfect understanding who did not delight in bloodshed; if all men were like him, the powers of hell would be shaken forever.",
+      "years": "about 72 BC",
+      "yearNum": -72,
+      "approx": false,
+      "place": "zarahemla",
+      "themes": ["leadership", "faith", "war"],
+      "characters": ["captain-moroni", "amalickiah", "helaman1"],
+      "segments": [
+        { "s": 1, "e": 25, "speaker": "mormon", "to": "reader", "note": "Preparations for war; Mormon's tribute to Moroni" }
+      ]
+    },
+    {
+      "c": 49,
+      "title": "Attack on Ammonihah Repulsed",
+      "synopsis": "The Lamanite armies find rebuilt Ammonihah and Noah fortified beyond anything they have known, with ditches, timbers, and towers. Their assaults fail with terrible losses while not a single Nephite is slain, and Amalickiah curses God and swears to drink Moroni's blood.",
+      "years": "about 72 BC",
+      "yearNum": -72,
+      "approx": false,
+      "place": "ammonihah",
+      "themes": ["war", "deliverance"],
+      "characters": ["amalickiah", "captain-moroni", "lehi2"],
+      "segments": [
+        { "s": 1, "e": 30, "speaker": "mormon", "to": "reader", "note": "Fortifications hold; Amalickiah swears revenge" }
+      ]
+    },
+    {
+      "c": 50,
+      "title": "A Line of Fortified Cities",
+      "synopsis": "Moroni fortifies the whole land, digging ridges of earth and building walls, and new cities including Moroni rise along the borders. Morianton's rebellious flight northward is stopped by Teancum, and when chief judge Nephihah dies his son Pahoran fills the judgment seat.",
+      "years": "about 72-67 BC",
+      "yearNum": -70,
+      "approx": false,
+      "place": "moroni-city",
+      "themes": ["war", "peace", "leadership"],
+      "characters": ["captain-moroni", "teancum", "pahoran"],
+      "segments": [
+        { "s": 1, "e": 40, "speaker": "mormon", "to": "reader", "note": "Fortification, prosperity, Morianton, and Pahoran" }
+      ]
+    },
+    {
+      "c": 51,
+      "title": "Teancum Slays Amalickiah",
+      "synopsis": "King-men who want to overthrow the free government refuse to defend their country until Moroni compels them. Amalickiah sweeps up the eastern coastal cities, but Teancum halts his advance and by night slips into his camp and puts a javelin through his heart.",
+      "years": "about 67-66 BC",
+      "yearNum": -67,
+      "approx": false,
+      "place": "bountiful",
+      "themes": ["liberty", "war"],
+      "characters": ["amalickiah", "teancum", "captain-moroni", "pahoran"],
+      "segments": [
+        { "s": 1, "e": 37, "speaker": "mormon", "to": "reader", "note": "King-men subdued; Amalickiah slain in his tent" }
+      ]
+    },
+    {
+      "c": 52,
+      "title": "The City of Mulek Retaken",
+      "synopsis": "Ammoron succeeds his brother Amalickiah and holds the captured cities. Moroni, Teancum, and Lehi decoy the Lamanite army out of Mulek, take the city behind them, and crush the exhausted host between two forces, taking more prisoners than they have slain.",
+      "years": "about 66-64 BC",
+      "yearNum": -65,
+      "approx": false,
+      "place": "mulek-city",
+      "themes": ["war", "leadership"],
+      "characters": ["ammoron", "teancum", "captain-moroni", "lehi2"],
+      "segments": [
+        { "s": 1, "e": 40, "speaker": "mormon", "to": "reader", "note": "The decoy at Mulek and the great capture" }
+      ]
+    },
+    {
+      "c": 53,
+      "title": "Two Thousand Stripling Soldiers",
+      "synopsis": "Lamanite prisoners fortify Bountiful while dissension among the Nephites loses ground in the west. The covenant people of Ammon nearly break their oath to help, but instead their two thousand young sons, who never covenanted, take arms under Helaman, true at all times to whatever they are entrusted.",
+      "years": "about 66-64 BC",
+      "yearNum": -64,
+      "approx": false,
+      "place": "jershon",
+      "themes": ["covenant", "faith", "war"],
+      "characters": ["helaman1", "ammoron"],
+      "segments": [
+        { "s": 1, "e": 23, "speaker": "mormon", "to": "reader", "note": "Prisoners fortify Bountiful; Helaman's young army forms" }
+      ]
+    },
+    {
+      "c": 54,
+      "title": "Moroni and Ammoron Exchange Epistles",
+      "synopsis": "Ammoron proposes an exchange of prisoners, and Moroni answers with a scathing letter demanding a Nephite man, woman, and child for each prisoner and warning of the justice of God. Ammoron replies with defiance, claiming the war avenges his brother and the government stolen from the Lamanites.",
+      "years": "about 63 BC",
+      "yearNum": -63,
+      "approx": false,
+      "place": "bountiful",
+      "themes": ["war", "liberty", "justice-and-mercy"],
+      "characters": ["captain-moroni", "ammoron"],
+      "segments": [
+        { "s": 1, "e": 3, "speaker": "mormon", "to": "reader", "note": "Ammoron requests a prisoner exchange" },
+        { "s": 4, "e": 14, "speaker": "captain-moroni", "to": "ammoron", "note": "Moroni's fierce terms and warning of God's justice" },
+        { "s": 15, "e": 15, "speaker": "mormon", "to": "reader", "note": "Ammoron is angered by the epistle" },
+        { "s": 16, "e": 24, "speaker": "ammoron", "to": "captain-moroni", "note": "Ammoron's defiant justification of the war" }
+      ]
+    },
+    {
+      "c": 55,
+      "title": "Prisoners Freed Without Bloodshed",
+      "synopsis": "Refusing Ammoron's terms, Moroni sends a Lamanite soldier with wine to the guards of the city Gid, who drink themselves into a deep sleep. The Nephites arm their imprisoned people, take the city without shedding blood, and put the Lamanite prisoners to labor on its fortifications.",
+      "years": "about 63 BC",
+      "yearNum": -63,
+      "approx": false,
+      "place": "mulek-city",
+      "themes": ["war", "deliverance"],
+      "characters": ["captain-moroni", "ammoron"],
+      "segments": [
+        { "s": 1, "e": 35, "speaker": "mormon", "to": "reader", "note": "The wine stratagem at Gid; captives armed and freed" }
+      ]
+    },
+    {
+      "c": 56,
+      "title": "My Two Thousand Sons",
+      "synopsis": "Helaman's epistle to Moroni recounts the southwest campaign: his two thousand young Ammonite soldiers march as a decoy from Antiparah and then turn to rescue Antipus's army. Though never having fought before, they fight with miraculous strength, for they had been taught by their mothers not to doubt.",
+      "years": "about 66-62 BC",
+      "yearNum": -64,
+      "approx": false,
+      "place": "manti",
+      "themes": ["faith", "war", "family"],
+      "characters": ["helaman1", "captain-moroni"],
+      "segments": [
+        { "s": 1, "e": 1, "speaker": "mormon", "to": "reader", "note": "Moroni receives an epistle from Helaman" },
+        { "s": 2, "e": 57, "speaker": "helaman1", "to": "captain-moroni", "note": "The stripling soldiers' first battle and deliverance" }
+      ]
+    },
+    {
+      "c": 57,
+      "title": "Not One Soul Perished",
+      "synopsis": "Helaman continues his epistle: Cumeni surrenders after its supplies are cut off, and a desperate battle is won by the firmness of his two thousand and sixty young soldiers. Two hundred faint from wounds, yet to the astonishment of the whole army not one of them perishes, according to their exceeding faith.",
+      "years": "about 66-62 BC",
+      "yearNum": -63,
+      "approx": false,
+      "place": "manti",
+      "themes": ["faith", "obedience", "war"],
+      "characters": ["helaman1"],
+      "segments": [
+        { "s": 1, "e": 36, "speaker": "helaman1", "to": "captain-moroni", "note": "Cumeni taken; the sons preserved by faith" }
+      ]
+    },
+    {
+      "c": 58,
+      "title": "The Taking of Manti",
+      "synopsis": "Short of men and provisions, Helaman's armies wait on God, who visits them with assurance and peace. By drawing the Lamanite host out of Manti and slipping behind it, they retake the city without bloodshed and drive the Lamanites from that quarter of the land.",
+      "years": "about 66-62 BC",
+      "yearNum": -62,
+      "approx": false,
+      "place": "manti",
+      "themes": ["war", "faith", "deliverance"],
+      "characters": ["helaman1"],
+      "segments": [
+        { "s": 1, "e": 41, "speaker": "helaman1", "to": "captain-moroni", "note": "Assurance from God; Manti retaken by stratagem" }
+      ]
+    },
+    {
+      "c": 59,
+      "title": "The Loss of Nephihah",
+      "synopsis": "Moroni rejoices at Helaman's success and writes to Pahoran for reinforcements, but the city of Nephihah falls while help never comes. Moroni grieves over the wickedness of his people and begins to doubt the government itself, angry that the city was lost through neglect.",
+      "years": "about 62 BC",
+      "yearNum": -62,
+      "approx": false,
+      "place": "nephihah",
+      "themes": ["war", "leadership"],
+      "characters": ["captain-moroni", "pahoran", "helaman1"],
+      "segments": [
+        { "s": 1, "e": 13, "speaker": "mormon", "to": "reader", "note": "Nephihah falls; Moroni grieves and suspects the government" }
+      ]
+    },
+    {
+      "c": 60,
+      "title": "Moroni's Complaint to Pahoran",
+      "synopsis": "Moroni writes a blistering epistle condemning the government's thoughtless neglect while soldiers starve and die. He declares that God will not suffer the righteous to be slain forever, and threatens to come to Zarahemla and smite the government with the sword unless help is sent.",
+      "years": "about 62 BC",
+      "yearNum": -62,
+      "approx": false,
+      "place": "zarahemla",
+      "themes": ["liberty", "justice-and-mercy", "leadership"],
+      "characters": ["captain-moroni", "pahoran"],
+      "segments": [
+        { "s": 1, "e": 36, "speaker": "captain-moroni", "to": "pahoran", "note": "The sword of justice hangs over the idle government" }
+      ]
+    },
+    {
+      "c": 61,
+      "title": "Pahoran's Noble Reply",
+      "synopsis": "Pahoran answers that king-men have seized Zarahemla and driven him to Gideon, and that he is not angry but rejoices in the greatness of Moroni's heart. He asks Moroni to come strengthen him so they can retake the capital together, resisting evil with the sword only to retain their freedom.",
+      "years": "about 62 BC",
+      "yearNum": -62,
+      "approx": false,
+      "place": "gideon",
+      "themes": ["liberty", "humility", "leadership"],
+      "characters": ["pahoran", "captain-moroni"],
+      "segments": [
+        { "s": 1, "e": 21, "speaker": "pahoran", "to": "captain-moroni", "note": "It mattereth not; let us resist evil together" }
+      ]
+    },
+    {
+      "c": 62,
+      "title": "The Long War Ends",
+      "synopsis": "Moroni marches to Gideon, gathering thousands to the standard of liberty, and with Pahoran retakes Zarahemla and executes the traitorous king-men. City by city the Lamanites are driven out; Teancum slays Ammoron at the cost of his own life, and after years of war peace is finally established.",
+      "years": "about 62-57 BC",
+      "yearNum": -60,
+      "approx": false,
+      "place": "nephihah",
+      "themes": ["war", "peace", "liberty"],
+      "characters": ["captain-moroni", "pahoran", "teancum", "moronihah", "helaman1", "ammoron"],
+      "segments": [
+        { "s": 1, "e": 52, "speaker": "mormon", "to": "reader", "note": "Zarahemla restored; Ammoron slain; peace returns" }
+      ]
+    },
+    {
+      "c": 63,
+      "title": "Migrations and the Sacred Records",
+      "synopsis": "Shiblon keeps the sacred things after Helaman's death, and Moroni also dies. Hagoth builds ships that carry many people northward, some never heard of again, and Shiblon confers the records upon Helaman's son Helaman before the book closes with Moronihah defending the land.",
+      "years": "about 56-52 BC",
+      "yearNum": -55,
+      "approx": false,
+      "place": "zarahemla",
+      "themes": ["records", "leadership"],
+      "characters": ["shiblon", "helaman2", "moronihah", "captain-moroni", "corianton"],
+      "segments": [
+        { "s": 1, "e": 17, "speaker": "mormon", "to": "reader", "note": "Deaths, ships northward, and the records passed on" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,229 @@
+{
+  "book": "Ether",
+  "slug": "ether",
+  "narrator": "moroni",
+  "plates": "ether-abridgment",
+  "chapters": [
+    {
+      "c": 1,
+      "title": "A Cry from the Great Tower",
+      "synopsis": "Moroni abridges the twenty-four plates found by the people of Limhi, tracing Ether's line back through thirty generations to Jared. At the great tower, Jared asks his brother to plead that their language not be confounded. The Lord has compassion, spares their friends' language too, and promises to lead them to a choice land.",
+      "years": "about 2150 BC",
+      "yearNum": -2150,
+      "approx": true,
+      "place": null,
+      "themes": ["prayer", "covenant", "records"],
+      "characters": ["jared", "brother-of-jared", "ether"],
+      "segments": [
+        { "s": 1, "e": 39, "speaker": "moroni", "to": "reader", "note": "Genealogy and the plea at the tower" },
+        { "s": 40, "e": 43, "speaker": "the-lord", "to": "brother-of-jared", "note": "Gather your people; a choice land promised" }
+      ]
+    },
+    {
+      "c": 2,
+      "title": "Barges, Air, and Light",
+      "synopsis": "The Jaredites gather seeds, flocks, and swarms of bees and travel to the great sea, where the Lord commands barges built tight like a dish. Moroni pauses to warn that whoever possesses this promised land must serve God or be swept off. The Lord chastens the brother of Jared for slacking in prayer, solves the problem of air with holes, and asks him what he would have done for light.",
+      "years": "about 2150-2100 BC",
+      "yearNum": -2140,
+      "approx": true,
+      "place": null,
+      "themes": ["obedience", "covenant", "revelation"],
+      "characters": ["brother-of-jared", "jared"],
+      "segments": [
+        { "s": 1, "e": 17, "speaker": "moroni", "to": "reader", "note": "Journey to the sea; the land's decree" },
+        { "s": 18, "e": 19, "speaker": "brother-of-jared", "to": "the-lord", "note": "No air, no light in the vessels" },
+        { "s": 20, "e": 25, "speaker": "the-lord", "to": "brother-of-jared", "note": "Holes for air; what will ye for light" }
+      ]
+    },
+    {
+      "c": 3,
+      "title": "The Finger of the Lord",
+      "synopsis": "The brother of Jared molts sixteen small stones from rock and asks the Lord to touch them so they will shine in the barges. The Lord's finger appears, and because of his exceeding faith the brother of Jared is brought within the veil to see the premortal Christ, who shows him his spirit body. He is commanded to seal up what he sees, along with two interpreting stones.",
+      "years": "about 2100 BC",
+      "yearNum": -2130,
+      "approx": true,
+      "place": null,
+      "themes": ["faith", "revelation", "records"],
+      "characters": ["brother-of-jared", "jesus-christ", "moroni"],
+      "segments": [
+        { "s": 1, "e": 1, "speaker": "moroni", "to": "reader", "note": "Sixteen stones molten from rock" },
+        { "s": 2, "e": 5, "speaker": "brother-of-jared", "to": "the-lord", "note": "Touch these stones, that they shine" },
+        { "s": 6, "e": 24, "speaker": "jesus-christ", "to": "brother-of-jared", "note": "The premortal Christ reveals himself" },
+        { "s": 25, "e": 28, "speaker": "moroni", "to": "reader", "note": "All inhabitants shown; the record sealed" }
+      ]
+    },
+    {
+      "c": 4,
+      "title": "The Sealed Vision Reserved",
+      "synopsis": "Moroni seals up the brother of Jared's full vision, which will come forth only when the Gentiles exercise faith as he did. The words of Christ invite all to rend the veil of unbelief and come unto him. Whoever believes this record will be visited with the manifestations of the Spirit.",
+      "years": "about 2100 BC",
+      "yearNum": -2130,
+      "approx": true,
+      "place": null,
+      "themes": ["faith", "revelation", "records"],
+      "characters": ["moroni", "brother-of-jared", "jesus-christ"],
+      "segments": [
+        { "s": 1, "e": 12, "speaker": "moroni", "to": "reader", "note": "Why the greater things are sealed" },
+        { "s": 13, "e": 19, "speaker": "jesus-christ", "to": "reader", "note": "Come unto me, O ye Gentiles" }
+      ]
+    },
+    {
+      "c": 5,
+      "title": "Three Witnesses Promised",
+      "synopsis": "Moroni speaks directly to the future translator of the record, forbidding him to touch the sealed portion. He promises that three witnesses will see the plates by the power of God. In the mouth of three witnesses these things will be established at the last day.",
+      "years": "about 2100 BC",
+      "yearNum": -2130,
+      "approx": true,
+      "place": null,
+      "themes": ["records", "revelation", "faith"],
+      "characters": ["moroni"],
+      "segments": [
+        { "s": 1, "e": 6, "speaker": "moroni", "to": "reader", "note": "Instructions to the future translator" }
+      ]
+    },
+    {
+      "c": 6,
+      "title": "Driven by Furious Winds",
+      "synopsis": "With shining stones for light, the Jaredites board their barges and are driven three hundred forty-four days by wind and buried waves, singing praises as they go. They land in the promised land, multiply, and prosper. Against the brother of Jared's warning that it leads to captivity, the people choose a king, and Orihah reigns righteously.",
+      "years": "about 2100-2050 BC",
+      "yearNum": -2090,
+      "approx": true,
+      "place": "moron",
+      "themes": ["deliverance", "faith", "liberty"],
+      "characters": ["brother-of-jared", "jared"],
+      "segments": [
+        { "s": 1, "e": 30, "speaker": "moroni", "to": "reader", "note": "The crossing, the landing, the first king" }
+      ]
+    },
+    {
+      "c": 7,
+      "title": "Kingdoms in Captivity",
+      "synopsis": "The brother of Jared's warning proves true as sons and brothers begin dethroning and imprisoning one another. Shule wins back the kingdom with steel swords and protects the prophets, who call the people to repentance. Because the people repent, they are spared, and Shule ends his days in righteousness.",
+      "years": "about 2000 BC",
+      "yearNum": -1900,
+      "approx": true,
+      "place": "moron",
+      "themes": ["pride-cycle", "repentance", "liberty"],
+      "characters": [],
+      "segments": [
+        { "s": 1, "e": 27, "speaker": "moroni", "to": "reader", "note": "Rival kings; prophets protected by Shule" }
+      ]
+    },
+    {
+      "c": 8,
+      "title": "The Oaths of Old",
+      "synopsis": "Jared the usurper wins a kingdom through his daughter's dancing and Akish's secret oaths, the same covenants handed down from Cain. Akish murders his way to the throne he helped create. Moroni interrupts to warn all nations, especially the latter-day Gentiles, that such combinations seek to overthrow the freedom of all lands.",
+      "years": "about 1800 BC",
+      "yearNum": -1700,
+      "approx": true,
+      "place": "moron",
+      "themes": ["secret-combinations", "liberty", "judgment"],
+      "characters": ["akish"],
+      "segments": [
+        { "s": 1, "e": 26, "speaker": "moroni", "to": "reader", "note": "Akish's oaths; Moroni warns the Gentiles" }
+      ]
+    },
+    {
+      "c": 9,
+      "title": "Famine and Poisonous Serpents",
+      "synopsis": "The kingdom of Akish collapses in a civil war of greed that spares only thirty souls, and the line of Omer resumes. Righteous kings like Emer prosper, and Emer even sees the Son of Righteousness. Later wickedness under Heth brings drought, poisonous serpents, and famine until the people repent.",
+      "years": "about 1600 BC",
+      "yearNum": -1500,
+      "approx": true,
+      "place": "moron",
+      "themes": ["pride-cycle", "repentance", "judgment"],
+      "characters": ["akish"],
+      "segments": [
+        { "s": 1, "e": 35, "speaker": "moroni", "to": "reader", "note": "Akish falls; famine humbles the people" }
+      ]
+    },
+    {
+      "c": 10,
+      "title": "Kings Righteous and Captive",
+      "synopsis": "Generations of Jaredite kings roll past: some, like Morianton and Lib, build cities and make the people rich; others live out their days in captivity. The people become exceedingly industrious, working in ore, silk, and steel. Beneath the prosperity, the old pattern of rebellion and imprisonment never fully dies.",
+      "years": "about 1300 BC",
+      "yearNum": -1200,
+      "approx": true,
+      "place": "moron",
+      "themes": ["pride-cycle", "leadership", "endurance"],
+      "characters": [],
+      "segments": [
+        { "s": 1, "e": 34, "speaker": "moroni", "to": "reader", "note": "Centuries of kings, industry, and captivity" }
+      ]
+    },
+    {
+      "c": 11,
+      "title": "Prophets Rejected, Ruin Promised",
+      "synopsis": "Wars, dissensions, and wicked kings fill the land, and the Lord sends prophets promising utter destruction unless the people repent. The people harden their hearts and cast the prophets out. Through captivity after captivity, the Jaredites ripen for the fate the prophets foretold.",
+      "years": "about 800-600 BC",
+      "yearNum": -700,
+      "approx": true,
+      "place": "moron",
+      "themes": ["prophecy", "apostasy", "judgment"],
+      "characters": [],
+      "segments": [
+        { "s": 1, "e": 23, "speaker": "moroni", "to": "reader", "note": "Prophets warn; the people harden" }
+      ]
+    },
+    {
+      "c": 12,
+      "title": "Faith Precedes the Miracle",
+      "synopsis": "Ether prophesies great and marvelous things that the people refuse to believe because they cannot see them. Moroni gathers the witnesses of faith, by which all miracles are wrought, and confesses his fear that the Gentiles will mock his weak writing. The Lord answers that his grace is sufficient, for weakness can become strength to the humble.",
+      "years": "about 600 BC",
+      "yearNum": -600,
+      "approx": true,
+      "place": null,
+      "themes": ["faith", "hope", "humility", "charity"],
+      "characters": ["ether", "moroni", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 25, "speaker": "moroni", "to": "reader", "note": "Faith precedes miracles; Moroni fears mockery" },
+        { "s": 26, "e": 28, "speaker": "the-lord", "to": "moroni", "note": "My grace is sufficient for the meek" },
+        { "s": 29, "e": 41, "speaker": "moroni", "to": "reader", "note": "Weak things made strong; a farewell to Gentiles" }
+      ]
+    },
+    {
+      "c": 13,
+      "title": "Ether Prophesies from a Cave",
+      "synopsis": "Ether prophesies of a New Jerusalem to be built upon this land for the remnant of Joseph, and of old Jerusalem's renewal. Rejected, he hides in a cave by day and watches the war destroy his people by night. He tells Coriantumr that only repentance can save his kingdom, and the king refuses; the great war begins in earnest.",
+      "years": "about 590 BC",
+      "yearNum": -590,
+      "approx": true,
+      "place": "cumorah",
+      "themes": ["prophecy", "gathering-of-israel", "repentance"],
+      "characters": ["ether", "coriantumr", "moroni"],
+      "segments": [
+        { "s": 1, "e": 1, "speaker": "moroni", "to": "reader", "note": "Moroni resumes the record" },
+        { "s": 2, "e": 12, "speaker": "ether", "to": "jaredites", "note": "New Jerusalem prophecy, recounted by Moroni" },
+        { "s": 13, "e": 31, "speaker": "moroni", "to": "reader", "note": "Ether in the cave; Coriantumr rejects the warning" }
+      ]
+    },
+    {
+      "c": 14,
+      "title": "A Curse Upon the Land",
+      "synopsis": "A curse settles over the land: tools and swords vanish overnight, and every man clings to his own with his hands. Rival warlords Coriantumr, Shared, Gilead, and Lib tear the land apart until Shiz rises, burning cities and sweeping the earth before him. Millions arm themselves, and the war of extinction gathers toward its end.",
+      "years": "about 585 BC",
+      "yearNum": -585,
+      "approx": true,
+      "place": "cumorah",
+      "themes": ["war", "judgment", "secret-combinations"],
+      "characters": ["coriantumr", "shiz"],
+      "segments": [
+        { "s": 1, "e": 31, "speaker": "moroni", "to": "reader", "note": "The curse and the rise of Shiz" }
+      ]
+    },
+    {
+      "c": 15,
+      "title": "The Last Jaredite Battle",
+      "synopsis": "Coriantumr remembers Ether's words too late; his offers of peace are refused, and the whole nation gathers for four years to the hill Ramah, later called Cumorah. Day after day they fight until only Coriantumr and Shiz remain, and Coriantumr smites off Shiz's head. Ether finishes the record, and the prophecy stands fulfilled: Coriantumr alone lives to see another people inherit the land.",
+      "years": "about 580 BC",
+      "yearNum": -580,
+      "approx": true,
+      "place": "cumorah",
+      "themes": ["war", "judgment", "prophecy"],
+      "characters": ["coriantumr", "shiz", "ether"],
+      "segments": [
+        { "s": 1, "e": 34, "speaker": "moroni", "to": "reader", "note": "Extinction at Ramah, called Cumorah by Nephites" }
+      ]
+    }
+  ]
+}

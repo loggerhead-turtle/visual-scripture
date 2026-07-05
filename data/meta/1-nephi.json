@@ -1,0 +1,333 @@
+{
+  "book": "1 Nephi",
+  "slug": "1-nephi",
+  "narrator": "nephi1",
+  "plates": "small-plates",
+  "chapters": [
+    {
+      "c": 1,
+      "title": "Lehi's Vision of the Coming Destruction",
+      "synopsis": "Nephi opens his record by introducing his family and his father Lehi, a prophet in Jerusalem. Lehi sees a pillar of fire and a vision of God on His throne, then reads from a heavenly book that foretells Jerusalem's destruction. When he prophesies to the people, they mock him and seek his life.",
+      "years": "about 600 BC",
+      "yearNum": -600,
+      "approx": false,
+      "place": "jerusalem",
+      "themes": ["prophecy", "revelation", "records"],
+      "characters": ["nephi1", "lehi1"],
+      "segments": [
+        { "s": 1, "e": 3, "speaker": "nephi1", "to": "reader", "note": "Nephi introduces himself and his record" },
+        { "s": 4, "e": 20, "speaker": "nephi1", "to": "reader", "note": "Nephi recounts Lehi's visions and rejection" }
+      ]
+    },
+    {
+      "c": 2,
+      "title": "Lehi Leads His Family into the Wilderness",
+      "synopsis": "Commanded by the Lord in a dream, Lehi abandons his home and riches and leads his family into the wilderness near the Red Sea. Laman and Lemuel murmur against their father, but Nephi seeks the Lord and his heart is softened. The Lord promises Nephi that he will be made a ruler and teacher over his brethren.",
+      "years": "about 600 BC",
+      "yearNum": -600,
+      "approx": false,
+      "place": "valley-of-lemuel",
+      "themes": ["obedience", "faith", "family"],
+      "characters": ["lehi1", "sariah", "laman", "lemuel", "sam", "nephi1"],
+      "segments": [
+        { "s": 1, "e": 18, "speaker": "nephi1", "to": "reader", "note": "The family departs; Laman and Lemuel murmur" },
+        { "s": 19, "e": 24, "speaker": "the-lord", "to": "nephi1", "note": "The Lord promises Nephi rulership and prosperity" }
+      ]
+    },
+    {
+      "c": 3,
+      "title": "The Errand for the Brass Plates",
+      "synopsis": "The Lord commands Lehi to send his sons back to Jerusalem for the brass plates held by Laban. Laban refuses them twice, steals their property, and sends servants to kill them. As Laman and Lemuel beat their younger brothers, an angel appears and promises that the Lord will deliver Laban into their hands.",
+      "years": "about 600 BC",
+      "yearNum": -600,
+      "approx": false,
+      "place": "jerusalem",
+      "themes": ["obedience", "records", "faith"],
+      "characters": ["nephi1", "lehi1", "laban", "laman", "lemuel", "sam", "angel"],
+      "segments": [
+        { "s": 1, "e": 1, "speaker": "nephi1", "to": "reader", "note": "Nephi returns to his father's tent" },
+        { "s": 2, "e": 6, "speaker": "lehi1", "to": "nephi1", "note": "Lehi gives the Lord's errand for the plates" },
+        { "s": 7, "e": 31, "speaker": "nephi1", "to": "reader", "note": "Two failed attempts; an angel intervenes" }
+      ]
+    },
+    {
+      "c": 4,
+      "title": "Nephi Obtains the Brass Plates",
+      "synopsis": "Nephi creeps into Jerusalem by night, led by the Spirit without knowing beforehand what he should do. He finds Laban drunk in the street and, after the Spirit constrains him, slays Laban and takes his armor and sword. Disguised as Laban, he obtains the plates and persuades Laban's servant Zoram to join the family in the wilderness.",
+      "years": "about 600 BC",
+      "yearNum": -600,
+      "approx": false,
+      "place": "jerusalem",
+      "themes": ["obedience", "records", "deliverance"],
+      "characters": ["nephi1", "laban", "zoram1", "laman", "lemuel"],
+      "segments": [
+        { "s": 1, "e": 3, "speaker": "nephi1", "to": "laman", "note": "Nephi rallies his brothers with Moses' example" },
+        { "s": 4, "e": 38, "speaker": "nephi1", "to": "reader", "note": "Laban slain; the plates and Zoram obtained" }
+      ]
+    },
+    {
+      "c": 5,
+      "title": "Sariah Comforted; Lehi Searches the Plates",
+      "synopsis": "Sariah, fearing her sons have perished, complains against Lehi until they return safely and her faith is confirmed. Lehi searches the brass plates and finds the five books of Moses, a record of the Jews, prophecies, and his own genealogy back to Joseph of Egypt. He prophesies that the plates will go to his posterity and never perish.",
+      "years": "about 600 BC",
+      "yearNum": -600,
+      "approx": false,
+      "place": "valley-of-lemuel",
+      "themes": ["records", "family", "faith"],
+      "characters": ["lehi1", "sariah", "nephi1"],
+      "segments": [
+        { "s": 1, "e": 22, "speaker": "nephi1", "to": "reader", "note": "The sons return; Lehi searches the plates" }
+      ]
+    },
+    {
+      "c": 6,
+      "title": "The Purpose of Nephi's Record",
+      "synopsis": "Nephi pauses to explain why he writes. He will not record his father's genealogy or the ordinary history of his people, for that belongs on other plates. His whole intent is to persuade all to come unto the God of Abraham, Isaac, and Jacob and be saved.",
+      "years": "between 600 and 592 BC",
+      "yearNum": -599,
+      "approx": true,
+      "place": null,
+      "themes": ["records", "faith"],
+      "characters": ["nephi1"],
+      "segments": [
+        { "s": 1, "e": 6, "speaker": "nephi1", "to": "reader", "note": "Nephi states the aim of his writing" }
+      ]
+    },
+    {
+      "c": 7,
+      "title": "The Return for Ishmael's Family",
+      "synopsis": "The sons of Lehi return to Jerusalem once more and persuade Ishmael and his household to join them, so the family can raise up seed in the promised land. On the journey Laman, Lemuel, and part of Ishmael's family rebel, bind Nephi, and plan to leave him to die. Nephi is freed by the power of God, and after pleading by Ishmael's family the rebels repent.",
+      "years": "between 600 and 592 BC",
+      "yearNum": -599,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["family", "deliverance", "repentance"],
+      "characters": ["nephi1", "ishmael1", "laman", "lemuel"],
+      "segments": [
+        { "s": 1, "e": 7, "speaker": "nephi1", "to": "reader", "note": "Ishmael's family joins; rebellion begins" },
+        { "s": 8, "e": 15, "speaker": "nephi1", "to": "laman", "note": "Nephi rebukes his rebellious brothers" },
+        { "s": 16, "e": 22, "speaker": "nephi1", "to": "reader", "note": "Nephi bound, freed, and the rebels repent" }
+      ]
+    },
+    {
+      "c": 8,
+      "title": "Lehi's Dream of the Tree of Life",
+      "synopsis": "Lehi tells his family of a dream in which he tasted the fruit of a tree whose sweetness filled his soul with joy. He sees a rod of iron along a strait and narrow path, mists of darkness, a river of filthy water, and a great and spacious building filled with mocking crowds. Sariah, Sam, and Nephi come to the tree, but Laman and Lemuel refuse, and Lehi exhorts them with all a father's feeling.",
+      "years": "between 600 and 592 BC",
+      "yearNum": -598,
+      "approx": true,
+      "place": "valley-of-lemuel",
+      "themes": ["revelation", "family", "endurance"],
+      "characters": ["lehi1", "nephi1", "sariah", "sam", "laman", "lemuel"],
+      "segments": [
+        { "s": 1, "e": 1, "speaker": "nephi1", "to": "reader", "note": "Nephi sets the scene in the wilderness" },
+        { "s": 2, "e": 35, "speaker": "lehi1", "to": "nephi1", "note": "Lehi recounts the tree of life dream" },
+        { "s": 36, "e": 38, "speaker": "nephi1", "to": "reader", "note": "Lehi exhorts Laman and Lemuel" }
+      ]
+    },
+    {
+      "c": 9,
+      "title": "Two Sets of Plates for Wise Purposes",
+      "synopsis": "Nephi explains that he keeps two records: large plates for the history of his people and these small plates for the ministry and sacred things. He does not know why the Lord commands the second record, but the Lord knows all things and prepares for His purposes. It matters not to Nephi, for the commandment is enough.",
+      "years": "between 600 and 592 BC",
+      "yearNum": -598,
+      "approx": true,
+      "place": null,
+      "themes": ["records", "obedience", "revelation"],
+      "characters": ["nephi1"],
+      "segments": [
+        { "s": 1, "e": 6, "speaker": "nephi1", "to": "reader", "note": "Nephi explains the two sets of plates" }
+      ]
+    },
+    {
+      "c": 10,
+      "title": "Lehi Prophesies of the Messiah",
+      "synopsis": "Nephi records his father's prophecies: Jerusalem will be destroyed, the Jews carried captive to Babylon and later returned, and six hundred years after Lehi's departure a Messiah and Redeemer will come. Lehi tells of the prophet who will baptize Him and compares scattered Israel to an olive tree whose branches will be grafted in again. Nephi then declares that the mysteries of God are unfolded to all who diligently seek, for God is the same yesterday, today, and forever.",
+      "years": "between 600 and 592 BC",
+      "yearNum": -598,
+      "approx": true,
+      "place": "valley-of-lemuel",
+      "themes": ["prophecy", "atonement", "gathering-of-israel"],
+      "characters": ["lehi1", "nephi1"],
+      "segments": [
+        { "s": 1, "e": 16, "speaker": "nephi1", "to": "reader", "note": "Nephi summarizes Lehi's Messianic prophecies" },
+        { "s": 17, "e": 22, "speaker": "nephi1", "to": "reader", "note": "Nephi teaches that revelation is for all" }
+      ]
+    },
+    {
+      "c": 11,
+      "title": "Nephi Sees the Condescension of God",
+      "synopsis": "Desiring to know the things his father saw, Nephi is caught away by the Spirit to a high mountain. He sees the tree of life, the virgin of Nazareth, and the Son of God born into the world. An angel then shows him the Redeemer's baptism, ministry, and crucifixion, and interprets the tree as the love of God.",
+      "years": "between 600 and 592 BC",
+      "yearNum": -597,
+      "approx": true,
+      "place": null,
+      "themes": ["revelation", "atonement", "prophecy"],
+      "characters": ["nephi1", "angel", "jesus-christ"],
+      "segments": [
+        { "s": 1, "e": 1, "speaker": "nephi1", "to": "reader", "note": "Nephi is caught away to a mountain" },
+        { "s": 2, "e": 6, "speaker": "the-lord", "to": "nephi1", "note": "The Spirit questions and blesses Nephi" },
+        { "s": 7, "e": 36, "speaker": "angel", "to": "nephi1", "note": "An angel shows Christ's birth and ministry" }
+      ]
+    },
+    {
+      "c": 12,
+      "title": "The Promised Land in Vision",
+      "synopsis": "The angel shows Nephi his descendants in the promised land: their wars, the destructions at the crucifixion, and the risen Christ ministering to them. Nephi sees three generations of righteousness followed by pride and unbelief. His seed is finally overcome by the seed of his brethren, who dwindle in darkness.",
+      "years": "between 600 and 592 BC",
+      "yearNum": -597,
+      "approx": true,
+      "place": null,
+      "themes": ["prophecy", "judgment", "pride-cycle"],
+      "characters": ["nephi1", "angel", "jesus-christ"],
+      "segments": [
+        { "s": 1, "e": 23, "speaker": "angel", "to": "nephi1", "note": "The rise and fall of Nephi's seed" }
+      ]
+    },
+    {
+      "c": 13,
+      "title": "The Gentiles, the Bible, and the Restoration",
+      "synopsis": "Nephi sees the formation of a great and abominable church and the discovery and colonizing of the promised land by the Gentiles. He watches a book, the record of the Jews, go forth to the Gentiles after plain and precious truths have been taken from it. The Lord promises to bring forth other records to restore those truths and to be merciful to the Gentiles who repent.",
+      "years": "between 600 and 592 BC",
+      "yearNum": -597,
+      "approx": true,
+      "place": null,
+      "themes": ["prophecy", "apostasy", "records", "gathering-of-israel"],
+      "characters": ["nephi1", "angel"],
+      "segments": [
+        { "s": 1, "e": 42, "speaker": "angel", "to": "nephi1", "note": "Gentile nations, the Bible, and restored records" }
+      ]
+    },
+    {
+      "c": 14,
+      "title": "Two Churches and the Covenants of God",
+      "synopsis": "The angel declares that there are save two churches only: the church of the Lamb of God and the church of the devil. Nephi sees the saints of God, few in number, armed with righteousness and power, while the wrath of God falls on the great and abominable church. He is shown the apostle John, who will write the remainder of these things.",
+      "years": "between 600 and 592 BC",
+      "yearNum": -597,
+      "approx": true,
+      "place": null,
+      "themes": ["prophecy", "covenant", "judgment"],
+      "characters": ["nephi1", "angel"],
+      "segments": [
+        { "s": 1, "e": 30, "speaker": "angel", "to": "nephi1", "note": "The two churches and the last days" }
+      ]
+    },
+    {
+      "c": 15,
+      "title": "Nephi Explains His Father's Vision",
+      "synopsis": "Returning to the tent, Nephi finds his brothers disputing about Lehi's words and asks whether they have inquired of the Lord. He explains the olive tree, the scattering and gathering of Israel, the rod of iron as the word of God, and the river as the awful gulf separating the wicked from the tree of life. He teaches that the final judgment will divide the righteous from the wicked forever.",
+      "years": "between 600 and 592 BC",
+      "yearNum": -597,
+      "approx": true,
+      "place": "valley-of-lemuel",
+      "themes": ["gathering-of-israel", "covenant", "judgment"],
+      "characters": ["nephi1", "laman", "lemuel"],
+      "segments": [
+        { "s": 1, "e": 7, "speaker": "nephi1", "to": "reader", "note": "Nephi finds his brothers disputing" },
+        { "s": 8, "e": 36, "speaker": "nephi1", "to": "laman", "note": "Nephi interprets the dream and the olive tree" }
+      ]
+    },
+    {
+      "c": 16,
+      "title": "The Liahona and the Broken Bow",
+      "synopsis": "The sons of Lehi marry the daughters of Ishmael, and the Lord provides the Liahona, a ball of curious workmanship that points the way according to their faith. When Nephi's steel bow breaks and the family goes hungry, even Lehi murmurs, but Nephi makes a new bow and humbly asks his father where to hunt. Ishmael dies at Nahom, and the Lord chastens the murmurers.",
+      "years": "between 600 and 592 BC",
+      "yearNum": -593,
+      "approx": true,
+      "place": "nahom",
+      "themes": ["faith", "revelation", "endurance"],
+      "characters": ["nephi1", "lehi1", "ishmael1", "laman", "lemuel"],
+      "segments": [
+        { "s": 1, "e": 39, "speaker": "nephi1", "to": "reader", "note": "Marriages, the Liahona, hunger, and Nahom" }
+      ]
+    },
+    {
+      "c": 17,
+      "title": "Commanded to Build a Ship",
+      "synopsis": "After eight years in the wilderness the family reaches Bountiful by the sea, and the Lord commands Nephi to build a ship. His brothers mock him, so Nephi recounts how the Lord led Israel out of Egypt and rebukes them for their hardness of heart. Filled with the power of God, he confounds them, and the Lord commands them to help build the ship.",
+      "years": "between 600 and 592 BC",
+      "yearNum": -592,
+      "approx": true,
+      "place": "bountiful-old",
+      "themes": ["obedience", "deliverance", "faith"],
+      "characters": ["nephi1", "laman", "lemuel"],
+      "segments": [
+        { "s": 1, "e": 16, "speaker": "nephi1", "to": "reader", "note": "Arrival at Bountiful; the command to build" },
+        { "s": 17, "e": 22, "speaker": "laman", "to": "nephi1", "note": "The brothers mock and complain" },
+        { "s": 23, "e": 47, "speaker": "nephi1", "to": "laman", "note": "Nephi recounts the Exodus and rebukes them" },
+        { "s": 48, "e": 55, "speaker": "nephi1", "to": "reader", "note": "The power of God shakes the brothers" }
+      ]
+    },
+    {
+      "c": 18,
+      "title": "The Voyage to the Promised Land",
+      "synopsis": "Nephi finishes the ship after the manner the Lord shows him, and the family sets sail with provisions and seeds. When Laman, Lemuel, and others revel rudely, they bind Nephi, and the Liahona ceases to work as a terrible storm drives the ship back. After four days they repent and free Nephi, the storm calms, and the family arrives safely in the promised land.",
+      "years": "between 600 and 592 BC",
+      "yearNum": -591,
+      "approx": true,
+      "place": "land-of-first-inheritance",
+      "themes": ["deliverance", "obedience", "endurance"],
+      "characters": ["nephi1", "lehi1", "sariah", "laman", "lemuel"],
+      "segments": [
+        { "s": 1, "e": 25, "speaker": "nephi1", "to": "reader", "note": "The ship, the storm, and the safe arrival" }
+      ]
+    },
+    {
+      "c": 19,
+      "title": "Plates of Ore and Prophecies of Christ",
+      "synopsis": "In the promised land Nephi makes plates of ore and records his people's history, then explains the sacred purpose of these smaller plates. Quoting Zenock, Neum, and Zenos, he prophesies that the God of Israel will be crucified and buried, and that Israel will be scattered and gathered again. He reads the words of Isaiah to his people so they may liken the scriptures unto themselves.",
+      "years": "between 588 and 570 BC",
+      "yearNum": -588,
+      "approx": true,
+      "place": "land-of-first-inheritance",
+      "themes": ["records", "prophecy", "atonement"],
+      "characters": ["nephi1", "zenos", "zenock", "neum"],
+      "segments": [
+        { "s": 1, "e": 7, "speaker": "nephi1", "to": "reader", "note": "Nephi makes plates and explains their purpose" },
+        { "s": 8, "e": 24, "speaker": "nephi1", "to": "reader", "note": "Nephi cites Zenos, Zenock, and Neum on Christ" }
+      ]
+    },
+    {
+      "c": 20,
+      "title": "Hearken, O House of Jacob",
+      "synopsis": "Nephi quotes Isaiah's words to covenant Israel, who swear by the Lord's name but not in righteousness. The Lord declares He has refined Israel in the furnace of affliction and foretold events from the beginning so no idol could claim them. He calls Israel out of Babylon, declaring there is no peace for the wicked.",
+      "years": "between 588 and 570 BC",
+      "yearNum": -588,
+      "approx": true,
+      "place": null,
+      "themes": ["covenant", "gathering-of-israel", "repentance"],
+      "characters": ["isaiah"],
+      "segments": [
+        { "s": 1, "e": 22, "speaker": "isaiah", "to": "house-of-israel", "note": "Isaiah 48: Israel refined in affliction" }
+      ]
+    },
+    {
+      "c": 21,
+      "title": "A Light to the Gentiles",
+      "synopsis": "Isaiah speaks as the servant called from the womb to restore Israel and be a light to the Gentiles. Though Zion says the Lord has forsaken her, He answers that He cannot forget her, for she is graven upon the palms of His hands. Kings and queens will become nursing fathers and mothers as the Lord gathers His scattered children.",
+      "years": "between 588 and 570 BC",
+      "yearNum": -588,
+      "approx": true,
+      "place": null,
+      "themes": ["gathering-of-israel", "covenant", "hope"],
+      "characters": ["isaiah"],
+      "segments": [
+        { "s": 1, "e": 26, "speaker": "isaiah", "to": "house-of-israel", "note": "Isaiah 49: Zion is never forgotten" }
+      ]
+    },
+    {
+      "c": 22,
+      "title": "Nephi Interprets Isaiah's Prophecies",
+      "synopsis": "Nephi's brothers ask whether Isaiah's words are temporal or spiritual, and he explains that Israel will be scattered among all nations. A mighty Gentile nation will arise in the promised land, and the Lord will do a marvelous work to gather His covenant people. The righteous need not fear, for the wicked will be destroyed and the Holy One will reign in righteousness.",
+      "years": "between 588 and 570 BC",
+      "yearNum": -588,
+      "approx": true,
+      "place": "land-of-first-inheritance",
+      "themes": ["gathering-of-israel", "prophecy", "judgment"],
+      "characters": ["nephi1", "laman", "lemuel"],
+      "segments": [
+        { "s": 1, "e": 31, "speaker": "nephi1", "to": "laman", "note": "Nephi interprets Isaiah for his brothers" }
+      ]
+    }
+  ]
+}

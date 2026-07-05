@@ -1,0 +1,475 @@
+{
+  "book": "2 Nephi",
+  "slug": "2-nephi",
+  "narrator": "nephi1",
+  "plates": "small-plates",
+  "chapters": [
+    {
+      "c": 1,
+      "title": "A Land of Liberty Forever",
+      "synopsis": "Lehi, near death, reviews the Lord's mercies and declares that the promised land is a land of liberty, consecrated to those who keep the commandments. He pleads with Laman and Lemuel to awake from a deep sleep, shake off the awful chains that bind them, and put on the armor of righteousness. He closes by blessing Zoram for his faithfulness to Nephi.",
+      "years": "between 588 and 570 BC",
+      "yearNum": -588,
+      "approx": true,
+      "place": "land-of-first-inheritance",
+      "themes": ["liberty", "covenant", "family"],
+      "characters": ["lehi1", "nephi1", "laman", "lemuel", "zoram1"],
+      "segments": [
+        { "s": 1, "e": 1, "speaker": "nephi1", "to": "reader", "note": "Nephi introduces Lehi's final teachings" },
+        { "s": 2, "e": 29, "speaker": "lehi1", "to": "laman", "note": "Lehi pleads with his rebellious sons" },
+        { "s": 30, "e": 32, "speaker": "lehi1", "to": "zoram1", "note": "Lehi blesses Zoram" }
+      ]
+    },
+    {
+      "c": 2,
+      "title": "Opposition, Agency, and the Redeemer",
+      "synopsis": "Lehi teaches his son Jacob that redemption comes through the Holy Messiah, who offers Himself a sacrifice to answer the ends of the law. He explains that there must be opposition in all things, that Adam fell that men might be, and that men are that they might have joy. Because they are redeemed from the Fall, all people are free to choose liberty and eternal life or captivity and death.",
+      "years": "between 588 and 570 BC",
+      "yearNum": -588,
+      "approx": true,
+      "place": null,
+      "themes": ["atonement", "justice-and-mercy", "resurrection"],
+      "characters": ["lehi1", "jacob1"],
+      "segments": [
+        { "s": 1, "e": 30, "speaker": "lehi1", "to": "jacob1", "note": "Lehi teaches the Fall, Atonement, and agency" }
+      ]
+    },
+    {
+      "c": 3,
+      "title": "Joseph Prophesies of a Choice Seer",
+      "synopsis": "Lehi blesses his youngest son Joseph and recounts the prophecies of Joseph of Egypt. Ancient Joseph foresaw Moses and also a choice seer in the latter days, named Joseph after his father, who would bring forth the Lord's word to Lehi's descendants. The writings of Judah and of Joseph's seed will grow together to confound false doctrine and establish peace.",
+      "years": "between 588 and 570 BC",
+      "yearNum": -588,
+      "approx": true,
+      "place": null,
+      "themes": ["prophecy", "records", "covenant"],
+      "characters": ["lehi1", "joseph1"],
+      "segments": [
+        { "s": 1, "e": 25, "speaker": "lehi1", "to": "joseph1", "note": "Lehi recounts Joseph of Egypt's prophecies" }
+      ]
+    },
+    {
+      "c": 4,
+      "title": "Lehi's Death and Nephi's Psalm",
+      "synopsis": "Lehi blesses the children of Laman, Lemuel, and Ishmael, then dies and is buried. Laman and Lemuel are soon angry with Nephi, who pours out his soul in a psalm: he laments his weaknesses, remembers how greatly the Lord has blessed him, and resolves to trust in God forever. His grief turns to rejoicing as he pleads for the Lord to encircle him in the robe of righteousness.",
+      "years": "between 588 and 570 BC",
+      "yearNum": -587,
+      "approx": true,
+      "place": "land-of-first-inheritance",
+      "themes": ["prayer", "hope", "repentance", "family"],
+      "characters": ["lehi1", "nephi1", "laman", "lemuel", "sam"],
+      "segments": [
+        { "s": 1, "e": 2, "speaker": "nephi1", "to": "reader", "note": "Lehi gathers his posterity" },
+        { "s": 3, "e": 11, "speaker": "lehi1", "to": "laman", "note": "Lehi blesses his sons' children" },
+        { "s": 12, "e": 14, "speaker": "nephi1", "to": "reader", "note": "Lehi dies; anger rises against Nephi" },
+        { "s": 15, "e": 35, "speaker": "nephi1", "to": "the-lord", "note": "Nephi's psalm of sorrow and trust" }
+      ]
+    },
+    {
+      "c": 5,
+      "title": "The Nephites Separate and Prosper",
+      "synopsis": "Warned by the Lord that his brothers seek his life, Nephi flees into the wilderness with all who will follow him. His people build a temple like Solomon's, keep the law of Moses, and live after the manner of happiness, while the Lamanites are cut off from the Lord's presence. Nephi consecrates Jacob and Joseph as priests and teachers and begins engraving this second record.",
+      "years": "between 588 and 559 BC",
+      "yearNum": -575,
+      "approx": true,
+      "place": "city-of-nephi",
+      "themes": ["obedience", "deliverance", "records"],
+      "characters": ["nephi1", "jacob1", "joseph1", "sam", "zoram1", "laman", "lemuel"],
+      "segments": [
+        { "s": 1, "e": 34, "speaker": "nephi1", "to": "reader", "note": "Flight, the city of Nephi, and the temple" }
+      ]
+    },
+    {
+      "c": 6,
+      "title": "Jacob Teaches of Israel's Redemption",
+      "synopsis": "Jacob, consecrated by Nephi, begins a great sermon by reading Isaiah's words about the Gentiles nursing scattered Israel. He testifies that Jerusalem was destroyed as Lehi foretold, that the Jews will be scattered and smitten, and that the Lord will remember His covenant and gather them home. Those who wait for the Messiah and fight not against Zion will not be ashamed.",
+      "years": "between 559 and 545 BC",
+      "yearNum": -559,
+      "approx": true,
+      "place": "city-of-nephi",
+      "themes": ["gathering-of-israel", "covenant", "prophecy"],
+      "characters": ["jacob1", "nephi1", "isaiah"],
+      "segments": [
+        { "s": 1, "e": 18, "speaker": "jacob1", "to": "nephites", "note": "Jacob reads and expounds Isaiah 49" }
+      ]
+    },
+    {
+      "c": 7,
+      "title": "The Lord God Will Help Me",
+      "synopsis": "Jacob quotes Isaiah, who asks whether the Lord's hand is shortened that it cannot redeem. The Messiah speaks as one who gives His back to the smiters and hides not His face from shame and spitting, trusting wholly in the Lord God. Those who fear the Lord may walk in darkness yet stay themselves upon their God.",
+      "years": "between 559 and 545 BC",
+      "yearNum": -559,
+      "approx": true,
+      "place": null,
+      "themes": ["atonement", "deliverance", "hope"],
+      "characters": ["isaiah"],
+      "segments": [
+        { "s": 1, "e": 11, "speaker": "isaiah", "to": "house-of-israel", "note": "Isaiah 50: the suffering, faithful Servant" }
+      ]
+    },
+    {
+      "c": 8,
+      "title": "Awake, Awake, Put On Strength, O Zion",
+      "synopsis": "Isaiah calls covenant Israel to look to the rock from which they were hewn, to Abraham and Sarah, for the Lord will comfort Zion. The redeemed of the Lord will return with singing, and everlasting joy will be upon their heads. Jerusalem is commanded to awake, put on her beautiful garments, and drink no more from the cup of the Lord's fury.",
+      "years": "between 559 and 545 BC",
+      "yearNum": -559,
+      "approx": true,
+      "place": null,
+      "themes": ["gathering-of-israel", "hope", "covenant"],
+      "characters": ["isaiah"],
+      "segments": [
+        { "s": 1, "e": 25, "speaker": "isaiah", "to": "house-of-israel", "note": "Isaiah 51-52: the redeemed return to Zion" }
+      ]
+    },
+    {
+      "c": 9,
+      "title": "O How Great the Plan of Our God",
+      "synopsis": "Jacob delivers one of scripture's great discourses on the Atonement, praising the wisdom, mercy, and greatness of God. Without an infinite atonement, death and hell would claim every soul, but Christ suffers the pains of all so that resurrection and redemption can come to everyone. Jacob pronounces woes on the unrepentant, invites all to come and buy milk and honey without money, and testifies that the keeper of the gate is the Holy One of Israel.",
+      "years": "between 559 and 545 BC",
+      "yearNum": -559,
+      "approx": true,
+      "place": null,
+      "themes": ["atonement", "resurrection", "judgment", "repentance"],
+      "characters": ["jacob1", "jesus-christ"],
+      "segments": [
+        { "s": 1, "e": 54, "speaker": "jacob1", "to": "nephites", "note": "Jacob's discourse on the infinite Atonement" }
+      ]
+    },
+    {
+      "c": 10,
+      "title": "Christ Shall Come Among the Jews",
+      "synopsis": "Jacob concludes his sermon, declaring that Christ, the only name whereby men can be saved, will come among the Jews and be crucified by the only nation that would crucify its God. Israel will be scattered, but the Lord will remember His covenant, and this land will be a land of liberty with no kings upon it, fortified against all other nations. Jacob urges his people to cheer up their hearts and reconcile themselves to the will of God.",
+      "years": "between 559 and 545 BC",
+      "yearNum": -559,
+      "approx": true,
+      "place": null,
+      "themes": ["covenant", "gathering-of-israel", "atonement", "liberty"],
+      "characters": ["jacob1", "jesus-christ"],
+      "segments": [
+        { "s": 1, "e": 25, "speaker": "jacob1", "to": "nephites", "note": "Covenants, the promised land, and reconciliation" }
+      ]
+    },
+    {
+      "c": 11,
+      "title": "Nephi Delights in the Words of Isaiah",
+      "synopsis": "Nephi explains why he writes more of Isaiah: his soul delights in proving to his people that Christ will come. He, Jacob, and Isaiah have all seen the Redeemer, giving three witnesses of His reality. Nephi delights in the covenants, the grace, and the great and eternal plan of deliverance from death.",
+      "years": "between 559 and 545 BC",
+      "yearNum": -559,
+      "approx": true,
+      "place": null,
+      "themes": ["prophecy", "atonement", "records"],
+      "characters": ["nephi1", "jacob1", "isaiah"],
+      "segments": [
+        { "s": 1, "e": 8, "speaker": "nephi1", "to": "reader", "note": "Three witnesses of Christ; why Isaiah follows" }
+      ]
+    },
+    {
+      "c": 12,
+      "title": "The Mountain of the Lord's House",
+      "synopsis": "Isaiah sees the latter-day temple established in the top of the mountains, with all nations flowing unto it. The Lord will judge among the nations, and they will beat their swords into plowshares. The day of the Lord will humble the proud and lofty, and idols He will utterly abolish.",
+      "years": "between 559 and 545 BC",
+      "yearNum": -558,
+      "approx": true,
+      "place": null,
+      "themes": ["prophecy", "gathering-of-israel", "judgment"],
+      "characters": ["isaiah"],
+      "segments": [
+        { "s": 1, "e": 22, "speaker": "isaiah", "to": "house-of-israel", "note": "Isaiah 2: the temple and the day of the Lord" }
+      ]
+    },
+    {
+      "c": 13,
+      "title": "Judah Judged for Pride",
+      "synopsis": "Isaiah prophesies that the Lord will take away Judah's and Jerusalem's stay and staff because their tongues and doings have been against Him. Leaders who grind the faces of the poor will be judged, for the Lord stands to plead for His people. The haughty daughters of Zion will lose their finery, and desolation will replace beauty.",
+      "years": "between 559 and 545 BC",
+      "yearNum": -558,
+      "approx": true,
+      "place": null,
+      "themes": ["judgment", "pride-cycle", "justice-and-mercy"],
+      "characters": ["isaiah"],
+      "segments": [
+        { "s": 1, "e": 26, "speaker": "isaiah", "to": "house-of-israel", "note": "Isaiah 3: judgment on proud Judah" }
+      ]
+    },
+    {
+      "c": 14,
+      "title": "Zion Cleansed and Defended",
+      "synopsis": "Isaiah looks past judgment to the day when the branch of the Lord is beautiful and glorious. Zion's survivors will be called holy once the Lord has washed away her filth by the spirit of judgment and burning. Over every dwelling place of Zion will be a cloud by day and flaming fire by night, a defense and a refuge.",
+      "years": "between 559 and 545 BC",
+      "yearNum": -558,
+      "approx": true,
+      "place": null,
+      "themes": ["hope", "judgment", "covenant"],
+      "characters": ["isaiah"],
+      "segments": [
+        { "s": 1, "e": 6, "speaker": "isaiah", "to": "house-of-israel", "note": "Isaiah 4: Zion's cleansing and protection" }
+      ]
+    },
+    {
+      "c": 15,
+      "title": "The Song of the Vineyard",
+      "synopsis": "Isaiah sings of a well-beloved's vineyard that brought forth wild grapes despite every care, a figure of Israel's ingratitude. He pronounces woes on those who join house to house, call evil good and good evil, and are wise in their own eyes. The Lord will lift an ensign to the nations and hiss for a swift, unwearied army from the ends of the earth.",
+      "years": "between 559 and 545 BC",
+      "yearNum": -558,
+      "approx": true,
+      "place": null,
+      "themes": ["judgment", "apostasy", "gathering-of-israel"],
+      "characters": ["isaiah"],
+      "segments": [
+        { "s": 1, "e": 30, "speaker": "isaiah", "to": "house-of-israel", "note": "Isaiah 5: the vineyard and the woes" }
+      ]
+    },
+    {
+      "c": 16,
+      "title": "Isaiah's Call in the Temple",
+      "synopsis": "Isaiah sees the Lord on His throne, high and lifted up, with seraphim crying holy, holy, holy. Confessing himself a man of unclean lips, he is cleansed by a live coal from the altar. When the Lord asks whom He shall send, Isaiah answers: here am I, send me.",
+      "years": "between 559 and 545 BC",
+      "yearNum": -558,
+      "approx": true,
+      "place": null,
+      "themes": ["revelation", "humility", "prophecy"],
+      "characters": ["isaiah"],
+      "segments": [
+        { "s": 1, "e": 13, "speaker": "isaiah", "to": "house-of-israel", "note": "Isaiah 6: the throne vision and call" }
+      ]
+    },
+    {
+      "c": 17,
+      "title": "The Sign of Immanuel",
+      "synopsis": "When Syria and Israel league against Judah, Isaiah assures King Ahaz that their plan will not stand. The Lord Himself gives a sign: a virgin shall conceive and bear a son and shall call his name Immanuel. Before the child knows to refuse evil and choose good, the threatening kings will be swept away by Assyria.",
+      "years": "between 559 and 545 BC",
+      "yearNum": -558,
+      "approx": true,
+      "place": null,
+      "themes": ["prophecy", "faith", "deliverance"],
+      "characters": ["isaiah"],
+      "segments": [
+        { "s": 1, "e": 25, "speaker": "isaiah", "to": "house-of-israel", "note": "Isaiah 7: Ahaz and the Immanuel sign" }
+      ]
+    },
+    {
+      "c": 18,
+      "title": "A Stone of Stumbling, a Sanctuary",
+      "synopsis": "Because Judah refuses the gently flowing waters of Shiloah, the Lord will bring the overwhelming flood of Assyria upon the land. Isaiah warns against confederacies and counsels his hearers to sanctify the Lord of Hosts, who will be a sanctuary to some and a stone of stumbling to both houses of Israel. Seek not peeping wizards, he says, but the law and the testimony.",
+      "years": "between 559 and 545 BC",
+      "yearNum": -558,
+      "approx": true,
+      "place": null,
+      "themes": ["faith", "judgment", "revelation"],
+      "characters": ["isaiah"],
+      "segments": [
+        { "s": 1, "e": 22, "speaker": "isaiah", "to": "house-of-israel", "note": "Isaiah 8: trust the Lord, not confederacies" }
+      ]
+    },
+    {
+      "c": 19,
+      "title": "Unto Us a Child Is Born",
+      "synopsis": "The people who walked in darkness see a great light, for unto us a child is born whose name is Wonderful, Counselor, The Mighty God, The Everlasting Father, The Prince of Peace. Of the increase of His government and peace there is no end. Yet because Israel does not repent, the refrain sounds again and again: His hand is stretched out still.",
+      "years": "between 559 and 545 BC",
+      "yearNum": -558,
+      "approx": true,
+      "place": null,
+      "themes": ["prophecy", "atonement", "judgment"],
+      "characters": ["isaiah"],
+      "segments": [
+        { "s": 1, "e": 21, "speaker": "isaiah", "to": "house-of-israel", "note": "Isaiah 9: the Prince of Peace foretold" }
+      ]
+    },
+    {
+      "c": 20,
+      "title": "Assyria, the Rod of God's Anger",
+      "synopsis": "The Lord uses Assyria as the rod of His anger to chasten a hypocritical nation, though Assyria means not so in its heart. When the work is done, the Lord will punish the Assyrian king's boastful pride, for the ax cannot boast against him who hews with it. A remnant of Jacob will return to the mighty God, and the Lord will lop the bough with terror.",
+      "years": "between 559 and 545 BC",
+      "yearNum": -558,
+      "approx": true,
+      "place": null,
+      "themes": ["judgment", "pride-cycle", "deliverance"],
+      "characters": ["isaiah"],
+      "segments": [
+        { "s": 1, "e": 34, "speaker": "isaiah", "to": "house-of-israel", "note": "Isaiah 10: Assyria's rise and fall" }
+      ]
+    },
+    {
+      "c": 21,
+      "title": "The Stem of Jesse and Millennial Peace",
+      "synopsis": "A rod grows from the stem of Jesse, and the Spirit of the Lord rests upon Him with wisdom, understanding, and might. In that day the wolf dwells with the lamb, and nothing hurts or destroys in all the holy mountain, for the earth is full of the knowledge of the Lord. The Lord sets His hand a second time to recover the remnant of His people and raises an ensign for the nations.",
+      "years": "between 559 and 545 BC",
+      "yearNum": -558,
+      "approx": true,
+      "place": null,
+      "themes": ["prophecy", "gathering-of-israel", "peace"],
+      "characters": ["isaiah"],
+      "segments": [
+        { "s": 1, "e": 16, "speaker": "isaiah", "to": "house-of-israel", "note": "Isaiah 11: the Branch and the gathering" }
+      ]
+    },
+    {
+      "c": 22,
+      "title": "A Song of Praise for That Day",
+      "synopsis": "Isaiah gives Israel a song for the day of redemption: O Lord, I will praise thee; thine anger is turned away. With joy shall ye draw water out of the wells of salvation. Great is the Holy One of Israel in the midst of Zion.",
+      "years": "between 559 and 545 BC",
+      "yearNum": -558,
+      "approx": true,
+      "place": null,
+      "themes": ["hope", "deliverance", "peace"],
+      "characters": ["isaiah"],
+      "segments": [
+        { "s": 1, "e": 6, "speaker": "isaiah", "to": "house-of-israel", "note": "Isaiah 12: a millennial hymn of praise" }
+      ]
+    },
+    {
+      "c": 23,
+      "title": "The Burden of Babylon",
+      "synopsis": "Isaiah pronounces the doom of Babylon, the glory of kingdoms, which will fall as Sodom and Gomorrah fell. The day of the Lord comes cruel with wrath, when the stars withhold their light and the earth is shaken out of her place. Babylon's destruction stands as a type of the judgment on the wicked world at the Lord's coming.",
+      "years": "between 559 and 545 BC",
+      "yearNum": -558,
+      "approx": true,
+      "place": null,
+      "themes": ["judgment", "prophecy", "apostasy"],
+      "characters": ["isaiah"],
+      "segments": [
+        { "s": 1, "e": 22, "speaker": "isaiah", "to": "house-of-israel", "note": "Isaiah 13: Babylon's fall foretold" }
+      ]
+    },
+    {
+      "c": 24,
+      "title": "Lucifer Fallen from Heaven",
+      "synopsis": "The Lord will yet have mercy on Jacob, and Israel will take up a taunt against the fallen king of Babylon. How art thou fallen from heaven, O Lucifer, son of the morning, who said in his heart he would exalt his throne above the stars of God, yet is brought down to hell. The Lord of Hosts has purposed, and none shall disannul it.",
+      "years": "between 559 and 545 BC",
+      "yearNum": -558,
+      "approx": true,
+      "place": null,
+      "themes": ["judgment", "pride-cycle", "gathering-of-israel"],
+      "characters": ["isaiah"],
+      "segments": [
+        { "s": 1, "e": 32, "speaker": "isaiah", "to": "house-of-israel", "note": "Isaiah 14: the fall of Lucifer and Babylon" }
+      ]
+    },
+    {
+      "c": 25,
+      "title": "We Talk of Christ, We Rejoice in Christ",
+      "synopsis": "Nephi glories in plainness and gives a key for understanding Isaiah, prophesying according to his own plainness. He foretells Christ's coming six hundred years from Lehi's departure, the Jews' rejection and scattering, and their eventual belief in Him. His people write and talk of Christ so their children may know to what source they may look for a remission of sins, for it is by grace they are saved, after all they can do.",
+      "years": "between 559 and 545 BC",
+      "yearNum": -557,
+      "approx": true,
+      "place": null,
+      "themes": ["prophecy", "atonement", "records"],
+      "characters": ["nephi1", "jesus-christ", "isaiah", "moses"],
+      "segments": [
+        { "s": 1, "e": 30, "speaker": "nephi1", "to": "reader", "note": "Nephi's plain prophecy of Christ" }
+      ]
+    },
+    {
+      "c": 26,
+      "title": "Christ Shall Minister to the Nephites",
+      "synopsis": "Nephi prophesies that Christ will visit his descendants after His resurrection, following signs of His birth and death and the destruction of the wicked. He foresees his own people's eventual destruction and the latter days, when churches are built up for gain and the Lord's marvelous work comes forth. He declares that the Lord invites all to come unto Him, black and white, bond and free, male and female, for all are alike unto God.",
+      "years": "between 559 and 545 BC",
+      "yearNum": -557,
+      "approx": true,
+      "place": null,
+      "themes": ["prophecy", "charity", "judgment"],
+      "characters": ["nephi1", "jesus-christ"],
+      "segments": [
+        { "s": 1, "e": 33, "speaker": "nephi1", "to": "reader", "note": "Christ's visit foretold; all are alike unto God" }
+      ]
+    },
+    {
+      "c": 27,
+      "title": "A Marvelous Work and a Wonder",
+      "synopsis": "Nephi likens Isaiah's prophecy of a sealed book to the last days, when the words of a slumbering nation speak from the dust. The book is delivered to an unlearned man, three witnesses behold it by the power of God, and the learned man who demands the sealed words is refused. Through it the Lord performs a marvelous work and a wonder, and the meek increase their joy in the Holy One of Israel.",
+      "years": "between 559 and 545 BC",
+      "yearNum": -557,
+      "approx": true,
+      "place": null,
+      "themes": ["records", "prophecy", "revelation"],
+      "characters": ["nephi1", "isaiah"],
+      "segments": [
+        { "s": 1, "e": 35, "speaker": "nephi1", "to": "reader", "note": "The sealed book and its witnesses" }
+      ]
+    },
+    {
+      "c": 28,
+      "title": "False Doctrines of the Last Days",
+      "synopsis": "Nephi describes the churches of the last days that teach with learning but deny the power of God, saying eat, drink, and be merry, for tomorrow we die. The devil rages in the hearts of some, pacifies and lulls others into carnal security, and leads them carefully down to hell. Wo unto those who say we have enough of God's word, for to him that receiveth the Lord gives more.",
+      "years": "between 559 and 545 BC",
+      "yearNum": -557,
+      "approx": true,
+      "place": null,
+      "themes": ["apostasy", "pride-cycle", "judgment"],
+      "characters": ["nephi1"],
+      "segments": [
+        { "s": 1, "e": 32, "speaker": "nephi1", "to": "reader", "note": "Warnings against latter-day false churches" }
+      ]
+    },
+    {
+      "c": 29,
+      "title": "A Bible! We Have Got a Bible",
+      "synopsis": "Nephi quotes the Lord's answer to the Gentiles who will reject additional scripture, crying that a Bible is enough. The Lord declares that He speaks the same words to all nations and commands all men to write them, and He judges the world out of the books that are written. The testimony of two nations is a witness that He is God, and His work is not yet finished.",
+      "years": "between 559 and 545 BC",
+      "yearNum": -557,
+      "approx": true,
+      "place": null,
+      "themes": ["records", "revelation", "gathering-of-israel"],
+      "characters": ["nephi1"],
+      "segments": [
+        { "s": 1, "e": 14, "speaker": "nephi1", "to": "reader", "note": "Nephi quotes the Lord on more scripture" }
+      ]
+    },
+    {
+      "c": 30,
+      "title": "The Covenant People in the Last Days",
+      "synopsis": "Nephi teaches that the Gentiles who repent are the covenant people of the Lord, and the Jews who believe will begin to be gathered. The words of the book will restore knowledge to Lehi's descendants, who will become a delightsome people. Quoting Isaiah, Nephi describes the millennial day when the earth rests and Satan has no power over hearts for a long time.",
+      "years": "between 559 and 545 BC",
+      "yearNum": -557,
+      "approx": true,
+      "place": null,
+      "themes": ["gathering-of-israel", "covenant", "peace"],
+      "characters": ["nephi1", "isaiah"],
+      "segments": [
+        { "s": 1, "e": 18, "speaker": "nephi1", "to": "reader", "note": "Gathering, restoration, and millennial peace" }
+      ]
+    },
+    {
+      "c": 31,
+      "title": "The Doctrine of Christ",
+      "synopsis": "Nephi teaches the doctrine of Christ in plainness: the Holy One of Israel, though sinless, was baptized to fulfil all righteousness, showing all people the gate they must enter. After baptism by water and fire comes the strait and narrow path, and those who press forward feasting on the word of Christ and endure to the end shall have eternal life. This, Nephi testifies, is the only and true doctrine of the Father, the Son, and the Holy Ghost.",
+      "years": "between 559 and 545 BC",
+      "yearNum": -545,
+      "approx": true,
+      "place": null,
+      "themes": ["baptism", "atonement", "endurance"],
+      "characters": ["nephi1", "jesus-christ"],
+      "segments": [
+        { "s": 1, "e": 21, "speaker": "nephi1", "to": "reader", "note": "Baptism, the Holy Ghost, and enduring" }
+      ]
+    },
+    {
+      "c": 32,
+      "title": "Feast upon the Words of Christ",
+      "synopsis": "Nephi anticipates his people's question of what to do after entering the way. Angels speak by the power of the Holy Ghost, and the words of Christ will tell you all things what ye should do. He commands his hearers to pray always and not to perform anything unto the Lord without first praying that He consecrate the performance.",
+      "years": "between 559 and 545 BC",
+      "yearNum": -545,
+      "approx": true,
+      "place": null,
+      "themes": ["prayer", "revelation", "endurance"],
+      "characters": ["nephi1"],
+      "segments": [
+        { "s": 1, "e": 9, "speaker": "nephi1", "to": "reader", "note": "The words of Christ and constant prayer" }
+      ]
+    },
+    {
+      "c": 33,
+      "title": "Nephi's Farewell Testimony",
+      "synopsis": "Nephi closes his record, acknowledging he is not mighty in writing as in speaking, yet the words he has written in weakness will be made strong. He prays continually for his people, writes so as to persuade them to do good, and glories in plainness, truth, and Jesus. He bids farewell until the great judgment day, when his readers will stand with him face to face before the bar of Christ.",
+      "years": "between 559 and 545 BC",
+      "yearNum": -545,
+      "approx": true,
+      "place": null,
+      "themes": ["records", "hope", "judgment"],
+      "characters": ["nephi1", "jesus-christ"],
+      "segments": [
+        { "s": 1, "e": 15, "speaker": "nephi1", "to": "reader", "note": "Nephi seals his testimony and bids farewell" }
+      ]
+    }
+  ]
+}

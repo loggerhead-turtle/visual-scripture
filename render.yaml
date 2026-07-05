@@ -1,0 +1,15 @@
+services:
+  # Free static site on Render — no server, no build step.
+  - type: web
+    name: visual-scripture
+    runtime: static
+    staticPublishPath: .
+    buildCommand: ""
+    headers:
+      - path: /data/*
+        name: Cache-Control
+        value: public, max-age=3600
+    routes:
+      - type: rewrite
+        source: /*
+        destination: /index.html

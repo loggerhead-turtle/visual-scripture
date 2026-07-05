@@ -1,0 +1,23 @@
+{
+  "book": "Enos",
+  "slug": "enos",
+  "narrator": "enos1",
+  "plates": "small-plates",
+  "chapters": [
+    {
+      "c": 1,
+      "title": "The Wrestle of Enos Before God",
+      "synopsis": "While hunting in the forest, Enos remembers his father Jacob's words about eternal life and prays all day and into the night until a voice declares his sins forgiven through faith in Christ. His concern turns outward, first to the Nephites and then to the hostile Lamanites, and he obtains the Lord's covenant that the records will be preserved and brought to the Lamanites in a future day. Enos spends his life prophesying and testifying, and closes rejoicing in the day he will see his Redeemer's face.",
+      "years": "about 420 BC",
+      "yearNum": -420,
+      "approx": true,
+      "place": "city-of-nephi",
+      "themes": ["prayer", "repentance", "records", "covenant"],
+      "characters": ["enos1", "jacob1"],
+      "segments": [
+        { "s": 1, "e": 18, "speaker": "enos1", "to": "reader", "note": "Enos recounts his mighty prayer and forgiveness" },
+        { "s": 19, "e": 27, "speaker": "enos1", "to": "reader", "note": "A life of ministry; farewell in hope" }
+      ]
+    }
+  ]
+}

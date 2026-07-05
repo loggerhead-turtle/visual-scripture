@@ -1,0 +1,245 @@
+{
+  "book": "Helaman",
+  "slug": "helaman",
+  "narrator": "mormon",
+  "plates": "mormon-abridgment",
+  "chapters": [
+    {
+      "c": 1,
+      "title": "Assassination and Invasion",
+      "synopsis": "A disputed election for chief judge ends when Kishkumen murders Pahoran's son in the judgment seat. While the Nephites quarrel, a Lamanite army seizes Zarahemla itself. Moronihah retakes the capital, but the political cracks that let it fall remain.",
+      "years": "52-50 BC",
+      "yearNum": -51,
+      "approx": false,
+      "place": "zarahemla",
+      "themes": ["secret-combinations", "war", "leadership"],
+      "characters": ["pahoran", "kishkumen", "moronihah"],
+      "segments": [
+        { "s": 1, "e": 34, "speaker": "mormon", "to": "reader", "note": "Mormon narrates murder and invasion" }
+      ]
+    },
+    {
+      "c": 2,
+      "title": "Gadianton Founds His Band",
+      "synopsis": "Helaman, son of Helaman, becomes chief judge, and Kishkumen plots to kill him too. A servant foils the plot, and Gadianton leads the assassins into hiding. Mormon warns that this secret band will one day prove the Nephites' ruin.",
+      "years": "50-49 BC",
+      "yearNum": -50,
+      "approx": false,
+      "place": "zarahemla",
+      "themes": ["secret-combinations", "justice-and-mercy"],
+      "characters": ["helaman2", "kishkumen", "gadianton"],
+      "segments": [
+        { "s": 1, "e": 14, "speaker": "mormon", "to": "reader", "note": "Mormon narrates Gadianton's rise" }
+      ]
+    },
+    {
+      "c": 3,
+      "title": "Migrations and Quiet Prosperity",
+      "synopsis": "Thousands of Nephites migrate into the land northward, building with cement and keeping many records. Despite waves of pride and contention, the humble members of the church prosper. Helaman judges righteously and raises two sons, Nephi and Lehi.",
+      "years": "49-39 BC",
+      "yearNum": -44,
+      "approx": false,
+      "place": "zarahemla",
+      "themes": ["records", "pride-cycle", "humility"],
+      "characters": ["helaman2", "nephi2", "lehi3"],
+      "segments": [
+        { "s": 1, "e": 37, "speaker": "mormon", "to": "reader", "note": "Mormon narrates migrations and church growth" }
+      ]
+    },
+    {
+      "c": 4,
+      "title": "Zarahemla Lost to Pride",
+      "synopsis": "Nephite dissenters stir the Lamanites to war, and the Nephites are driven from Zarahemla and all their southern lands. Moronihah regains only half of what was lost. Mormon traces the defeat directly to pride, boasting, and forgetting the Lord.",
+      "years": "38-30 BC",
+      "yearNum": -34,
+      "approx": false,
+      "place": "zarahemla",
+      "themes": ["pride-cycle", "war", "apostasy"],
+      "characters": ["moronihah", "nephi2", "lehi3"],
+      "segments": [
+        { "s": 1, "e": 26, "speaker": "mormon", "to": "reader", "note": "Mormon narrates loss of the southern lands" }
+      ]
+    },
+    {
+      "c": 5,
+      "title": "Fire, Darkness, and the Rock",
+      "synopsis": "Nephi gives up the judgment seat to preach with his brother Lehi, remembering their father's counsel to build on the rock of the Redeemer. Imprisoned in the land of Nephi, they are encircled by fire while a voice of perfect mildness calls the Lamanites to repent. About three hundred witnesses are converted, and most of the Lamanites lay down their arms.",
+      "years": "30 BC",
+      "yearNum": -30,
+      "approx": false,
+      "place": "city-of-nephi",
+      "themes": ["conversion", "revelation", "missionary-work", "faith"],
+      "characters": ["nephi2", "lehi3", "helaman2"],
+      "segments": [
+        { "s": 1, "e": 4, "speaker": "mormon", "to": "reader", "note": "Nephi yields the judgment seat" },
+        { "s": 5, "e": 13, "speaker": "helaman2", "to": "nephi2", "note": "Helaman counsels his sons Nephi and Lehi" },
+        { "s": 14, "e": 28, "speaker": "mormon", "to": "reader", "note": "Preaching, prison, and encircling fire" },
+        { "s": 29, "e": 33, "speaker": "the-lord", "to": "lamanites", "note": "A still voice calls the prison to repentance" },
+        { "s": 34, "e": 52, "speaker": "mormon", "to": "reader", "note": "Three hundred converted; Lamanites disarm" }
+      ]
+    },
+    {
+      "c": 6,
+      "title": "Righteous Lamanites, Rising Robbers",
+      "synopsis": "For a season the Lamanites grow more righteous than the Nephites, and free trade brings peace and wealth. But prosperity breeds pride, and the Gadianton robbers spread until they seize the government's levers among the Nephites. Mormon exposes Satan as the author of these secret oaths.",
+      "years": "29-23 BC",
+      "yearNum": -26,
+      "approx": false,
+      "place": "zarahemla",
+      "themes": ["secret-combinations", "pride-cycle", "conversion"],
+      "characters": ["gadianton", "nephi2", "lehi3"],
+      "segments": [
+        { "s": 1, "e": 41, "speaker": "mormon", "to": "reader", "note": "Mormon contrasts Lamanite faith with Nephite decay" }
+      ]
+    },
+    {
+      "c": 7,
+      "title": "Nephi Prays on His Tower",
+      "synopsis": "Returning from a rejected mission northward, Nephi finds Zarahemla ruled by Gadianton judges and pours out his grief on his garden tower. A crowd gathers, and he boldly names their secret sins. He warns that unless they repent, the Lamanites will be more blessed than they.",
+      "years": "23-21 BC",
+      "yearNum": -22,
+      "approx": false,
+      "place": "zarahemla",
+      "themes": ["repentance", "prophecy", "secret-combinations"],
+      "characters": ["nephi2"],
+      "segments": [
+        { "s": 1, "e": 12, "speaker": "mormon", "to": "reader", "note": "Nephi returns and laments on his tower" },
+        { "s": 13, "e": 29, "speaker": "nephi2", "to": "multitude", "note": "Nephi rebukes the gathered crowd" }
+      ]
+    },
+    {
+      "c": 8,
+      "title": "All the Prophets Testify",
+      "synopsis": "Corrupt judges try to turn the crowd against Nephi, but he presses on, marshaling Moses, Abraham, Zenos, and all the prophets as witnesses of the coming Redeemer. Then he stuns his hearers by revealing that their chief judge lies murdered in his own blood, slain by his brother.",
+      "years": "23-21 BC",
+      "yearNum": -22,
+      "approx": false,
+      "place": "zarahemla",
+      "themes": ["prophecy", "revelation", "judgment"],
+      "characters": ["nephi2", "moses", "zenos", "zenock", "isaiah"],
+      "segments": [
+        { "s": 1, "e": 10, "speaker": "mormon", "to": "reader", "note": "Judges stir the people against Nephi" },
+        { "s": 11, "e": 28, "speaker": "nephi2", "to": "multitude", "note": "All prophets testified of Christ; a judge lies slain" }
+      ]
+    },
+    {
+      "c": 9,
+      "title": "The Murder Revealed",
+      "synopsis": "Five runners find the chief judge dead exactly as Nephi said, and Nephi himself is arrested as a conspirator. He directs the people to Seantum, the murderer's own brother, whose confession proves the prophecy. Some hail Nephi as a prophet, others as a god, but most simply walk away.",
+      "years": "23-21 BC",
+      "yearNum": -22,
+      "approx": false,
+      "place": "zarahemla",
+      "themes": ["prophecy", "judgment", "revelation"],
+      "characters": ["nephi2"],
+      "segments": [
+        { "s": 1, "e": 20, "speaker": "mormon", "to": "reader", "note": "Five messengers find the judge slain" },
+        { "s": 21, "e": 36, "speaker": "nephi2", "to": "multitude", "note": "Nephi exposes Seantum as the murderer" },
+        { "s": 37, "e": 41, "speaker": "mormon", "to": "reader", "note": "Confession confirms the prophecy" }
+      ]
+    },
+    {
+      "c": 10,
+      "title": "The Sealing Power Given",
+      "synopsis": "Walking home cast down, Nephi hears the voice of the Lord bless him for his unwearied service. Because Nephi will ask nothing contrary to God's will, the Lord grants him the sealing power over earth and heaven. Nephi turns straight back to preach, and angels carry him from crowd to crowd.",
+      "years": "21-20 BC",
+      "yearNum": -20,
+      "approx": false,
+      "place": "zarahemla",
+      "themes": ["revelation", "priesthood", "obedience"],
+      "characters": ["nephi2", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 3, "speaker": "mormon", "to": "reader", "note": "Nephi ponders, cast down" },
+        { "s": 4, "e": 11, "speaker": "the-lord", "to": "nephi2", "note": "Blessed art thou; the sealing power given" },
+        { "s": 12, "e": 19, "speaker": "mormon", "to": "reader", "note": "Nephi returns to preach; conveyed by the Spirit" }
+      ]
+    },
+    {
+      "c": 11,
+      "title": "Famine Instead of the Sword",
+      "synopsis": "To halt an endless war, Nephi asks the Lord to replace it with famine, and the starving people finally repent and sweep away the Gadianton band. When Nephi pleads again, rain returns and the land revives. Within a few years, pride creeps back and the robbers reappear in the mountains.",
+      "years": "20-6 BC",
+      "yearNum": -13,
+      "approx": false,
+      "place": "zarahemla",
+      "themes": ["repentance", "pride-cycle", "prayer"],
+      "characters": ["nephi2"],
+      "segments": [
+        { "s": 1, "e": 9, "speaker": "mormon", "to": "reader", "note": "War rages; Nephi asks for famine" },
+        { "s": 10, "e": 16, "speaker": "nephi2", "to": "the-lord", "note": "Nephi pleads for rain upon repentance" },
+        { "s": 17, "e": 38, "speaker": "mormon", "to": "reader", "note": "Rain, revival, and the robbers' return" }
+      ]
+    },
+    {
+      "c": 12,
+      "title": "The Unsteadiness of Men",
+      "synopsis": "Mormon pauses the record to lament how quickly people forget God the moment life gets easy. He contrasts human pride with the obedient dust of the earth, which moves at the Lord's command. Only repentance, he concludes, leads to salvation rather than everlasting loss.",
+      "years": "6 BC",
+      "yearNum": -6,
+      "approx": false,
+      "place": null,
+      "themes": ["pride-cycle", "humility", "repentance"],
+      "characters": [],
+      "segments": [
+        { "s": 1, "e": 26, "speaker": "mormon", "to": "reader", "note": "Mormon's lament on human forgetfulness" }
+      ]
+    },
+    {
+      "c": 13,
+      "title": "Samuel Prophesies from the Wall",
+      "synopsis": "Cast out of Zarahemla, the Lamanite prophet Samuel climbs the city wall and prophesies its destruction within four hundred years unless the people repent. He warns of slippery treasures and of seeking happiness in doing iniquity. The people's real problem, he says, is that they cast out prophets and embrace flatterers.",
+      "years": "6 BC",
+      "yearNum": -6,
+      "approx": false,
+      "place": "zarahemla",
+      "themes": ["prophecy", "repentance", "judgment"],
+      "characters": ["samuel-lamanite"],
+      "segments": [
+        { "s": 1, "e": 4, "speaker": "mormon", "to": "reader", "note": "Samuel returns and mounts the wall" },
+        { "s": 5, "e": 39, "speaker": "samuel-lamanite", "to": "nephites", "note": "Repent or Zarahemla will be destroyed" }
+      ]
+    },
+    {
+      "c": 14,
+      "title": "Signs of Birth and Death",
+      "synopsis": "Samuel gives precise signs of Christ's coming birth: a day, a night, and a day without darkness, and a new star. He then foretells three days of darkness, shattered rocks, and upheaval at Christ's death. All of it, he teaches, is so that people may believe and choose life freely.",
+      "years": "6 BC",
+      "yearNum": -6,
+      "approx": false,
+      "place": "zarahemla",
+      "themes": ["prophecy", "atonement", "resurrection"],
+      "characters": ["samuel-lamanite"],
+      "segments": [
+        { "s": 1, "e": 31, "speaker": "samuel-lamanite", "to": "nephites", "note": "Signs of the Savior's birth and death" }
+      ]
+    },
+    {
+      "c": 15,
+      "title": "The Lamanites' Firm Conversion",
+      "synopsis": "Samuel testifies that converted Lamanites stay firm and steadfast, burying their weapons rather than breaking faith. The Lord will prolong their days and preserve their seed, while the Nephites face utter destruction if they persist in rebellion. Chastening, he teaches, is evidence of God's love.",
+      "years": "6 BC",
+      "yearNum": -6,
+      "approx": false,
+      "place": "zarahemla",
+      "themes": ["conversion", "covenant", "endurance"],
+      "characters": ["samuel-lamanite"],
+      "segments": [
+        { "s": 1, "e": 17, "speaker": "samuel-lamanite", "to": "nephites", "note": "Steadfast Lamanites; warning to the Nephites" }
+      ]
+    },
+    {
+      "c": 16,
+      "title": "Arrows Cannot Touch Him",
+      "synopsis": "Believers seek baptism from Nephi, while others shoot arrows and stones at Samuel on the wall and cannot hit him. Samuel escapes to his own land and is never heard of again among the Nephites. As the signs draw near, skeptics explain them away, and Satan gets hold upon most hearts.",
+      "years": "6-1 BC",
+      "yearNum": -3,
+      "approx": false,
+      "place": "zarahemla",
+      "themes": ["prophecy", "apostasy", "baptism"],
+      "characters": ["samuel-lamanite", "nephi2"],
+      "segments": [
+        { "s": 1, "e": 25, "speaker": "mormon", "to": "reader", "note": "Samuel escapes; unbelief hardens before the signs" }
+      ]
+    }
+  ]
+}

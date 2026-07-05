@@ -1,0 +1,62 @@
+{
+  "allegories": [
+    {
+      "id": "tree-of-life",
+      "title": "Lehi's Dream — The Tree of Life",
+      "ref": { "slug": "1-nephi", "c": 8 },
+      "interpretationRef": { "slug": "1-nephi", "c": 11 },
+      "intro": "Lehi dreams of a dark and dreary wilderness that opens onto a tree 'whose fruit was desirable to make one happy.' Nephi later asks to see the same vision and receives its interpretation — making this the record's only self-interpreting allegory. Every element below is glossed from Nephi's own account in 1 Nephi 11–12 and 15.",
+      "kind": "scene",
+      "symbols": [
+        { "id": "tree", "name": "The Tree of Life", "meaning": "The love of God, 'which sheddeth itself abroad in the hearts of the children of men' — most joyous to the soul (1 Ne 11:21–23).", "x": 700, "y": 280 },
+        { "id": "fruit", "name": "The White Fruit", "meaning": "The greatest of all the gifts of God — eternal life through the Atonement (1 Ne 15:36).", "x": 700, "y": 200 },
+        { "id": "rod", "name": "The Rod of Iron", "meaning": "The word of God — hold fast, and the mists cannot overpower you (1 Ne 15:23–24).", "x": 470, "y": 330 },
+        { "id": "path", "name": "The Strait and Narrow Path", "meaning": "The way to the tree — entered by covenant, walked by endurance (1 Ne 8:20).", "x": 420, "y": 380 },
+        { "id": "mists", "name": "The Mists of Darkness", "meaning": "The temptations of the devil, which blind eyes and harden hearts (1 Ne 12:17).", "x": 380, "y": 240 },
+        { "id": "river", "name": "The Filthy River", "meaning": "The depths of hell — the gulf dividing the wicked from the tree (1 Ne 12:16, 15:26–29).", "x": 520, "y": 470 },
+        { "id": "building", "name": "The Great and Spacious Building", "meaning": "The pride of the world and its mocking — 'the fall thereof was exceedingly great' (1 Ne 11:36).", "x": 170, "y": 150 },
+        { "id": "groups", "name": "The Four Groups", "meaning": "Those who never find the path; those who taste then fall away ashamed; those who hold the rod and partake; those who prefer the building (1 Ne 8:21–33).", "x": 250, "y": 420 }
+      ]
+    },
+    {
+      "id": "olive-tree",
+      "title": "Zenos's Allegory of the Olive Tree",
+      "ref": { "slug": "jacob", "c": 5 },
+      "intro": "The longest chapter in the Book of Mormon is a single sweeping parable: a tame olive tree (the house of Israel) decays, and the Lord of the vineyard (the Lord) — with His servant (the prophets) — grafts, transplants, digs, prunes, and nourishes across the whole earth rather than lose the tree. Jacob reads it to answer one question: how can Israel, once broken off, ever be gathered back? Scholars count at least seven visits of the Lord to His vineyard; the stages below follow the traditional division.",
+      "kind": "stages",
+      "legend": [
+        { "symbol": "Tame olive tree", "meaning": "The house of Israel" },
+        { "symbol": "Wild olive tree", "meaning": "The Gentiles" },
+        { "symbol": "The vineyard", "meaning": "The world" },
+        { "symbol": "Lord of the vineyard", "meaning": "The Lord" },
+        { "symbol": "The servant(s)", "meaning": "Prophets & covenant workers" },
+        { "symbol": "Branches", "meaning": "Peoples and groups of Israel" },
+        { "symbol": "Grafting", "meaning": "Joining the covenant through Christ" },
+        { "symbol": "Fruit", "meaning": "Lives, works, and righteousness" },
+        { "symbol": "Nethermost parts", "meaning": "The scattered corners of the earth (one branch = Lehi's family)" },
+        { "symbol": "Burning", "meaning": "Judgment at the end of the world" }
+      ],
+      "stages": [
+        { "n": 1, "verses": "3–14", "title": "The Tree Decays; Wild Branches Grafted In", "era": "Ancient Israel → Assyrian & Babylonian scattering, c. 900–500 BC", "desc": "The aged tame tree begins to die. The Lord prunes and nourishes, then grafts wild (Gentile) branches into the mother tree and hides natural branches in the nethermost parts of the vineyard — one of them Lehi's family, carried to a far corner.", "state": { "main": "decaying", "graft": "wild", "scattered": 1 } },
+        { "n": 2, "verses": "15–28", "title": "The First Harvest — All Bear Good Fruit", "era": "The apostolic era, c. AD 30–200", "desc": "A long time passes. The mother tree, strengthened by wild grafts, bears tame fruit; the scattered natural branches bear good fruit too — except one spot of ground where a branch bears both tame and wild (the Nephites and Lamanites).", "state": { "main": "good", "graft": "wild", "scattered": 3, "mixed": true } },
+        { "n": 3, "verses": "29–49", "title": "The Great Apostasy — All Fruit Corrupt", "era": "The long apostasy, c. AD 200–1800", "desc": "'A long time passed away' and every tree in the vineyard bears corrupt fruit; the loftiness of the vineyard has overcome the roots. The Lord weeps: 'What could I have done more for my vineyard?' — and the servant pleads: 'Spare it a little longer.'", "state": { "main": "corrupt", "graft": "corrupt", "scattered": 3, "weeping": true } },
+        { "n": 4, "verses": "50–74", "title": "The Final Grafting — Branches Gathered Home", "era": "The restoration & gathering of Israel — our era", "desc": "The Lord calls servants — 'and they were few' — for one last labor. Natural branches are grafted back into the mother tree, corrupt branches cleared away 'as the good shall grow,' roots and tops kept equal, and the servants labor 'with their mights' with the Lord laboring alongside.", "state": { "main": "recovering", "graft": "natural", "scattered": 0, "servants": true } },
+        { "n": 5, "verses": "75–77", "title": "Good Fruit Again — Then the End", "era": "The Millennium and the end of the world", "desc": "The vineyard bears natural fruit again, 'most precious unto him from the beginning,' and the Lord's joy is full. The trees are preserved 'for a long time' — and when evil fruit returns at the last, the good is gathered in and the vineyard is burned.", "state": { "main": "good", "graft": "natural", "scattered": 0, "fire": true } }
+      ]
+    },
+    {
+      "id": "liahona",
+      "title": "The Liahona — A Compass for the Soul",
+      "ref": { "slug": "1-nephi", "c": 16 },
+      "interpretationRef": { "slug": "alma", "c": 37 },
+      "intro": "The brass ball of 'curious workmanship' that guided Lehi's family is the record's quietest allegory — because Alma makes it one, five centuries later, teaching his son Helaman that 'it is as easy to give heed to the word of Christ... as it was for our fathers to give heed to this compass' (Alma 37:38–46).",
+      "kind": "scene",
+      "symbols": [
+        { "id": "ball", "name": "The Ball of Curious Workmanship", "meaning": "Prepared by the hand of the Lord — no human craft could make it. Alma names it 'Liahona, which is, being interpreted, a compass.'", "x": 500, "y": 250 },
+        { "id": "spindles", "name": "The Two Spindles", "meaning": "One pointed the way into the wilderness. They worked 'according to the faith and diligence and heed' given them — direction that responds to discipleship (1 Ne 16:28).", "x": 500, "y": 160 },
+        { "id": "writing", "name": "The Writing That Changed", "meaning": "Words appeared 'plain to be read' and changed from time to time — 'and thus we see that by small means the Lord can bring about great things' (1 Ne 16:29).", "x": 300, "y": 350 },
+        { "id": "likening", "name": "Alma's Likening", "meaning": "The compass = the word of Christ; the promised land = 'a far better land of promise.' Because the fathers were slothful, they tarried in the wilderness — 'do not let us be slothful' (Alma 37:43–46).", "x": 700, "y": 350 }
+      ]
+    }
+  ]
+}

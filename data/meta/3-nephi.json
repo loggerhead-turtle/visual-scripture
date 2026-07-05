@@ -1,0 +1,454 @@
+{
+  "book": "3 Nephi",
+  "slug": "3-nephi",
+  "narrator": "mormon",
+  "plates": "mormon-abridgment",
+  "chapters": [
+    {
+      "c": 1,
+      "title": "A Night Without Darkness",
+      "synopsis": "Unbelievers set a day to execute the believers if Samuel's sign does not come. Nephi cries to the Lord all day and hears that the sign comes that very night. The sun sets, no darkness falls, a new star appears, and Christ is born across the sea.",
+      "years": "AD 1",
+      "yearNum": 1,
+      "approx": false,
+      "place": "zarahemla",
+      "themes": ["prophecy", "faith", "deliverance"],
+      "characters": ["nephi3", "nephi2", "jesus-christ"],
+      "segments": [
+        { "s": 1, "e": 11, "speaker": "mormon", "to": "reader", "note": "Believers face death if the sign fails" },
+        { "s": 12, "e": 14, "speaker": "the-lord", "to": "nephi3", "note": "Lift up your head; the sign comes tonight" },
+        { "s": 15, "e": 30, "speaker": "mormon", "to": "reader", "note": "Night without darkness; a new star" }
+      ]
+    },
+    {
+      "c": 2,
+      "title": "Forgetting the Signs",
+      "synopsis": "Within a few years the people begin explaining away the great signs they saw, and wickedness returns. Converted Lamanites unite with the Nephites against the swelling Gadianton robbers. The reckoning of time is changed to date from the coming of Christ.",
+      "years": "AD 4-13",
+      "yearNum": 9,
+      "approx": false,
+      "place": "zarahemla",
+      "themes": ["apostasy", "secret-combinations", "pride-cycle"],
+      "characters": [],
+      "segments": [
+        { "s": 1, "e": 19, "speaker": "mormon", "to": "reader", "note": "Signs forgotten; robbers grow strong" }
+      ]
+    },
+    {
+      "c": 3,
+      "title": "Giddianhi's Epistle of Threats",
+      "synopsis": "The robber chief Giddianhi writes to governor Lachoneus, flattering him and demanding total surrender. Lachoneus refuses, gathers the people into one place with years of provisions, and appoints the prophet-general Gidgiddoni. The people repent and prepare rather than beg the Lord to excuse an attack.",
+      "years": "AD 16-17",
+      "yearNum": 16,
+      "approx": false,
+      "place": "zarahemla",
+      "themes": ["secret-combinations", "leadership", "repentance"],
+      "characters": ["lachoneus", "giddianhi", "gidgiddoni"],
+      "segments": [
+        { "s": 1, "e": 1, "speaker": "mormon", "to": "reader", "note": "Lachoneus receives an epistle" },
+        { "s": 2, "e": 10, "speaker": "giddianhi", "to": "lachoneus", "note": "Surrender or be destroyed" },
+        { "s": 11, "e": 26, "speaker": "mormon", "to": "reader", "note": "Lachoneus gathers and fortifies the people" }
+      ]
+    },
+    {
+      "c": 4,
+      "title": "The Robbers Besiege and Fall",
+      "synopsis": "The Gadianton armies, ghastly in lamb-skin and blood, attack the gathered Nephites and suffer the greatest slaughter since Lehi left Jerusalem. Siege fails because the robbers cannot live off an emptied land. Giddianhi is slain, his successor Zemnarihah is hanged, and the people shout praises to God.",
+      "years": "AD 17-21",
+      "yearNum": 19,
+      "approx": false,
+      "place": "zarahemla",
+      "themes": ["war", "deliverance", "prayer"],
+      "characters": ["gidgiddoni", "giddianhi"],
+      "segments": [
+        { "s": 1, "e": 33, "speaker": "mormon", "to": "reader", "note": "Siege defeated; the people praise God" }
+      ]
+    },
+    {
+      "c": 5,
+      "title": "Mormon Names Himself",
+      "synopsis": "The Nephites repent, break up the robber bands, and preach to their prisoners. Mormon steps forward as the record's maker, a disciple of Jesus Christ named after the land of his father's covenant waters. He testifies that the scattered seed of Jacob will surely be gathered again.",
+      "years": "AD 22-26",
+      "yearNum": 24,
+      "approx": false,
+      "place": "zarahemla",
+      "themes": ["records", "repentance", "gathering-of-israel"],
+      "characters": ["mormon", "gidgiddoni"],
+      "segments": [
+        { "s": 1, "e": 26, "speaker": "mormon", "to": "reader", "note": "Peace restored; Mormon introduces himself" }
+      ]
+    },
+    {
+      "c": 6,
+      "title": "Prosperity Breeds Class and Corruption",
+      "synopsis": "Rebuilt cities and open trade bring wealth, and within a few years the people fracture into ranks by riches and learning. Corrupt judges and lawyers secretly execute the prophets who testify of Christ. Kindreds and friends of the judges covenant to destroy the government itself.",
+      "years": "AD 26-30",
+      "yearNum": 28,
+      "approx": false,
+      "place": "zarahemla",
+      "themes": ["pride-cycle", "secret-combinations", "apostasy"],
+      "characters": [],
+      "segments": [
+        { "s": 1, "e": 30, "speaker": "mormon", "to": "reader", "note": "Pride divides the people; prophets are slain" }
+      ]
+    },
+    {
+      "c": 7,
+      "title": "Tribes, a Murdered Judge, and Miracles",
+      "synopsis": "The chief judge is murdered, the government collapses, and the people split into tribes led by family and friendship. A secret band even anoints a king, Jacob, who flees north with his followers. Through it all Nephi ministers with power, raising his brother from the dead, yet few repent.",
+      "years": "AD 30-33",
+      "yearNum": 31,
+      "approx": false,
+      "place": "zarahemla",
+      "themes": ["apostasy", "secret-combinations", "faith"],
+      "characters": ["nephi3"],
+      "segments": [
+        { "s": 1, "e": 26, "speaker": "mormon", "to": "reader", "note": "Government falls; Nephi ministers with power" }
+      ]
+    },
+    {
+      "c": 8,
+      "title": "Three Hours That Changed the Land",
+      "synopsis": "In the thirty-fourth year a great storm, earthquakes, and fire destroy city after city in about three hours. Zarahemla burns, Moroni sinks into the sea, and Moronihah is buried under a mountain. Then a thick vapor of darkness settles for three days, and the survivors' mourning fills the night.",
+      "years": "AD 34",
+      "yearNum": 34,
+      "approx": false,
+      "place": "zarahemla",
+      "themes": ["judgment", "prophecy"],
+      "characters": [],
+      "segments": [
+        { "s": 1, "e": 25, "speaker": "mormon", "to": "reader", "note": "Destruction fulfills Samuel's prophecy" }
+      ]
+    },
+    {
+      "c": 9,
+      "title": "A Voice in the Darkness",
+      "synopsis": "Through the three days of darkness the voice of Jesus Christ recounts the destroyed cities and why they fell. He declares the law of Moses fulfilled in him and asks for a broken heart and contrite spirit instead of burnt offerings. He invites all survivors to come unto him and be healed.",
+      "years": "AD 34",
+      "yearNum": 34,
+      "approx": false,
+      "place": null,
+      "themes": ["atonement", "repentance", "judgment"],
+      "characters": ["jesus-christ"],
+      "segments": [
+        { "s": 1, "e": 1, "speaker": "mormon", "to": "reader", "note": "A voice is heard across the land" },
+        { "s": 2, "e": 22, "speaker": "jesus-christ", "to": "nephites", "note": "Christ speaks in the darkness; come unto me" }
+      ]
+    },
+    {
+      "c": 10,
+      "title": "As a Hen Gathers Her Chickens",
+      "synopsis": "After hours of stunned silence the voice comes again, mourning how often the Lord would have gathered Israel as a hen gathers her chickens. The darkness lifts, the earth quiets, and the mourning turns to joy. Mormon notes that it was the more righteous who were spared to receive the risen Christ.",
+      "years": "AD 34",
+      "yearNum": 34,
+      "approx": false,
+      "place": null,
+      "themes": ["gathering-of-israel", "justice-and-mercy", "deliverance"],
+      "characters": ["jesus-christ"],
+      "segments": [
+        { "s": 1, "e": 3, "speaker": "mormon", "to": "reader", "note": "Silence for many hours" },
+        { "s": 4, "e": 7, "speaker": "jesus-christ", "to": "nephites", "note": "How oft would I have gathered you" },
+        { "s": 8, "e": 19, "speaker": "mormon", "to": "reader", "note": "Darkness lifts; the spared await the Savior" }
+      ]
+    },
+    {
+      "c": 11,
+      "title": "The Risen Christ Descends",
+      "synopsis": "A multitude at the temple in Bountiful hears a piercing yet mild voice, and the third time understands the Father introducing his Beloved Son. Jesus Christ descends in a white robe, and every person feels the wounds in his hands and side. He gives Nephi and others power to baptize and declares his doctrine: faith, repentance, and baptism, without disputation.",
+      "years": "AD 34",
+      "yearNum": 34,
+      "approx": false,
+      "place": "bountiful",
+      "themes": ["atonement", "baptism", "revelation"],
+      "characters": ["jesus-christ", "god-the-father", "nephi3"],
+      "segments": [
+        { "s": 1, "e": 6, "speaker": "mormon", "to": "reader", "note": "A voice at the temple, thrice heard" },
+        { "s": 7, "e": 7, "speaker": "god-the-father", "to": "multitude", "note": "Behold my Beloved Son; hear ye him" },
+        { "s": 8, "e": 9, "speaker": "mormon", "to": "reader", "note": "A Man in white descends" },
+        { "s": 10, "e": 41, "speaker": "jesus-christ", "to": "multitude", "note": "Christ's witness, wounds, and doctrine" }
+      ]
+    },
+    {
+      "c": 12,
+      "title": "The Sermon at the Temple Begins",
+      "synopsis": "Jesus calls twelve disciples and delivers to the multitude the sermon he gave in Galilee, opening with the Beatitudes. He declares himself the giver and fulfiller of the law and raises the standard from not sinning to not even desiring sin. He closes with the invitation to be perfect, even as he and the Father.",
+      "years": "AD 34",
+      "yearNum": 34,
+      "approx": false,
+      "place": "bountiful",
+      "themes": ["obedience", "covenant", "humility"],
+      "characters": ["jesus-christ", "nephi3"],
+      "segments": [
+        { "s": 1, "e": 1, "speaker": "mormon", "to": "reader", "note": "Twelve are called and commissioned" },
+        { "s": 2, "e": 48, "speaker": "jesus-christ", "to": "multitude", "note": "Beatitudes and the higher law" }
+      ]
+    },
+    {
+      "c": 13,
+      "title": "Treasures in Heaven",
+      "synopsis": "Jesus teaches that alms, prayer, and fasting should be done for the Father who sees in secret, not for human applause, and he gives the Lord's Prayer as a pattern. No one can serve both God and mammon. Turning to the twelve, he tells them to take no thought for food or clothing, for the Father knows their needs.",
+      "years": "AD 34",
+      "yearNum": 34,
+      "approx": false,
+      "place": "bountiful",
+      "themes": ["prayer", "humility", "faith"],
+      "characters": ["jesus-christ"],
+      "segments": [
+        { "s": 1, "e": 24, "speaker": "jesus-christ", "to": "multitude", "note": "Secret devotion; lay up heavenly treasure" },
+        { "s": 25, "e": 34, "speaker": "jesus-christ", "to": "twelve-disciples", "note": "Take no thought; seek first the kingdom" }
+      ]
+    },
+    {
+      "c": 14,
+      "title": "The Rock and the Sand",
+      "synopsis": "Jesus warns against hypocritical judging and teaches that asking, seeking, and knocking bring the Father's good gifts. False prophets are known by their fruits, and saying Lord, Lord is no substitute for doing the Father's will. He closes the sermon with the wise man who built his house upon a rock.",
+      "years": "AD 34",
+      "yearNum": 34,
+      "approx": false,
+      "place": "bountiful",
+      "themes": ["obedience", "judgment", "prayer"],
+      "characters": ["jesus-christ"],
+      "segments": [
+        { "s": 1, "e": 27, "speaker": "jesus-christ", "to": "multitude", "note": "Ask, seek, knock; build on the rock" }
+      ]
+    },
+    {
+      "c": 15,
+      "title": "Other Sheep of the Fold",
+      "synopsis": "Jesus declares that the law of Moses is fulfilled in him, for he is the law and the light. He tells the twelve that the Nephites are the other sheep of whom he spoke at Jerusalem, kept hidden because of the Jews' unbelief. The scattered branches of Israel remain known to the Father.",
+      "years": "AD 34",
+      "yearNum": 34,
+      "approx": false,
+      "place": "bountiful",
+      "themes": ["covenant", "gathering-of-israel", "revelation"],
+      "characters": ["jesus-christ"],
+      "segments": [
+        { "s": 1, "e": 1, "speaker": "mormon", "to": "reader", "note": "Jesus perceives their questions" },
+        { "s": 2, "e": 10, "speaker": "jesus-christ", "to": "multitude", "note": "The law is fulfilled in me" },
+        { "s": 11, "e": 24, "speaker": "jesus-christ", "to": "twelve-disciples", "note": "Ye are my other sheep" }
+      ]
+    },
+    {
+      "c": 16,
+      "title": "Still Other Sheep, and the Gentiles",
+      "synopsis": "Jesus reveals yet other lost tribes he must visit, whom neither Jews nor Nephites know. He prophesies that the Gentiles will carry the gospel to the remnant of Israel, then warns the Gentiles against pride and hypocrisy in the last days. Isaiah's promise stands: the Lord will bare his arm and gather his people.",
+      "years": "AD 34",
+      "yearNum": 34,
+      "approx": false,
+      "place": "bountiful",
+      "themes": ["gathering-of-israel", "prophecy", "covenant"],
+      "characters": ["jesus-christ", "isaiah"],
+      "segments": [
+        { "s": 1, "e": 20, "speaker": "jesus-christ", "to": "twelve-disciples", "note": "Lost tribes; warning to latter-day Gentiles" }
+      ]
+    },
+    {
+      "c": 17,
+      "title": "He Healed Them Every One",
+      "synopsis": "Seeing the multitude too weak to grasp all his words, Jesus tells them to ponder and prepare for tomorrow, then cannot bear to leave. He heals every sick and afflicted person brought to him, prays words too great to be written, and blesses the children one by one. Angels descend in fire and minister to the little ones.",
+      "years": "AD 34",
+      "yearNum": 34,
+      "approx": false,
+      "place": "bountiful",
+      "themes": ["charity", "prayer", "family"],
+      "characters": ["jesus-christ", "angel"],
+      "segments": [
+        { "s": 1, "e": 3, "speaker": "jesus-christ", "to": "multitude", "note": "Ponder my words; I come again tomorrow" },
+        { "s": 4, "e": 25, "speaker": "mormon", "to": "reader", "note": "Healings, unspeakable prayer, children blessed" }
+      ]
+    },
+    {
+      "c": 18,
+      "title": "Bread, Wine, and a Standing Invitation",
+      "synopsis": "Jesus institutes the sacrament of bread and wine as a remembrance of his body and blood, promising his Spirit to those who partake worthily. He commands the people to pray always in his name and to keep meeting together, turning no one away. Before ascending, he gives the twelve power to bestow the Holy Ghost.",
+      "years": "AD 34",
+      "yearNum": 34,
+      "approx": false,
+      "place": "bountiful",
+      "themes": ["sacrament", "prayer", "covenant"],
+      "characters": ["jesus-christ"],
+      "segments": [
+        { "s": 1, "e": 4, "speaker": "mormon", "to": "reader", "note": "Bread and wine are brought" },
+        { "s": 5, "e": 25, "speaker": "jesus-christ", "to": "multitude", "note": "The sacrament given; pray always" },
+        { "s": 26, "e": 35, "speaker": "jesus-christ", "to": "twelve-disciples", "note": "Instructions for the church's meetings" },
+        { "s": 36, "e": 39, "speaker": "mormon", "to": "reader", "note": "The Holy Ghost promised; Jesus ascends" }
+      ]
+    },
+    {
+      "c": 19,
+      "title": "Prayer That Words Cannot Hold",
+      "synopsis": "Word spreads all night, and a greater multitude gathers as the twelve teach and are baptized, receiving the Holy Ghost and fire. Jesus returns and prays to the Father in words so marvelous they cannot be written. The disciples' faces shine white as his own as he prays for their purification and unity.",
+      "years": "AD 34",
+      "yearNum": 34,
+      "approx": false,
+      "place": "bountiful",
+      "themes": ["prayer", "baptism", "revelation"],
+      "characters": ["jesus-christ", "nephi3", "god-the-father"],
+      "segments": [
+        { "s": 1, "e": 18, "speaker": "mormon", "to": "reader", "note": "The twelve baptized; fire encircles them" },
+        { "s": 19, "e": 23, "speaker": "jesus-christ", "to": "god-the-father", "note": "Jesus prays for his disciples" },
+        { "s": 24, "e": 26, "speaker": "mormon", "to": "reader", "note": "The disciples shine as they pray" },
+        { "s": 27, "e": 29, "speaker": "jesus-christ", "to": "god-the-father", "note": "Prayer for purification and oneness" },
+        { "s": 30, "e": 36, "speaker": "mormon", "to": "reader", "note": "No tongue can speak such prayer" }
+      ]
+    },
+    {
+      "c": 20,
+      "title": "Miraculous Bread and Covenant Promises",
+      "synopsis": "Jesus miraculously provides bread and wine and administers the sacrament again. He unfolds the covenant: the remnant of Jacob will be gathered, the New Jerusalem established, and Isaiah's watchmen will sing as the Lord bares his holy arm before all nations. The people at Bountiful are children of the covenant.",
+      "years": "AD 34",
+      "yearNum": 34,
+      "approx": false,
+      "place": "bountiful",
+      "themes": ["covenant", "gathering-of-israel", "sacrament"],
+      "characters": ["jesus-christ", "isaiah", "moses"],
+      "segments": [
+        { "s": 1, "e": 9, "speaker": "mormon", "to": "reader", "note": "Sacrament provided miraculously" },
+        { "s": 10, "e": 46, "speaker": "jesus-christ", "to": "multitude", "note": "Covenant promises to the remnant of Jacob" }
+      ]
+    },
+    {
+      "c": 21,
+      "title": "A Sign and a Marvelous Work",
+      "synopsis": "Jesus gives a sign: when these words come forth to the Gentiles in the latter days, the gathering of Israel has begun. A great and marvelous work will divide those who believe from those who harden their hearts. The Gentiles who repent will be numbered with the covenant people and help build the New Jerusalem.",
+      "years": "AD 34",
+      "yearNum": 34,
+      "approx": false,
+      "place": "bountiful",
+      "themes": ["prophecy", "gathering-of-israel", "records"],
+      "characters": ["jesus-christ", "moses"],
+      "segments": [
+        { "s": 1, "e": 29, "speaker": "jesus-christ", "to": "multitude", "note": "The latter-day sign and marvelous work" }
+      ]
+    },
+    {
+      "c": 22,
+      "title": "Enlarge the Place of Thy Tent",
+      "synopsis": "Jesus quotes Isaiah's song to the barren woman: Israel will stretch her tent, forget her shame, and gather her scattered children. The Lord's kindness will not depart, as sure as his oath after the waters of Noah. No weapon formed against the covenant people will prosper.",
+      "years": "AD 34",
+      "yearNum": 34,
+      "approx": false,
+      "place": "bountiful",
+      "themes": ["covenant", "gathering-of-israel", "hope"],
+      "characters": ["isaiah", "jesus-christ"],
+      "segments": [
+        { "s": 1, "e": 17, "speaker": "isaiah", "to": "house-of-israel", "note": "Isaiah 54, quoted by the Savior" }
+      ]
+    },
+    {
+      "c": 23,
+      "title": "Search the Prophets Diligently",
+      "synopsis": "Jesus commands the people to search Isaiah and all the prophets, for all things he spake have been and will be fulfilled. Reviewing their records, he finds Samuel's prophecy of the saints who rose from the dead left unwritten and has it added. He then expounds all the scriptures in one.",
+      "years": "AD 34",
+      "yearNum": 34,
+      "approx": false,
+      "place": "bountiful",
+      "themes": ["records", "prophecy", "resurrection"],
+      "characters": ["jesus-christ", "isaiah", "samuel-lamanite", "nephi3"],
+      "segments": [
+        { "s": 1, "e": 5, "speaker": "jesus-christ", "to": "multitude", "note": "Great are the words of Isaiah" },
+        { "s": 6, "e": 14, "speaker": "mormon", "to": "reader", "note": "Jesus corrects and expounds the records" }
+      ]
+    },
+    {
+      "c": 24,
+      "title": "The Refiner's Fire",
+      "synopsis": "At the Savior's command the people record Malachi's words from the Father. The Lord will come suddenly to his temple, sitting as a refiner and purifier of silver. He asks whether a man will rob God, promising open windows of heaven to those who bring their tithes into the storehouse.",
+      "years": "AD 34",
+      "yearNum": 34,
+      "approx": false,
+      "place": "bountiful",
+      "themes": ["covenant", "judgment", "obedience"],
+      "characters": ["malachi", "jesus-christ"],
+      "segments": [
+        { "s": 1, "e": 18, "speaker": "malachi", "to": "house-of-israel", "note": "Malachi 3, quoted by the Savior" }
+      ]
+    },
+    {
+      "c": 25,
+      "title": "Elijah Before the Great Day",
+      "synopsis": "Malachi's prophecy continues: the proud will burn as stubble, but the Sun of Righteousness will rise with healing for those who fear the Lord. Elijah the prophet will return before the great and dreadful day. He will turn the hearts of fathers and children to each other, lest the earth be smitten with a curse.",
+      "years": "AD 34",
+      "yearNum": 34,
+      "approx": false,
+      "place": "bountiful",
+      "themes": ["prophecy", "family", "judgment"],
+      "characters": ["malachi", "jesus-christ"],
+      "segments": [
+        { "s": 1, "e": 6, "speaker": "malachi", "to": "house-of-israel", "note": "Malachi 4, quoted by the Savior" }
+      ]
+    },
+    {
+      "c": 26,
+      "title": "Not Even a Hundredth Part",
+      "synopsis": "Jesus expounds all things from the beginning to the end of the earth, and even the children speak unutterable things. Mormon explains he may write only a lesser part of what was taught, to try the people's faith before greater things are revealed. The people share all things common and do all that Jesus commanded.",
+      "years": "AD 34",
+      "yearNum": 34,
+      "approx": false,
+      "place": "bountiful",
+      "themes": ["records", "faith", "revelation"],
+      "characters": ["jesus-christ", "mormon"],
+      "segments": [
+        { "s": 1, "e": 21, "speaker": "mormon", "to": "reader", "note": "A lesser part written, to try faith" }
+      ]
+    },
+    {
+      "c": 27,
+      "title": "This Is My Gospel",
+      "synopsis": "Appearing to the twelve as they fast and pray, Jesus names his church: it must be called in his name and built upon his gospel. He defines that gospel plainly, from his atoning sacrifice to the final judgment, and commands the disciples to be even as he is. He asks them to write all they have seen and heard.",
+      "years": "AD 34-35",
+      "yearNum": 34,
+      "approx": false,
+      "place": "bountiful",
+      "themes": ["atonement", "baptism", "judgment"],
+      "characters": ["jesus-christ"],
+      "segments": [
+        { "s": 1, "e": 1, "speaker": "mormon", "to": "reader", "note": "The disciples united in prayer" },
+        { "s": 2, "e": 33, "speaker": "jesus-christ", "to": "twelve-disciples", "note": "The church's name and Christ's gospel defined" }
+      ]
+    },
+    {
+      "c": 28,
+      "title": "Three Who Tarry",
+      "synopsis": "Jesus grants nine disciples a swift entry into his kingdom at age seventy-two, and to three he gives their deeper wish: to remain on earth bringing souls to him until he comes again. The three are transfigured and cannot taste death or pain. Mormon testifies they still minister, though he was forbidden to write their names.",
+      "years": "AD 34-35",
+      "yearNum": 34,
+      "approx": false,
+      "place": "bountiful",
+      "themes": ["missionary-work", "endurance", "revelation"],
+      "characters": ["jesus-christ", "mormon"],
+      "segments": [
+        { "s": 1, "e": 12, "speaker": "jesus-christ", "to": "twelve-disciples", "note": "Jesus grants each disciple's desire" },
+        { "s": 13, "e": 40, "speaker": "mormon", "to": "reader", "note": "The Three Nephites' transfiguration and ministry" }
+      ]
+    },
+    {
+      "c": 29,
+      "title": "When These Words Come Forth",
+      "synopsis": "Mormon speaks across the centuries: when this record comes to the Gentiles, the Lord's covenant with Israel is already being fulfilled. No one should spurn the doings of the Lord or deny his revelations and gifts. Wo to those who hiss at the Jews or at the remnant, for the covenant Lord remembers his people.",
+      "years": "AD 34-35",
+      "yearNum": 35,
+      "approx": false,
+      "place": null,
+      "themes": ["covenant", "prophecy", "gathering-of-israel"],
+      "characters": ["mormon"],
+      "segments": [
+        { "s": 1, "e": 9, "speaker": "mormon", "to": "reader", "note": "Mormon warns latter-day doubters" }
+      ]
+    },
+    {
+      "c": 30,
+      "title": "Turn, All Ye Gentiles",
+      "synopsis": "In two verses Mormon delivers the words Jesus commanded him to write. The Gentiles of the last days are called to turn from their wickedness, lyings, deceits, and priestcrafts. They are invited to repent, be baptized, and be numbered among the house of Israel.",
+      "years": "AD 34-35",
+      "yearNum": 35,
+      "approx": false,
+      "place": null,
+      "themes": ["repentance", "baptism", "gathering-of-israel"],
+      "characters": ["mormon", "jesus-christ"],
+      "segments": [
+        { "s": 1, "e": 2, "speaker": "mormon", "to": "reader", "note": "Mormon addresses the future Gentiles" }
+      ]
+    }
+  ]
+}

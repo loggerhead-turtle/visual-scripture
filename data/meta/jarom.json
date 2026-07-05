@@ -1,0 +1,22 @@
+{
+  "book": "Jarom",
+  "slug": "jarom",
+  "narrator": "jarom1",
+  "plates": "small-plates",
+  "chapters": [
+    {
+      "c": 1,
+      "title": "Kept for the Sake of the Lamanites",
+      "synopsis": "Jarom, son of Enos, writes briefly so the genealogy and the plates may be kept for the future benefit of the Lamanites. The Nephites multiply, fortify their cities, and prosper in the land as they keep the law of Moses, while prophets, priests, and teachers continually stir them up to repentance, teaching them to believe in Christ as though He had already come. After 238 years from Lehi's departure, Jarom delivers the plates to his son Omni.",
+      "years": "between 399 and 361 BC",
+      "yearNum": -380,
+      "approx": true,
+      "place": "city-of-nephi",
+      "themes": ["records", "obedience", "prophecy"],
+      "characters": ["jarom1", "enos1", "omni1"],
+      "segments": [
+        { "s": 1, "e": 15, "speaker": "jarom1", "to": "reader", "note": "Nephite prosperity; the plates pass to Omni" }
+      ]
+    }
+  ]
+}
