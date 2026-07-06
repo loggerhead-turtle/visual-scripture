@@ -106,6 +106,17 @@ export async function renderReader(el, slug, c, params) {
           ${prev ? `<a class="btn" href="#/read/${prev.slug}/${prev.c}">← ${prev.slug === 'dc' ? 'Section ' + prev.c : bookBySlug[prev.slug].name + ' ' + prev.c}</a>` : '<span></span>'}
           ${next ? `<a class="btn" href="#/read/${next.slug}/${next.c}">${next.slug === 'dc' ? 'Section ' + next.c : bookBySlug[next.slug].name + ' ' + next.c} →</a>` : '<span></span>'}
         </nav>
+        <section class="chapter-browser" id="chapter-browser">
+          <button class="cb-toggle" id="cb-toggle" aria-expanded="false">
+            <span class="cb-toggle-label">Browse all scripture</span>
+            <span class="cb-here">${book.slug === 'dc' ? 'Doctrine &amp; Covenants' : esc(vol.name) + ' · ' + esc(book.name)}</span>
+            <span class="cb-caret">▾</span>
+          </button>
+          <div class="cb-panel" id="cb-panel" hidden>
+            <div class="cb-crumbs" id="cb-crumbs"></div>
+            <div class="cb-grid" id="cb-grid"></div>
+          </div>
+        </section>
       </article>
       <aside class="speaker-rail">
         <div class="speaker-card" id="speaker-card"></div>
@@ -137,6 +148,8 @@ export async function renderReader(el, slug, c, params) {
   });
   const curBtn = el.querySelector('.toc-book.current');
   if (curBtn) curBtn.scrollIntoView({ block: 'center' });
+
+  setupChapterBrowser(el, vol, book, c);
 
   renderMiniTimeline(el.querySelector('#mini-tl'), cm.yearNum, vol);
 
@@ -221,4 +234,73 @@ function renderMiniTimeline(el, yearNum, vol) {
     ${pos != null ? `<circle cx="${pos}" cy="22" r="5" fill="var(--gold)"/><circle cx="${pos}" cy="22" r="8" fill="none" stroke="var(--gold)" stroke-opacity=".4"/>` : ''}
   </svg>
   <div style="text-align:center"><a href="#/timeline${yearNum != null ? `?y=${yearNum}&era=${era}` : ''}" style="font-size:11.5px">Open full timeline →</a></div>`;
+}
+
+// ---- drill-up/drill-down chapter browser (below the reader) ----
+// Levels: volumes (the standard works) -> books of a volume -> chapters of a book.
+// You can back up from your current chapter to its sibling books, up again to the
+// standard works, then drill into any volume, book, and chapter.
+function setupChapterBrowser(el, vol, book, curChapter) {
+  const toggle = el.querySelector('#cb-toggle');
+  const panel = el.querySelector('#cb-panel');
+  const crumbs = el.querySelector('#cb-crumbs');
+  const grid = el.querySelector('#cb-grid');
+  if (!toggle || !panel) return;
+
+  const state = { level: 'chapters', volId: vol.id, bookSlug: book.slug };
+
+  const render = () => {
+    const v = VOLUMES.find(x => x.id === state.volId) || vol;
+    const b = bookBySlug[state.bookSlug] || book;
+    const isDC = slug => slug === 'dc';
+    // breadcrumb trail — each crumb jumps to that level
+    const trail = [`<button class="cb-crumb" data-to="volumes">The Standard Works</button>`];
+    if (state.level === 'books' || state.level === 'chapters') {
+      trail.push('<span class="cb-sep">›</span>');
+      trail.push(`<button class="cb-crumb" data-to="books">${esc(v.name)}</button>`);
+    }
+    if (state.level === 'chapters') {
+      trail.push('<span class="cb-sep">›</span>');
+      trail.push(`<span class="cb-crumb current">${isDC(b.slug) ? 'Sections' : esc(b.name)}</span>`);
+    }
+    const upTo = state.level === 'chapters' ? 'books' : state.level === 'books' ? 'volumes' : null;
+    crumbs.innerHTML = (upTo ? `<button class="cb-up" data-to="${upTo}">↑ Up</button>` : '') + `<div class="cb-trail">${trail.join('')}</div>`;
+
+    if (state.level === 'volumes') {
+      grid.className = 'cb-grid cb-volumes';
+      grid.innerHTML = VOLUMES.map(x => `<button class="cb-vol ${x.id === vol.id ? 'here' : ''}" data-vol="${x.id}" style="border-left:3px solid ${x.color}">
+          <span class="cb-vol-name" style="color:${x.color}">${esc(x.name)}</span>
+          <span class="cb-vol-sub">${x.books.length === 1 ? '138 sections' : x.books.length + ' books'}</span>
+        </button>`).join('');
+    } else if (state.level === 'books') {
+      grid.className = 'cb-grid cb-books';
+      grid.innerHTML = v.books.map(bk => `<button class="cb-book ${bk.slug === book.slug ? 'here' : ''}" data-book="${bk.slug}">
+          ${esc(bk.name)}<span class="cb-book-n">${bk.chapters}</span>
+        </button>`).join('');
+    } else {
+      grid.className = 'cb-grid cb-chapters';
+      const word = isDC(b.slug) ? 'Section' : 'Chapter';
+      grid.innerHTML = `<div class="cb-chapters-head">${esc(b.name)} — ${b.chapters} ${word.toLowerCase()}${b.chapters > 1 ? 's' : ''}</div>`
+        + Array.from({ length: b.chapters }, (_, i) =>
+          `<a class="cb-ch ${b.slug === book.slug && i + 1 === curChapter ? 'here' : ''}" href="#/read/${b.slug}/${i + 1}">${i + 1}</a>`).join('');
+    }
+  };
+
+  toggle.addEventListener('click', () => {
+    const open = panel.hidden;
+    panel.hidden = !open;
+    toggle.setAttribute('aria-expanded', open ? 'true' : 'false');
+    toggle.classList.toggle('open', open);
+    if (open) render();
+  });
+
+  el.querySelector('#chapter-browser').addEventListener('click', e => {
+    const crumb = e.target.closest('[data-to]');
+    if (crumb) { state.level = crumb.dataset.to; render(); return; }
+    const volBtn = e.target.closest('[data-vol]');
+    if (volBtn) { state.volId = volBtn.dataset.vol; state.level = 'books'; render(); return; }
+    const bookBtn = e.target.closest('[data-book]');
+    if (bookBtn) { state.bookSlug = bookBtn.dataset.book; state.level = 'chapters'; render(); return; }
+    // chapter links are real <a> hashes — the router handles them
+  });
 }
