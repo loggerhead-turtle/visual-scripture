@@ -386,3 +386,12 @@ main { min-height: 72vh; }
 .godhead-note { color: var(--ink-dim); font-size: 14px; max-width: 760px; margin: 0 0 16px; border-left: 3px solid var(--gold-dim); padding-left: 14px; }
 .godhead-note em { color: var(--gold); font-style: normal; }
 .godhead-section .cast-grid { grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); }
+
+/* ---------- reader: cast of this chapter ---------- */
+.reader-cast { display: flex; flex-wrap: wrap; gap: 10px; }
+.reader-cast .rc { width: 58px; text-align: center; color: var(--ink-dim); }
+.reader-cast .rc .avatar { border-radius: 10px; overflow: hidden; border: 1px solid var(--line); }
+.reader-cast .rc:hover { color: var(--gold); text-decoration: none; }
+.reader-cast .rc:hover .avatar { border-color: var(--gold-dim); }
+.reader-cast .rc-name { display: block; font-size: 10.5px; margin-top: 3px; line-height: 1.2; }
+.rc-hint { font-size: 11px; color: var(--ink-faint); margin-top: 10px; font-style: italic; }

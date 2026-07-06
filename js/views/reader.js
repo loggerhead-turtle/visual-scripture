@@ -63,6 +63,26 @@ export async function renderReader(el, slug, c, params) {
     const e = ents.byId[id]; return e ? `<a class="pill link" href="#/character/${id}">${e.name}</a>` : '';
   }).join('');
 
+  // the full cast of this chapter: flagged characters + everyone who speaks
+  const castIds = [];
+  const castSeen = {};
+  const addCast = id => {
+    if (!id || id === 'reader' || castSeen[id]) return;
+    const e = ents.byId[id];
+    if (!e) return;
+    castSeen[id] = true; castIds.push(id);
+  };
+  (cm.characters || []).forEach(addCast);
+  (cm.segments || []).forEach(s => { addCast(s.speaker); });
+  const castCard = castIds.length ? `<div class="context-card">
+      <h4>Cast of this ${cw.toLowerCase()}</h4>
+      <div class="reader-cast">${castIds.map(id => {
+        const e = ents.byId[id];
+        return `<a class="rc" href="#/character/${id}" title="${esc(e.title || e.name)}">${avatar(e)}<span class="rc-name">${esc(e.name)}</span></a>`;
+      }).join('')}</div>
+      <div class="rc-hint">Tap a face for their story &amp; every chapter they appear in.</div>
+    </div>` : '';
+
   el.innerHTML = `
   <div class="wrap">
     <div class="reader-layout">
@@ -97,6 +117,7 @@ export async function renderReader(el, slug, c, params) {
           <div class="row"><span class="k">Narrator</span><span class="v">${narrator ? `<a href="#/character/${narrator.id}">${narrator.name}</a>` : '—'}</span></div>
           <div class="mini-timeline" id="mini-tl"></div>
         </div>
+        ${castCard}
       </aside>
     </div>
   </div>`;
