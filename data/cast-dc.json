@@ -1,28 +1,765 @@
 {
-  "characters": [
-    { "id": "joseph-smith", "name": "Joseph Smith", "title": "Prophet of the Restoration", "era": "1805-1844", "bio": "A farm boy of Palmyra who knelt in a grove of trees in 1820 and saw the Father and the Son. He translated the Book of Mormon from golden plates, received the revelations of this book, and sealed his testimony with his blood at Carthage Jail.", "relations": [{ "to": "emma-smith", "rel": "husband of" }, { "to": "hyrum-smith", "rel": "brother of" }, { "to": "joseph-smith-sr", "rel": "son of" }, { "to": "oliver-cowdery", "rel": "dictated to" }], "groups": ["prophet", "record-keeper", "martyr"], "portrait": { "skin": "#dcab80", "hair": "#6b5b45", "style": "short", "beard": "none", "head": "none", "garb": "#2f3a52", "accent": "#e8b64c", "emblem": "plates" } },
-    { "id": "emma-smith", "name": "Emma Smith", "title": "The Elect Lady", "era": "1804-1879", "bio": "Joseph's wife, called in an 1830 revelation 'an elect lady' and commissioned to make a selection of sacred hymns. She served as scribe during the translation, though she was told not to look at the plates on the table wrapped in a linen cloth, and she buried six of her eleven children.", "relations": [{ "to": "joseph-smith", "rel": "wife of" }], "groups": ["family", "leader"], "portrait": { "skin": "#dcae87", "hair": "#241811", "style": "long", "beard": "none", "head": "none", "garb": "#2f3a52", "accent": "#e2c27d", "emblem": "dove" } },
-    { "id": "hyrum-smith", "name": "Hyrum Smith", "title": "Patriarch & Faithful Brother", "era": "1800-1844", "bio": "Joseph's elder brother, of whom the Lord said, 'I, the Lord, love him because of the integrity of his heart.' Patriarch and Assistant President of the Church, he rode with Joseph to Carthage and died first — 'in life they were not divided, and in death they were not separated.'", "relations": [{ "to": "joseph-smith", "rel": "brother of" }, { "to": "joseph-f-smith", "rel": "father of" }], "groups": ["family", "leader", "martyr"], "portrait": { "skin": "#dcab80", "hair": "#3a2617", "style": "short", "beard": "none", "head": "none", "garb": "#4a3a2c", "accent": "#d9b96a", "emblem": "crown" } },
-    { "id": "joseph-smith-sr", "name": "Joseph Smith Sr.", "title": "First Patriarch of the Church", "era": "1771-1840", "bio": "The prophet's father, a Vermont farmer who believed his son from the first telling and became one of the Eight Witnesses of the plates. Ordained the first Patriarch of the Church in 1833, he blessed the Saints until his death in Nauvoo.", "relations": [{ "to": "joseph-smith", "rel": "father of" }, { "to": "hyrum-smith", "rel": "father of" }], "groups": ["family", "leader", "witness"], "portrait": { "skin": "#d8a87c", "hair": "#8f8574", "style": "short", "beard": "none", "head": "none", "garb": "#4a3a2c", "accent": "#cbb27d", "emblem": "tree" } },
-    { "id": "oliver-cowdery", "name": "Oliver Cowdery", "title": "Scribe & Second Elder", "era": "1806-1850", "bio": "A young schoolteacher who arrived in Harmony in April 1829 and wrote nearly the whole Book of Mormon as Joseph dictated. One of the Three Witnesses, he knelt with Joseph for the restoration of the priesthood and the keys of the Kirtland Temple; he left the church in 1838 and returned humbly a decade later.", "relations": [{ "to": "joseph-smith", "rel": "scribe of" }, { "to": "david-whitmer", "rel": "fellow witness of" }], "groups": ["record-keeper", "missionary", "witness"], "portrait": { "skin": "#dcab80", "hair": "#2b1c12", "style": "short", "beard": "none", "head": "none", "garb": "#3d3d47", "accent": "#d9b96a", "emblem": "scroll" } },
-    { "id": "martin-harris", "name": "Martin Harris", "title": "Witness Who Gave His Farm", "era": "1783-1875", "bio": "A prosperous Palmyra farmer who mortgaged and finally sold his farm to pay the $3,000 printing of the Book of Mormon. He lost the 116 manuscript pages and wept, 'I have lost my soul' — yet stood as one of the Three Witnesses and never denied what the angel showed him.", "relations": [{ "to": "joseph-smith", "rel": "benefactor of" }], "groups": ["witness", "hero"], "portrait": { "skin": "#d8a87c", "hair": "#6b5b45", "style": "short", "beard": "short", "head": "none", "garb": "#4a3a2c", "accent": "#e8b64c", "emblem": "heart" } },
-    { "id": "david-whitmer", "name": "David Whitmer", "title": "Witness of the Angel", "era": "1805-1888", "bio": "A Fayette farmer whose family sheltered Joseph and Oliver to finish the translation in June 1829. One of the Three Witnesses, he left the church in 1838 yet declared to his last year, 'I have never at any time denied that testimony or any part thereof.'", "relations": [{ "to": "john-whitmer", "rel": "brother of" }, { "to": "oliver-cowdery", "rel": "fellow witness of" }], "groups": ["witness"], "portrait": { "skin": "#dcab80", "hair": "#33241a", "style": "short", "beard": "short", "head": "none", "garb": "#3d3d47", "accent": "#c8b17e", "emblem": "stones" } },
-    { "id": "john-whitmer", "name": "John Whitmer", "title": "First Church Historian", "era": "1802-1878", "bio": "One of the Eight Witnesses, appointed by revelation in 1831 to 'write and keep a regular history' of the church. He carried the manuscript revelations from Ohio to Missouri for printing, and kept his history — and his testimony of the plates — even after leaving the church in 1838.", "relations": [{ "to": "david-whitmer", "rel": "brother of" }], "groups": ["record-keeper", "witness"], "portrait": { "skin": "#dcab80", "hair": "#40301f", "style": "short", "beard": "none", "head": "none", "garb": "#4a3a2c", "accent": "#c8b17e", "emblem": "scroll" } },
-    { "id": "sidney-rigdon", "name": "Sidney Rigdon", "title": "Spokesman & Counselor", "era": "1793-1876", "bio": "A powerful Ohio preacher whose whole congregation entered the restored church in 1830, called by revelation to be 'a spokesman unto my servant Joseph.' He beheld the vision of the three degrees of glory beside Joseph at Hiram in 1832, and days later was dragged from bed by the same mob that tarred the prophet.", "relations": [{ "to": "joseph-smith", "rel": "counselor to" }, { "to": "parley-p-pratt", "rel": "converted by" }], "groups": ["leader", "missionary"], "portrait": { "skin": "#d8a87c", "hair": "#4a3826", "style": "short", "beard": "none", "head": "none", "garb": "#2f3a52", "accent": "#d9b96a", "emblem": "banner" } },
-    { "id": "edward-partridge", "name": "Edward Partridge", "title": "First Bishop of the Church", "era": "1793-1840", "bio": "A Painesville hatter whom the Lord called 'like unto Nathanael of old, in whom there is no guile,' and made the church's first bishop in 1831. He was tarred and feathered on the public square of Independence in 1833 and bore it, he said, with so much resignation that the crowd went away silent.", "relations": [{ "to": "joseph-smith", "rel": "called by" }], "groups": ["leader"], "portrait": { "skin": "#dcae87", "hair": "#3a2617", "style": "short", "beard": "none", "head": "none", "garb": "#4a3a2c", "accent": "#d9b96a", "emblem": "olive" } },
-    { "id": "newel-k-whitney", "name": "Newel K. Whitney", "title": "Bishop & Storekeeper of Kirtland", "era": "1795-1850", "bio": "The Kirtland merchant to whom Joseph, arriving unannounced in 1831, said, 'You have prayed me here; now what do you want of me?' His store above the counter housed the School of the Prophets, and as second bishop he opened the Lord's storehouse to the poor.", "relations": [{ "to": "joseph-smith", "rel": "host of" }], "groups": ["leader"], "portrait": { "skin": "#dcab80", "hair": "#2b1c12", "style": "short", "beard": "none", "head": "none", "garb": "#3d3d47", "accent": "#c8b17e", "emblem": "tower" } },
-    { "id": "william-w-phelps", "name": "William W. Phelps", "title": "Printer & Hymn Writer of Zion", "era": "1792-1872", "bio": "Editor whose press in Independence printed the first gathering of the revelations until a mob threw it from the second story in 1833. He wrote 'The Spirit of God,' sung at the Kirtland Temple dedication in 1836, and 'Praise to the Man' after the prophet he had once betrayed — and been forgiven by — was slain.", "relations": [{ "to": "joseph-smith", "rel": "forgiven by" }], "groups": ["record-keeper"], "portrait": { "skin": "#d8a87c", "hair": "#40301f", "style": "short", "beard": "none", "head": "none", "garb": "#2f3a52", "accent": "#e0a53a", "emblem": "fire" } },
-    { "id": "parley-p-pratt", "name": "Parley P. Pratt", "title": "Apostle, Missionary & Writer", "era": "1807-1857", "bio": "Restless preacher whose 1830 mission to the Lamanites brought Sidney Rigdon's whole congregation into the church along the way. An original member of the Twelve, author of A Voice of Warning, and hymn writer, he carried the gospel from Canada to Chile until he was murdered in Arkansas in 1857.", "relations": [{ "to": "orson-pratt", "rel": "brother of" }, { "to": "sidney-rigdon", "rel": "converted" }], "groups": ["missionary", "record-keeper", "martyr"], "portrait": { "skin": "#dcab80", "hair": "#3a2617", "style": "short", "beard": "none", "head": "none", "garb": "#4a3a2c", "accent": "#e8b64c", "emblem": "trumpet" } },
-    { "id": "orson-pratt", "name": "Orson Pratt", "title": "Apostle & Scholar of the Kingdom", "era": "1811-1881", "bio": "Baptized by his brother Parley on his nineteenth birthday, he received a revelation two months later calling him to 'lift up your voice long, both day and night.' Apostle and self-taught mathematician, he rode ahead of the pioneer company and entered the Salt Lake Valley first, on 21 July 1847.", "relations": [{ "to": "parley-p-pratt", "rel": "brother of" }], "groups": ["missionary", "record-keeper"], "portrait": { "skin": "#dcae87", "hair": "#33241a", "style": "short", "beard": "short", "head": "none", "garb": "#3d3d47", "accent": "#d9b96a", "emblem": "star" } },
-    { "id": "orson-hyde", "name": "Orson Hyde", "title": "Apostle Who Dedicated the Holy Land", "era": "1805-1878", "bio": "An orphan clerk from Whitney's store who became one of the original Twelve. In 1841 he traveled alone across Europe to Jerusalem and, on the Mount of Olives at sunrise, dedicated the land for the gathering of the children of Judah.", "relations": [{ "to": "newel-k-whitney", "rel": "clerk for" }], "groups": ["missionary"], "portrait": { "skin": "#dcab80", "hair": "#4a3826", "style": "short", "beard": "none", "head": "none", "garb": "#2f3a52", "accent": "#d9b96a", "emblem": "olive" } },
-    { "id": "thomas-b-marsh", "name": "Thomas B. Marsh", "title": "First President of the Twelve", "era": "1800-1866", "bio": "A Boston printer drawn west by a spiritual prompting, he arrived in Palmyra while the Book of Mormon's first sheets were still on the press. First president of the Quorum of the Twelve in 1835, he was promised his sins were forgiven and warned to 'be patient in afflictions' — he fell away in 1838 and returned, broken and welcomed, in 1857.", "relations": [{ "to": "brigham-young", "rel": "preceded" }], "groups": ["leader", "convert"], "portrait": { "skin": "#d8a87c", "hair": "#4a3826", "style": "short", "beard": "none", "head": "none", "garb": "#3d3d47", "accent": "#c8b17e", "emblem": "banner" } },
-    { "id": "brigham-young", "name": "Brigham Young", "title": "Pioneer Prophet", "era": "1801-1877", "bio": "A Vermont carpenter and glazier who said that after hearing a humble missionary bear testimony, 'I was baptized before my clothes were dry.' He led the Twelve, then led the exiled Saints across the plains — receiving at Winter Quarters the word and will of the Lord for the camps of Israel — and built a commonwealth in the valleys of the mountains.", "relations": [{ "to": "joseph-smith", "rel": "successor of" }, { "to": "john-taylor", "rel": "preceded" }], "groups": ["prophet", "leader"], "portrait": { "skin": "#dcab80", "hair": "#6b5b45", "style": "short", "beard": "short", "head": "none", "garb": "#4a3a2c", "accent": "#e8b64c", "emblem": "mount" } },
-    { "id": "john-taylor", "name": "John Taylor", "title": "Witness of the Martyrdom", "era": "1808-1887", "bio": "An English-born cooper and preacher who sang 'A Poor Wayfaring Man of Grief' in Carthage Jail minutes before the mob came, and was struck by four balls as Joseph and Hyrum fell. He lived to write their eulogy in section 135 and to lead the church as its third president.", "relations": [{ "to": "joseph-smith", "rel": "companion of" }, { "to": "brigham-young", "rel": "successor of" }], "groups": ["prophet", "leader"], "portrait": { "skin": "#dcae87", "hair": "#8f8574", "style": "short", "beard": "short", "head": "none", "garb": "#2f3a52", "accent": "#e8b64c", "emblem": "shield" } },
-    { "id": "joseph-f-smith", "name": "Joseph F. Smith", "title": "Prophet of the Vision of the Redeemed", "era": "1838-1918", "bio": "Born in Far West while his father Hyrum lay in Liberty Jail, orphaned at thirteen, and sent as a missionary to Hawaii at fifteen. As sixth president, six weeks before his death in 1918, he saw in vision the hosts of the dead and the preaching of the gospel among them — now section 138.", "relations": [{ "to": "hyrum-smith", "rel": "son of" }, { "to": "joseph-smith", "rel": "nephew of" }], "groups": ["prophet"], "portrait": { "skin": "#d8a87c", "hair": "#d8d3c8", "style": "short", "beard": "short", "head": "none", "garb": "#2f3a52", "accent": "#f2d488", "emblem": "star" } }
-  ],
-  "groups": [
-    { "id": "elders", "name": "The Elders of the Church", "bio": "Farmers, tradesmen, and schoolteachers called by revelation to leave their fields and go two by two, 'lifting up your voices as with the sound of a trump' — the first missionaries of the restoration.", "portrait": { "skin": "#dcab80", "hair": "#3a2617", "style": "group", "garb": "#2f3a52", "accent": "#d9b96a", "emblem": "trumpet" } },
-    { "id": "saints", "name": "The Latter-day Saints", "bio": "The gathered covenant people of the last days — driven from New York to Ohio, Missouri, and Nauvoo, then across the plains — commanded to build Zion 'with one heart and one mind.'", "portrait": { "skin": "#dcae87", "hair": "#4a3826", "style": "group", "garb": "#4a3a2c", "accent": "#e8b64c", "emblem": "sun" } },
-    { "id": "nations", "name": "The Nations", "bio": "The kingdoms and peoples of the whole earth, to whom the Lord's voice of warning is sent: 'and there is none to escape, and there is no eye that shall not see, neither ear that shall not hear.'", "portrait": { "skin": "#c8a27c", "hair": "#3a2d20", "style": "group", "garb": "#3d3d47", "accent": "#cbb27d", "emblem": "banner" } }
-  ]
+ "characters": [
+  {
+   "id": "joseph-smith",
+   "name": "Joseph Smith",
+   "title": "Prophet of the Restoration",
+   "era": "1805-1844",
+   "bio": "A farm boy of Palmyra who knelt in a grove of trees in 1820 and saw the Father and the Son. He translated the Book of Mormon from golden plates, received the revelations of this book, and sealed his testimony with his blood at Carthage Jail.",
+   "relations": [
+    {
+     "to": "emma-smith",
+     "rel": "husband of"
+    },
+    {
+     "to": "hyrum-smith",
+     "rel": "brother of"
+    },
+    {
+     "to": "joseph-smith-sr",
+     "rel": "son of"
+    },
+    {
+     "to": "oliver-cowdery",
+     "rel": "dictated to"
+    }
+   ],
+   "groups": [
+    "prophet",
+    "record-keeper",
+    "martyr"
+   ],
+   "portrait": {
+    "skin": "#e0b98f",
+    "hair": "#4a3524",
+    "style": "short",
+    "beard": "none",
+    "head": "none",
+    "garb": "#2f3a52",
+    "accent": "#d9b96a",
+    "emblem": "plates",
+    "face": "square",
+    "age": "young",
+    "hairStyle": "wavy",
+    "brow": "straight",
+    "eyes": "calm",
+    "nose": "aquiline",
+    "mouth": "neutral"
+   }
+  },
+  {
+   "id": "emma-smith",
+   "name": "Emma Smith",
+   "title": "The Elect Lady",
+   "era": "1804-1879",
+   "bio": "Joseph's wife, called in an 1830 revelation 'an elect lady' and commissioned to make a selection of sacred hymns. She served as scribe during the translation, though she was told not to look at the plates on the table wrapped in a linen cloth, and she buried six of her eleven children.",
+   "relations": [
+    {
+     "to": "joseph-smith",
+     "rel": "wife of"
+    }
+   ],
+   "groups": [
+    "family",
+    "leader"
+   ],
+   "portrait": {
+    "skin": "#e0b98f",
+    "hair": "#241812",
+    "style": "long",
+    "beard": "none",
+    "head": "circlet",
+    "garb": "#54633f",
+    "accent": "#e8b64c",
+    "emblem": "dove",
+    "face": "oval",
+    "age": "young",
+    "hairStyle": "long",
+    "brow": "soft",
+    "eyes": "gentle",
+    "nose": "straight",
+    "mouth": "smile"
+   }
+  },
+  {
+   "id": "hyrum-smith",
+   "name": "Hyrum Smith",
+   "title": "Patriarch & Faithful Brother",
+   "era": "1800-1844",
+   "bio": "Joseph's elder brother, of whom the Lord said, 'I, the Lord, love him because of the integrity of his heart.' Patriarch and Assistant President of the Church, he rode with Joseph to Carthage and died first — 'in life they were not divided, and in death they were not separated.'",
+   "relations": [
+    {
+     "to": "joseph-smith",
+     "rel": "brother of"
+    },
+    {
+     "to": "joseph-f-smith",
+     "rel": "father of"
+    }
+   ],
+   "groups": [
+    "family",
+    "leader",
+    "martyr"
+   ],
+   "portrait": {
+    "skin": "#d3a276",
+    "hair": "#4a3524",
+    "style": "short",
+    "beard": "short",
+    "head": "none",
+    "garb": "#2f3a52",
+    "accent": "#cbb27d",
+    "emblem": "crown",
+    "face": "round",
+    "age": "adult",
+    "hairStyle": "wavy",
+    "brow": "soft",
+    "eyes": "gentle",
+    "nose": "straight",
+    "mouth": "smile"
+   }
+  },
+  {
+   "id": "joseph-smith-sr",
+   "name": "Joseph Smith Sr.",
+   "title": "First Patriarch of the Church",
+   "era": "1771-1840",
+   "bio": "The prophet's father, a Vermont farmer who believed his son from the first telling and became one of the Eight Witnesses of the plates. Ordained the first Patriarch of the Church in 1833, he blessed the Saints until his death in Nauvoo.",
+   "relations": [
+    {
+     "to": "joseph-smith",
+     "rel": "father of"
+    },
+    {
+     "to": "hyrum-smith",
+     "rel": "father of"
+    }
+   ],
+   "groups": [
+    "family",
+    "leader",
+    "witness"
+   ],
+   "portrait": {
+    "skin": "#e0b98f",
+    "hair": "#b8b0a0",
+    "style": "short",
+    "beard": "long",
+    "head": "none",
+    "garb": "#4a3a2c",
+    "accent": "#cbb27d",
+    "emblem": "tree",
+    "face": "broad",
+    "age": "old",
+    "hairStyle": "short",
+    "brow": "worried",
+    "eyes": "calm",
+    "nose": "broad",
+    "mouth": "neutral"
+   }
+  },
+  {
+   "id": "oliver-cowdery",
+   "name": "Oliver Cowdery",
+   "title": "Scribe & Second Elder",
+   "era": "1806-1850",
+   "bio": "A young schoolteacher who arrived in Harmony in April 1829 and wrote nearly the whole Book of Mormon as Joseph dictated. One of the Three Witnesses, he knelt with Joseph for the restoration of the priesthood and the keys of the Kirtland Temple; he left the church in 1838 and returned humbly a decade later.",
+   "relations": [
+    {
+     "to": "joseph-smith",
+     "rel": "scribe of"
+    },
+    {
+     "to": "david-whitmer",
+     "rel": "fellow witness of"
+    }
+   ],
+   "groups": [
+    "record-keeper",
+    "missionary",
+    "witness"
+   ],
+   "portrait": {
+    "skin": "#d3a276",
+    "hair": "#241812",
+    "style": "short",
+    "beard": "none",
+    "head": "none",
+    "garb": "#54476b",
+    "accent": "#e8b64c",
+    "emblem": "scroll",
+    "face": "long",
+    "age": "young",
+    "hairStyle": "short",
+    "brow": "straight",
+    "eyes": "wide",
+    "nose": "straight",
+    "mouth": "neutral"
+   }
+  },
+  {
+   "id": "martin-harris",
+   "name": "Martin Harris",
+   "title": "Witness Who Gave His Farm",
+   "era": "1783-1875",
+   "bio": "A prosperous Palmyra farmer who mortgaged and finally sold his farm to pay the $3,000 printing of the Book of Mormon. He lost the 116 manuscript pages and wept, 'I have lost my soul' — yet stood as one of the Three Witnesses and never denied what the angel showed him.",
+   "relations": [
+    {
+     "to": "joseph-smith",
+     "rel": "benefactor of"
+    }
+   ],
+   "groups": [
+    "witness",
+    "hero"
+   ],
+   "portrait": {
+    "skin": "#e0b98f",
+    "hair": "#8a6b3a",
+    "style": "short",
+    "beard": "short",
+    "head": "none",
+    "garb": "#4a3a2c",
+    "accent": "#d9b96a",
+    "emblem": "heart",
+    "face": "broad",
+    "age": "adult",
+    "hairStyle": "short",
+    "brow": "straight",
+    "eyes": "calm",
+    "nose": "round",
+    "mouth": "set"
+   }
+  },
+  {
+   "id": "david-whitmer",
+   "name": "David Whitmer",
+   "title": "Witness of the Angel",
+   "era": "1805-1888",
+   "bio": "A Fayette farmer whose family sheltered Joseph and Oliver to finish the translation in June 1829. One of the Three Witnesses, he left the church in 1838 yet declared to his last year, 'I have never at any time denied that testimony or any part thereof.'",
+   "relations": [
+    {
+     "to": "john-whitmer",
+     "rel": "brother of"
+    },
+    {
+     "to": "oliver-cowdery",
+     "rel": "fellow witness of"
+    }
+   ],
+   "groups": [
+    "witness"
+   ],
+   "portrait": {
+    "skin": "#d3a276",
+    "hair": "#4a3524",
+    "style": "short",
+    "beard": "none",
+    "head": "none",
+    "garb": "#3f6b4f",
+    "accent": "#cbb27d",
+    "emblem": "stones",
+    "face": "square",
+    "age": "young",
+    "hairStyle": "short",
+    "brow": "straight",
+    "eyes": "wide",
+    "nose": "aquiline",
+    "mouth": "set"
+   }
+  },
+  {
+   "id": "john-whitmer",
+   "name": "John Whitmer",
+   "title": "First Church Historian",
+   "era": "1802-1878",
+   "bio": "One of the Eight Witnesses, appointed by revelation in 1831 to 'write and keep a regular history' of the church. He carried the manuscript revelations from Ohio to Missouri for printing, and kept his history — and his testimony of the plates — even after leaving the church in 1838.",
+   "relations": [
+    {
+     "to": "david-whitmer",
+     "rel": "brother of"
+    }
+   ],
+   "groups": [
+    "record-keeper",
+    "witness"
+   ],
+   "portrait": {
+    "skin": "#e0b98f",
+    "hair": "#241812",
+    "style": "short",
+    "beard": "none",
+    "head": "none",
+    "garb": "#54633f",
+    "accent": "#e8b64c",
+    "emblem": "scroll",
+    "face": "oval",
+    "age": "young",
+    "hairStyle": "wavy",
+    "brow": "soft",
+    "eyes": "calm",
+    "nose": "straight",
+    "mouth": "neutral"
+   }
+  },
+  {
+   "id": "sidney-rigdon",
+   "name": "Sidney Rigdon",
+   "title": "Spokesman & Counselor",
+   "era": "1793-1876",
+   "bio": "A powerful Ohio preacher whose whole congregation entered the restored church in 1830, called by revelation to be 'a spokesman unto my servant Joseph.' He beheld the vision of the three degrees of glory beside Joseph at Hiram in 1832, and days later was dragged from bed by the same mob that tarred the prophet.",
+   "relations": [
+    {
+     "to": "joseph-smith",
+     "rel": "counselor to"
+    },
+    {
+     "to": "parley-p-pratt",
+     "rel": "converted by"
+    }
+   ],
+   "groups": [
+    "leader",
+    "missionary"
+   ],
+   "portrait": {
+    "skin": "#d3a276",
+    "hair": "#4a3524",
+    "style": "short",
+    "beard": "stubble",
+    "head": "none",
+    "garb": "#2f3a52",
+    "accent": "#d9b96a",
+    "emblem": "banner",
+    "face": "long",
+    "age": "adult",
+    "hairStyle": "short",
+    "brow": "arched",
+    "eyes": "fierce",
+    "nose": "aquiline",
+    "mouth": "open"
+   }
+  },
+  {
+   "id": "edward-partridge",
+   "name": "Edward Partridge",
+   "title": "First Bishop of the Church",
+   "era": "1793-1840",
+   "bio": "A Painesville hatter whom the Lord called 'like unto Nathanael of old, in whom there is no guile,' and made the church's first bishop in 1831. He was tarred and feathered on the public square of Independence in 1833 and bore it, he said, with so much resignation that the crowd went away silent.",
+   "relations": [
+    {
+     "to": "joseph-smith",
+     "rel": "called by"
+    }
+   ],
+   "groups": [
+    "leader"
+   ],
+   "portrait": {
+    "skin": "#e0b98f",
+    "hair": "#241812",
+    "style": "short",
+    "beard": "none",
+    "head": "none",
+    "garb": "#54476b",
+    "accent": "#cbb27d",
+    "emblem": "olive",
+    "face": "round",
+    "age": "adult",
+    "hairStyle": "short",
+    "brow": "soft",
+    "eyes": "calm",
+    "nose": "round",
+    "mouth": "smile"
+   }
+  },
+  {
+   "id": "newel-k-whitney",
+   "name": "Newel K. Whitney",
+   "title": "Bishop & Storekeeper of Kirtland",
+   "era": "1795-1850",
+   "bio": "The Kirtland merchant to whom Joseph, arriving unannounced in 1831, said, 'You have prayed me here; now what do you want of me?' His store above the counter housed the School of the Prophets, and as second bishop he opened the Lord's storehouse to the poor.",
+   "relations": [
+    {
+     "to": "joseph-smith",
+     "rel": "host of"
+    }
+   ],
+   "groups": [
+    "leader"
+   ],
+   "portrait": {
+    "skin": "#d3a276",
+    "hair": "#4a3524",
+    "style": "short",
+    "beard": "short",
+    "head": "none",
+    "garb": "#3f6b4f",
+    "accent": "#e8b64c",
+    "emblem": "tower",
+    "face": "square",
+    "age": "adult",
+    "hairStyle": "short",
+    "brow": "straight",
+    "eyes": "wide",
+    "nose": "straight",
+    "mouth": "neutral"
+   }
+  },
+  {
+   "id": "william-w-phelps",
+   "name": "William W. Phelps",
+   "title": "Printer & Hymn Writer of Zion",
+   "era": "1792-1872",
+   "bio": "Editor whose press in Independence printed the first gathering of the revelations until a mob threw it from the second story in 1833. He wrote 'The Spirit of God,' sung at the Kirtland Temple dedication in 1836, and 'Praise to the Man' after the prophet he had once betrayed — and been forgiven by — was slain.",
+   "relations": [
+    {
+     "to": "joseph-smith",
+     "rel": "forgiven by"
+    }
+   ],
+   "groups": [
+    "record-keeper"
+   ],
+   "portrait": {
+    "skin": "#e0b98f",
+    "hair": "#8a6b3a",
+    "style": "short",
+    "beard": "stubble",
+    "head": "none",
+    "garb": "#2f3a52",
+    "accent": "#d9b96a",
+    "emblem": "fire",
+    "face": "oval",
+    "age": "adult",
+    "hairStyle": "wavy",
+    "brow": "arched",
+    "eyes": "fierce",
+    "nose": "straight",
+    "mouth": "set"
+   }
+  },
+  {
+   "id": "parley-p-pratt",
+   "name": "Parley P. Pratt",
+   "title": "Apostle, Missionary & Writer",
+   "era": "1807-1857",
+   "bio": "Restless preacher whose 1830 mission to the Lamanites brought Sidney Rigdon's whole congregation into the church along the way. An original member of the Twelve, author of A Voice of Warning, and hymn writer, he carried the gospel from Canada to Chile until he was murdered in Arkansas in 1857.",
+   "relations": [
+    {
+     "to": "orson-pratt",
+     "rel": "brother of"
+    },
+    {
+     "to": "sidney-rigdon",
+     "rel": "converted"
+    }
+   ],
+   "groups": [
+    "missionary",
+    "record-keeper",
+    "martyr"
+   ],
+   "portrait": {
+    "skin": "#d3a276",
+    "hair": "#241812",
+    "style": "short",
+    "beard": "short",
+    "head": "none",
+    "garb": "#54633f",
+    "accent": "#cbb27d",
+    "emblem": "trumpet",
+    "face": "long",
+    "age": "adult",
+    "hairStyle": "short",
+    "brow": "heavy",
+    "eyes": "wide",
+    "nose": "aquiline",
+    "mouth": "open"
+   }
+  },
+  {
+   "id": "orson-pratt",
+   "name": "Orson Pratt",
+   "title": "Apostle & Scholar of the Kingdom",
+   "era": "1811-1881",
+   "bio": "Baptized by his brother Parley on his nineteenth birthday, he received a revelation two months later calling him to 'lift up your voice long, both day and night.' Apostle and self-taught mathematician, he rode ahead of the pioneer company and entered the Salt Lake Valley first, on 21 July 1847.",
+   "relations": [
+    {
+     "to": "parley-p-pratt",
+     "rel": "brother of"
+    }
+   ],
+   "groups": [
+    "missionary",
+    "record-keeper"
+   ],
+   "portrait": {
+    "skin": "#e0b98f",
+    "hair": "#4a3524",
+    "style": "short",
+    "beard": "none",
+    "head": "none",
+    "garb": "#54476b",
+    "accent": "#e8b64c",
+    "emblem": "star",
+    "face": "square",
+    "age": "adult",
+    "hairStyle": "short",
+    "brow": "arched",
+    "eyes": "calm",
+    "nose": "straight",
+    "mouth": "neutral"
+   }
+  },
+  {
+   "id": "orson-hyde",
+   "name": "Orson Hyde",
+   "title": "Apostle Who Dedicated the Holy Land",
+   "era": "1805-1878",
+   "bio": "An orphan clerk from Whitney's store who became one of the original Twelve. In 1841 he traveled alone across Europe to Jerusalem and, on the Mount of Olives at sunrise, dedicated the land for the gathering of the children of Judah.",
+   "relations": [
+    {
+     "to": "newel-k-whitney",
+     "rel": "clerk for"
+    }
+   ],
+   "groups": [
+    "missionary"
+   ],
+   "portrait": {
+    "skin": "#d3a276",
+    "hair": "#241812",
+    "style": "short",
+    "beard": "none",
+    "head": "none",
+    "garb": "#3f6b4f",
+    "accent": "#d9b96a",
+    "emblem": "olive",
+    "face": "heart",
+    "age": "adult",
+    "hairStyle": "wavy",
+    "brow": "soft",
+    "eyes": "downcast",
+    "nose": "straight",
+    "mouth": "neutral"
+   }
+  },
+  {
+   "id": "thomas-b-marsh",
+   "name": "Thomas B. Marsh",
+   "title": "First President of the Twelve",
+   "era": "1800-1866",
+   "bio": "A Boston printer drawn west by a spiritual prompting, he arrived in Palmyra while the Book of Mormon's first sheets were still on the press. First president of the Quorum of the Twelve in 1835, he was promised his sins were forgiven and warned to 'be patient in afflictions' — he fell away in 1838 and returned, broken and welcomed, in 1857.",
+   "relations": [
+    {
+     "to": "brigham-young",
+     "rel": "preceded"
+    }
+   ],
+   "groups": [
+    "leader",
+    "convert"
+   ],
+   "portrait": {
+    "skin": "#e0b98f",
+    "hair": "#4a3524",
+    "style": "short",
+    "beard": "stubble",
+    "head": "none",
+    "garb": "#2f3a52",
+    "accent": "#cbb27d",
+    "emblem": "banner",
+    "face": "round",
+    "age": "adult",
+    "hairStyle": "short",
+    "brow": "straight",
+    "eyes": "wide",
+    "nose": "broad",
+    "mouth": "set"
+   }
+  },
+  {
+   "id": "brigham-young",
+   "name": "Brigham Young",
+   "title": "Pioneer Prophet",
+   "era": "1801-1877",
+   "bio": "A Vermont carpenter and glazier who said that after hearing a humble missionary bear testimony, 'I was baptized before my clothes were dry.' He led the Twelve, then led the exiled Saints across the plains — receiving at Winter Quarters the word and will of the Lord for the camps of Israel — and built a commonwealth in the valleys of the mountains.",
+   "relations": [
+    {
+     "to": "joseph-smith",
+     "rel": "successor of"
+    },
+    {
+     "to": "john-taylor",
+     "rel": "preceded"
+    }
+   ],
+   "groups": [
+    "prophet",
+    "leader"
+   ],
+   "portrait": {
+    "skin": "#e0b98f",
+    "hair": "#ece5d5",
+    "style": "short",
+    "beard": "chinstrap",
+    "head": "none",
+    "garb": "#4a3a2c",
+    "accent": "#d9b96a",
+    "emblem": "mount",
+    "face": "broad",
+    "age": "old",
+    "hairStyle": "short",
+    "brow": "heavy",
+    "eyes": "fierce",
+    "nose": "broad",
+    "mouth": "set"
+   }
+  },
+  {
+   "id": "john-taylor",
+   "name": "John Taylor",
+   "title": "Witness of the Martyrdom",
+   "era": "1808-1887",
+   "bio": "An English-born cooper and preacher who sang 'A Poor Wayfaring Man of Grief' in Carthage Jail minutes before the mob came, and was struck by four balls as Joseph and Hyrum fell. He lived to write their eulogy in section 135 and to lead the church as its third president.",
+   "relations": [
+    {
+     "to": "joseph-smith",
+     "rel": "companion of"
+    },
+    {
+     "to": "brigham-young",
+     "rel": "successor of"
+    }
+   ],
+   "groups": [
+    "prophet",
+    "leader"
+   ],
+   "portrait": {
+    "skin": "#d3a276",
+    "hair": "#b8b0a0",
+    "style": "short",
+    "beard": "short",
+    "head": "none",
+    "garb": "#54633f",
+    "accent": "#e8b64c",
+    "emblem": "shield",
+    "face": "square",
+    "age": "adult",
+    "hairStyle": "short",
+    "brow": "straight",
+    "eyes": "calm",
+    "nose": "aquiline",
+    "mouth": "neutral"
+   }
+  },
+  {
+   "id": "joseph-f-smith",
+   "name": "Joseph F. Smith",
+   "title": "Prophet of the Vision of the Redeemed",
+   "era": "1838-1918",
+   "bio": "Born in Far West while his father Hyrum lay in Liberty Jail, orphaned at thirteen, and sent as a missionary to Hawaii at fifteen. As sixth president, six weeks before his death in 1918, he saw in vision the hosts of the dead and the preaching of the gospel among them — now section 138.",
+   "relations": [
+    {
+     "to": "hyrum-smith",
+     "rel": "son of"
+    },
+    {
+     "to": "joseph-smith",
+     "rel": "nephew of"
+    }
+   ],
+   "groups": [
+    "prophet"
+   ],
+   "portrait": {
+    "skin": "#e0b98f",
+    "hair": "#ece5d5",
+    "style": "short",
+    "beard": "full",
+    "head": "none",
+    "garb": "#2f3a52",
+    "accent": "#cbb27d",
+    "emblem": "star",
+    "face": "broad",
+    "age": "old",
+    "hairStyle": "short",
+    "brow": "heavy",
+    "eyes": "calm",
+    "nose": "broad",
+    "mouth": "neutral"
+   }
+  }
+ ],
+ "groups": [
+  {
+   "id": "elders",
+   "name": "The Elders of the Church",
+   "bio": "Farmers, tradesmen, and schoolteachers called by revelation to leave their fields and go two by two, 'lifting up your voices as with the sound of a trump' — the first missionaries of the restoration.",
+   "portrait": {
+    "skin": "#d3a276",
+    "hair": "#4a3524",
+    "style": "group",
+    "garb": "#4a3a2c",
+    "accent": "#d9b96a",
+    "emblem": "trumpet",
+    "face": "oval",
+    "age": "adult",
+    "hairStyle": "short",
+    "brow": "straight",
+    "eyes": "wide",
+    "nose": "straight",
+    "mouth": "set",
+    "beard": "none",
+    "head": "none"
+   }
+  },
+  {
+   "id": "saints",
+   "name": "The Latter-day Saints",
+   "bio": "The gathered covenant people of the last days — driven from New York to Ohio, Missouri, and Nauvoo, then across the plains — commanded to build Zion 'with one heart and one mind.'",
+   "portrait": {
+    "skin": "#e0b98f",
+    "hair": "#241812",
+    "style": "group",
+    "garb": "#54476b",
+    "accent": "#e8b64c",
+    "emblem": "sun",
+    "face": "round",
+    "age": "adult",
+    "hairStyle": "wavy",
+    "brow": "soft",
+    "eyes": "gentle",
+    "nose": "round",
+    "mouth": "smile",
+    "beard": "none",
+    "head": "none"
+   }
+  },
+  {
+   "id": "nations",
+   "name": "The Nations",
+   "bio": "The kingdoms and peoples of the whole earth, to whom the Lord's voice of warning is sent: 'and there is none to escape, and there is no eye that shall not see, neither ear that shall not hear.'",
+   "portrait": {
+    "skin": "#b9855a",
+    "hair": "#4a3524",
+    "style": "group",
+    "garb": "#2f3a52",
+    "accent": "#cbb27d",
+    "emblem": "banner",
+    "face": "square",
+    "age": "adult",
+    "hairStyle": "short",
+    "brow": "straight",
+    "eyes": "wide",
+    "nose": "broad",
+    "mouth": "neutral",
+    "beard": "short",
+    "head": "none"
+   }
+  }
+ ]
 }
