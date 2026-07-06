@@ -325,8 +325,12 @@ main { min-height: 72vh; }
 .story-card h3 { margin: 0; font-size: 17px; line-height: 1.35; }
 .story-card p { margin: 0; font-size: 13px; color: var(--ink-dim); flex: 1; }
 .story-card .refs { font-size: 12px; color: var(--gold-dim); }
-.story-card .faces { display: flex; gap: 5px; }
-.story-card .faces .fc { width: 34px; border-radius: 7px; overflow: hidden; border: 1px solid var(--line); }
+.story-card .faces { display: flex; flex-wrap: wrap; gap: 10px; }
+.story-card .faces .fc { width: 46px; text-align: center; color: var(--ink-dim); }
+.story-card .faces .fc .avatar { border-radius: 8px; overflow: hidden; border: 1px solid var(--line); }
+.story-card .faces .fc:hover { color: var(--gold); text-decoration: none; }
+.story-card .faces .fc:hover .avatar { border-color: var(--gold-dim); }
+.story-card .faces .fc-name { display: block; font-size: 9.5px; line-height: 1.15; margin-top: 3px; }
 
 /* ---------- allegories ---------- */
 .alle-card { background: var(--panel); border: 1px solid var(--line); border-radius: var(--rad); padding: 20px; margin-bottom: 22px; }

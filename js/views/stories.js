@@ -22,7 +22,7 @@ export async function renderStories(el, params) {
     const refs = s.refs.map(r => `<a href="#/read/${r.slug}/${r.c}">${refName(r)}</a>`).join(' · ');
     const faces = (s.characters || []).slice(0, 4).map(id => {
       const e = ents.byId[id];
-      return e ? `<span class="fc" title="${esc(e.name)}">${avatar(e)}</span>` : '';
+      return e ? `<a class="fc" href="#/character/${id}" title="${esc(e.name)}">${avatar(e)}<span class="fc-name">${esc(e.name)}</span></a>` : '';
     }).join('');
     const place = s.place ? allPlaces.find(p => p.id === s.place) : null;
     const hay = `${s.title} ${s.blurb} ${(s.characters || []).map(id => (ents.byId[id] || {}).name || '').join(' ')}`.toLowerCase();
