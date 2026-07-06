@@ -401,7 +401,7 @@ main { min-height: 72vh; }
 .rc-hint { font-size: 11px; color: var(--ink-faint); margin-top: 10px; font-style: italic; }
 
 /* ---------- chapter browser (drill-up navigation below the reader) ---------- */
-.chapter-browser { max-width: 720px; margin: 26px 0 10px; border: 1px solid var(--line); border-radius: var(--rad); overflow: hidden; background: var(--panel); }
+.chapter-browser { max-width: 720px; margin: 0 0 22px; border: 1px solid var(--line); border-radius: var(--rad); overflow: hidden; background: var(--panel); }
 .cb-toggle { width: 100%; display: flex; align-items: center; gap: 12px; background: none; border: none; color: var(--ink); cursor: pointer; padding: 14px 18px; font-family: var(--serif); font-size: 16px; text-align: left; }
 .cb-toggle:hover { background: var(--panel2); }
 .cb-toggle-label { font-weight: 600; }

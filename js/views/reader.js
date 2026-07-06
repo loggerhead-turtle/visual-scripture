@@ -88,6 +88,17 @@ export async function renderReader(el, slug, c, params) {
     <div class="reader-layout">
       <aside class="reader-toc">${toc}</aside>
       <article>
+        <section class="chapter-browser" id="chapter-browser">
+          <button class="cb-toggle" id="cb-toggle" aria-expanded="false">
+            <span class="cb-toggle-label">Browse all scripture</span>
+            <span class="cb-here">${book.slug === 'dc' ? 'Doctrine &amp; Covenants' : esc(vol.name) + ' · ' + esc(book.name)}</span>
+            <span class="cb-caret">▾</span>
+          </button>
+          <div class="cb-panel" id="cb-panel" hidden>
+            <div class="cb-crumbs" id="cb-crumbs"></div>
+            <div class="cb-grid" id="cb-grid"></div>
+          </div>
+        </section>
         <header class="chapter-head">
           <div class="crumbs">${esc(vol.name)} · ${pk.short || ''}${cm.years ? ' · ' + esc(cm.years) : ''}</div>
           <h1>${book.slug === 'dc' ? `Section ${c}` : `${book.name} ${c}`}</h1>
@@ -106,17 +117,6 @@ export async function renderReader(el, slug, c, params) {
           ${prev ? `<a class="btn" href="#/read/${prev.slug}/${prev.c}">← ${prev.slug === 'dc' ? 'Section ' + prev.c : bookBySlug[prev.slug].name + ' ' + prev.c}</a>` : '<span></span>'}
           ${next ? `<a class="btn" href="#/read/${next.slug}/${next.c}">${next.slug === 'dc' ? 'Section ' + next.c : bookBySlug[next.slug].name + ' ' + next.c} →</a>` : '<span></span>'}
         </nav>
-        <section class="chapter-browser" id="chapter-browser">
-          <button class="cb-toggle" id="cb-toggle" aria-expanded="false">
-            <span class="cb-toggle-label">Browse all scripture</span>
-            <span class="cb-here">${book.slug === 'dc' ? 'Doctrine &amp; Covenants' : esc(vol.name) + ' · ' + esc(book.name)}</span>
-            <span class="cb-caret">▾</span>
-          </button>
-          <div class="cb-panel" id="cb-panel" hidden>
-            <div class="cb-crumbs" id="cb-crumbs"></div>
-            <div class="cb-grid" id="cb-grid"></div>
-          </div>
-        </section>
       </article>
       <aside class="speaker-rail">
         <div class="speaker-card" id="speaker-card"></div>
