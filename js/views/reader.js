@@ -1,5 +1,7 @@
 import { VOLUMES, bookBySlug, volumeOf, chapterWord, loadText, loadMeta, loadPlaces, loadPlacesHolyLand, loadPlacesUSA, loadPlates, entities, segmentFor, prevNextChapter, esc, themeName } from '../data.js';
 import { avatar } from '../portraits.js';
+import { currentUser, getStudy, setHighlight, setNote, toggleBookmark, setLastRead, refOf } from '../account.js';
+import { HL_COLORS, applyHighlight, refreshFlags, decorateVerses } from '../study-marks.js';
 
 let observer = null;
 
@@ -105,6 +107,7 @@ export async function renderReader(el, slug, c, params) {
           ${cm.title ? `<h2 class="ctitle">${esc(cm.title)}</h2>` : ''}
           ${cm.synopsis ? `<div class="synopsis"><strong style="color:var(--gold-dim)">Synopsis — </strong>${esc(cm.synopsis)}</div>` : (meta.stub ? '<div class="synopsis" style="border-left-color:var(--line)">Study notes for this chapter are still being illuminated — the full text is below.</div>' : '')}
           <div class="chapter-meta">
+            <button type="button" class="pill link bm-pill" id="bm-chapter">🔖 <span>Bookmark</span></button>
             <a class="pill link" href="#/plates?p=${platesKey}"><span class="dot" style="background:${pk.color || '#888'}"></span>${pk.short || 'Record'}</a>
             ${place ? `<a class="pill link" href="#/map?place=${place.id}&m=${mapParam}">📍 ${place.name}</a>` : ''}
             ${cm.yearNum != null ? `<a class="pill link" href="#/timeline?y=${cm.yearNum}&era=${vol.id === 'bom' ? 'lehite' : vol.id}">🕰 ${esc(cm.years || 'Timeline')}</a>` : ''}
@@ -118,7 +121,11 @@ export async function renderReader(el, slug, c, params) {
           ${next ? `<a class="btn" href="#/read/${next.slug}/${next.c}">${next.slug === 'dc' ? 'Section ' + next.c : bookBySlug[next.slug].name + ' ' + next.c} →</a>` : '<span></span>'}
         </nav>
       </article>
-      <aside class="speaker-rail">
+      <aside class="speaker-rail" id="speaker-rail">
+        <div class="rail-head">
+          <span>Who's speaking</span>
+          <button type="button" id="rail-close" aria-label="Close panel">✕</button>
+        </div>
         <div class="speaker-card" id="speaker-card"></div>
         <div class="context-card">
           <h4>${cw} context</h4>
@@ -130,6 +137,12 @@ export async function renderReader(el, slug, c, params) {
         </div>
         ${castCard}
       </aside>
+      <button type="button" class="rail-handle" id="rail-handle" aria-expanded="false" aria-label="Show who is speaking, when and where">
+        <span class="rh-avatar" id="rh-avatar"></span>
+        <span class="rh-label">Speaking</span>
+        <span class="rh-chev">‹</span>
+      </button>
+      <div class="rail-scrim" id="rail-scrim"></div>
     </div>
   </div>`;
 
@@ -150,15 +163,19 @@ export async function renderReader(el, slug, c, params) {
   if (curBtn) curBtn.scrollIntoView({ block: 'center' });
 
   setupChapterBrowser(el, vol, book, c);
+  setupRailDrawer(el);
+  setupStudyTools(el, slug, c, book, cm);
 
   renderMiniTimeline(el.querySelector('#mini-tl'), cm.yearNum, vol);
 
   const cardEl = el.querySelector('#speaker-card');
+  const handleAvatar = el.querySelector('#rh-avatar');
   let activeSeg;
   const setSegment = seg => {
     if (seg === activeSeg) return;
     activeSeg = seg;
     renderSpeakerCard(cardEl, seg, ents, meta);
+    if (handleAvatar) handleAvatar.innerHTML = avatar(seg && ents.byId[seg.speaker]);
     el.querySelectorAll('.verse').forEach(p => {
       const v = +p.dataset.v;
       const on = !!seg && v >= seg.s && v <= seg.e;
@@ -171,6 +188,13 @@ export async function renderReader(el, slug, c, params) {
   };
   setSegment(segmentFor(cm, 1) || defaultSeg(meta, verses.length));
 
+  // remember where this profile is reading (debounced — fires as you scroll)
+  let lrTimer = null;
+  const saveLastRead = v => {
+    clearTimeout(lrTimer);
+    lrTimer = setTimeout(() => setLastRead({ slug, c, v }), 900);
+  };
+
   if (observer) observer.disconnect();
   const visible = new Set();
   observer = new IntersectionObserver(entriesList => {
@@ -181,6 +205,7 @@ export async function renderReader(el, slug, c, params) {
     if (visible.size) {
       const top = Math.min(...visible);
       setSegment(segmentFor(cm, top) || defaultSeg(meta, verses.length));
+      saveLastRead(top);
     }
   }, { rootMargin: '-15% 0px -55% 0px', threshold: 0 });
   el.querySelectorAll('.verse').forEach(p => observer.observe(p));
@@ -188,6 +213,175 @@ export async function renderReader(el, slug, c, params) {
   const vParam = parseInt(params.get('v') || '', 10);
   const vEl = vParam && document.getElementById(`v${vParam}`);
   if (vEl) vEl.scrollIntoView({ block: 'center' });
+  setLastRead({ slug, c, v: vParam || 1 }); // record the visit at once; scrolling refines it
+}
+
+/* ---- mobile: the speaker rail as a pull-over drawer ------------------- */
+// On phones in portrait the right-hand rail (who is speaking, when, where)
+// has no room, so it becomes an off-canvas drawer. A handle hugging the
+// right edge — showing the current speaker's face — pulls it over the text.
+function setupRailDrawer(el) {
+  const rail = el.querySelector('#speaker-rail');
+  const handle = el.querySelector('#rail-handle');
+  const scrim = el.querySelector('#rail-scrim');
+  const closeBtn = el.querySelector('#rail-close');
+  if (!rail || !handle || !scrim) return;
+
+  const set = open => {
+    rail.classList.toggle('open', open);
+    scrim.classList.toggle('open', open);
+    handle.classList.toggle('tucked', open);
+    handle.setAttribute('aria-expanded', open ? 'true' : 'false');
+    document.body.classList.toggle('no-scroll', open);
+  };
+  handle.addEventListener('click', () => set(true));
+  scrim.addEventListener('click', () => set(false));
+  closeBtn.addEventListener('click', () => set(false));
+  // tapping any link inside the drawer navigates away — close it first
+  rail.addEventListener('click', e => { if (e.target.closest('a')) set(false); });
+
+  // swipe right on the drawer to push it back off-screen
+  let x0 = null, y0 = null;
+  rail.addEventListener('touchstart', e => { x0 = e.touches[0].clientX; y0 = e.touches[0].clientY; }, { passive: true });
+  rail.addEventListener('touchend', e => {
+    if (x0 == null) return;
+    const dx = e.changedTouches[0].clientX - x0;
+    const dy = e.changedTouches[0].clientY - y0;
+    if (dx > 70 && Math.abs(dy) < 60) set(false);
+    x0 = y0 = null;
+  }, { passive: true });
+
+  if (railEscHandler) document.removeEventListener('keydown', railEscHandler);
+  railEscHandler = e => {
+    if (e.key === 'Escape' && document.body.contains(rail) && rail.classList.contains('open')) set(false);
+  };
+  document.addEventListener('keydown', railEscHandler);
+}
+let railEscHandler = null;
+
+/* ---- study tools: highlights, notes & bookmarks on each verse --------- */
+function setupStudyTools(el, slug, c, book, cm) {
+  const versesEl = el.querySelector('#verses');
+  const study = getStudy();
+  decorateVerses(versesEl, study, slug, c);
+
+  // chapter bookmark pill
+  const bmPill = el.querySelector('#bm-chapter');
+  const chRef = refOf(slug, c);
+  const paintPill = on => {
+    bmPill.classList.toggle('on', !!on);
+    bmPill.querySelector('span').textContent = on ? 'Bookmarked' : 'Bookmark';
+  };
+  const d0 = getStudy();
+  paintPill(d0 && d0.bookmarks.some(b => refOf(b.slug, b.c, b.v) === chRef));
+  bmPill.addEventListener('click', () => {
+    if (!currentUser()) { location.hash = '#/study'; return; }
+    paintPill(toggleBookmark({ slug, c, title: cm.title || `${book.name} ${c}` }));
+  });
+
+  // tap a verse -> tools popover (highlight colours, note, bookmark)
+  let openTools = null;
+  const closeTools = () => { if (openTools) { openTools.remove(); openTools = null; } };
+  versesEl.addEventListener('click', e => {
+    if (e.target.closest('.vtools') || e.target.closest('a')) return;
+    const p = e.target.closest('.verse');
+    if (!p) { closeTools(); return; }
+    const sel = window.getSelection && window.getSelection();
+    if (sel && String(sel).length) return; // don't hijack text selection
+    const v = +p.dataset.v;
+    const already = openTools && openTools.dataset.v === String(v);
+    closeTools();
+    if (already) return;
+    openTools = buildVerseTools(p, slug, c, v);
+    p.insertAdjacentElement('afterend', openTools);
+    openTools.dataset.v = v;
+  });
+}
+
+function buildVerseTools(p, slug, c, v) {
+  const box = document.createElement('div');
+  box.className = 'vtools';
+
+  if (!currentUser()) {
+    box.innerHTML = `<div class="vt-signin">
+      <a class="btn primary" href="#/study">Sign in</a>
+      <span>to highlight this verse, write a note, or bookmark it. Free — kept in your browser.</span>
+    </div>`;
+    return box;
+  }
+
+  const ref = refOf(slug, c, v);
+  const d = getStudy();
+  const cur = d.highlights[ref] && d.highlights[ref].color;
+  const note = d.notes[ref];
+  const bm = d.bookmarks.some(b => refOf(b.slug, b.c, b.v) === ref);
+
+  box.innerHTML = `
+    <div class="vt-row">
+      <span class="vt-vlabel">v.&thinsp;${v}</span>
+      ${HL_COLORS.map(cc => `<button type="button" class="vt-swatch ${cur === cc.id ? 'on' : ''}" data-color="${cc.id}" title="Highlight — ${cc.name}" style="background:${cc.hex}"></button>`).join('')}
+      <button type="button" class="vt-swatch clear ${cur ? '' : 'on'}" data-color="" title="Remove highlight">⊘</button>
+      <span class="vt-gap"></span>
+      <button type="button" class="vt-act" data-act="note">✎ <span>${note ? 'Edit note' : 'Note'}</span></button>
+      <button type="button" class="vt-act ${bm ? 'on' : ''}" data-act="bm">🔖 <span>${bm ? 'Saved' : 'Save'}</span></button>
+    </div>
+    <div class="vt-note" ${note ? '' : 'hidden'}>
+      <textarea rows="3" placeholder="Your note on verse ${v}…">${note ? esc(note.text) : ''}</textarea>
+      <div class="vt-note-btns">
+        <button type="button" class="btn primary vt-save">Save note</button>
+        <button type="button" class="btn vt-del" ${note ? '' : 'hidden'}>Delete note</button>
+        <span class="vt-saved" hidden>Saved ✓</span>
+      </div>
+    </div>`;
+
+  const ta = box.querySelector('textarea');
+  const refresh = () => refreshFlags(p, getStudy(), ref);
+
+  box.addEventListener('click', e => {
+    const sw = e.target.closest('.vt-swatch');
+    if (sw) {
+      const color = sw.dataset.color || null;
+      setHighlight(ref, color);
+      applyHighlight(p, color);
+      box.querySelectorAll('.vt-swatch').forEach(b => b.classList.toggle('on', b === sw));
+      return;
+    }
+    const act = e.target.closest('.vt-act');
+    if (act && act.dataset.act === 'note') {
+      const ed = box.querySelector('.vt-note');
+      ed.hidden = !ed.hidden;
+      if (!ed.hidden) ta.focus();
+      return;
+    }
+    if (act && act.dataset.act === 'bm') {
+      const on = toggleBookmark({ slug, c, v });
+      act.classList.toggle('on', !!on);
+      act.querySelector('span').textContent = on ? 'Saved' : 'Save';
+      refresh();
+      return;
+    }
+    if (e.target.closest('.vt-save')) {
+      setNote(ref, ta.value);
+      const hasText = !!ta.value.trim();
+      box.querySelector('.vt-del').hidden = !hasText;
+      box.querySelector('[data-act=note] span').textContent = hasText ? 'Edit note' : 'Note';
+      const ok = box.querySelector('.vt-saved');
+      ok.hidden = false;
+      setTimeout(() => { ok.hidden = true; }, 1400);
+      refresh();
+      return;
+    }
+    if (e.target.closest('.vt-del')) {
+      setNote(ref, '');
+      ta.value = '';
+      box.querySelector('.vt-note').hidden = true;
+      box.querySelector('.vt-del').hidden = true;
+      box.querySelector('[data-act=note] span').textContent = 'Note';
+      refresh();
+    }
+  });
+
+  return box;
 }
 
 const defaultSeg = (meta, n) => ({ s: 1, e: n, speaker: meta.narrator, to: 'reader', note: `${meta.book}: the narrator addresses the reader` });

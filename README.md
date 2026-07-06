@@ -24,6 +24,15 @@ chapter in view while you read:
   and the Liahona as Alma likens it.
 - **🔎 Story Navigator** — 46 famous stories, searchable and filterable, jumping straight to
   chapter and verse.
+- **👤 My Study** — local-first profiles (no server, no tracking): sign in to bookmark
+  chapters and verses, highlight verses in five colours, write per-verse notes, and pick up
+  reading exactly where you left off. Everything is stored in your browser's localStorage
+  per profile (passwords are salted-and-hashed, never stored in the clear) and can be
+  exported/imported as a JSON file to move between devices. Tap any verse in the reader to
+  highlight, note, or bookmark it.
+- **📱 Mobile speaker drawer** — on phones in portrait, the "who is speaking to whom,
+  when and where" rail becomes a pull-over drawer: a handle on the right edge (showing the
+  current speaker's face, live as you scroll) slides the full context card over the text.
 
 Everything is plain HTML/CSS/ES-modules + JSON — **no build step, no server code, no
 dependencies** — so it hosts for free anywhere static files can live.

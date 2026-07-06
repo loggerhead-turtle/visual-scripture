@@ -8,9 +8,31 @@ import { renderPlates } from './views/plates.js';
 import { renderCast } from './views/cast.js';
 import { renderStories } from './views/stories.js';
 import { renderAllegories } from './views/allegories.js';
+import { renderStudy } from './views/study.js';
+import { currentUser, lastRead, onAccount } from './account.js';
 
 const view = document.getElementById('view');
 const nav = document.getElementById('mainnav');
+const acctBtn = document.getElementById('acctbtn');
+
+const ACCT_ICON = `<svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true">
+  <circle cx="12" cy="8" r="3.8" fill="none" stroke="currentColor" stroke-width="2"/>
+  <path d="M4.6 20.2 q0 -5.8 7.4 -5.8 q7.4 0 7.4 5.8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+</svg>`;
+function refreshAcctBtn() {
+  const u = currentUser();
+  if (u) {
+    acctBtn.classList.add('on');
+    acctBtn.textContent = [...u.name.trim()][0].toUpperCase();
+    acctBtn.title = `${u.name} — My Study`;
+  } else {
+    acctBtn.classList.remove('on');
+    acctBtn.innerHTML = ACCT_ICON;
+    acctBtn.title = 'Sign in — bookmarks, notes & highlights';
+  }
+}
+onAccount(refreshAcctBtn);
+refreshAcctBtn();
 // (nav toggle handlers live in an inline script in index.html so the menu
 // works even if this module fails to load)
 
@@ -28,14 +50,24 @@ async function route() {
   for (const a of nav.querySelectorAll('a')) {
     a.classList.toggle('active', a.dataset.nav === section || (section.startsWith('allegor') && a.dataset.nav === 'allegories') || (section === 'character' && a.dataset.nav === 'cast'));
   }
+  acctBtn.classList.toggle('active', section === 'study');
 
   document.querySelectorAll('.modal-back').forEach(m => m.remove());
+  document.body.classList.remove('no-scroll');
   view.innerHTML = '<div class="loading">Opening the record&hellip;</div>';
   const done = html => { if (my === token) return true; return false; };
   try {
     switch (section) {
       case 'home': await renderHome(view); break;
       case 'read': {
+        if (!parts[1]) {
+          // bare #/read — reopen where this profile left off
+          const lr = lastRead();
+          if (lr && lr.slug) {
+            location.hash = `#/read/${lr.slug}/${lr.c}${lr.v ? `?v=${lr.v}` : ''}`;
+            return;
+          }
+        }
         const slug = parts[1] || '1-nephi';
         const c = Math.max(1, parseInt(parts[2] || '1', 10) || 1);
         await renderReader(view, slug, c, params);
@@ -49,6 +81,7 @@ async function route() {
       case 'stories': await renderStories(view, params); break;
       case 'allegories': await renderAllegories(view, params, null); break;
       case 'allegory': await renderAllegories(view, params, parts[1]); break;
+      case 'study': await renderStudy(view, params); break;
       default: await renderHome(view);
     }
   } catch (err) {

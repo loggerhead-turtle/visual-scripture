@@ -1,4 +1,5 @@
-import { VOLUMES } from '../data.js';
+import { VOLUMES, bookBySlug, esc } from '../data.js';
+import { currentUser, lastRead } from '../account.js';
 
 const START = { ot: 'genesis/1', nt: 'matthew/1', bom: '1-nephi/1', dc: 'dc/1' };
 
@@ -54,6 +55,16 @@ const PROPHET = `<svg viewBox="0 0 32 34" width="27" height="29" aria-hidden="tr
 </svg>`;
 
 export async function renderHome(el) {
+  const user = currentUser();
+  const lr = user && lastRead();
+  const lrName = lr && lr.slug ? (lr.slug === 'dc' ? `Section ${lr.c}` : `${(bookBySlug[lr.slug] || {}).name || lr.slug} ${lr.c}`) : null;
+  const readBtn = lrName
+    ? `<a class="btn primary" href="#/read/${lr.slug}/${lr.c}${lr.v ? `?v=${lr.v}` : ''}">Continue ${lrName} →</a>`
+    : `<a class="btn primary" href="#/read/1-nephi/1">Begin reading →</a>`;
+  const acctLine = user
+    ? `<p class="hero-acct">Reading as <a href="#/study"><strong>${esc(user.name)}</strong></a> — your bookmarks, notes &amp; highlights are in <a href="#/study">My Study</a>.</p>`
+    : `<p class="hero-acct"><a href="#/study">Sign in</a> to bookmark your place, highlight verses, and keep study notes.</p>`;
+
   el.innerHTML = `
   <div class="wrap">
     <section class="hero">
@@ -63,10 +74,11 @@ export async function renderHome(el) {
       time, place, voice, and purpose. This reader keeps them all in view: who is speaking and to whom, where you are on
       the map, which record you're reading from, and where you stand in six thousand years of covenant story.</p>
       <p>
-        <a class="btn primary" href="#/read/1-nephi/1">Begin reading →</a>
+        ${readBtn}
         <a class="btn" href="#/stories">Find a story</a>
         <a class="btn" href="#/timeline">See the whole timeline</a>
       </p>
+      ${acctLine}
     </section>
     <section class="feature-grid" style="grid-template-columns:repeat(auto-fit,minmax(230px,1fr))">
       ${VOLUMES.map(v => `
