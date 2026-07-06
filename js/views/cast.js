@@ -8,9 +8,15 @@ export async function renderCast(el, params, focusId) {
   const allBooks = VOLUMES.reduce((a, v) => a.concat(v.books.map(b => ({ ...b, vol: v.id }))), []);
   const order = allBooks.reduce((m, b, i) => { m[b.slug] = i; return m; }, {});
 
+  // The Godhead is featured on its own — three distinct beings — rather than
+  // filed under whichever book they happen to appear in first.
+  const GODHEAD = ['god-the-father', 'jesus-christ', 'holy-ghost'];
+  const godhead = GODHEAD.map(id => ents.byId[id]).filter(Boolean).map(ch => ({ ch, apps: (apps[ch.id] || []).slice().sort((x, y) => order[x.slug] - order[y.slug] || x.c - y.c) }));
+
   const byBook = new Map(allBooks.map(b => [b.slug, []]));
   const nowhere = [];
   for (const ch of ents.characters) {
+    if (GODHEAD.indexOf(ch.id) !== -1) continue;
     const a = (apps[ch.id] || []).slice().sort((x, y) => order[x.slug] - order[y.slug] || x.c - y.c);
     if (a.length) byBook.get(a[0].slug).push({ ch, apps: a });
     else nowhere.push({ ch, apps: [] });
@@ -25,6 +31,12 @@ export async function renderCast(el, params, focusId) {
         <div class="cc-era">${esc(ch.era || '')}${a.length ? ` · ${a.length} chapter${a.length > 1 ? 's' : ''}` : ''}</div>
       </div>
     </button>`;
+
+  const godheadHtml = godhead.length ? `<section class="cast-book-section godhead-section" data-vol="all">
+      <h2>The Godhead<span class="n">three distinct beings, one in purpose</span></h2>
+      <p class="godhead-note">Latter-day Saints worship God the Father, His Son Jesus Christ, and the Holy Ghost as three separate and distinct beings, united in purpose. Jesus Christ is <em>Jehovah</em>, the God of the Old Testament, who came to earth as the Savior — He and the Father are not the same person.</p>
+      <div class="cast-grid">${godhead.map(card).join('')}</div>
+    </section>` : '';
 
   const sections = allBooks.map(b => {
     const list = byBook.get(b.slug);
@@ -49,7 +61,7 @@ export async function renderCast(el, params, focusId) {
       <button class="pill link" data-volf="all">All volumes</button>
       ${VOLUMES.map(v => `<button class="pill link" data-volf="${v.id}"><span class="dot" style="background:${v.color}"></span>${v.short}</button>`).join('')}
     </div>
-    <div id="cast-list">${sections}${groupsHtml}</div>
+    <div id="cast-list">${godheadHtml}${sections}${groupsHtml}</div>
   </div>`;
 
   let volFilter = 'all';

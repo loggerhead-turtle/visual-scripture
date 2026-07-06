@@ -379,3 +379,10 @@ main { min-height: 72vh; }
   .map-side { position: static; }
   .tl-toolbar { position: static; }
 }
+
+/* ---------- Godhead feature (cast page) ---------- */
+.godhead-section { background: linear-gradient(160deg, rgba(232,182,76,.06), transparent 70%); border: 1px solid var(--gold-dim); border-radius: var(--rad); padding: 18px 20px 20px; margin-bottom: 34px; }
+.godhead-section > h2 { border-bottom: none; margin-top: 6px; }
+.godhead-note { color: var(--ink-dim); font-size: 14px; max-width: 760px; margin: 0 0 16px; border-left: 3px solid var(--gold-dim); padding-left: 14px; }
+.godhead-note em { color: var(--gold); font-style: normal; }
+.godhead-section .cast-grid { grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); }
