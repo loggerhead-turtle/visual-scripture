@@ -1,7 +1,21 @@
 import { VOLUMES } from '../data.js';
 
 const START = { ot: 'genesis/1', nt: 'matthew/1', bom: '1-nephi/1', dc: 'dc/1' };
-const VOL_FIG = { ot: '🕎', nt: '✝️', bom: '📜', dc: '🕊' };
+
+// The Book of Mormon: a set of engraved gold plates bound with rings (no emoji exists for it).
+const GOLD_PLATES = `<svg viewBox="0 0 32 32" width="30" height="30" aria-hidden="true" style="vertical-align:-4px">
+  <rect x="9" y="8" width="18" height="20" rx="1.5" fill="#b0801f"/>
+  <rect x="7" y="6" width="18" height="20" rx="1.5" fill="#e8b64c" stroke="#8a6a1e" stroke-width="1"/>
+  <g stroke="#8a6a1e" stroke-width="1" opacity=".55">
+    <line x1="11" y1="10" x2="22" y2="10"/><line x1="11" y1="13" x2="22" y2="13"/>
+    <line x1="11" y1="16" x2="20" y2="16"/><line x1="11" y1="19" x2="22" y2="19"/>
+    <line x1="11" y1="22" x2="19" y2="22"/>
+  </g>
+  <g fill="none" stroke="#f2d488" stroke-width="1.6">
+    <circle cx="7" cy="9.5" r="2.3"/><circle cx="7" cy="16" r="2.3"/><circle cx="7" cy="22.5" r="2.3"/>
+  </g>
+</svg>`;
+const VOL_FIG = { ot: '🕎', nt: '✝️', bom: GOLD_PLATES, dc: '🕊' };
 
 export async function renderHome(el) {
   el.innerHTML = `
