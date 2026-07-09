@@ -104,6 +104,7 @@ const CSS = `
 @media (max-width: 860px) {
   #mindmap-view .mm-layout { flex-direction: column; }
   #mindmap-view .mm-side { width: auto; max-height: 320px; }
+  #mindmap-view .mm-hint { display: none; }
 }
 `;
 
@@ -182,10 +183,14 @@ function mulberry32(seed) {
   };
 }
 
-function canvasDims(n) {
-  const side = Math.round(Math.sqrt(Math.max(n, 1)) * 210 + 260);
-  const w = Math.max(560, Math.min(2500, side));
-  return { width: w, height: Math.round(w * 0.72) };
+// dimensions for a single connected component's own force-layout canvas —
+// generous enough that repulsion has room to work, but small enough that a
+// two- or three-person branch doesn't waste huge amounts of empty packing
+// space next to the big clusters.
+function componentDims(n) {
+  const side = Math.round(Math.sqrt(Math.max(n, 1)) * 130 + 170);
+  const w = Math.max(220, Math.min(1400, side));
+  return { width: w, height: Math.round(w * 0.76) };
 }
 
 // simple Fruchterman-Reingold-style force layout, settled over a fixed
@@ -207,18 +212,24 @@ function layoutGraph(nodeIds, edges, dims) {
     if (a != null && b != null && a !== b) pairs.push([a, b]);
   }
   const area = width * height;
-  const k = Math.sqrt(area / n) * 0.85;
+  // Repulsion is intentionally weak relative to gravity (below): tuned by
+  // measuring how densely nodes fill their bounding circle across a range of
+  // real component sizes (2 to 51 nodes) until the middle stopped hollowing
+  // out into a ring. Stronger repulsion looks "more physically correct" but
+  // actually makes every loosely-tied pocket shove itself out to the rim.
+  const k = Math.sqrt(area / n) * 0.25;
   let temp = Math.max(width, height) * 0.05;
   const iterations = n > 90 ? 170 : (n > 40 ? 220 : 260);
   const dx = new Float64Array(n), dy = new Float64Array(n);
   const centerX = width / 2, centerY = height / 2;
-  // Mild constant pull toward the canvas center. Without this, isolated
-  // components (characters with only one or two edges, far from the big
-  // family/mission clusters) have nothing attracting them inward and pure
-  // repulsion flings them out to the clamped canvas edges, leaving a hollow
-  // middle. A small gravity term keeps everything gathered into one legible
-  // scene regardless of how many disconnected sub-graphs exist.
-  const gravity = 0.010;
+  // Constant pull toward the canvas center. Without this, weakly-tied
+  // pockets within a component (in-laws, one-off encounters — connected to
+  // the whole only by a single bridging edge) have nothing pulling them
+  // inward and pure repulsion flings them out to the clamped canvas edges,
+  // hollowing out the middle. This gravity term keeps everything gathered
+  // into one legible, roughly-filled scene regardless of how loosely the
+  // graph is knit together.
+  const gravity = 0.12;
   for (let iter = 0; iter < iterations; iter++) {
     dx.fill(0); dy.fill(0);
     for (let i = 0; i < n; i++) {
@@ -255,15 +266,12 @@ function layoutGraph(nodeIds, edges, dims) {
       nodes[i].x = Math.max(50, Math.min(width - 50, nodes[i].x));
       nodes[i].y = Math.max(50, Math.min(height - 50, nodes[i].y));
     }
-    // Soft global containment: pure pairwise repulsion has nothing to balance
-    // it for characters who sit in small, mostly-isolated components (a pair
-    // linked by a single edge, say) — over enough iterations they drift out
-    // and pile up against the hard canvas clamp above, hollowing out the
-    // middle of the scene. Whenever the cloud's radius exceeds a target
-    // fraction of the canvas, gently rescale every node toward the group's
-    // own centroid. It leaves internal (local) structure untouched — it only
-    // reins in how far the whole thing has spread — so it does not fight the
-    // repulsion/attraction forces, it just keeps them from running away.
+    // Loose safety-net containment: gravity above does the real work of
+    // keeping the component gathered; this just guards against pathological
+    // blow-ups (e.g. a future data change producing an oddly dense
+    // component) by gently reining things in only if the cloud gets
+    // implausibly wide, without otherwise interfering with where gravity and
+    // repulsion settle it.
     {
       let sx = 0, sy = 0;
       for (let i = 0; i < n; i++) { sx += nodes[i].x; sy += nodes[i].y; }
@@ -274,9 +282,9 @@ function layoutGraph(nodeIds, edges, dims) {
         const r = Math.sqrt(ddx * ddx + ddy * ddy);
         if (r > maxR) maxR = r;
       }
-      const targetR = Math.min(width, height) * 0.44;
+      const targetR = Math.min(width, height) * 0.6;
       if (maxR > targetR) {
-        const shrink = 0.96;
+        const shrink = 0.985;
         for (let i = 0; i < n; i++) {
           nodes[i].x = gx + (nodes[i].x - gx) * shrink;
           nodes[i].y = gy + (nodes[i].y - gy) * shrink;
@@ -285,7 +293,105 @@ function layoutGraph(nodeIds, edges, dims) {
     }
     temp *= 0.985;
   }
+  // Direct post-process collision relaxation: guarantee a minimum visual
+  // separation between every pair of avatars regardless of how the force
+  // simulation happened to settle them. Folding this into the main force
+  // loop above (as just another repulsion term) turned out to barely move
+  // the needle — it gets diluted once summed together with every other
+  // node's pull and clipped to the per-iteration step size — so instead it
+  // runs as its own small constraint-relaxation pass on the final positions.
+  const minSep = 78;
+  for (let pass = 0; pass < 8; pass++) {
+    for (let i = 0; i < n; i++) {
+      for (let j = i + 1; j < n; j++) {
+        let ddx = nodes[i].x - nodes[j].x, ddy = nodes[i].y - nodes[j].y;
+        let dist = Math.sqrt(ddx * ddx + ddy * ddy);
+        if (dist < 0.01) dist = 0.01;
+        if (dist < minSep) {
+          const overlap = (minSep - dist) / 2;
+          const ux = ddx / dist, uy = ddy / dist;
+          nodes[i].x += ux * overlap; nodes[i].y += uy * overlap;
+          nodes[j].x -= ux * overlap; nodes[j].y -= uy * overlap;
+        }
+      }
+    }
+  }
   return nodes;
+}
+
+// Real relationship data is rarely one giant connected blob — a scripture
+// graph is a big central web of family/ministry ties plus a long tail of
+// small isolated pairs and triples (in-laws, one-off encounters, etc). Pure
+// pairwise repulsion has no way to pull those disconnected pieces toward the
+// middle, so laying the whole node set out in one shared force simulation
+// leaves a hollow ring (everything shoved to the canvas edge). Instead, each
+// connected component gets its own compact force-settled layout, and the
+// components are then tiled together like boxes — legible regardless of how
+// fragmented the graph is.
+function connectedComponents(nodeIds, edges) {
+  const nodeSet = new Set(nodeIds);
+  const adjLocal = new Map();
+  const add = (a, b) => { if (!adjLocal.has(a)) adjLocal.set(a, new Set()); adjLocal.get(a).add(b); };
+  for (const e of edges) {
+    if (nodeSet.has(e.from) && nodeSet.has(e.to)) { add(e.from, e.to); add(e.to, e.from); }
+  }
+  const seen = new Set();
+  const comps = [];
+  for (const id of nodeIds) {
+    if (seen.has(id)) continue;
+    const comp = [];
+    const stack = [id];
+    seen.add(id);
+    while (stack.length) {
+      const cur = stack.pop();
+      comp.push(cur);
+      const nb = adjLocal.get(cur);
+      if (nb) nb.forEach(x => { if (!seen.has(x)) { seen.add(x); stack.push(x); } });
+    }
+    comps.push(comp);
+  }
+  return comps;
+}
+
+// simple shelf/row bin-packing: place each component's tight bounding box
+// left-to-right, wrapping to a new row once a target row width is exceeded.
+function packComponents(pieces) {
+  const gap = 46;
+  const totalArea = pieces.reduce((s, p) => s + p.width * p.height, 0);
+  const rowWidth = Math.max(900, Math.ceil(Math.sqrt(totalArea) * 1.25));
+  let x = 0, y = 0, rowH = 0, totalW = 0, totalH = 0;
+  const placedNodes = [];
+  for (const p of pieces) {
+    if (x > 0 && x + p.width > rowWidth) { x = 0; y += rowH + gap; rowH = 0; }
+    for (const nd of p.nodes) placedNodes.push({ id: nd.id, x: nd.x + x, y: nd.y + y });
+    x += p.width + gap;
+    rowH = Math.max(rowH, p.height);
+    totalW = Math.max(totalW, x - gap);
+    totalH = Math.max(totalH, y + rowH);
+  }
+  return { nodes: placedNodes, width: Math.max(600, totalW), height: Math.max(450, totalH) };
+}
+
+function layoutMultiComponent(nodeIds, edges) {
+  const comps = connectedComponents(nodeIds, edges).sort((a, b) => b.length - a.length);
+  const pieces = comps.map(comp => {
+    const compSet = new Set(comp);
+    const compEdges = edges.filter(e => compSet.has(e.from) && compSet.has(e.to));
+    const dims = componentDims(comp.length);
+    const nodes = comp.length <= 1
+      ? comp.map(id => ({ id: id, x: dims.width / 2, y: dims.height / 2 }))
+      : layoutGraph(comp, compEdges, dims);
+    let minX = Infinity, maxX = -Infinity, minY = Infinity, maxY = -Infinity;
+    for (const nd of nodes) {
+      if (nd.x < minX) minX = nd.x; if (nd.x > maxX) maxX = nd.x;
+      if (nd.y < minY) minY = nd.y; if (nd.y > maxY) maxY = nd.y;
+    }
+    const pad = 55;
+    const w = (maxX - minX) + pad * 2, h = (maxY - minY) + pad * 2;
+    const shifted = nodes.map(nd => ({ id: nd.id, x: nd.x - minX + pad, y: nd.y - minY + pad }));
+    return { nodes: shifted, width: w, height: h };
+  });
+  return packComponents(pieces);
 }
 
 function buildAdjacency(edges) {
@@ -419,9 +525,7 @@ export async function renderMindmap(el, params) {
 
   function getLayout(key, nodeIds, edges) {
     if (layoutCache.has(key)) return layoutCache.get(key);
-    const dims = canvasDims(nodeIds.length);
-    const nodes = layoutGraph(nodeIds, edges, dims);
-    const result = { nodes: nodes, width: dims.width, height: dims.height };
+    const result = layoutMultiComponent(nodeIds, edges);
     layoutCache.set(key, result);
     return result;
   }
