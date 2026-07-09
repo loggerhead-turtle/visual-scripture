@@ -1,0 +1,99 @@
+{
+  "note": "Values are expressed in each system's base unit (Nephite: senum/senine; Israel: shekel; New Testament: denarius). Weights and exchange rates follow the text; modern-weight estimates are scholarly approximations.",
+  "systems": [
+    {
+      "id": "nephite",
+      "name": "Nephite Money & Measures",
+      "place": "Zarahemla — the reign of the judges",
+      "era": "about 82 BC",
+      "color": "#e8b64c",
+      "ref": { "slug": "alma", "c": 11 },
+      "intro": "When the lawyer Zeezrom tried to bribe Amulek, Mormon paused to lay out the whole Nephite system of gold and silver pieces and grain measures, reckoned 'according to their value.' It is the only place in scripture that spells out an entire monetary system unit by unit.",
+      "anchor": "1 senine of gold  =  1 senum of silver  =  a measure of barley  =  a judge's wage for one day",
+      "groups": [
+        { "label": "Gold pieces", "metal": "gold", "items": [
+          { "id": "senine", "name": "Senine", "value": 1, "note": "The base gold piece — a judge received one for each day he sat.", "ref": "Alma 11:3, 7" },
+          { "id": "seon", "name": "Seon", "value": 2, "note": "Twice the value of a senine.", "ref": "Alma 11:9" },
+          { "id": "shum", "name": "Shum", "value": 4, "note": "Twice a seon — four senines.", "ref": "Alma 11:10" },
+          { "id": "limnah", "name": "Limnah", "value": 7, "note": "'The value of them all' — senine, seon and shum together.", "ref": "Alma 11:11" }
+        ] },
+        { "label": "Silver pieces", "metal": "silver", "items": [
+          { "id": "senum", "name": "Senum", "value": 1, "note": "Equal to a senine of gold, and to a measure of barley.", "ref": "Alma 11:7" },
+          { "id": "amnor", "name": "Amnor", "value": 2, "note": "As great as two senums.", "ref": "Alma 11:8" },
+          { "id": "ezrom", "name": "Ezrom", "value": 4, "note": "As great as four senums.", "ref": "Alma 11:12" },
+          { "id": "onti", "name": "Onti", "value": 7, "note": "'As great as them all' — the greatest silver measure.", "ref": "Alma 11:13" }
+        ] },
+        { "label": "Smaller silver measures", "metal": "silver", "items": [
+          { "id": "shiblon", "name": "Shiblon", "value": 0.5, "note": "Half of a senum.", "ref": "Alma 11:15" },
+          { "id": "shiblum", "name": "Shiblum", "value": 0.25, "note": "Half of a shiblon.", "ref": "Alma 11:16" },
+          { "id": "leah", "name": "Leah", "value": 0.125, "note": "Half of a shiblum — the smallest measure.", "ref": "Alma 11:17" }
+        ] },
+        { "label": "Grain reckoning", "metal": "gold", "items": [
+          { "id": "antion", "name": "Antion of gold", "value": 1.5, "note": "Equal to three shiblons — used in reckoning grain.", "ref": "Alma 11:19" }
+        ] }
+      ],
+      "facts": [
+        { "t": "A judge's daily wage", "d": "A judge earned one senine of gold (or a senum of silver) for every day he sat in judgment — so corrupt judges stirred up contention to be paid for more days.", "ref": "Alma 11:1, 3, 20" },
+        { "t": "Zeezrom's bribe", "d": "Zeezrom offered Amulek six onties of silver — forty-two days' wages — to deny the existence of a Supreme Being. Amulek refused.", "ref": "Alma 11:21-22" },
+        { "t": "A measure of barley", "d": "A senine or senum bought a measure of barley, or of any grain — anchoring the whole system to daily bread.", "ref": "Alma 11:7" }
+      ]
+    },
+    {
+      "id": "israel",
+      "name": "Weights of Ancient Israel",
+      "place": "The Holy Land (Old Testament)",
+      "era": "about 2000 – 500 BC",
+      "color": "#6f9e6a",
+      "ref": { "slug": "genesis", "c": 23 },
+      "intro": "Before coins, silver was weighed out on a balance. Abraham 'weighed to Ephron four hundred shekels of silver, current money with the merchant' for the cave of Machpelah. The shekel — literally 'a weight' — was the standard.",
+      "anchor": "1 shekel of silver  =  20 gerahs  (the standard weight of silver)",
+      "groups": [
+        { "label": "Weights of silver", "metal": "silver", "items": [
+          { "id": "gerah", "name": "Gerah", "value": 0.05, "note": "The smallest weight — one-twentieth of a shekel.", "ref": "Exodus 30:13" },
+          { "id": "bekah", "name": "Bekah", "value": 0.5, "note": "Half a shekel — the 'ransom' every man paid for the sanctuary.", "ref": "Exodus 38:26" },
+          { "id": "pim", "name": "Pim", "value": 0.667, "note": "Two-thirds of a shekel — the Philistines' charge to sharpen a tool.", "ref": "1 Samuel 13:21" },
+          { "id": "shekel", "name": "Shekel", "value": 1, "note": "The standard weight of silver (about 11 grams).", "ref": "Genesis 23:16" },
+          { "id": "mina", "name": "Mina (maneh)", "value": 50, "note": "Fifty shekels.", "ref": "Ezekiel 45:12" },
+          { "id": "talent", "name": "Talent", "value": 3000, "note": "The largest weight — 3,000 shekels, roughly 34 kilograms.", "ref": "Exodus 38:25-27" }
+        ] }
+      ],
+      "facts": [
+        { "t": "Joseph sold into Egypt", "d": "Joseph's brothers sold him to the Ishmaelites for twenty pieces — shekels — of silver.", "ref": "Genesis 37:28" },
+        { "t": "The price of the cave", "d": "Abraham paid 400 shekels of silver for the field and cave of Machpelah, the first foothold of the promised land.", "ref": "Genesis 23:16" },
+        { "t": "Thirty pieces of silver", "d": "Zechariah's 'goodly price' — thirty shekels, the value of a slave — became the wage of betrayal.", "ref": "Zechariah 11:12-13; Exodus 21:32" }
+      ]
+    },
+    {
+      "id": "roman",
+      "name": "Coins of the New Testament",
+      "place": "Roman Judea & the Greek world",
+      "era": "about 4 BC – AD 95",
+      "color": "#d98f3a",
+      "ref": { "slug": "mark", "c": 12 },
+      "intro": "By the Savior's day minted coins circulated — Roman denarii, Greek drachmas, and small Jewish copper. A denarius was a labourer's wage for a day; the smallest was the widow's mite, worth a fraction of a penny.",
+      "anchor": "1 denarius (a 'penny')  =  a labourer's wage for one day",
+      "groups": [
+        { "label": "Copper — the smallest", "metal": "copper", "items": [
+          { "id": "lepton", "name": "Lepton (mite)", "value": 0.0078, "note": "The 'widow's mite' — the least coin of all; she cast in two.", "ref": "Mark 12:42" },
+          { "id": "quadrans", "name": "Quadrans (farthing)", "value": 0.0156, "note": "Two mites — the 'uttermost farthing.'", "ref": "Matthew 5:26" },
+          { "id": "assarion", "name": "Assarion (farthing)", "value": 0.0625, "note": "Two sparrows were sold for one of these.", "ref": "Matthew 10:29" }
+        ] },
+        { "label": "Silver", "metal": "silver", "items": [
+          { "id": "denarius", "name": "Denarius (penny)", "value": 1, "note": "A day's wage, and the tribute coin — 'Render unto Caesar.'", "ref": "Matthew 20:2; 22:19-21" },
+          { "id": "drachma", "name": "Drachma", "value": 1, "note": "The Greek near-twin of the denarius — the coin the woman lost and swept to find.", "ref": "Luke 15:8" },
+          { "id": "stater", "name": "Stater", "value": 4, "note": "Four drachmas — the coin Peter drew from the fish's mouth, paying the temple tax for two.", "ref": "Matthew 17:27" },
+          { "id": "betrayal", "name": "Thirty pieces of silver", "value": 4, "note": "Tyrian shekels (staters) — the price of betraying the Lord.", "ref": "Matthew 26:15" }
+        ] },
+        { "label": "Large sums", "metal": "silver", "items": [
+          { "id": "pound", "name": "Mina (pound)", "value": 100, "note": "A hundred denarii — the 'pound' each servant was given to trade.", "ref": "Luke 19:13" },
+          { "id": "talent-nt", "name": "Talent", "value": 6000, "note": "Six thousand denarii — the unmerciful servant owed ten thousand of them.", "ref": "Matthew 18:24; 25:15" }
+        ] }
+      ],
+      "facts": [
+        { "t": "The widow's two mites", "d": "A poor widow cast in two mites — 'all her living' — and the Lord said she had given more than all the rich.", "ref": "Mark 12:41-44" },
+        { "t": "Render unto Caesar", "d": "Shown a denarius stamped with Caesar's image, Jesus said, 'Render therefore unto Caesar the things which are Caesar's; and unto God the things that are God's.'", "ref": "Matthew 22:19-21" },
+        { "t": "The labourers' penny", "d": "The householder agreed with the labourers for a penny — a denarius — a day, then paid the last the same as the first.", "ref": "Matthew 20:1-16" }
+      ]
+    }
+  ]
+}

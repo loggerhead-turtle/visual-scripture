@@ -230,6 +230,9 @@ export const loadPlacesUSA = () => tryJSON('data/places-usa.json');
 // ---- genealogy (authored family lineages) ----
 export const loadGenealogy = () => tryJSON('data/genealogy.json');
 
+// ---- ancient currency systems ----
+export const loadCurrency = () => tryJSON('data/currency.json');
+
 // ---- every relationship edge across all cast files, for the mind map ----
 // Returns [{ from, to, rel }] using only edges whose endpoints are real entities.
 export async function relationEdges() {
