@@ -227,6 +227,22 @@ export async function loadAllStories() {
 export const loadPlacesHolyLand = () => tryJSON('data/places-holy-land.json');
 export const loadPlacesUSA = () => tryJSON('data/places-usa.json');
 
+// ---- genealogy (authored family lineages) ----
+export const loadGenealogy = () => tryJSON('data/genealogy.json');
+
+// ---- every relationship edge across all cast files, for the mind map ----
+// Returns [{ from, to, rel }] using only edges whose endpoints are real entities.
+export async function relationEdges() {
+  const e = await entities();
+  const out = [];
+  for (const c of e.characters) {
+    for (const r of (c.relations || [])) {
+      if (e.byId[r.to]) out.push({ from: c.id, to: r.to, rel: r.rel });
+    }
+  }
+  return out;
+}
+
 // character id -> [{slug, book, c}]
 let appearanceIndex = null;
 export async function appearances() {
