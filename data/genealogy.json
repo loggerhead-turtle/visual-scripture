@@ -1,0 +1,149 @@
+{
+  "trees": [
+    {
+      "id": "adam-to-christ",
+      "title": "From Adam to Christ — the Covenant Line",
+      "note": "The messianic line runs from the first man through the patriarchs and the house of David to its fulfilment in Jesus Christ.",
+      "vol": "ot",
+      "root": "adam",
+      "spouses": [
+        ["adam", "eve"],
+        ["abraham", "sarah"],
+        ["abraham", "hagar"],
+        ["isaac", "rebekah"],
+        ["jacob-israel", "rachel"]
+      ],
+      "edges": [
+        { "parent": "adam", "child": "noah", "gap": "many generations" },
+        { "parent": "noah", "child": "abraham", "gap": "10 generations" },
+        { "parent": "abraham", "child": "isaac" },
+        { "parent": "isaac", "child": "jacob-israel" },
+        { "parent": "jacob-israel", "child": "joseph-egypt" },
+        { "parent": "jacob-israel", "child": "david", "gap": "through Judah and many generations" },
+        { "parent": "david", "child": "solomon" },
+        { "parent": "david", "child": "jesus-christ", "gap": "many generations, through Mary and Joseph" }
+      ]
+    },
+    {
+      "id": "lehi-family",
+      "title": "The Family of Lehi",
+      "note": "Lehi and Sariah's sons led the peoples of the Book of Mormon; Jacob's line kept the small plates down to Omni. Ishmael, whose family joined Lehi's in the wilderness, is not shown here as a root, but his daughters married Lehi's sons.",
+      "vol": "bom",
+      "root": "lehi1",
+      "spouses": [
+        ["lehi1", "sariah"]
+      ],
+      "edges": [
+        { "parent": "lehi1", "child": "nephi1" },
+        { "parent": "lehi1", "child": "sam" },
+        { "parent": "lehi1", "child": "laman" },
+        { "parent": "lehi1", "child": "lemuel" },
+        { "parent": "lehi1", "child": "jacob1" },
+        { "parent": "lehi1", "child": "joseph1" },
+        { "parent": "jacob1", "child": "enos1" },
+        { "parent": "enos1", "child": "jarom1" },
+        { "parent": "jarom1", "child": "omni1" },
+        { "parent": "omni1", "child": "amaron" },
+        { "parent": "amaron", "child": "chemish" },
+        { "parent": "chemish", "child": "abinadom" },
+        { "parent": "abinadom", "child": "amaleki1" }
+      ]
+    },
+    {
+      "id": "nephite-prophet-dynasty",
+      "title": "The Prophet-Judges: Alma to Nephi the Disciple",
+      "note": "A single line of prophet-leaders descends from Alma the Elder through Helaman's sons to Nephi the Disciple, who saw the resurrected Christ.",
+      "vol": "bom",
+      "root": "alma1",
+      "spouses": [],
+      "edges": [
+        { "parent": "alma1", "child": "alma2" },
+        { "parent": "alma2", "child": "helaman1" },
+        { "parent": "alma2", "child": "shiblon" },
+        { "parent": "alma2", "child": "corianton" },
+        { "parent": "helaman1", "child": "helaman2" },
+        { "parent": "helaman2", "child": "nephi2" },
+        { "parent": "helaman2", "child": "lehi3" },
+        { "parent": "nephi2", "child": "nephi3" }
+      ]
+    },
+    {
+      "id": "mosiah-royal-line",
+      "title": "The Royal Line of Mosiah",
+      "note": "Kings Mosiah and Benjamin ruled the Nephites until Mosiah₂ dissolved the monarchy; his sons became missionaries to the Lamanites.",
+      "vol": "bom",
+      "root": "mosiah1",
+      "spouses": [],
+      "edges": [
+        { "parent": "mosiah1", "child": "benjamin" },
+        { "parent": "benjamin", "child": "mosiah2" },
+        { "parent": "mosiah2", "child": "ammon2" },
+        { "parent": "mosiah2", "child": "aaron2" },
+        { "parent": "mosiah2", "child": "omner" },
+        { "parent": "mosiah2", "child": "himni" }
+      ]
+    },
+    {
+      "id": "mormon-moroni",
+      "title": "Mormon and Moroni",
+      "note": "The final custodians of the Nephite record, father and son, who abridged and sealed up the plates.",
+      "vol": "bom",
+      "root": "mormon",
+      "spouses": [],
+      "edges": [
+        { "parent": "mormon", "child": "moroni" }
+      ]
+    },
+    {
+      "id": "jaredite-kings",
+      "title": "The Jaredite Kings",
+      "note": "The Brother of Jared led his people from the Tower of Babel together with his brother Jared (not shown as a separate node here); many generations of kings followed until the kingdom's destruction under Coriantumr.",
+      "vol": "bom",
+      "root": "brother-of-jared",
+      "spouses": [],
+      "edges": [
+        { "parent": "brother-of-jared", "child": "ether", "gap": "many generations of kings" },
+        { "parent": "brother-of-jared", "child": "coriantumr", "gap": "many generations of kings, the line of kings that ended with Coriantumr" }
+      ]
+    },
+    {
+      "id": "holy-family",
+      "title": "The Holy Family",
+      "note": "Joseph and Mary raised Jesus Christ, the Son of God, in Nazareth.",
+      "vol": "nt",
+      "root": "joseph-carpenter",
+      "spouses": [
+        ["joseph-carpenter", "mary"]
+      ],
+      "edges": [
+        { "parent": "joseph-carpenter", "child": "jesus-christ" }
+      ]
+    },
+    {
+      "id": "elisabeth-and-john-baptist",
+      "title": "Elisabeth and John the Baptist",
+      "note": "Elisabeth, a kinswoman of Mary, was the mother of John the Baptist, the forerunner of Jesus Christ.",
+      "vol": "nt",
+      "root": "elisabeth",
+      "spouses": [],
+      "edges": [
+        { "parent": "elisabeth", "child": "john-baptist" }
+      ]
+    },
+    {
+      "id": "smith-family",
+      "title": "The Family of Joseph Smith",
+      "note": "Joseph Smith Sr.'s sons Joseph and Hyrum led the Restoration together; Hyrum's son Joseph F. Smith later became a Church president.",
+      "vol": "dc",
+      "root": "joseph-smith-sr",
+      "spouses": [
+        ["joseph-smith", "emma-smith"]
+      ],
+      "edges": [
+        { "parent": "joseph-smith-sr", "child": "joseph-smith" },
+        { "parent": "joseph-smith-sr", "child": "hyrum-smith" },
+        { "parent": "hyrum-smith", "child": "joseph-f-smith" }
+      ]
+    }
+  ]
+}
