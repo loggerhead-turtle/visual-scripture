@@ -541,23 +541,25 @@ body.no-scroll { overflow: hidden; }
   /* the pull handle: hugs the right edge, shows who is speaking right now */
   .rail-handle {
     position: fixed; right: 0; top: 50%; transform: translateY(-50%); z-index: 94;
-    display: flex; flex-direction: column; align-items: center; gap: 7px;
-    padding: 9px 6px 11px; width: 52px;
+    display: flex; flex-direction: column; align-items: center; gap: 8px;
+    padding: 11px 8px 13px; width: 60px;
     background: linear-gradient(160deg, var(--panel2), var(--panel));
-    border: 1px solid var(--gold-dim); border-right: none;
-    border-radius: 13px 0 0 13px; cursor: pointer;
-    box-shadow: -8px 4px 22px rgba(0,0,0,.5);
+    border: 1.5px solid var(--gold); border-right: none;
+    border-radius: 15px 0 0 15px; cursor: pointer;
+    box-shadow: -9px 5px 26px rgba(0,0,0,.55), 0 0 14px rgba(232,182,76,.18);
     transition: transform .28s cubic-bezier(.32,.72,.28,1), opacity .2s;
   }
   .rail-handle.tucked { transform: translateY(-50%) translateX(110%); opacity: 0; pointer-events: none; }
   .rail-handle:active { filter: brightness(1.1); }
-  .rh-avatar { width: 36px; }
-  .rh-avatar .avatar { border-radius: 9px; overflow: hidden; border: 1px solid var(--line); background: var(--bg2); }
-  .rh-label {
-    writing-mode: vertical-rl; font-size: 9.5px; letter-spacing: .22em;
-    text-transform: uppercase; color: var(--gold-dim); font-weight: 600;
+  .rh-avatar { width: 42px; }
+  .rh-avatar .avatar { border-radius: 10px; overflow: hidden; border: 1px solid var(--gold-dim); background: var(--bg2); }
+  .rh-name {
+    writing-mode: vertical-rl; text-orientation: mixed;
+    font-family: var(--serif); font-size: 12.5px; font-weight: 600; letter-spacing: .02em;
+    line-height: 1.1; color: var(--ink); max-height: 172px;
+    white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
   }
-  .rh-chev { color: var(--gold); font-size: 15px; line-height: 1; animation: rh-nudge 2.6s ease-in-out infinite; }
+  .rh-chev { color: var(--gold); font-size: 16px; line-height: 1; animation: rh-nudge 2.6s ease-in-out infinite; }
   @keyframes rh-nudge { 0%, 100% { transform: translateX(0); } 50% { transform: translateX(-3px); } }
 }
 

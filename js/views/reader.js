@@ -139,7 +139,7 @@ export async function renderReader(el, slug, c, params) {
       </aside>
       <button type="button" class="rail-handle" id="rail-handle" aria-expanded="false" aria-label="Show who is speaking, when and where">
         <span class="rh-avatar" id="rh-avatar"></span>
-        <span class="rh-label">Speaking</span>
+        <span class="rh-name" id="rh-name"></span>
         <span class="rh-chev">‹</span>
       </button>
       <div class="rail-scrim" id="rail-scrim"></div>
@@ -170,12 +170,15 @@ export async function renderReader(el, slug, c, params) {
 
   const cardEl = el.querySelector('#speaker-card');
   const handleAvatar = el.querySelector('#rh-avatar');
+  const handleName = el.querySelector('#rh-name');
   let activeSeg;
   const setSegment = seg => {
     if (seg === activeSeg) return;
     activeSeg = seg;
     renderSpeakerCard(cardEl, seg, ents, meta);
-    if (handleAvatar) handleAvatar.innerHTML = avatar(seg && ents.byId[seg.speaker]);
+    const spk = seg && ents.byId[seg.speaker];
+    if (handleAvatar) handleAvatar.innerHTML = avatar(spk);
+    if (handleName) handleName.textContent = spk ? spk.name : '';
     el.querySelectorAll('.verse').forEach(p => {
       const v = +p.dataset.v;
       const on = !!seg && v >= seg.s && v <= seg.e;
