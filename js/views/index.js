@@ -114,6 +114,11 @@ export async function renderIndex(el, params) {
   if (topic) {
     showTab('topics');
     const card = el.querySelector('#topic-' + topic);
-    if (card) { card.scrollIntoView({ block: 'center' }); card.style.outline = '1px solid var(--gold)'; }
+    if (card) {
+      card.style.outline = '1px solid var(--gold)';
+      // deferred: app.js scrolls the page back to (0,0) right after this
+      // view finishes rendering, which would otherwise clobber this jump
+      setTimeout(() => card.scrollIntoView({ block: 'center' }), 0);
+    }
   }
 }

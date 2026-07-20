@@ -59,8 +59,22 @@ export async function renderReader(el, slug, c, params) {
     </div>`;
   }).join('');
 
+  // the full cast of this chapter: flagged characters + everyone who speaks
+  // (built before versesHtml so verse text can auto-link these names)
+  const castIds = [];
+  const castSeen = {};
+  const addCast = id => {
+    if (!id || id === 'reader' || castSeen[id]) return;
+    const e = ents.byId[id];
+    if (!e) return;
+    castSeen[id] = true; castIds.push(id);
+  };
+  (cm.characters || []).forEach(addCast);
+  (cm.segments || []).forEach(s => { addCast(s.speaker); });
+
+  const nameMap = buildVerseNameMap(castIds, ents, place, mapParam);
   const versesHtml = verses.map((v, i) =>
-    `<p class="verse" id="v${i + 1}" data-v="${i + 1}"><span class="vnum">${i + 1}</span>${esc(v)}</p>`).join('');
+    `<p class="verse" id="v${i + 1}" data-v="${i + 1}"><span class="vnum">${i + 1}</span>${linkifyVerse(v, nameMap)}</p>`).join('');
 
   const themeIds = cm.themes || [];
   const themes = themeIds.map(t => `<a class="pill link" href="#/index?topic=${t}">✦ ${esc((topicById[t] || {}).name || themeName(t))}</a>`).join('');
@@ -81,17 +95,6 @@ export async function renderReader(el, slug, c, params) {
       }).join('')}
     </div>` : '';
 
-  // the full cast of this chapter: flagged characters + everyone who speaks
-  const castIds = [];
-  const castSeen = {};
-  const addCast = id => {
-    if (!id || id === 'reader' || castSeen[id]) return;
-    const e = ents.byId[id];
-    if (!e) return;
-    castSeen[id] = true; castIds.push(id);
-  };
-  (cm.characters || []).forEach(addCast);
-  (cm.segments || []).forEach(s => { addCast(s.speaker); });
   const castCard = castIds.length ? `<div class="context-card">
       <h4>Cast of this ${cw.toLowerCase()}</h4>
       <div class="reader-cast">${castIds.map(id => {
@@ -517,4 +520,67 @@ function setupChapterBrowser(el, vol, book, curChapter) {
     if (bookBtn) { state.bookSlug = bookBtn.dataset.book; state.level = 'chapters'; render(); return; }
     // chapter links are real <a> hashes — the router handles them
   });
+}
+
+// ---- auto-link recognized names inside the verse text --------------------
+// Scoped to THIS chapter's cast (already computed for the "Cast of this
+// chapter" card), so "Jacob" in a Book of Mormon chapter links to Jacob son
+// of Lehi, not the Old Testament patriarch — no cross-volume ambiguity.
+
+const VERSE_NAME_BLOCK = new Set([
+  'god', 'jesus', 'christ', 'lord', 'angel', 'king', 'queen', 'father', 'mother',
+  'son', 'daughter', 'man', 'woman', 'land', 'city', 'people', 'church', 'spirit',
+  'multitude', 'house', 'word', 'day', 'night', 'voice', 'brother', 'sister',
+  'elder', 'elders', 'saints', 'nations', 'disciples', 'reader', 'records', 'plates',
+]);
+const VERSE_DIVINE_IDS = new Set(['jesus-christ', 'god-the-father', 'holy-ghost', 'the-lord', 'angel']);
+const VERSE_GROUP_NAMES = {
+  nephites: 'Nephites', lamanites: 'Lamanites', jaredites: 'Jaredites', zoramites: 'Zoramites',
+  israelites: 'Israelites', philistines: 'Philistines', babylonians: 'Babylonians', pharisees: 'Pharisees',
+};
+
+// "Alma the Younger" -> "Alma"; "Ammon (of Zarahemla)" -> "Ammon"; "Mosiah₂" -> "Mosiah" —
+// strips titles/subscripts/parentheticals so the name matches how scripture text actually reads.
+function shortCharacterName(name) {
+  return name
+    .replace(/^(King|Queen|Captain|Chief|Bishop|President|Brother|Sister|Elder|Prophet|Governor|An|The)\s+/i, '')
+    .replace(/[₀-₉]+/g, '')
+    .replace(/\s*\([^)]*\)\s*/g, ' ')
+    .split(/\s+the\s+/i)[0]
+    .trim();
+}
+
+function buildVerseNameMap(castIds, ents, place, mapParam) {
+  const map = {};
+  const collided = new Set();
+  const claim = (name, href) => {
+    if (!name || name.length < 3 || VERSE_NAME_BLOCK.has(name.toLowerCase())) return;
+    if (map[name] && map[name] !== href) { collided.add(name); return; }
+    map[name] = href;
+  };
+  for (const id of castIds) {
+    if (VERSE_DIVINE_IDS.has(id)) continue;
+    const e = ents.byId[id];
+    if (!e) continue;
+    const short = e.isGroup ? VERSE_GROUP_NAMES[id] : shortCharacterName(e.name);
+    if (short) claim(short, e.isGroup ? `#/character/${id}` : `#/character/${id}`);
+  }
+  if (place && place.name && place.name.length >= 4) claim(place.name, `#/map?place=${place.id}&m=${mapParam}`);
+  for (const n of collided) delete map[n];
+  return map;
+}
+
+function linkifyVerse(text, nameMap) {
+  const names = Object.keys(nameMap).sort((a, b) => b.length - a.length);
+  if (!names.length) return esc(text);
+  const pattern = names.map(n => n.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')).join('|');
+  const re = new RegExp('\\b(' + pattern + ')\\b', 'g');
+  let out = '', last = 0, m;
+  while ((m = re.exec(text))) {
+    out += esc(text.slice(last, m.index));
+    out += `<a class="vname" href="${nameMap[m[1]]}">${esc(m[1])}</a>`;
+    last = re.lastIndex;
+  }
+  out += esc(text.slice(last));
+  return out;
 }
