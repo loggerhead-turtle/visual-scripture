@@ -1,4 +1,4 @@
-import { VOLUMES, bookBySlug, volumeOf, chapterWord, loadText, loadMeta, loadPlaces, loadPlacesHolyLand, loadPlacesUSA, loadPlates, entities, segmentFor, prevNextChapter, esc, themeName } from '../data.js';
+import { VOLUMES, bookBySlug, volumeOf, chapterWord, loadText, loadMeta, loadPlaces, loadPlacesHolyLand, loadPlacesUSA, loadPlates, loadTopics, entities, segmentFor, prevNextChapter, esc, themeName } from '../data.js';
 import { avatar } from '../portraits.js';
 import { currentUser, getStudy, setHighlight, setNote, toggleBookmark, setLastRead, refOf } from '../account.js';
 import { HL_COLORS, applyHighlight, refreshFlags, decorateVerses } from '../study-marks.js';
@@ -13,9 +13,11 @@ export async function renderReader(el, slug, c, params) {
   c = Math.min(c, book.chapters);
   const vol = volumeOf(slug);
 
-  const [text, meta, ents, placesBom, placesHL, placesUSA, platesData] = await Promise.all([
-    loadText(slug), loadMeta(slug), entities(), loadPlaces(), loadPlacesHolyLand(), loadPlacesUSA(), loadPlates(),
+  const [text, meta, ents, placesBom, placesHL, placesUSA, platesData, topicsData] = await Promise.all([
+    loadText(slug), loadMeta(slug), entities(), loadPlaces(), loadPlacesHolyLand(), loadPlacesUSA(), loadPlates(), loadTopics(),
   ]);
+  const topicById = {};
+  if (topicsData && topicsData.topics) for (const t of topicsData.topics) topicById[t.id] = t;
   const allPlaces = [
     ...placesBom.places,
     ...((placesHL && placesHL.places) || []),
@@ -60,10 +62,24 @@ export async function renderReader(el, slug, c, params) {
   const versesHtml = verses.map((v, i) =>
     `<p class="verse" id="v${i + 1}" data-v="${i + 1}"><span class="vnum">${i + 1}</span>${esc(v)}</p>`).join('');
 
-  const themes = (cm.themes || []).map(t => `<span class="pill">✦ ${themeName(t)}</span>`).join('');
+  const themeIds = cm.themes || [];
+  const themes = themeIds.map(t => `<a class="pill link" href="#/index?topic=${t}">✦ ${esc((topicById[t] || {}).name || themeName(t))}</a>`).join('');
   const chars = (cm.characters || []).map(id => {
     const e = ents.byId[id]; return e ? `<a class="pill link" href="#/character/${id}">${e.name}</a>` : '';
   }).join('');
+
+  // topics touched on in this chapter — a standing sidebar card so a reader
+  // can jump to the fuller topic entry (and every other chapter that raises it)
+  const topicsCard = themeIds.length ? `<div class="context-card topics-card">
+      <h4>Topics in this ${cw.toLowerCase()}</h4>
+      ${themeIds.map(t => {
+        const info = topicById[t] || { name: themeName(t) };
+        return `<a class="topic-row" href="#/index?topic=${t}">
+          <span class="topic-name">✦ ${esc(info.name)}</span>
+          ${info.blurb ? `<span class="topic-blurb">${esc(info.blurb)}</span>` : ''}
+        </a>`;
+      }).join('')}
+    </div>` : '';
 
   // the full cast of this chapter: flagged characters + everyone who speaks
   const castIds = [];
@@ -127,6 +143,7 @@ export async function renderReader(el, slug, c, params) {
           <button type="button" id="rail-close" aria-label="Close panel">✕</button>
         </div>
         <div class="speaker-card" id="speaker-card"></div>
+        ${topicsCard}
         <div class="context-card">
           <h4>${cw} context</h4>
           <div class="row"><span class="k">When</span><span class="v">${esc(cm.years || '—')}${cm.approx ? ' (approx.)' : ''}</span></div>

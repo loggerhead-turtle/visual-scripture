@@ -265,6 +265,25 @@ export async function appearances() {
   return idx;
 }
 
+// theme id -> [{slug, book, c}] — computed from the themes already tagged on
+// every chapter, so this costs a scan, not new authored content.
+let topicIdxCache = null;
+export async function topicIndex() {
+  if (topicIdxCache) return topicIdxCache;
+  const metas = await allMeta();
+  const idx = {};
+  for (const m of metas) {
+    for (const ch of m.chapters) {
+      for (const t of ch.themes || []) {
+        (idx[t] = idx[t] || []).push({ slug: m.slug, book: m.book, c: ch.c });
+      }
+    }
+  }
+  topicIdxCache = idx;
+  return idx;
+}
+export const loadTopics = () => tryJSON('data/topics.json');
+
 export function segmentFor(chapterMeta, verse) {
   if (!chapterMeta || !chapterMeta.segments) return null;
   return chapterMeta.segments.find(s => verse >= s.s && verse <= s.e) || null;
