@@ -107,7 +107,13 @@ export async function renderReader(el, slug, c, params) {
   el.innerHTML = `
   <div class="wrap">
     <div class="reader-layout">
-      <aside class="reader-toc">${toc}</aside>
+      <aside class="reader-toc" id="reader-toc">
+        <div class="toc-head">
+          <span>The Standard Works</span>
+          <button type="button" id="toc-close" aria-label="Close panel">✕</button>
+        </div>
+        ${toc}
+      </aside>
       <article>
         <section class="chapter-browser" id="chapter-browser">
           <button class="cb-toggle" id="cb-toggle" aria-expanded="false">
@@ -163,6 +169,12 @@ export async function renderReader(el, slug, c, params) {
         <span class="rh-chev">‹</span>
       </button>
       <div class="rail-scrim" id="rail-scrim"></div>
+      <button type="button" class="toc-handle" id="toc-handle" aria-expanded="false" aria-label="Browse the standard works — volumes, books &amp; chapters">
+        <span class="th-icon">📖</span>
+        <span class="th-label">Browse</span>
+        <span class="th-chev">›</span>
+      </button>
+      <div class="toc-scrim" id="toc-scrim"></div>
     </div>
   </div>`;
 
@@ -184,6 +196,7 @@ export async function renderReader(el, slug, c, params) {
 
   setupChapterBrowser(el, vol, book, c);
   setupRailDrawer(el);
+  setupTocDrawer(el);
   setupStudyTools(el, slug, c, book, cm);
 
   renderMiniTimeline(el.querySelector('#mini-tl'), cm.yearNum, vol);
@@ -239,6 +252,13 @@ export async function renderReader(el, slug, c, params) {
   setLastRead({ slug, c, v: vParam || 1 }); // record the visit at once; scrolling refines it
 }
 
+// either off-canvas drawer (speaker rail or TOC) can be open at once on a
+// narrow screen — only drop the scroll lock once neither one is
+function syncDrawerScrollLock(el) {
+  const anyOpen = !!el.querySelector('.speaker-rail.open') || !!el.querySelector('.reader-toc.open');
+  document.body.classList.toggle('no-scroll', anyOpen);
+}
+
 /* ---- mobile: the speaker rail as a pull-over drawer ------------------- */
 // On phones in portrait the right-hand rail (who is speaking, when, where)
 // has no room, so it becomes an off-canvas drawer. A handle hugging the
@@ -255,7 +275,7 @@ function setupRailDrawer(el) {
     scrim.classList.toggle('open', open);
     handle.classList.toggle('tucked', open);
     handle.setAttribute('aria-expanded', open ? 'true' : 'false');
-    document.body.classList.toggle('no-scroll', open);
+    syncDrawerScrollLock(el);
   };
   handle.addEventListener('click', () => set(true));
   scrim.addEventListener('click', () => set(false));
@@ -281,6 +301,52 @@ function setupRailDrawer(el) {
   document.addEventListener('keydown', railEscHandler);
 }
 let railEscHandler = null;
+
+/* ---- tablet/mobile: the volume→book→chapter TOC as a pull-over drawer - */
+// Below 1020px the left-hand table of contents has no room either, so it
+// becomes an off-canvas drawer of its own — a handle hugging the left edge
+// pulls it over the text. Expanding a volume or book only toggles a panel
+// open (no navigation), so the reader stays on this page; only tapping an
+// actual chapter number is a real link and leaves.
+function setupTocDrawer(el) {
+  const toc = el.querySelector('#reader-toc');
+  const handle = el.querySelector('#toc-handle');
+  const scrim = el.querySelector('#toc-scrim');
+  const closeBtn = el.querySelector('#toc-close');
+  if (!toc || !handle || !scrim) return;
+
+  const set = open => {
+    toc.classList.toggle('open', open);
+    scrim.classList.toggle('open', open);
+    handle.classList.toggle('tucked', open);
+    handle.setAttribute('aria-expanded', open ? 'true' : 'false');
+    syncDrawerScrollLock(el);
+  };
+  handle.addEventListener('click', () => set(true));
+  scrim.addEventListener('click', () => set(false));
+  closeBtn.addEventListener('click', () => set(false));
+  // tapping a chapter number navigates away — close first; expanding a
+  // volume/book toggle button (not a link) leaves the drawer open
+  toc.addEventListener('click', e => { if (e.target.closest('a')) set(false); });
+
+  // swipe left on the drawer to push it back off-screen
+  let x0 = null, y0 = null;
+  toc.addEventListener('touchstart', e => { x0 = e.touches[0].clientX; y0 = e.touches[0].clientY; }, { passive: true });
+  toc.addEventListener('touchend', e => {
+    if (x0 == null) return;
+    const dx = e.changedTouches[0].clientX - x0;
+    const dy = e.changedTouches[0].clientY - y0;
+    if (dx < -70 && Math.abs(dy) < 60) set(false);
+    x0 = y0 = null;
+  }, { passive: true });
+
+  if (tocEscHandler) document.removeEventListener('keydown', tocEscHandler);
+  tocEscHandler = e => {
+    if (e.key === 'Escape' && document.body.contains(toc) && toc.classList.contains('open')) set(false);
+  };
+  document.addEventListener('keydown', tocEscHandler);
+}
+let tocEscHandler = null;
 
 /* ---- study tools: highlights, notes & bookmarks on each verse --------- */
 function setupStudyTools(el, slug, c, book, cm) {
