@@ -53,22 +53,33 @@ def talk(t):
 
 
 def main():
+    # progress is appended to OUT + '.part' (one talk per line) so an
+    # interrupted run resumes where it stopped
+    import os
+    part = OUT + '.part'
+    done = {}
+    if os.path.exists(part):
+        for line in open(part):
+            try:
+                t = json.loads(line); done[t['id']] = t
+            except ValueError:
+                pass
     sessions = [(y, s) for y in range(1942, 2027) for s in ('A', 'O')]
     with ThreadPoolExecutor(4) as ex:
         talks = [t for ts in ex.map(session, sessions) for t in ts]
-    seen, uniq = set(), []
+    seen, todo = set(done), []
     for t in talks:
         if t['id'] not in seen:
-            seen.add(t['id']); uniq.append(t)
-    print(len(uniq), 'talks listed', file=sys.stderr)
-    done = []
-    with ThreadPoolExecutor(4) as ex:
-        for i, t in enumerate(ex.map(talk, uniq)):
-            done.append(t)
+            seen.add(t['id']); todo.append(t)
+    print(len(seen), 'talks listed,', len(todo), 'to fetch', file=sys.stderr)
+    with open(part, 'a') as f, ThreadPoolExecutor(6) as ex:
+        for i, t in enumerate(ex.map(talk, todo)):
+            done[t['id']] = t
+            f.write(json.dumps(t) + '\n'); f.flush()
             if i % 250 == 0:
                 print(i, 'talks fetched', file=sys.stderr)
     with open(OUT, 'w') as f:
-        json.dump(done, f)
+        json.dump(list(done.values()), f)
     print('wrote', OUT, len(done), file=sys.stderr)
 
 
