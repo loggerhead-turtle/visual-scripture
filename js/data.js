@@ -119,6 +119,17 @@ export const VOLUMES = [
       { slug: 'dc', name: 'Doctrine & Covenants', chapters: 138 },
     ],
   },
+  {
+    id: 'pgp', name: 'Pearl of Great Price', short: 'PGP', color: '#8e6bb8',
+    blurb: 'Visions of Moses and Abraham, the Savior on the last days, and the Prophet Joseph’s own story.',
+    books: [
+      { slug: 'moses', name: 'Moses', chapters: 8 },
+      { slug: 'abraham', name: 'Abraham', chapters: 5 },
+      { slug: 'js-matthew', name: 'Joseph Smith—Matthew', chapters: 1 },
+      { slug: 'js-history', name: 'Joseph Smith—History', chapters: 1 },
+      { slug: 'articles-of-faith', name: 'Articles of Faith', chapters: 1 },
+    ],
+  },
 ];
 
 export const BOOKS = VOLUMES.flatMap ? VOLUMES.reduce((a, v) => a.concat(v.books), []) : [];
@@ -140,7 +151,8 @@ function stubMeta(slug, platesData) {
   const entry = platesData && [].concat(platesData.books || [],
     (platesData.bibleBooks && platesData.bibleBooks.ot) || [],
     (platesData.bibleBooks && platesData.bibleBooks.nt) || [],
-    (platesData.bibleBooks && platesData.bibleBooks.dc) || []).find(x => x.slug === slug);
+    (platesData.bibleBooks && platesData.bibleBooks.dc) || [],
+    (platesData.bibleBooks && platesData.bibleBooks.pgp) || []).find(x => x.slug === slug);
   return {
     book: b.name, slug, stub: true,
     narrator: (entry && entry.writer) || 'chronicler',
@@ -173,12 +185,12 @@ export const allMeta = () => Promise.all(BOOKS.map(b => loadMeta(b.slug)));
 let entityIndex = null;
 export async function entities() {
   if (entityIndex) return entityIndex;
-  const [base, ot, nt, dc] = await Promise.all([
-    fetchJSON('data/characters.json'), tryJSON('data/cast-ot.json'), tryJSON('data/cast-nt.json'), tryJSON('data/cast-dc.json'),
+  const [base, ot, nt, dc, pgp] = await Promise.all([
+    fetchJSON('data/characters.json'), tryJSON('data/cast-ot.json'), tryJSON('data/cast-nt.json'), tryJSON('data/cast-dc.json'), tryJSON('data/cast-pgp.json'),
   ]);
   const characters = [...base.characters], groups = [...base.groups];
   const seen = new Set([...characters.map(c => c.id), ...groups.map(g => g.id)]);
-  for (const extra of [ot, nt, dc]) {
+  for (const extra of [ot, nt, dc, pgp]) {
     if (!extra) continue;
     for (const c of extra.characters || []) if (!seen.has(c.id)) { seen.add(c.id); characters.push(c); }
     for (const g of extra.groups || []) if (!seen.has(g.id)) { seen.add(g.id); groups.push(g); }

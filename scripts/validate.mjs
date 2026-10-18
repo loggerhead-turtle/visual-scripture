@@ -11,7 +11,7 @@ const BOOKS = Object.keys(counts);
 
 const chars = read('data/characters.json');
 const ids = new Set([...chars.characters.map(c => c.id), ...chars.groups.map(g => g.id)]);
-for (const f of ['data/cast-ot.json', 'data/cast-nt.json', 'data/cast-dc.json']) {
+for (const f of ['data/cast-ot.json', 'data/cast-nt.json', 'data/cast-dc.json', 'data/cast-pgp.json']) {
   if (!exists(f)) continue;
   const d = read(f);
   for (const c of d.characters || []) ids.add(c.id);

@@ -104,6 +104,9 @@ export async function renderPlates(el, params) {
         </div>`;
       }).join('')}
       <div class="books-strip" style="margin-top:20px">${data.bibleBooks.dc.map(chip).join('')}</div>` },
+    {
+      id: 'pgp', name: '🦪 Pearl of Great Price', html: collectionSection(data.bibleBooks.pgp || [], 'How the Pearl of Great Price Is Organized',
+        'Five short works gathered into one pearl — Moses’s visions and Abraham’s record restoring the ancient covenant story, then Joseph Smith’s rendering of Matthew 24, his own history, and the Articles of Faith.') },
   ];
 
   el.innerHTML = `
@@ -146,6 +149,7 @@ export async function renderPlates(el, params) {
   const p = params.get('p');
   const tabFor = p && (['small-plates', 'mormon-abridgment', 'mormon-own', 'ether-abridgment', 'moroni-own'].includes(p) ? 'bom'
     : p.startsWith('dc-') ? 'dc'
+    : p.startsWith('pgp-') ? 'pgp'
     : ['gospels', 'acts-history', 'pauline-epistles', 'general-epistles', 'apocalypse'].includes(p) ? 'nt' : 'ot');
   show(tabFor || 'bom');
 }

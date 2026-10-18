@@ -211,6 +211,27 @@
    "color": "#5b8fb0",
    "writer": "1847 - 1918",
    "desc": "The camp of Israel moves west, and the veil parts once more in 1918."
+  },
+  "pgp-moses": {
+   "name": "The Book of Moses",
+   "short": "Book of Moses",
+   "color": "#8e6bb8",
+   "writer": "Revealed 1830",
+   "desc": "Visions and writings of Moses revealed to Joseph Smith in 1830 as he began his inspired translation of the Bible — the opening of Genesis restored."
+  },
+  "pgp-abraham": {
+   "name": "The Book of Abraham",
+   "short": "Book of Abraham",
+   "color": "#a688cf",
+   "writer": "Translated 1835–1842",
+   "desc": "A translation from Egyptian papyri acquired in Kirtland in 1835, published in Nauvoo in 1842 — Abraham’s own account of the covenant, the stars, and the premortal council."
+  },
+  "pgp-joseph-smith": {
+   "name": "Writings of Joseph Smith",
+   "short": "Joseph Smith",
+   "color": "#6f5a9e",
+   "writer": "1831–1842",
+   "desc": "Joseph Smith’s inspired rendering of Matthew 24, his own history of the First Vision and the coming forth of the Book of Mormon, and the thirteen Articles of Faith."
   }
  },
  "books": [
@@ -795,6 +816,43 @@
     "plates": "dc-kirtland",
     "writer": "joseph-smith",
     "span": "1823-1918"
+   }
+  ],
+  "pgp": [
+   {
+    "slug": "moses",
+    "name": "Moses",
+    "plates": "pgp-moses",
+    "writer": "moses",
+    "span": "1830"
+   },
+   {
+    "slug": "abraham",
+    "name": "Abraham",
+    "plates": "pgp-abraham",
+    "writer": "abraham",
+    "span": "1835-1842"
+   },
+   {
+    "slug": "js-matthew",
+    "name": "Joseph Smith—Matthew",
+    "plates": "pgp-joseph-smith",
+    "writer": "matthew",
+    "span": "1831"
+   },
+   {
+    "slug": "js-history",
+    "name": "Joseph Smith—History",
+    "plates": "pgp-joseph-smith",
+    "writer": "joseph-smith",
+    "span": "1838"
+   },
+   {
+    "slug": "articles-of-faith",
+    "name": "Articles of Faith",
+    "plates": "pgp-joseph-smith",
+    "writer": "joseph-smith",
+    "span": "1842"
    }
   ]
  }

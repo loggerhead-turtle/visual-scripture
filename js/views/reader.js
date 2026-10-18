@@ -28,7 +28,10 @@ export async function renderReader(el, slug, c, params) {
   const platesKey = cm.plates || meta.plates;
   const pk = platesData.platesKeys[platesKey] || {};
   const place = cm.place ? allPlaces.find(p => p.id === cm.place) : null;
-  const mapParam = vol.id === 'bom' ? 'internal' : vol.id === 'dc' ? 'usa' : 'holy-land';
+  // the Pearl of Great Price spans both ancient (Moses, Abraham) and modern
+  // (Joseph Smith) settings — borrow the OT or D&C map/timeline per chapter
+  const eraVol = vol.id === 'pgp' ? (cm.yearNum != null && cm.yearNum > 1700 ? 'dc' : 'ot') : vol.id;
+  const mapParam = eraVol === 'bom' ? 'internal' : eraVol === 'dc' ? 'usa' : 'holy-land';
   const { prev, next } = prevNextChapter(slug, c);
   const narrator = ents.byId[meta.narrator];
   const cw = chapterWord(slug);
@@ -135,7 +138,7 @@ export async function renderReader(el, slug, c, params) {
             <button type="button" class="pill link bm-pill" id="bm-chapter">🔖 <span>Bookmark</span></button>
             <a class="pill link" href="#/plates?p=${platesKey}"><span class="dot" style="background:${pk.color || '#888'}"></span>${pk.short || 'Record'}</a>
             ${place ? `<a class="pill link" href="#/map?place=${place.id}&m=${mapParam}">📍 ${place.name}</a>` : ''}
-            ${cm.yearNum != null ? `<a class="pill link" href="#/timeline?y=${cm.yearNum}&era=${vol.id === 'bom' ? 'lehite' : vol.id}">🕰 ${esc(cm.years || 'Timeline')}</a>` : ''}
+            ${cm.yearNum != null ? `<a class="pill link" href="#/timeline?y=${cm.yearNum}&era=${eraVol === 'bom' ? 'lehite' : eraVol}">🕰 ${esc(cm.years || 'Timeline')}</a>` : ''}
             ${themes}
           </div>
           ${chars ? `<div class="chapter-meta" style="margin-top:8px">${chars}</div>` : ''}
@@ -199,7 +202,7 @@ export async function renderReader(el, slug, c, params) {
   setupTocDrawer(el);
   setupStudyTools(el, slug, c, book, cm);
 
-  renderMiniTimeline(el.querySelector('#mini-tl'), cm.yearNum, vol);
+  renderMiniTimeline(el.querySelector('#mini-tl'), cm.yearNum, { id: eraVol });
 
   const cardEl = el.querySelector('#speaker-card');
   const handleAvatar = el.querySelector('#rh-avatar');

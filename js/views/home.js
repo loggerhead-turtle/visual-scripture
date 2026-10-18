@@ -1,7 +1,7 @@
 import { VOLUMES, bookBySlug, esc } from '../data.js';
 import { currentUser, lastRead } from '../account.js';
 
-const START = { ot: 'genesis/1', nt: 'matthew/1', bom: '1-nephi/1', dc: 'dc/1' };
+const START = { ot: 'genesis/1', nt: 'matthew/1', bom: '1-nephi/1', dc: 'dc/1', pgp: 'moses/1' };
 
 // The Book of Mormon: a set of engraved gold plates bound with rings (no emoji exists for it).
 const GOLD_PLATES = `<svg viewBox="0 0 32 32" width="30" height="30" aria-hidden="true" style="vertical-align:-4px">
@@ -36,7 +36,7 @@ const SLC_TEMPLE = `<svg viewBox="0 0 44 42" width="32" height="30" aria-hidden=
     <path d="M20.5 40 v-8 a2.5 2.5 0 0 1 5 0 v8Z"/>
   </g>
 </svg>`;
-const VOL_FIG = { ot: '🕎', nt: '✝️', bom: GOLD_PLATES, dc: SLC_TEMPLE };
+const VOL_FIG = { ot: '🕎', nt: '✝️', bom: GOLD_PLATES, dc: SLC_TEMPLE, pgp: '🦪' };
 
 // A parchment scroll (for The Records) and a robed prophet bust (for The Cast).
 const SCROLL = `<svg viewBox="0 0 32 32" width="28" height="28" aria-hidden="true" style="vertical-align:-3px">
