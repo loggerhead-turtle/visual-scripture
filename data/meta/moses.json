@@ -1,0 +1,151 @@
+{
+  "book": "Moses",
+  "slug": "moses",
+  "narrator": "moses",
+  "plates": "pgp-moses",
+  "chapters": [
+    {
+      "c": 1,
+      "title": "Moses Sees God Face to Face",
+      "synopsis": "Caught up into an exceedingly high mountain, Moses sees God face to face, learns he is a son of God, and beholds the world and all its inhabitants. When Satan comes demanding worship, Moses discerns the difference in glory and casts him out in the name of the Only Begotten. God then reveals worlds without number and declares that his work and glory is to bring to pass the immortality and eternal life of man.",
+      "years": "about 1300 BC",
+      "yearNum": -1300,
+      "approx": true,
+      "place": null,
+      "themes": ["revelation", "creation", "agency"],
+      "characters": ["moses", "god-the-father", "satan"],
+      "segments": [
+        { "s": 1, "e": 7, "speaker": "god-the-father", "to": "moses", "note": "God declares Moses his son in the similitude of the Only Begotten" },
+        { "s": 8, "e": 11, "speaker": "moses", "to": "reader", "note": "Moses beholds the world and learns man is nothing" },
+        { "s": 12, "e": 23, "speaker": "moses", "to": "satan", "note": "Moses refuses to worship Satan and casts him out" },
+        { "s": 24, "e": 29, "speaker": "moses", "to": "reader", "note": "Filled with the Holy Ghost, Moses beholds every soul on earth" },
+        { "s": 30, "e": 39, "speaker": "god-the-father", "to": "moses", "note": "Worlds without number; my work and my glory" },
+        { "s": 40, "e": 42, "speaker": "god-the-father", "to": "moses", "note": "Moses to write; the words to be restored later" }
+      ]
+    },
+    {
+      "c": 2,
+      "title": "The Creation Revealed to Moses",
+      "synopsis": "The Lord reveals to Moses how, by his Only Begotten, he created the heavens and the earth over six days: light, firmament, land and plants, sun and moon, sea creatures and fowl, and the beasts. On the sixth day God creates man, male and female, in the image of his Only Begotten and gives them dominion. Everything he has made is very good.",
+      "years": "about 4000 BC",
+      "yearNum": -4000,
+      "approx": true,
+      "place": null,
+      "themes": ["creation", "revelation"],
+      "characters": ["god-the-father", "jesus-christ", "moses", "adam", "eve"],
+      "segments": [
+        { "s": 1, "e": 25, "speaker": "god-the-father", "to": "moses", "note": "God recounts the creative days by his Only Begotten" },
+        { "s": 26, "e": 31, "speaker": "god-the-father", "to": "moses", "note": "Man created in the image of the Only Begotten" }
+      ]
+    },
+    {
+      "c": 3,
+      "title": "Spiritual Creation and the Garden",
+      "synopsis": "God rests on the seventh day and explains that all things were created spiritually before they were naturally upon the earth. He forms man from the dust, plants the Garden of Eden, and forbids the tree of knowledge while declaring that Adam may choose for himself. Eve is formed as a help meet for Adam, and the two become one flesh.",
+      "years": "about 4000 BC",
+      "yearNum": -4000,
+      "approx": true,
+      "place": null,
+      "themes": ["creation", "agency", "family"],
+      "characters": ["god-the-father", "moses", "adam", "eve"],
+      "segments": [
+        { "s": 1, "e": 7, "speaker": "god-the-father", "to": "moses", "note": "All things created spiritually before naturally" },
+        { "s": 8, "e": 17, "speaker": "god-the-father", "to": "moses", "note": "Eden planted; Adam may choose for himself" },
+        { "s": 18, "e": 25, "speaker": "god-the-father", "to": "moses", "note": "Eve formed; the first marriage" }
+      ]
+    },
+    {
+      "c": 4,
+      "title": "Satan Rebels and Adam Falls",
+      "synopsis": "God tells Moses how Satan, in the premortal council, sought to destroy the agency of man and take God's honor, and was cast down when the Beloved Son was chosen. Satan then beguiles Eve through the serpent, and Adam and Eve partake of the forbidden fruit. God pronounces the consequences, clothes them in coats of skins, and sends them out of the Garden.",
+      "years": "about 4000 BC",
+      "yearNum": -4000,
+      "approx": true,
+      "place": null,
+      "themes": ["fall", "agency", "judgment"],
+      "characters": ["god-the-father", "jesus-christ", "satan", "adam", "eve", "moses"],
+      "segments": [
+        { "s": 1, "e": 4, "speaker": "god-the-father", "to": "moses", "note": "Satan seeks to destroy agency and is cast down" },
+        { "s": 5, "e": 12, "speaker": "god-the-father", "to": "moses", "note": "The serpent beguiles Eve" },
+        { "s": 13, "e": 19, "speaker": "god-the-father", "to": "adam", "note": "God questions Adam and Eve" },
+        { "s": 20, "e": 25, "speaker": "god-the-father", "to": "adam", "note": "Consequences for the serpent, the woman, and the man" },
+        { "s": 26, "e": 32, "speaker": "god-the-father", "to": "moses", "note": "Coats of skins; cherubim guard the tree of life" }
+      ]
+    },
+    {
+      "c": 5,
+      "title": "Adam's Offering and Cain's Fall",
+      "synopsis": "Outside the garden, Adam and Eve labor, call upon God, and offer sacrifice, and an angel teaches that it is a similitude of the Only Begotten. Filled with the Holy Ghost, they rejoice that their transgression opened the way to redemption. Cain loves Satan more than God, covenants with him as Master Mahan, slays Abel, and secret combinations spread, while the gospel is preached from the beginning.",
+      "years": "about 3900 BC",
+      "yearNum": -3900,
+      "approx": true,
+      "place": null,
+      "themes": ["atonement", "agency", "secret-combinations", "family"],
+      "characters": ["adam", "eve", "angel", "satan", "cain", "abel", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 5, "speaker": "moses", "to": "reader", "note": "Adam and Eve labor and call upon the Lord" },
+        { "s": 6, "e": 8, "speaker": "angel", "to": "adam", "note": "Sacrifice is a similitude of the Only Begotten" },
+        { "s": 9, "e": 12, "speaker": "adam", "to": "reader", "note": "Adam and Eve rejoice in redemption" },
+        { "s": 13, "e": 15, "speaker": "moses", "to": "reader", "note": "Satan deceives; the Holy Ghost calls all to repent" },
+        { "s": 16, "e": 31, "speaker": "moses", "to": "reader", "note": "Cain loves Satan and becomes Master Mahan" },
+        { "s": 32, "e": 41, "speaker": "the-lord", "to": "cain", "note": "Cain slays Abel and is cursed" },
+        { "s": 42, "e": 59, "speaker": "moses", "to": "reader", "note": "Lamech's secret combination; the gospel preached" }
+      ]
+    },
+    {
+      "c": 6,
+      "title": "Enoch Called as a Seer",
+      "synopsis": "Adam's righteous posterity through Seth keep a book of remembrance and a genealogy down to Enoch. The Lord calls Enoch, a lad slow of speech, to cry repentance, anoints his eyes so he becomes a seer, and the people tremble at his words. Enoch teaches the plan of salvation the Lord gave Adam, including how Adam was baptized and born of the Spirit.",
+      "years": "about 3900–3300 BC",
+      "yearNum": -3300,
+      "approx": true,
+      "place": null,
+      "themes": ["repentance", "baptism", "records", "prophecy"],
+      "characters": ["adam", "enoch", "mahijah", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 25, "speaker": "moses", "to": "reader", "note": "Seth's line, the book of remembrance, and genealogy" },
+        { "s": 26, "e": 36, "speaker": "the-lord", "to": "enoch", "note": "Enoch called and made a seer" },
+        { "s": 37, "e": 50, "speaker": "enoch", "to": "multitude", "note": "Enoch preaches; Mahijah questions him" },
+        { "s": 51, "e": 63, "speaker": "the-lord", "to": "adam", "note": "The plan of salvation taught to Adam" },
+        { "s": 64, "e": 68, "speaker": "enoch", "to": "multitude", "note": "Adam baptized and born of the Spirit" }
+      ]
+    },
+    {
+      "c": 7,
+      "title": "Enoch and the City of Zion",
+      "synopsis": "Enoch sees the Lord face to face and preaches with such power that mountains flee, and his people become Zion, of one heart and one mind with no poor among them. Zion is taken up into heaven, and Enoch watches the God of heaven weep over the wickedness of his children. He sees Noah and the flood, the Son of Man lifted on the cross, and the latter-day gathering when Zion returns to the earth.",
+      "years": "about 3300–2950 BC",
+      "yearNum": -3000,
+      "approx": true,
+      "place": null,
+      "themes": ["zion", "prophecy", "second-coming", "justice-and-mercy"],
+      "characters": ["enoch", "the-lord", "satan", "noah", "jesus-christ"],
+      "segments": [
+        { "s": 1, "e": 11, "speaker": "enoch", "to": "multitude", "note": "Enoch recounts his vision on the mount" },
+        { "s": 12, "e": 19, "speaker": "moses", "to": "reader", "note": "Zion: one heart, one mind, no poor" },
+        { "s": 20, "e": 27, "speaker": "moses", "to": "reader", "note": "Zion taken up; Satan's great chain" },
+        { "s": 28, "e": 40, "speaker": "the-lord", "to": "enoch", "note": "The God of heaven weeps over his creations" },
+        { "s": 41, "e": 53, "speaker": "moses", "to": "reader", "note": "Enoch sees Noah, the flood, and receives a covenant" },
+        { "s": 54, "e": 67, "speaker": "the-lord", "to": "enoch", "note": "The Son of Man lifted up; Zion in the last days" },
+        { "s": 68, "e": 69, "speaker": "moses", "to": "reader", "note": "Zion is fled" }
+      ]
+    },
+    {
+      "c": 8,
+      "title": "Noah Preaches Before the Flood",
+      "synopsis": "Methuselah remains on the earth so that the Lord's covenant with Enoch can be fulfilled, and Noah is born to Lamech. The Lord ordains Noah, who preaches faith, repentance, and baptism in the name of Jesus Christ, but the people mock him and giants seek his life. Seeing that the earth is filled with violence, God resolves to destroy all flesh, yet Noah finds grace in his eyes.",
+      "years": "about 2950–2350 BC",
+      "yearNum": -2350,
+      "approx": true,
+      "place": null,
+      "themes": ["repentance", "baptism", "judgment", "prophecy"],
+      "characters": ["noah", "methuselah", "enoch", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 12, "speaker": "moses", "to": "reader", "note": "Methuselah's line and the birth of Noah" },
+        { "s": 13, "e": 19, "speaker": "the-lord", "to": "noah", "note": "Noah ordained; the Lord warns of the flood" },
+        { "s": 20, "e": 24, "speaker": "noah", "to": "multitude", "note": "Noah preaches faith, repentance, and baptism" },
+        { "s": 25, "e": 30, "speaker": "the-lord", "to": "noah", "note": "God resolves to destroy all flesh" }
+      ]
+    }
+  ]
+}

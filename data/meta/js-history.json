@@ -1,0 +1,29 @@
+{
+  "book": "Joseph Smith—History",
+  "slug": "js-history",
+  "narrator": "joseph-smith",
+  "plates": "pgp-joseph-smith",
+  "chapters": [
+    {
+      "c": 1,
+      "title": "The First Vision and the Restoration",
+      "synopsis": "Confused by a religious revival near Palmyra, fourteen-year-old Joseph Smith reads James 1:5 and prays in a grove, where the Father and the Son appear and tell him to join none of the churches. Three years later the angel Moroni tells him of a record on gold plates, which he obtains in 1827 and translates with Oliver Cowdery as scribe. In May 1829 John the Baptist confers the Aaronic Priesthood, and Joseph and Oliver baptize each other.",
+      "years": "1820–1829",
+      "yearNum": 1820,
+      "approx": false,
+      "place": "palmyra",
+      "themes": ["restoration", "revelation", "prayer", "priesthood"],
+      "characters": ["joseph-smith", "god-the-father", "jesus-christ", "moroni", "joseph-smith-sr", "martin-harris", "oliver-cowdery", "john-baptist"],
+      "segments": [
+        { "s": 1, "e": 13, "speaker": "joseph-smith", "to": "reader", "note": "A religious revival and the promise of James 1:5" },
+        { "s": 14, "e": 20, "speaker": "joseph-smith", "to": "reader", "note": "The Father and the Son appear in the grove" },
+        { "s": 21, "e": 26, "speaker": "joseph-smith", "to": "reader", "note": "Persecuted for telling of the vision" },
+        { "s": 27, "e": 47, "speaker": "moroni", "to": "joseph-smith", "note": "Moroni visits three times in one night" },
+        { "s": 48, "e": 65, "speaker": "joseph-smith", "to": "reader", "note": "The plates obtained; Martin Harris and Anthon" },
+        { "s": 66, "e": 67, "speaker": "joseph-smith", "to": "reader", "note": "Oliver Cowdery becomes scribe" },
+        { "s": 68, "e": 72, "speaker": "john-baptist", "to": "joseph-smith", "note": "John the Baptist restores the Aaronic Priesthood" },
+        { "s": 73, "e": 75, "speaker": "joseph-smith", "to": "reader", "note": "Joseph and Oliver filled with the Holy Ghost" }
+      ]
+    }
+  ]
+}

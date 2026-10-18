@@ -1,0 +1,92 @@
+{
+  "book": "Abraham",
+  "slug": "abraham",
+  "narrator": "abraham",
+  "plates": "pgp-abraham",
+  "chapters": [
+    {
+      "c": 1,
+      "title": "Abraham Delivered from the Altar",
+      "synopsis": "In Ur of the Chaldeans, Abraham seeks the blessings of the fathers and the right to the priesthood, while his idolatrous fathers turn to the gods of the heathen. The priest of Pharaoh tries to sacrifice him on an altar, but Jehovah breaks the bands and promises to lead him away. Abraham explains the origin of Egypt and Pharaoh's lineage and keeps the records of the fathers.",
+      "years": "about 1900 BC",
+      "yearNum": -1900,
+      "approx": true,
+      "place": null,
+      "themes": ["priesthood", "deliverance", "records", "covenant"],
+      "characters": ["abraham", "terah", "pharaoh", "the-lord", "angel"],
+      "segments": [
+        { "s": 1, "e": 4, "speaker": "abraham", "to": "reader", "note": "Abraham seeks the blessings of the fathers" },
+        { "s": 5, "e": 14, "speaker": "abraham", "to": "reader", "note": "Idolatrous priests try to sacrifice Abraham" },
+        { "s": 15, "e": 19, "speaker": "the-lord", "to": "abraham", "note": "Jehovah delivers Abraham and promises his name" },
+        { "s": 20, "e": 27, "speaker": "abraham", "to": "reader", "note": "Egypt's founding and Pharaoh's lineage" },
+        { "s": 28, "e": 31, "speaker": "abraham", "to": "reader", "note": "Famine in Chaldea; the records of the fathers" }
+      ]
+    },
+    {
+      "c": 2,
+      "title": "The Abrahamic Covenant",
+      "synopsis": "When famine strikes Ur, Abraham leaves with Sarai, Lot, and his father Terah, who stays behind in Haran. The Lord appears and covenants that Abraham's seed will bear the ministry and priesthood to all nations, and that all who receive the gospel will be counted his seed. Abraham journeys through Canaan building altars, and near Egypt the Lord tells him to have Sarai say she is his sister.",
+      "years": "about 1900 BC",
+      "yearNum": -1900,
+      "approx": true,
+      "place": null,
+      "themes": ["covenant", "priesthood", "family", "prayer"],
+      "characters": ["abraham", "sarah", "lot", "terah", "the-lord"],
+      "segments": [
+        { "s": 1, "e": 5, "speaker": "abraham", "to": "reader", "note": "Famine; Abraham leaves Ur and stays in Haran" },
+        { "s": 6, "e": 11, "speaker": "the-lord", "to": "abraham", "note": "The covenant: blessing all nations through his seed" },
+        { "s": 12, "e": 21, "speaker": "abraham", "to": "reader", "note": "Abraham journeys into Canaan, building altars" },
+        { "s": 22, "e": 25, "speaker": "the-lord", "to": "abraham", "note": "Sarai to say she is his sister" }
+      ]
+    },
+    {
+      "c": 3,
+      "title": "Kolob and the Noble and Great Ones",
+      "synopsis": "Through the Urim and Thummim, Abraham sees the stars and Kolob, the great one nearest the throne of God, and learns how one is greater than another. The Lord shows him the intelligences organized before the world, among whom were many noble and great ones chosen before they were born. When the Lord asks whom he shall send, one like the Son of Man answers, and the second, angry, keeps not his first estate.",
+      "years": "about 1900 BC",
+      "yearNum": -1900,
+      "approx": true,
+      "place": null,
+      "themes": ["revelation", "agency", "creation", "leadership"],
+      "characters": ["abraham", "the-lord", "jesus-christ", "satan"],
+      "segments": [
+        { "s": 1, "e": 14, "speaker": "the-lord", "to": "abraham", "note": "Abraham sees Kolob and the stars" },
+        { "s": 15, "e": 21, "speaker": "the-lord", "to": "abraham", "note": "Spirits greater and lesser; God above all" },
+        { "s": 22, "e": 26, "speaker": "the-lord", "to": "abraham", "note": "Noble and great ones; first and second estates" },
+        { "s": 27, "e": 28, "speaker": "the-lord", "to": "abraham", "note": "Whom shall I send?" }
+      ]
+    },
+    {
+      "c": 4,
+      "title": "The Gods Plan the Creation",
+      "synopsis": "Abraham records how the Gods went down at the beginning and organized and formed the heavens and the earth. Through six periods they divide light from darkness, gather the waters, prepare the earth to bring forth life, and watch their work until it obeys. Then they take counsel and organize man, male and female, in their own image.",
+      "years": "about 1900 BC; recounts the Creation",
+      "yearNum": -1900,
+      "approx": true,
+      "place": null,
+      "themes": ["creation", "obedience"],
+      "characters": ["god-the-father", "jesus-christ", "adam", "eve"],
+      "segments": [
+        { "s": 1, "e": 13, "speaker": "abraham", "to": "reader", "note": "The Gods organize light, expanse, and land" },
+        { "s": 14, "e": 25, "speaker": "abraham", "to": "reader", "note": "Lights and creatures; the Gods watch until obeyed" },
+        { "s": 26, "e": 31, "speaker": "abraham", "to": "reader", "note": "The Gods form man in their image" }
+      ]
+    },
+    {
+      "c": 5,
+      "title": "The Gods Form Man and Woman",
+      "synopsis": "The Gods complete their plans and rest on the seventh time, then carry out the creation they had counseled. They form man from the dust, put his spirit into him, plant the Garden of Eden, and command him concerning the tree of knowledge. They form woman from Adam's rib, and Adam names every living creature.",
+      "years": "about 1900 BC; recounts the Creation",
+      "yearNum": -1900,
+      "approx": true,
+      "place": null,
+      "themes": ["creation", "family", "obedience"],
+      "characters": ["god-the-father", "jesus-christ", "adam", "eve"],
+      "segments": [
+        { "s": 1, "e": 5, "speaker": "abraham", "to": "reader", "note": "The Gods finish their plans on the seventh time" },
+        { "s": 6, "e": 13, "speaker": "abraham", "to": "reader", "note": "Man formed and placed in Eden" },
+        { "s": 14, "e": 21, "speaker": "abraham", "to": "reader", "note": "Woman formed; Adam names the creatures" }
+      ]
+    }
+  ]
+}

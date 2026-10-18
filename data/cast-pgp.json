@@ -1,0 +1,84 @@
+{
+ "characters": [
+  {
+   "id": "cain",
+   "name": "Cain",
+   "title": "Master Mahan",
+   "era": "Days of Adam",
+   "bio": "Son of Adam and Eve who loved Satan more than God, covenanted with him in secret, and slew his brother Abel for gain. Cursed and shut out from the Lord's presence, he became the father of secret combinations.",
+   "relations": [
+    { "to": "adam", "rel": "son of" },
+    { "to": "eve", "rel": "son of" },
+    { "to": "abel", "rel": "brother of" }
+   ],
+   "groups": ["antagonist"],
+   "portrait": { "skin": "#b8875a", "hair": "#2f2219", "style": "short", "beard": "short", "head": "none", "garb": "#5a3b2a", "accent": "#b08d3c", "emblem": "fire", "face": "square", "age": "adult", "hairStyle": "curly", "brow": "heavy", "eyes": "fierce", "nose": "broad", "mouth": "frown" }
+  },
+  {
+   "id": "abel",
+   "name": "Abel",
+   "title": "The Faithful Shepherd",
+   "era": "Days of Adam",
+   "bio": "Son of Adam and Eve and a keeper of sheep who hearkened to the voice of the Lord. The Lord accepted his offering of the firstlings of his flock, and his envious brother Cain slew him in the field.",
+   "relations": [
+    { "to": "adam", "rel": "son of" },
+    { "to": "eve", "rel": "son of" },
+    { "to": "cain", "rel": "brother of" }
+   ],
+   "groups": ["martyr"],
+   "portrait": { "skin": "#c99a6c", "hair": "#5a4030", "style": "short", "beard": "none", "head": "none", "garb": "#8a7a5c", "accent": "#d9b96a", "emblem": "olive", "face": "oval", "age": "young", "hairStyle": "wavy", "brow": "soft", "eyes": "gentle", "nose": "straight", "mouth": "neutral" }
+  },
+  {
+   "id": "mahijah",
+   "name": "Mahijah",
+   "title": "The Questioner",
+   "era": "Days of Enoch",
+   "bio": "A man who came to Enoch as he preached and asked him plainly who he was and from whence he came. His question opened Enoch's account of his call and his vision of the Lord.",
+   "relations": [
+    { "to": "enoch", "rel": "questioned" }
+   ],
+   "groups": ["convert"],
+   "portrait": { "skin": "#bf8f62", "hair": "#3a2a1e", "style": "short", "beard": "full", "head": "turban", "garb": "#6b5a43", "accent": "#c9a24a", "emblem": "scroll", "face": "long", "age": "adult", "hairStyle": "short", "brow": "worried", "eyes": "wide", "nose": "aquiline", "mouth": "open" }
+  },
+  {
+   "id": "methuselah",
+   "name": "Methuselah",
+   "title": "Son of Enoch",
+   "era": "Before the Flood",
+   "bio": "Son of Enoch, who was not taken up with Zion so that the Lord's covenant with Enoch might be fulfilled through his seed. He prophesied that all the kingdoms of the earth would spring from his loins and lived 969 years.",
+   "relations": [
+    { "to": "enoch", "rel": "son of" },
+    { "to": "noah", "rel": "grandfather of" }
+   ],
+   "groups": ["patriarch", "prophet"],
+   "portrait": { "skin": "#c69063", "hair": "#e6e1d6", "style": "long", "beard": "long", "head": "hood", "garb": "#4f5a46", "accent": "#d9b96a", "emblem": "tree", "face": "long", "age": "old", "hairStyle": "long", "brow": "soft", "eyes": "calm", "nose": "straight", "mouth": "set" }
+  },
+  {
+   "id": "terah",
+   "name": "Terah",
+   "title": "Father of Abraham",
+   "era": "About 1950 BC",
+   "bio": "Abraham's father in Ur of the Chaldees, who turned to the idolatry of the heathen and consented to his son's sacrifice. Afflicted by famine, he repented for a time and journeyed with Abraham as far as Haran, where he returned to his idols.",
+   "relations": [
+    { "to": "abraham", "rel": "father of" },
+    { "to": "lot", "rel": "grandfather of" }
+   ],
+   "groups": ["patriarch"],
+   "portrait": { "skin": "#c08a5a", "hair": "#cfc8bb", "style": "long", "beard": "long", "head": "turban", "garb": "#6e4b34", "accent": "#b08d3c", "emblem": "stones", "face": "broad", "age": "old", "hairStyle": "long", "brow": "heavy", "eyes": "narrow", "nose": "aquiline", "mouth": "frown" }
+  },
+  {
+   "id": "lot",
+   "name": "Lot",
+   "title": "Abraham's Nephew",
+   "era": "About 1900 BC",
+   "bio": "Son of Abraham's brother Haran, who prayed with Abraham and journeyed with him from Ur through Haran into Canaan. He later settled toward Sodom and was delivered by angels before its destruction.",
+   "relations": [
+    { "to": "abraham", "rel": "nephew of" },
+    { "to": "terah", "rel": "grandson of" }
+   ],
+   "groups": ["patriarch"],
+   "portrait": { "skin": "#c69063", "hair": "#4a3524", "style": "short", "beard": "short", "head": "turban", "garb": "#7a6a50", "accent": "#c9a24a", "emblem": "mount", "face": "oval", "age": "adult", "hairStyle": "short", "brow": "straight", "eyes": "calm", "nose": "straight", "mouth": "neutral" }
+  }
+ ],
+ "groups": []
+}

@@ -1,0 +1,26 @@
+{
+  "book": "Joseph Smith—Matthew",
+  "slug": "js-matthew",
+  "narrator": "matthew",
+  "plates": "pgp-joseph-smith",
+  "chapters": [
+    {
+      "c": 1,
+      "title": "Signs of the Second Coming",
+      "synopsis": "Leaving the temple, Jesus sits on the Mount of Olives and answers his disciples' questions about the temple's destruction and his coming. He foretells the tribulation of the Jews and Jerusalem's fall, then the signs that will come before the Son of Man returns in glory. Through the fig tree, the days of Noah, and the faithful and evil servants, he urges his elect to treasure up his word and watch.",
+      "years": "AD 33; revealed 1831",
+      "yearNum": 33,
+      "approx": true,
+      "place": "jerusalem",
+      "themes": ["second-coming", "prophecy", "endurance", "parables"],
+      "characters": ["jesus-christ"],
+      "segments": [
+        { "s": 1, "e": 4, "speaker": "matthew", "to": "reader", "note": "Jesus leaves the temple; disciples ask on Olivet" },
+        { "s": 5, "e": 20, "speaker": "jesus-christ", "to": "disciples", "note": "Tribulation of the Jews and the fall of Jerusalem" },
+        { "s": 21, "e": 37, "speaker": "jesus-christ", "to": "disciples", "note": "Signs before the coming of the Son of Man" },
+        { "s": 38, "e": 48, "speaker": "jesus-christ", "to": "disciples", "note": "The fig tree and the days of Noah" },
+        { "s": 49, "e": 55, "speaker": "jesus-christ", "to": "disciples", "note": "The faithful servant and the evil servant" }
+      ]
+    }
+  ]
+}

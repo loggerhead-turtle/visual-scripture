@@ -1,0 +1,24 @@
+{
+  "book": "Articles of Faith",
+  "slug": "articles-of-faith",
+  "narrator": "joseph-smith",
+  "plates": "pgp-joseph-smith",
+  "chapters": [
+    {
+      "c": 1,
+      "title": "Thirteen Statements of Belief",
+      "synopsis": "Writing from Nauvoo to Chicago editor John Wentworth, Joseph Smith summarizes the beliefs of the Latter-day Saints in thirteen concise statements. They cover the Godhead, the Atonement and first principles of the gospel, priesthood authority and Church organization, continuing revelation and scripture, the gathering of Israel, freedom of worship, and a life of honesty and virtue.",
+      "years": "March 1, 1842",
+      "yearNum": 1842,
+      "approx": false,
+      "place": "nauvoo",
+      "themes": ["faith", "restoration", "revelation", "liberty"],
+      "characters": ["joseph-smith"],
+      "segments": [
+        { "s": 1, "e": 4, "speaker": "joseph-smith", "to": "reader", "note": "The Godhead, the Atonement, and first principles" },
+        { "s": 5, "e": 10, "speaker": "joseph-smith", "to": "reader", "note": "Authority, organization, revelation, and gathering" },
+        { "s": 11, "e": 13, "speaker": "joseph-smith", "to": "reader", "note": "Freedom of worship, law, and virtuous living" }
+      ]
+    }
+  ]
+}
