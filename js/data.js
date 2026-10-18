@@ -245,6 +245,15 @@ export const loadGenealogy = () => tryJSON('data/genealogy.json');
 // ---- ancient currency systems ----
 export const loadCurrency = () => tryJSON('data/currency.json');
 
+// ---- verse-by-verse commentary + study footnotes (per book; may not exist yet) ----
+// { slug, chapters: [ [ { n, f: [{ w, r?, g? }] } ... ] | null ... ] } — a null
+// chapter (or a missing file) simply means nothing has been written yet.
+export const loadCommentary = slug => tryJSON(`data/commentary/${slug}.json`);
+
+// ---- General Conference talks citing each chapter (per book; may not exist yet) ----
+// { slug, talks: [{ y, s, sp, ti, u }], chapters: { "<c>": [[talkIndex, [verses]] ...] } }
+export const loadConference = slug => tryJSON(`data/conference/${slug}.json`);
+
 // ---- every relationship edge across all cast files, for the mind map ----
 // Returns [{ from, to, rel }] using only edges whose endpoints are real entities.
 export async function relationEdges() {

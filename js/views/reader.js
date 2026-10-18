@@ -1,7 +1,10 @@
-import { VOLUMES, bookBySlug, volumeOf, chapterWord, loadText, loadMeta, loadPlaces, loadPlacesHolyLand, loadPlacesUSA, loadPlates, loadTopics, entities, segmentFor, prevNextChapter, esc, themeName } from '../data.js';
+import { VOLUMES, bookBySlug, volumeOf, chapterWord, loadText, loadMeta, loadPlaces, loadPlacesHolyLand, loadPlacesUSA, loadPlates, loadTopics, loadCommentary, loadConference, entities, segmentFor, prevNextChapter, esc, themeName } from '../data.js';
 import { avatar } from '../portraits.js';
 import { currentUser, getStudy, setHighlight, setNote, toggleBookmark, setLastRead, refOf } from '../account.js';
 import { HL_COLORS, applyHighlight, refreshFlags, decorateVerses } from '../study-marks.js';
+import { markerPositions, markerHtml, buildFootnotePop, buildFootnotesSection } from '../footnotes.js';
+import { conferenceCard } from '../conference.js';
+import { officialChapterUrl, officialVerseUrl } from '../official-links.js';
 
 let observer = null;
 
@@ -13,8 +16,9 @@ export async function renderReader(el, slug, c, params) {
   c = Math.min(c, book.chapters);
   const vol = volumeOf(slug);
 
-  const [text, meta, ents, placesBom, placesHL, placesUSA, platesData, topicsData] = await Promise.all([
+  const [text, meta, ents, placesBom, placesHL, placesUSA, platesData, topicsData, commentary, conference] = await Promise.all([
     loadText(slug), loadMeta(slug), entities(), loadPlaces(), loadPlacesHolyLand(), loadPlacesUSA(), loadPlates(), loadTopics(),
+    loadCommentary(slug), loadConference(slug),
   ]);
   const topicById = {};
   if (topicsData && topicsData.topics) for (const t of topicsData.topics) topicById[t.id] = t;
@@ -35,12 +39,18 @@ export async function renderReader(el, slug, c, params) {
   const { prev, next } = prevNextChapter(slug, c);
   const narrator = ents.byId[meta.narrator];
   const cw = chapterWord(slug);
+  const chapterLabel = (s, n) => s === 'dc' ? `Section ${n}` : `${bookBySlug[s].name} ${n}`;
+  // this chapter's commentary (one entry per verse) — null until it's written
+  const notes = commentary && commentary.chapters && Array.isArray(commentary.chapters[c - 1]) ? commentary.chapters[c - 1] : null;
+  const hasNotes = !!notes && notes.some(e => e && e.n);
+  const officialUrl = officialChapterUrl(slug, c);
 
   const bookColor = s => {
     const all = [].concat(platesData.books || [],
       (platesData.bibleBooks && platesData.bibleBooks.ot) || [],
       (platesData.bibleBooks && platesData.bibleBooks.nt) || [],
-      (platesData.bibleBooks && platesData.bibleBooks.dc) || []);
+      (platesData.bibleBooks && platesData.bibleBooks.dc) || [],
+      (platesData.bibleBooks && platesData.bibleBooks.pgp) || []);
     const entry = all.find(x => x.slug === s);
     return (entry && (platesData.platesKeys[entry.plates] || {}).color) || '#888';
   };
@@ -76,8 +86,17 @@ export async function renderReader(el, slug, c, params) {
   (cm.segments || []).forEach(s => { addCast(s.speaker); });
 
   const nameMap = buildVerseNameMap(castIds, ents, place, mapParam);
-  const versesHtml = verses.map((v, i) =>
-    `<p class="verse" id="v${i + 1}" data-v="${i + 1}"><span class="vnum">${i + 1}</span>${linkifyVerse(v, nameMap)}</p>`).join('');
+  // each verse is a row: the scripture (with its lettered footnote markers)
+  // and, when written, its plain-language commentary beside or beneath it
+  const versesHtml = verses.map((v, i) => {
+    const entry = (notes && notes[i]) || null;
+    const markers = markerPositions(v, entry && entry.f);
+    return `<div class="vrow" data-v="${i + 1}">
+      <p class="verse" id="v${i + 1}" data-v="${i + 1}"><span class="vnum">${i + 1}</span>${linkifyVerse(v, nameMap, markers, i + 1)}</p>
+      ${entry && entry.n ? `<div class="vcomm"><span class="vcomm-v">${i + 1}</span>${esc(entry.n)}</div>` : ''}
+    </div>`;
+  }).join('');
+  const footnotesHtml = buildFootnotesSection(slug, c, notes, cw);
 
   const themeIds = cm.themes || [];
   const themes = themeIds.map(t => `<a class="pill link" href="#/index?topic=${t}">✦ ${esc((topicById[t] || {}).name || themeName(t))}</a>`).join('');
@@ -107,8 +126,11 @@ export async function renderReader(el, slug, c, params) {
       <div class="rc-hint">Tap a face for their story &amp; every chapter they appear in.</div>
     </div>` : '';
 
+  // General Conference talks citing this chapter (card omitted when none)
+  const conf = conferenceCard(conference, c, cw);
+
   el.innerHTML = `
-  <div class="wrap">
+  <div class="wrap reader-wrap">
     <div class="reader-layout">
       <aside class="reader-toc" id="reader-toc">
         <div class="toc-head">
@@ -131,7 +153,7 @@ export async function renderReader(el, slug, c, params) {
         </section>
         <header class="chapter-head">
           <div class="crumbs">${esc(vol.name)} · ${pk.short || ''}${cm.years ? ' · ' + esc(cm.years) : ''}</div>
-          <h1>${book.slug === 'dc' ? `Section ${c}` : `${book.name} ${c}`}</h1>
+          <h1>${chapterLabel(slug, c)}</h1>
           ${cm.title ? `<h2 class="ctitle">${esc(cm.title)}</h2>` : ''}
           ${cm.synopsis ? `<div class="synopsis"><strong style="color:var(--gold-dim)">Synopsis — </strong>${esc(cm.synopsis)}</div>` : (meta.stub ? '<div class="synopsis" style="border-left-color:var(--line)">Study notes for this chapter are still being illuminated — the full text is below.</div>' : '')}
           <div class="chapter-meta">
@@ -142,11 +164,16 @@ export async function renderReader(el, slug, c, params) {
             ${themes}
           </div>
           ${chars ? `<div class="chapter-meta" style="margin-top:8px">${chars}</div>` : ''}
+          <div class="chapter-meta study-row">
+            ${hasNotes ? `<button type="button" class="pill link comm-pill" id="comm-toggle" aria-pressed="true" title="Plain-language notes beside each verse">💬 Commentary: <span>On</span></button>` : ''}
+            ${officialUrl ? `<a class="pill link" href="${officialUrl}" target="_blank" rel="noopener" title="This ${cw.toLowerCase()} on ChurchofJesusChrist.org, with the official footnotes">Official footnotes ↗</a>` : ''}
+          </div>
         </header>
-        <div class="verses" id="verses">${versesHtml}</div>
+        <div class="verses ${hasNotes ? 'has-comm' : ''}" id="verses">${versesHtml}</div>
+        ${footnotesHtml}
         <nav class="chapter-nav">
-          ${prev ? `<a class="btn" href="#/read/${prev.slug}/${prev.c}">← ${prev.slug === 'dc' ? 'Section ' + prev.c : bookBySlug[prev.slug].name + ' ' + prev.c}</a>` : '<span></span>'}
-          ${next ? `<a class="btn" href="#/read/${next.slug}/${next.c}">${next.slug === 'dc' ? 'Section ' + next.c : bookBySlug[next.slug].name + ' ' + next.c} →</a>` : '<span></span>'}
+          ${prev ? `<a class="btn" href="#/read/${prev.slug}/${prev.c}">← ${chapterLabel(prev.slug, prev.c)}</a>` : '<span></span>'}
+          ${next ? `<a class="btn" href="#/read/${next.slug}/${next.c}">${chapterLabel(next.slug, next.c)} →</a>` : '<span></span>'}
         </nav>
       </article>
       <aside class="speaker-rail" id="speaker-rail">
@@ -155,6 +182,7 @@ export async function renderReader(el, slug, c, params) {
           <button type="button" id="rail-close" aria-label="Close panel">✕</button>
         </div>
         <div class="speaker-card" id="speaker-card"></div>
+        ${conf ? conf.html : ''}
         ${topicsCard}
         <div class="context-card">
           <h4>${cw} context</h4>
@@ -166,15 +194,13 @@ export async function renderReader(el, slug, c, params) {
         </div>
         ${castCard}
       </aside>
-      <button type="button" class="rail-handle" id="rail-handle" aria-expanded="false" aria-label="Show who is speaking, when and where">
-        <span class="rh-avatar" id="rh-avatar"></span>
-        <span class="rh-name" id="rh-name"></span>
+      <button type="button" class="rail-handle" id="rail-handle" aria-expanded="false" aria-label="Show who is speaking, when and where" title="Who's speaking">
         <span class="rh-chev">‹</span>
+        <span class="rh-avatar" id="rh-avatar"></span>
       </button>
       <div class="rail-scrim" id="rail-scrim"></div>
-      <button type="button" class="toc-handle" id="toc-handle" aria-expanded="false" aria-label="Browse the standard works — volumes, books &amp; chapters">
+      <button type="button" class="toc-handle" id="toc-handle" aria-expanded="false" aria-label="Browse the standard works — volumes, books &amp; chapters" title="Browse books &amp; chapters">
         <span class="th-icon">📖</span>
-        <span class="th-label">Browse</span>
         <span class="th-chev">›</span>
       </button>
       <div class="toc-scrim" id="toc-scrim"></div>
@@ -201,12 +227,14 @@ export async function renderReader(el, slug, c, params) {
   setupRailDrawer(el);
   setupTocDrawer(el);
   setupStudyTools(el, slug, c, book, cm);
+  setupCommentaryToggle(el);
+  setupFootnotes(el, slug, c, notes);
+  const confCtl = conf ? conf.setup(el) : null;
 
   renderMiniTimeline(el.querySelector('#mini-tl'), cm.yearNum, { id: eraVol });
 
   const cardEl = el.querySelector('#speaker-card');
   const handleAvatar = el.querySelector('#rh-avatar');
-  const handleName = el.querySelector('#rh-name');
   let activeSeg;
   const setSegment = seg => {
     if (seg === activeSeg) return;
@@ -214,7 +242,6 @@ export async function renderReader(el, slug, c, params) {
     renderSpeakerCard(cardEl, seg, ents, meta);
     const spk = seg && ents.byId[seg.speaker];
     if (handleAvatar) handleAvatar.innerHTML = avatar(spk);
-    if (handleName) handleName.textContent = spk ? spk.name : '';
     el.querySelectorAll('.verse').forEach(p => {
       const v = +p.dataset.v;
       const on = !!seg && v >= seg.s && v <= seg.e;
@@ -226,6 +253,7 @@ export async function renderReader(el, slug, c, params) {
     });
   };
   setSegment(segmentFor(cm, 1) || defaultSeg(meta, verses.length));
+  if (confCtl) confCtl.setVerse(1);
 
   // remember where this profile is reading (debounced — fires as you scroll)
   let lrTimer = null;
@@ -244,6 +272,7 @@ export async function renderReader(el, slug, c, params) {
     if (visible.size) {
       const top = Math.min(...visible);
       setSegment(segmentFor(cm, top) || defaultSeg(meta, verses.length));
+      if (confCtl) confCtl.setVerse(top);
       saveLastRead(top);
     }
   }, { rootMargin: '-15% 0px -55% 0px', threshold: 0 });
@@ -375,7 +404,7 @@ function setupStudyTools(el, slug, c, book, cm) {
   let openTools = null;
   const closeTools = () => { if (openTools) { openTools.remove(); openTools = null; } };
   versesEl.addEventListener('click', e => {
-    if (e.target.closest('.vtools') || e.target.closest('a')) return;
+    if (e.target.closest('.vtools') || e.target.closest('.fnpop') || e.target.closest('.fn') || e.target.closest('a')) return;
     const p = e.target.closest('.verse');
     if (!p) { closeTools(); return; }
     const sel = window.getSelection && window.getSelection();
@@ -394,10 +423,14 @@ function buildVerseTools(p, slug, c, v) {
   const box = document.createElement('div');
   box.className = 'vtools';
 
+  const official = officialVerseUrl(slug, c, v);
+  const officialLink = official ? `<a class="vt-official" href="${official}" target="_blank" rel="noopener" title="Verse ${v} on ChurchofJesusChrist.org, with the official footnotes">Official footnotes ↗</a>` : '';
+
   if (!currentUser()) {
     box.innerHTML = `<div class="vt-signin">
       <a class="btn primary" href="#/study">Sign in</a>
       <span>to highlight this verse, write a note, or bookmark it. Free — kept in your browser.</span>
+      ${officialLink}
     </div>`;
     return box;
   }
@@ -416,6 +449,7 @@ function buildVerseTools(p, slug, c, v) {
       <span class="vt-gap"></span>
       <button type="button" class="vt-act" data-act="note">✎ <span>${note ? 'Edit note' : 'Note'}</span></button>
       <button type="button" class="vt-act ${bm ? 'on' : ''}" data-act="bm">🔖 <span>${bm ? 'Saved' : 'Save'}</span></button>
+      ${officialLink}
     </div>
     <div class="vt-note" ${note ? '' : 'hidden'}>
       <textarea rows="3" placeholder="Your note on verse ${v}…">${note ? esc(note.text) : ''}</textarea>
@@ -474,6 +508,64 @@ function buildVerseTools(p, slug, c, v) {
   });
 
   return box;
+}
+
+/* ---- commentary toggle (remembered across visits) ---------------------- */
+const COMM_KEY = 'vs:commentary';
+function setupCommentaryToggle(el) {
+  const btn = el.querySelector('#comm-toggle');
+  const versesEl = el.querySelector('#verses');
+  if (!btn || !versesEl) return;
+  let on = true;
+  try { on = localStorage.getItem(COMM_KEY) !== '0'; } catch (e) { /* private mode etc. */ }
+  const paint = () => {
+    versesEl.classList.toggle('comm-off', !on);
+    btn.classList.toggle('on', on);
+    btn.setAttribute('aria-pressed', on ? 'true' : 'false');
+    btn.querySelector('span').textContent = on ? 'On' : 'Off';
+  };
+  paint();
+  btn.addEventListener('click', () => {
+    on = !on;
+    try { localStorage.setItem(COMM_KEY, on ? '1' : '0'); } catch (e) { /* ignore */ }
+    paint();
+  });
+}
+
+/* ---- footnotes: tap a lettered marker to see that note under the verse -- */
+function setupFootnotes(el, slug, c, notes) {
+  const versesEl = el.querySelector('#verses');
+  if (!versesEl || !notes) return;
+  let openPop = null;
+  const close = () => { if (openPop) { openPop.remove(); openPop = null; } };
+  // keyboard: Enter/Space on a marker acts like a tap
+  versesEl.addEventListener('keydown', e => {
+    if ((e.key === 'Enter' || e.key === ' ') && e.target.classList && e.target.classList.contains('fn')) { e.preventDefault(); e.target.click(); }
+  });
+  versesEl.addEventListener('click', e => {
+    if (e.target.closest('.fnpop-x')) { close(); return; }
+    if (e.target.closest('.fnpop-all')) {
+      close();
+      const sec = el.querySelector('#footnotes');
+      if (sec) sec.scrollIntoView({ block: 'start' });
+      return;
+    }
+    const btn = e.target.closest('.fn');
+    if (!btn) return;
+    const p = btn.closest('.verse');
+    const v = +p.dataset.v;
+    const letter = btn.textContent.trim();
+    const entry = notes[v - 1];
+    const f = entry && entry.f && entry.f[+btn.dataset.i];
+    const same = openPop && openPop.dataset.fn === btn.dataset.fn;
+    close();
+    if (same || !f) return;
+    openPop = buildFootnotePop(slug, c, v, letter, f);
+    openPop.dataset.fn = btn.dataset.fn;
+    // sits right under the verse, inside the verse column — the study-tools
+    // popover (if open) stays where it is
+    p.insertAdjacentElement('afterend', openPop);
+  });
 }
 
 const defaultSeg = (meta, n) => ({ s: 1, e: n, speaker: meta.narrator, to: 'reader', note: `${meta.book}: the narrator addresses the reader` });
@@ -556,7 +648,7 @@ function setupChapterBrowser(el, vol, book, curChapter) {
       grid.className = 'cb-grid cb-volumes';
       grid.innerHTML = VOLUMES.map(x => `<button class="cb-vol ${x.id === vol.id ? 'here' : ''}" data-vol="${x.id}" style="border-left:3px solid ${x.color}">
           <span class="cb-vol-name" style="color:${x.color}">${esc(x.name)}</span>
-          <span class="cb-vol-sub">${x.books.length === 1 ? '138 sections' : x.books.length + ' books'}</span>
+          <span class="cb-vol-sub">${x.id === 'dc' ? '138 sections' : x.books.length + ' books'}</span>
         </button>`).join('');
     } else if (state.level === 'books') {
       grid.className = 'cb-grid cb-books';
@@ -639,17 +731,34 @@ function buildVerseNameMap(castIds, ents, place, mapParam) {
   return map;
 }
 
-function linkifyVerse(text, nameMap) {
+// Also drops the lettered footnote markers (from footnotes.js) into the text
+// at their character positions — a marker that lands inside a linked name is
+// emitted right after the link, so links and HTML escaping stay intact.
+function linkifyVerse(text, nameMap, markers = [], v = 0) {
+  let mi = 0;
+  const marks = [...markers].sort((a, b) => a.pos - b.pos);
+  // plain text from..to, with any markers that fall in it dropped in place
+  const plain = (from, to) => {
+    let out = '', at = from;
+    while (mi < marks.length && marks[mi].pos <= to) {
+      const pos = Math.max(at, marks[mi].pos);
+      out += esc(text.slice(at, pos)) + markerHtml(v, marks[mi].letter, marks[mi].i);
+      at = pos; mi++;
+    }
+    return out + esc(text.slice(at, to));
+  };
   const names = Object.keys(nameMap).sort((a, b) => b.length - a.length);
-  if (!names.length) return esc(text);
+  if (!names.length) return plain(0, text.length);
   const pattern = names.map(n => n.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')).join('|');
   const re = new RegExp('\\b(' + pattern + ')\\b', 'g');
   let out = '', last = 0, m;
   while ((m = re.exec(text))) {
-    out += esc(text.slice(last, m.index));
+    out += plain(last, m.index);
     out += `<a class="vname" href="${nameMap[m[1]]}">${esc(m[1])}</a>`;
     last = re.lastIndex;
+    // markers whose word ends inside the link follow it immediately
+    while (mi < marks.length && marks[mi].pos <= last) { out += markerHtml(v, marks[mi].letter, marks[mi].i); mi++; }
   }
-  out += esc(text.slice(last));
+  out += plain(last, text.length);
   return out;
 }

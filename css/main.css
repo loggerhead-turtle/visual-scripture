@@ -87,7 +87,7 @@ main { min-height: 72vh; }
 
 /* ---------- reader ---------- */
 .reader-layout { display: grid; grid-template-columns: 235px minmax(0,1fr) 320px; gap: 24px; align-items: start; }
-.reader-toc { position: sticky; top: 66px; max-height: calc(100vh - 90px); overflow-y: auto; padding-right: 4px; }
+.reader-toc { position: sticky; top: 66px; max-height: calc(100vh - 80px); max-height: calc(100dvh - 80px); overflow-y: auto; overscroll-behavior: contain; scrollbar-width: thin; padding-right: 4px; }
 .toc-volume { margin-bottom: 8px; border-bottom: 1px solid rgba(255,255,255,.05); padding-bottom: 6px; }
 .toc-vol-btn {
   width: 100%; text-align: left; background: none; border: none; cursor: pointer; font-family: var(--serif);
@@ -124,6 +124,112 @@ main { min-height: 72vh; }
 
 .verses { font-family: var(--serif); font-size: 18.5px; line-height: 1.85; max-width: 720px; }
 .verse { padding: 5px 14px; margin: 2px 0; border-left: 3px solid transparent; border-radius: 4px; transition: background .3s; scroll-margin-top: 120px; }
+
+/* ---- verse rows + commentary ----
+   Each verse is a .vrow holding the scripture (.verse) and, when written, its
+   plain-language note (.vcomm). Narrow: the note sits under the verse in a
+   quieter, clearly separate style. Wide (the .verses box is >= 660px, via a
+   container query — so it adapts to foldables and side panels too): the note
+   moves beside its verse in a second column, top-aligned per verse. */
+.verses.has-comm:not(.comm-off) { container-type: inline-size; max-width: 1100px; }
+@media (min-width: 1021px) {
+  .reader-wrap:has(.verses.has-comm:not(.comm-off)) { max-width: 1440px; }
+  .reader-wrap:has(.verses.has-comm:not(.comm-off)) .reader-layout { grid-template-columns: 210px minmax(0,1fr) 300px; gap: 20px; }
+}
+.vrow { display: grid; grid-template-columns: minmax(0, 1fr); align-items: start; }
+.vrow > .verse, .vrow > .vtools, .vrow > .fnpop { grid-column: 1; }
+.vcomm {
+  grid-column: 1; margin: 0 0 8px 31px; padding: 6px 12px 7px;
+  font-family: var(--sans); font-size: 13.5px; line-height: 1.5; color: var(--ink-dim);
+  background: rgba(255,255,255,.03); border-left: 2px solid var(--gold-dim); border-radius: 0 8px 8px 0;
+}
+.vcomm::before { content: '✦'; color: var(--gold-dim); font-size: 11px; margin-right: 7px; }
+.vcomm-v { display: none; }
+.verses.comm-off .vcomm { display: none; }
+@container (min-width: 660px) {
+  .verses.has-comm:not(.comm-off) { font-size: 17.5px; line-height: 1.8; }
+  .has-comm:not(.comm-off) .vrow { grid-template-columns: minmax(0, 1fr) clamp(220px, 35%, 320px); column-gap: 20px; }
+  .has-comm:not(.comm-off) .vcomm {
+    grid-column: 2; grid-row: 1; margin: 2px 0 0; padding: 11px 0 6px 14px;
+    background: none; border-left: 1px solid var(--line); border-radius: 0; font-size: 13px;
+  }
+  .has-comm:not(.comm-off) .vcomm::before { content: none; }
+  .has-comm:not(.comm-off) .vcomm-v { display: inline; font-size: 10.5px; font-weight: 600; color: var(--gold-dim); margin-right: 6px; vertical-align: super; }
+}
+.comm-pill.on { border-color: var(--gold-dim); color: var(--gold); }
+
+/* ---- study footnotes: lettered markers, the tap-to-see popover, and the
+   chapter-end list (all original study notes; official ones are linked) ---- */
+.fn {
+  background: none; border: none; cursor: pointer; margin: 0; padding: 0 2px; white-space: nowrap;
+  color: var(--gold); font-family: var(--sans); font-size: 11px; font-weight: 700; line-height: 1;
+  vertical-align: super; border-radius: 4px; -webkit-user-select: none; user-select: none;
+}
+.fn:hover, .fn:focus-visible { background: rgba(232,182,76,.18); outline: none; text-decoration: underline; }
+.fnpop {
+  max-width: 706px; margin: 2px 0 12px 14px; padding: 10px 14px;
+  background: var(--panel); border: 1px solid var(--line); border-left: 3px solid var(--gold-dim); border-radius: 10px;
+  font-family: var(--sans); font-size: 13.5px; line-height: 1.5; color: var(--ink-dim); animation: vt-in .16s ease;
+}
+.fnpop-head { display: flex; align-items: baseline; gap: 8px; }
+.fn-tag { flex: none; font-family: var(--sans); font-size: 11px; font-weight: 700; color: var(--gold); letter-spacing: .03em; }
+.fn-word { font-family: var(--serif); font-style: italic; color: var(--ink); font-size: 15px; }
+.fnpop-x { margin-left: auto; background: none; border: none; color: var(--ink-faint); cursor: pointer; font-size: 13px; padding: 2px 6px; border-radius: 6px; }
+.fnpop-x:hover { color: var(--ink); background: var(--panel2); }
+.fn-refs { margin-top: 4px; }
+.fn-k { font-size: 10.5px; text-transform: uppercase; letter-spacing: .1em; color: var(--ink-faint); margin-right: 3px; }
+.fn-ref.plain { color: var(--ink-dim); }
+.fn-sep { color: var(--ink-faint); }
+.fn-gloss { margin-top: 4px; }
+.fnpop-foot { display: flex; align-items: center; gap: 14px; flex-wrap: wrap; margin-top: 8px; padding-top: 8px; border-top: 1px dashed var(--line); font-size: 11.5px; color: var(--ink-faint); }
+.fnpop-all { background: none; border: none; color: var(--gold); cursor: pointer; font-size: 12px; padding: 0; font-family: var(--sans); }
+.fnpop-all:hover, .fnpop-official:hover { text-decoration: underline; }
+.fnpop-official { font-size: 12px; margin-left: auto; white-space: nowrap; }
+
+.footnotes { max-width: 720px; margin: 36px 0 0; padding: 18px 14px 0; border-top: 1px solid var(--line); font-family: var(--sans); font-size: 13.5px; color: var(--ink-dim); }
+.fn-head { display: flex; align-items: center; justify-content: space-between; gap: 12px; flex-wrap: wrap; }
+.fn-head h3 { margin: 0; font-size: 21px; }
+.fn-official { font-size: 13px; padding: 6px 12px; }
+.fn-about { font-size: 12.5px; color: var(--ink-faint); margin: 10px 0 14px; line-height: 1.5; }
+.fn-about strong { color: var(--ink-dim); font-weight: 600; }
+.fn-empty { font-style: italic; color: var(--ink-faint); }
+.fn-verse { display: flex; gap: 10px; padding: 7px 0; border-bottom: 1px solid rgba(255,255,255,.04); }
+.fn-verse:last-child { border-bottom: none; }
+.fn-vn { flex: none; width: 28px; font-family: var(--serif); font-weight: 600; font-size: 14.5px; color: var(--gold-dim); }
+.fn-items { flex: 1; min-width: 0; }
+.fn-item { padding: 2px 0; scroll-margin-top: 90px; }
+.fn-item .fn-word { font-size: 14px; }
+.fn-item .fn-refs, .fn-item .fn-gloss { display: inline; margin: 0 0 0 6px; }
+.fn-item .fn-gloss::before { content: '— '; color: var(--ink-faint); }
+.vt-official { font-size: 12px; white-space: nowrap; margin-left: auto; }
+.vt-signin .vt-official { margin-left: 0; }
+
+/* ---- General Conference talks citing this chapter (sidebar card) ---- */
+.conf-card { border-left: 3px solid var(--teal); }
+.conf-now-label { font-size: 11px; text-transform: uppercase; letter-spacing: .12em; color: var(--gold-dim); margin: 2px 0 4px; font-weight: 600; }
+.conf-now-label.muted { text-transform: none; letter-spacing: 0; font-weight: 400; font-style: italic; color: var(--ink-faint); font-size: 12px; }
+.conf-now-more { font-size: 11px; color: var(--ink-faint); margin-top: 4px; }
+.conf-row { display: block; padding: 6px 0; border-bottom: 1px solid rgba(255,255,255,.04); color: var(--ink); }
+.conf-row:last-child { border-bottom: none; }
+.conf-row:hover { text-decoration: none; }
+.conf-row:hover .conf-title { color: var(--gold); }
+.conf-row.plain { color: var(--ink-dim); }
+.conf-when { display: block; font-size: 11px; color: var(--ink-faint); letter-spacing: .02em; }
+.conf-vs { margin-left: 6px; color: var(--gold-dim); }
+.conf-title { display: block; font-size: 13px; line-height: 1.35; }
+.conf-cr { display: block; font-size: 10.5px; font-style: italic; color: var(--ink-faint); margin-top: 1px; }
+.conf-toggle {
+  width: 100%; display: flex; justify-content: space-between; align-items: center; gap: 8px; margin-top: 10px;
+  background: var(--panel2); border: 1px solid var(--line); color: var(--ink); border-radius: 8px;
+  padding: 7px 10px; font-size: 12.5px; cursor: pointer; text-align: left; font-family: var(--sans);
+}
+.conf-toggle:hover { border-color: var(--gold-dim); color: var(--gold); }
+.conf-caret { color: var(--gold-dim); transition: transform .2s; }
+.conf-toggle.open .conf-caret { transform: rotate(180deg); }
+.conf-all { margin-top: 6px; }
+.conf-show-more { margin-top: 8px; background: var(--panel2); border: 1px solid var(--line); color: var(--ink); border-radius: 8px; padding: 5px 12px; font-size: 12px; cursor: pointer; }
+.conf-show-more:hover { border-color: var(--gold-dim); color: var(--gold); }
+.conf-credit { font-size: 10.5px; color: var(--ink-faint); margin-top: 10px; }
 .verse .vnum { color: var(--gold-dim); font-size: 13px; font-family: var(--sans); vertical-align: super; margin-right: 7px; font-weight: 600; }
 .verse a.vname { color: inherit; text-decoration: none; border-bottom: 1px dotted var(--gold-dim); }
 .verse a.vname:hover { color: var(--gold); border-bottom-style: solid; }
@@ -132,8 +238,16 @@ main { min-height: 72vh; }
 
 .chapter-nav { display: flex; justify-content: space-between; margin: 34px 0 10px; max-width: 720px; }
 
-/* speaker rail */
-.speaker-rail { position: sticky; top: 66px; display: flex; flex-direction: column; gap: 14px; }
+/* speaker rail — sticky, and scrolls on its own whenever it is taller than
+   the viewport (landscape tablets, unfolded phones), so its bottom cards are
+   reachable before the chapter ends. The 4px negative margin keeps the
+   cards' shadows from being clipped by overflow. */
+.speaker-rail {
+  position: sticky; top: 66px; display: flex; flex-direction: column; gap: 14px;
+  max-height: calc(100vh - 80px); max-height: calc(100dvh - 80px);
+  overflow-y: auto; overscroll-behavior: contain; scrollbar-width: thin;
+  padding: 4px 4px 24px; margin: -4px -4px 0;
+}
 .speaker-card {
   background: linear-gradient(175deg, var(--panel2), var(--panel)); border: 1px solid var(--line);
   border-radius: var(--rad); padding: 16px; box-shadow: var(--shadow);
@@ -372,7 +486,7 @@ main { min-height: 72vh; }
 .toc-handle { display: none; }
 .toc-scrim { display: none; }
 
-@media (max-width: 1020px) {
+@media (max-width: 1020px), (horizontal-viewport-segments: 2), (vertical-viewport-segments: 2), (spanning: single-fold-vertical), (spanning: single-fold-horizontal) {
   .reader-layout { grid-template-columns: minmax(0,1fr) 300px; }
 
   .reader-toc {
@@ -403,28 +517,23 @@ main { min-height: 72vh; }
   }
   .toc-scrim.open { opacity: 1; pointer-events: auto; }
 
-  /* the pull handle: hugs the left edge, opens the volume/book/chapter browser */
+  /* the pull tab: a slim 30px tab in the page's left gutter (the verse text
+     starts 36px in, so it never covers a word), opens the volume/book/chapter
+     browser. Translucent until touched; still a 64px-tall touch target. */
   .toc-handle {
-    position: fixed; left: 0; top: 50%; transform: translateY(-50%); z-index: 94;
-    display: flex; flex-direction: column; align-items: center; gap: 6px;
-    padding: 11px 8px 13px; width: 60px;
-    background: linear-gradient(160deg, var(--panel2), var(--panel));
-    border: 1.5px solid var(--gold); border-left: none;
-    border-radius: 0 15px 15px 0; cursor: pointer;
-    box-shadow: 9px 5px 26px rgba(0,0,0,.55), 0 0 14px rgba(232,182,76,.18);
-    transition: transform .28s cubic-bezier(.32,.72,.28,1), opacity .2s;
+    position: fixed; left: 0; top: 42%; z-index: 94;
+    display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 5px;
+    width: 30px; min-height: 64px; padding: 8px 0;
+    background: rgba(42,36,26,.9); backdrop-filter: blur(4px);
+    border: 1px solid var(--gold-dim); border-left: none;
+    border-radius: 0 10px 10px 0; cursor: pointer; opacity: .8;
+    box-shadow: 4px 3px 14px rgba(0,0,0,.45);
+    transition: transform .28s cubic-bezier(.32,.72,.28,1), opacity .2s, border-color .2s;
   }
-  .toc-handle.tucked { transform: translateY(-50%) translateX(-110%); opacity: 0; pointer-events: none; }
-  .toc-handle:active { filter: brightness(1.1); }
-  .th-icon { font-size: 19px; }
-  .th-label {
-    writing-mode: vertical-rl; text-orientation: mixed;
-    font-family: var(--serif); font-size: 12.5px; font-weight: 600; letter-spacing: .02em;
-    line-height: 1.1; color: var(--ink); max-height: 172px;
-    white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
-  }
-  .th-chev { color: var(--gold); font-size: 16px; line-height: 1; transform: scaleX(-1); animation: th-nudge 2.6s ease-in-out infinite; }
-  @keyframes th-nudge { 0%, 100% { transform: scaleX(-1) translateX(0); } 50% { transform: scaleX(-1) translateX(-3px); } }
+  .toc-handle:hover, .toc-handle:focus-visible, .toc-handle:active { opacity: 1; border-color: var(--gold); outline: none; }
+  .toc-handle.tucked { transform: translateX(-110%); opacity: 0; pointer-events: none; }
+  .th-icon { font-size: 14px; line-height: 1; }
+  .th-chev { color: var(--gold); font-size: 13px; line-height: 1; }
 }
 @media (max-width: 900px) {
   .tl-layout { grid-template-columns: 1fr; }
@@ -575,7 +684,7 @@ body.no-scroll { overflow: hidden; }
 @media (max-width: 760px) {
   .speaker-rail {
     position: fixed; top: 0; right: 0; bottom: 0; z-index: 96;
-    width: min(350px, 88vw); margin: 0; padding: 12px 14px 34px;
+    width: min(350px, 88vw); margin: 0; padding: 12px 14px 34px; max-height: none;
     background: var(--bg2); border-left: 1px solid var(--gold-dim);
     overflow-y: auto; -webkit-overflow-scrolling: touch; overscroll-behavior: contain;
     transform: translateX(calc(100% + 16px));
@@ -601,29 +710,72 @@ body.no-scroll { overflow: hidden; }
   }
   .rail-scrim.open { opacity: 1; pointer-events: auto; }
 
-  /* the pull handle: hugs the right edge, shows who is speaking right now */
+  /* the pull tab: a slim 30px tab in the right gutter showing the current
+     speaker's face — same footprint as the Browse tab on the left */
   .rail-handle {
-    position: fixed; right: 0; top: 50%; transform: translateY(-50%); z-index: 94;
-    display: flex; flex-direction: column; align-items: center; gap: 8px;
-    padding: 11px 8px 13px; width: 60px;
-    background: linear-gradient(160deg, var(--panel2), var(--panel));
-    border: 1.5px solid var(--gold); border-right: none;
-    border-radius: 15px 0 0 15px; cursor: pointer;
-    box-shadow: -9px 5px 26px rgba(0,0,0,.55), 0 0 14px rgba(232,182,76,.18);
-    transition: transform .28s cubic-bezier(.32,.72,.28,1), opacity .2s;
+    position: fixed; right: 0; top: 42%; z-index: 94;
+    display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 5px;
+    width: 30px; min-height: 64px; padding: 8px 0;
+    background: rgba(42,36,26,.9); backdrop-filter: blur(4px);
+    border: 1px solid var(--gold-dim); border-right: none;
+    border-radius: 10px 0 0 10px; cursor: pointer; opacity: .8;
+    box-shadow: -4px 3px 14px rgba(0,0,0,.45);
+    transition: transform .28s cubic-bezier(.32,.72,.28,1), opacity .2s, border-color .2s;
   }
-  .rail-handle.tucked { transform: translateY(-50%) translateX(110%); opacity: 0; pointer-events: none; }
-  .rail-handle:active { filter: brightness(1.1); }
-  .rh-avatar { width: 42px; }
-  .rh-avatar .avatar { border-radius: 10px; overflow: hidden; border: 1px solid var(--gold-dim); background: var(--bg2); }
-  .rh-name {
-    writing-mode: vertical-rl; text-orientation: mixed;
-    font-family: var(--serif); font-size: 12.5px; font-weight: 600; letter-spacing: .02em;
-    line-height: 1.1; color: var(--ink); max-height: 172px;
-    white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+  .rail-handle:hover, .rail-handle:focus-visible, .rail-handle:active { opacity: 1; border-color: var(--gold); outline: none; }
+  .rail-handle.tucked { transform: translateX(110%); opacity: 0; pointer-events: none; }
+  .rh-avatar { width: 22px; }
+  .rh-avatar .avatar { border-radius: 6px; overflow: hidden; border: 1px solid var(--gold-dim); background: var(--bg2); }
+  .rh-chev { color: var(--gold); font-size: 13px; line-height: 1; }
+}
+
+/* ---------- foldables: text pane left, sidebar pane right, hinge in the gap ----------
+   Spread-open Pixel Fold / Surface Duo: the browser reports two viewport
+   segments (or, in older engines, a "spanning" fold). The reader becomes two
+   independently scrolling panes — scripture on the left screen, the speaker
+   rail open on the right — with the grid gap sized to the hinge so nothing
+   straddles it. The TOC stays a left drawer. Screens that don't report
+   segments (an unfolded Pixel Fold is ~840×700) get the same layout from a
+   near-square-viewport heuristic. */
+@media (horizontal-viewport-segments: 2),
+       (spanning: single-fold-vertical),
+       ((min-width: 600px) and (max-width: 1100px) and (min-aspect-ratio: 4/5) and (max-aspect-ratio: 5/4)) {
+  .reader-wrap, .reader-wrap:has(.verses.has-comm:not(.comm-off)) { max-width: none; padding-left: 0; padding-right: 0; }
+  .reader-layout, .reader-wrap:has(.verses.has-comm:not(.comm-off)) .reader-layout { grid-template-columns: 1fr 1fr; gap: 0; }
+  .reader-layout > article { min-width: 0; padding: 0 20px 30px 24px; }
+  .speaker-rail {
+    position: sticky; top: 66px; right: auto; bottom: auto; left: auto; z-index: auto; width: auto;
+    display: flex; margin: 0; padding: 4px 22px 30px 22px;
+    max-height: calc(100vh - 66px); max-height: calc(100dvh - 66px);
+    overflow-y: auto; overscroll-behavior: contain; scrollbar-width: thin;
+    background: transparent; border-left: 1px solid var(--line); box-shadow: none;
+    transform: none; transition: none;
   }
-  .rh-chev { color: var(--gold); font-size: 16px; line-height: 1; animation: rh-nudge 2.6s ease-in-out infinite; }
-  @keyframes rh-nudge { 0%, 100% { transform: translateX(0); } 50% { transform: translateX(-3px); } }
+  .speaker-rail.open { transform: none; }
+  .rail-head, .rail-handle, .rail-scrim { display: none; }
+}
+@media (horizontal-viewport-segments: 2) {
+  .reader-layout, .reader-wrap:has(.verses.has-comm:not(.comm-off)) .reader-layout {
+    grid-template-columns: env(viewport-segment-width 0 0) minmax(0, 1fr);
+    column-gap: calc(env(viewport-segment-left 1 0) - env(viewport-segment-width 0 0));
+  }
+}
+@media (spanning: single-fold-vertical) {
+  .reader-layout, .reader-wrap:has(.verses.has-comm:not(.comm-off)) .reader-layout {
+    grid-template-columns: env(fold-left) minmax(0, 1fr); column-gap: env(fold-width);
+  }
+}
+/* folded like a laptop: scripture on the upper screen, the sidebar on the lower one */
+@media (vertical-viewport-segments: 2), (spanning: single-fold-horizontal) {
+  .reader-layout, .reader-wrap:has(.verses.has-comm:not(.comm-off)) .reader-layout { grid-template-columns: minmax(0, 1fr); }
+  .reader-layout > article { padding-bottom: calc(env(viewport-segment-height 0 1, 50vh) + 24px); }
+  .speaker-rail {
+    position: fixed; left: 0; right: 0; bottom: 0; z-index: 40; width: auto; margin: 0;
+    top: env(viewport-segment-top 0 1, 50vh); max-height: none;
+    display: flex; padding: 14px 22px 30px; overflow-y: auto; overscroll-behavior: contain;
+    background: var(--bg2); border-top: 1px solid var(--gold-dim); box-shadow: none; transform: none; transition: none;
+  }
+  .rail-head, .rail-handle, .rail-scrim { display: none; }
 }
 
 /* ---------- My Study ---------- */
