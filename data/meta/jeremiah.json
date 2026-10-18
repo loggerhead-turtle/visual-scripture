@@ -268,7 +268,8 @@
       "characters": ["jeremiah", "the-lord"],
       "segments": [
         { "s": 1, "e": 12, "speaker": "the-lord", "to": "jeremiah", "note": "The potter's clay, a sign for Israel" },
-        { "s": 13, "e": 23, "speaker": "jeremiah", "to": "the-lord", "note": "Plots against Jeremiah; his plea for justice" }
+        { "s": 13, "e": 17, "speaker": "the-lord", "to": "house-of-israel", "note": "Israel has forgotten me, unlike the snows of Lebanon" },
+        { "s": 18, "e": 23, "speaker": "jeremiah", "to": "the-lord", "note": "Plots against Jeremiah; his plea for justice" }
       ]
     },
     {
