@@ -43,11 +43,11 @@ export function bookSlugFor(name) {
 }
 
 // "2 Kings 15:1-7, 9; 16:2; Isa 53:4" -> [{ slug, c, vs: [1..7, 9], text }, ...]
-// A ref without a book ("16:2") inherits the previous book. Unparseable
-// pieces come back with slug: null so callers can still print the text.
-export function parseRefs(str) {
+// A ref without a book ("16:2") inherits the previous book (or `ctxSlug`).
+// Unparseable pieces come back with slug: null so callers can still print the text.
+export function parseRefs(str, ctxSlug = null) {
   const out = [];
-  let lastSlug = null;
+  let lastSlug = ctxSlug;
   for (const raw of String(str || '').split(/;/)) {
     const piece = raw.trim();
     if (!piece) continue;
