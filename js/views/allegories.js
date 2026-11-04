@@ -1,4 +1,4 @@
-import { loadAllegories, bookBySlug, esc } from '../data.js';
+import { loadAllegories, bookBySlug, esc, isSlugLike } from '../data.js';
 
 export async function renderAllegories(el, params, focusId) {
   const data = await loadAllegories();
@@ -16,7 +16,7 @@ export async function renderAllegories(el, params, focusId) {
     if (a.kind === 'scene') wireScene(card, a);
     if (a.kind === 'stages') wireStages(card, a);
   }
-  const focusEl = focusId && el.querySelector(`[data-alle="${focusId}"]`);
+  const focusEl = isSlugLike(focusId) && el.querySelector(`[data-alle="${focusId}"]`);
   if (focusEl) focusEl.scrollIntoView({ behavior: 'smooth' });
 }
 

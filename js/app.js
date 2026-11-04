@@ -1,4 +1,4 @@
-import { loadArtManifest } from './data.js';
+import { loadArtManifest, bookBySlug, isSlugLike, esc } from './data.js';
 import { setArtManifest } from './portraits.js';
 import { renderHome } from './views/home.js';
 import { renderReader } from './views/reader.js';
@@ -67,12 +67,12 @@ async function route() {
         if (!parts[1]) {
           // bare #/read — reopen where this profile left off
           const lr = lastRead();
-          if (lr && lr.slug) {
-            location.hash = `#/read/${lr.slug}/${lr.c}${lr.v ? `?v=${lr.v}` : ''}`;
+          if (lr && isSlugLike(lr.slug) && bookBySlug[lr.slug] && Number.isInteger(lr.c)) {
+            location.hash = `#/read/${lr.slug}/${lr.c}${Number.isInteger(lr.v) ? `?v=${lr.v}` : ''}`;
             return;
           }
         }
-        const slug = parts[1] || '1-nephi';
+        const slug = isSlugLike(parts[1]) ? parts[1] : '1-nephi';
         const c = Math.max(1, parseInt(parts[2] || '1', 10) || 1);
         await renderReader(view, slug, c, params);
         break;
@@ -94,7 +94,8 @@ async function route() {
     }
   } catch (err) {
     console.error(err);
-    if (my === token) view.innerHTML = `<div class="wrap"><h1 class="page-title">Something went wrong</h1><p class="section-intro">${err.message}. Try <a href="#/">returning home</a>.</p></div>`;
+    // error text can echo the URL (a bad selector, a 404 path) — never raw HTML
+    if (my === token) view.innerHTML = `<div class="wrap"><h1 class="page-title">Something went wrong</h1><p class="section-intro">${esc(err.message)}. Try <a href="#/">returning home</a>.</p></div>`;
   }
   if (my === token && !params.get('v')) window.scrollTo(0, 0);
 }

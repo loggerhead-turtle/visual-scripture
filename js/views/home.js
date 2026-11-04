@@ -1,4 +1,4 @@
-import { VOLUMES, bookBySlug, esc } from '../data.js';
+import { VOLUMES, bookBySlug, esc, isSlugLike } from '../data.js';
 import { currentUser, lastRead } from '../account.js';
 
 const START = { ot: 'genesis/1', nt: 'matthew/1', bom: '1-nephi/1', dc: 'dc/1', pgp: 'moses/1' };
@@ -57,9 +57,10 @@ const PROPHET = `<svg viewBox="0 0 32 34" width="27" height="29" aria-hidden="tr
 export async function renderHome(el) {
   const user = currentUser();
   const lr = user && lastRead();
-  const lrName = lr && lr.slug ? (lr.slug === 'dc' ? `Section ${lr.c}` : `${(bookBySlug[lr.slug] || {}).name || lr.slug} ${lr.c}`) : null;
+  const lrOk = lr && isSlugLike(lr.slug) && bookBySlug[lr.slug] && Number.isInteger(lr.c);
+  const lrName = lrOk ? (lr.slug === 'dc' ? `Section ${lr.c}` : `${bookBySlug[lr.slug].name} ${lr.c}`) : null;
   const readBtn = lrName
-    ? `<a class="btn primary" href="#/read/${lr.slug}/${lr.c}${lr.v ? `?v=${lr.v}` : ''}">Continue ${lrName} →</a>`
+    ? `<a class="btn primary" href="#/read/${lr.slug}/${lr.c}${Number.isInteger(lr.v) ? `?v=${lr.v}` : ''}">Continue ${esc(lrName)} →</a>`
     : `<a class="btn primary" href="#/read/1-nephi/1">Begin reading →</a>`;
   const acctLine = user
     ? `<p class="hero-acct">Reading as <a href="#/study"><strong>${esc(user.name)}</strong></a> — your bookmarks, notes &amp; highlights are in <a href="#/study">My Study</a>.</p>`

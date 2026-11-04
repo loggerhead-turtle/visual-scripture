@@ -158,108 +158,6 @@ function treeHtml(tree, ents) {
 
 // ---------------------------------------------------------------- view
 
-const CSS = `
-.gen-picker { display: flex; flex-wrap: wrap; gap: 8px; margin: 18px 0 22px; }
-.gen-pill {
-  display: inline-flex; align-items: center; gap: 7px; padding: 7px 14px; border-radius: 999px;
-  font-size: 13px; border: 1px solid var(--line); color: var(--ink-dim); background: var(--panel);
-  cursor: pointer; font-family: var(--sans); transition: border-color .15s ease, color .15s ease;
-}
-.gen-pill::before { content: ''; width: 8px; height: 8px; border-radius: 50%; background: var(--pc, var(--gold)); flex: none; }
-.gen-pill:hover { color: var(--ink); border-color: var(--pc, var(--gold-dim)); }
-.gen-pill.active { color: var(--ink); border-color: var(--pc, var(--gold)); background: var(--panel2); box-shadow: 0 0 0 1px var(--pc, var(--gold)) inset; }
-
-.gen-head {
-  border-left: 4px solid var(--tc, var(--gold)); padding: 4px 0 4px 16px; margin-bottom: 22px;
-}
-.gen-head h2 { margin: 0 0 6px; font-family: var(--serif); font-size: 23px; color: var(--ink); }
-.gen-head p { margin: 0; color: var(--ink-dim); font-size: 14px; max-width: 760px; }
-
-.gen-legend { display: flex; flex-wrap: wrap; gap: 16px; margin: 0 0 18px; font-size: 12px; color: var(--ink-faint); }
-.gen-legend span { display: inline-flex; align-items: center; gap: 6px; }
-.gen-legend i { display: inline-block; width: 22px; height: 0; border-top: 2px solid var(--ink-faint); }
-.gen-legend i.gap { border-top-style: dashed; border-color: var(--gold-dim); }
-.gen-legend i.wed { border: none; width: 14px; height: 14px; border-radius: 50%; border: 2px solid var(--gold-dim); }
-
-.gen-empty { color: var(--ink-dim); font-style: italic; }
-
-.gen-scroll { overflow-x: auto; overflow-y: hidden; padding-bottom: 10px; }
-.gen-tree { display: inline-block; min-width: 100%; padding: 6px 24px 10px; box-sizing: border-box; }
-
-.gen-level, .gen-level ul { list-style: none; margin: 0; padding: 0; display: flex; }
-.gen-level { justify-content: center; }
-.gen-level li { position: relative; padding: 30px 12px 0; text-align: center; }
-.gen-level li.only-kid { padding-top: 30px; }
-
-.gen-root-level { padding-top: 0; }
-.gen-root-level > li { padding-top: 0; gap: 36px; }
-.gen-root-level > li::before, .gen-root-level > li::after { display: none; }
-
-.gen-level li::before, .gen-level li::after {
-  content: ''; position: absolute; top: 0; width: 50%; height: 30px; border-top: 2px solid var(--line-strong, #4a4230);
-}
-.gen-level li::before { right: 50%; }
-.gen-level li::after { left: 50%; border-left: 2px solid var(--line-strong, #4a4230); }
-.gen-level li:only-child::before, .gen-level li:only-child::after { display: none; }
-.gen-level li:only-child { padding-top: 0; }
-.gen-level li:first-child::before, .gen-level li:last-child::after { border: 0 none; }
-.gen-level li:last-child::before { border-right: 2px solid var(--line-strong, #4a4230); border-radius: 0 8px 0 0; }
-.gen-level li:first-child::after { border-radius: 8px 0 0 0; }
-.gen-root-level > li:only-child { padding-top: 0; }
-
-.gen-node > ul.gen-level { padding-top: 30px; position: relative; }
-.gen-node > ul.gen-level::before {
-  content: ''; position: absolute; top: 0; left: 50%; width: 0; height: 30px;
-  border-left: 2px solid var(--line-strong, #4a4230); transform: translateX(-50%);
-}
-
-.gen-gap-connector { position: relative; height: 64px; margin-top: -30px; padding-top: 30px; }
-.gen-gap-connector::before {
-  content: ''; position: absolute; top: 30px; left: 50%; width: 0; height: 64px;
-  border-left: 2px dashed var(--gold-dim); transform: translateX(-50%);
-}
-.gen-gap-label {
-  position: absolute; top: 38px; left: 50%; transform: translateX(-50%);
-  background: var(--bg2); color: var(--gold-dim); font-size: 10.5px; line-height: 1.3;
-  padding: 3px 9px; border-radius: 10px; border: 1px solid var(--line);
-  white-space: normal; width: max-content; max-width: 140px; text-align: center; z-index: 2;
-}
-
-.gen-unit { display: inline-flex; align-items: center; }
-.gen-marriage { display: inline-block; width: 20px; height: 2px; background: var(--gold-dim); margin: 0 -1px; position: relative; top: 34px; }
-.gen-marriage::before {
-  content: '\\2721'; position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%);
-  font-size: 9px; color: var(--gold-dim); background: var(--bg); border-radius: 50%; width: 13px; height: 13px;
-  display: flex; align-items: center; justify-content: center; line-height: 1;
-}
-
-.gen-card {
-  display: inline-flex; flex-direction: column; align-items: center; width: 104px; padding: 8px 6px 10px;
-  background: var(--panel); border: 1px solid var(--line); border-radius: 10px; color: var(--ink);
-  text-decoration: none; transition: transform .15s ease, border-color .15s ease; vertical-align: top;
-}
-.gen-card:hover { transform: translateY(-3px); border-color: var(--gold-dim); text-decoration: none; }
-.gen-card .avatar { width: 58px; height: 58px; border-radius: 50%; overflow: hidden; border: 1px solid var(--line); background: var(--bg2); margin-bottom: 6px; }
-.gen-card .avatar svg, .gen-card .avatar img { width: 100%; height: 100%; object-fit: cover; display: block; }
-.gen-card-name { font-size: 12px; font-weight: 600; line-height: 1.2; }
-.gen-card-title { font-size: 10px; color: var(--gold-dim); line-height: 1.25; margin-top: 2px; }
-.gen-card--unknown .gen-card-name { color: var(--ink-faint); font-style: italic; font-weight: 400; }
-
-@media (max-width: 760px) {
-  .gen-card { width: 86px; padding: 6px 4px 8px; }
-  .gen-card .avatar { width: 46px; height: 46px; }
-  .gen-card-name { font-size: 11px; }
-  .gen-card-title { font-size: 9px; }
-  .gen-level li { padding-left: 8px; padding-right: 8px; }
-  .gen-root-level > li { gap: 22px; }
-  .gen-marriage { width: 14px; }
-}
-`;
-
-function ensureCss() {
-  if (document.getElementById('genealogy-css')) return '';
-  return `<style id="genealogy-css">${CSS}</style>`;
-}
 
 export async function renderGenealogy(el, params) {
   el.innerHTML = `<div class="wrap"><div class="loading">Unrolling the family records&hellip;</div></div>`;
@@ -268,14 +166,14 @@ export async function renderGenealogy(el, params) {
   try {
     [gen, ents] = await Promise.all([loadGenealogy(), entities()]);
   } catch (err) {
-    el.innerHTML = `${ensureCss()}<div class="wrap"><div class="eyebrow">Genealogy</div>
+    el.innerHTML = `<div class="wrap"><div class="eyebrow">Genealogy</div>
       <h1 class="page-title">Family Trees</h1>
       <p class="section-intro">The family-tree records couldn't be loaded right now. Try refreshing the page.</p></div>`;
     return;
   }
 
   if (!gen || !gen.trees || !gen.trees.length) {
-    el.innerHTML = `${ensureCss()}<div class="wrap"><div class="eyebrow">Genealogy</div>
+    el.innerHTML = `<div class="wrap"><div class="eyebrow">Genealogy</div>
       <h1 class="page-title">Family Trees</h1>
       <p class="section-intro">The family-tree charts are still being copied out by the scribes &mdash; check back soon.</p></div>`;
     return;
@@ -285,7 +183,7 @@ export async function renderGenealogy(el, params) {
   const wanted = params && params.get ? params.get('tree') : null;
   const initial = trees.filter(t => t.id === wanted)[0] || trees[0];
 
-  el.innerHTML = `${ensureCss()}
+  el.innerHTML = `
   <div class="wrap gen-wrap">
     <div class="eyebrow">Genealogy</div>
     <h1 class="page-title">Family Trees</h1>

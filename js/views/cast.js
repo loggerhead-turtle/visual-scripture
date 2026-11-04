@@ -1,4 +1,4 @@
-import { VOLUMES, bookBySlug, volumeOf, entities, appearances, chapterWord, esc } from '../data.js';
+import { VOLUMES, bookBySlug, volumeOf, entities, appearances, chapterWord, esc, isSlugLike } from '../data.js';
 import { avatar } from '../portraits.js';
 
 export async function renderCast(el, params, focusId) {
@@ -23,7 +23,7 @@ export async function renderCast(el, params, focusId) {
   }
 
   const card = ({ ch, apps: a }) => `
-    <button class="char-card" data-id="${ch.id}" data-name="${esc(ch.name.toLowerCase())} ${esc((ch.title || '').toLowerCase())}">
+    <button class="char-card" data-id="${esc(ch.id)}" data-name="${esc(ch.name.toLowerCase())} ${esc((ch.title || '').toLowerCase())}">
       <div class="avatar">${avatar(ch)}</div>
       <div class="cc-body">
         <h3>${esc(ch.name)}</h3>
@@ -83,12 +83,12 @@ export async function renderCast(el, params, focusId) {
   }));
 
   const openModal = id => {
-    const e = ents.byId[id];
+    const e = isSlugLike(id) && ents.byId[id]; // the id can come straight from the URL
     if (!e) return;
     const a = (apps[id] || []);
     const rel = (e.relations || []).map(r => {
       const t = ents.byId[r.to];
-      return t ? `<span class="pill link" data-open="${r.to}">${esc(r.rel)} ${esc(t.name)}</span>` : '';
+      return t ? `<span class="pill link" data-open="${esc(r.to)}">${esc(r.rel)} ${esc(t.name)}</span>` : '';
     }).join('');
     const chips = a.slice(0, 40).map(x => `<a class="pill link" href="#/read/${x.slug}/${x.c}">${x.slug === 'dc' ? 'D&amp;C ' + x.c : bookBySlug[x.slug].name + ' ' + x.c}</a>`).join('');
     const back = document.createElement('div');

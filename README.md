@@ -27,8 +27,10 @@ chapter in view while you read:
 - **👤 My Study** — local-first profiles (no server, no tracking): sign in to bookmark
   chapters and verses, highlight verses in five colours, write per-verse notes, and pick up
   reading exactly where you left off. Everything is stored in your browser's localStorage
-  per profile (passwords are salted-and-hashed, never stored in the clear) and can be
-  exported/imported as a JSON file to move between devices. Tap any verse in the reader to
+  per profile and can be exported/imported as a JSON file to move between devices. An
+  optional password is a convenience lock for shared devices (PBKDF2-SHA-256 hash with a
+  random salt — the password itself is never stored), not encryption: anyone who can open
+  the browser's storage can read the notes. See SECURITY.md. Tap any verse in the reader to
   highlight, note, or bookmark it.
 - **📱 Mobile speaker drawer** — on phones in portrait, the "who is speaking to whom,
   when and where" rail becomes a pull-over drawer: a handle on the right edge (showing the

@@ -73,35 +73,6 @@ export async function renderCurrency(el, params) {
     `<button class="cur-tab" data-sys="${s.id}" style="--c:${s.color}">${esc(s.name)}</button>`).join('');
 
   el.innerHTML = `
-  <style id="currency-css">
-    .cur-intro { max-width: 760px; color: var(--ink-dim); font-size: 15px; margin-bottom: 18px; }
-    .cur-tabs { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 22px; }
-    .cur-tab { background: var(--panel); border: 1px solid var(--line); color: var(--ink-dim); border-radius: 999px; padding: 8px 16px; cursor: pointer; font-size: 14px; font-family: var(--sans); }
-    .cur-tab:hover { color: var(--ink); border-color: var(--gold-dim); }
-    .cur-tab.on { color: #241b08; background: var(--c); border-color: var(--c); font-weight: 600; }
-    .cur-head { border-left: 4px solid var(--c); padding: 4px 0 4px 16px; margin-bottom: 8px; }
-    .cur-head h2 { margin: 0; font-size: 26px; }
-    .cur-head .cur-where { color: var(--ink-faint); font-size: 13px; margin-top: 2px; }
-    .cur-lead { color: var(--ink-dim); font-size: 15px; max-width: 780px; margin: 12px 0; }
-    .cur-anchor { display: flex; gap: 10px; align-items: center; background: var(--panel); border: 1px solid var(--gold-dim); border-radius: 12px; padding: 12px 16px; margin: 14px 0 8px; font-family: var(--serif); color: var(--ink); font-size: 15px; }
-    .cur-anchor .eq { color: var(--gold); font-size: 20px; }
-    .cur-read { margin: 8px 0 24px; }
-    .cur-group { margin: 26px 0 8px; }
-    .cur-group h3 { font-size: 13px; text-transform: uppercase; letter-spacing: .14em; color: var(--ink-faint); border-bottom: 1px solid var(--line); padding-bottom: 6px; }
-    .cur-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 14px; margin-top: 14px; }
-    .cur-coin { background: linear-gradient(180deg, var(--panel2), var(--panel)); border: 1px solid var(--line); border-radius: var(--rad); padding: 14px 14px 16px; text-align: center; }
-    .cur-coin .cn { width: 100%; height: 118px; display: block; }
-    .cur-coin h4 { margin: 6px 0 2px; font-size: 17px; }
-    .cur-coin .cur-worth { font-size: 12.5px; color: var(--gold); font-weight: 600; letter-spacing: .02em; }
-    .cur-coin p { margin: 8px 0 6px; font-size: 12.5px; color: var(--ink-dim); line-height: 1.45; }
-    .cur-coin .cur-ref { font-size: 11.5px; color: var(--ink-faint); }
-    .cur-facts { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 14px; margin: 30px 0 10px; }
-    .cur-fact { background: var(--panel); border: 1px solid var(--line); border-left: 3px solid var(--c); border-radius: 10px; padding: 14px 16px; }
-    .cur-fact h4 { margin: 0 0 6px; font-size: 16px; color: var(--gold); }
-    .cur-fact p { margin: 0 0 6px; font-size: 13.5px; color: var(--ink-dim); }
-    .cur-fact .cur-ref { font-size: 11.5px; color: var(--ink-faint); }
-    .cur-note { color: var(--ink-faint); font-size: 12px; margin-top: 26px; max-width: 780px; }
-  </style>
   <div class="wrap">
     <div class="eyebrow">What things were worth</div>
     <h1 class="page-title">Money of the Scriptures</h1>

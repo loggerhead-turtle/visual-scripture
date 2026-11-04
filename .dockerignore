@@ -1,0 +1,14 @@
+.git
+.gitignore
+.dockerignore
+.DS_Store
+node_modules
+scripts
+data/commentary/_parts
+data/*.md
+__pycache__
+README.md
+SECURITY.md
+render.yaml
+fly.toml
+Dockerfile

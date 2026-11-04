@@ -58,26 +58,6 @@ export async function renderIndex(el, params) {
     </a>`).join('');
 
   el.innerHTML = `
-  <style id="index-css">
-    .idx-tabs { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 16px; }
-    .idx-tab { background: var(--panel); border: 1px solid var(--line); color: var(--ink-dim); border-radius: 999px; padding: 8px 16px; cursor: pointer; font-size: 14px; font-family: var(--sans); }
-    .idx-tab:hover { color: var(--ink); border-color: var(--gold-dim); }
-    .idx-tab.on { color: #241b08; background: var(--gold); border-color: var(--gold); font-weight: 600; }
-    .idx-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 14px; }
-    .idx-card { background: var(--panel); border: 1px solid var(--line); border-radius: var(--rad); padding: 14px 16px; color: var(--ink); }
-    .idx-card-link:hover { border-color: var(--gold-dim); text-decoration: none; transform: translateY(-2px); }
-    .idx-card { transition: transform .15s, border-color .15s; }
-    .idx-card:has(.idx-card-head:hover) { border-color: var(--gold-dim); }
-    .idx-card h3 { margin: 0 0 4px; font-size: 16px; }
-    .idx-card p { margin: 0 0 8px; font-size: 12.5px; color: var(--ink-dim); line-height: 1.45; }
-    .idx-sub { font-size: 11.5px; color: var(--gold-dim); }
-    .idx-card-head { display: flex; gap: 10px; align-items: center; margin-bottom: 8px; color: var(--ink); }
-    .idx-card-head:hover { text-decoration: none; color: var(--gold); }
-    .idx-card-head .avatar { width: 42px; border-radius: 8px; overflow: hidden; flex: none; }
-    .idx-refs { display: flex; flex-wrap: wrap; gap: 5px; }
-    .idx-refs .pill { font-size: 11px; padding: 2px 8px; }
-    .idx-section-label { font-size: 12px; color: var(--ink-faint); margin: 4px 0 14px; }
-  </style>
   <div class="wrap">
     <div class="eyebrow">A–Z across all four volumes</div>
     <h1 class="page-title">Index</h1>

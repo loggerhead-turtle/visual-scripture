@@ -1,4 +1,4 @@
-import { VOLUMES, bookBySlug, volumeOf, chapterWord, loadText, loadMeta, loadPlaces, loadPlacesHolyLand, loadPlacesUSA, loadPlates, loadTopics, loadCommentary, loadConference, entities, segmentFor, prevNextChapter, esc, themeName } from '../data.js';
+import { VOLUMES, bookBySlug, volumeOf, chapterWord, loadText, loadMeta, loadPlaces, loadPlacesHolyLand, loadPlacesUSA, loadPlates, loadTopics, loadCommentary, loadConference, entities, segmentFor, prevNextChapter, esc, themeName, safeColor } from '../data.js';
 import { avatar } from '../portraits.js';
 import { currentUser, getStudy, setHighlight, setNote, toggleBookmark, setLastRead, refOf } from '../account.js';
 import { HL_COLORS, applyHighlight, refreshFlags, decorateVerses } from '../study-marks.js';
@@ -18,7 +18,7 @@ export async function renderReader(el, slug, c, params) {
 
   const [text, meta, ents, placesBom, placesHL, placesUSA, platesData, topicsData, commentary, conference] = await Promise.all([
     loadText(slug), loadMeta(slug), entities(), loadPlaces(), loadPlacesHolyLand(), loadPlacesUSA(), loadPlates(), loadTopics(),
-    loadCommentary(slug), loadConference(slug),
+    loadCommentary(slug, c), loadConference(slug, c),
   ]);
   const topicById = {};
   if (topicsData && topicsData.topics) for (const t of topicsData.topics) topicById[t.id] = t;
@@ -41,7 +41,7 @@ export async function renderReader(el, slug, c, params) {
   const cw = chapterWord(slug);
   const chapterLabel = (s, n) => s === 'dc' ? `Section ${n}` : `${bookBySlug[s].name} ${n}`;
   // this chapter's commentary (one entry per verse) — null until it's written
-  const notes = commentary && commentary.chapters && Array.isArray(commentary.chapters[c - 1]) ? commentary.chapters[c - 1] : null;
+  const notes = Array.isArray(commentary) ? commentary : null;
   const hasNotes = !!notes && notes.some(e => e && e.n);
   const officialUrl = officialChapterUrl(slug, c);
 
@@ -52,7 +52,7 @@ export async function renderReader(el, slug, c, params) {
       (platesData.bibleBooks && platesData.bibleBooks.dc) || [],
       (platesData.bibleBooks && platesData.bibleBooks.pgp) || []);
     const entry = all.find(x => x.slug === s);
-    return (entry && (platesData.platesKeys[entry.plates] || {}).color) || '#888';
+    return safeColor(entry && (platesData.platesKeys[entry.plates] || {}).color);
   };
 
   const toc = VOLUMES.map(v => {
@@ -99,9 +99,9 @@ export async function renderReader(el, slug, c, params) {
   const footnotesHtml = buildFootnotesSection(slug, c, notes, cw);
 
   const themeIds = cm.themes || [];
-  const themes = themeIds.map(t => `<a class="pill link" href="#/index?topic=${t}">✦ ${esc((topicById[t] || {}).name || themeName(t))}</a>`).join('');
+  const themes = themeIds.map(t => `<a class="pill link" href="#/index?topic=${esc(t)}">✦ ${esc((topicById[t] || {}).name || themeName(t))}</a>`).join('');
   const chars = (cm.characters || []).map(id => {
-    const e = ents.byId[id]; return e ? `<a class="pill link" href="#/character/${id}">${e.name}</a>` : '';
+    const e = ents.byId[id]; return e ? `<a class="pill link" href="#/character/${esc(id)}">${esc(e.name)}</a>` : '';
   }).join('');
 
   // topics touched on in this chapter — a standing sidebar card so a reader
@@ -110,7 +110,7 @@ export async function renderReader(el, slug, c, params) {
       <h4>Topics in this ${cw.toLowerCase()}</h4>
       ${themeIds.map(t => {
         const info = topicById[t] || { name: themeName(t) };
-        return `<a class="topic-row" href="#/index?topic=${t}">
+        return `<a class="topic-row" href="#/index?topic=${esc(t)}">
           <span class="topic-name">✦ ${esc(info.name)}</span>
           ${info.blurb ? `<span class="topic-blurb">${esc(info.blurb)}</span>` : ''}
         </a>`;
@@ -121,7 +121,7 @@ export async function renderReader(el, slug, c, params) {
       <h4>Cast of this ${cw.toLowerCase()}</h4>
       <div class="reader-cast">${castIds.map(id => {
         const e = ents.byId[id];
-        return `<a class="rc" href="#/character/${id}" title="${esc(e.title || e.name)}">${avatar(e)}<span class="rc-name">${esc(e.name)}</span></a>`;
+        return `<a class="rc" href="#/character/${esc(id)}" title="${esc(e.title || e.name)}">${avatar(e)}<span class="rc-name">${esc(e.name)}</span></a>`;
       }).join('')}</div>
       <div class="rc-hint">Tap a face for their story &amp; every chapter they appear in.</div>
     </div>` : '';
@@ -158,15 +158,15 @@ export async function renderReader(el, slug, c, params) {
           ${cm.synopsis ? `<div class="synopsis"><strong style="color:var(--gold-dim)">Synopsis — </strong>${esc(cm.synopsis)}</div>` : (meta.stub ? '<div class="synopsis" style="border-left-color:var(--line)">Study notes for this chapter are still being illuminated — the full text is below.</div>' : '')}
           <div class="chapter-meta">
             <button type="button" class="pill link bm-pill" id="bm-chapter">🔖 <span>Bookmark</span></button>
-            <a class="pill link" href="#/plates?p=${platesKey}"><span class="dot" style="background:${pk.color || '#888'}"></span>${pk.short || 'Record'}</a>
-            ${place ? `<a class="pill link" href="#/map?place=${place.id}&m=${mapParam}">📍 ${place.name}</a>` : ''}
+            <a class="pill link" href="#/plates?p=${esc(platesKey)}"><span class="dot" style="background:${safeColor(pk.color)}"></span>${esc(pk.short || 'Record')}</a>
+            ${place ? `<a class="pill link" href="#/map?place=${esc(place.id)}&m=${mapParam}">📍 ${esc(place.name)}</a>` : ''}
             ${cm.yearNum != null ? `<a class="pill link" href="#/timeline?y=${cm.yearNum}&era=${eraVol === 'bom' ? 'lehite' : eraVol}">🕰 ${esc(cm.years || 'Timeline')}</a>` : ''}
             ${themes}
           </div>
           ${chars ? `<div class="chapter-meta" style="margin-top:8px">${chars}</div>` : ''}
           <div class="chapter-meta study-row">
             ${hasNotes ? `<button type="button" class="pill link comm-pill" id="comm-toggle" aria-pressed="true" title="Plain-language notes beside each verse">💬 Commentary: <span>On</span></button>` : ''}
-            ${officialUrl ? `<a class="pill link" href="${officialUrl}" target="_blank" rel="noopener" title="This ${cw.toLowerCase()} on ChurchofJesusChrist.org, with the official footnotes">Official footnotes ↗</a>` : ''}
+            ${officialUrl ? `<a class="pill link" href="${officialUrl}" target="_blank" rel="noopener noreferrer" title="This ${cw.toLowerCase()} on ChurchofJesusChrist.org, with the official footnotes">Official footnotes ↗</a>` : ''}
           </div>
         </header>
         <div class="verses ${hasNotes ? 'has-comm' : ''}" id="verses">${versesHtml}</div>
@@ -187,9 +187,9 @@ export async function renderReader(el, slug, c, params) {
         <div class="context-card">
           <h4>${cw} context</h4>
           <div class="row"><span class="k">When</span><span class="v">${esc(cm.years || '—')}${cm.approx ? ' (approx.)' : ''}</span></div>
-          <div class="row"><span class="k">Where</span><span class="v">${place ? `<a href="#/map?place=${place.id}&m=${mapParam}">${place.name}</a>` : '—'}</span></div>
-          <div class="row"><span class="k">Record</span><span class="v"><a href="#/plates?p=${platesKey}">${pk.short || '—'}</a></span></div>
-          <div class="row"><span class="k">Narrator</span><span class="v">${narrator ? `<a href="#/character/${narrator.id}">${narrator.name}</a>` : '—'}</span></div>
+          <div class="row"><span class="k">Where</span><span class="v">${place ? `<a href="#/map?place=${esc(place.id)}&m=${mapParam}">${esc(place.name)}</a>` : '—'}</span></div>
+          <div class="row"><span class="k">Record</span><span class="v"><a href="#/plates?p=${esc(platesKey)}">${esc(pk.short || '—')}</a></span></div>
+          <div class="row"><span class="k">Narrator</span><span class="v">${narrator ? `<a href="#/character/${esc(narrator.id)}">${esc(narrator.name)}</a>` : '—'}</span></div>
           <div class="mini-timeline" id="mini-tl"></div>
         </div>
         ${castCard}
@@ -277,6 +277,15 @@ export async function renderReader(el, slug, c, params) {
     }
   }, { rootMargin: '-15% 0px -55% 0px', threshold: 0 });
   el.querySelectorAll('.verse').forEach(p => observer.observe(p));
+  // leaving the reader (any hash change) drops the observer, the document-level
+  // Escape handlers and the pending last-read write, so the old chapter's DOM
+  // can be collected and a late timer can't overwrite the new chapter's position
+  window.addEventListener('hashchange', function cleanup() {
+    if (observer) { observer.disconnect(); observer = null; }
+    if (railEscHandler) { document.removeEventListener('keydown', railEscHandler); railEscHandler = null; }
+    if (tocEscHandler) { document.removeEventListener('keydown', tocEscHandler); tocEscHandler = null; }
+    clearTimeout(lrTimer);
+  }, { once: true });
 
   const vParam = parseInt(params.get('v') || '', 10);
   const vEl = vParam && document.getElementById(`v${vParam}`);
@@ -424,7 +433,7 @@ function buildVerseTools(p, slug, c, v) {
   box.className = 'vtools';
 
   const official = officialVerseUrl(slug, c, v);
-  const officialLink = official ? `<a class="vt-official" href="${official}" target="_blank" rel="noopener" title="Verse ${v} on ChurchofJesusChrist.org, with the official footnotes">Official footnotes ↗</a>` : '';
+  const officialLink = official ? `<a class="vt-official" href="${official}" target="_blank" rel="noopener noreferrer" title="Verse ${v} on ChurchofJesusChrist.org, with the official footnotes">Official footnotes ↗</a>` : '';
 
   if (!currentUser()) {
     box.innerHTML = `<div class="vt-signin">
@@ -577,13 +586,13 @@ function renderSpeakerCard(cardEl, seg, ents, meta) {
   cardEl.innerHTML = `
     <div class="sc-label">Now speaking — verses ${seg.s}–${seg.e}</div>
     <div class="sc-duo">
-      <a class="sc-portrait" href="#/character/${seg.speaker}">
+      <a class="sc-portrait" href="#/character/${esc(seg.speaker)}">
         ${avatar(spk)}
         <div class="who">${spk ? esc(spk.name) : esc(seg.speaker)}</div>
         <div class="role">${spk ? esc(spk.title || '') : ''}</div>
       </a>
       <div class="sc-arrow"><span class="to-label">speaking to</span>➤</div>
-      <a class="sc-portrait small" href="#/character/${seg.to}">
+      <a class="sc-portrait small" href="#/character/${esc(seg.to)}">
         ${avatar(aud)}
         <div class="who">${aud ? esc(aud.name) : esc(seg.to || '')}</div>
       </a>
@@ -724,9 +733,9 @@ function buildVerseNameMap(castIds, ents, place, mapParam) {
     const e = ents.byId[id];
     if (!e) continue;
     const short = e.isGroup ? VERSE_GROUP_NAMES[id] : shortCharacterName(e.name);
-    if (short) claim(short, e.isGroup ? `#/character/${id}` : `#/character/${id}`);
+    if (short) claim(short, `#/character/${esc(id)}`);
   }
-  if (place && place.name && place.name.length >= 4) claim(place.name, `#/map?place=${place.id}&m=${mapParam}`);
+  if (place && place.name && place.name.length >= 4) claim(place.name, `#/map?place=${esc(place.id)}&m=${mapParam}`);
   for (const n of collided) delete map[n];
   return map;
 }

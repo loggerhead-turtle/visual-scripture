@@ -2,7 +2,7 @@ import { bookBySlug, loadText, esc } from '../data.js';
 import {
   listUsers, currentUser, signUp, signIn, signOut, deleteProfile,
   getStudy, setNote, setHighlight, toggleBookmark, refOf, parseRef,
-  exportAll, importAll,
+  exportAll, importAll, MAX_IMPORT_BYTES,
 } from '../account.js';
 import { HL_COLORS } from '../study-marks.js';
 
@@ -11,12 +11,14 @@ const fmtWhen = iso => {
   const d = new Date(iso);
   return isNaN(d) ? '' : d.toLocaleDateString(undefined, { year: 'numeric', month: 'short', day: 'numeric' });
 };
+// refs are keys of the stored study data — they may have come from an import
+// file, so they are escaped like any other outside text
 const refName = r => {
   const b = bookBySlug[r.slug];
-  const base = r.slug === 'dc' ? `Section ${r.c}` : `${b ? b.name : r.slug} ${r.c}`;
-  return r.v ? `${base}:${r.v}` : base;
+  const base = r.slug === 'dc' ? `Section ${esc(r.c)}` : `${b ? b.name : esc(r.slug)} ${esc(r.c)}`;
+  return r.v ? `${base}:${esc(r.v)}` : base;
 };
-const refHref = r => `#/read/${r.slug}/${r.c}${r.v ? `?v=${r.v}` : ''}`;
+const refHref = r => esc(`#/read/${r.slug}/${r.c}${r.v ? `?v=${r.v}` : ''}`);
 
 export async function renderStudy(el) {
   const user = currentUser();
@@ -35,7 +37,8 @@ function renderSignedOut(el) {
     <p class="section-intro">Sign in to bookmark where you are, highlight verses, and write notes that
     wait for you when you come back. Profiles live <strong>in this browser only</strong> — nothing is
     sent to any server — and your whole study journal can be exported as a file and imported on
-    another device.</p>
+    another device. A password is a simple lock for shared devices, not encryption: anyone who can
+    open this browser's stored data can still read your notes.</p>
 
     ${users.length ? `
     <section class="study-card">
@@ -59,7 +62,7 @@ function renderSignedOut(el) {
       <h2>${users.length ? 'Or create a new profile' : 'Create your profile'}</h2>
       <form class="signup-form" id="signup-form">
         <label>Name<input type="text" id="su-name" maxlength="40" placeholder="e.g. Erik" autocomplete="username" required></label>
-        <label>Password <span class="opt">(optional — locks the profile on shared devices)</span>
+        <label>Password <span class="opt">(optional — a simple lock for shared devices; your notes are not encrypted)</span>
           <input type="password" id="su-pass" placeholder="Leave blank for none" autocomplete="new-password"></label>
         <div><button class="btn primary" type="submit">Create profile &amp; sign in</button>
         <span class="form-err" id="su-err"></span></div>
@@ -168,7 +171,7 @@ async function renderDashboard(el, user) {
       ${d.bookmarks.length ? `<ul class="study-list" id="bm-list">
         ${d.bookmarks.map(b => {
           const r = { slug: b.slug, c: b.c, v: b.v };
-          return `<li data-ref="${refOf(b.slug, b.c, b.v)}">
+          return `<li data-ref="${esc(refOf(b.slug, b.c, b.v))}">
             <span class="sl-ico">🔖</span>
             <div class="sl-body">
               <a class="sl-ref" href="${refHref(r)}">${refName(r)}</a>
@@ -185,7 +188,7 @@ async function renderDashboard(el, user) {
     <section class="study-card">
       <h2>Notes <span class="count">${notes.length}</span></h2>
       ${notes.length ? `<ul class="study-list" id="note-list">
-        ${notes.map(n => `<li data-ref="${n.ref}">
+        ${notes.map(n => `<li data-ref="${esc(n.ref)}">
           <span class="sl-ico">✎</span>
           <div class="sl-body">
             <a class="sl-ref" href="${refHref(n.r)}">${refName(n.r)}</a>
@@ -201,7 +204,7 @@ async function renderDashboard(el, user) {
     <section class="study-card">
       <h2>Highlights <span class="count">${hls.length}</span></h2>
       ${hls.length ? `<ul class="study-list" id="hl-list">
-        ${hls.map(h => `<li data-ref="${h.ref}">
+        ${hls.map(h => `<li data-ref="${esc(h.ref)}">
           <span class="sl-ico"><span class="hl-dot" style="background:${colorHex(h.color)}"></span></span>
           <div class="sl-body">
             <a class="sl-ref" href="${refHref(h.r)}">${refName(h.r)}</a>
@@ -245,8 +248,14 @@ async function renderDashboard(el, user) {
   el.querySelector('#st-import').addEventListener('click', e => { e.preventDefault(); fileInput.click(); });
   fileInput.addEventListener('change', async () => {
     const f = fileInput.files[0];
+    fileInput.value = '';
     if (!f) return;
-    try { importAll(JSON.parse(await f.text())); rerender(); }
+    if (f.size > MAX_IMPORT_BYTES) { alert(`That file is ${(f.size / 1048576).toFixed(1)} MB — a study export is never more than ${MAX_IMPORT_BYTES / 1048576} MB.`); return; }
+    try {
+      const r = importAll(JSON.parse(await f.text()));
+      if (r.dropped) alert(`Imported ${r.kept} item${r.kept === 1 ? '' : 's'}; ${r.dropped} unrecognised entr${r.dropped === 1 ? 'y was' : 'ies were'} skipped.`);
+      rerender();
+    }
     catch (err) { alert(err.message); }
   });
 

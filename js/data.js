@@ -133,7 +133,11 @@ export const VOLUMES = [
 ];
 
 export const BOOKS = VOLUMES.flatMap ? VOLUMES.reduce((a, v) => a.concat(v.books), []) : [];
-export const bookBySlug = BOOKS.reduce((m, b) => { m[b.slug] = b; return m; }, {});
+// prototype-less so a slug from the URL like "constructor" can't resolve to Object.prototype
+export const bookBySlug = BOOKS.reduce((m, b) => { m[b.slug] = b; return m; }, Object.create(null));
+// slugs/ids/topic keys are only ever lower-case words joined by hyphens; anything
+// else from a URL hash or an import file is rejected before it reaches the DOM
+export const isSlugLike = s => typeof s === 'string' && /^[a-z0-9][a-z0-9-]{0,63}$/.test(s);
 export const volumeOf = slug => VOLUMES.find(v => v.books.some(b => b.slug === slug));
 export const volumeById = id => VOLUMES.find(v => v.id === id);
 export const chapterWord = slug => slug === 'dc' ? 'Section' : 'Chapter';
@@ -195,7 +199,7 @@ export async function entities() {
     for (const c of extra.characters || []) if (!seen.has(c.id)) { seen.add(c.id); characters.push(c); }
     for (const g of extra.groups || []) if (!seen.has(g.id)) { seen.add(g.id); groups.push(g); }
   }
-  const byId = {};
+  const byId = Object.create(null); // ids come from the URL too — no prototype to walk into
   for (const c of characters) byId[c.id] = { ...c, isGroup: false };
   for (const g of groups) byId[g.id] = { title: 'Group', era: '', ...g, isGroup: true };
   entityIndex = { byId, characters, groups };
@@ -245,14 +249,30 @@ export const loadGenealogy = () => tryJSON('data/genealogy.json');
 // ---- ancient currency systems ----
 export const loadCurrency = () => tryJSON('data/currency.json');
 
-// ---- verse-by-verse commentary + study footnotes (per book; may not exist yet) ----
-// { slug, chapters: [ [ { n, f: [{ w, r?, g? }] } ... ] | null ... ] } — a null
-// chapter (or a missing file) simply means nothing has been written yet.
-export const loadCommentary = slug => tryJSON(`data/commentary/${slug}.json`);
+// ---- verse-by-verse commentary + study footnotes (one file per chapter) ----
+// data/commentary/<slug>/<c>.json: [ { n, f: [{ w, r?, g? }] } ... ] (one entry
+// per verse) — null, or a missing file, simply means nothing has been written yet.
+export const loadCommentary = (slug, c) => tryJSON(`data/commentary/${slug}/${c}.json`);
 
-// ---- General Conference talks citing each chapter (per book; may not exist yet) ----
-// { slug, talks: [{ y, s, sp, ti, u }], chapters: { "<c>": [[talkIndex, [verses]] ...] } }
-export const loadConference = slug => tryJSON(`data/conference/${slug}.json`);
+// ---- General Conference talks citing a chapter (one file per chapter) ----
+// data/conference/<slug>/<c>.json: { slug, c, talks: [{ y, s, sp, ti, u }], cites: [[talkIndex, [verses]] ...] }
+export const loadConference = (slug, c) => tryJSON(`data/conference/${slug}/${c}.json`);
+
+// Only ever link out to the Church's own sites, over https. Anything else in a
+// data file (a scraped URL, a tampered JSON) is dropped rather than rendered.
+const LINK_HOSTS = /^(www\.)?(churchofjesuschrist\.org|lds\.org|scriptures\.byu\.edu)$/i;
+export function safeExternalUrl(u) {
+  if (typeof u !== 'string' || u.length > 2048) return null;
+  let url;
+  try { url = new URL(u); } catch { return null; }
+  if (url.protocol !== 'https:' || !LINK_HOSTS.test(url.hostname) || url.username || url.password) return null;
+  return url.href;
+}
+
+// a CSS colour from a data file (character accents, record colours) must be a
+// plain hex/rgb value — never something that could smuggle in more declarations
+export const safeColor = (c, fallback = '#888') =>
+  typeof c === 'string' && /^(#[0-9a-f]{3,8}|rgba?\([\d.,\s%]+\)|[a-z]{3,20})$/i.test(c.trim()) ? c.trim() : fallback;
 
 // ---- every relationship edge across all cast files, for the mind map ----
 // Returns [{ from, to, rel }] using only edges whose endpoints are real entities.
@@ -324,5 +344,5 @@ export function prevNextChapter(slug, c) {
 }
 
 export const fmtYear = n => n == null ? 'date unknown' : (n < 0 ? `${-n} BC` : `AD ${n}`);
-export const esc = s => String(s == null ? '' : s).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+export const esc = s => String(s == null ? '' : s).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
 export const themeName = id => id.split('-').map(w => w[0].toUpperCase() + w.slice(1)).join(' ').replace('And', '&');

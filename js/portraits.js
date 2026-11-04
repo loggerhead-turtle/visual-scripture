@@ -1,3 +1,4 @@
+import { esc, safeColor } from './data.js';
 // Parametric SVG portrait engine (v2).
 // Each character is drawn as a flat-cartoon bust from a rich set of appearance
 // parameters in characters.json, so ~180 figures stay visually distinct while
@@ -323,10 +324,11 @@ function bust(p, cx, w, h) {
 // ---------------------------------------------------------------- defaults
 function normalize(raw) {
   const p = { ...(raw || {}) };
-  p.skin = p.skin || '#c68863';
-  p.hair = p.hair || '#2b1c12';
-  p.garb = p.garb || '#4c5b78';
-  p.accent = p.accent || '#e8b64c';
+  // colours land inside SVG attributes — keep them plain colour values
+  p.skin = safeColor(p.skin, '#c68863');
+  p.hair = safeColor(p.hair, '#2b1c12');
+  p.garb = safeColor(p.garb, '#4c5b78');
+  p.accent = safeColor(p.accent, '#e8b64c');
   // back-compat with the v1 "style" field
   if (!p.hairStyle) {
     p.hairStyle = p.style === 'long' ? 'long' : p.style === 'veil' ? 'veil'
@@ -372,10 +374,12 @@ export function portraitSVG(raw, opts = {}) {
 }
 
 let gid = 0;
+// art-manifest URLs must be same-origin image paths (the CSP allows nothing else)
+const safeArtUrl = u => typeof u === 'string' && /^(?!\/\/)[\w][\w./%-]*\.(png|jpe?g|webp|svg|gif|avif)$/i.test(u) ? u : null;
 export function avatar(entity, opts = {}) {
   if (!entity) return '<div class="avatar"></div>';
-  const url = artManifest[entity.id];
-  if (url) return `<div class="avatar"><img src="${url}" alt="${entity.name}" loading="lazy"></div>`;
-  const p = { ...(entity.portrait || {}), _gid: `${entity.id}-${gid++}` };
+  const url = safeArtUrl(artManifest[entity.id]);
+  if (url) return `<div class="avatar"><img src="${esc(url)}" alt="${esc(entity.name)}" loading="lazy"></div>`;
+  const p = { ...(entity.portrait || {}), _gid: `${String(entity.id).replace(/[^\w-]/g, '')}-${gid++}` };
   return `<div class="avatar">${portraitSVG(p, opts)}</div>`;
 }

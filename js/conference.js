@@ -1,27 +1,32 @@
 // "In General Conference" — the sidebar card listing conference talks that
-// cite the chapter being read, from data/conference/<slug>.json:
-//   { slug, talks: [{ y, s: 'A'|'O', sp, ti, u }], chapters: { "<c>": [[talkIndex, [verses]], ...] } }
-// A verse list of [] means the whole chapter was cited. Talks within a
-// chapter are listed newest first. The "citing the verse in view" strip is
-// refreshed as the reader scrolls (cheap: a precomputed verse -> talks map).
-import { esc } from './data.js';
+// cite the chapter being read, from data/conference/<slug>/<c>.json:
+//   { slug, c, talks: [{ y, s: 'A'|'O', sp, ti, u }], cites: [[talkIndex, [verses]], ...] }
+// A verse list of [] means the whole chapter was cited. Talks are listed
+// newest first. The "citing the verse in view" strip is refreshed as the
+// reader scrolls (cheap: a precomputed verse -> talks map).
+//
+// Titles, speakers and URLs were scraped from scriptures.byu.edu, so they are
+// escaped like any other untrusted text, and a talk only gets a link when its
+// URL is an https address on the Church's own site (see safeExternalUrl).
+import { esc, safeExternalUrl } from './data.js';
 
 const SHOW_FIRST = 8; // rows visible before "show more"
-const CREDIT = '<div class="conf-credit">Citations: <a href="https://scriptures.byu.edu/" target="_blank" rel="noopener">BYU Scripture Citation Index</a></div>';
+const CREDIT = '<div class="conf-credit">Citations: <a href="https://scriptures.byu.edu/" target="_blank" rel="noopener noreferrer">BYU Scripture Citation Index</a></div>';
 
-const season = t => `${t.s === 'A' ? 'Apr' : 'Oct'} ${t.y}`;
+const season = t => `${t.s === 'A' ? 'Apr' : 'Oct'} ${esc(t.y)}`;
 
 function rowHtml(t, vs) {
   const where = vs && vs.length ? `<span class="conf-vs">v.&thinsp;${esc(verseRange(vs))}</span>` : '';
   const inner = `<span class="conf-when">${season(t)} · ${esc(t.sp)}${where}</span><span class="conf-title">${esc(t.ti)}</span>`;
-  return t.u
-    ? `<a class="conf-row" href="${esc(t.u)}" target="_blank" rel="noopener">${inner}</a>`
+  const href = safeExternalUrl(t.u);
+  return href
+    ? `<a class="conf-row" href="${esc(href)}" target="_blank" rel="noopener noreferrer">${inner}</a>`
     : `<div class="conf-row plain">${inner}<span class="conf-cr">Conference Report</span></div>`;
 }
 
 // [4,5,6,9] -> "4–6, 9"
 function verseRange(vs) {
-  const s = [...vs].sort((a, b) => a - b);
+  const s = vs.map(Number).filter(Number.isInteger).sort((a, b) => a - b);
   const out = [];
   for (let i = 0; i < s.length; i++) {
     let j = i;
@@ -35,8 +40,8 @@ function verseRange(vs) {
 // Returns null when nothing cites this chapter; otherwise the card's HTML
 // plus a controller whose setVerse(v) updates the "verse in view" strip.
 export function conferenceCard(conf, c, cw) {
-  const cites = conf && conf.chapters && conf.chapters[String(c)];
-  if (!cites || !cites.length || !conf.talks) return null;
+  const cites = conf && Array.isArray(conf.cites) ? conf.cites.filter(Array.isArray) : null;
+  if (!cites || !cites.length || !Array.isArray(conf.talks)) return null;
   const talks = conf.talks;
   const byVerse = {};   // verse -> [[talk, verses]]
   let wholeChapter = 0;
@@ -44,7 +49,7 @@ export function conferenceCard(conf, c, cw) {
     const t = talks[ti];
     if (!t) continue;
     if (!vs || !vs.length) { wholeChapter++; continue; }
-    for (const v of vs) (byVerse[v] = byVerse[v] || []).push([t, vs]);
+    for (const v of vs) if (Number.isInteger(v)) (byVerse[v] = byVerse[v] || []).push([t, vs]);
   }
   const n = cites.length;
   const all = cites.filter(([ti]) => talks[ti]).map(([ti, vs]) => rowHtml(talks[ti], vs));

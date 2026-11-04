@@ -9,104 +9,6 @@ import { avatar } from '../portraits.js';
 // zoom, drag, select and search.
 // ---------------------------------------------------------------------------
 
-const CSS = `
-#mindmap-view .mm-toolbar { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; margin-bottom: 12px; }
-#mindmap-view .mm-search-wrap { position: relative; }
-#mindmap-view #mm-search {
-  background: var(--panel2); border: 1px solid var(--line); color: var(--ink); border-radius: 9px;
-  padding: 8px 12px; font-size: 13.5px; width: 220px; font-family: var(--sans);
-}
-#mindmap-view #mm-search:focus { outline: none; border-color: var(--gold-dim); }
-#mindmap-view .mm-search-results {
-  display: none; position: absolute; top: calc(100% + 4px); left: 0; min-width: 220px; max-width: 300px;
-  background: var(--panel); border: 1px solid var(--line); border-radius: 10px; box-shadow: var(--shadow);
-  z-index: 20; overflow: hidden; max-height: 260px; overflow-y: auto;
-}
-#mindmap-view .mm-search-item, #mindmap-view .mm-search-none {
-  display: block; width: 100%; text-align: left; background: none; border: none; color: var(--ink-dim);
-  padding: 8px 12px; font-size: 13px; cursor: pointer; font-family: var(--sans);
-}
-#mindmap-view .mm-search-item:hover { background: var(--panel2); color: var(--gold); }
-#mindmap-view .mm-filters { display: flex; gap: 6px; flex-wrap: wrap; }
-#mindmap-view .mm-filters .pill { cursor: pointer; }
-#mindmap-view .mm-filters .pill.active, #mindmap-view .mm-toolbar .btn.active {
-  border-color: var(--gold); color: var(--gold); background: var(--panel2);
-}
-#mindmap-view .mm-spacer { flex: 1; }
-#mindmap-view .mm-legend { display: flex; flex-wrap: wrap; gap: 12px; margin-bottom: 14px; font-size: 11.5px; color: var(--ink-faint); }
-#mindmap-view .mm-legend .lg-item { display: flex; align-items: center; gap: 6px; }
-#mindmap-view .mm-legend .lg-dot { width: 10px; height: 10px; border-radius: 50%; flex: none; box-shadow: 0 0 0 1px rgba(0,0,0,.5); }
-#mindmap-view .mm-layout { display: flex; gap: 16px; align-items: stretch; }
-#mindmap-view .mm-stage {
-  flex: 1; position: relative; min-width: 0; height: min(70vh, 620px); min-height: 420px;
-  background:
-    radial-gradient(ellipse at 50% 30%, rgba(232,182,76,.05), transparent 60%), var(--bg2);
-  border: 1px solid var(--line); border-radius: var(--rad); overflow: hidden; cursor: grab; touch-action: none;
-}
-#mindmap-view .mm-stage.panning { cursor: grabbing; }
-#mindmap-view .mm-world { position: absolute; left: 0; top: 0; transform-origin: 0 0; }
-#mindmap-view .mm-world.mm-anim { transition: transform .35s ease; }
-#mindmap-view .mm-edges { position: absolute; left: 0; top: 0; overflow: visible; }
-#mindmap-view .mm-edge { stroke: var(--line); stroke-width: 1.4; transition: opacity .2s ease, stroke .2s ease, stroke-width .2s ease; }
-#mindmap-view .mm-edge.dim { opacity: .07; }
-#mindmap-view .mm-edge.hl { stroke: var(--gold); stroke-width: 2.2; opacity: .95; }
-#mindmap-view .mm-nodes { position: absolute; left: 0; top: 0; }
-#mindmap-view .mm-node {
-  position: absolute; transform: translate(-50%, -50%); display: flex; flex-direction: column; align-items: center;
-  width: 84px; cursor: pointer; user-select: none; transition: opacity .2s ease;
-}
-#mindmap-view .mm-node .avatar {
-  width: 42px; height: 42px; border-radius: 50%; overflow: hidden; background: var(--bg2);
-  border: 2px solid var(--grp-color, var(--line)); box-shadow: 0 2px 10px rgba(0,0,0,.5); transition: border-color .2s ease, box-shadow .2s ease, transform .15s ease;
-}
-#mindmap-view .mm-node .avatar svg, #mindmap-view .mm-node .avatar img { width: 100%; height: 100%; object-fit: cover; display: block; }
-#mindmap-view .mm-node .mm-label {
-  margin-top: 4px; font-size: 10.5px; line-height: 1.2; color: var(--ink-dim); text-align: center; max-width: 84px;
-  overflow: hidden; text-overflow: ellipsis; white-space: nowrap; text-shadow: 0 1px 3px #000, 0 1px 3px #000;
-}
-#mindmap-view .mm-node:hover .avatar { transform: scale(1.08); }
-#mindmap-view .mm-node.dim { opacity: .16; }
-#mindmap-view .mm-node.sel .avatar { border-color: var(--gold); box-shadow: 0 0 0 4px rgba(232,182,76,.3), 0 2px 10px rgba(0,0,0,.5); }
-#mindmap-view .mm-node.sel .mm-label { color: var(--gold); }
-#mindmap-view .mm-node.neighbor .avatar { border-color: var(--gold-dim); }
-#mindmap-view .mm-node.neighbor .mm-label { color: var(--ink); }
-#mindmap-view .mm-hint {
-  position: absolute; left: 10px; bottom: 8px; font-size: 11px; color: var(--ink-faint); pointer-events: none;
-  background: rgba(20,17,12,.55); padding: 3px 8px; border-radius: 6px;
-}
-#mindmap-view .mm-zoom-note { position: absolute; right: 10px; bottom: 8px; font-size: 11px; color: var(--ink-faint); pointer-events: none; background: rgba(20,17,12,.55); padding: 3px 8px; border-radius: 6px; }
-#mindmap-view .mm-side {
-  width: 300px; flex: none; background: var(--panel); border: 1px solid var(--line); border-radius: var(--rad);
-  padding: 16px; max-height: min(70vh, 620px); min-height: 420px; overflow-y: auto;
-}
-#mindmap-view .mm-side-empty { color: var(--ink-faint); font-size: 13.5px; padding-top: 10px; }
-#mindmap-view .mm-side-head { display: flex; gap: 12px; align-items: center; margin-bottom: 12px; }
-#mindmap-view .mm-side-avatar { width: 58px; height: 58px; border-radius: 50%; overflow: hidden; border: 2px solid var(--gold-dim); flex: none; background: var(--bg2); }
-#mindmap-view .mm-side-avatar .avatar, #mindmap-view .mm-side-avatar svg, #mindmap-view .mm-side-avatar img { width: 100%; height: 100%; object-fit: cover; display: block; }
-#mindmap-view .mm-side-head h3 { margin: 0 0 2px; font-size: 17px; }
-#mindmap-view .mm-side-title { font-size: 12.5px; color: var(--gold-dim); }
-#mindmap-view .mm-side-era { font-size: 11.5px; color: var(--ink-faint); margin-top: 1px; }
-#mindmap-view .mm-open-link { display: inline-flex; margin: 4px 0 14px; font-size: 13px; padding: 7px 12px; }
-#mindmap-view .mm-side-sub {
-  font-size: 11px; text-transform: uppercase; letter-spacing: .12em; color: var(--ink-faint); margin: 10px 0 6px; font-family: var(--sans);
-}
-#mindmap-view .mm-rel-list { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 4px; }
-#mindmap-view .mm-rel-item {
-  display: flex; flex-direction: column; align-items: flex-start; width: 100%; text-align: left; gap: 1px;
-  background: var(--panel2); border: 1px solid var(--line); border-radius: 8px; padding: 6px 10px; cursor: pointer; font-family: var(--sans);
-}
-#mindmap-view .mm-rel-item:hover { border-color: var(--gold-dim); }
-#mindmap-view .mm-rel-item.offscreen { border-style: dashed; }
-#mindmap-view .mm-rel-phrase { font-size: 10.5px; text-transform: uppercase; letter-spacing: .06em; color: var(--gold-dim); }
-#mindmap-view .mm-rel-name { font-size: 13.5px; color: var(--ink); }
-#mindmap-view .mm-side-empty-note { color: var(--ink-faint); font-size: 13px; }
-#mindmap-view .mm-focus-note { font-size: 12px; color: var(--ink-faint); margin: 0 0 12px; }
-@media (max-width: 860px) {
-  #mindmap-view .mm-layout { flex-direction: column; }
-  #mindmap-view .mm-side { width: auto; max-height: 320px; }
-  #mindmap-view .mm-hint { display: none; }
-}
-`;
 
 // ---------------------------------------------------------------------------
 // relationship-category classification (for the filter control)
@@ -417,10 +319,7 @@ function bfsHops(adj, start, maxHops) {
 }
 
 export async function renderMindmap(el, params) {
-  // The CSS ships as a <style id="mindmap-css"> inline in the template below.
-  // Because el.innerHTML is replaced wholesale on every render (navigation or
-  // re-render), the old <style> node — if any — is discarded along with it,
-  // so the id can never end up duplicated in the document.
+  // The page's CSS lives in css/main.css ("mindmap view" section).
   el.innerHTML = '<div class="wrap"><h1 class="page-title">Mind Map</h1><p class="section-intro">Charting every relationship in scripture&hellip;</p></div>';
 
   const [ents, edgesAllRaw] = await Promise.all([entities(), relationEdges()]);
@@ -456,7 +355,6 @@ export async function renderMindmap(el, params) {
 
   el.id = el.id || 'view';
   el.innerHTML = `
-  <style id="mindmap-css">${CSS}</style>
   <div class="wrap" id="mindmap-view">
     <div class="eyebrow">How the story connects</div>
     <h1 class="page-title">Mind Map</h1>

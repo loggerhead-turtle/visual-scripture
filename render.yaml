@@ -1,14 +1,52 @@
 services:
-  # Free static site on Render — no server, no build step.
+  # Free static site on Render — no server; the "build" only copies the public files into _site.
   - type: web
     name: visual-scripture
     runtime: static
-    staticPublishPath: .
-    buildCommand: ""
+    # Publish only what the browser needs: the repo root would also expose
+    # scripts/, README.md, SECURITY.md and the deploy configs as public URLs.
+    staticPublishPath: _site
+    buildCommand: "rm -rf _site && mkdir _site && cp -r index.html css js data _site/ && rm -rf _site/data/commentary/_parts"
     headers:
+      # ---- security headers (every response) ----
+      # Mirror of the <meta http-equiv> policy in index.html, plus frame-ancestors
+      # (which only works as a header). No inline scripts anywhere; inline style
+      # *attributes* are allowed (the views set colours per element) but inline
+      # <style> elements are not.
+      - path: /*
+        name: Content-Security-Policy
+        value: "default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; style-src-elem 'self'; style-src-attr 'unsafe-inline'; img-src 'self' data:; font-src 'self'; connect-src 'self'; object-src 'none'; base-uri 'none'; form-action 'self'; frame-ancestors 'none'; upgrade-insecure-requests"
+      - path: /*
+        name: Strict-Transport-Security
+        value: max-age=63072000; includeSubDomains
+      - path: /*
+        name: X-Content-Type-Options
+        value: nosniff
+      - path: /*
+        name: X-Frame-Options
+        value: DENY
+      - path: /*
+        name: Referrer-Policy
+        value: strict-origin-when-cross-origin
+      - path: /*
+        name: Permissions-Policy
+        value: camera=(), microphone=(), geolocation=(), payment=(), usb=(), browsing-topics=()
+      - path: /*
+        name: Cross-Origin-Opener-Policy
+        value: same-origin
+      - path: /*
+        name: Cross-Origin-Resource-Policy
+        value: same-origin
+      # ---- caching ----
+      # Code has no hashed filenames, so it is always revalidated (Render sends
+      # ETags; a 304 costs a round trip, not a download). Data changes rarely
+      # and is safe to keep for a few hours, refreshing in the background.
+      - path: /*
+        name: Cache-Control
+        value: public, max-age=0, must-revalidate
       - path: /data/*
         name: Cache-Control
-        value: public, max-age=3600
+        value: public, max-age=21600, stale-while-revalidate=86400
     routes:
       - type: rewrite
         source: /*

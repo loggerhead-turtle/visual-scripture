@@ -1,7 +1,7 @@
 // Study footnotes: the little lettered markers inside a verse (1a, 1b …), the
 // popover that opens when one is tapped, and the "Footnotes" list at the end
 // of the chapter. The data comes from the per-verse "f" arrays in
-// data/commentary/<slug>.json:
+// data/commentary/<slug>/<c>.json:
 //   { "w": "exact word/phrase in the verse", "r": "2 Kings 15:1-7; Isaiah 6:1" }
 //   { "w": "...", "g": "short gloss" }
 // Everything here is Visual Scripture's own study material; the official
@@ -62,7 +62,7 @@ export function buildFootnotePop(slug, c, v, letter, f) {
     <div class="fnpop-foot">
       <span class="fn-orig">Study note original to Visual Scripture</span>
       <button type="button" class="fnpop-all">All footnotes ↓</button>
-      ${official ? `<a class="fnpop-official" href="${official}" target="_blank" rel="noopener">Official footnotes ↗</a>` : ''}
+      ${official ? `<a class="fnpop-official" href="${official}" target="_blank" rel="noopener noreferrer">Official footnotes ↗</a>` : ''}
     </div>`;
   return box;
 }
@@ -71,7 +71,7 @@ export function buildFootnotePop(slug, c, v, letter, f) {
 // plus the link to the official edition's own footnotes for this chapter
 export function buildFootnotesSection(slug, c, chapterNotes, cw) {
   const official = officialChapterUrl(slug, c);
-  const officialLink = official ? `<a class="btn fn-official" href="${official}" target="_blank" rel="noopener">Official footnotes on ChurchofJesusChrist.org ↗</a>` : '';
+  const officialLink = official ? `<a class="btn fn-official" href="${official}" target="_blank" rel="noopener noreferrer">Official footnotes on ChurchofJesusChrist.org ↗</a>` : '';
   const verses = [];
   (chapterNotes || []).forEach((entry, i) => {
     const notes = (entry && entry.f) || [];

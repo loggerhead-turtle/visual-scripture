@@ -2,7 +2,7 @@
 // chapter's verses exactly and every id resolves. Missing meta files are
 // reported as "pending" (the app falls back to a stub), not as errors.
 // Run: node scripts/validate.mjs
-import { readFileSync, existsSync } from 'fs';
+import { readFileSync, existsSync, readdirSync } from 'fs';
 
 const read = f => JSON.parse(readFileSync(new URL(`../${f}`, import.meta.url)));
 const exists = f => existsSync(new URL(`../${f}`, import.meta.url));
@@ -93,6 +93,41 @@ for (const f of stFiles) {
     }
   }
 }
+
+// published per-chapter commentary & conference files: right shape, and every
+// talk link is https on a Church host (they are rendered as <a href>)
+const LINK_HOSTS = /^(www\.)?(churchofjesuschrist\.org|lds\.org)$/i;
+let confFiles = 0, commFiles = 0, badLinks = 0;
+for (const slug of BOOKS) {
+  for (let c = 1; c <= counts[slug].length; c++) {
+    const cf = `data/conference/${slug}/${c}.json`;
+    if (exists(cf)) {
+      confFiles++;
+      const d = read(cf);
+      if (d.slug !== slug || d.c !== c || !Array.isArray(d.talks) || !Array.isArray(d.cites)) err(`${cf}: wrong shape`);
+      for (const [ti, vs] of d.cites || []) {
+        if (!d.talks[ti]) err(`${cf}: cite points at missing talk ${ti}`);
+        if (!Array.isArray(vs) || vs.some(v => !(v >= 1 && v <= counts[slug][c - 1]))) err(`${cf}: bad verse list for talk ${ti}`);
+      }
+      for (const t of d.talks || []) {
+        if (t.u == null) continue;
+        let ok = false;
+        try { const u = new URL(t.u); ok = u.protocol === 'https:' && LINK_HOSTS.test(u.hostname); } catch { /* bad */ }
+        if (!ok) { badLinks++; if (badLinks <= 5) err(`${cf}: talk link not https on a Church host: ${t.u}`); }
+      }
+    }
+    const mf = `data/commentary/${slug}/${c}.json`;
+    if (exists(mf)) {
+      commFiles++;
+      const d = read(mf);
+      if (d !== null && (!Array.isArray(d) || d.length !== counts[slug][c - 1])) err(`${mf}: expected ${counts[slug][c - 1]} verse entries`);
+    }
+  }
+  for (const stale of [`data/conference/${slug}.json`, `data/commentary/${slug}.json`])
+    if (exists(stale)) err(`${stale}: stale per-book file (the app reads per-chapter files now)`);
+}
+if (badLinks > 5) err(`… ${badLinks} bad talk links in all`);
+console.log(`checked ${commFiles} commentary and ${confFiles} conference chapter files`);
 
 if (pending.length) console.log(`… pending meta (stub shown in app): ${pending.join(', ')}`);
 console.log(errors ? `\n${errors} problem(s) found` : '✓ all present data valid');
