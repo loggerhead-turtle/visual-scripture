@@ -1,4 +1,4 @@
-import { loadPlaces, loadPlacesHolyLand, loadPlacesUSA, allMeta, bookBySlug, esc } from '../data.js';
+import { loadPlaces, loadPlacesHolyLand, loadPlacesUSA, placeIndex, bookBySlug, esc } from '../data.js';
 
 const KIND_STYLE = {
   capital: { r: 9, fill: '#e8b64c', label: 'Capital / major center' },
@@ -19,12 +19,7 @@ const marker = p => {
 };
 
 export async function renderMap(el, params) {
-  const [bom, hl, usa, metas] = await Promise.all([loadPlaces(), loadPlacesHolyLand(), loadPlacesUSA(), allMeta()]);
-
-  const chaptersAt = {};
-  for (const m of metas) for (const ch of m.chapters) {
-    if (ch.place) (chaptersAt[ch.place] = chaptersAt[ch.place] || []).push({ slug: m.slug, book: m.book, c: ch.c });
-  }
+  const [bom, hl, usa, chaptersAt] = await Promise.all([loadPlaces(), loadPlacesHolyLand(), loadPlacesUSA(), placeIndex()]);
 
   const MAPS = [
     { id: 'holy-land', name: '🕎 The Holy Land', data: hl, render: () => holyLandSVG(hl) },

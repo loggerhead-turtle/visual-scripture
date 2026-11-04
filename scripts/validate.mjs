@@ -2,6 +2,7 @@
 // chapter's verses exactly and every id resolves. Missing meta files are
 // reported as "pending" (the app falls back to a stub), not as errors.
 // Run: node scripts/validate.mjs
+import { execFileSync } from 'child_process';
 import { readFileSync, existsSync, readdirSync } from 'fs';
 
 const read = f => JSON.parse(readFileSync(new URL(`../${f}`, import.meta.url)));
@@ -128,6 +129,13 @@ for (const slug of BOOKS) {
 }
 if (badLinks > 5) err(`… ${badLinks} bad talk links in all`);
 console.log(`checked ${commFiles} commentary and ${confFiles} conference chapter files`);
+
+// the prebuilt cross-reference index must match the meta files it was built from
+try {
+  execFileSync(process.execPath, [new URL('build-index.mjs', import.meta.url).pathname, '--check'], { stdio: 'pipe' });
+} catch {
+  err('data/index.json is stale — run node scripts/build-index.mjs');
+}
 
 if (pending.length) console.log(`… pending meta (stub shown in app): ${pending.join(', ')}`);
 console.log(errors ? `\n${errors} problem(s) found` : '✓ all present data valid');

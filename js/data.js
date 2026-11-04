@@ -287,42 +287,48 @@ export async function relationEdges() {
   return out;
 }
 
+// ---- prebuilt cross-reference index (scripts/build-index.mjs) ----
+// One ~20 KB (gzipped) file maps every character, theme and place to the
+// chapters it appears in, so Cast / Index / Map don't fetch all 88 meta
+// files. If it is missing we fall back to scanning the meta files.
+let xrefPromise = null;
+function xref() {
+  if (xrefPromise) return xrefPromise;
+  xrefPromise = tryJSON('data/index.json').then(async ix => {
+    const out = { characters: Object.create(null), themes: Object.create(null), places: Object.create(null) };
+    if (ix) {
+      for (const kind of ['characters', 'themes', 'places']) {
+        for (const [k, refs] of Object.entries(ix[kind] || {})) {
+          out[kind][k] = refs.map(r => {
+            const [slug, c] = r.split(':');
+            const b = bookBySlug[slug];
+            return b ? { slug, book: b.name, c: +c } : null;
+          }).filter(Boolean);
+        }
+      }
+      return out;
+    }
+    const add = (m, k, ref) => { if (k) (m[k] = m[k] || []).push(ref); };
+    for (const m of await allMeta()) {
+      for (const ch of m.chapters) {
+        const ref = { slug: m.slug, book: m.book, c: ch.c };
+        const ids = new Set(ch.characters || []);
+        for (const s of ch.segments || []) ids.add(s.speaker);
+        for (const id of ids) add(out.characters, id, ref);
+        for (const t of ch.themes || []) add(out.themes, t, ref);
+        add(out.places, ch.place, ref);
+      }
+    }
+    return out;
+  });
+  return xrefPromise;
+}
 // character id -> [{slug, book, c}]
-let appearanceIndex = null;
-export async function appearances() {
-  if (appearanceIndex) return appearanceIndex;
-  const metas = await allMeta();
-  const idx = {};
-  for (const m of metas) {
-    for (const ch of m.chapters) {
-      const ids = new Set([...(ch.characters || [])]);
-      for (const s of ch.segments || []) { ids.add(s.speaker); }
-      for (const id of ids) {
-        (idx[id] = idx[id] || []).push({ slug: m.slug, book: m.book, c: ch.c });
-      }
-    }
-  }
-  appearanceIndex = idx;
-  return idx;
-}
-
-// theme id -> [{slug, book, c}] — computed from the themes already tagged on
-// every chapter, so this costs a scan, not new authored content.
-let topicIdxCache = null;
-export async function topicIndex() {
-  if (topicIdxCache) return topicIdxCache;
-  const metas = await allMeta();
-  const idx = {};
-  for (const m of metas) {
-    for (const ch of m.chapters) {
-      for (const t of ch.themes || []) {
-        (idx[t] = idx[t] || []).push({ slug: m.slug, book: m.book, c: ch.c });
-      }
-    }
-  }
-  topicIdxCache = idx;
-  return idx;
-}
+export const appearances = () => xref().then(x => x.characters);
+// theme id -> [{slug, book, c}]
+export const topicIndex = () => xref().then(x => x.themes);
+// place id -> [{slug, book, c}]
+export const placeIndex = () => xref().then(x => x.places);
 export const loadTopics = () => tryJSON('data/topics.json');
 
 export function segmentFor(chapterMeta, verse) {
