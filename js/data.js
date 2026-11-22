@@ -258,6 +258,13 @@ export const loadCommentary = (slug, c) => tryJSON(`data/commentary/${slug}/${c}
 // data/conference/<slug>/<c>.json: { slug, c, talks: [{ y, s, sp, ti, u }], cites: [[talkIndex, [verses]] ...] }
 export const loadConference = (slug, c) => tryJSON(`data/conference/${slug}/${c}.json`);
 
+// ---- General Conference section (scripts/build-gc.mjs) ----
+// index: every talk + speaker; talks/<year>: per-talk refs & analysis;
+// speakers/<slug>: a speaker's scripture profile
+export const loadGcIndex = () => fetchJSON('data/gc/index.json');
+export const loadGcYear = y => Number.isInteger(y) && y > 1800 && y < 3000 ? tryJSON(`data/gc/talks/${y}.json`) : Promise.resolve(null);
+export const loadGcSpeaker = slug => isSlugLike(slug) ? tryJSON(`data/gc/speakers/${slug}.json`) : Promise.resolve(null);
+
 // Only ever link out to the Church's own sites, over https. Anything else in a
 // data file (a scraped URL, a tampered JSON) is dropped rather than rendered.
 const LINK_HOSTS = /^(www\.)?(churchofjesuschrist\.org|lds\.org|scriptures\.byu\.edu)$/i;
