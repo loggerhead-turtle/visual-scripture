@@ -15,10 +15,20 @@ const CREDIT = '<div class="conf-credit">Citations: <a href="https://scriptures.
 
 const season = t => `${t.s === 'A' ? 'Apr' : 'Oct'} ${esc(t.y)}`;
 
+const idOk = s => typeof s === 'string' && /^[a-z0-9][a-z0-9-]{0,63}$/.test(s);
+
 function rowHtml(t, vs) {
   const where = vs && vs.length ? `<span class="conf-vs">v.&thinsp;${esc(verseRange(vs))}</span>` : '';
-  const inner = `<span class="conf-when">${season(t)} · ${esc(t.sp)}${where}</span><span class="conf-title">${esc(t.ti)}</span>`;
   const href = safeExternalUrl(t.u);
+  // with a talk id (scripts/build-gc.mjs) the title opens the talk's page in
+  // the General Conference section and the speaker their profile; the
+  // official talk is one click further, or via the ↗ beside the title
+  if (idOk(t.id)) {
+    const sp = idOk(t.ss) ? `<a href="#/conference/speaker/${t.ss}">${esc(t.sp)}</a>` : esc(t.sp);
+    const ext = href ? ` <a class="conf-ext" href="${esc(href)}" target="_blank" rel="noopener noreferrer" title="Read the talk on churchofjesuschrist.org" aria-label="Read the talk on churchofjesuschrist.org">↗</a>` : '';
+    return `<div class="conf-row linked"><span class="conf-when">${season(t)} · ${sp}${where}</span><span class="conf-title"><a href="#/conference/talk/${t.id}">${esc(t.ti)}</a>${ext}</span></div>`;
+  }
+  const inner = `<span class="conf-when">${season(t)} · ${esc(t.sp)}${where}</span><span class="conf-title">${esc(t.ti)}</span>`;
   return href
     ? `<a class="conf-row" href="${esc(href)}" target="_blank" rel="noopener noreferrer">${inner}</a>`
     : `<div class="conf-row plain">${inner}<span class="conf-cr">Conference Report</span></div>`;

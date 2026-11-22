@@ -96,6 +96,7 @@ export async function renderHome(el) {
       <a class="feature" href="#/map"><div class="fig">🗺️</div><h3>Maps</h3><p>The Holy Land, the Book of Mormon's internal geography, and the American road of the Restoration — every chapter located, every place linked to its chapters.</p></a>
       <a class="feature" href="#/plates"><div class="fig">${SCROLL}</div><h3>The Records</h3><p>Brass, small, and gold plates; Law, Prophets, Gospels, Epistles; five eras of modern revelation — how the library fits together, color-coded everywhere.</p></a>
       <a class="feature" href="#/cast"><div class="fig">${PROPHET}</div><h3>The Cast</h3><p>Nearly two hundred prophets, kings, converts, and adversaries as visual cards — grouped under the chapters where they first appear.</p></a>
+      <a class="feature" href="#/conference"><div class="fig">🎙️</div><h3>General Conference</h3><p>Every talk since 1942, by date or by speaker — each with the scriptures it cites linked into the reader, its themes, and the talks that lean on the same verses.</p></a>
       <a class="feature" href="#/allegories"><div class="fig">🌳</div><h3>Allegories</h3><p>Lehi's dream, Zenos's olive tree, and the Liahona — visual walkthroughs with every symbol interpreted from the text itself.</p></a>
     </section>
     <blockquote class="home-verse">

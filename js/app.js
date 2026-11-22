@@ -14,6 +14,7 @@ import { renderGenealogy } from './views/genealogy.js';
 import { renderMindmap } from './views/mindmap.js';
 import { renderCurrency } from './views/currency.js';
 import { renderIndex } from './views/index.js';
+import { renderConference } from './views/gc.js';
 
 const view = document.getElementById('view');
 const nav = document.getElementById('mainnav');
@@ -87,6 +88,7 @@ async function route() {
       case 'mindmap': await renderMindmap(view, params); break;
       case 'currency': await renderCurrency(view, params); break;
       case 'index': await renderIndex(view, params); break;
+      case 'conference': await renderConference(view, params, parts); break;
       case 'allegories': await renderAllegories(view, params, null); break;
       case 'allegory': await renderAllegories(view, params, parts[1]); break;
       case 'study': await renderStudy(view, params); break;
